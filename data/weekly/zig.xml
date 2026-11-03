@@ -3,7 +3,7 @@
     <title>GitHub Zig Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Zig Languages in GitHub</description>
-    <pubDate>Tue, 03 Nov 2026 17:42:54 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 18:30:20 GMT</pubDate>
     <item>
       <title>ghostty-org/ghostty</title>
       <link>https://github.com/ghostty-org/ghostty</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/ghostty-org/ghostty</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>63,407</stars>
-      <forks>3,822</forks>
+      <stars>63,412</stars>
+      <forks>3,823</forks>
       <addStars>687</addStars>
       <contributors>
         <contributor>
@@ -39,7 +39,7 @@
       <guid>https://github.com/lightpanda-io/browser</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>41,121</stars>
+      <stars>41,123</stars>
       <forks>2,021</forks>
       <addStars>3,984</addStars>
       <contributors>
@@ -77,7 +77,7 @@
       <guid>https://github.com/ddalcu/mlx-serve</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,349</stars>
+      <stars>2,350</stars>
       <forks>245</forks>
       <addStars>230</addStars>
       <contributors>
@@ -186,7 +186,7 @@
       <guid>https://github.com/tigerbeetle/tigerbeetle</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>17,305</stars>
+      <stars>17,304</stars>
       <forks>932</forks>
       <addStars>46</addStars>
       <contributors>
@@ -224,7 +224,7 @@
       <guid>https://github.com/ziglang/zig</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>43,255</stars>
+      <stars>43,256</stars>
       <forks>3,124</forks>
       <addStars>25</addStars>
       <contributors>
@@ -338,7 +338,7 @@
       <guid>https://github.com/sleep3r/mtproto.zig</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,226</stars>
+      <stars>2,225</stars>
       <forks>71</forks>
       <addStars>85</addStars>
       <contributors>
@@ -366,7 +366,7 @@
       <guid>https://github.com/blackboardsh/electrobun</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>13,011</stars>
+      <stars>13,012</stars>
       <forks>380</forks>
       <addStars>45</addStars>
       <contributors>
@@ -480,7 +480,7 @@
       <guid>https://github.com/Seafoam-Labs/Shelly-ALPM</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>1,244</stars>
+      <stars>1,245</stars>
       <forks>104</forks>
       <addStars>20</addStars>
       <contributors>
@@ -518,7 +518,7 @@
       <guid>https://github.com/ashhart/TensorFold</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>1,616</stars>
+      <stars>1,617</stars>
       <forks>347</forks>
       <addStars>114</addStars>
       <contributors>
@@ -589,21 +589,9 @@
       <guid>https://github.com/justrach/nanolight</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>232</stars>
-      <forks>6</forks>
-      <addStars>100</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>alexrlocke/neorex</title>
-      <link>https://github.com/alexrlocke/neorex</link>
-      <description/>
-      <guid>https://github.com/alexrlocke/neorex</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>235</stars>
-      <forks>7</forks>
-      <addStars>90</addStars>
+      <stars>307</stars>
+      <forks>18</forks>
+      <addStars>174</addStars>
       <contributors/>
     </item>
     <item>
@@ -613,9 +601,33 @@
       <guid>https://github.com/justrach/nanoui</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>632</stars>
-      <forks>23</forks>
-      <addStars>86</addStars>
+      <stars>677</stars>
+      <forks>26</forks>
+      <addStars>134</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>alexrlocke/neorex</title>
+      <link>https://github.com/alexrlocke/neorex</link>
+      <description/>
+      <guid>https://github.com/alexrlocke/neorex</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>243</stars>
+      <forks>8</forks>
+      <addStars>99</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>okcontract/oksolc</title>
+      <link>https://github.com/okcontract/oksolc</link>
+      <description>A Solidity compiler written in Zig</description>
+      <guid>https://github.com/okcontract/oksolc</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>104</stars>
+      <forks>6</forks>
+      <addStars>42</addStars>
       <contributors/>
     </item>
     <item>
@@ -625,9 +637,105 @@
       <guid>https://github.com/duty1g/x64dbg-mcp-server</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,753</stars>
-      <forks>339</forks>
-      <addStars>32</addStars>
+      <stars>2,765</stars>
+      <forks>344</forks>
+      <addStars>44</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>oxydizer/rediwm</title>
+      <link>https://github.com/oxydizer/rediwm</link>
+      <description>RediWM is a Wayland compositor written in Zig (OpenGL ES) that includes  everything in one process</description>
+      <guid>https://github.com/oxydizer/rediwm</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>74</stars>
+      <forks>3</forks>
+      <addStars>24</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>valvesky/velocitty</title>
+      <link>https://github.com/valvesky/velocitty</link>
+      <description>⚡ Lightning fast terminal.</description>
+      <guid>https://github.com/valvesky/velocitty</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>173</stars>
+      <forks>8</forks>
+      <addStars>14</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>amanthanvi/noctty</title>
+      <link>https://github.com/amanthanvi/noctty</link>
+      <description>A fast, native terminal for Windows. Formerly winghostty. 🌙</description>
+      <guid>https://github.com/amanthanvi/noctty</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>512</stars>
+      <forks>19</forks>
+      <addStars>12</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>rockorager/monstar</title>
+      <link>https://github.com/rockorager/monstar</link>
+      <description>wayland terminal based on libghostty. cpu rendered, like foot</description>
+      <guid>https://github.com/rockorager/monstar</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>230</stars>
+      <forks>18</forks>
+      <addStars>11</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>beamivalice/sushi</title>
+      <link>https://github.com/beamivalice/sushi</link>
+      <description>Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology.</description>
+      <guid>https://github.com/beamivalice/sushi</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>406</stars>
+      <forks>37</forks>
+      <addStars>14</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>jayleaton/deepseek-v41-tensorfold-spark</title>
+      <link>https://github.com/jayleaton/deepseek-v41-tensorfold-spark</link>
+      <description>DeepSeek-V4.1-Flash on 2x NVIDIA DGX Spark with the TensorFold engine: 1.8-1.9x code, 2.5x multi-stream, 1.7-1.95x prefill vs the vLLM kit, exact speculative decoding. Work in progress.</description>
+      <guid>https://github.com/jayleaton/deepseek-v41-tensorfold-spark</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>127</stars>
+      <forks>23</forks>
+      <addStars>9</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>xit-vcs/xitdb</title>
+      <link>https://github.com/xit-vcs/xitdb</link>
+      <description>an immutable database for zig</description>
+      <guid>https://github.com/xit-vcs/xitdb</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>157</stars>
+      <forks>4</forks>
+      <addStars>9</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>manishrjain/egres</title>
+      <link>https://github.com/manishrjain/egres</link>
+      <description>A Postgres Compatible Database for Heavy, Multi-Tenant Workloads</description>
+      <guid>https://github.com/manishrjain/egres</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>252</stars>
+      <forks>12</forks>
+      <addStars>10</addStars>
       <contributors/>
     </item>
     <item>
@@ -643,18 +751,6 @@
       <contributors/>
     </item>
     <item>
-      <title>manishrjain/egres</title>
-      <link>https://github.com/manishrjain/egres</link>
-      <description>A Postgres Compatible Database for Heavy, Multi-Tenant Workloads</description>
-      <guid>https://github.com/manishrjain/egres</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>250</stars>
-      <forks>12</forks>
-      <addStars>9</addStars>
-      <contributors/>
-    </item>
-    <item>
       <title>chicagobuss/zpq</title>
       <link>https://github.com/chicagobuss/zpq</link>
       <description>zig parquet library with some tricks up its sleeve</description>
@@ -667,99 +763,15 @@
       <contributors/>
     </item>
     <item>
-      <title>beamivalice/sushi</title>
-      <link>https://github.com/beamivalice/sushi</link>
-      <description>Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology.</description>
-      <guid>https://github.com/beamivalice/sushi</guid>
+      <title>ziex-dev/ziex</title>
+      <link>https://github.com/ziex-dev/ziex</link>
+      <description>Full-stack web framework for Zig. HTML syntax within Zig code, just like JSX but for Zig!</description>
+      <guid>https://github.com/ziex-dev/ziex</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>401</stars>
+      <stars>407</stars>
       <forks>37</forks>
-      <addStars>9</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>xit-vcs/xitdb</title>
-      <link>https://github.com/xit-vcs/xitdb</link>
-      <description>an immutable database for zig</description>
-      <guid>https://github.com/xit-vcs/xitdb</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>156</stars>
-      <forks>4</forks>
-      <addStars>8</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>jayleaton/deepseek-v41-tensorfold-spark</title>
-      <link>https://github.com/jayleaton/deepseek-v41-tensorfold-spark</link>
-      <description>DeepSeek-V4.1-Flash on 2x NVIDIA DGX Spark with the TensorFold engine: 1.8-1.9x code, 2.5x multi-stream, 1.7-1.95x prefill vs the vLLM kit, exact speculative decoding. Work in progress.</description>
-      <guid>https://github.com/jayleaton/deepseek-v41-tensorfold-spark</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>124</stars>
-      <forks>22</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>alaleks/zpeek</title>
-      <link>https://github.com/alaleks/zpeek</link>
-      <description>A lightweight database TUI built with Zig. Explore schemas, browse tables, and run SQL across PostgreSQL, MySQL, SQLite, and ClickHouse.</description>
-      <guid>https://github.com/alaleks/zpeek</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>7</stars>
-      <forks>0</forks>
-      <addStars>3</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>amanthanvi/noctty</title>
-      <link>https://github.com/amanthanvi/noctty</link>
-      <description>A fast, native terminal for Windows. Formerly winghostty. 🌙</description>
-      <guid>https://github.com/amanthanvi/noctty</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>506</stars>
-      <forks>19</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>justrach/nanomon</title>
-      <link>https://github.com/justrach/nanomon</link>
-      <description>A small, smooth activity monitor built on nanoui, with graff in the corner</description>
-      <guid>https://github.com/justrach/nanomon</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>95</stars>
-      <forks>5</forks>
       <addStars>4</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>sbusso/ming-tts-serve</title>
-      <link>https://github.com/sbusso/ming-tts-serve</link>
-      <description>Ming-3.0-tts text-to-speech and voice cloning on Apple silicon, in Zig on MLX</description>
-      <guid>https://github.com/sbusso/ming-tts-serve</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>10</stars>
-      <forks>0</forks>
-      <addStars>3</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>fizzyedit/fizzy</title>
-      <link>https://github.com/fizzyedit/fizzy</link>
-      <description>Application and plugin framework written in Zig</description>
-      <guid>https://github.com/fizzyedit/fizzy</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>1,501</stars>
-      <forks>45</forks>
-      <addStars>2</addStars>
       <contributors/>
     </item>
   </channel>

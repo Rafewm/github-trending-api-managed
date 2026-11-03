@@ -3,7 +3,7 @@
     <title>GitHub C Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of C Languages in GitHub</description>
-    <pubDate>Tue, 03 Nov 2026 17:42:54 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 18:30:20 GMT</pubDate>
     <item>
       <title>JustVugg/colibri</title>
       <link>https://github.com/JustVugg/colibri</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/JustVugg/colibri</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>47,105</stars>
-      <forks>5,443</forks>
+      <stars>47,117</stars>
+      <forks>5,446</forks>
       <addStars>2,394</addStars>
       <contributors>
         <contributor>
@@ -49,7 +49,7 @@
       <guid>https://github.com/microsoft/PowerToys</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>140,489</stars>
+      <stars>140,488</stars>
       <forks>8,700</forks>
       <addStars>554</addStars>
       <contributors>
@@ -347,15 +347,27 @@
       </contributors>
     </item>
     <item>
+      <title>FareedKhan-dev/kimi-k3-in-c</title>
+      <link>https://github.com/FareedKhan-dev/kimi-k3-in-c</link>
+      <description>A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.</description>
+      <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>9,742</stars>
+      <forks>1,574</forks>
+      <addStars>493</addStars>
+      <contributors/>
+    </item>
+    <item>
       <title>valentderah/totk-pc-recomp</title>
       <link>https://github.com/valentderah/totk-pc-recomp</link>
       <description>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.</description>
       <guid>https://github.com/valentderah/totk-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>4,064</stars>
-      <forks>301</forks>
-      <addStars>911</addStars>
+      <stars>4,402</stars>
+      <forks>346</forks>
+      <addStars>1,233</addStars>
       <contributors/>
     </item>
     <item>
@@ -365,21 +377,9 @@
       <guid>https://github.com/Zagitta/gpu-unlock</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>14,672</stars>
-      <forks>1,381</forks>
-      <addStars>580</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>FareedKhan-dev/kimi-k3-in-c</title>
-      <link>https://github.com/FareedKhan-dev/kimi-k3-in-c</link>
-      <description>A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.</description>
-      <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>9,466</stars>
-      <forks>1,553</forks>
-      <addStars>196</addStars>
+      <stars>15,389</stars>
+      <forks>1,449</forks>
+      <addStars>1,246</addStars>
       <contributors/>
     </item>
     <item>
@@ -389,69 +389,9 @@
       <guid>https://github.com/oosexgang/hakios-xnu-kernel</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,356</stars>
-      <forks>400</forks>
-      <addStars>287</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Revivedx/SavageWindRecomp</title>
-      <link>https://github.com/Revivedx/SavageWindRecomp</link>
-      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
-      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>2,892</stars>
-      <forks>168</forks>
-      <addStars>171</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>mxhm11cr/LinuxRunner</title>
-      <link>https://github.com/mxhm11cr/LinuxRunner</link>
-      <description>Run ARM64 Linux userspace and desktop applications on iPhone and iPad.</description>
-      <guid>https://github.com/mxhm11cr/LinuxRunner</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>582</stars>
-      <forks>29</forks>
-      <addStars>135</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>torvalds/linux</title>
-      <link>https://github.com/torvalds/linux</link>
-      <description>Linux kernel source tree</description>
-      <guid>https://github.com/torvalds/linux</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>254,200</stars>
-      <forks>61,144</forks>
-      <addStars>130</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>YizhengWw/HachimoDock</title>
-      <link>https://github.com/YizhengWw/HachimoDock</link>
-      <description>A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.</description>
-      <guid>https://github.com/YizhengWw/HachimoDock</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>724</stars>
-      <forks>66</forks>
-      <addStars>127</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>oscar-soirey/Raven</title>
-      <link>https://github.com/oscar-soirey/Raven</link>
-      <description>A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Python, Zig, Lua, Go</description>
-      <guid>https://github.com/oscar-soirey/Raven</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,770</stars>
-      <forks>70</forks>
-      <addStars>147</addStars>
+      <stars>2,419</stars>
+      <forks>415</forks>
+      <addStars>339</addStars>
       <contributors/>
     </item>
     <item>
@@ -461,9 +401,69 @@
       <guid>https://github.com/Gamer92000/echo-dot-assist</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>562</stars>
-      <forks>38</forks>
-      <addStars>111</addStars>
+      <stars>623</stars>
+      <forks>47</forks>
+      <addStars>173</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Revivedx/SavageWindRecomp</title>
+      <link>https://github.com/Revivedx/SavageWindRecomp</link>
+      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
+      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>2,961</stars>
+      <forks>176</forks>
+      <addStars>226</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>torvalds/linux</title>
+      <link>https://github.com/torvalds/linux</link>
+      <description>Linux kernel source tree</description>
+      <guid>https://github.com/torvalds/linux</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>254,255</stars>
+      <forks>61,144</forks>
+      <addStars>191</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>YizhengWw/HachimoDock</title>
+      <link>https://github.com/YizhengWw/HachimoDock</link>
+      <description>A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.</description>
+      <guid>https://github.com/YizhengWw/HachimoDock</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>785</stars>
+      <forks>73</forks>
+      <addStars>185</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>TheLostPantheon/nativ</title>
+      <link>https://github.com/TheLostPantheon/nativ</link>
+      <description>PS Vita games recompiled into native PC programs: you bring your own games and firmware</description>
+      <guid>https://github.com/TheLostPantheon/nativ</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>161</stars>
+      <forks>4</forks>
+      <addStars>65</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>mxhm11cr/LinuxRunner</title>
+      <link>https://github.com/mxhm11cr/LinuxRunner</link>
+      <description>Run ARM64 Linux userspace and desktop applications on iPhone and iPad.</description>
+      <guid>https://github.com/mxhm11cr/LinuxRunner</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>609</stars>
+      <forks>32</forks>
+      <addStars>159</addStars>
       <contributors/>
     </item>
     <item>
@@ -473,33 +473,9 @@
       <guid>https://github.com/kuraeow/ultratears</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>642</stars>
-      <forks>31</forks>
-      <addStars>118</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ly05010419/MacNativeGames</title>
-      <link>https://github.com/ly05010419/MacNativeGames</link>
-      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
-      <guid>https://github.com/ly05010419/MacNativeGames</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>6,887</stars>
-      <forks>1,016</forks>
-      <addStars>123</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>shirai91/nx2android</title>
-      <link>https://github.com/shirai91/nx2android</link>
-      <description>A compatibility layer for porting Switch games to Android, one game at a time</description>
-      <guid>https://github.com/shirai91/nx2android</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>679</stars>
-      <forks>85</forks>
-      <addStars>111</addStars>
+      <stars>686</stars>
+      <forks>33</forks>
+      <addStars>156</addStars>
       <contributors/>
     </item>
     <item>
@@ -509,9 +485,33 @@
       <guid>https://github.com/FFmpeg/FFmpeg</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>66,327</stars>
+      <stars>66,393</stars>
       <forks>12,810</forks>
-      <addStars>108</addStars>
+      <addStars>163</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>oscar-soirey/Raven</title>
+      <link>https://github.com/oscar-soirey/Raven</link>
+      <description>A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Python, Zig, Lua, Go</description>
+      <guid>https://github.com/oscar-soirey/Raven</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,823</stars>
+      <forks>76</forks>
+      <addStars>187</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ly05010419/MacNativeGames</title>
+      <link>https://github.com/ly05010419/MacNativeGames</link>
+      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
+      <guid>https://github.com/ly05010419/MacNativeGames</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>6,947</stars>
+      <forks>1,023</forks>
+      <addStars>173</addStars>
       <contributors/>
     </item>
     <item>
@@ -521,9 +521,21 @@
       <guid>https://github.com/Genymobile/scrcpy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>153,864</stars>
+      <stars>153,923</stars>
       <forks>14,201</forks>
-      <addStars>107</addStars>
+      <addStars>161</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>shirai91/nx2android</title>
+      <link>https://github.com/shirai91/nx2android</link>
+      <description>A compatibility layer for porting Switch games to Android, one game at a time</description>
+      <guid>https://github.com/shirai91/nx2android</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>725</stars>
+      <forks>98</forks>
+      <addStars>152</addStars>
       <contributors/>
     </item>
     <item>
@@ -533,9 +545,21 @@
       <guid>https://github.com/daniel-madrid-07/weeping-of-the-empire</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>190</stars>
-      <forks>5</forks>
-      <addStars>75</addStars>
+      <stars>230</stars>
+      <forks>8</forks>
+      <addStars>106</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>unkyulee/micro-journal</title>
+      <link>https://github.com/unkyulee/micro-journal</link>
+      <description/>
+      <guid>https://github.com/unkyulee/micro-journal</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,021</stars>
+      <forks>47</forks>
+      <addStars>50</addStars>
       <contributors/>
     </item>
     <item>
@@ -545,9 +569,57 @@
       <guid>https://github.com/Bugaga31/vless-card-vpn</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>141</stars>
+      <stars>160</stars>
       <forks>20</forks>
-      <addStars>35</addStars>
+      <addStars>49</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>windows-GPU-UNLOCK/Windows-GPU-UNLOCK</title>
+      <link>https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK</link>
+      <description>Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence</description>
+      <guid>https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,641</stars>
+      <forks>154</forks>
+      <addStars>165</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>SonicloudTech/mouse-sdk</title>
+      <link>https://github.com/SonicloudTech/mouse-sdk</link>
+      <description>Cross-platform USB HID/BLE smart mouse SDK with a C ABI for device events and audio. Windows x64/macOS ARM64 downloads; other platform packages on request. 跨平台智能鼠标接入 SDK：USB/BLE、C ABI、按键事件与音频；提供 Windows x64/macOS ARM64 下载，其他平台按需获取。</description>
+      <guid>https://github.com/SonicloudTech/mouse-sdk</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>305</stars>
+      <forks>3</forks>
+      <addStars>94</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>jmars125/xcx-recomp</title>
+      <link>https://github.com/jmars125/xcx-recomp</link>
+      <description>Static recompilation of Xenoblade Chronicles X : Definitive Edition to native Windows x86-64, with a Vulkan renderer. Game files not included.</description>
+      <guid>https://github.com/jmars125/xcx-recomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>172</stars>
+      <forks>5</forks>
+      <addStars>52</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>openai/git</title>
+      <link>https://github.com/openai/git</link>
+      <description>"the information manager from hell" - linus torvalds [e83c516, 7 Apr 2005]</description>
+      <guid>https://github.com/openai/git</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>253</stars>
+      <forks>20</forks>
+      <addStars>49</addStars>
       <contributors/>
     </item>
     <item>
@@ -557,69 +629,9 @@
       <guid>https://github.com/obsproject/obs-studio</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>78,845</stars>
+      <stars>78,896</stars>
       <forks>11,111</forks>
-      <addStars>75</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>mamcjr/TOTKDroid</title>
-      <link>https://github.com/mamcjr/TOTKDroid</link>
-      <description>TOTKDroid (formerly TOTKRecompAndroid): The Legend of Zelda: Tears of the Kingdom (Switch 1.4.3) running natively on Android - no game files included</description>
-      <guid>https://github.com/mamcjr/TOTKDroid</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>125</stars>
-      <forks>3</forks>
-      <addStars>28</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>DeusData/codebase-memory-mcp</title>
-      <link>https://github.com/DeusData/codebase-memory-mcp</link>
-      <description>Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.</description>
-      <guid>https://github.com/DeusData/codebase-memory-mcp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>48,019</stars>
-      <forks>4,374</forks>
-      <addStars>70</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ChiricoG/OneFamily</title>
-      <link>https://github.com/ChiricoG/OneFamily</link>
-      <description>OneFamily is a high-performance background daemon for jailbroken PlayStation 4 consoles running GoldHEN that allows unsupported USB controller compatibility,</description>
-      <guid>https://github.com/ChiricoG/OneFamily</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>87</stars>
-      <forks>3</forks>
-      <addStars>26</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>e3kskoy7wqk/Firefox-for-windows-7-REWORK</title>
-      <link>https://github.com/e3kskoy7wqk/Firefox-for-windows-7-REWORK</link>
-      <description>Firefox for windows 7: Modern Firefox based web browser for Windows 7.</description>
-      <guid>https://github.com/e3kskoy7wqk/Firefox-for-windows-7-REWORK</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>89</stars>
-      <forks>3</forks>
-      <addStars>19</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>xiaojieonly/Ehviewer_CN_SXJ</title>
-      <link>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</link>
-      <description>ehviewer，用爱发电，快乐前行</description>
-      <guid>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>28,580</stars>
-      <forks>768</forks>
-      <addStars>61</addStars>
+      <addStars>120</addStars>
       <contributors/>
     </item>
   </channel>

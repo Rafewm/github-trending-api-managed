@@ -3,7 +3,7 @@
     <title>GitHub Ruby Languages Daily Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Daily Trending of Ruby Languages in GitHub</description>
-    <pubDate>Tue, 03 Nov 2026 17:42:54 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 18:30:20 GMT</pubDate>
     <item>
       <title>Homebrew/homebrew-cask</title>
       <link>https://github.com/Homebrew/homebrew-cask</link>
@@ -121,7 +121,7 @@
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
       <stars>58,843</stars>
-      <forks>23,865</forks>
+      <forks>23,859</forks>
       <addStars>3</addStars>
       <contributors>
         <contributor>
@@ -263,7 +263,7 @@
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
       <stars>16,960</stars>
-      <forks>3,683</forks>
+      <forks>3,684</forks>
       <addStars>36</addStars>
       <contributors>
         <contributor>
@@ -328,6 +328,44 @@
           <avatar>https://avatars.githubusercontent.com/u/17565?s=40&amp;v=4</avatar>
           <name>smashwilson</name>
           <url>https://github.com/smashwilson</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>rubysec/ruby-advisory-db</title>
+      <link>https://github.com/rubysec/ruby-advisory-db</link>
+      <description>A database of vulnerable Ruby Gems</description>
+      <guid>https://github.com/rubysec/ruby-advisory-db</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>1,079</stars>
+      <forks>252</forks>
+      <addStars>1</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/43523?s=40&amp;v=4</avatar>
+          <name>jasnow</name>
+          <url>https://github.com/jasnow</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/352251?s=40&amp;v=4</avatar>
+          <name>reedloden</name>
+          <url>https://github.com/reedloden</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/12671?s=40&amp;v=4</avatar>
+          <name>postmodern</name>
+          <url>https://github.com/postmodern</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/17770?s=40&amp;v=4</avatar>
+          <name>filipamv</name>
+          <url>https://github.com/filipamv</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/34720?s=40&amp;v=4</avatar>
+          <name>mveytsman</name>
+          <url>https://github.com/mveytsman</url>
         </contributor>
       </contributors>
     </item>
@@ -465,7 +503,7 @@
       <guid>https://github.com/docusealco/docuseal</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>18,989</stars>
+      <stars>18,988</stars>
       <forks>1,937</forks>
       <addStars>9</addStars>
       <contributors>
@@ -606,183 +644,15 @@
       </contributors>
     </item>
     <item>
-      <title>usetrmnl/terminus</title>
-      <link>https://github.com/usetrmnl/terminus</link>
-      <description>The flagship TRMNL BYOS application.</description>
-      <guid>https://github.com/usetrmnl/terminus</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>768</stars>
-      <forks>156</forks>
-      <addStars>2</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>cncf/gitdm</title>
-      <link>https://github.com/cncf/gitdm</link>
-      <description>📜Fork for tracking CNCF projects</description>
-      <guid>https://github.com/cncf/gitdm</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>87</stars>
-      <forks>1,017</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ankane/dexter</title>
-      <link>https://github.com/ankane/dexter</link>
-      <description>The automatic indexer for Postgres</description>
-      <guid>https://github.com/ankane/dexter</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>2,096</stars>
-      <forks>59</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>doorkeeper-gem/doorkeeper</title>
-      <link>https://github.com/doorkeeper-gem/doorkeeper</link>
-      <description>Doorkeeper is an OAuth 2 provider for Ruby on Rails / Grape.</description>
-      <guid>https://github.com/doorkeeper-gem/doorkeeper</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>5,533</stars>
-      <forks>1,063</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>diaspora/diaspora</title>
-      <link>https://github.com/diaspora/diaspora</link>
-      <description>A privacy-aware, distributed, open source social network.</description>
-      <guid>https://github.com/diaspora/diaspora</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>13,652</stars>
-      <forks>2,813</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>github/markup</title>
-      <link>https://github.com/github/markup</link>
-      <description>Determines which markup library to use to render a content file (e.g. README) on GitHub</description>
-      <guid>https://github.com/github/markup</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>6,054</stars>
-      <forks>3,330</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>capistrano/capistrano</title>
-      <link>https://github.com/capistrano/capistrano</link>
-      <description>A deployment automation tool built on Ruby, Rake, and SSH.</description>
-      <guid>https://github.com/capistrano/capistrano</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>13,012</stars>
-      <forks>1,697</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
       <title>chatwoot/chatwoot</title>
       <link>https://github.com/chatwoot/chatwoot</link>
       <description>Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬</description>
       <guid>https://github.com/chatwoot/chatwoot</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>38,759</stars>
+      <stars>38,812</stars>
       <forks>9,763</forks>
-      <addStars>3</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>CanineHQ/canine</title>
-      <link>https://github.com/CanineHQ/canine</link>
-      <description>A developer friendly PaaS for your Kubernetes</description>
-      <guid>https://github.com/CanineHQ/canine</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>2,942</stars>
-      <forks>129</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>hashicorp/vagrant</title>
-      <link>https://github.com/hashicorp/vagrant</link>
-      <description>Vagrant is a tool for building and distributing development environments.</description>
-      <guid>https://github.com/hashicorp/vagrant</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>27,219</stars>
-      <forks>4,540</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>vraravam/dotfiles</title>
-      <link>https://github.com/vraravam/dotfiles</link>
-      <description>Dotfiles and install script. This is hooked upto the fresh install script gist.</description>
-      <guid>https://github.com/vraravam/dotfiles</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>89</stars>
-      <forks>67</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>miharekar/visualizer</title>
-      <link>https://github.com/miharekar/visualizer</link>
-      <description>Coffee Visualizer</description>
-      <guid>https://github.com/miharekar/visualizer</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>162</stars>
-      <forks>24</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ismasan/sourced</title>
-      <link>https://github.com/ismasan/sourced</link>
-      <description>Event Sourcing / CQRS toolkit for Ruby. Eventual consistency and concurrency built-in.</description>
-      <guid>https://github.com/ismasan/sourced</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>51</stars>
-      <forks>3</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>maid/maid</title>
-      <link>https://github.com/maid/maid</link>
-      <description>Be lazy.  Let Maid clean up after you, based on rules you define.  Think of it as "Hazel for hackers".</description>
-      <guid>https://github.com/maid/maid</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>1,912</stars>
-      <forks>86</forks>
-      <addStars>1</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>asciidoctor/asciidoctor</title>
-      <link>https://github.com/asciidoctor/asciidoctor</link>
-      <description>:gem: A fast, open source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.</description>
-      <guid>https://github.com/asciidoctor/asciidoctor</guid>
-      <language>Ruby</language>
-      <languageColor>#701516</languageColor>
-      <stars>5,229</stars>
-      <forks>841</forks>
-      <addStars>1</addStars>
+      <addStars>55</addStars>
       <contributors/>
     </item>
     <item>
@@ -792,45 +662,69 @@
       <guid>https://github.com/otwcode/otwarchive</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>2,334</stars>
+      <stars>2,347</stars>
       <forks>901</forks>
-      <addStars>2</addStars>
+      <addStars>17</addStars>
       <contributors/>
     </item>
     <item>
-      <title>noraj/OSCP-Exam-Report-Template-Markdown</title>
-      <link>https://github.com/noraj/OSCP-Exam-Report-Template-Markdown</link>
-      <description>:orange_book: Markdown Templates for Offensive Security OSCP, OSWE, OSCE, OSEE, OSWP exam report</description>
-      <guid>https://github.com/noraj/OSCP-Exam-Report-Template-Markdown</guid>
+      <title>Homebrew/brew</title>
+      <link>https://github.com/Homebrew/brew</link>
+      <description>🍺 The Package Manager for Everywhere</description>
+      <guid>https://github.com/Homebrew/brew</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>4,221</stars>
-      <forks>822</forks>
-      <addStars>1</addStars>
+      <stars>50,202</stars>
+      <forks>11,597</forks>
+      <addStars>11</addStars>
       <contributors/>
     </item>
     <item>
-      <title>julik/geneva_drive</title>
-      <link>https://github.com/julik/geneva_drive</link>
-      <description>Durable execution workflows for Rails</description>
-      <guid>https://github.com/julik/geneva_drive</guid>
+      <title>usetrmnl/terminus</title>
+      <link>https://github.com/usetrmnl/terminus</link>
+      <description>The flagship TRMNL BYOS application.</description>
+      <guid>https://github.com/usetrmnl/terminus</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>84</stars>
-      <forks>2</forks>
-      <addStars>1</addStars>
+      <stars>771</stars>
+      <forks>156</forks>
+      <addStars>5</addStars>
       <contributors/>
     </item>
     <item>
-      <title>charkost/prosopite</title>
-      <link>https://github.com/charkost/prosopite</link>
-      <description>Rails N+1 queries auto-detection with zero false positives / false negatives</description>
-      <guid>https://github.com/charkost/prosopite</guid>
+      <title>rapid7/metasploit-framework</title>
+      <link>https://github.com/rapid7/metasploit-framework</link>
+      <description>Metasploit Framework</description>
+      <guid>https://github.com/rapid7/metasploit-framework</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>1,922</stars>
-      <forks>62</forks>
-      <addStars>1</addStars>
+      <stars>39,303</stars>
+      <forks>14,616</forks>
+      <addStars>8</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>zammad/zammad</title>
+      <link>https://github.com/zammad/zammad</link>
+      <description>Zammad is a web based open source helpdesk/customer support system.</description>
+      <guid>https://github.com/zammad/zammad</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>6,073</stars>
+      <forks>1,139</forks>
+      <addStars>6</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>crmne/ruby_llm</title>
+      <link>https://github.com/crmne/ruby_llm</link>
+      <description>The Ruby AI framework.</description>
+      <guid>https://github.com/crmne/ruby_llm</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>4,493</stars>
+      <forks>543</forks>
+      <addStars>3</addStars>
       <contributors/>
     </item>
     <item>
@@ -840,21 +734,141 @@
       <guid>https://github.com/onetimesecret/onetimesecret</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>2,978</stars>
+      <stars>2,981</stars>
       <forks>466</forks>
+      <addStars>3</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>antiwork/gumroad</title>
+      <link>https://github.com/antiwork/gumroad</link>
+      <description>See what sticks</description>
+      <guid>https://github.com/antiwork/gumroad</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>10,080</stars>
+      <forks>2,200</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>barefootford/buttercut</title>
+      <link>https://github.com/barefootford/buttercut</link>
+      <description>Edit Video with Claude Code</description>
+      <guid>https://github.com/barefootford/buttercut</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>615</stars>
+      <forks>105</forks>
+      <addStars>2</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>junegunn/everything.fzf</title>
+      <link>https://github.com/junegunn/everything.fzf</link>
+      <description>:bagel: fzf all the things!</description>
+      <guid>https://github.com/junegunn/everything.fzf</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>197</stars>
+      <forks>10</forks>
+      <addStars>2</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>fastlane/fastlane</title>
+      <link>https://github.com/fastlane/fastlane</link>
+      <description>🚀 The easiest way to automate building and releasing your iOS and Android apps</description>
+      <guid>https://github.com/fastlane/fastlane</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>42,345</stars>
+      <forks>6,000</forks>
+      <addStars>4</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>troessner/reek</title>
+      <link>https://github.com/troessner/reek</link>
+      <description>Code smell detector for Ruby</description>
+      <guid>https://github.com/troessner/reek</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>4,138</stars>
+      <forks>283</forks>
+      <addStars>2</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ecosyste-ms/awesome</title>
+      <link>https://github.com/ecosyste-ms/awesome</link>
+      <description>An open API service indexing awesome lists of open source software.</description>
+      <guid>https://github.com/ecosyste-ms/awesome</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>115</stars>
+      <forks>14</forks>
+      <addStars>2</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>mame/quine-relay</title>
+      <link>https://github.com/mame/quine-relay</link>
+      <description>An uroboros program with 100+ programming languages</description>
+      <guid>https://github.com/mame/quine-relay</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>14,620</stars>
+      <forks>570</forks>
+      <addStars>2</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ytti/oxidized</title>
+      <link>https://github.com/ytti/oxidized</link>
+      <description>Oxidized is a network device configuration backup tool. It's a RANCID replacement!</description>
+      <guid>https://github.com/ytti/oxidized</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>3,645</stars>
+      <forks>1,066</forks>
+      <addStars>3</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>makevoid/motion-graphics-music-video-skill</title>
+      <link>https://github.com/makevoid/motion-graphics-music-video-skill</link>
+      <description>Opus 5.5 plugin for creating high quality motion graphics videos from just a music track and a prompt</description>
+      <guid>https://github.com/makevoid/motion-graphics-music-video-skill</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>209</stars>
+      <forks>27</forks>
+      <addStars>3</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>open-tap/homebrew-casks</title>
+      <link>https://github.com/open-tap/homebrew-casks</link>
+      <description>This tap actively maintains updated casks, hosts apps removed from homebrew/cask due to gatekeeper, and welcomes unsigned releases from community developers.</description>
+      <guid>https://github.com/open-tap/homebrew-casks</guid>
+      <language>Ruby</language>
+      <languageColor>#701516</languageColor>
+      <stars>88</stars>
+      <forks>47</forks>
       <addStars>1</addStars>
       <contributors/>
     </item>
     <item>
-      <title>syxanash/awesome-web-desktops</title>
-      <link>https://github.com/syxanash/awesome-web-desktops</link>
-      <description>Websites, web apps, portfolios that look like desktop operating systems</description>
-      <guid>https://github.com/syxanash/awesome-web-desktops</guid>
+      <title>marckohlbrugge/sessy</title>
+      <link>https://github.com/marckohlbrugge/sessy</link>
+      <description>Open-source email observability for AWS SES</description>
+      <guid>https://github.com/marckohlbrugge/sessy</guid>
       <language>Ruby</language>
       <languageColor>#701516</languageColor>
-      <stars>2,138</stars>
-      <forks>129</forks>
-      <addStars>1</addStars>
+      <stars>946</stars>
+      <forks>48</forks>
+      <addStars>2</addStars>
       <contributors/>
     </item>
   </channel>
