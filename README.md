@@ -2,7 +2,7 @@
 
 Two things live in this repo:
 
-1. **A trending data API.** A GitHub Action scrapes [GitHub Trending](https://github.com/trending) every 4 hours, adds the newest [Trendshift](https://trendshift.io) rankings, and commits the results as static JSON and RSS files under [`data/`](data).
+1. **A trending data API.** A GitHub Action scrapes [GitHub Trending](https://github.com/trending) every 4 hours, adds the live [Trendshift](https://trendshift.io) rankings, and commits the results as static JSON and RSS files under [`data/`](data).
 2. **Unstarred**, a website in [`site/`](site) for browsing that data and GitHub projects on Hacker News, with every repo you have already starred filtered out.
 
 [简体中文](README_zh-CN.md) (describes the original data API only)
@@ -59,7 +59,7 @@ Each JSON file looks like this:
 
 ### Trendshift rows
 
-After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads the newest daily, weekly and monthly rankings from [quantavil/trendshift](https://github.com/quantavil/trendshift) for `all` and 15 languages (C, C#, C++, Dart, Go, Java, JavaScript, Kotlin, PHP, Python, Ruby, Rust, Swift, TypeScript, Zig).
+After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads the live daily, weekly and monthly rankings straight from [trendshift.io](https://trendshift.io) (the page data it serves to its own front end) for `all` and 15 languages (C, C#, C++, Dart, Go, Java, JavaScript, Kotlin, PHP, Python, Ruby, Rust, Swift, TypeScript, Zig). So Trendshift rows are at most 4 hours old.
 
 - Only repos a file does not already list are added, at the end of `items`.
 - Added rows carry `"source": "trendshift"` and an empty `contributors` list.
@@ -143,7 +143,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 ## Credits
 
 - Data scraper by [isboyjc/github-trending-api](https://github.com/isboyjc/github-trending-api), via [alvinunreal/github-trending-api-managed](https://github.com/alvinunreal/github-trending-api-managed).
-- Extra rankings from [quantavil/trendshift](https://github.com/quantavil/trendshift) and [Trendshift.io](https://trendshift.io).
+- Extra rankings from [Trendshift.io](https://trendshift.io); reading its page data follows [quantavil/trendshift](https://github.com/quantavil/trendshift).
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
 
 ## License
