@@ -1,0 +1,9 @@
+{
+  "name": "unstarred",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  }
+}

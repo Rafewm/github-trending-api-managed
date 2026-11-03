@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unstarred - GitHub trending you have not starred</title>
+  <meta name="description" content="Browse trending GitHub repositories and GitHub projects on Hacker News, with the ones you already starred hidden.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="nav">
+    <span class="brand">Unstarred</span>
+    <button class="nav-tab" id="tab-browse" type="button" aria-pressed="true">Browse</button>
+    <button class="nav-tab" id="tab-hn" type="button" aria-pressed="false">Hacker News</button>
+    <button class="nav-tab" id="tab-hidden" type="button" aria-pressed="false">Hidden <span id="hidden-count"></span></button>
+  </header>
+
+  <main>
+    <section class="panel hero">
+      <div class="intro">
+        <p class="badge"><span class="dot"></span>Live index <span id="refreshed" class="muted"></span></p>
+        <h1>GitHub project <em>discovery</em></h1>
+        <p class="lede">Trending repositories with daily, weekly and monthly star growth, plus GitHub projects people discuss on Hacker News. Anything you already starred stays out of the list.</p>
+        <dl class="stats">
+          <div><dt>Tracked</dt><dd id="stat-tracked">-</dd></div>
+          <div><dt>Hidden, starred</dt><dd id="stat-hidden">-</dd></div>
+          <div><dt>Unstarred</dt><dd id="stat-visible">-</dd></div>
+        </dl>
+      </div>
+      <form class="filters" id="filters">
+        <label class="wide">Search keywords
+          <input id="q" type="search" placeholder="Search projects, keywords or owners" autocomplete="off">
+        </label>
+        <label>Primary language
+          <select id="language"><option value="">All languages</option></select>
+        </label>
+        <label>Minimum stars
+          <select id="min">
+            <option value="0">Any stars</option>
+            <option value="100">100+</option>
+            <option value="500">500+</option>
+            <option value="1000">1K+</option>
+            <option value="5000">5K+</option>
+            <option value="10000">10K+</option>
+            <option value="50000">50K+</option>
+          </select>
+        </label>
+        <label class="wide">Topics
+          <input id="topics" type="text" list="topic-list" placeholder="Add topics, separated by commas" autocomplete="off">
+          <datalist id="topic-list"></datalist>
+        </label>
+      </form>
+    </section>
+
+    <section class="panel results">
+      <div class="results-head">
+        <h2><span id="results-title">Projects</span> <span id="matches" class="muted" aria-live="polite"></span></h2>
+        <div class="sorts">
+          <label class="sort" id="hn-period-label" hidden>Period
+            <select id="hn-period">
+              <option value="day">Daily</option>
+              <option value="week">Weekly</option>
+              <option value="month">Monthly</option>
+              <option value="year">Yearly</option>
+              <option value="all">All time</option>
+            </select>
+          </label>
+          <label class="sort">Sort
+            <select id="sort"></select>
+          </label>
+        </div>
+      </div>
+      <p id="message" class="message" role="status">Loading trending repositories and checking your stars...</p>
+      <div class="table-wrap" id="table-wrap" hidden>
+        <table>
+          <thead id="thead"></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <button id="more" class="more" type="button" hidden>Show more</button>
+    </section>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
