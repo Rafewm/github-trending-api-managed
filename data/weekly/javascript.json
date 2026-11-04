@@ -2,75 +2,16 @@
   "title": "GitHub Javascript Languages Weekly Trending",
   "description": "Weekly Trending of Javascript Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 04 Nov 2026 00:22:18 GMT",
+  "pubDate": "Wed, 04 Nov 2026 11:50:47 GMT",
   "items": [
-    {
-      "title": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "58,197",
-      "forks": "3,791",
-      "addStars": "8,598",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "name": "literally-dan",
-          "url": "https://github.com/literally-dan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "name": "CooperSheroy",
-          "url": "https://github.com/CooperSheroy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "name": "kennysarnoski-jarvis",
-          "url": "https://github.com/kennysarnoski-jarvis"
-        }
-      ]
-    },
-    {
-      "title": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "296,558",
-      "forks": "43,852",
-      "addStars": "6,053",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
-          "name": "affaan-m",
-          "url": "https://github.com/affaan-m"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
-          "name": "haelyra",
-          "url": "https://github.com/haelyra"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24193489?s=40&v=4",
-          "name": "montjeffrey",
-          "url": "https://github.com/montjeffrey"
-        }
-      ]
-    },
     {
       "title": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "109,489",
-      "forks": "7,362",
+      "stars": "109,776",
+      "forks": "7,381",
       "addStars": "5,972",
       "contributors": [
         {
@@ -101,13 +42,72 @@
       ]
     },
     {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "296,856",
+      "forks": "43,892",
+      "addStars": "6,053",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
+          "name": "affaan-m",
+          "url": "https://github.com/affaan-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
+          "name": "haelyra",
+          "url": "https://github.com/haelyra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24193489?s=40&v=4",
+          "name": "montjeffrey",
+          "url": "https://github.com/montjeffrey"
+        }
+      ]
+    },
+    {
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "58,536",
+      "forks": "3,811",
+      "addStars": "8,598",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
+          "name": "literally-dan",
+          "url": "https://github.com/literally-dan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
+          "name": "CooperSheroy",
+          "url": "https://github.com/CooperSheroy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
+          "name": "kennysarnoski-jarvis",
+          "url": "https://github.com/kennysarnoski-jarvis"
+        }
+      ]
+    },
+    {
       "title": "HunYiSage/dsh-purge",
       "url": "https://github.com/HunYiSage/dsh-purge",
       "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "17,080",
-      "forks": "3,948",
+      "stars": "17,687",
+      "forks": "4,107",
       "addStars": "6,158",
       "contributors": [
         {
@@ -138,8 +138,8 @@
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "58,315",
-      "forks": "8,558",
+      "stars": "58,425",
+      "forks": "8,575",
       "addStars": "1,451",
       "contributors": [
         {
@@ -170,76 +170,19 @@
       ]
     },
     {
-      "title": "citrolabs/ego-lite",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "title": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "21,485",
-      "forks": "1,207",
-      "addStars": "1,386",
+      "stars": "40,785",
+      "forks": "5,284",
+      "addStars": "333",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22140958?s=40&v=4",
-          "name": "section9-lab",
-          "url": "https://github.com/section9-lab"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17873165?s=40&v=4",
-          "name": "aute",
-          "url": "https://github.com/aute"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/77671587?s=40&v=4",
-          "name": "WUXM5",
-          "url": "https://github.com/WUXM5"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8353464?s=40&v=4",
-          "name": "joway",
-          "url": "https://github.com/joway"
-        }
-      ]
-    },
-    {
-      "title": "hmjz100/LinkSwift",
-      "url": "https://github.com/hmjz100/LinkSwift",
-      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "37,646",
-      "forks": "2,692",
-      "addStars": "4,746",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98228280?s=40&v=4",
-          "name": "hmjz100",
-          "url": "https://github.com/hmjz100"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/62408957?s=40&v=4",
-          "name": "MisaLiu",
-          "url": "https://github.com/MisaLiu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/99261160?s=40&v=4",
-          "name": "Night-stars-1",
-          "url": "https://github.com/Night-stars-1"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43476643?s=40&v=4",
-          "name": "sherlocknieh",
-          "url": "https://github.com/sherlocknieh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46892455?s=40&v=4",
-          "name": "DeepslateQAQ",
-          "url": "https://github.com/DeepslateQAQ"
+          "avatar": "https://avatars.githubusercontent.com/u/434140?s=40&v=4",
+          "name": "aaronpowell",
+          "url": "https://github.com/aaronpowell"
         }
       ]
     },
@@ -249,8 +192,8 @@
       "description": "Portable local AI studio for Windows, Linux, and macOS. Zero-setup GUI for Image Generation, GGUF LLMs, Text to Speech & Speech to Text",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "1,841",
-      "forks": "455",
+      "stars": "1,846",
+      "forks": "456",
       "addStars": "280",
       "contributors": [
         {
@@ -276,8 +219,8 @@
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 164 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "3,839",
-      "forks": "455",
+      "stars": "4,010",
+      "forks": "470",
       "addStars": "2,270",
       "contributors": [
         {
@@ -308,30 +251,13 @@
       ]
     },
     {
-      "title": "github/awesome-copilot",
-      "url": "https://github.com/github/awesome-copilot",
-      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "40,768",
-      "forks": "5,283",
-      "addStars": "333",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/434140?s=40&v=4",
-          "name": "aaronpowell",
-          "url": "https://github.com/aaronpowell"
-        }
-      ]
-    },
-    {
       "title": "juliangarnier/anime",
       "url": "https://github.com/juliangarnier/anime",
       "description": "JavaScript animation engine",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "74,253",
-      "forks": "5,049",
+      "stars": "74,269",
+      "forks": "5,050",
       "addStars": "328",
       "contributors": [
         {
@@ -362,26 +288,125 @@
       ]
     },
     {
+      "title": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "37,758",
+      "forks": "2,703",
+      "addStars": "4,746",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/98228280?s=40&v=4",
+          "name": "hmjz100",
+          "url": "https://github.com/hmjz100"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/62408957?s=40&v=4",
+          "name": "MisaLiu",
+          "url": "https://github.com/MisaLiu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/99261160?s=40&v=4",
+          "name": "Night-stars-1",
+          "url": "https://github.com/Night-stars-1"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43476643?s=40&v=4",
+          "name": "sherlocknieh",
+          "url": "https://github.com/sherlocknieh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46892455?s=40&v=4",
+          "name": "DeepslateQAQ",
+          "url": "https://github.com/DeepslateQAQ"
+        }
+      ]
+    },
+    {
+      "title": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "description": "Vercel's official collection of agent skills",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "33,510",
+      "forks": "2,935",
+      "addStars": "401",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66901228?s=40&v=4",
+          "name": "aurorascharff",
+          "url": "https://github.com/aurorascharff"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3676859?s=40&v=4",
+          "name": "shuding",
+          "url": "https://github.com/shuding"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&v=4",
+          "name": "quuu",
+          "url": "https://github.com/quuu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13172299?s=40&v=4",
+          "name": "nandorojo",
+          "url": "https://github.com/nandorojo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16027268?s=40&v=4",
+          "name": "JohnPhamous",
+          "url": "https://github.com/JohnPhamous"
+        }
+      ]
+    },
+    {
+      "title": "zarazhangrui/frontend-slides",
+      "url": "https://github.com/zarazhangrui/frontend-slides",
+      "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "31,854",
+      "forks": "2,444",
+      "addStars": "413",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/153693696?s=40&v=4",
+          "name": "zarazhangrui",
+          "url": "https://github.com/zarazhangrui"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10191088?s=40&v=4",
+          "name": "lilyzhng",
+          "url": "https://github.com/lilyzhng"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/114926092?s=40&v=4",
+          "name": "Vaibhavee89",
+          "url": "https://github.com/Vaibhavee89"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/139567284?s=40&v=4",
+          "name": "kbanc85",
+          "url": "https://github.com/kbanc85"
+        }
+      ]
+    },
+    {
       "title": "edenfunf/reelmimic",
       "url": "https://github.com/edenfunf/reelmimic",
       "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "1,768",
+      "stars": "1,778",
       "forks": "436",
-      "addStars": "1,446",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "7,513",
-      "forks": "351",
-      "addStars": "2,700",
+      "addStars": "1,456",
       "contributors": [],
       "source": "trendshift"
     },
@@ -391,9 +416,21 @@
       "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "58,972",
+      "stars": "59,940",
       "forks": "1,663",
-      "addStars": "3,241",
+      "addStars": "4,326",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "7,878",
+      "forks": "351",
+      "addStars": "3,151",
       "contributors": [],
       "source": "trendshift"
     },
@@ -403,21 +440,9 @@
       "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "4,092",
+      "stars": "4,446",
       "forks": "522",
-      "addStars": "1,573",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Orkas-AI/Orkas",
-      "url": "https://github.com/Orkas-AI/Orkas",
-      "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "8,978",
-      "forks": "512",
-      "addStars": "1,799",
+      "addStars": "1,932",
       "contributors": [],
       "source": "trendshift"
     },
@@ -427,9 +452,21 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "183,714",
-      "forks": "10,672",
-      "addStars": "1,622",
+      "stars": "184,073",
+      "forks": "10,717",
+      "addStars": "2,027",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Orkas-AI/Orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "9,004",
+      "forks": "529",
+      "addStars": "1,825",
       "contributors": [],
       "source": "trendshift"
     },
@@ -439,33 +476,9 @@
       "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "11,717",
+      "stars": "12,053",
       "forks": "1,319",
-      "addStars": "1,157",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "laike9m/TheySay",
-      "url": "https://github.com/laike9m/TheySay",
-      "description": "TheySay - All the Voices on One Screen",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "389",
-      "forks": "28",
-      "addStars": "381",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "haydenschmitty/floorplan",
-      "url": "https://github.com/haydenschmitty/floorplan",
-      "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "2,621",
-      "forks": "168",
-      "addStars": "888",
+      "addStars": "1,486",
       "contributors": [],
       "source": "trendshift"
     },
@@ -475,9 +488,9 @@
       "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "1,639",
+      "stars": "1,778",
       "forks": "221",
-      "addStars": "732",
+      "addStars": "881",
       "contributors": [],
       "source": "trendshift"
     },
@@ -487,9 +500,33 @@
       "description": "Vantage: a from-scratch LuCI theme and live dashboard for OpenWrt 25.12",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "396",
+      "stars": "489",
       "forks": "22",
-      "addStars": "332",
+      "addStars": "425",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "haydenschmitty/floorplan",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "2,718",
+      "forks": "168",
+      "addStars": "999",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "laike9m/TheySay",
+      "url": "https://github.com/laike9m/TheySay",
+      "description": "TheySay - All the Voices on One Screen",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "395",
+      "forks": "28",
+      "addStars": "386",
       "contributors": [],
       "source": "trendshift"
     },
@@ -499,9 +536,9 @@
       "description": "Take a photo of real objects, and paste them in Blender",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "1,113",
+      "stars": "1,244",
       "forks": "93",
-      "addStars": "268",
+      "addStars": "395",
       "contributors": [],
       "source": "trendshift"
     },
@@ -511,21 +548,9 @@
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "93,129",
-      "forks": "6,765",
-      "addStars": "755",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "sleepy-zone/char-db-cn",
-      "url": "https://github.com/sleepy-zone/char-db-cn",
-      "description": "二次元角色换装库 · 中文版（发型 / 服装 / 姿势 / 组装）",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "352",
-      "forks": "49",
-      "addStars": "252",
+      "stars": "93,283",
+      "forks": "6,789",
+      "addStars": "929",
       "contributors": [],
       "source": "trendshift"
     },
@@ -535,9 +560,33 @@
       "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "24,437",
+      "stars": "24,656",
       "forks": "2,045",
-      "addStars": "685",
+      "addStars": "903",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "UncensoredLabs/uncensored-ai-api",
+      "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
+      "description": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "416",
+      "forks": "0",
+      "addStars": "373",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sleepy-zone/char-db-cn",
+      "url": "https://github.com/sleepy-zone/char-db-cn",
+      "description": "二次元角色换装库 · 中文版（发型 / 服装 / 姿势 / 组装）",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "358",
+      "forks": "49",
+      "addStars": "259",
       "contributors": [],
       "source": "trendshift"
     },
@@ -547,33 +596,9 @@
       "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "79,839",
-      "forks": "15,836",
-      "addStars": "579",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Gezine/CivSwitch",
-      "url": "https://github.com/Gezine/CivSwitch",
-      "description": "Nintendo Switch userland code execution using Civilization 7 game cartridge",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "545",
-      "forks": "108",
-      "addStars": "257",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "HeyPuter/everything",
-      "url": "https://github.com/HeyPuter/everything",
-      "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "6,817",
-      "forks": "701",
-      "addStars": "558",
+      "stars": "80,010",
+      "forks": "15,888",
+      "addStars": "734",
       "contributors": [],
       "source": "trendshift"
     },
@@ -583,21 +608,33 @@
       "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "5,305",
+      "stars": "5,458",
       "forks": "500",
-      "addStars": "445",
+      "addStars": "626",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "InukaAsith/TwinDesk",
-      "url": "https://github.com/InukaAsith/TwinDesk",
-      "description": " All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.",
+      "title": "HeyPuter/everything",
+      "url": "https://github.com/HeyPuter/everything",
+      "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "3,246",
-      "forks": "237",
-      "addStars": "526",
+      "stars": "6,983",
+      "forks": "701",
+      "addStars": "742",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Gezine/CivSwitch",
+      "url": "https://github.com/Gezine/CivSwitch",
+      "description": "Nintendo Switch userland code execution using Civilization 7 game cartridge",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "564",
+      "forks": "108",
+      "addStars": "274",
       "contributors": [],
       "source": "trendshift"
     }

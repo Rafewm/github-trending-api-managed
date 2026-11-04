@@ -2,7 +2,7 @@
   "title": "GitHub Elixir Languages Daily Trending",
   "description": "Daily Trending of Elixir Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 04 Nov 2026 00:22:18 GMT",
+  "pubDate": "Wed, 04 Nov 2026 11:50:47 GMT",
   "items": [
     {
       "title": "Spectral-Finance/lux",
@@ -11,7 +11,7 @@
       "language": "Elixir",
       "languageColor": "#6e4a7e",
       "stars": "134",
-      "forks": "162",
+      "forks": "163",
       "addStars": "0",
       "contributors": [
         {
@@ -74,8 +74,8 @@
       "description": "The open source company operating system.",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "616",
-      "forks": "85",
+      "stars": "615",
+      "forks": "84",
       "addStars": "2",
       "contributors": [
         {
@@ -148,8 +148,8 @@
       "description": "Full-stack Elixir web framework that runs your Elixir code in the browser",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "1,558",
-      "forks": "119",
+      "stars": "1,559",
+      "forks": "120",
       "addStars": "1",
       "contributors": [
         {
@@ -175,7 +175,7 @@
       "description": "Blazing-fast remote access",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "9,163",
+      "stars": "9,165",
       "forks": "466",
       "addStars": "3",
       "contributors": [
@@ -234,12 +234,49 @@
       ]
     },
     {
+      "title": "Tymeslot/tymeslot",
+      "url": "https://github.com/Tymeslot/tymeslot",
+      "description": "Open-source meeting scheduling platform built with Elixir/Phoenix LiveView. Self-host or use the managed cloud at tymeslot.app.",
+      "language": "Elixir",
+      "languageColor": "#6e4a7e",
+      "stars": "298",
+      "forks": "56",
+      "addStars": "5",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24662784?s=40&v=4",
+          "name": "wahve3",
+          "url": "https://github.com/wahve3"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3321655?s=40&v=4",
+          "name": "jacotec",
+          "url": "https://github.com/jacotec"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/105296759?s=40&v=4",
+          "name": "j-cvx",
+          "url": "https://github.com/j-cvx"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/839540?s=40&v=4",
+          "name": "reikjarloekl",
+          "url": "https://github.com/reikjarloekl"
+        }
+      ]
+    },
+    {
       "title": "teslamate-org/teslamate",
       "url": "https://github.com/teslamate-org/teslamate",
       "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "9,229",
+      "stars": "9,232",
       "forks": "1,040",
       "addStars": "5",
       "contributors": [
@@ -262,6 +299,33 @@
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "name": "claude",
           "url": "https://github.com/claude"
+        }
+      ]
+    },
+    {
+      "title": "agentjido/req_llm",
+      "url": "https://github.com/agentjido/req_llm",
+      "description": "Composable Elixir library for LLM interactions built on Req and Finch",
+      "language": "Elixir",
+      "languageColor": "#6e4a7e",
+      "stars": "602",
+      "forks": "221",
+      "addStars": "0",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/84222?s=40&v=4",
+          "name": "mikehostetler",
+          "url": "https://github.com/mikehostetler"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/37657?s=40&v=4",
+          "name": "neilberkman",
+          "url": "https://github.com/neilberkman"
         }
       ]
     },

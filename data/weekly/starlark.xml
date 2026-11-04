@@ -3,7 +3,7 @@
     <title>GitHub Starlark Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Starlark Languages in GitHub</description>
-    <pubDate>Wed, 04 Nov 2026 00:22:18 GMT</pubDate>
+    <pubDate>Wed, 04 Nov 2026 11:50:47 GMT</pubDate>
     <item>
       <title>googleapis/googleapis</title>
       <link>https://github.com/googleapis/googleapis</link>
@@ -12,7 +12,7 @@
       <language>Starlark</language>
       <languageColor>#76d275</languageColor>
       <stars>8,810</stars>
-      <forks>2,638</forks>
+      <forks>2,639</forks>
       <addStars>7</addStars>
       <contributors>
         <contributor>
@@ -38,40 +38,35 @@
       </contributors>
     </item>
     <item>
-      <title>uber/hermetic_cc_toolchain</title>
-      <link>https://github.com/uber/hermetic_cc_toolchain</link>
-      <description>Bazel C/C++ toolchain for cross-compiling C/C++ programs</description>
-      <guid>https://github.com/uber/hermetic_cc_toolchain</guid>
+      <title>GoogleContainerTools/distroless</title>
+      <link>https://github.com/GoogleContainerTools/distroless</link>
+      <description>🥑 Language focused docker images, minus the operating system.</description>
+      <guid>https://github.com/GoogleContainerTools/distroless</guid>
       <language>Starlark</language>
       <languageColor>#76d275</languageColor>
-      <stars>407</stars>
-      <forks>88</forks>
-      <addStars>1</addStars>
+      <stars>23,199</stars>
+      <forks>1,441</forks>
+      <addStars>28</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/107720?s=40&amp;v=4</avatar>
-          <name>motiejus</name>
-          <url>https://github.com/motiejus</url>
+          <avatar>https://avatars.githubusercontent.com/u/1304826?s=40&amp;v=4</avatar>
+          <name>loosebazooka</name>
+          <url>https://github.com/loosebazooka</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/98395?s=40&amp;v=4</avatar>
-          <name>linzhp</name>
-          <url>https://github.com/linzhp</url>
+          <avatar>https://avatars.githubusercontent.com/u/1681525?s=40&amp;v=4</avatar>
+          <name>omBratteng</name>
+          <url>https://github.com/omBratteng</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/84334008?s=40&amp;v=4</avatar>
-          <name>laurynasl-uber</name>
-          <url>https://github.com/laurynasl-uber</url>
+          <avatar>https://avatars.githubusercontent.com/u/10523105?s=40&amp;v=4</avatar>
+          <name>chanseokoh</name>
+          <url>https://github.com/chanseokoh</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13570304?s=40&amp;v=4</avatar>
-          <name>FabianHahn</name>
-          <url>https://github.com/FabianHahn</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3226389?s=40&amp;v=4</avatar>
-          <name>jonathanbaker7</name>
-          <url>https://github.com/jonathanbaker7</url>
+          <avatar>https://avatars.githubusercontent.com/u/99663502?s=40&amp;v=4</avatar>
+          <name>distroless-bot</name>
+          <url>https://github.com/distroless-bot</url>
         </contributor>
       </contributors>
     </item>
@@ -114,106 +109,40 @@
       </contributors>
     </item>
     <item>
-      <title>GoogleContainerTools/distroless</title>
-      <link>https://github.com/GoogleContainerTools/distroless</link>
-      <description>🥑 Language focused docker images, minus the operating system.</description>
-      <guid>https://github.com/GoogleContainerTools/distroless</guid>
+      <title>uber/hermetic_cc_toolchain</title>
+      <link>https://github.com/uber/hermetic_cc_toolchain</link>
+      <description>Bazel C/C++ toolchain for cross-compiling C/C++ programs</description>
+      <guid>https://github.com/uber/hermetic_cc_toolchain</guid>
       <language>Starlark</language>
       <languageColor>#76d275</languageColor>
-      <stars>23,197</stars>
-      <forks>1,442</forks>
-      <addStars>28</addStars>
+      <stars>408</stars>
+      <forks>88</forks>
+      <addStars>1</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1304826?s=40&amp;v=4</avatar>
-          <name>loosebazooka</name>
-          <url>https://github.com/loosebazooka</url>
+          <avatar>https://avatars.githubusercontent.com/u/107720?s=40&amp;v=4</avatar>
+          <name>motiejus</name>
+          <url>https://github.com/motiejus</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1681525?s=40&amp;v=4</avatar>
-          <name>omBratteng</name>
-          <url>https://github.com/omBratteng</url>
+          <avatar>https://avatars.githubusercontent.com/u/98395?s=40&amp;v=4</avatar>
+          <name>linzhp</name>
+          <url>https://github.com/linzhp</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/10523105?s=40&amp;v=4</avatar>
-          <name>chanseokoh</name>
-          <url>https://github.com/chanseokoh</url>
+          <avatar>https://avatars.githubusercontent.com/u/84334008?s=40&amp;v=4</avatar>
+          <name>laurynasl-uber</name>
+          <url>https://github.com/laurynasl-uber</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/99663502?s=40&amp;v=4</avatar>
-          <name>distroless-bot</name>
-          <url>https://github.com/distroless-bot</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>bazelbuild/rules_rust</title>
-      <link>https://github.com/bazelbuild/rules_rust</link>
-      <description>Rust rules for Bazel</description>
-      <guid>https://github.com/bazelbuild/rules_rust</guid>
-      <language>Starlark</language>
-      <languageColor>#76d275</languageColor>
-      <stars>854</stars>
-      <forks>684</forks>
-      <addStars>2</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/26427366?s=40&amp;v=4</avatar>
-          <name>UebelAndre</name>
-          <url>https://github.com/UebelAndre</url>
+          <avatar>https://avatars.githubusercontent.com/u/13570304?s=40&amp;v=4</avatar>
+          <name>FabianHahn</name>
+          <url>https://github.com/FabianHahn</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1131704?s=40&amp;v=4</avatar>
-          <name>illicitonion</name>
-          <url>https://github.com/illicitonion</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/814566?s=40&amp;v=4</avatar>
-          <name>hlopko</name>
-          <url>https://github.com/hlopko</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/29306214?s=40&amp;v=4</avatar>
-          <name>krasimirgg</name>
-          <url>https://github.com/krasimirgg</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>cel-expr/cel-spec</title>
-      <link>https://github.com/cel-expr/cel-spec</link>
-      <description>Common Expression Language -- specification and binary representation</description>
-      <guid>https://github.com/cel-expr/cel-spec</guid>
-      <language>Starlark</language>
-      <languageColor>#76d275</languageColor>
-      <stars>4,041</stars>
-      <forks>309</forks>
-      <addStars>9</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/483300?s=40&amp;v=4</avatar>
-          <name>TristonianJones</name>
-          <url>https://github.com/TristonianJones</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/32469398?s=40&amp;v=4</avatar>
-          <name>JimLarson</name>
-          <url>https://github.com/JimLarson</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/997958?s=40&amp;v=4</avatar>
-          <name>jcking</name>
-          <url>https://github.com/jcking</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2355949?s=40&amp;v=4</avatar>
-          <name>l46kok</name>
-          <url>https://github.com/l46kok</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/179320?s=40&amp;v=4</avatar>
-          <name>eobrain</name>
-          <url>https://github.com/eobrain</url>
+          <avatar>https://avatars.githubusercontent.com/u/3226389?s=40&amp;v=4</avatar>
+          <name>jonathanbaker7</name>
+          <url>https://github.com/jonathanbaker7</url>
         </contributor>
       </contributors>
     </item>
@@ -247,6 +176,44 @@
           <avatar>https://avatars.githubusercontent.com/u/26427366?s=40&amp;v=4</avatar>
           <name>UebelAndre</name>
           <url>https://github.com/UebelAndre</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>cel-expr/cel-spec</title>
+      <link>https://github.com/cel-expr/cel-spec</link>
+      <description>Common Expression Language -- specification and binary representation</description>
+      <guid>https://github.com/cel-expr/cel-spec</guid>
+      <language>Starlark</language>
+      <languageColor>#76d275</languageColor>
+      <stars>4,041</stars>
+      <forks>310</forks>
+      <addStars>9</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/483300?s=40&amp;v=4</avatar>
+          <name>TristonianJones</name>
+          <url>https://github.com/TristonianJones</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/32469398?s=40&amp;v=4</avatar>
+          <name>JimLarson</name>
+          <url>https://github.com/JimLarson</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/997958?s=40&amp;v=4</avatar>
+          <name>jcking</name>
+          <url>https://github.com/jcking</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/2355949?s=40&amp;v=4</avatar>
+          <name>l46kok</name>
+          <url>https://github.com/l46kok</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/179320?s=40&amp;v=4</avatar>
+          <name>eobrain</name>
+          <url>https://github.com/eobrain</url>
         </contributor>
       </contributors>
     </item>
@@ -356,6 +323,39 @@
           <avatar>https://avatars.githubusercontent.com/u/26427366?s=40&amp;v=4</avatar>
           <name>UebelAndre</name>
           <url>https://github.com/UebelAndre</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>bazelbuild/rules_rust</title>
+      <link>https://github.com/bazelbuild/rules_rust</link>
+      <description>Rust rules for Bazel</description>
+      <guid>https://github.com/bazelbuild/rules_rust</guid>
+      <language>Starlark</language>
+      <languageColor>#76d275</languageColor>
+      <stars>854</stars>
+      <forks>684</forks>
+      <addStars>2</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/26427366?s=40&amp;v=4</avatar>
+          <name>UebelAndre</name>
+          <url>https://github.com/UebelAndre</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1131704?s=40&amp;v=4</avatar>
+          <name>illicitonion</name>
+          <url>https://github.com/illicitonion</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/814566?s=40&amp;v=4</avatar>
+          <name>hlopko</name>
+          <url>https://github.com/hlopko</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/29306214?s=40&amp;v=4</avatar>
+          <name>krasimirgg</name>
+          <url>https://github.com/krasimirgg</url>
         </contributor>
       </contributors>
     </item>
