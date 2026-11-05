@@ -2,16 +2,48 @@
   "title": "GitHub C Languages Daily Trending",
   "description": "Daily Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 05 Nov 2026 00:43:46 GMT",
+  "pubDate": "Thu, 05 Nov 2026 11:51:47 GMT",
   "items": [
+    {
+      "title": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "12,226",
+      "forks": "1,631",
+      "addStars": "16",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
+          "name": "Cyan4973",
+          "url": "https://github.com/Cyan4973"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
+          "name": "inikep",
+          "url": "https://github.com/inikep"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
+          "name": "t-mat",
+          "url": "https://github.com/t-mat"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
+          "name": "felixhandte",
+          "url": "https://github.com/felixhandte"
+        }
+      ]
+    },
     {
       "title": "FareedKhan-dev/kimi-k3-in-c",
       "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "10,290",
-      "forks": "1,628",
+      "stars": "10,648",
+      "forks": "1,657",
       "addStars": "351",
       "contributors": [
         {
@@ -47,9 +79,9 @@
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "47,762",
-      "forks": "5,532",
-      "addStars": "642",
+      "stars": "47,948",
+      "forks": "5,572",
+      "addStars": "424",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/13022503?s=40&v=4",
@@ -79,213 +111,184 @@
       ]
     },
     {
-      "title": "dorianborian/sesame-robot",
-      "url": "https://github.com/dorianborian/sesame-robot",
-      "description": "An open and affordable mini quadruped robot based on ESP32.",
+      "title": "unkyulee/micro-journal",
+      "url": "https://github.com/unkyulee/micro-journal",
+      "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,952",
-      "forks": "680",
-      "addStars": "14",
+      "stars": "1,067",
+      "forks": "48",
+      "addStars": "8",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/33707294?s=40&v=4",
-          "name": "dorianborian",
-          "url": "https://github.com/dorianborian"
+          "avatar": "https://avatars.githubusercontent.com/u/6221038?s=40&v=4",
+          "name": "unkyulee",
+          "url": "https://github.com/unkyulee"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/275412484?s=40&v=4",
-          "name": "kcode-15",
-          "url": "https://github.com/kcode-15"
+          "avatar": "https://avatars.githubusercontent.com/u/654128?s=40&v=4",
+          "name": "bmcgavin",
+          "url": "https://github.com/bmcgavin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22573854?s=40&v=4",
-          "name": "shariqnaiyer",
-          "url": "https://github.com/shariqnaiyer"
+          "avatar": "https://avatars.githubusercontent.com/u/6968137?s=40&v=4",
+          "name": "jceaser",
+          "url": "https://github.com/jceaser"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/466956?s=40&v=4",
-          "name": "one-for-all",
-          "url": "https://github.com/one-for-all"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3700226?s=40&v=4",
-          "name": "vido89",
-          "url": "https://github.com/vido89"
+          "avatar": "https://avatars.githubusercontent.com/u/62474854?s=40&v=4",
+          "name": "HookPro1",
+          "url": "https://github.com/HookPro1"
         }
       ]
     },
     {
-      "title": "radareorg/radare2",
-      "url": "https://github.com/radareorg/radare2",
-      "description": "UNIX-like reverse engineering framework and command-line toolset",
+      "title": "openwrt/openwrt",
+      "url": "https://github.com/openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "25,315",
-      "forks": "3,416",
-      "addStars": "25",
+      "stars": "29,088",
+      "forks": "13,333",
+      "addStars": "26",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/917142?s=40&v=4",
-          "name": "radare",
-          "url": "https://github.com/radare"
+          "avatar": "https://avatars.githubusercontent.com/u/19352056?s=40&v=4",
+          "name": "juhosg",
+          "url": "https://github.com/juhosg"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6431515?s=40&v=4",
-          "name": "trufae",
-          "url": "https://github.com/trufae"
+          "avatar": "https://avatars.githubusercontent.com/u/1110044?s=40&v=4",
+          "name": "ffainelli",
+          "url": "https://github.com/ffainelli"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5904302?s=40&v=4",
-          "name": "condret",
-          "url": "https://github.com/condret"
+          "avatar": "https://avatars.githubusercontent.com/u/2529314?s=40&v=4",
+          "name": "nbd168",
+          "url": "https://github.com/nbd168"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3474042?s=40&v=4",
-          "name": "alvarofe",
-          "url": "https://github.com/alvarofe"
+          "avatar": "https://avatars.githubusercontent.com/u/78494?s=40&v=4",
+          "name": "hauke",
+          "url": "https://github.com/hauke"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/203261?s=40&v=4",
-          "name": "XVilka",
-          "url": "https://github.com/XVilka"
+          "avatar": "https://avatars.githubusercontent.com/u/2528802?s=40&v=4",
+          "name": "jow-",
+          "url": "https://github.com/jow-"
         }
       ]
     },
     {
-      "title": "YizhengWw/HachimoDock",
-      "url": "https://github.com/YizhengWw/HachimoDock",
-      "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing, juggling, sleeping, and more.",
+      "title": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "854",
-      "forks": "83",
-      "addStars": "67",
+      "stars": "43,394",
+      "forks": "7,480",
+      "addStars": "23",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/130424699?s=40&v=4",
-          "name": "tudoom",
-          "url": "https://github.com/tudoom"
+          "avatar": "https://avatars.githubusercontent.com/u/177011?s=40&v=4",
+          "name": "bagder",
+          "url": "https://github.com/bagder"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26279399?s=40&v=4",
-          "name": "ptmax",
-          "url": "https://github.com/ptmax"
+          "avatar": "https://avatars.githubusercontent.com/u/1446897?s=40&v=4",
+          "name": "vszakats",
+          "url": "https://github.com/vszakats"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/62310391?s=40&v=4",
-          "name": "YizhengWw",
-          "url": "https://github.com/YizhengWw"
+          "avatar": "https://avatars.githubusercontent.com/u/242954?s=40&v=4",
+          "name": "yangtse",
+          "url": "https://github.com/yangtse"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "name": "codex",
-          "url": "https://github.com/codex"
+          "avatar": "https://avatars.githubusercontent.com/u/1523871?s=40&v=4",
+          "name": "captain-caveman2k",
+          "url": "https://github.com/captain-caveman2k"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/228259?s=40&v=4",
+          "name": "dfandrich",
+          "url": "https://github.com/dfandrich"
         }
       ]
     },
     {
-      "title": "vedderb/bldc",
-      "url": "https://github.com/vedderb/bldc",
-      "description": "The VESC motor control firmware",
+      "title": "FreeRDP/FreeRDP",
+      "url": "https://github.com/FreeRDP/FreeRDP",
+      "description": "FreeRDP is a free remote desktop protocol library and clients",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,559",
-      "forks": "2,000",
-      "addStars": "4",
+      "stars": "13,974",
+      "forks": "15,578",
+      "addStars": "12",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2311760?s=40&v=4",
-          "name": "vedderb",
-          "url": "https://github.com/vedderb"
+          "avatar": "https://avatars.githubusercontent.com/u/3472254?s=40&v=4",
+          "name": "akallabeth",
+          "url": "https://github.com/akallabeth"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/146864?s=40&v=4",
-          "name": "Mitchlol",
-          "url": "https://github.com/Mitchlol"
+          "avatar": "https://avatars.githubusercontent.com/u/295841?s=40&v=4",
+          "name": "awakecoding",
+          "url": "https://github.com/awakecoding"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/309472?s=40&v=4",
-          "name": "nitrousnrg",
-          "url": "https://github.com/nitrousnrg"
+          "avatar": "https://avatars.githubusercontent.com/u/3237998?s=40&v=4",
+          "name": "hardening",
+          "url": "https://github.com/hardening"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/135954?s=40&v=4",
-          "name": "lukash",
-          "url": "https://github.com/lukash"
+          "avatar": "https://avatars.githubusercontent.com/u/195793?s=40&v=4",
+          "name": "bmiklautz",
+          "url": "https://github.com/bmiklautz"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1118185?s=40&v=4",
-          "name": "kubark42",
-          "url": "https://github.com/kubark42"
+          "avatar": "https://avatars.githubusercontent.com/u/669070?s=40&v=4",
+          "name": "mfleisz",
+          "url": "https://github.com/mfleisz"
         }
       ]
     },
     {
-      "title": "Serial-Studio/Serial-Studio",
-      "url": "https://github.com/Serial-Studio/Serial-Studio",
-      "description": "Open-source telemetry dashboard. Supports UART, BLE, MQTT, Modbus, CAN Bus and more.",
+      "title": "mackron/miniaudio",
+      "url": "https://github.com/mackron/miniaudio",
+      "description": "Audio playback and capture library written in C, in a single source file.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,308",
-      "forks": "1,102",
-      "addStars": "6",
+      "stars": "7,551",
+      "forks": "630",
+      "addStars": "54",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4225542?s=40&v=4",
-          "name": "alex-spataru",
-          "url": "https://github.com/alex-spataru"
+          "avatar": "https://avatars.githubusercontent.com/u/1232553?s=40&v=4",
+          "name": "mackron",
+          "url": "https://github.com/mackron"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/29616?s=40&v=4",
+          "name": "tycho",
+          "url": "https://github.com/tycho"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/109301228?s=40&v=4",
-          "name": "AlisonTristao",
-          "url": "https://github.com/AlisonTristao"
+          "avatar": "https://avatars.githubusercontent.com/u/958469?s=40&v=4",
+          "name": "znakeeye",
+          "url": "https://github.com/znakeeye"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/38422348?s=40&v=4",
-          "name": "umarcor",
-          "url": "https://github.com/umarcor"
+          "avatar": "https://avatars.githubusercontent.com/u/7667009?s=40&v=4",
+          "name": "Clownacy",
+          "url": "https://github.com/Clownacy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/96739684?s=40&v=4",
-          "name": "calyle",
-          "url": "https://github.com/calyle"
+          "avatar": "https://avatars.githubusercontent.com/u/1697224?s=40&v=4",
+          "name": "iarwain",
+          "url": "https://github.com/iarwain"
         }
       ]
-    },
-    {
-      "title": "valentderah/totk-pc-recomp",
-      "url": "https://github.com/valentderah/totk-pc-recomp",
-      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "4,835",
-      "forks": "386",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "cherry-embedded/CherryUSB",
-      "url": "https://github.com/cherry-embedded/CherryUSB",
-      "description": "CherryUSB is a tiny and beautiful, high performance and portable USB host and device stack for embedded system with USB IP",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "2,068",
-      "forks": "459",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
     },
     {
       "title": "Zagitta/gpu-unlock",
@@ -293,33 +296,93 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "16,617",
+      "stars": "16,857",
       "forks": "1,622",
-      "addStars": "8",
+      "addStars": "298",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "rfandango/hakuX",
-      "url": "https://github.com/rfandango/hakuX",
-      "description": "xbox emulator for Android",
+      "title": "nfzerox/VirtualIntelMacOnAppleSilicon",
+      "url": "https://github.com/nfzerox/VirtualIntelMacOnAppleSilicon",
+      "description": "Run every Intel version of macOS between Mac OS X Tiger 10.4 and macOS Big Sur 11 on Apple silicon with graphics acceleration, so you can run older 32-bit and 64-bit Intel apps like iWork ’09, iLife ’11, Aperture, Final Cut Pro 7, and Front Row, or PowerPC apps like AppleWorks. This marks an exciting chapter in the preservation of Mac history.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "749",
-      "forks": "53",
-      "addStars": "5",
+      "stars": "325",
+      "forks": "5",
+      "addStars": "76",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "mstan/SuperMarioWorldRecomp",
-      "url": "https://github.com/mstan/SuperMarioWorldRecomp",
-      "description": "Super Mario World recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+      "title": "valentderah/totk-pc-recomp",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "153",
-      "forks": "11",
-      "addStars": "2",
+      "stars": "4,981",
+      "forks": "386",
+      "addStars": "151",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "captainj-sparrow/astral-chain-pc-recomp",
+      "url": "https://github.com/captainj-sparrow/astral-chain-pc-recomp",
+      "description": "Static recompilation of Astral Chain to native Windows, with a Vulkan renderer. Game files not included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "193",
+      "forks": "2",
+      "addStars": "48",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "metalsharp/MetalSharp-Wine",
+      "url": "https://github.com/metalsharp/MetalSharp-Wine",
+      "description": "Arm64 / Arm64EC / Aarch64 / x86_64 / I386 & WOW64 Wine With FEX For MacOS Silicon on MacOS 26.4+",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "40",
+      "forks": "2",
+      "addStars": "44",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "metalsharp/MetalSharp",
+      "url": "https://github.com/metalsharp/MetalSharp",
+      "description": "Run Windows games and Windows applications on MacOS Silicon with MetalSharp. https://www.metalsharpmac.com/",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "41",
+      "forks": "13",
+      "addStars": "41",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+      "url": "https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap",
+      "description": "The complete hacking & penetration testing roadmap. From beginner to elite. 44,982 lines, 150+ Diagram across the roadmap: OPSEC, web security, Active Directory, binary exploitation, EDR evasion, and 0-day research. 300+ tools, 200+ MITRE techniques, C & Rust payloads, lab guides, books, courses, blogs, practice platforms, and AI security resources",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "97",
+      "forks": "7",
+      "addStars": "26",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "4,415",
+      "forks": "601",
+      "addStars": "46",
       "contributors": [],
       "source": "trendshift"
     },
@@ -329,213 +392,165 @@
       "description": "Display and control your Android device",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "154,035",
-      "forks": "14,216",
-      "addStars": "5",
+      "stars": "154,085",
+      "forks": "14,228",
+      "addStars": "48",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ohquebacan/spotibacan",
-      "url": "https://github.com/ohquebacan/spotibacan",
-      "description": "",
+      "title": "arjaythedev/twelve-dollar-server-challenge",
+      "url": "https://github.com/arjaythedev/twelve-dollar-server-challenge",
+      "description": "Implement one small API on SQLite in any language; we benchmark it on a $12 server (1 vCPU, 2 GB)",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "12",
-      "forks": "3",
-      "addStars": "1",
+      "stars": "706",
+      "forks": "313",
+      "addStars": "30",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "lanyonai/BurgersEquation",
-      "url": "https://github.com/lanyonai/BurgersEquation",
-      "description": "End-to-end formally verified solvers for the inviscid Burgers', isotropic viscous Burgers', and full (anisotropic) viscous Burgers' equations in 1D, 2D, and 3D.",
+      "title": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17",
+      "stars": "1,841",
+      "forks": "196",
+      "addStars": "43",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "FlashCat-Jordan/Flashduck",
+      "url": "https://github.com/FlashCat-Jordan/Flashduck",
+      "description": "闪猫造物Flashduck — an open-source ESP32-S3 desktop duck robot with six servos, a single animated eye, wide-stance walking and two interaction systems (voice assistant / DuckClaw local agent).",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "151",
       "forks": "1",
-      "addStars": "1",
+      "addStars": "20",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "Simon358/ctr-native-android",
-      "url": "https://github.com/Simon358/ctr-native-android",
-      "description": "A Crash Team Racing Decompilation Project - Port on Android",
+      "title": "Revivedx/SavageWindRecomp",
+      "url": "https://github.com/Revivedx/SavageWindRecomp",
+      "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "57",
-      "forks": "5",
-      "addStars": "1",
+      "stars": "3,135",
+      "forks": "184",
+      "addStars": "44",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "rcarmo/ios-linuxkit",
-      "url": "https://github.com/rcarmo/ios-linuxkit",
-      "description": "Optimized fork of ish-arm64 to provide iOS developers with a working Linux userland",
+      "title": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "110",
-      "forks": "18",
-      "addStars": "1",
+      "stars": "48,151",
+      "forks": "4,390",
+      "addStars": "37",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "winhub-emu/winhub",
-      "url": "https://github.com/winhub-emu/winhub",
-      "description": "WinHub - The brand new, opensource one-stop place for all your games, now on Android.",
+      "title": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "442",
-      "forks": "26",
-      "addStars": "1",
+      "stars": "7,066",
+      "forks": "1,043",
+      "addStars": "42",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "bryankeller/wiiMac",
-      "url": "https://github.com/bryankeller/wiiMac",
-      "description": "A Mac OS X bootloader for the Nintendo Wii.",
+      "title": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "description": "Linux kernel source tree",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "676",
-      "forks": "18",
-      "addStars": "1",
+      "stars": "254,439",
+      "forks": "61,283",
+      "addStars": "39",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "dorakyuraduang/whitealbum2-Android",
-      "url": "https://github.com/dorakyuraduang/whitealbum2-Android",
-      "description": "WHITE ALBUM2 静态重编译开发项目（Windows x64 / Android ARM64）；Godot 移植版见 godot 分支。",
+      "title": "chiba233/Trogdor-ipadOS",
+      "url": "https://github.com/chiba233/Trogdor-ipadOS",
+      "description": "run ipadOS on ChromeBook.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "244",
-      "forks": "11",
-      "addStars": "1",
+      "stars": "28",
+      "forks": "1",
+      "addStars": "13",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "orangepi-xunlong/linux-orangepi",
-      "url": "https://github.com/orangepi-xunlong/linux-orangepi",
+      "title": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "140,589",
+      "forks": "9,099",
+      "addStars": "33",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "anthonyfletcher/podbox",
+      "url": "https://github.com/anthonyfletcher/podbox",
+      "description": "iPod version of RockBox with targeted improvements including art everywhere (well, in more places).",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "39",
+      "forks": "2",
+      "addStars": "13",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "th0mk/nfsu2-web",
+      "url": "https://github.com/th0mk/nfsu2-web",
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "379",
-      "forks": "271",
-      "addStars": "1",
+      "stars": "824",
+      "forks": "167",
+      "addStars": "31",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "OLIMEX/DIY-LAPTOP",
-      "url": "https://github.com/OLIMEX/DIY-LAPTOP",
-      "description": "Do It Yourself Open Source Hardware and Software Modular Hacker's Friendly Laptop",
+      "title": "khorne-hub/gu-native",
+      "url": "https://github.com/khorne-hub/gu-native",
+      "description": "Native Android port with touch controls. Bring your own copy of the game.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "576",
-      "forks": "102",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Xastir/Xastir",
-      "url": "https://github.com/Xastir/Xastir",
-      "description": "This is the Xastir APRS client repository.  ",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "251",
-      "forks": "54",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "aardappel/procrastitracker",
-      "url": "https://github.com/aardappel/procrastitracker",
-      "description": "a Windows time tracking application",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "590",
-      "forks": "69",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "RTEMS/rtems",
-      "url": "https://github.com/RTEMS/rtems",
-      "description": "Mirror only see https://gitlab.rtems.org/rtems/rtos/rtems",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "771",
-      "forks": "397",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ashhart/MCDMA",
-      "url": "https://github.com/ashhart/MCDMA",
-      "description": "Metal Cuda Direct Memory Access",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "206",
-      "forks": "17",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "lanyonai/AdvectionDiffusion",
-      "url": "https://github.com/lanyonai/AdvectionDiffusion",
-      "description": "End-to-end formally verified solvers for the linear advection, isotropic advection-diffusion, and full (anisotropic) advection-diffusion equations in 1D, 2D, and 3D.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "81",
+      "stars": "104",
       "forks": "11",
-      "addStars": "1",
+      "addStars": "12",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "RohitKushvaha01/ReTerminal",
-      "url": "https://github.com/RohitKushvaha01/ReTerminal",
-      "description": "A Simple Android Terminal Emulator",
+      "title": "YizhengWw/HachimoDock",
+      "url": "https://github.com/YizhengWw/HachimoDock",
+      "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "662",
-      "forks": "88",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "token2/fido2-manage",
-      "url": "https://github.com/token2/fido2-manage",
-      "description": "An open-source FIDO2 key management tool (additionally with a GUI and OTP and PIV features) under different platforms",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "123",
-      "forks": "22",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "j-kaltes/Juggluco",
-      "url": "https://github.com/j-kaltes/Juggluco",
-      "description": "Android app for Freestyle Libre 1,2 and 3, Dexcom G7/ONE+, Sibionics GS1Sb and GS3 , AccuChek SmartGuide, CareSens Air and Linx/Aidex X sensors",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "479",
-      "forks": "154",
-      "addStars": "1",
+      "stars": "884",
+      "forks": "86",
+      "addStars": "31",
       "contributors": [],
       "source": "trendshift"
     }

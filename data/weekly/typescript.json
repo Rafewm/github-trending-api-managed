@@ -2,7 +2,7 @@
   "title": "GitHub Typescript Languages Weekly Trending",
   "description": "Weekly Trending of Typescript Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 05 Nov 2026 00:43:46 GMT",
+  "pubDate": "Thu, 05 Nov 2026 11:51:47 GMT",
   "items": [
     {
       "title": "thedotmack/claude-mem",
@@ -10,8 +10,8 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "112,863",
-      "forks": "9,804",
+      "stars": "113,277",
+      "forks": "9,825",
       "addStars": "8,822",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "46,639",
-      "forks": "9,457",
+      "stars": "47,421",
+      "forks": "9,530",
       "addStars": "14,580",
       "contributors": [
         {
@@ -79,29 +79,19 @@
       ]
     },
     {
-      "title": "JetBrains/thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "7,601",
-      "forks": "463",
-      "addStars": "3,031",
+      "stars": "12,555",
+      "forks": "1,738",
+      "addStars": "5,847",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/177517595?s=40&v=4",
-          "name": "rsolmano",
-          "url": "https://github.com/rsolmano"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3789877?s=40&v=4",
-          "name": "danyaberezun",
-          "url": "https://github.com/danyaberezun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14210843?s=40&v=4",
-          "name": "OLavrik",
-          "url": "https://github.com/OLavrik"
+          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
+          "name": "milind-soni",
+          "url": "https://github.com/milind-soni"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -109,9 +99,19 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/88837967?s=40&v=4",
-          "name": "Mark-Life",
-          "url": "https://github.com/Mark-Life"
+          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
+          "name": "aivsomkar",
+          "url": "https://github.com/aivsomkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
+          "name": "robinsonnblack",
+          "url": "https://github.com/robinsonnblack"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/53977268?s=40&v=4",
+          "name": "bradhallett",
+          "url": "https://github.com/bradhallett"
         }
       ]
     },
@@ -121,8 +121,8 @@
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "16,998",
-      "forks": "1,601",
+      "stars": "17,173",
+      "forks": "1,625",
       "addStars": "2,629",
       "contributors": [
         {
@@ -153,13 +153,82 @@
       ]
     },
     {
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "7,715",
+      "forks": "470",
+      "addStars": "3,031",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/177517595?s=40&v=4",
+          "name": "rsolmano",
+          "url": "https://github.com/rsolmano"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3789877?s=40&v=4",
+          "name": "danyaberezun",
+          "url": "https://github.com/danyaberezun"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14210843?s=40&v=4",
+          "name": "OLavrik",
+          "url": "https://github.com/OLavrik"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88837967?s=40&v=4",
+          "name": "Mark-Life",
+          "url": "https://github.com/Mark-Life"
+        }
+      ]
+    },
+    {
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "139,628",
+      "forks": "20,666",
+      "addStars": "1,587",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&v=4",
+          "name": "garrytan",
+          "url": "https://github.com/garrytan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17983607?s=40&v=4",
+          "name": "test22345",
+          "url": "https://github.com/test22345"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3579304?s=40&v=4",
+          "name": "szsunyuan",
+          "url": "https://github.com/szsunyuan"
+        }
+      ]
+    },
+    {
       "title": "CopilotKit/OpenBot",
       "url": "https://github.com/CopilotKit/OpenBot",
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "10,151",
-      "forks": "1,250",
+      "stars": "10,213",
+      "forks": "1,262",
       "addStars": "2,562",
       "contributors": [
         {
@@ -195,8 +264,8 @@
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "47,574",
-      "forks": "6,509",
+      "stars": "47,797",
+      "forks": "6,546",
       "addStars": "4,388",
       "contributors": [
         {
@@ -227,39 +296,39 @@
       ]
     },
     {
-      "title": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "12,026",
-      "forks": "1,668",
-      "addStars": "5,847",
+      "stars": "29,022",
+      "forks": "3,315",
+      "addStars": "270",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
-          "name": "milind-soni",
-          "url": "https://github.com/milind-soni"
+          "avatar": "https://avatars.githubusercontent.com/u/1166785?s=40&v=4",
+          "name": "wenshao",
+          "url": "https://github.com/wenshao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/224605497?s=40&v=4",
+          "name": "qwencoder",
+          "url": "https://github.com/qwencoder"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
-          "name": "aivsomkar",
-          "url": "https://github.com/aivsomkar"
+          "avatar": "https://avatars.githubusercontent.com/u/11473889?s=40&v=4",
+          "name": "yiliang114",
+          "url": "https://github.com/yiliang114"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
-          "name": "robinsonnblack",
-          "url": "https://github.com/robinsonnblack"
+          "avatar": "https://avatars.githubusercontent.com/u/480123?s=40&v=4",
+          "name": "tanzhenxin",
+          "url": "https://github.com/tanzhenxin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/53977268?s=40&v=4",
-          "name": "bradhallett",
-          "url": "https://github.com/bradhallett"
+          "avatar": "https://avatars.githubusercontent.com/u/269191875?s=40&v=4",
+          "name": "qwen-code-dev-bot",
+          "url": "https://github.com/qwen-code-dev-bot"
         }
       ]
     },
@@ -269,8 +338,8 @@
       "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "15,782",
-      "forks": "3,055",
+      "stars": "16,061",
+      "forks": "3,118",
       "addStars": "7,014",
       "contributors": [
         {
@@ -296,44 +365,12 @@
       ]
     },
     {
-      "title": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "5,565",
-      "forks": "564",
-      "addStars": "2,485",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38857779?s=40&v=4",
-          "name": "NorbertBodziony",
-          "url": "https://github.com/NorbertBodziony"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/48182795?s=40&v=4",
-          "name": "Sniezka1927",
-          "url": "https://github.com/Sniezka1927"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/90916274?s=40&v=4",
-          "name": "nrb-dev",
-          "url": "https://github.com/nrb-dev"
-        }
-      ]
-    },
-    {
       "title": "spotify/portal-ai-plugins",
       "url": "https://github.com/spotify/portal-ai-plugins",
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "3,152",
+      "stars": "3,162",
       "forks": "248",
       "addStars": "632",
       "contributors": [
@@ -360,45 +397,13 @@
       ]
     },
     {
-      "title": "lfnovo/open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
-      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "41,590",
-      "forks": "4,777",
-      "addStars": "938",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/579178?s=40&v=4",
-          "name": "lfnovo",
-          "url": "https://github.com/lfnovo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238125124?s=40&v=4",
-          "name": "kwp3",
-          "url": "https://github.com/kwp3"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "name": "mvanhorn",
-          "url": "https://github.com/mvanhorn"
-        }
-      ]
-    },
-    {
       "title": "remotion-dev/remotion",
       "url": "https://github.com/remotion-dev/remotion",
       "description": "🎥 Make videos programmatically with React",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "70,759",
-      "forks": "5,832",
+      "stars": "70,921",
+      "forks": "5,849",
       "addStars": "2,224",
       "contributors": [
         {
@@ -424,24 +429,51 @@
       ]
     },
     {
-      "title": "KeygraphHQ/shannon",
-      "url": "https://github.com/KeygraphHQ/shannon",
-      "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "title": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "51,209",
-      "forks": "5,965",
-      "addStars": "1,204",
+      "stars": "5,695",
+      "forks": "580",
+      "addStars": "2,485",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/178829317?s=40&v=4",
-          "name": "ajmallesh",
-          "url": "https://github.com/ajmallesh"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/252853768?s=40&v=4",
-          "name": "ezl-keygraph",
-          "url": "https://github.com/ezl-keygraph"
+          "avatar": "https://avatars.githubusercontent.com/u/38857779?s=40&v=4",
+          "name": "NorbertBodziony",
+          "url": "https://github.com/NorbertBodziony"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/48182795?s=40&v=4",
+          "name": "Sniezka1927",
+          "url": "https://github.com/Sniezka1927"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/90916274?s=40&v=4",
+          "name": "nrb-dev",
+          "url": "https://github.com/nrb-dev"
+        }
+      ]
+    },
+    {
+      "title": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "41,616",
+      "forks": "4,784",
+      "addStars": "938",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/579178?s=40&v=4",
+          "name": "lfnovo",
+          "url": "https://github.com/lfnovo"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -449,46 +481,51 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/182007681?s=40&v=4",
-          "name": "keygraphVarun",
-          "url": "https://github.com/keygraphVarun"
+          "avatar": "https://avatars.githubusercontent.com/u/238125124?s=40&v=4",
+          "name": "kwp3",
+          "url": "https://github.com/kwp3"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/244620289?s=40&v=4",
-          "name": "george-keygraph",
-          "url": "https://github.com/george-keygraph"
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "name": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
         }
       ]
     },
     {
-      "title": "ahmadrosid/nakama",
-      "url": "https://github.com/ahmadrosid/nakama",
-      "description": "The AI workspace where teams share agents, skills and automations that the whole company builds on.",
+      "title": "liguobao/ds-harness-remote",
+      "url": "https://github.com/liguobao/ds-harness-remote",
+      "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "775",
-      "forks": "129",
-      "addStars": "100",
+      "stars": "1,881",
+      "forks": "158",
+      "addStars": "946",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/29406408?s=40&v=4",
-          "name": "ahmadrosid",
-          "url": "https://github.com/ahmadrosid"
+          "avatar": "https://avatars.githubusercontent.com/u/10910802?s=40&v=4",
+          "name": "liguobao",
+          "url": "https://github.com/liguobao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4769529?s=40&v=4",
-          "name": "fajarhide",
-          "url": "https://github.com/fajarhide"
+          "avatar": "https://avatars.githubusercontent.com/u/158067205?s=40&v=4",
+          "name": "dreamfarer-space",
+          "url": "https://github.com/dreamfarer-space"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "name": "cursoragent",
-          "url": "https://github.com/cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/6524977?s=40&v=4",
+          "name": "luojiyin1987",
+          "url": "https://github.com/luojiyin1987"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/57658483?s=40&v=4",
-          "name": "yusupsupriyadi",
-          "url": "https://github.com/yusupsupriyadi"
+          "avatar": "https://avatars.githubusercontent.com/u/23648180?s=40&v=4",
+          "name": "zzalancelot",
+          "url": "https://github.com/zzalancelot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4350781?s=40&v=4",
+          "name": "pengyz",
+          "url": "https://github.com/pengyz"
         }
       ]
     },
@@ -498,8 +535,8 @@
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "42,213",
-      "forks": "4,314",
+      "stars": "42,256",
+      "forks": "4,321",
       "addStars": "1,052",
       "contributors": [
         {
@@ -525,39 +562,39 @@
       ]
     },
     {
-      "title": "makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "title": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "9,271",
-      "forks": "1,133",
-      "addStars": "1,378",
+      "stars": "42,719",
+      "forks": "6,567",
+      "addStars": "1,020",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/125997726?s=40&v=4",
-          "name": "dashhuang",
-          "url": "https://github.com/dashhuang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17176223?s=40&v=4",
-          "name": "MagicLizi",
-          "url": "https://github.com/MagicLizi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4436110?s=40&v=4",
-          "name": "zqchris",
-          "url": "https://github.com/zqchris"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/290921921?s=40&v=4",
-          "name": "DavidShenXD",
-          "url": "https://github.com/DavidShenXD"
+          "avatar": "https://avatars.githubusercontent.com/u/18752201?s=40&v=4",
+          "name": "wyuc",
+          "url": "https://github.com/wyuc"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "name": "claude",
           "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/117187635?s=40&v=4",
+          "name": "cosarah",
+          "url": "https://github.com/cosarah"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/104178195?s=40&v=4",
+          "name": "YizukiAme",
+          "url": "https://github.com/YizukiAme"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/181122961?s=40&v=4",
+          "name": "LING-6150",
+          "url": "https://github.com/LING-6150"
         }
       ]
     },
@@ -567,9 +604,9 @@
       "description": "Towards a More Autonomous Agent System",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "18,541",
+      "stars": "19,100",
       "forks": "2,004",
-      "addStars": "11,387",
+      "addStars": "12,002",
       "contributors": [],
       "source": "trendshift"
     },
@@ -579,9 +616,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "430,707",
-      "forks": "107,801",
-      "addStars": "12,229",
+      "stars": "432,609",
+      "forks": "108,607",
+      "addStars": "14,060",
       "contributors": [],
       "source": "trendshift"
     },
@@ -591,9 +628,9 @@
       "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "2,700",
+      "stars": "2,707",
       "forks": "27",
-      "addStars": "2,289",
+      "addStars": "2,297",
       "contributors": [],
       "source": "trendshift"
     },
@@ -603,33 +640,9 @@
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "272,491",
-      "forks": "35,401",
-      "addStars": "4,230",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "benjitaylor/skills",
-      "url": "https://github.com/benjitaylor/skills",
-      "description": "Skills for AI coding agents",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "1,907",
-      "forks": "126",
-      "addStars": "1,430",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "mromidev/claude-animated-shorts",
-      "url": "https://github.com/mromidev/claude-animated-shorts",
-      "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "1,510",
-      "forks": "331",
-      "addStars": "1,333",
+      "stars": "273,318",
+      "forks": "35,597",
+      "addStars": "5,025",
       "contributors": [],
       "source": "trendshift"
     },
@@ -639,9 +652,21 @@
       "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "6,125",
+      "stars": "6,490",
       "forks": "504",
-      "addStars": "2,702",
+      "addStars": "3,140",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "benjitaylor/skills",
+      "url": "https://github.com/benjitaylor/skills",
+      "description": "Skills for AI coding agents",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "2,012",
+      "forks": "126",
+      "addStars": "1,551",
       "contributors": [],
       "source": "trendshift"
     },
@@ -651,9 +676,21 @@
       "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "2,420",
+      "stars": "3,004",
       "forks": "115",
-      "addStars": "1,762",
+      "addStars": "2,312",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "mromidev/claude-animated-shorts",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,609",
+      "forks": "331",
+      "addStars": "1,443",
       "contributors": [],
       "source": "trendshift"
     },
@@ -663,9 +700,9 @@
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "115,404",
-      "forks": "8,036",
-      "addStars": "2,994",
+      "stars": "116,044",
+      "forks": "8,114",
+      "addStars": "3,613",
       "contributors": [],
       "source": "trendshift"
     },
@@ -675,9 +712,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "78,908",
-      "forks": "7,511",
-      "addStars": "1,848",
+      "stars": "79,229",
+      "forks": "7,571",
+      "addStars": "2,148",
       "contributors": [],
       "source": "trendshift"
     },
@@ -687,45 +724,21 @@
       "description": "DSH Workflow Lite 插件dsh工作流程插件",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "583",
+      "stars": "640",
       "forks": "187",
-      "addStars": "571",
+      "addStars": "631",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "rerun-build/rerun",
-      "url": "https://github.com/rerun-build/rerun",
-      "description": "AI coworkers that run your work. Self-hostable, AGPL-3.0.",
+      "title": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub",
+      "description": "YellowFruit third-party client",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "672",
-      "forks": "67",
-      "addStars": "670",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "hongye007/open-pose-costume",
-      "url": "https://github.com/hongye007/open-pose-costume",
-      "description": "A bilingual reference studio for poses, costumes, and AI character creation.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "646",
-      "forks": "170",
-      "addStars": "492",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "paperclipai/paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "111,096",
-      "forks": "19,724",
-      "addStars": "1,214",
+      "stars": "1,030",
+      "forks": "201",
+      "addStars": "765",
       "contributors": [],
       "source": "trendshift"
     },
@@ -735,9 +748,45 @@
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "90,575",
-      "forks": "8,082",
-      "addStars": "973",
+      "stars": "90,823",
+      "forks": "8,115",
+      "addStars": "1,205",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "hongye007/open-pose-costume",
+      "url": "https://github.com/hongye007/open-pose-costume",
+      "description": "A bilingual reference studio for poses, costumes, and AI character creation.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "673",
+      "forks": "177",
+      "addStars": "519",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "111,256",
+      "forks": "19,792",
+      "addStars": "1,363",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "rerun-build/rerun",
+      "url": "https://github.com/rerun-build/rerun",
+      "description": "AI coworkers that run your work. Self-hostable, AGPL-3.0.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "699",
+      "forks": "67",
+      "addStars": "702",
       "contributors": [],
       "source": "trendshift"
     },
@@ -747,33 +796,9 @@
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "13,170",
-      "forks": "694",
-      "addStars": "722",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "southleft/figma-console-mcp",
-      "url": "https://github.com/southleft/figma-console-mcp",
-      "description": "Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "2,995",
-      "forks": "289",
-      "addStars": "375",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "sneg55/warpdrive",
-      "url": "https://github.com/sneg55/warpdrive",
-      "description": "Open-source alternative to Pipedrive, self-hosted business-development CRM",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "469",
-      "forks": "11",
-      "addStars": "400",
+      "stars": "13,285",
+      "forks": "701",
+      "addStars": "833",
       "contributors": [],
       "source": "trendshift"
     }
