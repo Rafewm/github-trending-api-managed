@@ -164,14 +164,19 @@ function row(repo) {
   const title = story
     ? `<a class="hn-title" href="${hnUrl}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a>`
     : '';
-  const button = (list, label, pressed) =>
-    `<button class="open" type="button" data-toggle="${esc(repo.name)}" data-list="${list}"${pressed === undefined ? '' : ` aria-pressed="${pressed}"`} aria-label="${label} ${esc(repo.name)}">${label}</button>`;
+  const button = (cls, list, label, text, pressed) =>
+    `<button class="${cls}" type="button" data-toggle="${esc(repo.name)}" data-list="${list}"${pressed === undefined ? '' : ` aria-pressed="${pressed}"`} aria-label="${label} ${esc(repo.name)}">${text}</button>`;
   const isTracked = Boolean(tracked[repo.name]);
-  // Hide and Track are exclusive, so in each saved tab the other button moves the repo across.
-  const listButtons = {
-    hidden: `${button('hidden', 'Unhide')}${button('tracked', 'Track')}`,
-    tracked: `${button('tracked', 'Untrack')}${button('hidden', 'Hide')}`,
-  }[view] ?? `${button('hidden', 'Hide')}${button('tracked', isTracked ? 'Tracked' : 'Track', isTracked)}`;
+  // Hide and Track are exclusive, so in the Hidden and Track tabs the other button moves the repo across.
+  const hideButton = button('open', 'hidden', view === 'hidden' ? 'Unhide' : 'Hide', view === 'hidden' ? 'Unhide' : 'Hide');
+  const trackLabel = view === 'tracked' ? 'Untrack' : isTracked ? 'Tracked' : 'Track';
+  const trackButton = button(
+    'track-corner',
+    'tracked',
+    trackLabel,
+    `<span aria-hidden="true">${isTracked ? '★' : '☆'}</span> ${trackLabel}`,
+    view === 'tracked' ? undefined : isTracked,
+  );
   return `<tr>
     <td class="col-avatar"><img class="avatar" src="${esc(repo.avatar)}" alt="" width="28" height="28" loading="lazy"></td>
     <td class="project"><a href="${url}" target="_blank" rel="noopener noreferrer">${esc(name)}</a><br><span class="muted">${esc(owner)}/${esc(name)}</span></td>
@@ -180,8 +185,8 @@ function row(repo) {
     <td class="nowrap stars" data-label="Stars"><span class="star" aria-hidden="true">★</span> ${short(repo.stars)}</td>
     ${story ? hnCells(story) : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`}
     ${statusCell(repo)}
-    <td class="col-actions"><div class="actions">
-      ${listButtons}
+    <td class="col-actions">${trackButton}<div class="actions">
+      ${hideButton}
       <a class="open" href="${url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${esc(repo.name)} on GitHub">GitHub ↗</a>
       ${story ? `<a class="open" href="${hnUrl}" target="_blank" rel="noopener noreferrer" aria-label="Open the Hacker News discussion for ${esc(repo.name)}">HN ↗</a>` : ''}
     </div></td>
