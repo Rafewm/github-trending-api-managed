@@ -2,13 +2,16 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
 
-// In-memory stand-in for Upstash's REST API: one JSON command array per POST.
-const store = new Map();
+// In-memory stand-in for Upstash's REST API: one JSON command array per POST, one hash per key.
+const hashes = new Map();
+const hash = (key) => hashes.get(key) ?? hashes.set(key, new Map()).get(key);
+const store = hash('unstarred:hidden');
 const upstash = createServer(async (req, res) => {
   if (req.headers.authorization !== 'Bearer store-token') return res.writeHead(401).end('{"error":"unauthorized"}');
   let raw = '';
   for await (const chunk of req) raw += chunk;
-  const [command, , ...args] = JSON.parse(raw);
+  const [command, key, ...args] = JSON.parse(raw);
+  const store = hash(key);
   let result;
   if (command === 'HSET') for (let i = 0; i < args.length; i += 2) store.set(args[i], args[i + 1]);
   else if (command === 'HDEL') args.forEach((f) => store.delete(f));
@@ -19,11 +22,14 @@ const upstash = createServer(async (req, res) => {
 process.env.KV_REST_API_URL = `http://127.0.0.1:${upstash.address().port}`;
 process.env.KV_REST_API_TOKEN = 'store-token';
 process.env.HIDE_KEY = 'right-key';
-const { handleHidden } = await import('./hidden.js');
+const { handleHidden, handleTracked } = await import('./hidden.js');
 const app = createServer(handleHidden).listen(0);
+const trackApp = createServer(handleTracked).listen(0);
 const url = `http://127.0.0.1:${app.address().port}/api/hidden`;
+const trackUrl = `http://127.0.0.1:${trackApp.address().port}/api/tracked`;
 test.after(() => {
   app.close();
+  trackApp.close();
   upstash.close();
 });
 
@@ -59,4 +65,14 @@ test('rejects a batch with any invalid name without writing part of it', async (
 test('unhide removes the repo', async () => {
   const res = await post({ unhide: ['a/b'] });
   assert.deepEqual(await res.json(), {});
+});
+
+test('tracked list is stored apart from the hidden list and needs the key', async () => {
+  const track = (body, key = 'right-key') =>
+    fetch(trackUrl, { method: 'POST', headers: { 'X-Hide-Key': key }, body: JSON.stringify(body) });
+  assert.equal((await track({ hide: [{ name: 'x/y' }] }, 'wrong')).status, 401);
+  const res = await track({ hide: [{ name: 'x/y' }] });
+  assert.deepEqual(Object.keys(await res.json()), ['x/y']);
+  assert.equal(store.has('x/y'), false);
+  assert.deepEqual(await (await fetch(url)).json(), {});
 });

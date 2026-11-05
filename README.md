@@ -88,7 +88,11 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Starred repos never appear.** The server checks every repo against your GitHub stars, and also re-checks your 100 newest stars on every page load, so a repo you just starred disappears when you come back to the tab.
 
-**Hide** removes a repo from every list without starring it. The **Hidden** tab lists them with an Unhide button. The hidden list is stored in Upstash Redis, so it is the same on every device. Anyone can view it; changing it needs your hide key, which each browser asks for once.
+**Hide** removes a repo from every list without starring it. The **Hidden** tab lists them with an Unhide button.
+
+**Track** saves a repo for later without hiding or starring it: it stays in Browse and Hacker News, marked **Tracked**, and the **Track** tab lists every tracked repo. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
+
+Both lists are stored in Upstash Redis, so they are the same on every device. Anyone can view them; changing them needs your hide key, which each browser asks for once.
 
 ### How it works
 
@@ -96,7 +100,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
 | `repos.js` | Loads trending data and Hacker News stories, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query). |
-| `hidden.js` | Hidden list API on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
+| `hidden.js` | Hidden and tracked list APIs on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
 | `api/` | Vercel functions for the endpoints below. |
 | `server.js` | The same endpoints for running locally. |
@@ -105,8 +109,8 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 | --- | --- |
 | `GET /api/repos` | Trending repos you have not starred. Cached 5 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
-| `GET /api/hidden` | The hidden list. |
-| `POST /api/hidden` | `{"hide": [repo], "unhide": ["owner/repo"]}` with the `X-Hide-Key` header. Returns the new list. |
+| `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
+| `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos, with the `X-Hide-Key` header. Returns the new list. |
 
 The GitHub token stays on the server. The Vercel CDN caches responses for 30 seconds so visitors cannot use up the token's GitHub quota.
 
@@ -115,8 +119,8 @@ The GitHub token stays on the server. The Vercel CDN caches responses for 30 sec
 | Variable | Needed for |
 | --- | --- |
 | `UNSTARRED_TOKEN` | A GitHub token for your account. A classic token with **no scopes** is enough. |
-| `HIDE_KEY` | Any long random string. You type it in the browser before your first Hide. |
-| `KV_REST_API_URL`, `KV_REST_API_TOKEN` | Upstash Redis for the hidden list. Without them, hiding falls back to the browser's own storage. |
+| `HIDE_KEY` | Any long random string. You type it in the browser before your first Hide or Track. |
+| `KV_REST_API_URL`, `KV_REST_API_TOKEN` | Upstash Redis for the hidden and tracked lists. Without them, hiding falls back to the browser's own storage and Track does not work. |
 
 ### Run locally
 

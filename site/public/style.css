@@ -233,3 +233,5 @@ button.open { cursor: pointer; font-family: system-ui, sans-serif; }
 .hn-title { display: block; margin-bottom: 4px; color: var(--text); font-weight: 600; text-decoration: none; }
 .hn-title:hover { color: var(--blue); text-decoration: underline; }
 .hn-points { color: var(--amber); font-family: var(--mono); font-size: 12px; }
+button.open[aria-pressed="true"] { color: var(--blue); border-color: var(--blue); }
+.nav { flex-wrap: wrap; justify-content: center; }

@@ -1,7 +1,7 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { handleRepos, handleHn } from './repos.js';
-import { handleHidden } from './hidden.js';
+import { handleHidden, handleTracked } from './hidden.js';
 
 const PORT = Number(process.env.PORT) || 3210;
 const STATIC = {
@@ -24,6 +24,7 @@ createServer(async (req, res) => {
   if (path === '/api/repos') return handleRepos(req, res);
   if (path === '/api/hn') return handleHn(req, res);
   if (path === '/api/hidden') return handleHidden(req, res);
+  if (path === '/api/tracked') return handleTracked(req, res);
   const file = STATIC[path];
   if (!file) {
     res.writeHead(404).end('Not found');

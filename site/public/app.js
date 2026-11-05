@@ -31,7 +31,11 @@ let hnPeriod = 'day';
 let limit = PAGE;
 let view = 'browse';
 let hidden = {};
+let tracked = {};
 let storeReady = false;
+// Bumped when a Hide/Track save starts and when it ends, so a refresh that overlapped one can tell.
+let listEdits = 0;
+let listQueue = Promise.resolve();
 const sortChoice = { trending: 'day.add', hn: 'hn.points' };
 
 const kind = () => (view === 'hn' ? 'hn' : 'trending');
@@ -50,15 +54,15 @@ function showError(text) {
   $('message').textContent = text;
 }
 
-// Returns the server's new hidden list, or null when no key was entered.
-async function saveHidden(change) {
+// Returns the server's new list ('hidden' or 'tracked'), or null when no key was entered.
+async function saveList(list, change) {
   let key = storage((s) => s.getItem(HIDE_KEY));
   if (!key) {
-    key = prompt('Enter your hide key to change the hidden list.')?.trim();
+    key = prompt('Enter your hide key to change your lists.')?.trim();
     if (!key) return null;
     storage((s) => s.setItem(HIDE_KEY, key));
   }
-  const res = await fetch('/api/hidden', {
+  const res = await fetch(`/api/${list}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'X-Hide-Key': key },
     body: JSON.stringify(change),
@@ -69,6 +73,20 @@ async function saveHidden(change) {
   return data;
 }
 
+// Saves run one at a time, so an earlier save's response can never land after a newer one.
+async function queueSave(list, change) {
+  listEdits++;
+  const job = listQueue.then(() => saveList(list, change));
+  listQueue = job.catch(() => {});
+  try {
+    const next = await job;
+    if (next) list === 'hidden' ? (hidden = next) : (tracked = next);
+    return next;
+  } finally {
+    listEdits++;
+  }
+}
+
 const localHidden = () => storage((s) => JSON.parse(s.getItem(LOCAL_HIDDEN))) ?? {};
 
 async function moveLocalHidden() {
@@ -76,21 +94,21 @@ async function moveLocalHidden() {
   // Never prompt on page load: wait until a key is saved by the first Hide or Unhide.
   if (!storeReady || !list.length || !storage((s) => s.getItem(HIDE_KEY))) return;
   try {
-    const next = await saveHidden({ hide: list });
-    if (!next) return;
+    if (!(await queueSave('hidden', { hide: list }))) return;
     storage((s) => s.removeItem(LOCAL_HIDDEN));
-    hidden = next;
     render();
   } catch (err) {
     showError(`Could not move hidden repositories to the server: ${err.message}`);
   }
 }
 
-// Hidden entries are snapshots so they stay listed after a repo leaves trending.
+const savedView = () => view === 'hidden' || view === 'tracked';
+
+// Hidden and tracked entries are snapshots so they stay listed after a repo leaves trending.
 function currentList() {
-  if (view !== 'hidden') return (source()?.repos ?? []).filter((r) => !hidden[r.name]);
+  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name]);
   const live = new Map([...Object.values(hn).flatMap((d) => d.repos), ...(browse?.repos ?? [])].map((r) => [r.name, r]));
-  return Object.values(hidden).map((r) => live.get(r.name) ?? r);
+  return Object.values(view === 'hidden' ? hidden : tracked).map((r) => live.get(r.name) ?? r);
 }
 
 const esc = (s) =>
@@ -146,7 +164,14 @@ function row(repo) {
   const title = story
     ? `<a class="hn-title" href="${hnUrl}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a>`
     : '';
-  const action = view === 'hidden' ? 'Unhide' : 'Hide';
+  const button = (list, label, pressed) =>
+    `<button class="open" type="button" data-toggle="${esc(repo.name)}" data-list="${list}"${pressed === undefined ? '' : ` aria-pressed="${pressed}"`} aria-label="${label} ${esc(repo.name)}">${label}</button>`;
+  const isTracked = Boolean(tracked[repo.name]);
+  // Hide and Track are exclusive, so in each saved tab the other button moves the repo across.
+  const listButtons = {
+    hidden: `${button('hidden', 'Unhide')}${button('tracked', 'Track')}`,
+    tracked: `${button('tracked', 'Untrack')}${button('hidden', 'Hide')}`,
+  }[view] ?? `${button('hidden', 'Hide')}${button('tracked', isTracked ? 'Tracked' : 'Track', isTracked)}`;
   return `<tr>
     <td class="col-avatar"><img class="avatar" src="${esc(repo.avatar)}" alt="" width="28" height="28" loading="lazy"></td>
     <td class="project"><a href="${url}" target="_blank" rel="noopener noreferrer">${esc(name)}</a><br><span class="muted">${esc(owner)}/${esc(name)}</span></td>
@@ -156,7 +181,7 @@ function row(repo) {
     ${story ? hnCells(story) : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`}
     ${statusCell(repo)}
     <td class="col-actions"><div class="actions">
-      <button class="open" type="button" data-toggle="${esc(repo.name)}" aria-label="${action} ${esc(repo.name)}">${action}</button>
+      ${listButtons}
       <a class="open" href="${url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${esc(repo.name)} on GitHub">GitHub ↗</a>
       ${story ? `<a class="open" href="${hnUrl}" target="_blank" rel="noopener noreferrer" aria-label="Open the Hacker News discussion for ${esc(repo.name)}">HN ↗</a>` : ''}
     </div></td>
@@ -202,14 +227,21 @@ function render() {
   const key = $('sort').value;
 
   const hiddenTotal = Object.keys(hidden).length;
+  const trackedTotal = Object.keys(tracked).length;
   $('hidden-count').textContent = hiddenTotal ? `(${hiddenTotal})` : '';
-  $('results-title').textContent = { browse: 'Projects', hn: 'On Hacker News', hidden: 'Hidden projects' }[view];
-  for (const v of ['browse', 'hn', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
+  $('tracked-count').textContent = trackedTotal ? `(${trackedTotal})` : '';
+  $('results-title').textContent = {
+    browse: 'Projects',
+    hn: 'On Hacker News',
+    tracked: 'Tracked projects',
+    hidden: 'Hidden projects',
+  }[view];
+  for (const v of ['browse', 'hn', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
   $('hn-period-label').hidden = view !== 'hn';
   renderHeader();
   renderStats();
 
-  if (view !== 'hidden' && !source()) return; // still loading; the loader shows its own message
+  if (!savedView() && !source()) return; // still loading; the loader shows its own message
 
   const matches = currentList()
     .filter((r) => !language || r.language === language)
@@ -224,7 +256,11 @@ function render() {
   $('table-wrap').hidden = matches.length === 0;
   $('message').hidden = matches.length > 0;
   $('message').textContent =
-    view === 'hidden' && !hiddenTotal ? 'You have not hidden any repositories.' : 'No repositories match these filters.';
+    view === 'hidden' && !hiddenTotal
+      ? 'You have not hidden any repositories.'
+      : view === 'tracked' && !trackedTotal
+        ? 'You are not tracking any repositories. Press Track on a repo to save it here.'
+        : 'No repositories match these filters.';
 }
 
 function showLoading(text) {
@@ -264,25 +300,30 @@ function setView(next) {
   render();
 }
 
-async function toggleHidden(button) {
-  const name = button.dataset.toggle;
+async function toggleList(button) {
+  const { toggle: name, list } = button.dataset;
+  const saved = list === 'hidden' ? hidden : tracked;
   const buttons = [...$('rows').querySelectorAll('[data-toggle]')];
   const index = buttons.indexOf(button);
   button.disabled = true;
   try {
-    const change = hidden[name] ? { unhide: [name] } : { hide: [currentList().find((r) => r.name === name)] };
-    const next = await saveHidden(change);
-    if (!next) return;
-    hidden = next;
+    const other = list === 'hidden' ? 'tracked' : 'hidden';
+    if (saved[name]) {
+      if (!(await queueSave(list, { unhide: [name] }))) return;
+    } else {
+      // Add first, then remove from the other list, so a failed second step never loses the repo.
+      if (!(await queueSave(list, { hide: [currentList().find((r) => r.name === name)] }))) return;
+      if ((other === 'hidden' ? hidden : tracked)[name]) await queueSave(other, { unhide: [name] });
+    }
     moveLocalHidden();
   } catch (err) {
-    showError(`Could not update the hidden list: ${err.message}`);
+    showError(`Could not update the ${list} list: ${err.message}`);
     return;
   } finally {
     button.disabled = false;
   }
   render();
-  // The clicked row is gone, so keep keyboard focus at the same place in the list.
+  // The clicked row may be gone, so keep keyboard focus at the same place in the list.
   const next = $('rows').querySelectorAll('[data-toggle]');
   (next[index] ?? next[next.length - 1] ?? $(`tab-${view}`)).focus();
 }
@@ -305,17 +346,31 @@ function fillOptions(list) {
 
 async function refresh() {
   try {
-    const [res, hiddenRes] = await Promise.all([fetch('/api/repos'), fetch('/api/hidden')]);
+    const edits = listEdits;
+    const [res, hiddenRes, trackedRes] = await Promise.all([
+      fetch('/api/repos'),
+      fetch('/api/hidden'),
+      fetch('/api/tracked'),
+    ]);
     const data = await res.json();
     if (!res.ok) throw new Error(data.error);
     // Without a working store, keep showing what this browser hid so the page stays usable.
     storeReady = hiddenRes.ok;
     const hiddenData = storeReady ? await hiddenRes.json() : localHidden();
+    const trackedData = trackedRes.ok ? await trackedRes.json() : tracked;
     if (view === 'hn' && hn[hnPeriod]) await loadHn(hnPeriod);
     const first = !browse;
-    const changed = first || JSON.stringify([data.repos, hiddenData]) !== JSON.stringify([browse.repos, hidden]);
+    // A Hide or Track saved while this refresh was in flight beats the older lists it fetched.
+    const listsCurrent = edits === listEdits;
+    const changed =
+      first ||
+      JSON.stringify(data.repos) !== JSON.stringify(browse.repos) ||
+      (listsCurrent && JSON.stringify([hiddenData, trackedData]) !== JSON.stringify([hidden, tracked]));
     browse = data;
-    hidden = hiddenData;
+    if (listsCurrent) {
+      hidden = hiddenData;
+      tracked = trackedData;
+    }
     if (first) fillOptions(browse.repos);
     if (changed || view === 'hn') render();
   } catch (err) {
@@ -345,10 +400,11 @@ $('more').addEventListener('click', () => {
 });
 $('tab-browse').addEventListener('click', () => setView('browse'));
 $('tab-hn').addEventListener('click', () => setView('hn'));
+$('tab-tracked').addEventListener('click', () => setView('tracked'));
 $('tab-hidden').addEventListener('click', () => setView('hidden'));
 $('rows').addEventListener('click', (e) => {
   const button = e.target.closest('[data-toggle]');
-  if (button && !button.disabled) toggleHidden(button);
+  if (button && !button.disabled) toggleList(button);
 });
 // Coming back from GitHub after starring something updates the list without a manual reload.
 window.addEventListener('focus', refresh);
