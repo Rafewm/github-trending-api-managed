@@ -106,7 +106,7 @@ const savedView = () => view === 'hidden' || view === 'tracked';
 
 // Hidden and tracked entries are snapshots so they stay listed after a repo leaves trending.
 function currentList() {
-  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name]);
+  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name] && !tracked[r.name]);
   const live = new Map([...Object.values(hn).flatMap((d) => d.repos), ...(browse?.repos ?? [])].map((r) => [r.name, r]));
   return Object.values(view === 'hidden' ? hidden : tracked).map((r) => live.get(r.name) ?? r);
 }

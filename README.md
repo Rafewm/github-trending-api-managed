@@ -90,7 +90,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Hide** removes a repo from every list without starring it. The **Hidden** tab lists them with an Unhide button.
 
-**Track** saves a repo for later without hiding or starring it: it stays in Browse and Hacker News, marked **Tracked**, and the **Track** tab lists every tracked repo. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
+**Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse and Hacker News and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
 
 Both lists are stored in Upstash Redis, so they are the same on every device. Anyone can view them; changing them needs your hide key, which each browser asks for once.
 
