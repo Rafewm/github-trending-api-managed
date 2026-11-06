@@ -2,8 +2,45 @@
   "title": "GitHub Bikeshed Languages Monthly Trending",
   "description": "Monthly Trending of Bikeshed Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 06 Nov 2026 00:44:06 GMT",
+  "pubDate": "Fri, 06 Nov 2026 11:48:11 GMT",
   "items": [
+    {
+      "title": "w3c/csswg-drafts",
+      "url": "https://github.com/w3c/csswg-drafts",
+      "description": "CSS Working Group Editor Drafts",
+      "language": "Bikeshed",
+      "languageColor": "#5562ac",
+      "stars": "4,903",
+      "forks": "823",
+      "addStars": "19",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/725717?s=40&v=4",
+          "name": "fantasai",
+          "url": "https://github.com/fantasai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/682840?s=40&v=4",
+          "name": "tabatkins",
+          "url": "https://github.com/tabatkins"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2506926?s=40&v=4",
+          "name": "svgeesus",
+          "url": "https://github.com/svgeesus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7431647?s=40&v=4",
+          "name": "bert-github",
+          "url": "https://github.com/bert-github"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/113268?s=40&v=4",
+          "name": "frivoal",
+          "url": "https://github.com/frivoal"
+        }
+      ]
+    },
     {
       "title": "w3c/webauthn",
       "url": "https://github.com/w3c/webauthn",
@@ -37,49 +74,12 @@
       ]
     },
     {
-      "title": "w3c/csswg-drafts",
-      "url": "https://github.com/w3c/csswg-drafts",
-      "description": "CSS Working Group Editor Drafts",
-      "language": "Bikeshed",
-      "languageColor": "#5562ac",
-      "stars": "4,904",
-      "forks": "823",
-      "addStars": "19",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/725717?s=40&v=4",
-          "name": "fantasai",
-          "url": "https://github.com/fantasai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/682840?s=40&v=4",
-          "name": "tabatkins",
-          "url": "https://github.com/tabatkins"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2506926?s=40&v=4",
-          "name": "svgeesus",
-          "url": "https://github.com/svgeesus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7431647?s=40&v=4",
-          "name": "bert-github",
-          "url": "https://github.com/bert-github"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/113268?s=40&v=4",
-          "name": "frivoal",
-          "url": "https://github.com/frivoal"
-        }
-      ]
-    },
-    {
       "title": "gpuweb/gpuweb",
       "url": "https://github.com/gpuweb/gpuweb",
       "description": "Where the GPU for the Web work happens!",
       "language": "Bikeshed",
       "languageColor": "#5562ac",
-      "stars": "5,523",
+      "stars": "5,524",
       "forks": "393",
       "addStars": "39",
       "contributors": [
@@ -102,38 +102,6 @@
           "avatar": "https://avatars.githubusercontent.com/u/805273?s=40&v=4",
           "name": "toji",
           "url": "https://github.com/toji"
-        }
-      ]
-    },
-    {
-      "title": "webmachinelearning/webmcp",
-      "url": "https://github.com/webmachinelearning/webmcp",
-      "description": "🤖 WebMCP",
-      "language": "Bikeshed",
-      "languageColor": "#5562ac",
-      "stars": "4,898",
-      "forks": "345",
-      "addStars": "444",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9669289?s=40&v=4",
-          "name": "domfarolino",
-          "url": "https://github.com/domfarolino"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/634478?s=40&v=4",
-          "name": "beaufortfrancois",
-          "url": "https://github.com/beaufortfrancois"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5773562?s=40&v=4",
-          "name": "victorhuangwq",
-          "url": "https://github.com/victorhuangwq"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4146725?s=40&v=4",
-          "name": "bwalderman",
-          "url": "https://github.com/bwalderman"
         }
       ]
     },
@@ -166,6 +134,75 @@
           "avatar": "https://avatars.githubusercontent.com/u/11488631?s=40&v=4",
           "name": "yoshisatoyanagisawa",
           "url": "https://github.com/yoshisatoyanagisawa"
+        }
+      ]
+    },
+    {
+      "title": "WebAudio/web-audio-api",
+      "url": "https://github.com/WebAudio/web-audio-api",
+      "description": "The Web Audio API v1.1, developed by the W3C Audio WG",
+      "language": "Bikeshed",
+      "languageColor": "#5562ac",
+      "stars": "1,136",
+      "forks": "180",
+      "addStars": "5",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/663356?s=40&v=4",
+          "name": "rtoy",
+          "url": "https://github.com/rtoy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/270485?s=40&v=4",
+          "name": "padenot",
+          "url": "https://github.com/padenot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/676891?s=40&v=4",
+          "name": "hoch",
+          "url": "https://github.com/hoch"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/507001?s=40&v=4",
+          "name": "cwilso",
+          "url": "https://github.com/cwilso"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&v=4",
+          "name": "traviscibot",
+          "url": "https://github.com/traviscibot"
+        }
+      ]
+    },
+    {
+      "title": "webmachinelearning/webmcp",
+      "url": "https://github.com/webmachinelearning/webmcp",
+      "description": "🤖 WebMCP",
+      "language": "Bikeshed",
+      "languageColor": "#5562ac",
+      "stars": "4,903",
+      "forks": "346",
+      "addStars": "444",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9669289?s=40&v=4",
+          "name": "domfarolino",
+          "url": "https://github.com/domfarolino"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/634478?s=40&v=4",
+          "name": "beaufortfrancois",
+          "url": "https://github.com/beaufortfrancois"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5773562?s=40&v=4",
+          "name": "victorhuangwq",
+          "url": "https://github.com/victorhuangwq"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4146725?s=40&v=4",
+          "name": "bwalderman",
+          "url": "https://github.com/bwalderman"
         }
       ]
     }

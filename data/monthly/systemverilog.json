@@ -2,7 +2,7 @@
   "title": "GitHub Systemverilog Languages Monthly Trending",
   "description": "Monthly Trending of Systemverilog Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 06 Nov 2026 00:44:06 GMT",
+  "pubDate": "Fri, 06 Nov 2026 11:48:11 GMT",
   "items": [
     {
       "title": "verilator/verilator",
@@ -10,8 +10,8 @@
       "description": "Verilator open-source SystemVerilog simulator and lint system",
       "language": "SystemVerilog",
       "languageColor": "#DAE1C2",
-      "stars": "4,060",
-      "forks": "969",
+      "stars": "4,061",
+      "forks": "971",
       "addStars": "89",
       "contributors": [
         {
@@ -38,6 +38,75 @@
           "avatar": "https://avatars.githubusercontent.com/u/140522618?s=40&v=4",
           "name": "YilouWang",
           "url": "https://github.com/YilouWang"
+        }
+      ]
+    },
+    {
+      "title": "lowRISC/opentitan",
+      "url": "https://github.com/lowRISC/opentitan",
+      "description": "OpenTitan: Open source silicon root of trust",
+      "language": "SystemVerilog",
+      "languageColor": "#DAE1C2",
+      "stars": "3,743",
+      "forks": "1,154",
+      "addStars": "74",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/104845?s=40&v=4",
+          "name": "rswarbrick",
+          "url": "https://github.com/rswarbrick"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/41358501?s=40&v=4",
+          "name": "msfschaffner",
+          "url": "https://github.com/msfschaffner"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11466553?s=40&v=4",
+          "name": "cindychip",
+          "url": "https://github.com/cindychip"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5633066?s=40&v=4",
+          "name": "timothytrippel",
+          "url": "https://github.com/timothytrippel"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/20307557?s=40&v=4",
+          "name": "vogelpi",
+          "url": "https://github.com/vogelpi"
+        }
+      ]
+    },
+    {
+      "title": "adam-maj/tiny-gpu",
+      "url": "https://github.com/adam-maj/tiny-gpu",
+      "description": "A minimal GPU design in Verilog to learn how GPUs work from the ground up",
+      "language": "SystemVerilog",
+      "languageColor": "#DAE1C2",
+      "stars": "13,190",
+      "forks": "1,273",
+      "addStars": "164",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/64697628?s=40&v=4",
+          "name": "adam-maj",
+          "url": "https://github.com/adam-maj"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10238372?s=40&v=4",
+          "name": "ashaltu",
+          "url": "https://github.com/ashaltu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22633385?s=40&v=4",
+          "name": "eltociear",
+          "url": "https://github.com/eltociear"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38108242?s=40&v=4",
+          "name": "xianbaoqian",
+          "url": "https://github.com/xianbaoqian"
         }
       ]
     },
@@ -79,50 +148,13 @@
       ]
     },
     {
-      "title": "lowRISC/opentitan",
-      "url": "https://github.com/lowRISC/opentitan",
-      "description": "OpenTitan: Open source silicon root of trust",
-      "language": "SystemVerilog",
-      "languageColor": "#DAE1C2",
-      "stars": "3,742",
-      "forks": "1,153",
-      "addStars": "74",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/104845?s=40&v=4",
-          "name": "rswarbrick",
-          "url": "https://github.com/rswarbrick"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/41358501?s=40&v=4",
-          "name": "msfschaffner",
-          "url": "https://github.com/msfschaffner"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11466553?s=40&v=4",
-          "name": "cindychip",
-          "url": "https://github.com/cindychip"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5633066?s=40&v=4",
-          "name": "timothytrippel",
-          "url": "https://github.com/timothytrippel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20307557?s=40&v=4",
-          "name": "vogelpi",
-          "url": "https://github.com/vogelpi"
-        }
-      ]
-    },
-    {
       "title": "lowRISC/ibex",
       "url": "https://github.com/lowRISC/ibex",
       "description": "Ibex is a small 32-bit RISC-V CPU core with high-level of verification (previously known as zero-riscy)",
       "language": "SystemVerilog",
       "languageColor": "#DAE1C2",
-      "stars": "2,159",
-      "forks": "830",
+      "stars": "2,162",
+      "forks": "831",
       "addStars": "84",
       "contributors": [
         {
