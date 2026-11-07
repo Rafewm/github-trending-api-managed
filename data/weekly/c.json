@@ -2,7 +2,7 @@
   "title": "GitHub C Languages Weekly Trending",
   "description": "Weekly Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 06 Nov 2026 23:57:21 GMT",
+  "pubDate": "Sat, 07 Nov 2026 05:12:19 GMT",
   "items": [
     {
       "title": "JustVugg/colibri",
@@ -10,9 +10,9 @@
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "48,458",
-      "forks": "5,637",
-      "addStars": "3,214",
+      "stars": "48,513",
+      "forks": "5,642",
+      "addStars": "3,311",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/13022503?s=40&v=4",
@@ -47,9 +47,9 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "10,971",
-      "forks": "1,715",
-      "addStars": "1,490",
+      "stars": "11,023",
+      "forks": "1,719",
+      "addStars": "1,675",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/63067900?s=40&v=4",
@@ -79,14 +79,46 @@
       ]
     },
     {
+      "title": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "12,642",
+      "forks": "1,643",
+      "addStars": "437",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
+          "name": "Cyan4973",
+          "url": "https://github.com/Cyan4973"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
+          "name": "inikep",
+          "url": "https://github.com/inikep"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
+          "name": "t-mat",
+          "url": "https://github.com/t-mat"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
+          "name": "felixhandte",
+          "url": "https://github.com/felixhandte"
+        }
+      ]
+    },
+    {
       "title": "valinet/ExplorerPatcher",
       "url": "https://github.com/valinet/ExplorerPatcher",
       "description": "This project aims to enhance the working environment on Windows",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "34,241",
-      "forks": "1,388",
-      "addStars": "87",
+      "stars": "34,244",
+      "forks": "1,386",
+      "addStars": "96",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/6503598?s=40&v=4",
@@ -121,9 +153,9 @@
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "43,415",
+      "stars": "43,414",
       "forks": "7,490",
-      "addStars": "133",
+      "addStars": "135",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/177011?s=40&v=4",
@@ -158,9 +190,9 @@
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "140,648",
-      "forks": "8,702",
-      "addStars": "491",
+      "stars": "140,661",
+      "forks": "8,704",
+      "addStars": "479",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/1462282?s=40&v=4",
@@ -195,9 +227,9 @@
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,283",
-      "forks": "11,580",
-      "addStars": "114",
+      "stars": "31,323",
+      "forks": "11,583",
+      "addStars": "164",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/698918?s=40&v=4",
@@ -232,9 +264,9 @@
       "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing, juggling, sleeping, and more.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "914",
-      "forks": "93",
-      "addStars": "402",
+      "stars": "918",
+      "forks": "95",
+      "addStars": "400",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/130424699?s=40&v=4",
@@ -269,9 +301,9 @@
       "description": "UNIX-like reverse engineering framework and command-line toolset.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,141",
-      "forks": "695",
-      "addStars": "64",
+      "stars": "4,144",
+      "forks": "697",
+      "addStars": "62",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/203261?s=40&v=4",
@@ -308,7 +340,7 @@
       "languageColor": "#555555",
       "stars": "17,026",
       "forks": "10,370",
-      "addStars": "76",
+      "addStars": "78",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/180017?s=40&v=4",
@@ -343,9 +375,9 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,580",
+      "stars": "17,639",
       "forks": "1,758",
-      "addStars": "3,456",
+      "addStars": "3,497",
       "contributors": [],
       "source": "trendshift"
     },
@@ -355,21 +387,9 @@
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "5,385",
+      "stars": "5,439",
       "forks": "451",
-      "addStars": "2,218",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "12,636",
-      "forks": "1,619",
-      "addStars": "443",
+      "addStars": "2,273",
       "contributors": [],
       "source": "trendshift"
     },
@@ -379,9 +399,9 @@
       "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,282",
+      "stars": "1,304",
       "forks": "28",
-      "addStars": "452",
+      "addStars": "478",
       "contributors": [],
       "source": "trendshift"
     },
@@ -391,9 +411,9 @@
       "description": "Linux kernel source tree",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "254,648",
-      "forks": "61,320",
-      "addStars": "582",
+      "stars": "254,670",
+      "forks": "61,397",
+      "addStars": "609",
       "contributors": [],
       "source": "trendshift"
     },
@@ -403,9 +423,9 @@
       "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,317",
+      "stars": "3,341",
       "forks": "203",
-      "addStars": "594",
+      "addStars": "607",
       "contributors": [],
       "source": "trendshift"
     },
@@ -415,93 +435,9 @@
       "description": "Apple's open-source XNU kernel on Android phones: its own loader and drivers, Metal on the Adreno. Runs from RAM; a reboot gives the phone back to Android.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,556",
+      "stars": "2,565",
       "forks": "430",
-      "addStars": "479",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Gamer92000/echo-dot-assist",
-      "url": "https://github.com/Gamer92000/echo-dot-assist",
-      "description": "Turn Amazon Echos (Echo Dot 3, Echo Dot 2, Echo 2) into local Home Assistant voice satellites. Keeps Amazon's mic processing and wake word engine, replaces Alexa with a small C daemon speaking ESPHome or Wyoming. Multiroom music via Music Assistant, Bluetooth speaker and proxy, no cloud.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "799",
-      "forks": "64",
-      "addStars": "348",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "nfzerox/VirtualIntelMacOnAppleSilicon",
-      "url": "https://github.com/nfzerox/VirtualIntelMacOnAppleSilicon",
-      "description": "Run every Intel version of macOS between Mac OS X Tiger 10.4 and macOS Big Sur 11 on Apple silicon with graphics acceleration, so you can run older 32-bit and 64-bit Intel apps like iWork ’09, iLife ’11, Aperture, Final Cut Pro 7, and Front Row, or PowerPC apps like AppleWorks. This marks an exciting chapter in the preservation of Mac history.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "485",
-      "forks": "22",
-      "addStars": "296",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "FFmpeg/FFmpeg",
-      "url": "https://github.com/FFmpeg/FFmpeg",
-      "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "66,641",
-      "forks": "12,843",
-      "addStars": "411",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Genymobile/scrcpy",
-      "url": "https://github.com/Genymobile/scrcpy",
-      "description": "Display and control your Android device",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "154,176",
-      "forks": "14,235",
-      "addStars": "414",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
-      "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
-      "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,939",
-      "forks": "219",
-      "addStars": "468",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "th0mk/nfsu2-web",
-      "url": "https://github.com/th0mk/nfsu2-web",
-      "description": "",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "943",
-      "forks": "200",
-      "addStars": "318",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "TheLostPantheon/nativ",
-      "url": "https://github.com/TheLostPantheon/nativ",
-      "description": "PS Vita games recompiled into native PC programs: you bring your own games and firmware",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "262",
-      "forks": "10",
-      "addStars": "158",
+      "addStars": "485",
       "contributors": [],
       "source": "trendshift"
     },
@@ -511,9 +447,93 @@
       "description": "🎥 Command line media player",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "37,865",
-      "forks": "3,610",
-      "addStars": "203",
+      "stars": "37,895",
+      "forks": "3,616",
+      "addStars": "243",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Gamer92000/echo-dot-assist",
+      "url": "https://github.com/Gamer92000/echo-dot-assist",
+      "description": "Turn Amazon Echos (Echo Dot 3, Echo Dot 2, Echo 2) into local Home Assistant voice satellites. Keeps Amazon's mic processing and wake word engine, replaces Alexa with a small C daemon speaking ESPHome or Wyoming. Multiroom music via Music Assistant, Bluetooth speaker and proxy, no cloud.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "804",
+      "forks": "64",
+      "addStars": "355",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "nfzerox/VirtualIntelMacOnAppleSilicon",
+      "url": "https://github.com/nfzerox/VirtualIntelMacOnAppleSilicon",
+      "description": "Run every Intel version of macOS between Mac OS X Tiger 10.4 and macOS Big Sur 11 on Apple silicon with graphics acceleration, so you can run older 32-bit and 64-bit Intel apps like iWork ’09, iLife ’11, Aperture, Final Cut Pro 7, and Front Row, or PowerPC apps like AppleWorks. This marks an exciting chapter in the preservation of Mac history.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "504",
+      "forks": "22",
+      "addStars": "305",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "FFmpeg/FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "66,650",
+      "forks": "12,853",
+      "addStars": "422",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "154,188",
+      "forks": "14,241",
+      "addStars": "428",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,948",
+      "forks": "219",
+      "addStars": "473",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "th0mk/nfsu2-web",
+      "url": "https://github.com/th0mk/nfsu2-web",
+      "description": "",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "959",
+      "forks": "200",
+      "addStars": "331",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "TheLostPantheon/nativ",
+      "url": "https://github.com/TheLostPantheon/nativ",
+      "description": "PS Vita games recompiled into native PC programs: you bring your own games and firmware",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "264",
+      "forks": "10",
+      "addStars": "159",
       "contributors": [],
       "source": "trendshift"
     },
@@ -523,9 +543,21 @@
       "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,186",
+      "stars": "7,206",
       "forks": "1,071",
-      "addStars": "414",
+      "addStars": "432",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sostenesfreitas/ocarina-recomp",
+      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+      "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "276",
+      "forks": "1",
+      "addStars": "258",
       "contributors": [],
       "source": "trendshift"
     },
@@ -535,9 +567,9 @@
       "description": "A compatibility layer for porting Switch games to Android, one game at a time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "874",
+      "stars": "882",
       "forks": "126",
-      "addStars": "302",
+      "addStars": "309",
       "contributors": [],
       "source": "trendshift"
     },
@@ -547,33 +579,9 @@
       "description": "A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Python, Zig, Lua, Go",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,010",
+      "stars": "2,028",
       "forks": "90",
-      "addStars": "385",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "captainj-sparrow/astral-chain-pc-recomp",
-      "url": "https://github.com/captainj-sparrow/astral-chain-pc-recomp",
-      "description": "Static recompilation of Astral Chain to native Windows, with a Vulkan renderer. Game files not included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "310",
-      "forks": "4",
-      "addStars": "179",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jmars125/xcx-recomp",
-      "url": "https://github.com/jmars125/xcx-recomp",
-      "description": "Static recompilation of Xenoblade Chronicles X : Definitive Edition to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "234",
-      "forks": "8",
-      "addStars": "115",
+      "addStars": "392",
       "contributors": [],
       "source": "trendshift"
     },
@@ -583,9 +591,9 @@
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "79,066",
-      "forks": "11,164",
-      "addStars": "290",
+      "stars": "79,073",
+      "forks": "11,180",
+      "addStars": "299",
       "contributors": [],
       "source": "trendshift"
     },
@@ -595,9 +603,21 @@
       "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "48,235",
+      "stars": "48,246",
       "forks": "4,400",
-      "addStars": "286",
+      "addStars": "297",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "captainj-sparrow/astral-chain-pc-recomp",
+      "url": "https://github.com/captainj-sparrow/astral-chain-pc-recomp",
+      "description": "Static recompilation of Astral Chain to native Windows, with a Vulkan renderer. Game files not included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "313",
+      "forks": "4",
+      "addStars": "184",
       "contributors": [],
       "source": "trendshift"
     }

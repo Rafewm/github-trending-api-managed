@@ -2,7 +2,7 @@
   "title": "GitHub C# Languages Weekly Trending",
   "description": "Weekly Trending of C# Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 06 Nov 2026 23:57:21 GMT",
+  "pubDate": "Sat, 07 Nov 2026 05:12:19 GMT",
   "items": [
     {
       "title": "mpv-player/mpv",
@@ -10,9 +10,9 @@
       "description": "🎥 Command line media player",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "37,871",
-      "forks": "3,632",
-      "addStars": "36",
+      "stars": "37,918",
+      "forks": "3,634",
+      "addStars": "37",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/1126053?s=40&v=4",
@@ -42,14 +42,46 @@
       ]
     },
     {
+      "title": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "12,642",
+      "forks": "1,643",
+      "addStars": "315",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
+          "name": "Cyan4973",
+          "url": "https://github.com/Cyan4973"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
+          "name": "inikep",
+          "url": "https://github.com/inikep"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
+          "name": "t-mat",
+          "url": "https://github.com/t-mat"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
+          "name": "felixhandte",
+          "url": "https://github.com/felixhandte"
+        }
+      ]
+    },
+    {
       "title": "openssl/openssl",
       "url": "https://github.com/openssl/openssl",
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,283",
-      "forks": "11,580",
-      "addStars": "24",
+      "stars": "31,323",
+      "forks": "11,583",
+      "addStars": "26",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/698918?s=40&v=4",
@@ -86,7 +118,7 @@
       "languageColor": "#555555",
       "stars": "17,026",
       "forks": "10,370",
-      "addStars": "17",
+      "addStars": "18",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/180017?s=40&v=4",
@@ -121,9 +153,9 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "10,971",
-      "forks": "1,715",
-      "addStars": "175",
+      "stars": "11,023",
+      "forks": "1,719",
+      "addStars": "180",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/63067900?s=40&v=4",
@@ -158,9 +190,9 @@
       "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,526",
-      "forks": "1,152",
-      "addStars": "45",
+      "stars": "17,530",
+      "forks": "1,153",
+      "addStars": "41",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/332336?s=40&v=4",
@@ -190,9 +222,9 @@
       "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "25,101",
+      "stars": "25,103",
       "forks": "4,432",
-      "addStars": "9",
+      "addStars": "11",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/7599318?s=40&v=4",
@@ -223,7 +255,7 @@
       "language": "C",
       "languageColor": "#555555",
       "stars": "17,003",
-      "forks": "4,812",
+      "forks": "4,813",
       "addStars": "6",
       "contributors": [
         {
@@ -260,8 +292,8 @@
       "language": "C",
       "languageColor": "#555555",
       "stars": "2,381",
-      "forks": "530",
-      "addStars": "7",
+      "forks": "531",
+      "addStars": "2",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/64608145?s=40&v=4",
@@ -296,7 +328,7 @@
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "43,415",
+      "stars": "43,414",
       "forks": "7,490",
       "addStars": "29",
       "contributors": [
@@ -333,8 +365,8 @@
       "description": "Open Source Flight Controller Firmware",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "11,750",
-      "forks": "4,145",
+      "stars": "11,751",
+      "forks": "4,146",
       "addStars": "2",
       "contributors": [
         {
@@ -409,7 +441,7 @@
       "languageColor": "#555555",
       "stars": "27,312",
       "forks": "3,981",
-      "addStars": "4",
+      "addStars": "3",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/275871?s=40&v=4",
@@ -481,9 +513,9 @@
       "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "77,266",
-      "forks": "25,007",
-      "addStars": "34",
+      "stars": "77,267",
+      "forks": "25,006",
+      "addStars": "77",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/65632?s=40&v=4",
@@ -520,7 +552,7 @@
       "languageColor": "#555555",
       "stars": "6,398",
       "forks": "3,360",
-      "addStars": "2",
+      "addStars": "1",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/8294960?s=40&v=4",
@@ -555,8 +587,8 @@
       "description": "Apache NuttX is a mature, real-time embedded operating system (RTOS)",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,102",
-      "forks": "1,750",
+      "stars": "4,103",
+      "forks": "1,751",
       "addStars": "2",
       "contributors": [
         {
@@ -594,7 +626,7 @@
       "languageColor": "#555555",
       "stars": "3,672",
       "forks": "1,351",
-      "addStars": "2",
+      "addStars": "3",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/631932?s=40&v=4",
@@ -629,9 +661,9 @@
       "description": "Portable OpenSSH",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,095",
+      "stars": "4,096",
       "forks": "2,212",
-      "addStars": "6",
+      "addStars": "8",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/170281?s=40&v=4",
@@ -668,7 +700,7 @@
       "languageColor": "#555555",
       "stars": "12,550",
       "forks": "2,085",
-      "addStars": "4",
+      "addStars": "3",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/148917?s=40&v=4",
@@ -703,9 +735,9 @@
       "description": "",
       "language": "C#",
       "languageColor": "",
-      "stars": "7,821",
+      "stars": "7,873",
       "forks": "276",
-      "addStars": "6,437",
+      "addStars": "6,493",
       "contributors": [],
       "source": "trendshift"
     },
@@ -715,9 +747,9 @@
       "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "language": "C#",
       "languageColor": "",
-      "stars": "23,051",
+      "stars": "23,103",
       "forks": "1,383",
-      "addStars": "3,059",
+      "addStars": "3,118",
       "contributors": [],
       "source": "trendshift"
     },
@@ -727,9 +759,9 @@
       "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
       "language": "C#",
       "languageColor": "",
-      "stars": "4,290",
+      "stars": "4,301",
       "forks": "128",
-      "addStars": "537",
+      "addStars": "546",
       "contributors": [],
       "source": "trendshift"
     },
@@ -739,9 +771,9 @@
       "description": "哔哩哔哩第三方桌面客户端 · Windows / WPF / .NET 10 ",
       "language": "C#",
       "languageColor": "",
-      "stars": "556",
+      "stars": "558",
       "forks": "13",
-      "addStars": "328",
+      "addStars": "330",
       "contributors": [],
       "source": "trendshift"
     },
@@ -751,9 +783,9 @@
       "description": "Open-source Windows game resource manager. Suppresses background processes, gives games exclusive CPU cores, steers device interrupts off game cores, applies per-game GPU driver, memory and power policies, and restores every change after play. No injection, no telemetry. GPL-3.0.",
       "language": "C#",
       "languageColor": "",
-      "stars": "880",
+      "stars": "888",
       "forks": "42",
-      "addStars": "268",
+      "addStars": "277",
       "contributors": [],
       "source": "trendshift"
     },
@@ -763,9 +795,9 @@
       "description": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
       "language": "C#",
       "languageColor": "",
-      "stars": "8,392",
+      "stars": "8,430",
       "forks": "480",
-      "addStars": "422",
+      "addStars": "455",
       "contributors": [],
       "source": "trendshift"
     },
@@ -775,9 +807,9 @@
       "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
       "language": "C#",
       "languageColor": "",
-      "stars": "11,026",
+      "stars": "11,034",
       "forks": "507",
-      "addStars": "273",
+      "addStars": "281",
       "contributors": [],
       "source": "trendshift"
     },
@@ -787,9 +819,9 @@
       "description": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
       "language": "C#",
       "languageColor": "",
-      "stars": "4,598",
-      "forks": "294",
-      "addStars": "149",
+      "stars": "4,600",
+      "forks": "295",
+      "addStars": "151",
       "contributors": [],
       "source": "trendshift"
     },
@@ -799,9 +831,33 @@
       "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
       "language": "C#",
       "languageColor": "",
-      "stars": "120,079",
-      "forks": "16,679",
-      "addStars": "355",
+      "stars": "120,089",
+      "forks": "16,686",
+      "addStars": "365",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ntdevlabs/tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "21,732",
+      "forks": "1,684",
+      "addStars": "241",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "brenpoly/CardboardXR",
+      "url": "https://github.com/brenpoly/CardboardXR",
+      "description": "Google Cardboard with 6DoF head tracking, passthrough and hand tracking, from ARCore and ARKit, in Unity",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "241",
+      "forks": "49",
+      "addStars": "90",
       "contributors": [],
       "source": "trendshift"
     },
@@ -818,38 +874,14 @@
       "source": "trendshift"
     },
     {
-      "title": "ntdevlabs/tiny11builder",
-      "url": "https://github.com/ntdevlabs/tiny11builder",
-      "description": "WinUI app for building smaller, customized Windows 11 images.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "21,725",
-      "forks": "1,684",
-      "addStars": "228",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "brenpoly/CardboardXR",
-      "url": "https://github.com/brenpoly/CardboardXR",
-      "description": "Google Cardboard with 6DoF head tracking, passthrough and hand tracking, from ARCore and ARKit, in Unity",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "238",
-      "forks": "49",
-      "addStars": "86",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "lachydotmcg/capri-desktop",
       "url": "https://github.com/lachydotmcg/capri-desktop",
       "description": "A quiet, unofficial Capri companion for your Windows desktop.",
       "language": "C#",
       "languageColor": "",
-      "stars": "416",
+      "stars": "417",
       "forks": "89",
-      "addStars": "156",
+      "addStars": "158",
       "contributors": [],
       "source": "trendshift"
     },
@@ -859,9 +891,45 @@
       "description": "The Free Software Media System - Server Backend & API",
       "language": "C#",
       "languageColor": "",
-      "stars": "59,069",
-      "forks": "5,997",
-      "addStars": "170",
+      "stars": "59,078",
+      "forks": "6,003",
+      "addStars": "179",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tigin-backwards/oni-moono",
+      "url": "https://github.com/tigin-backwards/oni-moono",
+      "description": "Oxygen Not Included's Unity layer on the BRUTAL framework, .NET 10 CoreCLR. On a late-game colony the game runs at about 8× the original's frame rate",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "146",
+      "forks": "8",
+      "addStars": "71",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "33,100",
+      "forks": "2,384",
+      "addStars": "192",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ShareX/ShareX",
+      "url": "https://github.com/ShareX/ShareX",
+      "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "40,708",
+      "forks": "4,045",
+      "addStars": "138",
       "contributors": [],
       "source": "trendshift"
     },
@@ -878,50 +946,38 @@
       "source": "trendshift"
     },
     {
-      "title": "tigin-backwards/oni-moono",
-      "url": "https://github.com/tigin-backwards/oni-moono",
-      "description": "Oxygen Not Included's Unity layer on the BRUTAL framework, .NET 10 CoreCLR. On a late-game colony the game runs at about 8× the original's frame rate",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "144",
-      "forks": "7",
-      "addStars": "69",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "iOfficeAI/OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "33,098",
-      "forks": "2,384",
-      "addStars": "186",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "CoplayDev/unity-mcp",
       "url": "https://github.com/CoplayDev/unity-mcp",
       "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
       "language": "C#",
       "languageColor": "",
-      "stars": "15,766",
+      "stars": "15,767",
       "forks": "1,846",
-      "addStars": "146",
+      "addStars": "147",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ShareX/ShareX",
-      "url": "https://github.com/ShareX/ShareX",
-      "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
+      "title": "d2phap/ImageGlass",
+      "url": "https://github.com/d2phap/ImageGlass",
+      "description": "🏞 A fast, open-source, modern image viewer for 90+ formats – including WEBP, GIF, SVG, AVIF, JXL, HEIC and more – built for smooth browsing across Windows, macOS, and Linux.",
       "language": "C#",
       "languageColor": "",
-      "stars": "40,706",
-      "forks": "4,036",
-      "addStars": "132",
+      "stars": "14,869",
+      "forks": "795",
+      "addStars": "94",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "graealex/WaveDudeNext",
+      "url": "https://github.com/graealex/WaveDudeNext",
+      "description": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "113",
+      "forks": "10",
+      "addStars": "92",
       "contributors": [],
       "source": "trendshift"
     },
@@ -938,14 +994,26 @@
       "source": "trendshift"
     },
     {
-      "title": "graealex/WaveDudeNext",
-      "url": "https://github.com/graealex/WaveDudeNext",
-      "description": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export.",
+      "title": "babalae/better-genshin-impact",
+      "url": "https://github.com/babalae/better-genshin-impact",
+      "description": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 | 桌面分身 - UI Automation Testing Tools For Genshin Impact",
       "language": "C#",
       "languageColor": "",
-      "stars": "107",
-      "forks": "10",
-      "addStars": "88",
+      "stars": "17,708",
+      "forks": "1,378",
+      "addStars": "173",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "OpenIGI/OpenIGI",
+      "url": "https://github.com/OpenIGI/OpenIGI",
+      "description": "A clean-room reimplementation of the Project I.G.I. and I.G.I. 2 engine in C#/.NET 10. It plays the original missions faithfully, with a modern renderer (D3D12, Vulkan, WebGPU, ray tracing, DLSS), co-op, mods and a launcher.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "113",
+      "forks": "21",
+      "addStars": "49",
       "contributors": [],
       "source": "trendshift"
     },
@@ -958,42 +1026,6 @@
       "stars": "60",
       "forks": "10",
       "addStars": "53",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "d2phap/ImageGlass",
-      "url": "https://github.com/d2phap/ImageGlass",
-      "description": "🏞 A fast, open-source, modern image viewer for 90+ formats – including WEBP, GIF, SVG, AVIF, JXL, HEIC and more – built for smooth browsing across Windows, macOS, and Linux.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "14,864",
-      "forks": "795",
-      "addStars": "88",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "OpenIGI/OpenIGI",
-      "url": "https://github.com/OpenIGI/OpenIGI",
-      "description": "A clean-room reimplementation of the Project I.G.I. and I.G.I. 2 engine in C#/.NET 10. It plays the original missions faithfully, with a modern renderer (D3D12, Vulkan, WebGPU, ray tracing, DLSS), co-op, mods and a launcher.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "113",
-      "forks": "21",
-      "addStars": "48",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "babalae/better-genshin-impact",
-      "url": "https://github.com/babalae/better-genshin-impact",
-      "description": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 | 桌面分身 - UI Automation Testing Tools For Genshin Impact",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "17,707",
-      "forks": "1,378",
-      "addStars": "167",
       "contributors": [],
       "source": "trendshift"
     }
