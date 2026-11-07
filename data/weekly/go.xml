@@ -3,7 +3,7 @@
     <title>GitHub Go Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Go Languages in GitHub</description>
-    <pubDate>Sat, 07 Nov 2026 05:12:19 GMT</pubDate>
+    <pubDate>Sat, 07 Nov 2026 14:39:45 GMT</pubDate>
     <item>
       <title>moby/moby</title>
       <link>https://github.com/moby/moby</link>
@@ -11,7 +11,7 @@
       <guid>https://github.com/moby/moby</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>72,353</stars>
+      <stars>72,360</stars>
       <forks>19,318</forks>
       <addStars>205</addStars>
       <contributors>
@@ -43,14 +43,47 @@
       </contributors>
     </item>
     <item>
+      <title>prometheus/prometheus</title>
+      <link>https://github.com/prometheus/prometheus</link>
+      <description>The Prometheus monitoring system and time series database.</description>
+      <guid>https://github.com/prometheus/prometheus</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>67,329</stars>
+      <forks>10,995</forks>
+      <addStars>354</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4</avatar>
+          <name>fabxc</name>
+          <url>https://github.com/fabxc</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/538008?s=40&amp;v=4</avatar>
+          <name>juliusv</name>
+          <url>https://github.com/juliusv</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5609886?s=40&amp;v=4</avatar>
+          <name>beorn7</name>
+          <url>https://github.com/beorn7</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8125524?s=40&amp;v=4</avatar>
+          <name>bboreham</name>
+          <url>https://github.com/bboreham</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>multica-ai/multica</title>
       <link>https://github.com/multica-ai/multica</link>
       <description>Make humans and AI agents work as one team — open-source and self-hostable.</description>
       <guid>https://github.com/multica-ai/multica</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>55,180</stars>
-      <forks>7,273</forks>
+      <stars>55,215</stars>
+      <forks>7,277</forks>
       <addStars>825</addStars>
       <contributors>
         <contributor>
@@ -87,7 +120,7 @@
       <guid>https://github.com/go-gitea/gitea</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>58,933</stars>
+      <stars>58,941</stars>
       <forks>7,368</forks>
       <addStars>178</addStars>
       <contributors>
@@ -125,8 +158,8 @@
       <guid>https://github.com/argoproj/argo-cd</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>24,561</stars>
-      <forks>8,105</forks>
+      <stars>24,564</stars>
+      <forks>8,107</forks>
       <addStars>59</addStars>
       <contributors>
         <contributor>
@@ -152,13 +185,84 @@
       </contributors>
     </item>
     <item>
+      <title>etcd-io/etcd</title>
+      <link>https://github.com/etcd-io/etcd</link>
+      <description>Distributed reliable key-value store for the most critical data of a distributed system</description>
+      <guid>https://github.com/etcd-io/etcd</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>52,668</stars>
+      <forks>10,592</forks>
+      <addStars>209</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4</avatar>
+          <name>gyuho</name>
+          <url>https://github.com/gyuho</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/30739825?s=40&amp;v=4</avatar>
+          <name>ahrtr</name>
+          <url>https://github.com/ahrtr</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4479947?s=40&amp;v=4</avatar>
+          <name>xiang90</name>
+          <url>https://github.com/xiang90</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5873433?s=40&amp;v=4</avatar>
+          <name>serathius</name>
+          <url>https://github.com/serathius</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/2976232?s=40&amp;v=4</avatar>
+          <name>yichengq</name>
+          <url>https://github.com/yichengq</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>gin-gonic/gin</title>
+      <link>https://github.com/gin-gonic/gin</link>
+      <description>Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.</description>
+      <guid>https://github.com/gin-gonic/gin</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>89,601</stars>
+      <forks>8,911</forks>
+      <addStars>199</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4</avatar>
+          <name>manucorporat</name>
+          <url>https://github.com/manucorporat</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/21979?s=40&amp;v=4</avatar>
+          <name>appleboy</name>
+          <url>https://github.com/appleboy</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/2457529?s=40&amp;v=4</avatar>
+          <name>javierprovecho</name>
+          <url>https://github.com/javierprovecho</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4488261?s=40&amp;v=4</avatar>
+          <name>thinkerou</name>
+          <url>https://github.com/thinkerou</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>docker/compose</title>
       <link>https://github.com/docker/compose</link>
       <description>Define and run multi-container applications with Docker</description>
       <guid>https://github.com/docker/compose</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>38,630</stars>
+      <stars>38,631</stars>
       <forks>5,902</forks>
       <addStars>146</addStars>
       <contributors>
@@ -185,52 +289,14 @@
       </contributors>
     </item>
     <item>
-      <title>netbirdio/netbird</title>
-      <link>https://github.com/netbirdio/netbird</link>
-      <description>NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®</description>
-      <guid>https://github.com/netbirdio/netbird</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>30,749</stars>
-      <forks>1,833</forks>
-      <addStars>395</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4</avatar>
-          <name>mlsmaycon</name>
-          <url>https://github.com/mlsmaycon</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/32096965?s=40&amp;v=4</avatar>
-          <name>pascal-fischer</name>
-          <url>https://github.com/pascal-fischer</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/17948409?s=40&amp;v=4</avatar>
-          <name>lixmal</name>
-          <url>https://github.com/lixmal</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/700848?s=40&amp;v=4</avatar>
-          <name>braginini</name>
-          <url>https://github.com/braginini</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7756831?s=40&amp;v=4</avatar>
-          <name>pappz</name>
-          <url>https://github.com/pappz</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>nektos/act</title>
       <link>https://github.com/nektos/act</link>
       <description>Run your GitHub Actions locally 🚀</description>
       <guid>https://github.com/nektos/act</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>72,573</stars>
-      <forks>2,109</forks>
+      <stars>72,576</stars>
+      <forks>2,110</forks>
       <addStars>120</addStars>
       <contributors>
         <contributor>
@@ -251,111 +317,73 @@
       </contributors>
     </item>
     <item>
-      <title>infiniflow/ragflow</title>
-      <link>https://github.com/infiniflow/ragflow</link>
-      <description>RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.</description>
-      <guid>https://github.com/infiniflow/ragflow</guid>
+      <title>fleetdm/fleet</title>
+      <link>https://github.com/fleetdm/fleet</link>
+      <description>Open device management</description>
+      <guid>https://github.com/fleetdm/fleet</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>93,703</stars>
-      <forks>11,250</forks>
-      <addStars>540</addStars>
+      <stars>7,154</stars>
+      <forks>1,125</forks>
+      <addStars>65</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4</avatar>
-          <name>cike8899</name>
-          <url>https://github.com/cike8899</url>
+          <avatar>https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4</avatar>
+          <name>eashaw</name>
+          <url>https://github.com/eashaw</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/12318111?s=40&amp;v=4</avatar>
-          <name>KevinHuSh</name>
-          <url>https://github.com/KevinHuSh</url>
+          <avatar>https://avatars.githubusercontent.com/u/32207388?s=40&amp;v=4</avatar>
+          <name>allenhouchins</name>
+          <url>https://github.com/allenhouchins</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/33142505?s=40&amp;v=4</avatar>
-          <name>JinHai-CN</name>
-          <url>https://github.com/JinHai-CN</url>
+          <avatar>https://avatars.githubusercontent.com/u/47070608?s=40&amp;v=4</avatar>
+          <name>noahtalerman</name>
+          <url>https://github.com/noahtalerman</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/20180003?s=40&amp;v=4</avatar>
-          <name>dcc123456</name>
-          <url>https://github.com/dcc123456</url>
+          <avatar>https://avatars.githubusercontent.com/u/71795832?s=40&amp;v=4</avatar>
+          <name>RachelElysia</name>
+          <url>https://github.com/RachelElysia</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/15903574?s=40&amp;v=4</avatar>
-          <name>wangq8</name>
-          <url>https://github.com/wangq8</url>
+          <avatar>https://avatars.githubusercontent.com/u/618009?s=40&amp;v=4</avatar>
+          <name>mikermcneil</name>
+          <url>https://github.com/mikermcneil</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>Billionmail/BillionMail</title>
-      <link>https://github.com/Billionmail/BillionMail</link>
-      <description>BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr</description>
-      <guid>https://github.com/Billionmail/BillionMail</guid>
+      <title>openchoreo/openchoreo</title>
+      <link>https://github.com/openchoreo/openchoreo</link>
+      <description>OpenChoreo is an internal developer platform for Kubernetes</description>
+      <guid>https://github.com/openchoreo/openchoreo</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>16,206</stars>
-      <forks>1,808</forks>
-      <addStars>213</addStars>
+      <stars>1,838</stars>
+      <forks>283</forks>
+      <addStars>102</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/142645838?s=40&amp;v=4</avatar>
-          <name>lotkmm</name>
-          <url>https://github.com/lotkmm</url>
+          <avatar>https://avatars.githubusercontent.com/u/38396435?s=40&amp;v=4</avatar>
+          <name>chalindukodikara</name>
+          <url>https://github.com/chalindukodikara</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/31841517?s=40&amp;v=4</avatar>
-          <name>aaPanel</name>
-          <url>https://github.com/aaPanel</url>
+          <avatar>https://avatars.githubusercontent.com/u/8376040?s=40&amp;v=4</avatar>
+          <name>Mirage20</name>
+          <url>https://github.com/Mirage20</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/49576314?s=40&amp;v=4</avatar>
-          <name>dreambladeflag</name>
-          <url>https://github.com/dreambladeflag</url>
+          <avatar>https://avatars.githubusercontent.com/u/17524063?s=40&amp;v=4</avatar>
+          <name>VajiraPrabuddhaka</name>
+          <url>https://github.com/VajiraPrabuddhaka</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/10020595?s=40&amp;v=4</avatar>
-          <name>xiemoumou</name>
-          <url>https://github.com/xiemoumou</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>prometheus/prometheus</title>
-      <link>https://github.com/prometheus/prometheus</link>
-      <description>The Prometheus monitoring system and time series database.</description>
-      <guid>https://github.com/prometheus/prometheus</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>67,227</stars>
-      <forks>10,989</forks>
-      <addStars>354</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4948210?s=40&amp;v=4</avatar>
-          <name>fabxc</name>
-          <url>https://github.com/fabxc</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/538008?s=40&amp;v=4</avatar>
-          <name>juliusv</name>
-          <url>https://github.com/juliusv</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/5609886?s=40&amp;v=4</avatar>
-          <name>beorn7</name>
-          <url>https://github.com/beorn7</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8125524?s=40&amp;v=4</avatar>
-          <name>bboreham</name>
-          <url>https://github.com/bboreham</url>
+          <avatar>https://avatars.githubusercontent.com/u/35717600?s=40&amp;v=4</avatar>
+          <name>JanakaSandaruwan</name>
+          <url>https://github.com/JanakaSandaruwan</url>
         </contributor>
       </contributors>
     </item>
@@ -366,7 +394,7 @@
       <guid>https://github.com/gastownhall/beads</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>28,565</stars>
+      <stars>28,571</stars>
       <forks>1,935</forks>
       <addStars>271</addStars>
       <contributors>
@@ -398,111 +426,78 @@
       </contributors>
     </item>
     <item>
-      <title>mayswind/ezbookkeeping</title>
-      <link>https://github.com/mayswind/ezbookkeeping</link>
-      <description>ezBookkeeping is an open source, powerful, self-hosted personal finance app that is easy to use.</description>
-      <guid>https://github.com/mayswind/ezbookkeeping</guid>
+      <title>rclone/rclone</title>
+      <link>https://github.com/rclone/rclone</link>
+      <description>"rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files</description>
+      <guid>https://github.com/rclone/rclone</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>6,015</stars>
-      <forks>752</forks>
-      <addStars>137</addStars>
+      <stars>60,848</stars>
+      <forks>5,658</forks>
+      <addStars>208</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2211648?s=40&amp;v=4</avatar>
-          <name>mayswind</name>
-          <url>https://github.com/mayswind</url>
+          <avatar>https://avatars.githubusercontent.com/u/536803?s=40&amp;v=4</avatar>
+          <name>ncw</name>
+          <url>https://github.com/ncw</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/136296842?s=40&amp;v=4</avatar>
-          <name>tkymmm</name>
-          <url>https://github.com/tkymmm</url>
+          <avatar>https://avatars.githubusercontent.com/u/12441419?s=40&amp;v=4</avatar>
+          <name>albertony</name>
+          <url>https://github.com/albertony</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6169776?s=40&amp;v=4</avatar>
-          <name>abrugues</name>
-          <url>https://github.com/abrugues</url>
+          <avatar>https://avatars.githubusercontent.com/u/31582349?s=40&amp;v=4</avatar>
+          <name>nielash</name>
+          <url>https://github.com/nielash</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/54883648?s=40&amp;v=4</avatar>
-          <name>Miguelonlonlon</name>
-          <url>https://github.com/Miguelonlonlon</url>
+          <avatar>https://avatars.githubusercontent.com/u/9028053?s=40&amp;v=4</avatar>
+          <name>ivandeex</name>
+          <url>https://github.com/ivandeex</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/11552351?s=40&amp;v=4</avatar>
-          <name>nktlitvinenko</name>
-          <url>https://github.com/nktlitvinenko</url>
+          <avatar>https://avatars.githubusercontent.com/u/448169?s=40&amp;v=4</avatar>
+          <name>B4dM4n</name>
+          <url>https://github.com/B4dM4n</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>gin-gonic/gin</title>
-      <link>https://github.com/gin-gonic/gin</link>
-      <description>Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.</description>
-      <guid>https://github.com/gin-gonic/gin</guid>
+      <title>infiniflow/ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.</description>
+      <guid>https://github.com/infiniflow/ragflow</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>89,593</stars>
-      <forks>8,910</forks>
-      <addStars>199</addStars>
+      <stars>93,722</stars>
+      <forks>11,252</forks>
+      <addStars>540</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/127379?s=40&amp;v=4</avatar>
-          <name>manucorporat</name>
-          <url>https://github.com/manucorporat</url>
+          <avatar>https://avatars.githubusercontent.com/u/8089971?s=40&amp;v=4</avatar>
+          <name>cike8899</name>
+          <url>https://github.com/cike8899</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/21979?s=40&amp;v=4</avatar>
-          <name>appleboy</name>
-          <url>https://github.com/appleboy</url>
+          <avatar>https://avatars.githubusercontent.com/u/12318111?s=40&amp;v=4</avatar>
+          <name>KevinHuSh</name>
+          <url>https://github.com/KevinHuSh</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2457529?s=40&amp;v=4</avatar>
-          <name>javierprovecho</name>
-          <url>https://github.com/javierprovecho</url>
+          <avatar>https://avatars.githubusercontent.com/u/33142505?s=40&amp;v=4</avatar>
+          <name>JinHai-CN</name>
+          <url>https://github.com/JinHai-CN</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4488261?s=40&amp;v=4</avatar>
-          <name>thinkerou</name>
-          <url>https://github.com/thinkerou</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>etcd-io/etcd</title>
-      <link>https://github.com/etcd-io/etcd</link>
-      <description>Distributed reliable key-value store for the most critical data of a distributed system</description>
-      <guid>https://github.com/etcd-io/etcd</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>52,634</stars>
-      <forks>10,590</forks>
-      <addStars>209</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6799218?s=40&amp;v=4</avatar>
-          <name>gyuho</name>
-          <url>https://github.com/gyuho</url>
+          <avatar>https://avatars.githubusercontent.com/u/20180003?s=40&amp;v=4</avatar>
+          <name>dcc123456</name>
+          <url>https://github.com/dcc123456</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/30739825?s=40&amp;v=4</avatar>
-          <name>ahrtr</name>
-          <url>https://github.com/ahrtr</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4479947?s=40&amp;v=4</avatar>
-          <name>xiang90</name>
-          <url>https://github.com/xiang90</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/5873433?s=40&amp;v=4</avatar>
-          <name>serathius</name>
-          <url>https://github.com/serathius</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2976232?s=40&amp;v=4</avatar>
-          <name>yichengq</name>
-          <url>https://github.com/yichengq</url>
+          <avatar>https://avatars.githubusercontent.com/u/15903574?s=40&amp;v=4</avatar>
+          <name>wangq8</name>
+          <url>https://github.com/wangq8</url>
         </contributor>
       </contributors>
     </item>
@@ -513,8 +508,8 @@
       <guid>https://github.com/golang/go</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>139,758</stars>
-      <forks>20,992</forks>
+      <stars>139,775</stars>
+      <forks>20,995</forks>
       <addStars>635</addStars>
       <contributors>
         <contributor>
@@ -545,111 +540,40 @@
       </contributors>
     </item>
     <item>
-      <title>fleetdm/fleet</title>
-      <link>https://github.com/fleetdm/fleet</link>
-      <description>Open device management</description>
-      <guid>https://github.com/fleetdm/fleet</guid>
+      <title>netbirdio/netbird</title>
+      <link>https://github.com/netbirdio/netbird</link>
+      <description>NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®</description>
+      <guid>https://github.com/netbirdio/netbird</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>7,149</stars>
-      <forks>1,123</forks>
-      <addStars>65</addStars>
+      <stars>30,759</stars>
+      <forks>1,836</forks>
+      <addStars>395</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7445991?s=40&amp;v=4</avatar>
-          <name>eashaw</name>
-          <url>https://github.com/eashaw</url>
+          <avatar>https://avatars.githubusercontent.com/u/7747744?s=40&amp;v=4</avatar>
+          <name>mlsmaycon</name>
+          <url>https://github.com/mlsmaycon</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/32207388?s=40&amp;v=4</avatar>
-          <name>allenhouchins</name>
-          <url>https://github.com/allenhouchins</url>
+          <avatar>https://avatars.githubusercontent.com/u/32096965?s=40&amp;v=4</avatar>
+          <name>pascal-fischer</name>
+          <url>https://github.com/pascal-fischer</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/47070608?s=40&amp;v=4</avatar>
-          <name>noahtalerman</name>
-          <url>https://github.com/noahtalerman</url>
+          <avatar>https://avatars.githubusercontent.com/u/17948409?s=40&amp;v=4</avatar>
+          <name>lixmal</name>
+          <url>https://github.com/lixmal</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/71795832?s=40&amp;v=4</avatar>
-          <name>RachelElysia</name>
-          <url>https://github.com/RachelElysia</url>
+          <avatar>https://avatars.githubusercontent.com/u/700848?s=40&amp;v=4</avatar>
+          <name>braginini</name>
+          <url>https://github.com/braginini</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/618009?s=40&amp;v=4</avatar>
-          <name>mikermcneil</name>
-          <url>https://github.com/mikermcneil</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>gohugoio/hugo</title>
-      <link>https://github.com/gohugoio/hugo</link>
-      <description>The world’s fastest framework for building websites.</description>
-      <guid>https://github.com/gohugoio/hugo</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>90,400</stars>
-      <forks>8,444</forks>
-      <addStars>134</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/394382?s=40&amp;v=4</avatar>
-          <name>bep</name>
-          <url>https://github.com/bep</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/173412?s=40&amp;v=4</avatar>
-          <name>spf13</name>
-          <url>https://github.com/spf13</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/335669?s=40&amp;v=4</avatar>
-          <name>jmooring</name>
-          <url>https://github.com/jmooring</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1274764?s=40&amp;v=4</avatar>
-          <name>anthonyfok</name>
-          <url>https://github.com/anthonyfok</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>Mag1cFall/AIStudio2API</title>
-      <link>https://github.com/Mag1cFall/AIStudio2API</link>
-      <description>将AI Studio Playground和Build反代成API | AI Studio to OpenAI, Anthropic &amp; Gemini Compatible API</description>
-      <guid>https://github.com/Mag1cFall/AIStudio2API</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>772</stars>
-      <forks>172</forks>
-      <addStars>191</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/107487022?s=40&amp;v=4</avatar>
-          <name>Mag1cFall</name>
-          <url>https://github.com/Mag1cFall</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/221615165?s=40&amp;v=4</avatar>
-          <name>anon0v0</name>
-          <url>https://github.com/anon0v0</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81697345?s=40&amp;v=4</avatar>
-          <name>In-dor</name>
-          <url>https://github.com/In-dor</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/40693196?s=40&amp;v=4</avatar>
-          <name>IllusionOfControl</name>
-          <url>https://github.com/IllusionOfControl</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/250837564?s=40&amp;v=4</avatar>
-          <name>maebahesioru</name>
-          <url>https://github.com/maebahesioru</url>
+          <avatar>https://avatars.githubusercontent.com/u/7756831?s=40&amp;v=4</avatar>
+          <name>pappz</name>
+          <url>https://github.com/pappz</url>
         </contributor>
       </contributors>
     </item>
@@ -660,7 +584,7 @@
       <guid>https://github.com/kubernetes/kubernetes</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>128,880</stars>
+      <stars>128,886</stars>
       <forks>45,751</forks>
       <addStars>708</addStars>
       <contributors>
@@ -692,25 +616,149 @@
       </contributors>
     </item>
     <item>
-      <title>CarterPerez-dev/Cybersecurity-Projects</title>
-      <link>https://github.com/CarterPerez-dev/Cybersecurity-Projects</link>
-      <description>Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Owned by my cybersecurity company 👇</description>
-      <guid>https://github.com/CarterPerez-dev/Cybersecurity-Projects</guid>
+      <title>cli/cli</title>
+      <link>https://github.com/cli/cli</link>
+      <description>GitHub’s official command line tool</description>
+      <guid>https://github.com/cli/cli</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>9,297</stars>
-      <forks>1,362</forks>
-      <addStars>561</addStars>
+      <stars>46,902</stars>
+      <forks>9,257</forks>
+      <addStars>115</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/188120068?s=40&amp;v=4</avatar>
-          <name>CarterPerez-dev</name>
-          <url>https://github.com/CarterPerez-dev</url>
+          <avatar>https://avatars.githubusercontent.com/u/887?s=40&amp;v=4</avatar>
+          <name>mislav</name>
+          <url>https://github.com/mislav</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/179751626?s=40&amp;v=4</avatar>
-          <name>deniskhud</name>
-          <url>https://github.com/deniskhud</url>
+          <avatar>https://avatars.githubusercontent.com/u/98482?s=40&amp;v=4</avatar>
+          <name>vilmibm</name>
+          <url>https://github.com/vilmibm</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/47394200?s=40&amp;v=4</avatar>
+          <name>BagToad</name>
+          <url>https://github.com/BagToad</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1611510?s=40&amp;v=4</avatar>
+          <name>williammartin</name>
+          <url>https://github.com/williammartin</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/36728931?s=40&amp;v=4</avatar>
+          <name>babakks</name>
+          <url>https://github.com/babakks</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>microsoft/TypeScript</title>
+      <link>https://github.com/microsoft/TypeScript</link>
+      <description>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</description>
+      <guid>https://github.com/microsoft/TypeScript</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>111,859</stars>
+      <forks>15,398</forks>
+      <addStars>334</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4226954?s=40&amp;v=4</avatar>
+          <name>ahejlsberg</name>
+          <url>https://github.com/ahejlsberg</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8052792?s=40&amp;v=4</avatar>
+          <name>sheetalkamat</name>
+          <url>https://github.com/sheetalkamat</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/972891?s=40&amp;v=4</avatar>
+          <name>DanielRosenwasser</name>
+          <url>https://github.com/DanielRosenwasser</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/293473?s=40&amp;v=4</avatar>
+          <name>sandersn</name>
+          <url>https://github.com/sandersn</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8000722?s=40&amp;v=4</avatar>
+          <name>mhegazy</name>
+          <url>https://github.com/mhegazy</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>mayswind/ezbookkeeping</title>
+      <link>https://github.com/mayswind/ezbookkeeping</link>
+      <description>ezBookkeeping is an open source, powerful, self-hosted personal finance app that is easy to use.</description>
+      <guid>https://github.com/mayswind/ezbookkeeping</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>6,018</stars>
+      <forks>754</forks>
+      <addStars>137</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/2211648?s=40&amp;v=4</avatar>
+          <name>mayswind</name>
+          <url>https://github.com/mayswind</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/136296842?s=40&amp;v=4</avatar>
+          <name>tkymmm</name>
+          <url>https://github.com/tkymmm</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6169776?s=40&amp;v=4</avatar>
+          <name>abrugues</name>
+          <url>https://github.com/abrugues</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/54883648?s=40&amp;v=4</avatar>
+          <name>Miguelonlonlon</name>
+          <url>https://github.com/Miguelonlonlon</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/11552351?s=40&amp;v=4</avatar>
+          <name>nktlitvinenko</name>
+          <url>https://github.com/nktlitvinenko</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>gohugoio/hugo</title>
+      <link>https://github.com/gohugoio/hugo</link>
+      <description>The world’s fastest framework for building websites.</description>
+      <guid>https://github.com/gohugoio/hugo</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>90,406</stars>
+      <forks>8,443</forks>
+      <addStars>134</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/394382?s=40&amp;v=4</avatar>
+          <name>bep</name>
+          <url>https://github.com/bep</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/173412?s=40&amp;v=4</avatar>
+          <name>spf13</name>
+          <url>https://github.com/spf13</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/335669?s=40&amp;v=4</avatar>
+          <name>jmooring</name>
+          <url>https://github.com/jmooring</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1274764?s=40&amp;v=4</avatar>
+          <name>anthonyfok</name>
+          <url>https://github.com/anthonyfok</url>
         </contributor>
       </contributors>
     </item>
@@ -721,9 +769,9 @@
       <guid>https://github.com/yetone/magpie</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>31,258</stars>
-      <forks>2,772</forks>
-      <addStars>3,742</addStars>
+      <stars>31,561</stars>
+      <forks>2,835</forks>
+      <addStars>4,053</addStars>
       <contributors/>
     </item>
     <item>
@@ -733,9 +781,9 @@
       <guid>https://github.com/JuliusBrussee/caveman</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>118,017</stars>
-      <forks>7,468</forks>
-      <addStars>1,332</addStars>
+      <stars>118,095</stars>
+      <forks>7,487</forks>
+      <addStars>1,401</addStars>
       <contributors/>
     </item>
     <item>
@@ -745,21 +793,9 @@
       <guid>https://github.com/egoist/mygo</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>5,032</stars>
-      <forks>298</forks>
-      <addStars>1,050</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>keploy/keploy</title>
-      <link>https://github.com/keploy/keploy</link>
-      <description>Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.</description>
-      <guid>https://github.com/keploy/keploy</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>19,501</stars>
-      <forks>2,550</forks>
-      <addStars>528</addStars>
+      <stars>5,113</stars>
+      <forks>313</forks>
+      <addStars>1,130</addStars>
       <contributors/>
     </item>
     <item>
@@ -769,21 +805,21 @@
       <guid>https://github.com/avelino/awesome-go</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>192,444</stars>
-      <forks>13,614</forks>
-      <addStars>922</addStars>
+      <stars>192,524</stars>
+      <forks>13,622</forks>
+      <addStars>1,007</addStars>
       <contributors/>
     </item>
     <item>
-      <title>flock-php/flock</title>
-      <link>https://github.com/flock-php/flock</link>
-      <description/>
-      <guid>https://github.com/flock-php/flock</guid>
+      <title>keploy/keploy</title>
+      <link>https://github.com/keploy/keploy</link>
+      <description>Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.</description>
+      <guid>https://github.com/keploy/keploy</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>427</stars>
-      <forks>35</forks>
-      <addStars>332</addStars>
+      <stars>19,518</stars>
+      <forks>2,550</forks>
+      <addStars>545</addStars>
       <contributors/>
     </item>
     <item>
@@ -793,9 +829,21 @@
       <guid>https://github.com/vxcontrol/pentagi</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>33,537</stars>
-      <forks>5,640</forks>
-      <addStars>606</addStars>
+      <stars>33,586</stars>
+      <forks>5,655</forks>
+      <addStars>646</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>flock-php/flock</title>
+      <link>https://github.com/flock-php/flock</link>
+      <description/>
+      <guid>https://github.com/flock-php/flock</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>436</stars>
+      <forks>38</forks>
+      <addStars>338</addStars>
       <contributors/>
     </item>
     <item>
@@ -805,129 +853,9 @@
       <guid>https://github.com/Asymptote-Labs/agent-beacon</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>3,356</stars>
-      <forks>297</forks>
-      <addStars>374</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>occupysaas/zeroauthy</title>
-      <link>https://github.com/occupysaas/zeroauthy</link>
-      <description>A clean room recreation of Auth0 with 1:1 drop in replacement feature parity.</description>
-      <guid>https://github.com/occupysaas/zeroauthy</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>366</stars>
-      <forks>32</forks>
-      <addStars>268</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>heartleo/zlib</title>
-      <link>https://github.com/heartleo/zlib</link>
-      <description>A command-line tool for Z-Library. Search, download, send to Kindle, and integrate with AI agents.</description>
-      <guid>https://github.com/heartleo/zlib</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>1,510</stars>
-      <forks>126</forks>
-      <addStars>268</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Gentleman-Programming/gentle-ai</title>
-      <link>https://github.com/Gentleman-Programming/gentle-ai</link>
-      <description>Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.</description>
-      <guid>https://github.com/Gentleman-Programming/gentle-ai</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>8,527</stars>
-      <forks>1,008</forks>
-      <addStars>365</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>BaaRai/ARTEX</title>
-      <link>https://github.com/BaaRai/ARTEX</link>
-      <description>ARTEX - AI autonomous penetration testing system (English translation)</description>
-      <guid>https://github.com/BaaRai/ARTEX</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>1,584</stars>
-      <forks>595</forks>
-      <addStars>564</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>melqtx/tork</title>
-      <link>https://github.com/melqtx/tork</link>
-      <description>cli for searching and downloading torrents</description>
-      <guid>https://github.com/melqtx/tork</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>491</stars>
-      <forks>24</forks>
-      <addStars>255</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>router-for-me/CLIProxyAPI</title>
-      <link>https://github.com/router-for-me/CLIProxyAPI</link>
-      <description>Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API</description>
-      <guid>https://github.com/router-for-me/CLIProxyAPI</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>57,811</stars>
-      <forks>9,510</forks>
-      <addStars>606</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Lee-xeo/Claude-Cage</title>
-      <link>https://github.com/Lee-xeo/Claude-Cage</link>
-      <description>Cage：Mac 上的独立 Claude 编码工作区，集成 Linux 终端、浏览器与项目编辑器。</description>
-      <guid>https://github.com/Lee-xeo/Claude-Cage</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>486</stars>
-      <forks>39</forks>
-      <addStars>395</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ollama/ollama</title>
-      <link>https://github.com/ollama/ollama</link>
-      <description>Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</description>
-      <guid>https://github.com/ollama/ollama</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>186,152</stars>
-      <forks>19,559</forks>
-      <addStars>560</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>mcpjungle/MCPJungle</title>
-      <link>https://github.com/mcpjungle/MCPJungle</link>
-      <description>One place to manage &amp; connect to all your MCP servers</description>
-      <guid>https://github.com/mcpjungle/MCPJungle</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>1,611</stars>
-      <forks>202</forks>
-      <addStars>248</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>warmbly/warmbly</title>
-      <link>https://github.com/warmbly/warmbly</link>
-      <description>The largest open-source B2B cold outreach and email warmup service.</description>
-      <guid>https://github.com/warmbly/warmbly</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>963</stars>
-      <forks>172</forks>
-      <addStars>317</addStars>
+      <stars>3,363</stars>
+      <forks>300</forks>
+      <addStars>385</addStars>
       <contributors/>
     </item>
     <item>
@@ -937,9 +865,129 @@
       <guid>https://github.com/dsx-ai-factory/nvke</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>286</stars>
-      <forks>71</forks>
-      <addStars>239</addStars>
+      <stars>336</stars>
+      <forks>77</forks>
+      <addStars>313</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>BaaRai/ARTEX</title>
+      <link>https://github.com/BaaRai/ARTEX</link>
+      <description>ARTEX - AI autonomous penetration testing system (English translation)</description>
+      <guid>https://github.com/BaaRai/ARTEX</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>1,614</stars>
+      <forks>621</forks>
+      <addStars>602</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Lee-xeo/Claude-Cage</title>
+      <link>https://github.com/Lee-xeo/Claude-Cage</link>
+      <description>Cage：Mac 上的独立 Claude 编码工作区，集成 Linux 终端、浏览器与项目编辑器。</description>
+      <guid>https://github.com/Lee-xeo/Claude-Cage</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>558</stars>
+      <forks>51</forks>
+      <addStars>455</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ollama/ollama</title>
+      <link>https://github.com/ollama/ollama</link>
+      <description>Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</description>
+      <guid>https://github.com/ollama/ollama</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>186,221</stars>
+      <forks>19,586</forks>
+      <addStars>633</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>heartleo/zlib</title>
+      <link>https://github.com/heartleo/zlib</link>
+      <description>A command-line tool for Z-Library. Search, download, send to Kindle, and integrate with AI agents.</description>
+      <guid>https://github.com/heartleo/zlib</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>1,528</stars>
+      <forks>126</forks>
+      <addStars>285</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Gentleman-Programming/gentle-ai</title>
+      <link>https://github.com/Gentleman-Programming/gentle-ai</link>
+      <description>Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.</description>
+      <guid>https://github.com/Gentleman-Programming/gentle-ai</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>8,549</stars>
+      <forks>1,012</forks>
+      <addStars>379</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>occupysaas/zeroauthy</title>
+      <link>https://github.com/occupysaas/zeroauthy</link>
+      <description>A clean room recreation of Auth0 with 1:1 drop in replacement feature parity.</description>
+      <guid>https://github.com/occupysaas/zeroauthy</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>370</stars>
+      <forks>35</forks>
+      <addStars>272</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>melqtx/tork</title>
+      <link>https://github.com/melqtx/tork</link>
+      <description>cli for searching and downloading torrents</description>
+      <guid>https://github.com/melqtx/tork</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>510</stars>
+      <forks>27</forks>
+      <addStars>274</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>router-for-me/CLIProxyAPI</title>
+      <link>https://github.com/router-for-me/CLIProxyAPI</link>
+      <description>Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API</description>
+      <guid>https://github.com/router-for-me/CLIProxyAPI</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>57,850</stars>
+      <forks>9,527</forks>
+      <addStars>641</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>solongate/agent-security</title>
+      <link>https://github.com/solongate/agent-security</link>
+      <description>Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, and audit actions on-device.</description>
+      <guid>https://github.com/solongate/agent-security</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>400</stars>
+      <forks>52</forks>
+      <addStars>320</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>N4darae/shrt</title>
+      <link>https://github.com/N4darae/shrt</link>
+      <description>A contract-driven gRPC regression harness for AI coding agents, with human-approved baselines. Snapshot the valid call chains of an API so an agent can look one up instead of tracing for it. gRPC today, OpenAPI next</description>
+      <guid>https://github.com/N4darae/shrt</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>2,460</stars>
+      <forks>169</forks>
+      <addStars>479</addStars>
       <contributors/>
     </item>
     <item>
@@ -949,9 +997,21 @@
       <guid>https://github.com/kamalyes/go-toolbox</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>321</stars>
+      <stars>333</stars>
       <forks>10</forks>
-      <addStars>229</addStars>
+      <addStars>245</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>warmbly/warmbly</title>
+      <link>https://github.com/warmbly/warmbly</link>
+      <description>The largest open-source B2B cold outreach and email warmup service.</description>
+      <guid>https://github.com/warmbly/warmbly</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>968</stars>
+      <forks>174</forks>
+      <addStars>321</addStars>
       <contributors/>
     </item>
     <item>
@@ -961,9 +1021,9 @@
       <guid>https://github.com/RuoJi6/ARTEX</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>1,352</stars>
-      <forks>807</forks>
-      <addStars>376</addStars>
+      <stars>1,370</stars>
+      <forks>829</forks>
+      <addStars>392</addStars>
       <contributors/>
     </item>
     <item>
@@ -973,21 +1033,9 @@
       <guid>https://github.com/Tencent/WeKnora</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>36,686</stars>
-      <forks>5,275</forks>
-      <addStars>509</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>pocket-id/pocket-id</title>
-      <link>https://github.com/pocket-id/pocket-id</link>
-      <description>The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.</description>
-      <guid>https://github.com/pocket-id/pocket-id</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>10,155</stars>
-      <forks>383</forks>
-      <addStars>291</addStars>
+      <stars>36,729</stars>
+      <forks>5,290</forks>
+      <addStars>546</addStars>
       <contributors/>
     </item>
   </channel>

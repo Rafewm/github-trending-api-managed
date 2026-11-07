@@ -2,7 +2,7 @@
   "title": "GitHub C++ Languages Monthly Trending",
   "description": "Monthly Trending of C++ Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 07 Nov 2026 05:12:19 GMT",
+  "pubDate": "Sat, 07 Nov 2026 14:39:45 GMT",
   "items": [
     {
       "title": "boykopovar/AnyPS5",
@@ -10,8 +10,8 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "51,842",
-      "forks": "4,935",
+      "stars": "51,938",
+      "forks": "4,949",
       "addStars": "46,561",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "32,802",
-      "forks": "7,729",
+      "stars": "32,831",
+      "forks": "7,745",
       "addStars": "2,427",
       "contributors": [
         {
@@ -79,12 +79,81 @@
       ]
     },
     {
+      "title": "electron/electron",
+      "url": "https://github.com/electron/electron",
+      "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "123,817",
+      "forks": "17,890",
+      "addStars": "798",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/639601?s=40&v=4",
+          "name": "zcbenz",
+          "url": "https://github.com/zcbenz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/671378?s=40&v=4",
+          "name": "kevinsawicki",
+          "url": "https://github.com/kevinsawicki"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2036040?s=40&v=4",
+          "name": "codebytere",
+          "url": "https://github.com/codebytere"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6634592?s=40&v=4",
+          "name": "MarshallOfSound",
+          "url": "https://github.com/MarshallOfSound"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/172800?s=40&v=4",
+          "name": "nornagon",
+          "url": "https://github.com/nornagon"
+        }
+      ]
+    },
+    {
+      "title": "esphome/esphome",
+      "url": "https://github.com/esphome/esphome",
+      "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "12,064",
+      "forks": "5,794",
+      "addStars": "276",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/663432?s=40&v=4",
+          "name": "bdraco",
+          "url": "https://github.com/bdraco"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3060199?s=40&v=4",
+          "name": "jesserockz",
+          "url": "https://github.com/jesserockz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/154711427?s=40&v=4",
+          "name": "swoboda1337",
+          "url": "https://github.com/swoboda1337"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6833237?s=40&v=4",
+          "name": "OttoWinter",
+          "url": "https://github.com/OttoWinter"
+        }
+      ]
+    },
+    {
       "title": "ran-j/PS2Recomp",
       "url": "https://github.com/ran-j/PS2Recomp",
       "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "3,804",
+      "stars": "3,805",
       "forks": "250",
       "addStars": "491",
       "contributors": [
@@ -121,8 +190,8 @@
       "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "35,191",
-      "forks": "6,360",
+      "stars": "35,213",
+      "forks": "6,361",
       "addStars": "1,294",
       "contributors": [
         {
@@ -158,8 +227,8 @@
       "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "55,762",
-      "forks": "2,610",
+      "stars": "55,772",
+      "forks": "2,614",
       "addStars": "857",
       "contributors": [
         {
@@ -190,39 +259,29 @@
       ]
     },
     {
-      "title": "electron/electron",
-      "url": "https://github.com/electron/electron",
-      "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "title": "orailnoor/cross-platform-llm-client",
+      "url": "https://github.com/orailnoor/cross-platform-llm-client",
+      "description": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "123,811",
-      "forks": "17,890",
-      "addStars": "798",
+      "stars": "1,620",
+      "forks": "336",
+      "addStars": "448",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/639601?s=40&v=4",
-          "name": "zcbenz",
-          "url": "https://github.com/zcbenz"
+          "avatar": "https://avatars.githubusercontent.com/u/54399984?s=40&v=4",
+          "name": "techjarves",
+          "url": "https://github.com/techjarves"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/671378?s=40&v=4",
-          "name": "kevinsawicki",
-          "url": "https://github.com/kevinsawicki"
+          "avatar": "https://avatars.githubusercontent.com/u/34442749?s=40&v=4",
+          "name": "orailnoor",
+          "url": "https://github.com/orailnoor"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2036040?s=40&v=4",
-          "name": "codebytere",
-          "url": "https://github.com/codebytere"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6634592?s=40&v=4",
-          "name": "MarshallOfSound",
-          "url": "https://github.com/MarshallOfSound"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/172800?s=40&v=4",
-          "name": "nornagon",
-          "url": "https://github.com/nornagon"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         }
       ]
     },
@@ -232,8 +291,8 @@
       "description": "Official inference framework for 1-bit LLMs",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "41,482",
-      "forks": "3,869",
+      "stars": "41,492",
+      "forks": "3,871",
       "addStars": "1,194",
       "contributors": [
         {
@@ -264,98 +323,39 @@
       ]
     },
     {
-      "title": "shadps4-emu/shadPS4",
-      "url": "https://github.com/shadps4-emu/shadPS4",
-      "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
+      "title": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "34,078",
-      "forks": "2,886",
-      "addStars": "1,083",
+      "stars": "40,472",
+      "forks": "2,168",
+      "addStars": "1,793",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4313123?s=40&v=4",
-          "name": "georgemoralis",
-          "url": "https://github.com/georgemoralis"
+          "avatar": "https://avatars.githubusercontent.com/u/43317083?s=40&v=4",
+          "name": "vaxerski",
+          "url": "https://github.com/vaxerski"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/175574877?s=40&v=4",
-          "name": "squidbus",
-          "url": "https://github.com/squidbus"
+          "avatar": "https://avatars.githubusercontent.com/u/36706276?s=40&v=4",
+          "name": "fufexan",
+          "url": "https://github.com/fufexan"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47210458?s=40&v=4",
-          "name": "raphaelthegreat",
-          "url": "https://github.com/raphaelthegreat"
+          "avatar": "https://avatars.githubusercontent.com/u/773455?s=40&v=4",
+          "name": "gulafaran",
+          "url": "https://github.com/gulafaran"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/56742918?s=40&v=4",
-          "name": "StevenMiller123",
-          "url": "https://github.com/StevenMiller123"
+          "avatar": "https://avatars.githubusercontent.com/u/123664421?s=40&v=4",
+          "name": "MightyPlaza",
+          "url": "https://github.com/MightyPlaza"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/168137814?s=40&v=4",
-          "name": "psucien",
-          "url": "https://github.com/psucien"
-        }
-      ]
-    },
-    {
-      "title": "esphome/esphome",
-      "url": "https://github.com/esphome/esphome",
-      "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "12,051",
-      "forks": "5,792",
-      "addStars": "276",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/663432?s=40&v=4",
-          "name": "bdraco",
-          "url": "https://github.com/bdraco"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3060199?s=40&v=4",
-          "name": "jesserockz",
-          "url": "https://github.com/jesserockz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/154711427?s=40&v=4",
-          "name": "swoboda1337",
-          "url": "https://github.com/swoboda1337"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6833237?s=40&v=4",
-          "name": "OttoWinter",
-          "url": "https://github.com/OttoWinter"
-        }
-      ]
-    },
-    {
-      "title": "orailnoor/cross-platform-llm-client",
-      "url": "https://github.com/orailnoor/cross-platform-llm-client",
-      "description": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "1,591",
-      "forks": "329",
-      "addStars": "448",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/54399984?s=40&v=4",
-          "name": "techjarves",
-          "url": "https://github.com/techjarves"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34442749?s=40&v=4",
-          "name": "orailnoor",
-          "url": "https://github.com/orailnoor"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/41110182?s=40&v=4",
+          "name": "UjinT34",
+          "url": "https://github.com/UjinT34"
         }
       ]
     },
@@ -365,7 +365,7 @@
       "description": "Snow Apps repository, providing source code for Snow Shot and Snow Image Viewer.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "6,721",
+      "stars": "6,737",
       "forks": "436",
       "addStars": "1,274",
       "contributors": [
@@ -397,39 +397,103 @@
       ]
     },
     {
-      "title": "hyprwm/Hyprland",
-      "url": "https://github.com/hyprwm/Hyprland",
-      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "title": "shadps4-emu/shadPS4",
+      "url": "https://github.com/shadps4-emu/shadPS4",
+      "description": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "40,453",
-      "forks": "2,167",
-      "addStars": "1,793",
+      "stars": "34,082",
+      "forks": "2,885",
+      "addStars": "1,083",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/43317083?s=40&v=4",
-          "name": "vaxerski",
-          "url": "https://github.com/vaxerski"
+          "avatar": "https://avatars.githubusercontent.com/u/4313123?s=40&v=4",
+          "name": "georgemoralis",
+          "url": "https://github.com/georgemoralis"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/36706276?s=40&v=4",
-          "name": "fufexan",
-          "url": "https://github.com/fufexan"
+          "avatar": "https://avatars.githubusercontent.com/u/175574877?s=40&v=4",
+          "name": "squidbus",
+          "url": "https://github.com/squidbus"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/773455?s=40&v=4",
-          "name": "gulafaran",
-          "url": "https://github.com/gulafaran"
+          "avatar": "https://avatars.githubusercontent.com/u/47210458?s=40&v=4",
+          "name": "raphaelthegreat",
+          "url": "https://github.com/raphaelthegreat"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/123664421?s=40&v=4",
-          "name": "MightyPlaza",
-          "url": "https://github.com/MightyPlaza"
+          "avatar": "https://avatars.githubusercontent.com/u/56742918?s=40&v=4",
+          "name": "StevenMiller123",
+          "url": "https://github.com/StevenMiller123"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/41110182?s=40&v=4",
-          "name": "UjinT34",
-          "url": "https://github.com/UjinT34"
+          "avatar": "https://avatars.githubusercontent.com/u/168137814?s=40&v=4",
+          "name": "psucien",
+          "url": "https://github.com/psucien"
+        }
+      ]
+    },
+    {
+      "title": "jrouwe/JoltPhysics",
+      "url": "https://github.com/jrouwe/JoltPhysics",
+      "description": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "12,232",
+      "forks": "1,011",
+      "addStars": "600",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1621693?s=40&v=4",
+          "name": "jrouwe",
+          "url": "https://github.com/jrouwe"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4884246?s=40&v=4",
+          "name": "mihe",
+          "url": "https://github.com/mihe"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2287609?s=40&v=4",
+          "name": "stephengold",
+          "url": "https://github.com/stephengold"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3002461?s=40&v=4",
+          "name": "SirLynix",
+          "url": "https://github.com/SirLynix"
+        }
+      ]
+    },
+    {
+      "title": "florinp93/hells-gate-recomp",
+      "url": "https://github.com/florinp93/hells-gate-recomp",
+      "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "852",
+      "forks": "40",
+      "addStars": "444",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/84400002?s=40&v=4",
+          "name": "florinp93",
+          "url": "https://github.com/florinp93"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/457793?s=40&v=4",
+          "name": "ClaudioVarandas",
+          "url": "https://github.com/ClaudioVarandas"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/95002964?s=40&v=4",
+          "name": "RaulPerez298",
+          "url": "https://github.com/RaulPerez298"
         }
       ]
     },
@@ -439,8 +503,8 @@
       "description": "A framework for building native applications using React",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "126,869",
-      "forks": "25,481",
+      "stars": "126,870",
+      "forks": "25,482",
       "addStars": "440",
       "contributors": [
         {
@@ -476,8 +540,8 @@
       "description": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "16,349",
-      "forks": "3,428",
+      "stars": "16,355",
+      "forks": "3,431",
       "addStars": "499",
       "contributors": [
         {
@@ -508,46 +572,14 @@
       ]
     },
     {
-      "title": "florinp93/hells-gate-recomp",
-      "url": "https://github.com/florinp93/hells-gate-recomp",
-      "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "848",
-      "forks": "40",
-      "addStars": "444",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/84400002?s=40&v=4",
-          "name": "florinp93",
-          "url": "https://github.com/florinp93"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/457793?s=40&v=4",
-          "name": "ClaudioVarandas",
-          "url": "https://github.com/ClaudioVarandas"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/95002964?s=40&v=4",
-          "name": "RaulPerez298",
-          "url": "https://github.com/RaulPerez298"
-        }
-      ]
-    },
-    {
       "title": "Djihads80/Eglantine",
       "url": "https://github.com/Djihads80/Eglantine",
       "description": "VERY experimental Nintendo Switch 2 emulator",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "4,933",
-      "forks": "528",
-      "addStars": "3,711",
+      "stars": "5,031",
+      "forks": "551",
+      "addStars": "3,824",
       "contributors": [],
       "source": "trendshift"
     },
@@ -557,9 +589,9 @@
       "description": "VERY experimental Nintendo Switch 2 emulator",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "4,120",
-      "forks": "461",
-      "addStars": "4,040",
+      "stars": "4,528",
+      "forks": "609",
+      "addStars": "4,537",
       "contributors": [],
       "source": "trendshift"
     },
@@ -569,9 +601,9 @@
       "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "41,116",
-      "forks": "4,504",
-      "addStars": "4,064",
+      "stars": "41,260",
+      "forks": "4,545",
+      "addStars": "4,240",
       "contributors": [],
       "source": "trendshift"
     },
@@ -581,9 +613,9 @@
       "description": "Blender's GPU Accelerated UI, Decoupled from it's original codebase",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "1,512",
-      "forks": "5",
-      "addStars": "1,481",
+      "stars": "1,806",
+      "forks": "55",
+      "addStars": "1,757",
       "contributors": [],
       "source": "trendshift"
     },
@@ -593,9 +625,21 @@
       "description": "LYNX SHARE — lightweight open-source DAW in C++20/JUCE with the FL Studio workflow: Channel Rack, Piano Roll, Playlist, Mixer and .flp import",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "733",
-      "forks": "77",
-      "addStars": "492",
+      "stars": "748",
+      "forks": "84",
+      "addStars": "507",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "NotRexed/Hookshot",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "description": "",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "863",
+      "forks": "1",
+      "addStars": "823",
       "contributors": [],
       "source": "trendshift"
     },
@@ -605,9 +649,9 @@
       "description": "A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "861",
-      "forks": "325",
-      "addStars": "510",
+      "stars": "866",
+      "forks": "330",
+      "addStars": "516",
       "contributors": [],
       "source": "trendshift"
     },
@@ -617,9 +661,9 @@
       "description": "The free, open-source alternative to ZBrush. Sculpting for Linux, macOS and Windows with free built-in AI (image/text to 3D), Send to Unreal, game-ready LODs, Gaussian splats and OpenUSD.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "616",
-      "forks": "74",
-      "addStars": "311",
+      "stars": "621",
+      "forks": "76",
+      "addStars": "317",
       "contributors": [],
       "source": "trendshift"
     },
@@ -629,9 +673,9 @@
       "description": "NTE plugin framework and API. 异环插件框架",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "335",
-      "forks": "37",
-      "addStars": "243",
+      "stars": "342",
+      "forks": "39",
+      "addStars": "250",
       "contributors": [],
       "source": "trendshift"
     },
@@ -641,9 +685,21 @@
       "description": "VERY experimental Nintendo Switch 2 emulator port for PS5",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "246",
-      "forks": "102",
-      "addStars": "197",
+      "stars": "253",
+      "forks": "114",
+      "addStars": "202",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "133,625",
+      "forks": "22,501",
+      "addStars": "640",
       "contributors": [],
       "source": "trendshift"
     },
@@ -654,20 +710,8 @@
       "language": "C++",
       "languageColor": "#f34b7d",
       "stars": "1,211",
-      "forks": "152",
+      "forks": "153",
       "addStars": "200",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ggml-org/llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "description": "LLM inference in C/C++",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "133,588",
-      "forks": "22,501",
-      "addStars": "605",
       "contributors": [],
       "source": "trendshift"
     },
@@ -677,21 +721,9 @@
       "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "476",
-      "forks": "35",
-      "addStars": "275",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "aardappel/goose",
-      "url": "https://github.com/aardappel/goose",
-      "description": "The Goose Programming Language",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "3,176",
-      "forks": "132",
-      "addStars": "587",
+      "stars": "481",
+      "forks": "37",
+      "addStars": "283",
       "contributors": [],
       "source": "trendshift"
     },
@@ -701,9 +733,21 @@
       "description": "Fast fork of llama.cpp designed for Qwen3.8-Flash-Next",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "320",
-      "forks": "47",
-      "addStars": "175",
+      "stars": "334",
+      "forks": "50",
+      "addStars": "189",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "aardappel/goose",
+      "url": "https://github.com/aardappel/goose",
+      "description": "The Goose Programming Language",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "3,207",
+      "forks": "137",
+      "addStars": "615",
       "contributors": [],
       "source": "trendshift"
     },
@@ -713,9 +757,9 @@
       "description": "Build Pokémon Pokopia (Switch 2) into a native Mac app and iPhone app from your own dump. Tools only; no game content.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "389",
-      "forks": "36",
-      "addStars": "240",
+      "stars": "399",
+      "forks": "37",
+      "addStars": "250",
       "contributors": [],
       "source": "trendshift"
     },
@@ -725,9 +769,9 @@
       "description": "Apps and tools for the BMW iDrive 7 (MGU) head unit, installable from the Store",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "268",
-      "forks": "57",
-      "addStars": "155",
+      "stars": "277",
+      "forks": "62",
+      "addStars": "163",
       "contributors": [],
       "source": "trendshift"
     },
@@ -737,9 +781,9 @@
       "description": "Local inference engine for Qwen3.8-Flash-Next on NVIDIA Blackwell",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "716",
-      "forks": "94",
-      "addStars": "329",
+      "stars": "730",
+      "forks": "98",
+      "addStars": "346",
       "contributors": [],
       "source": "trendshift"
     },
@@ -749,9 +793,21 @@
       "description": "VERY experimental Nintendo Switch 2 emulator",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "307",
-      "forks": "19",
-      "addStars": "235",
+      "stars": "324",
+      "forks": "23",
+      "addStars": "250",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "JonathanDC64/Soulbrandt",
+      "url": "https://github.com/JonathanDC64/Soulbrandt",
+      "description": "",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "298",
+      "forks": "8",
+      "addStars": "177",
       "contributors": [],
       "source": "trendshift"
     },
@@ -761,33 +817,9 @@
       "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "276",
-      "forks": "11",
-      "addStars": "187",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "gothamor/gta-vcs-recomp",
-      "url": "https://github.com/gothamor/gta-vcs-recomp",
-      "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "508",
-      "forks": "28",
-      "addStars": "201",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "KytyPS5/KytyPS5",
-      "url": "https://github.com/KytyPS5/KytyPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "10,726",
-      "forks": "1,351",
-      "addStars": "451",
+      "stars": "281",
+      "forks": "13",
+      "addStars": "195",
       "contributors": [],
       "source": "trendshift"
     }

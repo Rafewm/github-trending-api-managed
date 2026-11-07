@@ -2,7 +2,7 @@
   "title": "GitHub Java Languages Weekly Trending",
   "description": "Weekly Trending of Java Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 07 Nov 2026 05:12:19 GMT",
+  "pubDate": "Sat, 07 Nov 2026 14:39:45 GMT",
   "items": [
     {
       "title": "floci-io/floci",
@@ -10,8 +10,8 @@
       "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "30,904",
-      "forks": "3,369",
+      "stars": "30,971",
+      "forks": "3,374",
       "addStars": "3,464",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "Open Source Identity and Access Management For Modern Applications and Services",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "37,738",
-      "forks": "9,148",
+      "stars": "37,743",
+      "forks": "9,151",
       "addStars": "132",
       "contributors": [
         {
@@ -79,7 +79,7 @@
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "78,516",
+      "stars": "78,522",
       "forks": "26,203",
       "addStars": "118",
       "contributors": [
@@ -107,6 +107,38 @@
           "avatar": "https://avatars.githubusercontent.com/u/973334?s=40&v=4",
           "name": "s1monw",
           "url": "https://github.com/s1monw"
+        }
+      ]
+    },
+    {
+      "title": "halo-dev/halo",
+      "url": "https://github.com/halo-dev/halo",
+      "description": "Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "40,146",
+      "forks": "10,314",
+      "addStars": "59",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/21301288?s=40&v=4",
+          "name": "ruibaby",
+          "url": "https://github.com/ruibaby"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16865714?s=40&v=4",
+          "name": "JohnNiang",
+          "url": "https://github.com/JohnNiang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38999863?s=40&v=4",
+          "name": "guqing",
+          "url": "https://github.com/guqing"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/31335418?s=40&v=4",
+          "name": "LIlGG",
+          "url": "https://github.com/LIlGG"
         }
       ]
     },
@@ -148,49 +180,12 @@
       ]
     },
     {
-      "title": "StarRocks/starrocks",
-      "url": "https://github.com/StarRocks/starrocks",
-      "description": "The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. With the flexibility to support nearly any scenario, StarRocks provides best-in-class performance for multi-dimensional analytics, real-time analytics, and ad-hoc queries. A Linux Foundation project.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "12,243",
-      "forks": "2,655",
-      "addStars": "24",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11428742?s=40&v=4",
-          "name": "trueeyu",
-          "url": "https://github.com/trueeyu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34912776?s=40&v=4",
-          "name": "stdpain",
-          "url": "https://github.com/stdpain"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/96611012?s=40&v=4",
-          "name": "murphyatwork",
-          "url": "https://github.com/murphyatwork"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5104975?s=40&v=4",
-          "name": "LiShuMing",
-          "url": "https://github.com/LiShuMing"
-        }
-      ]
-    },
-    {
       "title": "openrewrite/rewrite",
       "url": "https://github.com/openrewrite/rewrite",
       "description": "Automated mass refactoring of source code.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "3,958",
+      "stars": "3,961",
       "forks": "602",
       "addStars": "119",
       "contributors": [
@@ -227,8 +222,8 @@
       "description": "🚀 Real-world DevOps projects for aspiring engineers — Beginner to Advanced. Covers AWS, Kubernetes, Docker, CI/CD, Terraform, Jenkins, and more. Hands-on learning with step-by-step guides.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "5,550",
-      "forks": "4,958",
+      "stars": "5,552",
+      "forks": "4,959",
       "addStars": "126",
       "contributors": [
         {
@@ -244,13 +239,45 @@
       ]
     },
     {
+      "title": "bazelbuild/bazel",
+      "url": "https://github.com/bazelbuild/bazel",
+      "description": "a fast, scalable, multi-language and extensible build system",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "26,061",
+      "forks": "4,678",
+      "addStars": "43",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3524818?s=40&v=4",
+          "name": "lberki",
+          "url": "https://github.com/lberki"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/326527?s=40&v=4",
+          "name": "katre",
+          "url": "https://github.com/katre"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/478458?s=40&v=4",
+          "name": "cushon",
+          "url": "https://github.com/cushon"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10134896?s=40&v=4",
+          "name": "janakdr",
+          "url": "https://github.com/janakdr"
+        }
+      ]
+    },
+    {
       "title": "spring-projects/spring-framework",
       "url": "https://github.com/spring-projects/spring-framework",
       "description": "Spring Framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "60,305",
-      "forks": "38,776",
+      "stars": "60,307",
+      "forks": "38,781",
       "addStars": "23",
       "contributors": [
         {
@@ -286,7 +313,7 @@
       "description": "Light, fluffy, and always free - Local Azure Emulator",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "884",
+      "stars": "891",
       "forks": "162",
       "addStars": "69",
       "contributors": [
@@ -313,113 +340,12 @@
       ]
     },
     {
-      "title": "FasterXML/jackson-databind",
-      "url": "https://github.com/FasterXML/jackson-databind",
-      "description": "General data-binding package for Jackson: works on streaming API (core) implementation(s)",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "3,757",
-      "forks": "1,557",
-      "addStars": "1",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55065?s=40&v=4",
-          "name": "cowtowncoder",
-          "url": "https://github.com/cowtowncoder"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/61615301?s=40&v=4",
-          "name": "JooHyukKim",
-          "url": "https://github.com/JooHyukKim"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11783444?s=40&v=4",
-          "name": "pjfanning",
-          "url": "https://github.com/pjfanning"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1434863?s=40&v=4",
-          "name": "tatu-at-salesforce",
-          "url": "https://github.com/tatu-at-salesforce"
-        }
-      ]
-    },
-    {
-      "title": "bazelbuild/bazel",
-      "url": "https://github.com/bazelbuild/bazel",
-      "description": "a fast, scalable, multi-language and extensible build system",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "26,058",
-      "forks": "4,677",
-      "addStars": "43",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3524818?s=40&v=4",
-          "name": "lberki",
-          "url": "https://github.com/lberki"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/326527?s=40&v=4",
-          "name": "katre",
-          "url": "https://github.com/katre"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/478458?s=40&v=4",
-          "name": "cushon",
-          "url": "https://github.com/cushon"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10134896?s=40&v=4",
-          "name": "janakdr",
-          "url": "https://github.com/janakdr"
-        }
-      ]
-    },
-    {
-      "title": "termux/termux-app",
-      "url": "https://github.com/termux/termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "64,286",
-      "forks": "8,218",
-      "addStars": "584",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&v=4",
-          "name": "agnostic-apollo",
-          "url": "https://github.com/agnostic-apollo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/277251?s=40&v=4",
-          "name": "fornwall",
-          "url": "https://github.com/fornwall"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/18900601?s=40&v=4",
-          "name": "Grimler91",
-          "url": "https://github.com/Grimler91"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3536343?s=40&v=4",
-          "name": "maoabc",
-          "url": "https://github.com/maoabc"
-        }
-      ]
-    },
-    {
       "title": "appdevforall/CodeOnTheGo",
       "url": "https://github.com/appdevforall/CodeOnTheGo",
       "description": "Code on the Go is an IDE that lets you build Android apps on Android phones, without a laptop computer and without Internet access. Code on the Go is a project of App Dev for All.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "575",
+      "stars": "577",
       "forks": "118",
       "addStars": "50",
       "contributors": [
@@ -451,12 +377,192 @@
       ]
     },
     {
+      "title": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "64,325",
+      "forks": "8,219",
+      "addStars": "584",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/31106828?s=40&v=4",
+          "name": "agnostic-apollo",
+          "url": "https://github.com/agnostic-apollo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/277251?s=40&v=4",
+          "name": "fornwall",
+          "url": "https://github.com/fornwall"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18900601?s=40&v=4",
+          "name": "Grimler91",
+          "url": "https://github.com/Grimler91"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3536343?s=40&v=4",
+          "name": "maoabc",
+          "url": "https://github.com/maoabc"
+        }
+      ]
+    },
+    {
+      "title": "FasterXML/jackson-databind",
+      "url": "https://github.com/FasterXML/jackson-databind",
+      "description": "General data-binding package for Jackson: works on streaming API (core) implementation(s)",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "3,758",
+      "forks": "1,558",
+      "addStars": "1",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/55065?s=40&v=4",
+          "name": "cowtowncoder",
+          "url": "https://github.com/cowtowncoder"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61615301?s=40&v=4",
+          "name": "JooHyukKim",
+          "url": "https://github.com/JooHyukKim"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11783444?s=40&v=4",
+          "name": "pjfanning",
+          "url": "https://github.com/pjfanning"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1434863?s=40&v=4",
+          "name": "tatu-at-salesforce",
+          "url": "https://github.com/tatu-at-salesforce"
+        }
+      ]
+    },
+    {
+      "title": "apache/kafka",
+      "url": "https://github.com/apache/kafka",
+      "description": "Apache Kafka - A distributed event streaming platform",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "34,192",
+      "forks": "15,664",
+      "addStars": "98",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8959638?s=40&v=4",
+          "name": "mjsax",
+          "url": "https://github.com/mjsax"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24747?s=40&v=4",
+          "name": "ijuma",
+          "url": "https://github.com/ijuma"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12502538?s=40&v=4",
+          "name": "hachikuji",
+          "url": "https://github.com/hachikuji"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/157182?s=40&v=4",
+          "name": "dajac",
+          "url": "https://github.com/dajac"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10729597?s=40&v=4",
+          "name": "guozhangwang",
+          "url": "https://github.com/guozhangwang"
+        }
+      ]
+    },
+    {
+      "title": "trinodb/trino",
+      "url": "https://github.com/trinodb/trino",
+      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "13,479",
+      "forks": "3,857",
+      "addStars": "96",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/144328?s=40&v=4",
+          "name": "findepi",
+          "url": "https://github.com/findepi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9230?s=40&v=4",
+          "name": "electrum",
+          "url": "https://github.com/electrum"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/58298?s=40&v=4",
+          "name": "dain",
+          "url": "https://github.com/dain"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66972?s=40&v=4",
+          "name": "wendigo",
+          "url": "https://github.com/wendigo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14387?s=40&v=4",
+          "name": "martint",
+          "url": "https://github.com/martint"
+        }
+      ]
+    },
+    {
+      "title": "RikkaApps/Shizuku-API",
+      "url": "https://github.com/RikkaApps/Shizuku-API",
+      "description": "The API and the developer guide for Shizuku and Sui.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "2,752",
+      "forks": "1,315",
+      "addStars": "38",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&v=4",
+          "name": "RikkaW",
+          "url": "https://github.com/RikkaW"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26996262?s=40&v=4",
+          "name": "vvb2060",
+          "url": "https://github.com/vvb2060"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5022927?s=40&v=4",
+          "name": "yujincheng08",
+          "url": "https://github.com/yujincheng08"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13131972?s=40&v=4",
+          "name": "haruue",
+          "url": "https://github.com/haruue"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22442525?s=40&v=4",
+          "name": "ryuunoakaihitomi",
+          "url": "https://github.com/ryuunoakaihitomi"
+        }
+      ]
+    },
+    {
       "title": "LawnchairLauncher/lawnchair",
       "url": "https://github.com/LawnchairLauncher/lawnchair",
       "description": "No clever tagline needed.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "13,884",
+      "stars": "13,888",
       "forks": "1,786",
       "addStars": "73",
       "contributors": [
@@ -488,113 +594,108 @@
       ]
     },
     {
-      "title": "openjdk/jdk",
-      "url": "https://github.com/openjdk/jdk",
-      "description": "JDK main-line development https://openjdk.org/projects/jdk",
+      "title": "ReChronoRain/HyperCeiler",
+      "url": "https://github.com/ReChronoRain/HyperCeiler",
+      "description": "HyperOS enhancement module - Make HyperOS Great Again!",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "23,509",
-      "forks": "6,600",
-      "addStars": "37",
+      "stars": "5,692",
+      "forks": "467",
+      "addStars": "97",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1858943?s=40&v=4",
-          "name": "shipilev",
-          "url": "https://github.com/shipilev"
+          "avatar": "https://avatars.githubusercontent.com/u/80700814?s=40&v=4",
+          "name": "lingqiqi5211",
+          "url": "https://github.com/lingqiqi5211"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/30127347?s=40&v=4",
-          "name": "prrace",
-          "url": "https://github.com/prrace"
+          "avatar": "https://avatars.githubusercontent.com/u/89193494?s=40&v=4",
+          "name": "Sevtinge",
+          "url": "https://github.com/Sevtinge"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/61436102?s=40&v=4",
-          "name": "jonathan-gibbons",
-          "url": "https://github.com/jonathan-gibbons"
+          "avatar": "https://avatars.githubusercontent.com/u/58779643?s=40&v=4",
+          "name": "crowdin-bot",
+          "url": "https://github.com/crowdin-bot"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/61806773?s=40&v=4",
-          "name": "coleenp",
-          "url": "https://github.com/coleenp"
+          "avatar": "https://avatars.githubusercontent.com/u/48121686?s=40&v=4",
+          "name": "Fan095",
+          "url": "https://github.com/Fan095"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/31372256?s=40&v=4",
-          "name": "jddarcy",
-          "url": "https://github.com/jddarcy"
+          "avatar": "https://avatars.githubusercontent.com/u/123531821?s=40&v=4",
+          "name": "HChenX",
+          "url": "https://github.com/HChenX"
         }
       ]
     },
     {
-      "title": "RikkaApps/Shizuku-API",
-      "url": "https://github.com/RikkaApps/Shizuku-API",
-      "description": "The API and the developer guide for Shizuku and Sui.",
+      "title": "netty/netty",
+      "url": "https://github.com/netty/netty",
+      "description": "Netty project - an event-driven asynchronous network application framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "2,751",
-      "forks": "1,314",
-      "addStars": "38",
+      "stars": "35,070",
+      "forks": "16,276",
+      "addStars": "16",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&v=4",
-          "name": "RikkaW",
-          "url": "https://github.com/RikkaW"
+          "avatar": "https://avatars.githubusercontent.com/u/439362?s=40&v=4",
+          "name": "normanmaurer",
+          "url": "https://github.com/normanmaurer"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26996262?s=40&v=4",
-          "name": "vvb2060",
-          "url": "https://github.com/vvb2060"
+          "avatar": "https://avatars.githubusercontent.com/u/173918?s=40&v=4",
+          "name": "trustin",
+          "url": "https://github.com/trustin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5022927?s=40&v=4",
-          "name": "yujincheng08",
-          "url": "https://github.com/yujincheng08"
+          "avatar": "https://avatars.githubusercontent.com/u/7993?s=40&v=4",
+          "name": "chrisvest",
+          "url": "https://github.com/chrisvest"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/13131972?s=40&v=4",
-          "name": "haruue",
-          "url": "https://github.com/haruue"
+          "avatar": "https://avatars.githubusercontent.com/u/7562868?s=40&v=4",
+          "name": "Scottmitch",
+          "url": "https://github.com/Scottmitch"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22442525?s=40&v=4",
-          "name": "ryuunoakaihitomi",
-          "url": "https://github.com/ryuunoakaihitomi"
+          "avatar": "https://avatars.githubusercontent.com/u/78738768?s=40&v=4",
+          "name": "netty-project-bot",
+          "url": "https://github.com/netty-project-bot"
         }
       ]
     },
     {
-      "title": "skylot/jadx",
-      "url": "https://github.com/skylot/jadx",
-      "description": "Dex to Java decompiler",
+      "title": "agentscope-ai/agentscope-java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "description": "Build distributed, production-grade, long-running agents.",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "51,648",
-      "forks": "5,905",
-      "addStars": "273",
+      "stars": "6,286",
+      "forks": "1,579",
+      "addStars": "84",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/118523?s=40&v=4",
-          "name": "skylot",
-          "url": "https://github.com/skylot"
+          "avatar": "https://avatars.githubusercontent.com/u/9292748?s=40&v=4",
+          "name": "AlbumenJ",
+          "url": "https://github.com/AlbumenJ"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/924885?s=40&v=4",
-          "name": "jpstotz",
-          "url": "https://github.com/jpstotz"
+          "avatar": "https://avatars.githubusercontent.com/u/18097545?s=40&v=4",
+          "name": "chickenlj",
+          "url": "https://github.com/chickenlj"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2410127?s=40&v=4",
-          "name": "asashour",
-          "url": "https://github.com/asashour"
+          "avatar": "https://avatars.githubusercontent.com/u/109072362?s=40&v=4",
+          "name": "jujn",
+          "url": "https://github.com/jujn"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/43380144?s=40&v=4",
-          "name": "MrIkso",
-          "url": "https://github.com/MrIkso"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/58364572?s=40&v=4",
-          "name": "nitram84",
-          "url": "https://github.com/nitram84"
+          "avatar": "https://avatars.githubusercontent.com/u/38268859?s=40&v=4",
+          "name": "LearningGp",
+          "url": "https://github.com/LearningGp"
         }
       ]
     },
@@ -604,165 +705,9 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "98,392",
-      "forks": "11,339",
-      "addStars": "1,639",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "openremote/core",
-      "url": "https://github.com/openremote/core",
-      "description": "100% open-source IoT Platform - Integrate your devices, add intelligence, build custom apps",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "2,094",
-      "forks": "512",
-      "addStars": "153",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "GeneralZyonix/morphe-download-helper",
-      "url": "https://github.com/GeneralZyonix/morphe-download-helper",
-      "description": "Unofficial APK download helper for Morphe Manager: APKMirror, APKPure, Uptodown, F-Droid and Aptoide fallbacks",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "218",
-      "forks": "4",
-      "addStars": "166",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "SAINTTaiYi/SpektraLab-Android",
-      "url": "https://github.com/SAINTTaiYi/SpektraLab-Android",
-      "description": "Unofficial Android port of the SpektraLab film & paper simulation engine (Vulkan): RAW in, physically modelled film out, on the phone.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "204",
-      "forks": "20",
-      "addStars": "152",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ashishps1/awesome-low-level-design",
-      "url": "https://github.com/ashishps1/awesome-low-level-design",
-      "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "27,897",
-      "forks": "6,772",
-      "addStars": "201",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zengyunhua/Mestudy",
-      "url": "https://github.com/zengyunhua/Mestudy",
-      "description": "Reference implementation of a Chinese social-insurance / e-government backend: 5 Spring MVC + MyBatis modules, 358 HTTP endpoints, Oracle multi-schema, Axis SOAP.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "404",
-      "forks": "18",
-      "addStars": "187",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "yooma1/qufz",
-      "url": "https://github.com/yooma1/qufz",
-      "description": "防止骚扰",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "290",
-      "forks": "44",
-      "addStars": "181",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "simbasjungles/free-my-tv",
-      "url": "https://github.com/simbasjungles/free-my-tv",
-      "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "5,978",
-      "forks": "1,058",
-      "addStars": "310",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "DSH-APP/DSHA",
-      "url": "https://github.com/DSH-APP/DSHA",
-      "description": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "3,110",
-      "forks": "191",
-      "addStars": "257",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "moonoops/Droy",
-      "url": "https://github.com/moonoops/Droy",
-      "description": "An Android AI Agent built on DeepSeek Harness, with Android Use tools, voice and a cat companion.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "344",
-      "forks": "3",
-      "addStars": "161",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Swayingleaves/novanova-studio",
-      "url": "https://github.com/Swayingleaves/novanova-studio",
-      "description": "[NovaNova Studio] 一个 Agent 驱动的集 AI图片生成、AI视频生成、无限画布、自定义模型 API 、AI漫剧、AI短剧、小说解析剧本、小说转短剧、3D导演台、用户管理、积分管理于一体的全流程开源平台",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "691",
-      "forks": "105",
-      "addStars": "135",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "fmhyplay/android",
-      "url": "https://github.com/fmhyplay/android",
-      "description": "FMHYPlay: any streaming site, a real player. A TV-first Android app with a native player, ad blocking, in-app WARP and IPTV.",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "179",
-      "forks": "5",
-      "addStars": "133",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "yuliskov/SmartTube",
-      "url": "https://github.com/yuliskov/SmartTube",
-      "description": "Browse media content with your own rules on Android TV",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "36,015",
-      "forks": "2,439",
-      "addStars": "192",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "trinodb/trino",
-      "url": "https://github.com/trinodb/trino",
-      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "13,476",
-      "forks": "3,808",
-      "addStars": "86",
+      "stars": "98,480",
+      "forks": "11,376",
+      "addStars": "1,721",
       "contributors": [],
       "source": "trendshift"
     },
@@ -772,9 +717,165 @@
       "description": "由 Pilipala 开发的 Android 电视播放器。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "241",
+      "stars": "373",
       "forks": "10",
-      "addStars": "141",
+      "addStars": "274",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "openremote/core",
+      "url": "https://github.com/openremote/core",
+      "description": "100% open-source IoT Platform - Integrate your devices, add intelligence, build custom apps",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "2,096",
+      "forks": "519",
+      "addStars": "154",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "SAINTTaiYi/SpektraLab-Android",
+      "url": "https://github.com/SAINTTaiYi/SpektraLab-Android",
+      "description": "Unofficial Android port of the SpektraLab film & paper simulation engine (Vulkan): RAW in, physically modelled film out, on the phone.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "211",
+      "forks": "20",
+      "addStars": "158",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "GeneralZyonix/morphe-download-helper",
+      "url": "https://github.com/GeneralZyonix/morphe-download-helper",
+      "description": "Unofficial APK download helper for Morphe Manager: APKMirror, APKPure, Uptodown, F-Droid and Aptoide fallbacks",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "220",
+      "forks": "4",
+      "addStars": "169",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ashishps1/awesome-low-level-design",
+      "url": "https://github.com/ashishps1/awesome-low-level-design",
+      "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "27,902",
+      "forks": "6,774",
+      "addStars": "205",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "zengyunhua/Mestudy",
+      "url": "https://github.com/zengyunhua/Mestudy",
+      "description": "Reference implementation of a Chinese social-insurance / e-government backend: 5 Spring MVC + MyBatis modules, 358 HTTP endpoints, Oracle multi-schema, Axis SOAP.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "406",
+      "forks": "18",
+      "addStars": "190",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "yooma1/qufz",
+      "url": "https://github.com/yooma1/qufz",
+      "description": "防止骚扰",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "297",
+      "forks": "44",
+      "addStars": "188",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "skylot/jadx",
+      "url": "https://github.com/skylot/jadx",
+      "description": "Dex to Java decompiler",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "51,655",
+      "forks": "6,110",
+      "addStars": "209",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "fmhyplay/android",
+      "url": "https://github.com/fmhyplay/android",
+      "description": "FMHYPlay: any streaming site, a real player. A TV-first Android app with a native player, ad blocking, in-app WARP and IPTV.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "237",
+      "forks": "5",
+      "addStars": "193",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "6,000",
+      "forks": "1,067",
+      "addStars": "330",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DSH-APP/DSHA",
+      "url": "https://github.com/DSH-APP/DSHA",
+      "description": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "3,130",
+      "forks": "194",
+      "addStars": "278",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "moonoops/Droy",
+      "url": "https://github.com/moonoops/Droy",
+      "description": "An Android AI Agent built on DeepSeek Harness, with Android Use tools, voice and a cat companion.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "345",
+      "forks": "3",
+      "addStars": "162",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "yuliskov/SmartTube",
+      "url": "https://github.com/yuliskov/SmartTube",
+      "description": "Browse media content with your own rules on Android TV",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "36,027",
+      "forks": "2,452",
+      "addStars": "208",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Swayingleaves/novanova-studio",
+      "url": "https://github.com/Swayingleaves/novanova-studio",
+      "description": "[NovaNova Studio] 一个 Agent 驱动的集 AI图片生成、AI视频生成、无限画布、自定义模型 API 、AI漫剧、AI短剧、小说解析剧本、小说转短剧、3D导演台、用户管理、积分管理于一体的全流程开源平台",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "694",
+      "forks": "108",
+      "addStars": "136",
       "contributors": [],
       "source": "trendshift"
     },
@@ -784,21 +885,9 @@
       "description": "The automation tower defense RTS",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "29,688",
-      "forks": "4,115",
-      "addStars": "127",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "loks666/get_jobs",
-      "url": "https://github.com/loks666/get_jobs",
-      "description": "💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "stars": "9,610",
-      "forks": "1,130",
-      "addStars": "165",
+      "stars": "29,698",
+      "forks": "4,118",
+      "addStars": "135",
       "contributors": [],
       "source": "trendshift"
     },
@@ -808,9 +897,33 @@
       "description": "Morphe Patches",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "4,631",
-      "forks": "460",
-      "addStars": "146",
+      "stars": "4,644",
+      "forks": "466",
+      "addStars": "156",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ddd-by-examples/library",
+      "url": "https://github.com/ddd-by-examples/library",
+      "description": "A comprehensive Domain-Driven Design example with problem space strategic analysis and various tactical patterns.",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "5,981",
+      "forks": "846",
+      "addStars": "95",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "loks666/get_jobs",
+      "url": "https://github.com/loks666/get_jobs",
+      "description": "💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": "9,619",
+      "forks": "1,130",
+      "addStars": "174",
       "contributors": [],
       "source": "trendshift"
     },
@@ -820,9 +933,9 @@
       "description": "Turn any android phone into Desktop class experience including full linux environment without root",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": "279",
+      "stars": "281",
       "forks": "15",
-      "addStars": "75",
+      "addStars": "77",
       "contributors": [],
       "source": "trendshift"
     }
