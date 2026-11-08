@@ -2,7 +2,7 @@
   "title": "GitHub Rust Languages Weekly Trending",
   "description": "Weekly Trending of Rust Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 08 Nov 2026 04:24:39 GMT",
+  "pubDate": "Sun, 08 Nov 2026 14:45:17 GMT",
   "items": [
     {
       "title": "max-sixty/worktrunk",
@@ -10,8 +10,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "11,976",
-      "forks": "465",
+      "stars": "12,057",
+      "forks": "466",
       "addStars": "2,292",
       "contributors": [
         {
@@ -37,8 +37,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "46,944",
-      "forks": "3,220",
+      "stars": "47,318",
+      "forks": "3,242",
       "addStars": "1,476",
       "contributors": [
         {
@@ -64,45 +64,13 @@
       ]
     },
     {
-      "title": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "105,659",
-      "forks": "6,277",
-      "addStars": "7,623",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
-          "name": "pbakaus",
-          "url": "https://github.com/pbakaus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
-          "name": "abdulwahabone",
-          "url": "https://github.com/abdulwahabone"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "name": "cursoragent",
-          "url": "https://github.com/cursoragent"
-        }
-      ]
-    },
-    {
       "title": "herdrdev/herdr",
       "url": "https://github.com/herdrdev/herdr",
       "description": "the runtime your coding agents live on",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "49,164",
-      "forks": "3,964",
+      "stars": "49,301",
+      "forks": "3,979",
       "addStars": "1,963",
       "contributors": [
         {
@@ -128,13 +96,45 @@
       ]
     },
     {
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "105,952",
+      "forks": "6,300",
+      "addStars": "7,623",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
+          "name": "pbakaus",
+          "url": "https://github.com/pbakaus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
+          "name": "abdulwahabone",
+          "url": "https://github.com/abdulwahabone"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "name": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        }
+      ]
+    },
+    {
       "title": "zed-industries/zed",
       "url": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "94,333",
-      "forks": "11,556",
+      "stars": "94,445",
+      "forks": "11,568",
       "addStars": "1,867",
       "contributors": [
         {
@@ -165,12 +165,66 @@
       ]
     },
     {
+      "title": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "51,091",
+      "forks": "2,638",
+      "addStars": "625",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&v=4",
+          "name": "charliermarsh",
+          "url": "https://github.com/charliermarsh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1203881?s=40&v=4",
+          "name": "MichaReiser",
+          "url": "https://github.com/MichaReiser"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66076021?s=40&v=4",
+          "name": "AlexWaygood",
+          "url": "https://github.com/AlexWaygood"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&v=4",
+          "name": "sharkdp",
+          "url": "https://github.com/sharkdp"
+        }
+      ]
+    },
+    {
+      "title": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "19,387",
+      "forks": "1,434",
+      "addStars": "13,858",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
+          "name": "lahfir",
+          "url": "https://github.com/lahfir"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
+          "name": "ctate",
+          "url": "https://github.com/ctate"
+        }
+      ]
+    },
+    {
       "title": "cjpais/Handy",
       "url": "https://github.com/cjpais/Handy",
       "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "37,955",
+      "stars": "38,016",
       "forks": "3,584",
       "addStars": "2,169",
       "contributors": [
@@ -198,75 +252,6 @@
           "avatar": "https://avatars.githubusercontent.com/u/10460518?s=40&v=4",
           "name": "VirenMohindra",
           "url": "https://github.com/VirenMohindra"
-        }
-      ]
-    },
-    {
-      "title": "astral-sh/ruff",
-      "url": "https://github.com/astral-sh/ruff",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "51,013",
-      "forks": "2,633",
-      "addStars": "625",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&v=4",
-          "name": "charliermarsh",
-          "url": "https://github.com/charliermarsh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1203881?s=40&v=4",
-          "name": "MichaReiser",
-          "url": "https://github.com/MichaReiser"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66076021?s=40&v=4",
-          "name": "AlexWaygood",
-          "url": "https://github.com/AlexWaygood"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&v=4",
-          "name": "sharkdp",
-          "url": "https://github.com/sharkdp"
-        }
-      ]
-    },
-    {
-      "title": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "133,596",
-      "forks": "21,180",
-      "addStars": "1,298",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&v=4",
-          "name": "jif-oai",
-          "url": "https://github.com/jif-oai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/655869?s=40&v=4",
-          "name": "bolinfest",
-          "url": "https://github.com/bolinfest"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/223546144?s=40&v=4",
-          "name": "etraut-openai",
-          "url": "https://github.com/etraut-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/219906144?s=40&v=4",
-          "name": "aibrahim-oai",
-          "url": "https://github.com/aibrahim-oai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/204937752?s=40&v=4",
-          "name": "pakrym-oai",
-          "url": "https://github.com/pakrym-oai"
         }
       ]
     },
@@ -303,12 +288,44 @@
       ]
     },
     {
+      "title": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "6,036",
+      "forks": "1,067",
+      "addStars": "191",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&v=4",
+          "name": "howardjohn",
+          "url": "https://github.com/howardjohn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&v=4",
+          "name": "EItanya",
+          "url": "https://github.com/EItanya"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15183287?s=40&v=4",
+          "name": "npolshakova",
+          "url": "https://github.com/npolshakova"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61794?s=40&v=4",
+          "name": "markuskobler",
+          "url": "https://github.com/markuskobler"
+        }
+      ]
+    },
+    {
       "title": "clap-rs/clap",
       "url": "https://github.com/clap-rs/clap",
       "description": "A full featured, fast Command Line Argument Parser for Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "16,945",
+      "stars": "16,947",
       "forks": "1,308",
       "addStars": "242",
       "contributors": [
@@ -335,39 +352,39 @@
       ]
     },
     {
-      "title": "leepokai/Codync",
-      "url": "https://github.com/leepokai/Codync",
-      "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
+      "title": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "1,974",
-      "forks": "201",
-      "addStars": "811",
+      "stars": "108,917",
+      "forks": "6,804",
+      "addStars": "345",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&v=4",
-          "name": "leepokai",
-          "url": "https://github.com/leepokai"
+          "avatar": "https://avatars.githubusercontent.com/u/13602871?s=40&v=4",
+          "name": "bartlomieju",
+          "url": "https://github.com/bartlomieju"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/1609021?s=40&v=4",
+          "name": "dsherret",
+          "url": "https://github.com/dsherret"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1029297?s=40&v=4",
-          "name": "fergusean",
-          "url": "https://github.com/fergusean"
+          "avatar": "https://avatars.githubusercontent.com/u/80?s=40&v=4",
+          "name": "ry",
+          "url": "https://github.com/ry"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "name": "codex",
-          "url": "https://github.com/codex"
+          "avatar": "https://avatars.githubusercontent.com/u/34997667?s=40&v=4",
+          "name": "littledivy",
+          "url": "https://github.com/littledivy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/10494131?s=40&v=4",
-          "name": "XuQianJin-Stars",
-          "url": "https://github.com/XuQianJin-Stars"
+          "avatar": "https://avatars.githubusercontent.com/u/17734409?s=40&v=4",
+          "name": "nathanwhit",
+          "url": "https://github.com/nathanwhit"
         }
       ]
     },
@@ -377,7 +394,7 @@
       "description": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "3,976",
+      "stars": "3,984",
       "forks": "501",
       "addStars": "277",
       "contributors": [
@@ -409,109 +426,13 @@
       ]
     },
     {
-      "title": "crmne/zapfast",
-      "url": "https://github.com/crmne/zapfast",
-      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "3,389",
-      "forks": "349",
-      "addStars": "1,018",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&v=4",
-          "name": "crmne",
-          "url": "https://github.com/crmne"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/229533760?s=40&v=4",
-          "name": "eternalwaitt",
-          "url": "https://github.com/eternalwaitt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8262930?s=40&v=4",
-          "name": "fabiomotta0311",
-          "url": "https://github.com/fabiomotta0311"
-        }
-      ]
-    },
-    {
-      "title": "denoland/deno",
-      "url": "https://github.com/denoland/deno",
-      "description": "A modern runtime for JavaScript and TypeScript.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "108,914",
-      "forks": "6,780",
-      "addStars": "345",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13602871?s=40&v=4",
-          "name": "bartlomieju",
-          "url": "https://github.com/bartlomieju"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1609021?s=40&v=4",
-          "name": "dsherret",
-          "url": "https://github.com/dsherret"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/80?s=40&v=4",
-          "name": "ry",
-          "url": "https://github.com/ry"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34997667?s=40&v=4",
-          "name": "littledivy",
-          "url": "https://github.com/littledivy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17734409?s=40&v=4",
-          "name": "nathanwhit",
-          "url": "https://github.com/nathanwhit"
-        }
-      ]
-    },
-    {
-      "title": "xai-org/x-algorithm",
-      "url": "https://github.com/xai-org/x-algorithm",
-      "description": "Algorithm powering the For You feed on X",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "34,140",
-      "forks": "5,516",
-      "addStars": "170",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/219145320?s=40&v=4",
-          "name": "joshs1017dev",
-          "url": "https://github.com/joshs1017dev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/320713965?s=40&v=4",
-          "name": "x-open-source",
-          "url": "https://github.com/x-open-source"
-        }
-      ]
-    },
-    {
       "title": "dani-garcia/vaultwarden",
       "url": "https://github.com/dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "70,401",
-      "forks": "3,436",
+      "stars": "70,431",
+      "forks": "3,437",
       "addStars": "436",
       "contributors": [
         {
@@ -542,39 +463,108 @@
       ]
     },
     {
-      "title": "SimoHypers/limusic",
-      "url": "https://github.com/SimoHypers/limusic",
-      "description": "Feature rich, native desktop, YouTube Music client.",
+      "title": "crmne/zapfast",
+      "url": "https://github.com/crmne/zapfast",
+      "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "1,900",
-      "forks": "124",
-      "addStars": "383",
+      "stars": "3,546",
+      "forks": "355",
+      "addStars": "1,018",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/153776287?s=40&v=4",
-          "name": "SimoHypers",
-          "url": "https://github.com/SimoHypers"
+          "avatar": "https://avatars.githubusercontent.com/u/106617?s=40&v=4",
+          "name": "crmne",
+          "url": "https://github.com/crmne"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/120938252?s=40&v=4",
-          "name": "F0nax9566",
-          "url": "https://github.com/F0nax9566"
+          "avatar": "https://avatars.githubusercontent.com/u/229533760?s=40&v=4",
+          "name": "eternalwaitt",
+          "url": "https://github.com/eternalwaitt"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/57292142?s=40&v=4",
-          "name": "yiesko",
-          "url": "https://github.com/yiesko"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/129229152?s=40&v=4",
-          "name": "Voltikor",
-          "url": "https://github.com/Voltikor"
+          "avatar": "https://avatars.githubusercontent.com/u/8262930?s=40&v=4",
+          "name": "fabiomotta0311",
+          "url": "https://github.com/fabiomotta0311"
+        }
+      ]
+    },
+    {
+      "title": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "133,735",
+      "forks": "21,198",
+      "addStars": "1,298",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&v=4",
+          "name": "jif-oai",
+          "url": "https://github.com/jif-oai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/150385054?s=40&v=4",
-          "name": "TeseySTD",
-          "url": "https://github.com/TeseySTD"
+          "avatar": "https://avatars.githubusercontent.com/u/655869?s=40&v=4",
+          "name": "bolinfest",
+          "url": "https://github.com/bolinfest"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/223546144?s=40&v=4",
+          "name": "etraut-openai",
+          "url": "https://github.com/etraut-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/219906144?s=40&v=4",
+          "name": "aibrahim-oai",
+          "url": "https://github.com/aibrahim-oai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/204937752?s=40&v=4",
+          "name": "pakrym-oai",
+          "url": "https://github.com/pakrym-oai"
+        }
+      ]
+    },
+    {
+      "title": "leepokai/Codync",
+      "url": "https://github.com/leepokai/Codync",
+      "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,985",
+      "forks": "203",
+      "addStars": "811",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/109857817?s=40&v=4",
+          "name": "leepokai",
+          "url": "https://github.com/leepokai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1029297?s=40&v=4",
+          "name": "fergusean",
+          "url": "https://github.com/fergusean"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "name": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10494131?s=40&v=4",
+          "name": "XuQianJin-Stars",
+          "url": "https://github.com/XuQianJin-Stars"
         }
       ]
     },
@@ -584,21 +574,9 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "20,705",
+      "stars": "21,907",
       "forks": "3,626",
-      "addStars": "19,909",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "18,923",
-      "forks": "1,321",
-      "addStars": "12,205",
+      "addStars": "20,992",
       "contributors": [],
       "source": "trendshift"
     },
@@ -608,9 +586,9 @@
       "description": "Open-source download manager for courses (Udemy/Hotmart), YouTube, music & 1,800+ sites. Built with Tauri 2.0, Rust & Svelte.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "4,772",
+      "stars": "4,866",
       "forks": "597",
-      "addStars": "4,302",
+      "addStars": "4,409",
       "contributors": [],
       "source": "trendshift"
     },
@@ -620,9 +598,9 @@
       "description": "Rune: Native UI framework",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "3,808",
+      "stars": "4,451",
       "forks": "74",
-      "addStars": "3,353",
+      "addStars": "3,977",
       "contributors": [],
       "source": "trendshift"
     },
@@ -632,9 +610,9 @@
       "description": "Your Android phone and your Windows PC, working as one. Local-first, end-to-end encrypted, no account.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "2,937",
+      "stars": "3,083",
       "forks": "274",
-      "addStars": "2,233",
+      "addStars": "2,384",
       "contributors": [],
       "source": "trendshift"
     },
@@ -644,21 +622,9 @@
       "description": "Run thousands of AI agent sandboxes on the cheapest machines.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "5,507",
-      "forks": "489",
-      "addStars": "1,849",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "tembo/voxl",
-      "url": "https://github.com/tembo/voxl",
-      "description": "extremely fast web remote desktop streaming",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "1,298",
-      "forks": "71",
-      "addStars": "1,285",
+      "stars": "5,671",
+      "forks": "501",
+      "addStars": "2,001",
       "contributors": [],
       "source": "trendshift"
     },
@@ -668,9 +634,21 @@
       "description": "Local voice dictation for mac, windows and linux",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "5,705",
-      "forks": "326",
-      "addStars": "2,477",
+      "stars": "5,759",
+      "forks": "342",
+      "addStars": "2,537",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tembo/voxl",
+      "url": "https://github.com/tembo/voxl",
+      "description": "extremely fast web remote desktop streaming",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,305",
+      "forks": "71",
+      "addStars": "1,291",
       "contributors": [],
       "source": "trendshift"
     },
@@ -680,9 +658,9 @@
       "description": "Native Shell is a native UI framework for iOS, Android, macOS, Windows, Linux and the web, built in Rust.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "2,013",
+      "stars": "2,076",
       "forks": "119",
-      "addStars": "1,096",
+      "addStars": "1,155",
       "contributors": [],
       "source": "trendshift"
     },
@@ -692,9 +670,9 @@
       "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "7,884",
+      "stars": "8,004",
       "forks": "1,014",
-      "addStars": "2,202",
+      "addStars": "2,336",
       "contributors": [],
       "source": "trendshift"
     },
@@ -704,21 +682,21 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "19,837",
-      "forks": "1,229",
-      "addStars": "987",
+      "stars": "19,905",
+      "forks": "1,231",
+      "addStars": "1,044",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ivankovic/omnidiff",
-      "url": "https://github.com/ivankovic/omnidiff",
-      "description": "Fast, robust, accurate diffing ",
+      "title": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "1,234",
-      "forks": "32",
-      "addStars": "944",
+      "stars": "15,529",
+      "forks": "1,966",
+      "addStars": "1,995",
       "contributors": [],
       "source": "trendshift"
     },
@@ -728,9 +706,21 @@
       "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "14,806",
+      "stars": "14,920",
       "forks": "1,993",
-      "addStars": "1,920",
+      "addStars": "2,031",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ivankovic/omnidiff",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "description": "Fast, robust, accurate diffing ",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,256",
+      "forks": "32",
+      "addStars": "966",
       "contributors": [],
       "source": "trendshift"
     },
@@ -740,33 +730,9 @@
       "description": "⚡ Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML. 高性能本地笔记，兼容飞书文档格式。",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "1,271",
+      "stars": "1,318",
       "forks": "112",
-      "addStars": "1,264",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jub0t/Concat",
-      "url": "https://github.com/jub0t/Concat",
-      "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "15,283",
-      "forks": "1,891",
-      "addStars": "1,722",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "namannn04/Veronica",
-      "url": "https://github.com/namannn04/Veronica",
-      "description": "Native Ubuntu control center for agent usage, system utilities, media, clipboard, emoji and GNOME integration.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "1,008",
-      "forks": "183",
-      "addStars": "812",
+      "addStars": "1,305",
       "contributors": [],
       "source": "trendshift"
     },
@@ -776,9 +742,21 @@
       "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "77,763",
+      "stars": "77,879",
       "forks": "14,153",
-      "addStars": "1,879",
+      "addStars": "2,002",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "namannn04/Veronica",
+      "url": "https://github.com/namannn04/Veronica",
+      "description": "Native Ubuntu control center for agent usage, system utilities, media, clipboard, emoji and GNOME integration.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,016",
+      "forks": "183",
+      "addStars": "821",
       "contributors": [],
       "source": "trendshift"
     },
@@ -788,9 +766,9 @@
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "152,608",
+      "stars": "152,694",
       "forks": "10,783",
-      "addStars": "1,745",
+      "addStars": "1,837",
       "contributors": [],
       "source": "trendshift"
     },
@@ -800,9 +778,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "39,586",
-      "forks": "6,326",
-      "addStars": "1,407",
+      "stars": "39,726",
+      "forks": "6,362",
+      "addStars": "1,553",
       "contributors": [],
       "source": "trendshift"
     }

@@ -2,227 +2,42 @@
   "title": "GitHub C# Languages Daily Trending",
   "description": "Daily Trending of C# Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 08 Nov 2026 04:24:39 GMT",
+  "pubDate": "Sun, 08 Nov 2026 14:45:17 GMT",
   "items": [
     {
-      "title": "openssh/openssh-portable",
-      "url": "https://github.com/openssh/openssh-portable",
-      "description": "Portable OpenSSH",
+      "title": "EchoStretch/kstuff-lite",
+      "url": "https://github.com/EchoStretch/kstuff-lite",
+      "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,098",
-      "forks": "2,211",
-      "addStars": "5",
+      "stars": "917",
+      "forks": "73",
+      "addStars": "4",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/170281?s=40&v=4",
-          "name": "djmdjm",
-          "url": "https://github.com/djmdjm"
+          "avatar": "https://avatars.githubusercontent.com/u/1344732?s=40&v=4",
+          "name": "drakmor",
+          "url": "https://github.com/drakmor"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4781274?s=40&v=4",
-          "name": "daztucker",
-          "url": "https://github.com/daztucker"
+          "avatar": "https://avatars.githubusercontent.com/u/98502641?s=40&v=4",
+          "name": "EchoStretch",
+          "url": "https://github.com/EchoStretch"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/270802?s=40&v=4",
-          "name": "mfriedl",
-          "url": "https://github.com/mfriedl"
+          "avatar": "https://avatars.githubusercontent.com/u/649698?s=40&v=4",
+          "name": "sunnyqeen",
+          "url": "https://github.com/sunnyqeen"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1737583?s=40&v=4",
-          "name": "jonathangray",
-          "url": "https://github.com/jonathangray"
+          "avatar": "https://avatars.githubusercontent.com/u/148508202?s=40&v=4",
+          "name": "idlesauce",
+          "url": "https://github.com/idlesauce"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11229187?s=40&v=4",
-          "name": "botovq",
-          "url": "https://github.com/botovq"
-        }
-      ]
-    },
-    {
-      "title": "mpv-player/mpv",
-      "url": "https://github.com/mpv-player/mpv",
-      "description": "🎥 Command line media player",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "37,983",
-      "forks": "3,640",
-      "addStars": "177",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1126053?s=40&v=4",
-          "name": "kasper93",
-          "url": "https://github.com/kasper93"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5105515?s=40&v=4",
-          "name": "Dudemanguy",
-          "url": "https://github.com/Dudemanguy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11783568?s=40&v=4",
-          "name": "guidocella",
-          "url": "https://github.com/guidocella"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1149047?s=40&v=4",
-          "name": "haasn",
-          "url": "https://github.com/haasn"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24681?s=40&v=4",
-          "name": "pigoz",
-          "url": "https://github.com/pigoz"
-        }
-      ]
-    },
-    {
-      "title": "meta/zstd",
-      "url": "https://github.com/meta/zstd",
-      "description": "Zstandard - Fast real-time compression algorithm",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "28,204",
-      "forks": "2,677",
-      "addStars": "14",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
-          "name": "Cyan4973",
-          "url": "https://github.com/Cyan4973"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6619134?s=40&v=4",
-          "name": "terrelln",
-          "url": "https://github.com/terrelln"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
-          "name": "inikep",
-          "url": "https://github.com/inikep"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
-          "name": "felixhandte",
-          "url": "https://github.com/felixhandte"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7366343?s=40&v=4",
-          "name": "stellamplau",
-          "url": "https://github.com/stellamplau"
-        }
-      ]
-    },
-    {
-      "title": "FareedKhan-dev/kimi-k3-in-c",
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "11,246",
-      "forks": "1,751",
-      "addStars": "287",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/63067900?s=40&v=4",
-          "name": "FareedKhan-dev",
-          "url": "https://github.com/FareedKhan-dev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12515041?s=40&v=4",
-          "name": "douglasmun",
-          "url": "https://github.com/douglasmun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67913962?s=40&v=4",
-          "name": "Barba2k2",
-          "url": "https://github.com/Barba2k2"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/251295277?s=40&v=4",
-          "name": "cwwjacobs",
-          "url": "https://github.com/cwwjacobs"
-        }
-      ]
-    },
-    {
-      "title": "curl/curl",
-      "url": "https://github.com/curl/curl",
-      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "43,428",
-      "forks": "7,490",
-      "addStars": "20",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/177011?s=40&v=4",
-          "name": "bagder",
-          "url": "https://github.com/bagder"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1446897?s=40&v=4",
-          "name": "vszakats",
-          "url": "https://github.com/vszakats"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/242954?s=40&v=4",
-          "name": "yangtse",
-          "url": "https://github.com/yangtse"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1523871?s=40&v=4",
-          "name": "captain-caveman2k",
-          "url": "https://github.com/captain-caveman2k"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228259?s=40&v=4",
-          "name": "dfandrich",
-          "url": "https://github.com/dfandrich"
-        }
-      ]
-    },
-    {
-      "title": "madler/zlib",
-      "url": "https://github.com/madler/zlib",
-      "description": "A massively spiffy yet delicately unobtrusive compression library.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "7,201",
-      "forks": "2,898",
-      "addStars": "5",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/240717?s=40&v=4",
-          "name": "madler",
-          "url": "https://github.com/madler"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1364432?s=40&v=4",
-          "name": "nmoinvaz",
-          "url": "https://github.com/nmoinvaz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/58823072?s=40&v=4",
-          "name": "reytchison",
-          "url": "https://github.com/reytchison"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/69324626?s=40&v=4",
-          "name": "Chi-Iroh",
-          "url": "https://github.com/Chi-Iroh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3234522?s=40&v=4",
-          "name": "DimitriPapadopoulos",
-          "url": "https://github.com/DimitriPapadopoulos"
+          "avatar": "https://avatars.githubusercontent.com/u/52703?s=40&v=4",
+          "name": "ItsAllAboutTheCode",
+          "url": "https://github.com/ItsAllAboutTheCode"
         }
       ]
     },
@@ -232,8 +47,8 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "5,904",
-      "forks": "987",
+      "stars": "5,917",
+      "forks": "988",
       "addStars": "20",
       "contributors": [
         {
@@ -269,8 +84,8 @@
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,366",
-      "forks": "11,586",
+      "stars": "31,370",
+      "forks": "11,587",
       "addStars": "137",
       "contributors": [
         {
@@ -301,76 +116,39 @@
       ]
     },
     {
-      "title": "OpenVPN/openvpn",
-      "url": "https://github.com/OpenVPN/openvpn",
-      "description": "OpenVPN is an open source VPN daemon",
+      "title": "FareedKhan-dev/kimi-k3-in-c",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "14,781",
-      "forks": "3,430",
-      "addStars": "5",
+      "stars": "11,295",
+      "forks": "1,759",
+      "addStars": "287",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1038539?s=40&v=4",
-          "name": "schwabe",
-          "url": "https://github.com/schwabe"
+          "avatar": "https://avatars.githubusercontent.com/u/63067900?s=40&v=4",
+          "name": "FareedKhan-dev",
+          "url": "https://github.com/FareedKhan-dev"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/93940?s=40&v=4",
-          "name": "flichtenheld",
-          "url": "https://github.com/flichtenheld"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3456368?s=40&v=4",
-          "name": "cron2",
-          "url": "https://github.com/cron2"
+          "avatar": "https://avatars.githubusercontent.com/u/12515041?s=40&v=4",
+          "name": "douglasmun",
+          "url": "https://github.com/douglasmun"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3830300?s=40&v=4",
-          "name": "syzzer",
-          "url": "https://github.com/syzzer"
+          "avatar": "https://avatars.githubusercontent.com/u/67913962?s=40&v=4",
+          "name": "Barba2k2",
+          "url": "https://github.com/Barba2k2"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3433035?s=40&v=4",
-          "name": "ordex",
-          "url": "https://github.com/ordex"
-        }
-      ]
-    },
-    {
-      "title": "signalwire/freeswitch",
-      "url": "https://github.com/signalwire/freeswitch",
-      "description": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a versatile software implementation that runs on any commodity hardware. From a Raspberry PI to a multi-core server, FreeSWITCH can unlock the telecommunications potential of any device.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "5,287",
-      "forks": "1,906",
-      "addStars": "3",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/524949?s=40&v=4",
-          "name": "anthmFS",
-          "url": "https://github.com/anthmFS"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/227111?s=40&v=4",
-          "name": "mjerris",
-          "url": "https://github.com/mjerris"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1474890?s=40&v=4",
-          "name": "briankwest",
-          "url": "https://github.com/briankwest"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4557407?s=40&v=4",
-          "name": "andywolk",
-          "url": "https://github.com/andywolk"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/31364?s=40&v=4",
-          "name": "seven1240",
-          "url": "https://github.com/seven1240"
+          "avatar": "https://avatars.githubusercontent.com/u/251295277?s=40&v=4",
+          "name": "cwwjacobs",
+          "url": "https://github.com/cwwjacobs"
         }
       ]
     },
@@ -380,8 +158,8 @@
       "description": "Decompilation of The Legend of Zelda: Ocarina of Time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "5,679",
-      "forks": "721",
+      "stars": "5,683",
+      "forks": "722",
       "addStars": "13",
       "contributors": [
         {
@@ -412,41 +190,65 @@
       ]
     },
     {
-      "title": "microsoft/PowerToys",
-      "url": "https://github.com/microsoft/PowerToys",
-      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "title": "xiaojieonly/Ehviewer_CN_SXJ",
+      "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ",
+      "description": "ehviewer，用爱发电，快乐前行",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "140,708",
-      "forks": "8,705",
-      "addStars": "75",
+      "stars": "28,838",
+      "forks": "769",
+      "addStars": "47",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1462282?s=40&v=4",
-          "name": "crutkas",
-          "url": "https://github.com/crutkas"
+          "avatar": "https://avatars.githubusercontent.com/u/49278135?s=40&v=4",
+          "name": "xiaojieonly",
+          "url": "https://github.com/xiaojieonly"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1169912?s=40&v=4",
-          "name": "bao-qian",
-          "url": "https://github.com/bao-qian"
+          "avatar": "https://avatars.githubusercontent.com/u/125150101?s=40&v=4",
+          "name": "UjuiUjuMandan",
+          "url": "https://github.com/UjuiUjuMandan"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/9866362?s=40&v=4",
-          "name": "niels9001",
-          "url": "https://github.com/niels9001"
+          "avatar": "https://avatars.githubusercontent.com/u/26041764?s=40&v=4",
+          "name": "Maoweicao",
+          "url": "https://github.com/Maoweicao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1725475?s=40&v=4",
-          "name": "qianlifeng",
-          "url": "https://github.com/qianlifeng"
+          "avatar": "https://avatars.githubusercontent.com/u/26220729?s=40&v=4",
+          "name": "wyapx",
+          "url": "https://github.com/wyapx"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26118718?s=40&v=4",
-          "name": "jaimecbernardo",
-          "url": "https://github.com/jaimecbernardo"
+          "avatar": "https://avatars.githubusercontent.com/u/61046297?s=40&v=4",
+          "name": "zhao-ng327",
+          "url": "https://github.com/zhao-ng327"
         }
       ]
+    },
+    {
+      "title": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "23,928",
+      "forks": "1,398",
+      "addStars": "288",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "description": "",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "8,425",
+      "forks": "291",
+      "addStars": "288",
+      "contributors": [],
+      "source": "trendshift"
     },
     {
       "title": "MarvinDrude/Beskar.Networking",
@@ -461,26 +263,14 @@
       "source": "trendshift"
     },
     {
-      "title": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-      "description": "",
+      "title": "ShareX/ShareX",
+      "url": "https://github.com/ShareX/ShareX",
+      "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
       "language": "C#",
       "languageColor": "",
-      "stars": "8,226",
-      "forks": "291",
-      "addStars": "97",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "KnifeLemon/Filee",
-      "url": "https://github.com/KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "23,716",
-      "forks": "1,398",
-      "addStars": "73",
+      "stars": "40,804",
+      "forks": "4,055",
+      "addStars": "41",
       "contributors": [],
       "source": "trendshift"
     },
@@ -490,33 +280,9 @@
       "description": "Post-build IL optimizer and intermediate representation for .NET programs",
       "language": "C#",
       "languageColor": "",
-      "stars": "98",
+      "stars": "113",
       "forks": "0",
-      "addStars": "11",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Tianyu199509/DeskBox",
-      "url": "https://github.com/Tianyu199509/DeskBox",
-      "description": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "8,607",
-      "forks": "488",
-      "addStars": "16",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "BlueHeisenberg/SCSKiller",
-      "url": "https://github.com/BlueHeisenberg/SCSKiller",
-      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "4,385",
-      "forks": "132",
-      "addStars": "15",
+      "addStars": "22",
       "contributors": [],
       "source": "trendshift"
     },
@@ -526,21 +292,57 @@
       "description": "Activation & Lifecycle State Maintenance Toolkit",
       "language": "C#",
       "languageColor": "",
-      "stars": "2,307",
+      "stars": "2,327",
       "forks": "541",
-      "addStars": "10",
+      "addStars": "30",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "BluePointLilac/ContextMenuManager",
-      "url": "https://github.com/BluePointLilac/ContextMenuManager",
-      "description": "🖱️ 纯粹的Windows右键菜单管理程序",
+      "title": "Tianyu199509/DeskBox",
+      "url": "https://github.com/Tianyu199509/DeskBox",
+      "description": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
       "language": "C#",
       "languageColor": "",
-      "stars": "20,398",
-      "forks": "896",
-      "addStars": "6",
+      "stars": "8,645",
+      "forks": "497",
+      "addStars": "47",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "graealex/WaveDudeNext",
+      "url": "https://github.com/graealex/WaveDudeNext",
+      "description": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "172",
+      "forks": "14",
+      "addStars": "25",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Ngochiendev/vietqr-core",
+      "url": "https://github.com/Ngochiendev/vietqr-core",
+      "description": "Thư viện .NET & Web API hiệu năng cao xử lý mã QR thanh toán VietQR chuẩn NAPAS247 & EMVCo. Hỗ trợ .NET 6/8/9/10, nhúng sẵn 76+ ngân hàng, render PNG/WebP/SVG.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "128",
+      "forks": "79",
+      "addStars": "14",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "2dust/v2rayN",
+      "url": "https://github.com/2dust/v2rayN",
+      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "120,181",
+      "forks": "16,694",
+      "addStars": "34",
       "contributors": [],
       "source": "trendshift"
     },
@@ -550,32 +352,80 @@
       "description": "FluentCleaner is the transparent, community-powered CCleaner alternative for Windows.",
       "language": "C#",
       "languageColor": "",
-      "stars": "6,881",
-      "forks": "270",
-      "addStars": "9",
+      "stars": "6,898",
+      "forks": "271",
+      "addStars": "26",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ntdevlabs/tiny11builder",
-      "url": "https://github.com/ntdevlabs/tiny11builder",
-      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "title": "Xocio/Campfire",
+      "url": "https://github.com/Xocio/Campfire",
+      "description": "先进的 Minecraft 联机工具箱 • Advanced Minecraft Multiplayer Toolbox",
       "language": "C#",
       "languageColor": "",
-      "stars": "21,773",
-      "forks": "1,688",
-      "addStars": "9",
+      "stars": "314",
+      "forks": "9",
+      "addStars": "23",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ShareX/ShareX",
-      "url": "https://github.com/ShareX/ShareX",
-      "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
+      "title": "babalae/better-genshin-impact",
+      "url": "https://github.com/babalae/better-genshin-impact",
+      "description": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 | 桌面分身 - UI Automation Testing Tools For Genshin Impact",
       "language": "C#",
       "languageColor": "",
-      "stars": "40,771",
-      "forks": "4,055",
+      "stars": "17,773",
+      "forks": "1,390",
+      "addStars": "26",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "BlueHeisenberg/SCSKiller",
+      "url": "https://github.com/BlueHeisenberg/SCSKiller",
+      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "4,398",
+      "forks": "132",
+      "addStars": "28",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "dlsandy/Transub-Player",
+      "url": "https://github.com/dlsandy/Transub-Player",
+      "description": "Open a video. Subtitles follow. Windows player with live dual-language subtitles.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "906",
+      "forks": "75",
+      "addStars": "14",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "files-community/Files",
+      "url": "https://github.com/files-community/Files",
+      "description": "A modern file manager that helps users organize their files and folders.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "46,538",
+      "forks": "3,115",
+      "addStars": "15",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "TheJoeFin/Traydio",
+      "url": "https://github.com/TheJoeFin/Traydio",
+      "description": "A tiny simple, elegant, internet radio player for Windows which lives completely in the tray.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "221",
+      "forks": "7",
       "addStars": "7",
       "contributors": [],
       "source": "trendshift"
@@ -586,32 +436,44 @@
       "description": "Open-source Windows game resource manager. Suppresses background processes, gives games exclusive CPU cores, steers device interrupts off game cores, applies per-game GPU driver, memory and power policies, and restores every change after play. No injection, no telemetry. GPL-3.0.",
       "language": "C#",
       "languageColor": "",
-      "stars": "936",
-      "forks": "45",
-      "addStars": "8",
+      "stars": "949",
+      "forks": "48",
+      "addStars": "19",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "2dust/v2rayN",
-      "url": "https://github.com/2dust/v2rayN",
-      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "title": "idlerunner00/procedural-pixel-creatures",
+      "url": "https://github.com/idlerunner00/procedural-pixel-creatures",
+      "description": "Godot Tool to create procedural pixel creatures",
       "language": "C#",
       "languageColor": "",
-      "stars": "120,156",
-      "forks": "16,694",
-      "addStars": "8",
+      "stars": "257",
+      "forks": "29",
+      "addStars": "9",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "huaotem-bot/gezi-quark-downloader",
-      "url": "https://github.com/huaotem-bot/gezi-quark-downloader",
-      "description": "鸽子下载Windows 桌面端的完全免费支持免转存的夸克网盘下载器,妈妈再也不害怕网盘容量不够了",
+      "title": "ntdevlabs/tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
       "language": "C#",
       "languageColor": "",
-      "stars": "657",
-      "forks": "54",
+      "stars": "21,784",
+      "forks": "1,688",
+      "addStars": "18",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Redth/mobile-canvas-ghcp",
+      "url": "https://github.com/Redth/mobile-canvas-ghcp",
+      "description": "Mobile iOS / Android Canvas extension for GitHub Copilot App",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "181",
+      "forks": "18",
       "addStars": "6",
       "contributors": [],
       "source": "trendshift"
@@ -622,9 +484,21 @@
       "description": "The Free Software Media System - Server Backend & API",
       "language": "C#",
       "languageColor": "",
-      "stars": "59,110",
+      "stars": "59,121",
       "forks": "6,014",
-      "addStars": "7",
+      "addStars": "16",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Devolutions/UniGetUI",
+      "url": "https://github.com/Devolutions/UniGetUI",
+      "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "26,918",
+      "forks": "1,030",
+      "addStars": "13",
       "contributors": [],
       "source": "trendshift"
     },
@@ -634,117 +508,21 @@
       "description": "",
       "language": "C#",
       "languageColor": "",
-      "stars": "64",
+      "stars": "66",
       "forks": "1",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jenius-apps/ambie",
-      "url": "https://github.com/jenius-apps/ambie",
-      "description": "An app that uses white noise, nature sounds, and focus features to boost your productivity.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "2,240",
-      "forks": "148",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "morkt/GARbro",
-      "url": "https://github.com/morkt/GARbro",
-      "description": "Visual Novels resource browser",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "3,363",
-      "forks": "256",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "TheJoeFin/Traydio",
-      "url": "https://github.com/TheJoeFin/Traydio",
-      "description": "A tiny simple, elegant, internet radio player for Windows which lives completely in the tray.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "217",
-      "forks": "6",
-      "addStars": "3",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "hugoj0s3/NaturalCron",
-      "url": "https://github.com/hugoj0s3/NaturalCron",
-      "description": "Human-readable schedule expressions for .NET (C#): write \"every day at 9am except sunday\" instead of cron. Time zones, fluent builder, custom keywords, cron converter.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "157",
-      "forks": "10",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "memstechtips/Winhance",
-      "url": "https://github.com/memstechtips/Winhance",
-      "description": "Application designed to optimize, customize and enhance your Windows experience.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "14,739",
-      "forks": "696",
-      "addStars": "6",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "idlerunner00/procedural-pixel-creatures",
-      "url": "https://github.com/idlerunner00/procedural-pixel-creatures",
-      "description": "Godot Tool to create procedural pixel creatures",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "251",
-      "forks": "29",
-      "addStars": "4",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "bloxstraplabs/bloxstrap",
-      "url": "https://github.com/bloxstraplabs/bloxstrap",
-      "description": "An alternative bootstrapper for Roblox with a bunch of extra features.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "3,198",
-      "forks": "956",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "v1k70rk4/HASS.Agent.NET10",
-      "url": "https://github.com/v1k70rk4/HASS.Agent.NET10",
-      "description": "Modern .NET 10 Windows companion app for Home Assistant with MQTT discovery, tray UI, system sensors, media controls, notifications, and optional Windows service support.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "73",
-      "forks": "4",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "files-community/Files",
-      "url": "https://github.com/files-community/Files",
-      "description": "A modern file manager that helps users organize their files and folders.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "46,526",
-      "forks": "3,115",
       "addStars": "5",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "SubtitleEdit/subtitleedit",
+      "url": "https://github.com/SubtitleEdit/subtitleedit",
+      "description": "the subtitle editor :)",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "14,908",
+      "forks": "1,427",
+      "addStars": "11",
       "contributors": [],
       "source": "trendshift"
     }

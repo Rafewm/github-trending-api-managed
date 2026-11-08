@@ -2,7 +2,7 @@
   "title": "GitHub C Languages Monthly Trending",
   "description": "Monthly Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 08 Nov 2026 04:24:39 GMT",
+  "pubDate": "Sun, 08 Nov 2026 14:45:17 GMT",
   "items": [
     {
       "title": "php/php-src",
@@ -10,8 +10,8 @@
       "description": "The PHP Interpreter",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "41,763",
-      "forks": "8,526",
+      "stars": "41,764",
+      "forks": "8,525",
       "addStars": "1,437",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "An advanced Kernel based root solution for Android",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,758",
-      "forks": "1,272",
+      "stars": "4,765",
+      "forks": "1,274",
       "addStars": "439",
       "contributors": [
         {
@@ -74,49 +74,12 @@
       ]
     },
     {
-      "title": "obsproject/obs-studio",
-      "url": "https://github.com/obsproject/obs-studio",
-      "description": "OBS Studio - Free and open source software for live streaming and screen recording",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "79,139",
-      "forks": "11,110",
-      "addStars": "2,257",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2084112?s=40&v=4",
-          "name": "jp9000",
-          "url": "https://github.com/jp9000"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10396506?s=40&v=4",
-          "name": "jpark37",
-          "url": "https://github.com/jpark37"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9436503?s=40&v=4",
-          "name": "PatTheMav",
-          "url": "https://github.com/PatTheMav"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3123295?s=40&v=4",
-          "name": "derrod",
-          "url": "https://github.com/derrod"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/624931?s=40&v=4",
-          "name": "RytoEX",
-          "url": "https://github.com/RytoEX"
-        }
-      ]
-    },
-    {
       "title": "systemd/systemd",
       "url": "https://github.com/systemd/systemd",
       "description": "The systemd System and Service Manager",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,008",
+      "stars": "17,010",
       "forks": "4,815",
       "addStars": "268",
       "contributors": [
@@ -153,7 +116,7 @@
       "description": "Xbox 360 Recompilation Runtime and Toolkit",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,261",
+      "stars": "1,262",
       "forks": "279",
       "addStars": "284",
       "contributors": [
@@ -185,13 +148,50 @@
       ]
     },
     {
+      "title": "obsproject/obs-studio",
+      "url": "https://github.com/obsproject/obs-studio",
+      "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "79,171",
+      "forks": "11,121",
+      "addStars": "2,257",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2084112?s=40&v=4",
+          "name": "jp9000",
+          "url": "https://github.com/jp9000"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10396506?s=40&v=4",
+          "name": "jpark37",
+          "url": "https://github.com/jpark37"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9436503?s=40&v=4",
+          "name": "PatTheMav",
+          "url": "https://github.com/PatTheMav"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3123295?s=40&v=4",
+          "name": "derrod",
+          "url": "https://github.com/derrod"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/624931?s=40&v=4",
+          "name": "RytoEX",
+          "url": "https://github.com/RytoEX"
+        }
+      ]
+    },
+    {
       "title": "xiaojieonly/Ehviewer_CN_SXJ",
       "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ",
       "description": "ehviewer，用爱发电，快乐前行",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "28,812",
-      "forks": "768",
+      "stars": "28,838",
+      "forks": "769",
       "addStars": "1,391",
       "contributors": [
         {
@@ -227,8 +227,8 @@
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "140,708",
-      "forks": "8,705",
+      "stars": "140,724",
+      "forks": "8,710",
       "addStars": "2,008",
       "contributors": [
         {
@@ -264,7 +264,7 @@
       "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "77,288",
+      "stars": "77,291",
       "forks": "25,009",
       "addStars": "1,193",
       "contributors": [
@@ -296,50 +296,13 @@
       ]
     },
     {
-      "title": "mackron/miniaudio",
-      "url": "https://github.com/mackron/miniaudio",
-      "description": "Audio playback and capture library written in C, in a single source file.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "7,576",
-      "forks": "632",
-      "addStars": "261",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1232553?s=40&v=4",
-          "name": "mackron",
-          "url": "https://github.com/mackron"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29616?s=40&v=4",
-          "name": "tycho",
-          "url": "https://github.com/tycho"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/958469?s=40&v=4",
-          "name": "znakeeye",
-          "url": "https://github.com/znakeeye"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7667009?s=40&v=4",
-          "name": "Clownacy",
-          "url": "https://github.com/Clownacy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1697224?s=40&v=4",
-          "name": "iarwain",
-          "url": "https://github.com/iarwain"
-        }
-      ]
-    },
-    {
       "title": "openssl/openssl",
       "url": "https://github.com/openssl/openssl",
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,366",
-      "forks": "11,586",
+      "stars": "31,370",
+      "forks": "11,587",
       "addStars": "680",
       "contributors": [
         {
@@ -370,113 +333,76 @@
       ]
     },
     {
-      "title": "espressif/esp-idf",
-      "url": "https://github.com/espressif/esp-idf",
-      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
+      "title": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "19,459",
-      "forks": "8,585",
-      "addStars": "317",
+      "stars": "37,994",
+      "forks": "3,639",
+      "addStars": "814",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4349050?s=40&v=4",
-          "name": "igrr",
-          "url": "https://github.com/igrr"
+          "avatar": "https://avatars.githubusercontent.com/u/1126053?s=40&v=4",
+          "name": "kasper93",
+          "url": "https://github.com/kasper93"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/205573?s=40&v=4",
-          "name": "projectgus",
-          "url": "https://github.com/projectgus"
+          "avatar": "https://avatars.githubusercontent.com/u/5105515?s=40&v=4",
+          "name": "Dudemanguy",
+          "url": "https://github.com/Dudemanguy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8869469?s=40&v=4",
-          "name": "suda-morris",
-          "url": "https://github.com/suda-morris"
+          "avatar": "https://avatars.githubusercontent.com/u/11783568?s=40&v=4",
+          "name": "guidocella",
+          "url": "https://github.com/guidocella"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/21117421?s=40&v=4",
-          "name": "jack0c",
-          "url": "https://github.com/jack0c"
+          "avatar": "https://avatars.githubusercontent.com/u/1149047?s=40&v=4",
+          "name": "haasn",
+          "url": "https://github.com/haasn"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/902446?s=40&v=4",
-          "name": "mahavirj",
-          "url": "https://github.com/mahavirj"
+          "avatar": "https://avatars.githubusercontent.com/u/24681?s=40&v=4",
+          "name": "pigoz",
+          "url": "https://github.com/pigoz"
         }
       ]
     },
     {
-      "title": "curl/curl",
-      "url": "https://github.com/curl/curl",
-      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "title": "sp00nznet/ps3recomp",
+      "url": "https://github.com/sp00nznet/ps3recomp",
+      "description": "Static recompilation runtime libraries for PlayStation 3 titles.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "43,428",
-      "forks": "7,490",
-      "addStars": "661",
+      "stars": "653",
+      "forks": "104",
+      "addStars": "296",
       "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/177011?s=40&v=4",
-          "name": "bagder",
-          "url": "https://github.com/bagder"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1446897?s=40&v=4",
-          "name": "vszakats",
-          "url": "https://github.com/vszakats"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/242954?s=40&v=4",
-          "name": "yangtse",
-          "url": "https://github.com/yangtse"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1523871?s=40&v=4",
-          "name": "captain-caveman2k",
-          "url": "https://github.com/captain-caveman2k"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228259?s=40&v=4",
-          "name": "dfandrich",
-          "url": "https://github.com/dfandrich"
-        }
-      ]
-    },
-    {
-      "title": "iqui27/nuvio-native-legacy",
-      "url": "https://github.com/iqui27/nuvio-native-legacy",
-      "description": "Unofficial native Nuvio client for LG webOS 3+, Samsung Tizen 4+, GoogleTV 7+. C/SDL2/GLES2 on LG and on Samsung (native .tpk, Tizen 4.0-9), plus a WebAssembly .wgt for Tizen 5.5+. Install from the Homebrew Channel or the releases.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "428",
-      "forks": "57",
-      "addStars": "307",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44658254?s=40&v=4",
-          "name": "iqui27",
-          "url": "https://github.com/iqui27"
-        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "name": "claude",
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/117389362?s=40&v=4",
-          "name": "ghbarker",
-          "url": "https://github.com/ghbarker"
+          "avatar": "https://avatars.githubusercontent.com/u/4937302?s=40&v=4",
+          "name": "sp00nznet",
+          "url": "https://github.com/sp00nznet"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/256213050?s=40&v=4",
-          "name": "Namer03",
-          "url": "https://github.com/Namer03"
+          "avatar": "https://avatars.githubusercontent.com/u/146774802?s=40&v=4",
+          "name": "sagemono",
+          "url": "https://github.com/sagemono"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/109388048?s=40&v=4",
-          "name": "Tolu-Walop-E",
-          "url": "https://github.com/Tolu-Walop-E"
+          "avatar": "https://avatars.githubusercontent.com/u/46506773?s=40&v=4",
+          "name": "canersaka",
+          "url": "https://github.com/canersaka"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3731082?s=40&v=4",
+          "name": "tekulvw",
+          "url": "https://github.com/tekulvw"
         }
       ]
     },
@@ -487,7 +413,7 @@
       "language": "C",
       "languageColor": "#555555",
       "stars": "24,970",
-      "forks": "5,207",
+      "forks": "5,208",
       "addStars": "186",
       "contributors": [
         {
@@ -518,76 +444,39 @@
       ]
     },
     {
-      "title": "sp00nznet/xboxrecomp",
-      "url": "https://github.com/sp00nznet/xboxrecomp",
-      "description": "Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.",
+      "title": "espressif/esp-idf",
+      "url": "https://github.com/espressif/esp-idf",
+      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "338",
-      "forks": "119",
-      "addStars": "198",
+      "stars": "19,463",
+      "forks": "8,586",
+      "addStars": "317",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4937302?s=40&v=4",
-          "name": "sp00nznet",
-          "url": "https://github.com/sp00nznet"
+          "avatar": "https://avatars.githubusercontent.com/u/4349050?s=40&v=4",
+          "name": "igrr",
+          "url": "https://github.com/igrr"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/205573?s=40&v=4",
+          "name": "projectgus",
+          "url": "https://github.com/projectgus"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/170875756?s=40&v=4",
-          "name": "NoRain211",
-          "url": "https://github.com/NoRain211"
+          "avatar": "https://avatars.githubusercontent.com/u/8869469?s=40&v=4",
+          "name": "suda-morris",
+          "url": "https://github.com/suda-morris"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4037632?s=40&v=4",
-          "name": "apexJCL",
-          "url": "https://github.com/apexJCL"
+          "avatar": "https://avatars.githubusercontent.com/u/21117421?s=40&v=4",
+          "name": "jack0c",
+          "url": "https://github.com/jack0c"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/289226582?s=40&v=4",
-          "name": "fearkov",
-          "url": "https://github.com/fearkov"
-        }
-      ]
-    },
-    {
-      "title": "armel/uv-k1-k5v3-firmware-custom",
-      "url": "https://github.com/armel/uv-k1-k5v3-firmware-custom",
-      "description": "This is a fork of F4HWN firmware https://github.com/armel/uv-k5-firmware-custom by @muzkr and @armel",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "841",
-      "forks": "237",
-      "addStars": "120",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/127889?s=40&v=4",
-          "name": "armel",
-          "url": "https://github.com/armel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/110433144?s=40&v=4",
-          "name": "mrkusypl",
-          "url": "https://github.com/mrkusypl"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/246715?s=40&v=4",
-          "name": "jdenoy",
-          "url": "https://github.com/jdenoy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/175225470?s=40&v=4",
-          "name": "muzkr",
-          "url": "https://github.com/muzkr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/885662?s=40&v=4",
-          "name": "mengzhuo",
-          "url": "https://github.com/mengzhuo"
+          "avatar": "https://avatars.githubusercontent.com/u/902446?s=40&v=4",
+          "name": "mahavirj",
+          "url": "https://github.com/mahavirj"
         }
       ]
     },
@@ -597,9 +486,9 @@
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "5,691",
+      "stars": "5,809",
       "forks": "466",
-      "addStars": "3,131",
+      "addStars": "3,254",
       "contributors": [],
       "source": "trendshift"
     },
@@ -609,9 +498,9 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "11,225",
-      "forks": "1,757",
-      "addStars": "1,967",
+      "stars": "11,285",
+      "forks": "1,793",
+      "addStars": "2,031",
       "contributors": [],
       "source": "trendshift"
     },
@@ -621,9 +510,9 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,878",
+      "stars": "18,039",
       "forks": "1,796",
-      "addStars": "4,042",
+      "addStars": "4,215",
       "contributors": [],
       "source": "trendshift"
     },
@@ -633,33 +522,9 @@
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "48,761",
-      "forks": "5,827",
-      "addStars": "3,374",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "12,704",
-      "forks": "1,627",
-      "addStars": "512",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "saragordic/window-sweaters",
-      "url": "https://github.com/saragordic/window-sweaters",
-      "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,339",
-      "forks": "38",
-      "addStars": "512",
+      "stars": "48,917",
+      "forks": "5,880",
+      "addStars": "3,537",
       "contributors": [],
       "source": "trendshift"
     },
@@ -669,9 +534,21 @@
       "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "811",
+      "stars": "892",
       "forks": "24",
-      "addStars": "779",
+      "addStars": "866",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "12,719",
+      "forks": "1,631",
+      "addStars": "526",
       "contributors": [],
       "source": "trendshift"
     },
@@ -681,9 +558,21 @@
       "description": "Turn Amazon Echos (Echo Dot 3, Echo Dot 2, Echo 2) into local Home Assistant voice satellites. Keeps Amazon's mic processing and wake word engine, replaces Alexa with a small C daemon speaking ESPHome or Wyoming. Multiroom music via Music Assistant, Bluetooth speaker and proxy, no cloud.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "842",
+      "stars": "862",
       "forks": "67",
-      "addStars": "567",
+      "addStars": "590",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "saragordic/window-sweaters",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,349",
+      "forks": "39",
+      "addStars": "522",
       "contributors": [],
       "source": "trendshift"
     },
@@ -693,9 +582,9 @@
       "description": "Emulate macOS on iOS and iPadOS",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "778",
+      "stars": "926",
       "forks": "39",
-      "addStars": "597",
+      "addStars": "761",
       "contributors": [],
       "source": "trendshift"
     },
@@ -705,33 +594,9 @@
       "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,444",
+      "stars": "3,523",
       "forks": "208",
-      "addStars": "898",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "daniel-madrid-07/weeping-of-the-empire",
-      "url": "https://github.com/daniel-madrid-07/weeping-of-the-empire",
-      "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "303",
-      "forks": "11",
-      "addStars": "301",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "torvalds/linux",
-      "url": "https://github.com/torvalds/linux",
-      "description": "Linux kernel source tree",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "254,776",
-      "forks": "61,397",
-      "addStars": "796",
+      "addStars": "979",
       "contributors": [],
       "source": "trendshift"
     },
@@ -741,9 +606,33 @@
       "description": "A compatibility layer for porting Switch games to Android, one game at a time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "988",
+      "stars": "1,060",
       "forks": "131",
-      "addStars": "489",
+      "addStars": "566",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "daniel-madrid-07/weeping-of-the-empire",
+      "url": "https://github.com/daniel-madrid-07/weeping-of-the-empire",
+      "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "306",
+      "forks": "11",
+      "addStars": "304",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "description": "Linux kernel source tree",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "254,845",
+      "forks": "61,541",
+      "addStars": "867",
       "contributors": [],
       "source": "trendshift"
     },
@@ -753,9 +642,9 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,070",
+      "stars": "1,122",
       "forks": "206",
-      "addStars": "496",
+      "addStars": "550",
       "contributors": [],
       "source": "trendshift"
     },
@@ -765,33 +654,9 @@
       "description": "Run every Intel version of macOS between Mac OS X Tiger 10.4 and macOS Big Sur 11 on Apple silicon with graphics acceleration, so you can run older 32-bit and 64-bit Intel apps like iWork ’09, iLife ’11, Aperture, Final Cut Pro 7, and Front Row, or PowerPC apps like AppleWorks. This marks an exciting chapter in the preservation of Mac history.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "543",
+      "stars": "551",
       "forks": "26",
-      "addStars": "344",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
-      "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
-      "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,983",
-      "forks": "223",
-      "addStars": "573",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "oscar-soirey/Raven",
-      "url": "https://github.com/oscar-soirey/Raven",
-      "description": "A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Python, Zig, Lua, Go",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "2,068",
-      "forks": "95",
-      "addStars": "580",
+      "addStars": "354",
       "contributors": [],
       "source": "trendshift"
     },
@@ -801,21 +666,45 @@
       "description": "Unofficial static recompilation of Bayonetta 3. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "294",
+      "stars": "314",
       "forks": "13",
-      "addStars": "193",
+      "addStars": "214",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "oosexgang/hakios-xnu-kernel",
-      "url": "https://github.com/oosexgang/hakios-xnu-kernel",
-      "description": "Apple's open-source XNU kernel on Android phones: its own loader and drivers, Metal on the Adreno. Runs from RAM; a reboot gives the phone back to Android.",
+      "title": "oscar-soirey/Raven",
+      "url": "https://github.com/oscar-soirey/Raven",
+      "description": "A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Java, Python, Zig, Lua, Go, Odin, C3",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,613",
-      "forks": "437",
-      "addStars": "583",
+      "stars": "2,084",
+      "forks": "95",
+      "addStars": "599",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+      "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,995",
+      "forks": "223",
+      "addStars": "586",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tangerineturtle1/NX2navi",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "description": "",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "765",
+      "forks": "22",
+      "addStars": "409",
       "contributors": [],
       "source": "trendshift"
     },
@@ -825,9 +714,33 @@
       "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "66,714",
-      "forks": "12,853",
-      "addStars": "552",
+      "stars": "66,741",
+      "forks": "12,868",
+      "addStars": "584",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "oosexgang/hakios-xnu-kernel",
+      "url": "https://github.com/oosexgang/hakios-xnu-kernel",
+      "description": "Apple's open-source XNU kernel on Android phones: its own loader and drivers, Metal on the Adreno. Runs from RAM; a reboot gives the phone back to Android.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "2,626",
+      "forks": "437",
+      "addStars": "600",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Lucas-blip-png/dkb-pc-recomp",
+      "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+      "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "389",
+      "forks": "24",
+      "addStars": "281",
       "contributors": [],
       "source": "trendshift"
     },
@@ -837,33 +750,21 @@
       "description": "Display and control your Android device",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "154,255",
-      "forks": "14,241",
-      "addStars": "585",
+      "stars": "154,300",
+      "forks": "14,253",
+      "addStars": "633",
       "contributors": [],
       "source": "trendshift"
     },
     {
       "title": "kuraeow/ultratears",
       "url": "https://github.com/kuraeow/ultratears",
-      "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+      "description": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "825",
+      "stars": "836",
       "forks": "40",
-      "addStars": "344",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "YizhengWw/HachimoDock",
-      "url": "https://github.com/YizhengWw/HachimoDock",
-      "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "937",
-      "forks": "96",
-      "addStars": "380",
+      "addStars": "356",
       "contributors": [],
       "source": "trendshift"
     },
@@ -873,21 +774,9 @@
       "description": "Run ARM64 Linux userspace and desktop applications on iPhone and iPad.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "739",
+      "stars": "760",
       "forks": "42",
-      "addStars": "329",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ly05010419/MacNativeGames",
-      "url": "https://github.com/ly05010419/MacNativeGames",
-      "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "7,263",
-      "forks": "1,079",
-      "addStars": "583",
+      "addStars": "350",
       "contributors": [],
       "source": "trendshift"
     }
