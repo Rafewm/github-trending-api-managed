@@ -2,7 +2,7 @@
   "title": "GitHub Zig Languages Weekly Trending",
   "description": "Weekly Trending of Zig Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 08 Nov 2026 20:10:55 GMT",
+  "pubDate": "Mon, 09 Nov 2026 04:38:21 GMT",
   "items": [
     {
       "title": "ghostty-org/ghostty",
@@ -10,9 +10,9 @@
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "63,884",
-      "forks": "3,862",
-      "addStars": "778",
+      "stars": "63,900",
+      "forks": "3,871",
+      "addStars": "773",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/1299?s=40&v=4",
@@ -37,9 +37,9 @@
       "description": "Lightpanda: the headless browser designed for AI and automation",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "41,615",
-      "forks": "2,067",
-      "addStars": "2,635",
+      "stars": "41,641",
+      "forks": "2,070",
+      "addStars": "1,785",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/206480?s=40&v=4",
@@ -74,9 +74,9 @@
       "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,405",
-      "forks": "253",
-      "addStars": "198",
+      "stars": "2,406",
+      "forks": "254",
+      "addStars": "154",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/869085?s=40&v=4",
@@ -108,7 +108,7 @@
       "languageColor": "#ec915c",
       "stars": "17,342",
       "forks": "933",
-      "addStars": "69",
+      "addStars": "65",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/461112?s=40&v=4",
@@ -143,9 +143,9 @@
       "description": "Unix like coding agent",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "3,795",
+      "stars": "3,796",
       "forks": "435",
-      "addStars": "102",
+      "addStars": "88",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/221089582?s=40&v=4",
@@ -180,9 +180,9 @@
       "description": "Moved to Codeberg",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "43,253",
+      "stars": "43,255",
       "forks": "3,122",
-      "addStars": "19",
+      "addStars": "21",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/106511?s=40&v=4",
@@ -217,9 +217,9 @@
       "description": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "13,045",
+      "stars": "13,047",
       "forks": "381",
-      "addStars": "64",
+      "addStars": "66",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/75102186?s=40&v=4",
@@ -249,14 +249,51 @@
       ]
     },
     {
+      "title": "amanthanvi/noctty",
+      "url": "https://github.com/amanthanvi/noctty",
+      "description": "A fast, native terminal for Windows. Formerly winghostty. 🌙",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "530",
+      "forks": "21",
+      "addStars": "29",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1299?s=40&v=4",
+          "name": "mitchellh",
+          "url": "https://github.com/mitchellh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/740022?s=40&v=4",
+          "name": "jcollie",
+          "url": "https://github.com/jcollie"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22306104?s=40&v=4",
+          "name": "amanthanvi",
+          "url": "https://github.com/amanthanvi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7241851?s=40&v=4",
+          "name": "qwerasd205",
+          "url": "https://github.com/qwerasd205"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10311?s=40&v=4",
+          "name": "jparise",
+          "url": "https://github.com/jparise"
+        }
+      ]
+    },
+    {
       "title": "ashhart/TensorFold",
       "url": "https://github.com/ashhart/TensorFold",
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "1,700",
-      "forks": "368",
-      "addStars": "133",
+      "stars": "1,709",
+      "forks": "370",
+      "addStars": "118",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/71890694?s=40&v=4",
@@ -293,7 +330,7 @@
       "languageColor": "#ec915c",
       "stars": "2,175",
       "forks": "70",
-      "addStars": "81",
+      "addStars": "78",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/33665156?s=40&v=4",
@@ -318,9 +355,9 @@
       "description": "Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "8,214",
+      "stars": "8,215",
       "forks": "963",
-      "addStars": "25",
+      "addStars": "22",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/5755838?s=40&v=4",
@@ -357,7 +394,7 @@
       "languageColor": "#ec915c",
       "stars": "2,274",
       "forks": "179",
-      "addStars": "23",
+      "addStars": "21",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/1940365?s=40&v=4",
@@ -394,7 +431,7 @@
       "languageColor": "#ec915c",
       "stars": "2,537",
       "forks": "131",
-      "addStars": "20",
+      "addStars": "18",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/1552770?s=40&v=4",
@@ -429,9 +466,9 @@
       "description": "Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "3,753",
+      "stars": "3,755",
       "forks": "252",
-      "addStars": "12",
+      "addStars": "13",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/43880493?s=40&v=4",
@@ -498,62 +535,26 @@
       ]
     },
     {
-      "title": "justrach/nanoui",
-      "url": "https://github.com/justrach/nanoui",
-      "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
+      "title": "allyourcodebase/SDL",
+      "url": "https://github.com/allyourcodebase/SDL",
+      "description": "SDL ported to the Zig build system.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "868",
-      "forks": "45",
-      "addStars": "321",
+      "stars": "77",
+      "forks": "28",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "justrach/nanolight",
-      "url": "https://github.com/justrach/nanolight",
-      "description": "A ⌘Space launcher for the Mac, drawn by nanoui: apps, math, Google suggestions with results in the panel, Grok and X",
+      "title": "midasdf/zt",
+      "url": "https://github.com/midasdf/zt",
+      "description": "⚡zt — the fastest terminal emulator. 88 MB/s throughput. 5.5ms startup. 2MB memory. Pure Zig.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "389",
-      "forks": "32",
-      "addStars": "251",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "RshaCuDeVidro/larperCord",
-      "url": "https://github.com/RshaCuDeVidro/larperCord",
-      "description": "A native Discord client of about 100~ MB RAM, whose entire interface is a theme file.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "224",
-      "forks": "14",
-      "addStars": "151",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "alexrlocke/neorex",
-      "url": "https://github.com/alexrlocke/neorex",
-      "description": "A Rex-Native frontend for Neovim. ",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "295",
-      "forks": "11",
-      "addStars": "150",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "okcontract/oksolc",
-      "url": "https://github.com/okcontract/oksolc",
-      "description": "A Solidity compiler written in Zig. Reduces compilation time 5x and targets byte-for-byte compatibility with solc. Parallel compilation and cached work reduce wait time after each edit.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "112",
-      "forks": "7",
-      "addStars": "50",
+      "stars": "81",
+      "forks": "4",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
@@ -563,33 +564,93 @@
       "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,807",
+      "stars": "2,809",
       "forks": "351",
-      "addStars": "86",
+      "addStars": "2",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "oxydizer/rediwm",
-      "url": "https://github.com/oxydizer/rediwm",
-      "description": "RediWM is a Wayland compositor written in Zig (OpenGL ES) that includes  everything in one process",
+      "title": "Lulzx/zs3",
+      "url": "https://github.com/Lulzx/zs3",
+      "description": "S3-compatible storage in Zig. Zero dependencies.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "93",
-      "forks": "3",
-      "addStars": "43",
+      "stars": "201",
+      "forks": "9",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "valvesky/velocitty",
-      "url": "https://github.com/valvesky/velocitty",
-      "description": "⚡ Lightning fast terminal.",
+      "title": "YeOldPress/alttp-dx",
+      "url": "https://github.com/YeOldPress/alttp-dx",
+      "description": "PC Port of The Legend of Zelda: A Link to the Past ",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "198",
-      "forks": "10",
-      "addStars": "39",
+      "stars": "22",
+      "forks": "1",
+      "addStars": "1",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "jackielii/skhd.zig",
+      "url": "https://github.com/jackielii/skhd.zig",
+      "description": "Simple Hotkey Daemon for macOS, ported from skhd by asmvik",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "678",
+      "forks": "26",
+      "addStars": "1",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "xit-vcs/haxy",
+      "url": "https://github.com/xit-vcs/haxy",
+      "description": "a git forge that is local-first and text-based",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "392",
+      "forks": "12",
+      "addStars": "1",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "if-not-nil/revo",
+      "url": "https://github.com/if-not-nil/revo",
+      "description": "a dynamic language for the joy of programming",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "586",
+      "forks": "29",
+      "addStars": "1",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "fairyglade/ly",
+      "url": "https://github.com/fairyglade/ly",
+      "description": "A lightweight TUI (ncurses-like) display manager for Linux and BSD (mirror of https://codeberg.org/fairyglade/ly).",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "7,672",
+      "forks": "339",
+      "addStars": "1",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "xit-vcs/xitdb",
+      "url": "https://github.com/xit-vcs/xitdb",
+      "description": "an immutable database for zig",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "164",
+      "forks": "5",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
@@ -599,105 +660,57 @@
       "description": "A bidirectional, local-first sync engine between Postgres and edge SQLite/PGLITE/Postgres/DuckDB clients over NATS",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "38",
+      "stars": "39",
       "forks": "0",
-      "addStars": "33",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "beamivalice/sushi",
-      "url": "https://github.com/beamivalice/sushi",
-      "description": "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology.",
+      "title": "alexrlocke/neorex",
+      "url": "https://github.com/alexrlocke/neorex",
+      "description": "A Rex-Native frontend for Neovim. ",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "435",
-      "forks": "38",
-      "addStars": "43",
+      "stars": "296",
+      "forks": "11",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "amanthanvi/noctty",
-      "url": "https://github.com/amanthanvi/noctty",
-      "description": "A fast, native terminal for Windows. Formerly winghostty. 🌙",
+      "title": "justrach/nanoui",
+      "url": "https://github.com/justrach/nanoui",
+      "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "528",
-      "forks": "20",
-      "addStars": "28",
+      "stars": "869",
+      "forks": "45",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ziex-dev/ziex",
-      "url": "https://github.com/ziex-dev/ziex",
-      "description": "Full-stack web framework for Zig. HTML syntax within Zig code, just like JSX but for Zig!",
+      "title": "RshaCuDeVidro/larperCord",
+      "url": "https://github.com/RshaCuDeVidro/larperCord",
+      "description": "A native Discord client of about 100~ MB RAM, whose entire interface is a theme file.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "418",
-      "forks": "37",
-      "addStars": "15",
+      "stars": "230",
+      "forks": "14",
+      "addStars": "0",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "david-vanderson/dvui",
-      "url": "https://github.com/david-vanderson/dvui",
-      "description": "Immediate Zig GUI for Apps and Games",
+      "title": "Scythe-Technology/zune",
+      "url": "https://github.com/Scythe-Technology/zune",
+      "description": "A Luau runtime",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "1,744",
-      "forks": "163",
-      "addStars": "18",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "vercel-labs/native",
-      "url": "https://github.com/vercel-labs/native",
-      "description": "Toolkit for building native desktop apps",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "7,839",
-      "forks": "366",
-      "addStars": "20",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "alaleks/zpeek",
-      "url": "https://github.com/alaleks/zpeek",
-      "description": "A lightweight database TUI written in Zig. Explore databases directly from your editor's terminal, a local terminal, or a remote server over SSH.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "17",
-      "forks": "2",
-      "addStars": "13",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zml/zml",
-      "url": "https://github.com/zml/zml",
-      "description": "Any model. Any hardware. Zero compromise. Built with @ziglang / @openxla / MLIR / @bazelbuild",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "4,235",
-      "forks": "205",
-      "addStars": "18",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "rockorager/monstar",
-      "url": "https://github.com/rockorager/monstar",
-      "description": "wayland terminal based on libghostty. cpu rendered, like foot",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "238",
-      "forks": "18",
-      "addStars": "19",
+      "stars": "123",
+      "forks": "4",
+      "addStars": "0",
       "contributors": [],
       "source": "trendshift"
     }
