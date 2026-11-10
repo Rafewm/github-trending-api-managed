@@ -265,3 +265,4 @@ td.col-actions { padding-top: 58px; vertical-align: bottom; }
 }
 /* Long names with no spaces must wrap instead of running under Track or past the edge. */
 .project a, .project .muted { overflow-wrap: anywhere; }
+.release a { font-family: var(--mono); font-size: 12px; text-decoration: none; }

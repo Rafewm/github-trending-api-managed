@@ -20,14 +20,32 @@ const SORTS = {
     ['hn.time', 'Newest on HN'],
     ['stars', 'Total stars'],
   ],
+  releases: [
+    ['release.score', 'Release Monitor rank'],
+    ['stars', 'Total stars'],
+  ],
 };
 const COLUMNS = {
   trending: ['Lang', 'Stars', 'Day', 'Week', 'Month', 'Status'],
   hn: ['Lang', 'Stars', 'Points', 'Comments', 'Posted', 'Status'],
+  releases: ['Lang', 'Stars', 'Release', 'Status'],
+};
+// Tabs that load one list per period, on first open.
+const FEEDS = {
+  hn: {
+    url: (period) => `/api/hn?period=${period}`,
+    periods: [['day', 'Daily'], ['week', 'Weekly'], ['month', 'Monthly'], ['year', 'Yearly'], ['all', 'All time']],
+    label: 'Hacker News',
+  },
+  releases: {
+    url: (period) => `/api/releases?days=${period}`,
+    periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['14', 'Last 14 days'], ['30', 'Last 30 days']],
+    label: 'releases',
+  },
 };
 let browse = null;
-const hn = {};
-let hnPeriod = 'day';
+const feeds = { hn: {}, releases: {} };
+const periodChoice = { hn: 'day', releases: '7' };
 let limit = PAGE;
 let view = 'browse';
 let hidden = {};
@@ -36,10 +54,10 @@ let storeReady = false;
 // Bumped when a Hide/Track save starts and when it ends, so a refresh that overlapped one can tell.
 let listEdits = 0;
 let listQueue = Promise.resolve();
-const sortChoice = { trending: 'day.add', hn: 'hn.points' };
+const sortChoice = { trending: 'day.add', hn: 'hn.points', releases: 'release.score' };
 
-const kind = () => (view === 'hn' ? 'hn' : 'trending');
-const source = () => (view === 'hn' ? hn[hnPeriod] : browse);
+const kind = () => (FEEDS[view] ? view : 'trending');
+const source = () => (FEEDS[view] ? feeds[view][periodChoice[view]] : browse);
 
 function storage(fn) {
   try {
@@ -107,7 +125,8 @@ const savedView = () => view === 'hidden' || view === 'tracked';
 // Hidden and tracked entries are snapshots so they stay listed after a repo leaves trending.
 function currentList() {
   if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name] && !tracked[r.name]);
-  const live = new Map([...Object.values(hn).flatMap((d) => d.repos), ...(browse?.repos ?? [])].map((r) => [r.name, r]));
+  const loaded = Object.values(feeds).flatMap((byPeriod) => Object.values(byPeriod).flatMap((d) => d.repos));
+  const live = new Map([...loaded, ...(browse?.repos ?? [])].map((r) => [r.name, r]));
   return Object.values(view === 'hidden' ? hidden : tracked).map((r) => live.get(r.name) ?? r);
 }
 
@@ -139,6 +158,11 @@ function hnCells(h) {
   return `<td class="nowrap hn-points" data-label="Points"><span aria-hidden="true">▲</span> ${h.points.toLocaleString('en-US')}</td>
     <td class="nowrap" data-label="Comments">${h.comments.toLocaleString('en-US')}</td>
     <td class="nowrap" data-label="Posted">${ago(new Date(h.time * 1000).toISOString())}</td>`;
+}
+
+function releaseCell(repo) {
+  const releases = `https://github.com/${esc(repo.name)}/releases`;
+  return `<td class="nowrap release" data-label="Release"><a href="${releases}" target="_blank" rel="noopener noreferrer" aria-label="${esc(repo.name)} releases">${esc(repo.release.version || 'Releases')}</a></td>`;
 }
 
 function statusCell(repo) {
@@ -183,7 +207,13 @@ function row(repo) {
     <td class="col-desc">${title}<p class="desc">${esc(repo.description)}</p>${tags}</td>
     <td class="nowrap" data-label="Lang">${lang}</td>
     <td class="nowrap stars" data-label="Stars"><span class="star" aria-hidden="true">★</span> ${short(repo.stars)}</td>
-    ${story ? hnCells(story) : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`}
+    ${
+      story
+        ? hnCells(story)
+        : view === 'releases' && repo.release
+          ? releaseCell(repo)
+          : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`
+    }
     ${statusCell(repo)}
     <td class="col-actions">${trackButton}<div class="actions">
       ${hideButton}
@@ -238,11 +268,12 @@ function render() {
   $('results-title').textContent = {
     browse: 'Projects',
     hn: 'On Hacker News',
+    releases: 'New releases',
     tracked: 'Tracked projects',
     hidden: 'Hidden projects',
   }[view];
-  for (const v of ['browse', 'hn', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
-  $('hn-period-label').hidden = view !== 'hn';
+  for (const v of ['browse', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
+  $('period-label').hidden = !FEEDS[view];
   renderHeader();
   renderStats();
 
@@ -251,7 +282,7 @@ function render() {
   const matches = currentList()
     .filter((r) => !language || r.language === language)
     .filter((r) => r.stars >= min)
-    .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''}`.toLowerCase().includes(q))
+    .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''} ${r.release?.title ?? ''}`.toLowerCase().includes(q))
     .filter((r) => topics.every((t) => r.topics.some((name) => name.includes(t))))
     .sort((a, b) => sortValue(b, key) - sortValue(a, key));
 
@@ -275,33 +306,41 @@ function showLoading(text) {
   showError(text);
 }
 
-async function loadHn(period) {
-  const res = await fetch(`/api/hn?period=${period}`);
+async function loadFeed(name, period) {
+  const res = await fetch(FEEDS[name].url(period));
   const data = await res.json();
   if (!res.ok) throw new Error(data.error);
-  hn[period] = data;
+  feeds[name][period] = data;
   fillOptions(data.repos);
 }
 
-async function showHn() {
+async function showFeed() {
   limit = PAGE;
   render();
-  if (hn[hnPeriod]) return;
-  const period = hnPeriod;
-  showLoading('Loading Hacker News stories and checking your stars...');
+  const name = view;
+  const period = periodChoice[name];
+  if (feeds[name][period]) return;
+  showLoading(`Loading ${FEEDS[name].label} and checking your stars...`);
   try {
-    await loadHn(period);
-    if (view === 'hn' && hnPeriod === period) render();
+    await loadFeed(name, period);
+    if (view === name && periodChoice[name] === period) render();
   } catch (err) {
-    showError(`Could not load Hacker News: ${err.message}`);
+    showError(`Could not load ${FEEDS[name].label}: ${err.message}`);
   }
+}
+
+function setPeriods() {
+  if (!FEEDS[view]) return;
+  $('period').replaceChildren(...FEEDS[view].periods.map(([value, label]) => new Option(label, value)));
+  $('period').value = periodChoice[view];
 }
 
 function setView(next) {
   view = next;
   limit = PAGE;
   setSorts();
-  if (view === 'hn') return showHn();
+  setPeriods();
+  if (FEEDS[view]) return showFeed();
   render();
 }
 
@@ -363,7 +402,7 @@ async function refresh() {
     storeReady = hiddenRes.ok;
     const hiddenData = storeReady ? await hiddenRes.json() : localHidden();
     const trackedData = trackedRes.ok ? await trackedRes.json() : tracked;
-    if (view === 'hn' && hn[hnPeriod]) await loadHn(hnPeriod);
+    if (FEEDS[view] && feeds[view][periodChoice[view]]) await loadFeed(view, periodChoice[view]);
     const first = !browse;
     // A Hide or Track saved while this refresh was in flight beats the older lists it fetched.
     const listsCurrent = edits === listEdits;
@@ -377,7 +416,7 @@ async function refresh() {
       tracked = trackedData;
     }
     if (first) fillOptions(browse.repos);
-    if (changed || view === 'hn') render();
+    if (changed || FEEDS[view]) render();
   } catch (err) {
     showError(`Could not load repositories: ${err.message}`);
   }
@@ -394,9 +433,9 @@ $('sort').addEventListener('input', () => {
   limit = PAGE;
   render();
 });
-$('hn-period').addEventListener('input', () => {
-  hnPeriod = $('hn-period').value;
-  showHn();
+$('period').addEventListener('input', () => {
+  periodChoice[view] = $('period').value;
+  showFeed();
 });
 $('filters').addEventListener('submit', (e) => e.preventDefault());
 $('more').addEventListener('click', () => {
@@ -405,6 +444,7 @@ $('more').addEventListener('click', () => {
 });
 $('tab-browse').addEventListener('click', () => setView('browse'));
 $('tab-hn').addEventListener('click', () => setView('hn'));
+$('tab-releases').addEventListener('click', () => setView('releases'));
 $('tab-tracked').addEventListener('click', () => setView('tracked'));
 $('tab-hidden').addEventListener('click', () => setView('hidden'));
 $('rows').addEventListener('click', (e) => {

@@ -12,6 +12,7 @@
     <span class="brand">Unstarred</span>
     <button class="nav-tab" id="tab-browse" type="button" aria-pressed="true">Browse</button>
     <button class="nav-tab" id="tab-hn" type="button" aria-pressed="false">Hacker News</button>
+    <button class="nav-tab" id="tab-releases" type="button" aria-pressed="false">Releases</button>
     <button class="nav-tab" id="tab-tracked" type="button" aria-pressed="false">Track <span id="tracked-count"></span></button>
     <button class="nav-tab" id="tab-hidden" type="button" aria-pressed="false">Hidden <span id="hidden-count"></span></button>
   </header>
@@ -21,7 +22,7 @@
       <div class="intro">
         <p class="badge"><span class="dot"></span>Live index <span id="refreshed" class="muted"></span></p>
         <h1>GitHub project <em>discovery</em></h1>
-        <p class="lede">Trending repositories with daily, weekly and monthly star growth, plus GitHub projects people discuss on Hacker News. Anything you already starred stays out of the list.</p>
+        <p class="lede">Trending repositories with daily, weekly and monthly star growth, plus GitHub projects people discuss on Hacker News and notable new releases. Anything you already starred stays out of the list.</p>
         <dl class="stats">
           <div><dt>Tracked</dt><dd id="stat-tracked">-</dd></div>
           <div><dt>Hidden, starred</dt><dd id="stat-hidden">-</dd></div>
@@ -57,14 +58,8 @@
       <div class="results-head">
         <h2><span id="results-title">Projects</span> <span id="matches" class="muted" aria-live="polite"></span></h2>
         <div class="sorts">
-          <label class="sort" id="hn-period-label" hidden>Period
-            <select id="hn-period">
-              <option value="day">Daily</option>
-              <option value="week">Weekly</option>
-              <option value="month">Monthly</option>
-              <option value="year">Yearly</option>
-              <option value="all">All time</option>
-            </select>
+          <label class="sort" id="period-label" hidden>Period
+            <select id="period"></select>
           </label>
           <label class="sort">Sort
             <select id="sort"></select>

@@ -131,3 +131,28 @@ export function hnToRepos(hits) {
   }
   return [...repos.values()];
 }
+
+// releasemonitor.org text list, best release first: "* [Name v1.2.3](https://github.com/owner/repo) – description".
+// score counts down from the top so a higher score is a better-ranked release.
+export function parseReleases(text) {
+  const repos = new Map();
+  for (const line of String(text).split('\n')) {
+    const m = /^\* \[(.+?)\]\((https?:\/\/[^)\s]+)\)\s*[–-]\s*(.*)$/.exec(line.trim());
+    const name = m && repoFromUrl(m[2]);
+    if (!name || repos.has(name.toLowerCase())) continue;
+    const cut = m[1].lastIndexOf(' ');
+    repos.set(name.toLowerCase(), {
+      name,
+      description: m[3].trim(),
+      language: '',
+      languageColor: '',
+      day: null,
+      week: null,
+      month: null,
+      release: { title: cut > 0 ? m[1].slice(0, cut) : m[1], version: cut > 0 ? m[1].slice(cut + 1) : '' },
+    });
+  }
+  const list = [...repos.values()];
+  list.forEach((repo, i) => (repo.release.score = list.length - i));
+  return list;
+}

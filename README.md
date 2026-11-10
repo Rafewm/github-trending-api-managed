@@ -3,7 +3,7 @@
 Two things live in this repo:
 
 1. **A trending data API.** A GitHub Action scrapes [GitHub Trending](https://github.com/trending) every 4 hours, adds the live [Trendshift](https://trendshift.io) rankings, and commits the results as static JSON and RSS files under [`data/`](data).
-2. **Unstarred**, a website in [`site/`](site) for browsing that data and GitHub projects on Hacker News, with every repo you have already starred filtered out.
+2. **Unstarred**, a website in [`site/`](site) for browsing that data, GitHub projects on Hacker News and notable new releases, with every repo you have already starred filtered out.
 
 [简体中文](README_zh-CN.md) (describes the original data API only)
 
@@ -86,6 +86,8 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Each period holds at most the 1,000 highest-scoring stories, which is the API's limit.
 
+**Releases** lists notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) for the last 24 hours, 7, 14 or 30 days (up to 500 per period, ranked by Release Monitor), with a link to each repo's releases page. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
+
 **Starred repos never appear.** The server checks every repo against your GitHub stars, and also re-checks your 100 newest stars on every page load, so a repo you just starred disappears when you come back to the tab.
 
 **Hide** removes a repo from every list without starring it. The **Hidden** tab lists them with an Unhide button.
@@ -99,7 +101,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | Path | Purpose |
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
-| `repos.js` | Loads trending data and Hacker News stories, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query). |
+| `repos.js` | Loads trending data, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). |
 | `hidden.js` | Hidden and tracked list APIs on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
 | `api/` | Vercel functions for the endpoints below. |
@@ -108,6 +110,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | Endpoint | Returns |
 | --- | --- |
 | `GET /api/repos` | Trending repos you have not starred. Cached 5 minutes. |
+| `GET /api/releases?days=1\|7\|14\|30` | Release Monitor releases for repos you have not starred. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
 | `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
 | `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos, with the `X-Hide-Key` header. Returns the new list. |
@@ -149,6 +152,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 - Data scraper by [isboyjc/github-trending-api](https://github.com/isboyjc/github-trending-api), via [alvinunreal/github-trending-api-managed](https://github.com/alvinunreal/github-trending-api-managed).
 - Extra rankings from [Trendshift.io](https://trendshift.io); reading its page data follows [quantavil/trendshift](https://github.com/quantavil/trendshift).
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
+- Release data from [Release Monitor](https://releasemonitor.org).
 
 ## License
 

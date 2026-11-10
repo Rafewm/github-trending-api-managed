@@ -1,9 +1,10 @@
-import { mergeTrending, dropStarred, dropRecentStars, hnToRepos } from './trending.js';
+import { mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases } from './trending.js';
 
 const TOKEN = process.env.UNSTARRED_TOKEN || process.env.GITHUB_TOKEN;
 const DATA = 'https://raw.githubusercontent.com/Rafewm/github-trending-api-managed/main/data';
 const CACHE_MS = 5 * 60 * 1000;
 const BATCH = 50;
+const PARALLEL = 3;
 const PERIODS = { day: 'daily', week: 'weekly', month: 'monthly' };
 // shortcut: only these languages are fetched (repo has ~700 files per period), add to the list to widen the pool.
 const LANGUAGES = [
@@ -13,6 +14,9 @@ const LANGUAGES = [
 // Seconds back from now; null means all time. Older periods barely change, so they are cached longer.
 const HN_PERIODS = { day: 86400, week: 7 * 86400, month: 30 * 86400, year: 365 * 86400, all: null };
 const HN_CACHE_MS = { day: CACHE_MS, week: CACHE_MS, month: 60 * 60 * 1000, year: 60 * 60 * 1000, all: 60 * 60 * 1000 };
+// The windows releasemonitor.org offers, in days.
+const RELEASE_DAYS = ['1', '7', '14', '30'];
+const RELEASE_CACHE_MS = 30 * 60 * 1000;
 const FIELDS =
   'nameWithOwner description primaryLanguage{name color} stargazerCount pushedAt isArchived viewerHasStarred owner{avatarUrl(size:40)} repositoryTopics(first:20){nodes{topic{name}}}';
 
@@ -36,6 +40,12 @@ async function fetchNodes(batch, attempt = 1) {
   });
   // GitHub's GraphQL times out on heavy queries now and then.
   if (res.status >= 500 && attempt < 3) return fetchNodes(batch, attempt + 1);
+  // 403/429 here is the secondary rate limit for bursts; wait as told (or back off) and retry.
+  if ((res.status === 403 || res.status === 429) && attempt < 4) {
+    const wait = Number(res.headers.get('retry-after')) || 5 * attempt;
+    await new Promise((resolve) => setTimeout(resolve, wait * 1000));
+    return fetchNodes(batch, attempt + 1);
+  }
   if (!res.ok) throw new Error(`GitHub request failed: ${res.status}${res.status === 401 ? '. Check your token.' : ''}`);
   const body = await res.json();
   // A failed star check must surface: otherwise starred repos would leak into the list.
@@ -48,7 +58,12 @@ async function fetchNodes(batch, attempt = 1) {
 async function enrich(list) {
   const batches = [];
   for (let i = 0; i < list.length; i += BATCH) batches.push(list.slice(i, i + BATCH));
-  const nodes = (await Promise.all(batches.map((batch) => fetchNodes(batch)))).flat();
+  // A few queries at a time: GitHub refuses large bursts of parallel GraphQL requests.
+  const nodes = [];
+  for (let i = 0; i < batches.length; i += PARALLEL) {
+    const results = await Promise.all(batches.slice(i, i + PARALLEL).map((batch) => fetchNodes(batch)));
+    nodes.push(...results.flat());
+  }
   return dropStarred(list, nodes);
 }
 
@@ -69,6 +84,18 @@ async function loadHn(period) {
   );
   if (!res.ok) throw new Error(`Hacker News search failed: ${res.status}`);
   const list = hnToRepos((await res.json()).hits ?? []);
+  return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
+}
+
+// releasemonitor.org's text list of notable GitHub releases, best first, 500 at most.
+async function loadReleases(days) {
+  const res = await fetch(
+    `https://releasemonitor.org/?days=${days}&filter=all&latest=1&sort=score_desc&text=true`,
+    { headers: { 'User-Agent': 'unstarred' } },
+  );
+  if (!res.ok) throw new Error(`Release Monitor failed: ${res.status}`);
+  const list = parseReleases(await res.text());
+  if (!list.length) throw new Error('Release Monitor returned no releases.');
   return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
 }
 
@@ -120,4 +147,15 @@ export function handleHn(req, res) {
     return;
   }
   return respond(res, () => cached(`hn:${period}`, HN_CACHE_MS[period], () => loadHn(period)));
+}
+
+// GET /api/releases?days=1|7|14|30
+export function handleReleases(req, res) {
+  const days = new URL(req.url, 'http://localhost').searchParams.get('days') ?? '7';
+  if (!RELEASE_DAYS.includes(days)) {
+    res.writeHead(400, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ error: 'days must be 1, 7, 14 or 30.' }));
+    return;
+  }
+  return respond(res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
 }

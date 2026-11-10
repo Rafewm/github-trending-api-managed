@@ -1,6 +1,6 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
-import { handleRepos, handleHn } from './repos.js';
+import { handleRepos, handleHn, handleReleases } from './repos.js';
 import { handleHidden, handleTracked } from './hidden.js';
 
 const PORT = Number(process.env.PORT) || 3210;
@@ -23,6 +23,7 @@ createServer(async (req, res) => {
   const path = new URL(req.url, 'http://localhost').pathname;
   if (path === '/api/repos') return handleRepos(req, res);
   if (path === '/api/hn') return handleHn(req, res);
+  if (path === '/api/releases') return handleReleases(req, res);
   if (path === '/api/hidden') return handleHidden(req, res);
   if (path === '/api/tracked') return handleTracked(req, res);
   const file = STATIC[path];

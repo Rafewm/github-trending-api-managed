@@ -74,3 +74,23 @@ test('dropStarred fills description and language from GitHub when missing', () =
   ]).repos;
   assert.deepEqual([repo.description, repo.language, repo.languageColor], ['from github', 'Rust', '#dea584']);
 });
+
+test('parseReleases reads name, version, repo and rank, skipping bad and repeated lines', async () => {
+  const { parseReleases } = await import('./trending.js');
+  const text = [
+    '* [Super Productivity v20.0.0](https://github.com/super-productivity/super-productivity) – Todo app.',
+    '',
+    '* [Nx 24.0.0](https://github.com/nrwl/nx) – Build system.',
+    '* [Not a repo 1.0](https://example.com/x/y) – Skip me.',
+    '* [Nx again 24.0.1](https://github.com/nrwl/nx) – Repeat.',
+    'garbage line',
+  ].join('\n');
+  const repos = parseReleases(text);
+  assert.deepEqual(
+    repos.map((r) => [r.name, r.release.title, r.release.version, r.release.score, r.description]),
+    [
+      ['super-productivity/super-productivity', 'Super Productivity', 'v20.0.0', 2, 'Todo app.'],
+      ['nrwl/nx', 'Nx', '24.0.0', 1, 'Build system.'],
+    ],
+  );
+});
