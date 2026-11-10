@@ -22,13 +22,14 @@ const SORTS = {
   ],
   releases: [
     ['release.score', 'Release Monitor rank'],
+    ['reddit.time', 'Newest on Reddit'],
     ['stars', 'Total stars'],
   ],
 };
 const COLUMNS = {
   trending: ['Lang', 'Stars', 'Day', 'Week', 'Month', 'Status'],
   hn: ['Lang', 'Stars', 'Points', 'Comments', 'Posted', 'Status'],
-  releases: ['Lang', 'Stars', 'Release', 'Status'],
+  releases: ['Lang', 'Stars', 'Release', 'Reddit', 'Status'],
 };
 // Tabs that load one list per period, on first open.
 const FEEDS = {
@@ -39,7 +40,7 @@ const FEEDS = {
   },
   releases: {
     url: (period) => `/api/releases?days=${period}`,
-    periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['14', 'Last 14 days'], ['30', 'Last 30 days']],
+    periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['14', 'Last 14 days'], ['30', 'Last 30 days'], ['365', 'Last year']],
     label: 'releases',
   },
 };
@@ -160,9 +161,18 @@ function hnCells(h) {
     <td class="nowrap" data-label="Posted">${ago(new Date(h.time * 1000).toISOString())}</td>`;
 }
 
-function releaseCell(repo) {
+const redditUrl = (post) => `https://www.reddit.com/r/BestGitHubRepos/comments/${esc(post.id)}/`;
+
+// Release Monitor version and Reddit post date; a repo can come from one source or both.
+function releaseCells(repo) {
   const releases = `https://github.com/${esc(repo.name)}/releases`;
-  return `<td class="nowrap release" data-label="Release"><a href="${releases}" target="_blank" rel="noopener noreferrer" aria-label="${esc(repo.name)} releases">${esc(repo.release.version || 'Releases')}</a></td>`;
+  const version = repo.release
+    ? `<a href="${releases}" target="_blank" rel="noopener noreferrer" aria-label="${esc(repo.name)} releases">${esc(repo.release.version || 'Releases')}</a>`
+    : '<span class="muted">-</span>';
+  const post = repo.reddit
+    ? `<a href="${redditUrl(repo.reddit)}" target="_blank" rel="noopener noreferrer" aria-label="Reddit post about ${esc(repo.name)}">${ago(new Date(repo.reddit.time * 1000).toISOString())}</a>`
+    : '<span class="muted">-</span>';
+  return `<td class="nowrap release" data-label="Release">${version}</td><td class="nowrap release" data-label="Reddit">${post}</td>`;
 }
 
 function statusCell(repo) {
@@ -185,9 +195,12 @@ function row(repo) {
   const tags = repo.topics.length
     ? `<ul class="tags" aria-label="Topics">${repo.topics.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
     : '';
+  const post = view === 'releases' ? repo.reddit : null;
   const title = story
     ? `<a class="hn-title" href="${hnUrl}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a>`
-    : '';
+    : post
+      ? `<a class="hn-title" href="${redditUrl(post)}" target="_blank" rel="noopener noreferrer">${esc(post.title)}</a>`
+      : '';
   const button = (cls, list, label, text, pressed) =>
     `<button class="${cls}" type="button" data-toggle="${esc(repo.name)}" data-list="${list}"${pressed === undefined ? '' : ` aria-pressed="${pressed}"`} aria-label="${label} ${esc(repo.name)}">${text}</button>`;
   const isTracked = Boolean(tracked[repo.name]);
@@ -210,8 +223,8 @@ function row(repo) {
     ${
       story
         ? hnCells(story)
-        : view === 'releases' && repo.release
-          ? releaseCell(repo)
+        : view === 'releases'
+          ? releaseCells(repo)
           : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`
     }
     ${statusCell(repo)}
@@ -274,19 +287,24 @@ function render() {
   }[view];
   for (const v of ['browse', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
   $('period-label').hidden = !FEEDS[view];
+  $('source-label').hidden = view !== 'releases';
   renderHeader();
   renderStats();
 
   if (!savedView() && !source()) return; // still loading; the loader shows its own message
 
+  const releaseSource = $('source').value;
   const matches = currentList()
+    .filter((r) => view !== 'releases' || releaseSource === 'both' || (releaseSource === 'reddit' ? r.reddit : r.release))
     .filter((r) => !language || r.language === language)
     .filter((r) => r.stars >= min)
-    .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''} ${r.release?.title ?? ''}`.toLowerCase().includes(q))
+    .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''} ${r.release?.title ?? ''} ${r.reddit?.title ?? ''}`.toLowerCase().includes(q))
     .filter((r) => topics.every((t) => r.topics.some((name) => name.includes(t))))
     .sort((a, b) => sortValue(b, key) - sortValue(a, key));
 
-  $('matches').textContent = `${matches.length.toLocaleString('en-US')} matches`;
+  const failed = view === 'releases' ? source()?.failed ?? [] : [];
+  $('matches').textContent =
+    `${matches.length.toLocaleString('en-US')} matches` + (failed.length ? ` · ${failed.join(' and ')} unavailable` : '');
   $('rows').innerHTML = matches.slice(0, limit).map(row).join('');
   $('more').hidden = matches.length <= limit;
   $('table-wrap').hidden = matches.length === 0;
@@ -296,7 +314,9 @@ function render() {
       ? 'You have not hidden any repositories.'
       : view === 'tracked' && !trackedTotal
         ? 'You are not tracking any repositories. Press Track on a repo to save it here.'
-        : 'No repositories match these filters.';
+        : view === 'releases' && releaseSource === 'releasemonitor' && periodChoice.releases === '365'
+          ? 'Release Monitor only covers up to 30 days. Pick a shorter period or the Reddit source.'
+          : 'No repositories match these filters.';
 }
 
 function showLoading(text) {
@@ -430,6 +450,10 @@ for (const id of ['q', 'language', 'min', 'topics']) {
 }
 $('sort').addEventListener('input', () => {
   sortChoice[kind()] = $('sort').value;
+  limit = PAGE;
+  render();
+});
+$('source').addEventListener('input', () => {
   limit = PAGE;
   render();
 });

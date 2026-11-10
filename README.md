@@ -66,14 +66,23 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 - Each run replaces the previous run's Trendshift rows, so they never pile up or go stale.
 - If Trendshift is unreachable, that file keeps its GitHub rows and the run continues.
 
+### Reddit posts
+
+[`script/reddit.js`](script/reddit.js) keeps a year of [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) posts that link a GitHub repo in [`data/reddit/BestGitHubRepos.json`](data/reddit/BestGitHubRepos.json), read from the [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift/tree/master/api) Reddit archive.
+
+- Each entry has `id`, `title`, `url` (the GitHub repo), `created_utc` and `num_comments`, newest first.
+- The archive allows about one request every few seconds, so each run only asks for posts newer than the newest saved one, pauses between pages, waits when the archive says to, and saves after every page.
+- The archive records posts shortly after they are made, so upvote counts are not kept.
+
 ### Updating the data
 
 `.github/workflows/run.yml` runs `pnpm build` every 4 hours and on manual dispatch, then commits `data/`. To run it yourself:
 
 ```bash
 pnpm install
-pnpm build                    # GitHub Trending for every language, then Trendshift (about 30 minutes)
+pnpm build                    # GitHub Trending for every language, then Trendshift and Reddit (about 30 minutes)
 node script/trendshift.js     # Trendshift step only
+node script/reddit.js         # Reddit step only
 ```
 
 ---
@@ -86,7 +95,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Each period holds at most the 1,000 highest-scoring stories, which is the API's limit.
 
-**Releases** lists notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) for the last 24 hours, 7, 14 or 30 days (up to 500 per period, ranked by Release Monitor), with a link to each repo's releases page. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
+**Releases** combines two sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) and posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread). A **Source** filter shows both, Reddit only or Release Monitor only; a repo found by both appears once with both links. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
 
 **Starred repos never appear.** The server checks every repo against your GitHub stars, and also re-checks your 100 newest stars on every page load, so a repo you just starred disappears when you come back to the tab.
 
@@ -110,7 +119,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | Endpoint | Returns |
 | --- | --- |
 | `GET /api/repos` | Trending repos you have not starred. Cached 5 minutes. |
-| `GET /api/releases?days=1\|7\|14\|30` | Release Monitor releases for repos you have not starred. Cached 30 minutes. |
+| `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases and r/BestGitHubRepos posts for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
 | `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
 | `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos, with the `X-Hide-Key` header. Returns the new list. |
@@ -153,6 +162,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 - Extra rankings from [Trendshift.io](https://trendshift.io); reading its page data follows [quantavil/trendshift](https://github.com/quantavil/trendshift).
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
 - Release data from [Release Monitor](https://releasemonitor.org).
+- Reddit posts from r/BestGitHubRepos via [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift).
 
 ## License
 

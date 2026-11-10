@@ -156,3 +156,46 @@ export function parseReleases(text) {
   list.forEach((repo, i) => (repo.release.score = list.length - i));
   return list;
 }
+
+const GITHUB_LINK = /https?:\/\/(?:www\.)?github\.com\/[\w.-]+\/[\w.-]+/gi;
+
+// r/BestGitHubRepos posts (Arctic Shift archive) -> one entry per linked repo, from its newest post.
+// The repo link sits in the post body more often than in its url, so both are searched.
+export function redditToRepos(posts) {
+  const repos = new Map();
+  for (const post of posts) {
+    const id = String(post.id ?? '');
+    if (!/^[a-z0-9]+$/i.test(id)) continue;
+    const name = [...`${post.url ?? ''} ${post.selftext ?? ''}`.matchAll(GITHUB_LINK)]
+      .map((m) => repoFromUrl(m[0].replace(/\.+$/, '')))
+      .find(Boolean);
+    if (!name) continue;
+    const key = name.toLowerCase();
+    const time = Number(post.created_utc) || 0;
+    if ((repos.get(key)?.reddit.time ?? -1) >= time) continue;
+    repos.set(key, {
+      name,
+      description: '',
+      language: '',
+      languageColor: '',
+      day: null,
+      week: null,
+      month: null,
+      reddit: { id, title: String(post.title ?? ''), time, comments: Number(post.num_comments) || 0 },
+    });
+  }
+  return [...repos.values()];
+}
+
+// One entry per repo across sources, keeping each source's details (release, reddit) side by side.
+export function mergeSources(...lists) {
+  const repos = new Map();
+  for (const repo of lists.flat()) {
+    const key = repo.name.toLowerCase();
+    const prev = repos.get(key);
+    repos.set(key, prev
+      ? { ...prev, release: prev.release ?? repo.release, reddit: prev.reddit ?? repo.reddit, description: prev.description || repo.description }
+      : repo);
+  }
+  return [...repos.values()];
+}

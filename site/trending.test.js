@@ -94,3 +94,33 @@ test('parseReleases reads name, version, repo and rank, skipping bad and repeate
     ],
   );
 });
+
+test('redditToRepos finds the repo in the post body and keeps the newest post per repo', async () => {
+  const { redditToRepos } = await import('./trending.js');
+  const post = (id, created_utc, selftext, url = 'https://i.redd.it/x.png') => ({ id, title: `t${id}`, url, selftext, created_utc, num_comments: 2 });
+  const repos = redditToRepos([
+    post('a1', 100, '# Repository\n\n[https://github.com/xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)'),
+    post('a2', 200, 'See https://github.com/XBTLIN/ai-berkshire.'),
+    post('b1', 150, 'no link here'),
+    post('c1', 120, '', 'https://github.com/c/d'),
+    post('../x', 130, 'https://github.com/e/f'),
+    post('d1', 140, 'https://github.com/sponsors/someone and then https://github.com/g/h'),
+  ]);
+  assert.deepEqual(repos.map((r) => [r.name, r.reddit.id, r.reddit.time]), [
+    ['XBTLIN/ai-berkshire', 'a2', 200],
+    ['c/d', 'c1', 120],
+    ['g/h', 'd1', 140],
+  ]);
+});
+
+test('mergeSources joins the same repo from both sources into one entry', async () => {
+  const { mergeSources } = await import('./trending.js');
+  const out = mergeSources(
+    [{ name: 'a/b', description: 'from monitor', release: { version: 'v1' } }],
+    [{ name: 'A/B', description: '', reddit: { id: 'x' } }, { name: 'c/d', description: '', reddit: { id: 'y' } }],
+  );
+  assert.deepEqual(out, [
+    { name: 'a/b', description: 'from monitor', release: { version: 'v1' }, reddit: { id: 'x' } },
+    { name: 'c/d', description: '', reddit: { id: 'y' } },
+  ]);
+});

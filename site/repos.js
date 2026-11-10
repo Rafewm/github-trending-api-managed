@@ -1,4 +1,6 @@
-import { mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases } from './trending.js';
+import {
+  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources,
+} from './trending.js';
 
 const TOKEN = process.env.UNSTARRED_TOKEN || process.env.GITHUB_TOKEN;
 const DATA = 'https://raw.githubusercontent.com/Rafewm/github-trending-api-managed/main/data';
@@ -14,9 +16,12 @@ const LANGUAGES = [
 // Seconds back from now; null means all time. Older periods barely change, so they are cached longer.
 const HN_PERIODS = { day: 86400, week: 7 * 86400, month: 30 * 86400, year: 365 * 86400, all: null };
 const HN_CACHE_MS = { day: CACHE_MS, week: CACHE_MS, month: 60 * 60 * 1000, year: 60 * 60 * 1000, all: 60 * 60 * 1000 };
-// The windows releasemonitor.org offers, in days.
-const RELEASE_DAYS = ['1', '7', '14', '30'];
+// Release windows in days. releasemonitor.org offers up to 30; the year is Reddit only.
+const RELEASE_DAYS = ['1', '7', '14', '30', '365'];
 const RELEASE_CACHE_MS = 30 * 60 * 1000;
+// r/BestGitHubRepos posts, collected every 4 hours by the data repo's Action (script/reddit.js).
+const REDDIT = `${DATA}/reddit/BestGitHubRepos.json`;
+const DAY = 86400;
 const FIELDS =
   'nameWithOwner description primaryLanguage{name color} stargazerCount pushedAt isArchived viewerHasStarred owner{avatarUrl(size:40)} repositoryTopics(first:20){nodes{topic{name}}}';
 
@@ -88,7 +93,7 @@ async function loadHn(period) {
 }
 
 // releasemonitor.org's text list of notable GitHub releases, best first, 500 at most.
-async function loadReleases(days) {
+async function fetchReleaseMonitor(days) {
   const res = await fetch(
     `https://releasemonitor.org/?days=${days}&filter=all&latest=1&sort=score_desc&text=true`,
     { headers: { 'User-Agent': 'unstarred' } },
@@ -96,7 +101,29 @@ async function loadReleases(days) {
   if (!res.ok) throw new Error(`Release Monitor failed: ${res.status}`);
   const list = parseReleases(await res.text());
   if (!list.length) throw new Error('Release Monitor returned no releases.');
-  return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
+  return list;
+}
+
+// The archive allows about one request every few seconds, too slow to ask live, so the data repo
+// collects the posts and this reads its file.
+async function fetchReddit(days) {
+  const res = await fetch(REDDIT);
+  if (!res.ok) throw new Error(`Reddit posts file failed: ${res.status}`);
+  const since = Math.floor(Date.now() / 1000) - days * DAY;
+  return redditToRepos(((await res.json()).posts ?? []).filter((post) => post.created_utc >= since));
+}
+
+// Both sources merged; if one fails the other still shows, and the page says which one is missing.
+async function loadReleases(days) {
+  const failed = [];
+  const settle = (name, job) => job.catch((err) => (console.error(err.message), failed.push(name), []));
+  const [monitor, reddit] = await Promise.all([
+    Number(days) <= 30 ? settle('Release Monitor', fetchReleaseMonitor(days)) : [],
+    settle('Reddit', fetchReddit(Number(days))),
+  ]);
+  if (failed.length === (Number(days) <= 30 ? 2 : 1)) throw new Error(`${failed.join(' and ')} could not be loaded.`);
+  const list = mergeSources(monitor, reddit);
+  return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now(), failed };
 }
 
 // Newest first, so this catches anything starred since the cache was filled.
@@ -149,12 +176,12 @@ export function handleHn(req, res) {
   return respond(res, () => cached(`hn:${period}`, HN_CACHE_MS[period], () => loadHn(period)));
 }
 
-// GET /api/releases?days=1|7|14|30
+// GET /api/releases?days=1|7|14|30|365
 export function handleReleases(req, res) {
   const days = new URL(req.url, 'http://localhost').searchParams.get('days') ?? '7';
   if (!RELEASE_DAYS.includes(days)) {
     res.writeHead(400, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
-    res.end(JSON.stringify({ error: 'days must be 1, 7, 14 or 30.' }));
+    res.end(JSON.stringify({ error: 'days must be 1, 7, 14, 30 or 365.' }));
     return;
   }
   return respond(res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
