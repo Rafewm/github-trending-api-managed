@@ -3,7 +3,7 @@
     <title>GitHub C++ Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of C++ Languages in GitHub</description>
-    <pubDate>Mon, 09 Nov 2026 04:38:21 GMT</pubDate>
+    <pubDate>Tue, 10 Nov 2026 02:33:16 GMT</pubDate>
     <item>
       <title>hyprwm/Hyprland</title>
       <link>https://github.com/hyprwm/Hyprland</link>
@@ -11,9 +11,9 @@
       <guid>https://github.com/hyprwm/Hyprland</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>40,573</stars>
-      <forks>2,169</forks>
-      <addStars>1,465</addStars>
+      <stars>40,592</stars>
+      <forks>2,171</forks>
+      <addStars>1,030</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/43317083?s=40&amp;v=4</avatar>
@@ -43,15 +43,86 @@
       </contributors>
     </item>
     <item>
+      <title>google-deepmind/mujoco</title>
+      <link>https://github.com/google-deepmind/mujoco</link>
+      <description>Multi-Joint dynamics with Contact. A general purpose physics simulator.</description>
+      <guid>https://github.com/google-deepmind/mujoco</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>16,954</stars>
+      <forks>1,997</forks>
+      <addStars>689</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6387526?s=40&amp;v=4</avatar>
+          <name>yuvaltassa</name>
+          <url>https://github.com/yuvaltassa</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/102665781?s=40&amp;v=4</avatar>
+          <name>quagla</name>
+          <url>https://github.com/quagla</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/29288912?s=40&amp;v=4</avatar>
+          <name>haroonq</name>
+          <url>https://github.com/haroonq</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/42924292?s=40&amp;v=4</avatar>
+          <name>kbayes</name>
+          <url>https://github.com/kbayes</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/2200217?s=40&amp;v=4</avatar>
+          <name>saran-t</name>
+          <url>https://github.com/saran-t</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>nlohmann/json</title>
+      <link>https://github.com/nlohmann/json</link>
+      <description>JSON for Modern C++</description>
+      <guid>https://github.com/nlohmann/json</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>50,859</stars>
+      <forks>7,518</forks>
+      <addStars>52</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/159488?s=40&amp;v=4</avatar>
+          <name>nlohmann</name>
+          <url>https://github.com/nlohmann</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/15652306?s=40&amp;v=4</avatar>
+          <name>theodelrieu</name>
+          <url>https://github.com/theodelrieu</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/320854?s=40&amp;v=4</avatar>
+          <name>falbrechtskirchinger</name>
+          <url>https://github.com/falbrechtskirchinger</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/736001?s=40&amp;v=4</avatar>
+          <name>Teemperor</name>
+          <url>https://github.com/Teemperor</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>microsoft/onnxruntime</title>
       <link>https://github.com/microsoft/onnxruntime</link>
       <description>ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator</description>
       <guid>https://github.com/microsoft/onnxruntime</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>22,267</stars>
-      <forks>4,428</forks>
-      <addStars>70</addStars>
+      <stars>22,271</stars>
+      <forks>4,431</forks>
+      <addStars>74</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/30328909?s=40&amp;v=4</avatar>
@@ -76,53 +147,15 @@
       </contributors>
     </item>
     <item>
-      <title>godotengine/godot</title>
-      <link>https://github.com/godotengine/godot</link>
-      <description>Godot Engine – Multi-platform 2D and 3D game engine</description>
-      <guid>https://github.com/godotengine/godot</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>119,828</stars>
-      <forks>27,410</forks>
-      <addStars>486</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4701338?s=40&amp;v=4</avatar>
-          <name>akien-mga</name>
-          <url>https://github.com/akien-mga</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/17489292?s=40&amp;v=4</avatar>
-          <name>Repiteo</name>
-          <url>https://github.com/Repiteo</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6265307?s=40&amp;v=4</avatar>
-          <name>reduz</name>
-          <url>https://github.com/reduz</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/180032?s=40&amp;v=4</avatar>
-          <name>Calinou</name>
-          <url>https://github.com/Calinou</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7645683?s=40&amp;v=4</avatar>
-          <name>bruvzg</name>
-          <url>https://github.com/bruvzg</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>amnezia-vpn/amnezia-client</title>
       <link>https://github.com/amnezia-vpn/amnezia-client</link>
       <description>Amnezia VPN Client (Desktop+Mobile)</description>
       <guid>https://github.com/amnezia-vpn/amnezia-client</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>15,838</stars>
-      <forks>1,274</forks>
-      <addStars>200</addStars>
+      <stars>15,854</stars>
+      <forks>1,277</forks>
+      <addStars>210</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/23482029?s=40&amp;v=4</avatar>
@@ -152,139 +185,40 @@
       </contributors>
     </item>
     <item>
-      <title>78/xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>An MCP-based chatbot | 一个基于MCP的聊天机器人</description>
-      <guid>https://github.com/78/xiaozhi-esp32</guid>
+      <title>godotengine/godot</title>
+      <link>https://github.com/godotengine/godot</link>
+      <description>Godot Engine – Multi-platform 2D and 3D game engine</description>
+      <guid>https://github.com/godotengine/godot</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>32,916</stars>
-      <forks>7,772</forks>
-      <addStars>523</addStars>
+      <stars>119,896</stars>
+      <forks>27,412</forks>
+      <addStars>490</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4488133?s=40&amp;v=4</avatar>
-          <name>78</name>
-          <url>https://github.com/78</url>
+          <avatar>https://avatars.githubusercontent.com/u/4701338?s=40&amp;v=4</avatar>
+          <name>akien-mga</name>
+          <url>https://github.com/akien-mga</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/21034251?s=40&amp;v=4</avatar>
-          <name>goodtft</name>
-          <url>https://github.com/goodtft</url>
+          <avatar>https://avatars.githubusercontent.com/u/17489292?s=40&amp;v=4</avatar>
+          <name>Repiteo</name>
+          <url>https://github.com/Repiteo</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/66012385?s=40&amp;v=4</avatar>
-          <name>Y1hsiaochunnn</name>
-          <url>https://github.com/Y1hsiaochunnn</url>
+          <avatar>https://avatars.githubusercontent.com/u/6265307?s=40&amp;v=4</avatar>
+          <name>reduz</name>
+          <url>https://github.com/reduz</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/198868291?s=40&amp;v=4</avatar>
-          <name>laride</name>
-          <url>https://github.com/laride</url>
+          <avatar>https://avatars.githubusercontent.com/u/180032?s=40&amp;v=4</avatar>
+          <name>Calinou</name>
+          <url>https://github.com/Calinou</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>esphome/esphome</title>
-      <link>https://github.com/esphome/esphome</link>
-      <description>ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.</description>
-      <guid>https://github.com/esphome/esphome</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>12,074</stars>
-      <forks>5,795</forks>
-      <addStars>79</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/663432?s=40&amp;v=4</avatar>
-          <name>bdraco</name>
-          <url>https://github.com/bdraco</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3060199?s=40&amp;v=4</avatar>
-          <name>jesserockz</name>
-          <url>https://github.com/jesserockz</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/154711427?s=40&amp;v=4</avatar>
-          <name>swoboda1337</name>
-          <url>https://github.com/swoboda1337</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6833237?s=40&amp;v=4</avatar>
-          <name>OttoWinter</name>
-          <url>https://github.com/OttoWinter</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>nlohmann/json</title>
-      <link>https://github.com/nlohmann/json</link>
-      <description>JSON for Modern C++</description>
-      <guid>https://github.com/nlohmann/json</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>50,852</stars>
-      <forks>7,518</forks>
-      <addStars>52</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/159488?s=40&amp;v=4</avatar>
-          <name>nlohmann</name>
-          <url>https://github.com/nlohmann</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/15652306?s=40&amp;v=4</avatar>
-          <name>theodelrieu</name>
-          <url>https://github.com/theodelrieu</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/320854?s=40&amp;v=4</avatar>
-          <name>falbrechtskirchinger</name>
-          <url>https://github.com/falbrechtskirchinger</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/736001?s=40&amp;v=4</avatar>
-          <name>Teemperor</name>
-          <url>https://github.com/Teemperor</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>jrouwe/JoltPhysics</title>
-      <link>https://github.com/jrouwe/JoltPhysics</link>
-      <description>A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.</description>
-      <guid>https://github.com/jrouwe/JoltPhysics</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>12,249</stars>
-      <forks>1,011</forks>
-      <addStars>156</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1621693?s=40&amp;v=4</avatar>
-          <name>jrouwe</name>
-          <url>https://github.com/jrouwe</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4884246?s=40&amp;v=4</avatar>
-          <name>mihe</name>
-          <url>https://github.com/mihe</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2287609?s=40&amp;v=4</avatar>
-          <name>stephengold</name>
-          <url>https://github.com/stephengold</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3002461?s=40&amp;v=4</avatar>
-          <name>SirLynix</name>
-          <url>https://github.com/SirLynix</url>
+          <avatar>https://avatars.githubusercontent.com/u/7645683?s=40&amp;v=4</avatar>
+          <name>bruvzg</name>
+          <url>https://github.com/bruvzg</url>
         </contributor>
       </contributors>
     </item>
@@ -295,8 +229,8 @@
       <guid>https://github.com/envoyproxy/envoy</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>29,195</stars>
-      <forks>5,712</forks>
+      <stars>29,203</stars>
+      <forks>5,717</forks>
       <addStars>44</addStars>
       <contributors>
         <contributor>
@@ -322,116 +256,73 @@
       </contributors>
     </item>
     <item>
-      <title>protocolbuffers/protobuf</title>
-      <link>https://github.com/protocolbuffers/protobuf</link>
-      <description>Protocol Buffers - Google's data interchange format</description>
-      <guid>https://github.com/protocolbuffers/protobuf</guid>
+      <title>meshtastic/firmware</title>
+      <link>https://github.com/meshtastic/firmware</link>
+      <description>The official firmware for Meshtastic, an open-source, off-grid mesh communication system.</description>
+      <guid>https://github.com/meshtastic/firmware</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>72,154</stars>
-      <forks>16,359</forks>
-      <addStars>28</addStars>
+      <stars>8,554</stars>
+      <forks>2,903</forks>
+      <addStars>41</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/106703886?s=40&amp;v=4</avatar>
-          <name>protobuf-github-bot</name>
-          <url>https://github.com/protobuf-github-bot</url>
+          <avatar>https://avatars.githubusercontent.com/u/9000580?s=40&amp;v=4</avatar>
+          <name>thebentern</name>
+          <url>https://github.com/thebentern</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1270?s=40&amp;v=4</avatar>
-          <name>haberman</name>
-          <url>https://github.com/haberman</url>
+          <avatar>https://avatars.githubusercontent.com/u/225513?s=40&amp;v=4</avatar>
+          <name>geeksville</name>
+          <url>https://github.com/geeksville</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/105450428?s=40&amp;v=4</avatar>
-          <name>protobuf-team-bot</name>
-          <url>https://github.com/protobuf-team-bot</url>
+          <avatar>https://avatars.githubusercontent.com/u/25002?s=40&amp;v=4</avatar>
+          <name>caveman99</name>
+          <url>https://github.com/caveman99</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/62662355?s=40&amp;v=4</avatar>
-          <name>mkruskal-google</name>
-          <url>https://github.com/mkruskal-google</url>
+          <avatar>https://avatars.githubusercontent.com/u/12804989?s=40&amp;v=4</avatar>
+          <name>mc-hamster</name>
+          <url>https://github.com/mc-hamster</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8551050?s=40&amp;v=4</avatar>
-          <name>xfxyjwf</name>
-          <url>https://github.com/xfxyjwf</url>
+          <avatar>https://avatars.githubusercontent.com/u/5630967?s=40&amp;v=4</avatar>
+          <name>jp-bennett</name>
+          <url>https://github.com/jp-bennett</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>OrcaSlicer/OrcaSlicer</title>
-      <link>https://github.com/OrcaSlicer/OrcaSlicer</link>
-      <description>G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)</description>
-      <guid>https://github.com/OrcaSlicer/OrcaSlicer</guid>
+      <title>esphome/esphome</title>
+      <link>https://github.com/esphome/esphome</link>
+      <description>ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.</description>
+      <guid>https://github.com/esphome/esphome</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>16,393</stars>
-      <forks>3,447</forks>
-      <addStars>129</addStars>
+      <stars>12,080</stars>
+      <forks>5,794</forks>
+      <addStars>79</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/103989404?s=40&amp;v=4</avatar>
-          <name>SoftFever</name>
-          <url>https://github.com/SoftFever</url>
+          <avatar>https://avatars.githubusercontent.com/u/663432?s=40&amp;v=4</avatar>
+          <name>bdraco</name>
+          <url>https://github.com/bdraco</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1537155?s=40&amp;v=4</avatar>
-          <name>Noisyfox</name>
-          <url>https://github.com/Noisyfox</url>
+          <avatar>https://avatars.githubusercontent.com/u/3060199?s=40&amp;v=4</avatar>
+          <name>jesserockz</name>
+          <url>https://github.com/jesserockz</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
+          <avatar>https://avatars.githubusercontent.com/u/154711427?s=40&amp;v=4</avatar>
+          <name>swoboda1337</name>
+          <url>https://github.com/swoboda1337</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/12130714?s=40&amp;v=4</avatar>
-          <name>ianalexis</name>
-          <url>https://github.com/ianalexis</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/163908227?s=40&amp;v=4</avatar>
-          <name>tommasobbianchi</name>
-          <url>https://github.com/tommasobbianchi</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>lemonade-sdk/lemonade</title>
-      <link>https://github.com/lemonade-sdk/lemonade</link>
-      <description>Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk</description>
-      <guid>https://github.com/lemonade-sdk/lemonade</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>6,154</stars>
-      <forks>560</forks>
-      <addStars>116</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/80718789?s=40&amp;v=4</avatar>
-          <name>jeremyfowers</name>
-          <url>https://github.com/jeremyfowers</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/226492742?s=40&amp;v=4</avatar>
-          <name>fl0rianr</name>
-          <url>https://github.com/fl0rianr</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/494526?s=40&amp;v=4</avatar>
-          <name>superm1</name>
-          <url>https://github.com/superm1</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/12814146?s=40&amp;v=4</avatar>
-          <name>ramkrishna2910</name>
-          <url>https://github.com/ramkrishna2910</url>
+          <avatar>https://avatars.githubusercontent.com/u/6833237?s=40&amp;v=4</avatar>
+          <name>OttoWinter</name>
+          <url>https://github.com/OttoWinter</url>
         </contributor>
       </contributors>
     </item>
@@ -442,9 +333,9 @@
       <guid>https://github.com/ocornut/imgui</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>77,026</stars>
-      <forks>12,105</forks>
-      <addStars>151</addStars>
+      <stars>77,033</stars>
+      <forks>12,106</forks>
+      <addStars>146</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/8225057?s=40&amp;v=4</avatar>
@@ -474,15 +365,53 @@
       </contributors>
     </item>
     <item>
+      <title>lemonade-sdk/lemonade</title>
+      <link>https://github.com/lemonade-sdk/lemonade</link>
+      <description>Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk</description>
+      <guid>https://github.com/lemonade-sdk/lemonade</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>6,165</stars>
+      <forks>560</forks>
+      <addStars>113</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/80718789?s=40&amp;v=4</avatar>
+          <name>jeremyfowers</name>
+          <url>https://github.com/jeremyfowers</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/226492742?s=40&amp;v=4</avatar>
+          <name>fl0rianr</name>
+          <url>https://github.com/fl0rianr</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/494526?s=40&amp;v=4</avatar>
+          <name>superm1</name>
+          <url>https://github.com/superm1</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/12814146?s=40&amp;v=4</avatar>
+          <name>ramkrishna2910</name>
+          <url>https://github.com/ramkrishna2910</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>opentoonz/opentoonz</title>
       <link>https://github.com/opentoonz/opentoonz</link>
       <description>OpenToonz - An open-source full-featured 2D animation creation software</description>
       <guid>https://github.com/opentoonz/opentoonz</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>8,117</stars>
-      <forks>934</forks>
-      <addStars>224</addStars>
+      <stars>8,144</stars>
+      <forks>935</forks>
+      <addStars>233</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2576432?s=40&amp;v=4</avatar>
@@ -512,43 +441,15 @@
       </contributors>
     </item>
     <item>
-      <title>JonathanDC64/Soulbrandt</title>
-      <link>https://github.com/JonathanDC64/Soulbrandt</link>
-      <description>Soulbrandt: Demon's Souls, running natively on PC</description>
-      <guid>https://github.com/JonathanDC64/Soulbrandt</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>368</stars>
-      <forks>10</forks>
-      <addStars>214</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/10653167?s=40&amp;v=4</avatar>
-          <name>JonathanDC64</name>
-          <url>https://github.com/JonathanDC64</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/87539384?s=40&amp;v=4</avatar>
-          <name>Voicedrew11</name>
-          <url>https://github.com/Voicedrew11</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>NotRexed/Hookshot</title>
       <link>https://github.com/NotRexed/Hookshot</link>
       <description/>
       <guid>https://github.com/NotRexed/Hookshot</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>3,161</stars>
-      <forks>234</forks>
-      <addStars>162</addStars>
+      <stars>5,107</stars>
+      <forks>355</forks>
+      <addStars>2,115</addStars>
       <contributors/>
     </item>
     <item>
@@ -558,21 +459,21 @@
       <guid>https://github.com/zortos293/Lichii</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>6,887</stars>
-      <forks>836</forks>
-      <addStars>96</addStars>
+      <stars>7,658</stars>
+      <forks>941</forks>
+      <addStars>862</addStars>
       <contributors/>
     </item>
     <item>
-      <title>google-deepmind/mujoco</title>
-      <link>https://github.com/google-deepmind/mujoco</link>
-      <description>Multi-Joint dynamics with Contact. A general purpose physics simulator.</description>
-      <guid>https://github.com/google-deepmind/mujoco</guid>
+      <title>Dittobyte/Recompia</title>
+      <link>https://github.com/Dittobyte/Recompia</link>
+      <description>Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support</description>
+      <guid>https://github.com/Dittobyte/Recompia</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>16,420</stars>
-      <forks>1,970</forks>
-      <addStars>78</addStars>
+      <stars>457</stars>
+      <forks>8</forks>
+      <addStars>170</addStars>
       <contributors/>
     </item>
     <item>
@@ -582,9 +483,45 @@
       <guid>https://github.com/Niko1221/Strata</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>42,024</stars>
-      <forks>4,617</forks>
-      <addStars>48</addStars>
+      <stars>42,514</stars>
+      <forks>4,656</forks>
+      <addStars>535</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>DasDarki/grit</title>
+      <link>https://github.com/DasDarki/grit</link>
+      <description>GDScript Compiler for Godot.</description>
+      <guid>https://github.com/DasDarki/grit</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>180</stars>
+      <forks>1</forks>
+      <addStars>136</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>samir-sarwar/samir-vllm</title>
+      <link>https://github.com/samir-sarwar/samir-vllm</link>
+      <description>small LLM inference engine from scratch, w/ 6+ hours of youtube tutorials &amp; 85+ pages of handwritten notes included</description>
+      <guid>https://github.com/samir-sarwar/samir-vllm</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>157</stars>
+      <forks>0</forks>
+      <addStars>142</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ikey4u/zebkit</title>
+      <link>https://github.com/ikey4u/zebkit</link>
+      <description>A slim cross-platform browser engine for applications</description>
+      <guid>https://github.com/ikey4u/zebkit</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>173</stars>
+      <forks>0</forks>
+      <addStars>131</addStars>
       <contributors/>
     </item>
     <item>
@@ -594,9 +531,9 @@
       <guid>https://github.com/boykopovar/AnyPS5</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>52,342</stars>
-      <forks>5,171</forks>
-      <addStars>23</addStars>
+      <stars>52,639</stars>
+      <forks>5,186</forks>
+      <addStars>330</addStars>
       <contributors/>
     </item>
     <item>
@@ -606,33 +543,9 @@
       <guid>https://github.com/orailnoor/cross-platform-llm-client</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>1,799</stars>
-      <forks>360</forks>
-      <addStars>22</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>YusufOzmen01/openhouse</title>
-      <link>https://github.com/YusufOzmen01/openhouse</link>
-      <description>An open source reverse engineered lighthouse driver and HTC Vive 1.0 basestation firmware that improves upon Valve's lighthouse driver and adds support for using more than 2 1.0 lighthouses at the same time! Works with 1.0 and 2.0 basestations and all lighthouse compatible hardware!</description>
-      <guid>https://github.com/YusufOzmen01/openhouse</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>104</stars>
-      <forks>2</forks>
-      <addStars>17</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ppmpreetham/BUI</title>
-      <link>https://github.com/ppmpreetham/BUI</link>
-      <description>Blender's GPU Accelerated UI, Decoupled from it's original codebase</description>
-      <guid>https://github.com/ppmpreetham/BUI</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>2,232</stars>
-      <forks>82</forks>
-      <addStars>18</addStars>
+      <stars>1,969</stars>
+      <forks>378</forks>
+      <addStars>187</addStars>
       <contributors/>
     </item>
     <item>
@@ -642,33 +555,93 @@
       <guid>https://github.com/Eglantine-Community/Eglantine</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>5,453</stars>
-      <forks>594</forks>
-      <addStars>16</addStars>
+      <stars>5,658</stars>
+      <forks>613</forks>
+      <addStars>222</addStars>
       <contributors/>
     </item>
     <item>
-      <title>iOSNJBrepo/macOS-uke</title>
-      <link>https://github.com/iOSNJBrepo/macOS-uke</link>
-      <description>Full macOS 26.5 on the Xiaomi Pad 7 (uke, SM7675) via macOS-ForSheng: boots to the Finder desktop; Adreno 732 Metal in progress</description>
-      <guid>https://github.com/iOSNJBrepo/macOS-uke</guid>
+      <title>YusufOzmen01/openhouse</title>
+      <link>https://github.com/YusufOzmen01/openhouse</link>
+      <description>An open source reverse engineered lighthouse driver and HTC Vive 1.0 basestation firmware that improves upon Valve's lighthouse driver and adds support for using more than 2 1.0 lighthouses at the same time! Works with 1.0 and 2.0 basestations and all lighthouse compatible hardware!</description>
+      <guid>https://github.com/YusufOzmen01/openhouse</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>50</stars>
-      <forks>4</forks>
-      <addStars>4</addStars>
+      <stars>178</stars>
+      <forks>13</forks>
+      <addStars>87</addStars>
       <contributors/>
     </item>
     <item>
-      <title>featureJosh/Recompia</title>
-      <link>https://github.com/featureJosh/Recompia</link>
-      <description>Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support</description>
-      <guid>https://github.com/featureJosh/Recompia</guid>
+      <title>Goldoire/fefw-recomp</title>
+      <link>https://github.com/Goldoire/fefw-recomp</link>
+      <description>Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.</description>
+      <guid>https://github.com/Goldoire/fefw-recomp</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>299</stars>
-      <forks>2</forks>
-      <addStars>9</addStars>
+      <stars>358</stars>
+      <forks>14</forks>
+      <addStars>73</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Asphaltian/OpenRBX</title>
+      <link>https://github.com/Asphaltian/OpenRBX</link>
+      <description>A decompilation and future source port of Roblox (December 2007)</description>
+      <guid>https://github.com/Asphaltian/OpenRBX</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>94</stars>
+      <forks>3</forks>
+      <addStars>73</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>imxieyi/Kernarium</title>
+      <link>https://github.com/imxieyi/Kernarium</link>
+      <description>Run real Linux kernel natively on iOS</description>
+      <guid>https://github.com/imxieyi/Kernarium</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>63</stars>
+      <forks>0</forks>
+      <addStars>64</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ppmpreetham/BUI</title>
+      <link>https://github.com/ppmpreetham/BUI</link>
+      <description>Blender's GPU Accelerated UI, Decoupled from it's original codebase</description>
+      <guid>https://github.com/ppmpreetham/BUI</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>2,384</stars>
+      <forks>94</forks>
+      <addStars>163</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>saulob/13-sentinels-aegis-rim-pc</title>
+      <link>https://github.com/saulob/13-sentinels-aegis-rim-pc</link>
+      <description>13 Sentinels: Aegis Rim native PC port for Windows and Linux, with direct PS4 PKG installation, TRG launcher and modern graphics options</description>
+      <guid>https://github.com/saulob/13-sentinels-aegis-rim-pc</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>62</stars>
+      <forks>0</forks>
+      <addStars>53</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>cutetailbud/ff-ruyijs</title>
+      <link>https://github.com/cutetailbud/ff-ruyijs</link>
+      <description>A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.</description>
+      <guid>https://github.com/cutetailbud/ff-ruyijs</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>1,199</stars>
+      <forks>342</forks>
+      <addStars>115</addStars>
       <contributors/>
     </item>
     <item>
@@ -678,33 +651,57 @@
       <guid>https://github.com/ggml-org/llama.cpp</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>133,768</stars>
-      <forks>22,529</forks>
-      <addStars>11</addStars>
+      <stars>133,857</stars>
+      <forks>22,561</forks>
+      <addStars>95</addStars>
       <contributors/>
     </item>
     <item>
-      <title>mamesj/pokemon-fulldex</title>
-      <link>https://github.com/mamesj/pokemon-fulldex</link>
-      <description>Pokémon Fulldex: the DS games (Black 2, White 2, Black, White, SoulSilver, HeartGold, Platinum) and GBA games (Emerald, FireRed, LeafGreen, Ultra Violet) in widescreen at 60 fps on PC, Mac, Steam Deck, Android, iPhone and Nintendo Switch. One game list, RetroAchievements. Bring your own ROMs.</description>
-      <guid>https://github.com/mamesj/pokemon-fulldex</guid>
+      <title>iOSNJBrepo/macOS-uke</title>
+      <link>https://github.com/iOSNJBrepo/macOS-uke</link>
+      <description>Full macOS 26.5 on the Xiaomi Pad 7 (uke, SM7675) via macOS-ForSheng: boots to the Finder desktop; Adreno 732 Metal in progress</description>
+      <guid>https://github.com/iOSNJBrepo/macOS-uke</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>917</stars>
-      <forks>46</forks>
-      <addStars>10</addStars>
+      <stars>75</stars>
+      <forks>8</forks>
+      <addStars>25</addStars>
       <contributors/>
     </item>
     <item>
-      <title>marcm0de/FivePocket</title>
-      <link>https://github.com/marcm0de/FivePocket</link>
-      <description>Play the 2013 open-world classic natively on Android, AYN Thor, iPad and iPhone, built from your own Xbox 360 discs. Not an emulator.</description>
-      <guid>https://github.com/marcm0de/FivePocket</guid>
+      <title>mg-chao/snow-apps</title>
+      <link>https://github.com/mg-chao/snow-apps</link>
+      <description>Snow Apps repository, providing source code for Snow Shot and Snow Image Viewer.</description>
+      <guid>https://github.com/mg-chao/snow-apps</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>19</stars>
-      <forks>1</forks>
-      <addStars>6</addStars>
+      <stars>6,852</stars>
+      <forks>451</forks>
+      <addStars>73</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Wehaveall/AMDLSS5</title>
+      <link>https://github.com/Wehaveall/AMDLSS5</link>
+      <description>AMDLSS5 MOD: the DLSS 5 neural network on AMD Radeon RDNA 4 cards (DX12 + FSR 3.1 or newer). Tested only on the RX 9070 XT: Resident Evil Requiem, Onimusha: Way of the Sword (demo), Cyberpunk 2077, Monster Hunter Wilds and The Witcher 3 (DX12). Based on Daniel's DLSS-NR-on-AMD.</description>
+      <guid>https://github.com/Wehaveall/AMDLSS5</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>95</stars>
+      <forks>0</forks>
+      <addStars>35</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>dashdogy/MFG-Unlocker</title>
+      <link>https://github.com/dashdogy/MFG-Unlocker</link>
+      <description>Experimental DLSS Multi Frame Generation controls for any supported MFG title on RTX 40 series GPUs</description>
+      <guid>https://github.com/dashdogy/MFG-Unlocker</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>2,427</stars>
+      <forks>69</forks>
+      <addStars>76</addStars>
       <contributors/>
     </item>
     <item>
@@ -714,93 +711,9 @@
       <guid>https://github.com/KytyPS5/KytyPS5</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>10,818</stars>
-      <forks>1,361</forks>
-      <addStars>8</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>k2-fsa/sherpa-onnx</title>
-      <link>https://github.com/k2-fsa/sherpa-onnx</link>
-      <description>Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages</description>
-      <guid>https://github.com/k2-fsa/sherpa-onnx</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>15,834</stars>
-      <forks>1,905</forks>
-      <addStars>7</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>aardappel/goose</title>
-      <link>https://github.com/aardappel/goose</link>
-      <description>The Goose Programming Language</description>
-      <guid>https://github.com/aardappel/goose</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>3,310</stars>
-      <forks>140</forks>
-      <addStars>7</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>aseprite/aseprite</title>
-      <link>https://github.com/aseprite/aseprite</link>
-      <description>Animated sprite editor &amp; pixel art tool (Windows, macOS, Linux)</description>
-      <guid>https://github.com/aseprite/aseprite</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>40,790</stars>
-      <forks>9,770</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>CM-idea/SnowAir</title>
-      <link>https://github.com/CM-idea/SnowAir</link>
-      <description>SnowAir 是一款轻量化的截图与标注工具，涵盖截图、录屏、演示、贴图、OCR识别、翻译等功能，自由高效，尽在轻雪。</description>
-      <guid>https://github.com/CM-idea/SnowAir</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>254</stars>
-      <forks>22</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>keepassxreboot/keepassxc</title>
-      <link>https://github.com/keepassxreboot/keepassxc</link>
-      <description>KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.</description>
-      <guid>https://github.com/keepassxreboot/keepassxc</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>29,871</stars>
-      <forks>2,089</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Supermedo/bloodborne_pc</title>
-      <link>https://github.com/Supermedo/bloodborne_pc</link>
-      <description>Bloodborne running natively on Windows 10/11: launcher in 13 languages, DLSS, FSR 3.1/4, unlocked FPS, cheats, mods, one-click updates.</description>
-      <guid>https://github.com/Supermedo/bloodborne_pc</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>5,262</stars>
-      <forks>340</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>FreeCAD/FreeCAD</title>
-      <link>https://github.com/FreeCAD/FreeCAD</link>
-      <description>Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.</description>
-      <guid>https://github.com/FreeCAD/FreeCAD</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>35,257</stars>
-      <forks>6,393</forks>
-      <addStars>6</addStars>
+      <stars>10,879</stars>
+      <forks>1,366</forks>
+      <addStars>69</addStars>
       <contributors/>
     </item>
   </channel>

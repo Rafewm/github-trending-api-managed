@@ -3,7 +3,7 @@
     <title>GitHub Jsonnet Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Jsonnet Languages in GitHub</description>
-    <pubDate>Mon, 09 Nov 2026 04:38:21 GMT</pubDate>
+    <pubDate>Tue, 10 Nov 2026 02:33:16 GMT</pubDate>
     <item>
       <title>google/jsonnet</title>
       <link>https://github.com/google/jsonnet</link>
@@ -13,7 +13,7 @@
       <languageColor>#0064bd</languageColor>
       <stars>7,594</stars>
       <forks>484</forks>
-      <addStars>5</addStars>
+      <addStars>6</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/168158?s=40&amp;v=4</avatar>
@@ -38,48 +38,15 @@
       </contributors>
     </item>
     <item>
-      <title>kubernetes-sigs/kubernetes-mixin</title>
-      <link>https://github.com/kubernetes-sigs/kubernetes-mixin</link>
-      <description>A set of Grafana dashboards and Prometheus alerts for Kubernetes.</description>
-      <guid>https://github.com/kubernetes-sigs/kubernetes-mixin</guid>
-      <language>Jsonnet</language>
-      <languageColor>#0064bd</languageColor>
-      <stars>2,493</stars>
-      <forks>667</forks>
-      <addStars>1</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4546722?s=40&amp;v=4</avatar>
-          <name>brancz</name>
-          <url>https://github.com/brancz</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/872251?s=40&amp;v=4</avatar>
-          <name>metalmatze</name>
-          <url>https://github.com/metalmatze</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/22289110?s=40&amp;v=4</avatar>
-          <name>povilasv</name>
-          <url>https://github.com/povilasv</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3531758?s=40&amp;v=4</avatar>
-          <name>paulfantom</name>
-          <url>https://github.com/paulfantom</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>argoproj/argocd-example-apps</title>
       <link>https://github.com/argoproj/argocd-example-apps</link>
       <description>Example Apps to Demonstrate Argo CD</description>
       <guid>https://github.com/argoproj/argocd-example-apps</guid>
       <language>Jsonnet</language>
       <languageColor>#0064bd</languageColor>
-      <stars>2,207</stars>
-      <forks>10,504</forks>
-      <addStars>3</addStars>
+      <stars>2,208</stars>
+      <forks>10,509</forks>
+      <addStars>5</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/12677113?s=40&amp;v=4</avatar>
@@ -105,6 +72,39 @@
           <avatar>https://avatars.githubusercontent.com/u/410404?s=40&amp;v=4</avatar>
           <name>limnick</name>
           <url>https://github.com/limnick</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>kubernetes-sigs/kubernetes-mixin</title>
+      <link>https://github.com/kubernetes-sigs/kubernetes-mixin</link>
+      <description>A set of Grafana dashboards and Prometheus alerts for Kubernetes.</description>
+      <guid>https://github.com/kubernetes-sigs/kubernetes-mixin</guid>
+      <language>Jsonnet</language>
+      <languageColor>#0064bd</languageColor>
+      <stars>2,493</stars>
+      <forks>668</forks>
+      <addStars>1</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4546722?s=40&amp;v=4</avatar>
+          <name>brancz</name>
+          <url>https://github.com/brancz</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/872251?s=40&amp;v=4</avatar>
+          <name>metalmatze</name>
+          <url>https://github.com/metalmatze</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/22289110?s=40&amp;v=4</avatar>
+          <name>povilasv</name>
+          <url>https://github.com/povilasv</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/3531758?s=40&amp;v=4</avatar>
+          <name>paulfantom</name>
+          <url>https://github.com/paulfantom</url>
         </contributor>
       </contributors>
     </item>

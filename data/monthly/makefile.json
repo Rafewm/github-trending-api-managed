@@ -2,8 +2,45 @@
   "title": "GitHub Makefile Languages Monthly Trending",
   "description": "Monthly Trending of Makefile Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 09 Nov 2026 04:38:21 GMT",
+  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
   "items": [
+    {
+      "title": "openwrt/packages",
+      "url": "https://github.com/openwrt/packages",
+      "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "4,667",
+      "forks": "4,027",
+      "addStars": "54",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2918873?s=40&v=4",
+          "name": "neheb",
+          "url": "https://github.com/neheb"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7926856?s=40&v=4",
+          "name": "hnyman",
+          "url": "https://github.com/hnyman"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2766732?s=40&v=4",
+          "name": "commodo",
+          "url": "https://github.com/commodo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9948313?s=40&v=4",
+          "name": "dangowrt",
+          "url": "https://github.com/dangowrt"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4096468?s=40&v=4",
+          "name": "BKPepe",
+          "url": "https://github.com/BKPepe"
+        }
+      ]
+    },
     {
       "title": "PartialVolume/shredos.x86_64",
       "url": "https://github.com/PartialVolume/shredos.x86_64",
@@ -12,7 +49,7 @@
       "languageColor": "#427819",
       "stars": "3,270",
       "forks": "150",
-      "addStars": "82",
+      "addStars": "80",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/22084881?s=40&v=4",
@@ -47,7 +84,7 @@
       "description": "☂ Umbrella repository for Mozilla Addons ✨",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "134",
+      "stars": "135",
       "forks": "52",
       "addStars": "2",
       "contributors": [
@@ -111,51 +148,14 @@
       ]
     },
     {
-      "title": "openwrt/packages",
-      "url": "https://github.com/openwrt/packages",
-      "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "4,667",
-      "forks": "4,021",
-      "addStars": "54",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2918873?s=40&v=4",
-          "name": "neheb",
-          "url": "https://github.com/neheb"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7926856?s=40&v=4",
-          "name": "hnyman",
-          "url": "https://github.com/hnyman"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2766732?s=40&v=4",
-          "name": "commodo",
-          "url": "https://github.com/commodo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9948313?s=40&v=4",
-          "name": "dangowrt",
-          "url": "https://github.com/dangowrt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4096468?s=40&v=4",
-          "name": "BKPepe",
-          "url": "https://github.com/BKPepe"
-        }
-      ]
-    },
-    {
       "title": "mindsdb/mindshub",
       "url": "https://github.com/mindsdb/mindshub",
       "description": "The unified workspace where open-source models get things done for you.",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "39,849",
-      "forks": "6,230",
-      "addStars": "132",
+      "stars": "39,852",
+      "forks": "6,229",
+      "addStars": "135",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/4068133?s=40&v=4",
@@ -190,8 +190,8 @@
       "description": "Awesome observability page",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "746",
-      "forks": "236",
+      "stars": "747",
+      "forks": "238",
       "addStars": "37",
       "contributors": [
         {
@@ -217,14 +217,88 @@
       ]
     },
     {
+      "title": "chatwork/dockerfiles",
+      "url": "https://github.com/chatwork/dockerfiles",
+      "description": "",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "35",
+      "forks": "10",
+      "addStars": "0",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/41108065?s=40&v=4",
+          "name": "cw-circleci",
+          "url": "https://github.com/cw-circleci"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29860510?s=40&v=4",
+          "name": "cw-sakamoto",
+          "url": "https://github.com/cw-sakamoto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7764002?s=40&v=4",
+          "name": "cw-ozaki",
+          "url": "https://github.com/cw-ozaki"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/143799835?s=40&v=4",
+          "name": "kb-hiroyaataka",
+          "url": "https://github.com/kb-hiroyaataka"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1281825?s=40&v=4",
+          "name": "k-kinzal",
+          "url": "https://github.com/k-kinzal"
+        }
+      ]
+    },
+    {
+      "title": "ROCKNIX/distribution",
+      "url": "https://github.com/ROCKNIX/distribution",
+      "description": "",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "1,649",
+      "forks": "405",
+      "addStars": "50",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
+          "name": "sraue",
+          "url": "https://github.com/sraue"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
+          "name": "heitbaum",
+          "url": "https://github.com/heitbaum"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
+          "name": "MilhouseVH",
+          "url": "https://github.com/MilhouseVH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
+          "name": "CvH",
+          "url": "https://github.com/CvH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/758738?s=40&v=4",
+          "name": "stefansaraev",
+          "url": "https://github.com/stefansaraev"
+        }
+      ]
+    },
+    {
       "title": "NetBSD/pkgsrc",
       "url": "https://github.com/NetBSD/pkgsrc",
       "description": "Automatic conversion of the NetBSD pkgsrc CVS module, use with care",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "407",
+      "stars": "408",
       "forks": "200",
-      "addStars": "2",
+      "addStars": "3",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/2221844?s=40&v=4",
@@ -286,49 +360,12 @@
       ]
     },
     {
-      "title": "ROCKNIX/distribution",
-      "url": "https://github.com/ROCKNIX/distribution",
-      "description": "",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "1,649",
-      "forks": "404",
-      "addStars": "50",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
-          "name": "sraue",
-          "url": "https://github.com/sraue"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
-          "name": "heitbaum",
-          "url": "https://github.com/heitbaum"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
-          "name": "MilhouseVH",
-          "url": "https://github.com/MilhouseVH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
-          "name": "CvH",
-          "url": "https://github.com/CvH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/758738?s=40&v=4",
-          "name": "stefansaraev",
-          "url": "https://github.com/stefansaraev"
-        }
-      ]
-    },
-    {
       "title": "Ysurac/openmptcprouter",
       "url": "https://github.com/Ysurac/openmptcprouter",
       "description": "OpenMPTCProuter is an open source solution to aggregate multiple internet connections using Multipath TCP (MPTCP) on OpenWrt",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "2,550",
+      "stars": "2,553",
       "forks": "361",
       "addStars": "36",
       "contributors": [
@@ -365,9 +402,9 @@
       "description": "A Video Surveillance OS For Single-board Computers",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "8,215",
-      "forks": "916",
-      "addStars": "13",
+      "stars": "8,216",
+      "forks": "915",
+      "addStars": "11",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/6599?s=40&v=4",
@@ -404,7 +441,7 @@
       "languageColor": "#427819",
       "stars": "2,045",
       "forks": "505",
-      "addStars": "14",
+      "addStars": "13",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/13565058?s=40&v=4",
@@ -430,43 +467,6 @@
           "avatar": "https://avatars.githubusercontent.com/u/4364466?s=40&v=4",
           "name": "HardNorth",
           "url": "https://github.com/HardNorth"
-        }
-      ]
-    },
-    {
-      "title": "LibreELEC/LibreELEC.tv",
-      "url": "https://github.com/LibreELEC/LibreELEC.tv",
-      "description": "Just enough OS for KODI",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "2,852",
-      "forks": "1,214",
-      "addStars": "35",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
-          "name": "sraue",
-          "url": "https://github.com/sraue"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
-          "name": "heitbaum",
-          "url": "https://github.com/heitbaum"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
-          "name": "CvH",
-          "url": "https://github.com/CvH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
-          "name": "MilhouseVH",
-          "url": "https://github.com/MilhouseVH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/251794?s=40&v=4",
-          "name": "chewitt",
-          "url": "https://github.com/chewitt"
         }
       ]
     },
@@ -508,13 +508,50 @@
       ]
     },
     {
+      "title": "LibreELEC/LibreELEC.tv",
+      "url": "https://github.com/LibreELEC/LibreELEC.tv",
+      "description": "Just enough OS for KODI",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "2,852",
+      "forks": "1,216",
+      "addStars": "34",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
+          "name": "sraue",
+          "url": "https://github.com/sraue"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
+          "name": "heitbaum",
+          "url": "https://github.com/heitbaum"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
+          "name": "CvH",
+          "url": "https://github.com/CvH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
+          "name": "MilhouseVH",
+          "url": "https://github.com/MilhouseVH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/251794?s=40&v=4",
+          "name": "chewitt",
+          "url": "https://github.com/chewitt"
+        }
+      ]
+    },
+    {
       "title": "qmk/qmk_userspace",
       "url": "https://github.com/qmk/qmk_userspace",
       "description": "Userspace for the open-source QMK keyboard firmware.",
       "language": "Makefile",
       "languageColor": "#427819",
       "stars": "194",
-      "forks": "2,818",
+      "forks": "2,817",
       "addStars": "7",
       "contributors": [
         {
@@ -551,7 +588,7 @@
       "language": "Makefile",
       "languageColor": "#427819",
       "stars": "1,228",
-      "forks": "891",
+      "forks": "890",
       "addStars": "20",
       "contributors": [
         {
@@ -589,7 +626,7 @@
       "languageColor": "#427819",
       "stars": "597",
       "forks": "32",
-      "addStars": "14",
+      "addStars": "12",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/6260009?s=40&v=4",

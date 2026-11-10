@@ -2,15 +2,52 @@
   "title": "GitHub Erlang Languages Monthly Trending",
   "description": "Monthly Trending of Erlang Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 09 Nov 2026 04:38:21 GMT",
+  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
   "items": [
+    {
+      "title": "emqx/emqx",
+      "url": "https://github.com/emqx/emqx",
+      "description": "The most scalable and reliable MQTT broker for AI, IoT, IIoT and connected vehicles",
+      "language": "Erlang",
+      "languageColor": "#B83998",
+      "stars": "16,894",
+      "forks": "2,580",
+      "addStars": "132",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/164324?s=40&v=4",
+          "name": "zmstone",
+          "url": "https://github.com/zmstone"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16166434?s=40&v=4",
+          "name": "thalesmg",
+          "url": "https://github.com/thalesmg"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1148366?s=40&v=4",
+          "name": "keynslug",
+          "url": "https://github.com/keynslug"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4236?s=40&v=4",
+          "name": "savonarola",
+          "url": "https://github.com/savonarola"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13825269?s=40&v=4",
+          "name": "hjianbo",
+          "url": "https://github.com/hjianbo"
+        }
+      ]
+    },
     {
       "title": "apache/couchdb",
       "url": "https://github.com/apache/couchdb",
       "description": "Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability",
       "language": "Erlang",
       "languageColor": "#B83998",
-      "stars": "7,006",
+      "stars": "7,007",
       "forks": "1,088",
       "addStars": "42",
       "contributors": [
@@ -42,51 +79,14 @@
       ]
     },
     {
-      "title": "emqx/emqx",
-      "url": "https://github.com/emqx/emqx",
-      "description": "The most scalable and reliable MQTT broker for AI, IoT, IIoT and connected vehicles",
-      "language": "Erlang",
-      "languageColor": "#B83998",
-      "stars": "16,890",
-      "forks": "2,580",
-      "addStars": "132",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/164324?s=40&v=4",
-          "name": "zmstone",
-          "url": "https://github.com/zmstone"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16166434?s=40&v=4",
-          "name": "thalesmg",
-          "url": "https://github.com/thalesmg"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1148366?s=40&v=4",
-          "name": "keynslug",
-          "url": "https://github.com/keynslug"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4236?s=40&v=4",
-          "name": "savonarola",
-          "url": "https://github.com/savonarola"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3116225?s=40&v=4",
-          "name": "zhongwencool",
-          "url": "https://github.com/zhongwencool"
-        }
-      ]
-    },
-    {
       "title": "processone/ejabberd",
       "url": "https://github.com/processone/ejabberd",
       "description": "Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)",
       "language": "Erlang",
       "languageColor": "#B83998",
-      "stars": "6,750",
-      "forks": "1,552",
-      "addStars": "20",
+      "stars": "6,749",
+      "forks": "1,553",
+      "addStars": "17",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/96807?s=40&v=4",
@@ -121,9 +121,9 @@
       "description": "Erlang/OTP",
       "language": "Erlang",
       "languageColor": "#B83998",
-      "stars": "12,357",
-      "forks": "3,227",
-      "addStars": "37",
+      "stars": "12,359",
+      "forks": "3,228",
+      "addStars": "36",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/74840?s=40&v=4",

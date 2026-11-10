@@ -3,7 +3,45 @@
     <title>GitHub Python Languages Daily Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Daily Trending of Python Languages in GitHub</description>
-    <pubDate>Mon, 09 Nov 2026 04:38:21 GMT</pubDate>
+    <pubDate>Tue, 10 Nov 2026 02:33:16 GMT</pubDate>
+    <item>
+      <title>anthropics/skills</title>
+      <link>https://github.com/anthropics/skills</link>
+      <description>Public repository for Agent Skills</description>
+      <guid>https://github.com/anthropics/skills</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>191,113</stars>
+      <forks>22,454</forks>
+      <addStars>1,038</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/122662504?s=40&amp;v=4</avatar>
+          <name>rlancemartin</name>
+          <url>https://github.com/rlancemartin</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/84525?s=40&amp;v=4</avatar>
+          <name>klazuka</name>
+          <url>https://github.com/klazuka</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/286490957?s=40&amp;v=4</avatar>
+          <name>cj-ant</name>
+          <url>https://github.com/cj-ant</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/27286675?s=40&amp;v=4</avatar>
+          <name>ericharmeling</name>
+          <url>https://github.com/ericharmeling</url>
+        </contributor>
+      </contributors>
+    </item>
     <item>
       <title>sherlock-project/sherlock</title>
       <link>https://github.com/sherlock-project/sherlock</link>
@@ -11,9 +49,9 @@
       <guid>https://github.com/sherlock-project/sherlock</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>104,424</stars>
-      <forks>12,185</forks>
-      <addStars>2,373</addStars>
+      <stars>107,274</stars>
+      <forks>12,415</forks>
+      <addStars>4,267</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/27065646?s=40&amp;v=4</avatar>
@@ -49,9 +87,9 @@
       <guid>https://github.com/anthropics/claude-quickstarts</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>19,549</stars>
-      <forks>3,284</forks>
-      <addStars>32</addStars>
+      <stars>20,063</stars>
+      <forks>3,317</forks>
+      <addStars>551</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/286490957?s=40&amp;v=4</avatar>
@@ -81,25 +119,129 @@
       </contributors>
     </item>
     <item>
-      <title>anthropics/skills</title>
-      <link>https://github.com/anthropics/skills</link>
-      <description>Public repository for Agent Skills</description>
-      <guid>https://github.com/anthropics/skills</guid>
+      <title>ZhuLinsen/daily_stock_analysis</title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</description>
+      <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>189,846</stars>
-      <forks>22,368</forks>
-      <addStars>792</addStars>
+      <stars>68,978</stars>
+      <forks>56,413</forks>
+      <addStars>506</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/122662504?s=40&amp;v=4</avatar>
-          <name>rlancemartin</name>
-          <url>https://github.com/rlancemartin</url>
+          <avatar>https://avatars.githubusercontent.com/u/42829555?s=40&amp;v=4</avatar>
+          <name>ZhuLinsen</name>
+          <url>https://github.com/ZhuLinsen</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/84525?s=40&amp;v=4</avatar>
-          <name>klazuka</name>
-          <url>https://github.com/klazuka</url>
+          <avatar>https://avatars.githubusercontent.com/u/176381099?s=40&amp;v=4</avatar>
+          <name>massif-01</name>
+          <url>https://github.com/massif-01</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/56824280?s=40&amp;v=4</avatar>
+          <name>freesme</name>
+          <url>https://github.com/freesme</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/30621586?s=40&amp;v=4</avatar>
+          <name>Activer007</name>
+          <url>https://github.com/Activer007</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/36181736?s=40&amp;v=4</avatar>
+          <name>birdxs</name>
+          <url>https://github.com/birdxs</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>homeassistant-ai/ha-mcp</title>
+      <link>https://github.com/homeassistant-ai/ha-mcp</link>
+      <description>Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.</description>
+      <guid>https://github.com/homeassistant-ai/ha-mcp</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>6,050</stars>
+      <forks>296</forks>
+      <addStars>31</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/25392815?s=40&amp;v=4</avatar>
+          <name>kingpanther13</name>
+          <url>https://github.com/kingpanther13</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/3122659?s=40&amp;v=4</avatar>
+          <name>julienld</name>
+          <url>https://github.com/julienld</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>OpenBMB/VoxCPM</title>
+      <link>https://github.com/OpenBMB/VoxCPM</link>
+      <description>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning</description>
+      <guid>https://github.com/OpenBMB/VoxCPM</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>42,129</stars>
+      <forks>4,801</forks>
+      <addStars>387</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/63361337?s=40&amp;v=4</avatar>
+          <name>Labmem-Zhouyx</name>
+          <url>https://github.com/Labmem-Zhouyx</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8132992?s=40&amp;v=4</avatar>
+          <name>a710128</name>
+          <url>https://github.com/a710128</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/40820394?s=40&amp;v=4</avatar>
+          <name>bcsdcox</name>
+          <url>https://github.com/bcsdcox</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/33060143?s=40&amp;v=4</avatar>
+          <name>liuxin99</name>
+          <url>https://github.com/liuxin99</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/167593451?s=40&amp;v=4</avatar>
+          <name>VoxInstruct</name>
+          <url>https://github.com/VoxInstruct</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>BigBodyCobain/Shadowbroker</title>
+      <link>https://github.com/BigBodyCobain/Shadowbroker</link>
+      <description>Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.</description>
+      <guid>https://github.com/BigBodyCobain/Shadowbroker</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>11,530</stars>
+      <forks>1,836</forks>
+      <addStars>25</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/43977454?s=40&amp;v=4</avatar>
+          <name>BigBodyCobain</name>
+          <url>https://github.com/BigBodyCobain</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/241279582?s=40&amp;v=4</avatar>
+          <name>anoracleofra-code</name>
+          <url>https://github.com/anoracleofra-code</url>
         </contributor>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
@@ -107,32 +249,27 @@
           <url>https://github.com/claude</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/286490957?s=40&amp;v=4</avatar>
-          <name>cj-ant</name>
-          <url>https://github.com/cj-ant</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/27286675?s=40&amp;v=4</avatar>
-          <name>ericharmeling</name>
-          <url>https://github.com/ericharmeling</url>
+          <avatar>https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4</avatar>
+          <name>cursoragent</name>
+          <url>https://github.com/cursoragent</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>jamiepine/voicebox</title>
-      <link>https://github.com/jamiepine/voicebox</link>
-      <description>The open-source AI voice studio. Clone, dictate, create.</description>
-      <guid>https://github.com/jamiepine/voicebox</guid>
+      <title>debpalash/VoiceStudio</title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <description>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</description>
+      <guid>https://github.com/debpalash/VoiceStudio</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>60,183</stars>
-      <forks>7,560</forks>
-      <addStars>208</addStars>
+      <stars>106,264</stars>
+      <forks>11,792</forks>
+      <addStars>1,262</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/32987599?s=40&amp;v=4</avatar>
-          <name>jamiepine</name>
-          <url>https://github.com/jamiepine</url>
+          <avatar>https://avatars.githubusercontent.com/u/4178343?s=40&amp;v=4</avatar>
+          <name>debpalash</name>
+          <url>https://github.com/debpalash</url>
         </contributor>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
@@ -140,47 +277,19 @@
           <url>https://github.com/claude</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/280961228?s=40&amp;v=4</avatar>
-          <name>neuron-tech-ai</name>
-          <url>https://github.com/neuron-tech-ai</url>
+          <avatar>https://avatars.githubusercontent.com/u/270455167?s=40&amp;v=4</avatar>
+          <name>velixio</name>
+          <url>https://github.com/velixio</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/52257177?s=40&amp;v=4</avatar>
-          <name>tomasmach</name>
-          <url>https://github.com/tomasmach</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>googlecolab/google-colab-cli</title>
-      <link>https://github.com/googlecolab/google-colab-cli</link>
-      <description>A CLI for interacting with Google Colab runtimes</description>
-      <guid>https://github.com/googlecolab/google-colab-cli</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>2,094</stars>
-      <forks>298</forks>
-      <addStars>104</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/10172976?s=40&amp;v=4</avatar>
-          <name>sethtroisi</name>
-          <url>https://github.com/sethtroisi</url>
+          <avatar>https://avatars.githubusercontent.com/u/5299031?s=40&amp;v=4</avatar>
+          <name>kevin9327</name>
+          <url>https://github.com/kevin9327</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/45395?s=40&amp;v=4</avatar>
-          <name>teeler</name>
-          <url>https://github.com/teeler</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/49929463?s=40&amp;v=4</avatar>
-          <name>wh1ter4bb1t-js</name>
-          <url>https://github.com/wh1ter4bb1t-js</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/77074952?s=40&amp;v=4</avatar>
-          <name>hjjackyang</name>
-          <url>https://github.com/hjjackyang</url>
+          <avatar>https://avatars.githubusercontent.com/u/47457359?s=40&amp;v=4</avatar>
+          <name>rudycelekli</name>
+          <url>https://github.com/rudycelekli</url>
         </contributor>
       </contributors>
     </item>
@@ -191,9 +300,9 @@
       <guid>https://github.com/rohitg00/ai-engineering-from-scratch</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>77,872</stars>
-      <forks>13,822</forks>
-      <addStars>449</addStars>
+      <stars>78,169</stars>
+      <forks>13,895</forks>
+      <addStars>326</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/48523873?s=40&amp;v=4</avatar>
@@ -218,15 +327,180 @@
       </contributors>
     </item>
     <item>
+      <title>HKUDS/DeepTutor</title>
+      <link>https://github.com/HKUDS/DeepTutor</link>
+      <description>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</description>
+      <guid>https://github.com/HKUDS/DeepTutor</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>57,664</stars>
+      <forks>7,031</forks>
+      <addStars>710</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/150592536?s=40&amp;v=4</avatar>
+          <name>pancacake</name>
+          <url>https://github.com/pancacake</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/272976591?s=40&amp;v=4</avatar>
+          <name>Pinkllow</name>
+          <url>https://github.com/Pinkllow</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/238371241?s=40&amp;v=4</avatar>
+          <name>evan188199-tech</name>
+          <url>https://github.com/evan188199-tech</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>anthropics/claude-plugins-official</title>
+      <link>https://github.com/anthropics/claude-plugins-official</link>
+      <description>Official, Anthropic-managed directory of high quality Claude Code Plugins.</description>
+      <guid>https://github.com/anthropics/claude-plugins-official</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>46,648</stars>
+      <forks>4,858</forks>
+      <addStars>149</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/305637556?s=40&amp;v=4</avatar>
+          <name>jordanecker-ant</name>
+          <url>https://github.com/jordanecker-ant</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/238056179?s=40&amp;v=4</avatar>
+          <name>bryan-anthropic</name>
+          <url>https://github.com/bryan-anthropic</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8000722?s=40&amp;v=4</avatar>
+          <name>mhegazy</name>
+          <url>https://github.com/mhegazy</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>soxoj/maigret</title>
+      <link>https://github.com/soxoj/maigret</link>
+      <description>🕵️‍♂️ Collect a dossier on a person by username from 6K websites</description>
+      <guid>https://github.com/soxoj/maigret</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>39,915</stars>
+      <forks>3,193</forks>
+      <addStars>44</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/31013580?s=40&amp;v=4</avatar>
+          <name>soxoj</name>
+          <url>https://github.com/soxoj</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/99247491?s=40&amp;v=4</avatar>
+          <name>kustermariocoding</name>
+          <url>https://github.com/kustermariocoding</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>hummingbot/hummingbot</title>
+      <link>https://github.com/hummingbot/hummingbot</link>
+      <description>Open source software that helps you create and deploy high-frequency crypto trading bots</description>
+      <guid>https://github.com/hummingbot/hummingbot</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>21,129</stars>
+      <forks>5,133</forks>
+      <addStars>45</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/36869960?s=40&amp;v=4</avatar>
+          <name>cardosofede</name>
+          <url>https://github.com/cardosofede</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1795030?s=40&amp;v=4</avatar>
+          <name>fengtality</name>
+          <url>https://github.com/fengtality</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/37262506?s=40&amp;v=4</avatar>
+          <name>Nullably</name>
+          <url>https://github.com/Nullably</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/31972210?s=40&amp;v=4</avatar>
+          <name>vic-en</name>
+          <url>https://github.com/vic-en</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/25759483?s=40&amp;v=4</avatar>
+          <name>yvonnezhangxyz</name>
+          <url>https://github.com/yvonnezhangxyz</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>opensandbox-group/OpenSandbox</title>
+      <link>https://github.com/opensandbox-group/OpenSandbox</link>
+      <description>Secure, Fast, and Extensible Sandbox runtime for AI agents.</description>
+      <guid>https://github.com/opensandbox-group/OpenSandbox</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>16,954</stars>
+      <forks>1,597</forks>
+      <addStars>168</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/62273713?s=40&amp;v=4</avatar>
+          <name>Pangjiping</name>
+          <url>https://github.com/Pangjiping</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/249928781?s=40&amp;v=4</avatar>
+          <name>ninan-nn</name>
+          <url>https://github.com/ninan-nn</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1870207?s=40&amp;v=4</avatar>
+          <name>hittyt</name>
+          <url>https://github.com/hittyt</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/118508408?s=40&amp;v=4</avatar>
+          <name>hpliStartAgain</name>
+          <url>https://github.com/hpliStartAgain</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>neuml/txtai</title>
       <link>https://github.com/neuml/txtai</link>
       <description>💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows</description>
       <guid>https://github.com/neuml/txtai</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>13,177</stars>
-      <forks>982</forks>
-      <addStars>56</addStars>
+      <stars>13,248</stars>
+      <forks>987</forks>
+      <addStars>70</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/561939?s=40&amp;v=4</avatar>
@@ -256,144 +530,27 @@
       </contributors>
     </item>
     <item>
-      <title>bradautomates/claude-video</title>
-      <link>https://github.com/bradautomates/claude-video</link>
-      <description>Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.</description>
-      <guid>https://github.com/bradautomates/claude-video</guid>
+      <title>ifixai-ai/iFixAi</title>
+      <link>https://github.com/ifixai-ai/iFixAi</link>
+      <description>Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.</description>
+      <guid>https://github.com/ifixai-ai/iFixAi</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>20,271</stars>
-      <forks>2,154</forks>
-      <addStars>92</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/186665980?s=40&amp;v=4</avatar>
-          <name>bradautomates</name>
-          <url>https://github.com/bradautomates</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>BigBodyCobain/Shadowbroker</title>
-      <link>https://github.com/BigBodyCobain/Shadowbroker</link>
-      <description>Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.</description>
-      <guid>https://github.com/BigBodyCobain/Shadowbroker</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>11,506</stars>
-      <forks>1,834</forks>
-      <addStars>16</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/43977454?s=40&amp;v=4</avatar>
-          <name>BigBodyCobain</name>
-          <url>https://github.com/BigBodyCobain</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/241279582?s=40&amp;v=4</avatar>
-          <name>anoracleofra-code</name>
-          <url>https://github.com/anoracleofra-code</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/199161495?s=40&amp;v=4</avatar>
-          <name>cursoragent</name>
-          <url>https://github.com/cursoragent</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>XiaoYouChR/Ghost-Downloader-3</title>
-      <link>https://github.com/XiaoYouChR/Ghost-Downloader-3</link>
-      <description>The only downloader you need. 下载器的集大成者。</description>
-      <guid>https://github.com/XiaoYouChR/Ghost-Downloader-3</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>10,880</stars>
-      <forks>707</forks>
-      <addStars>53</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/87308195?s=40&amp;v=4</avatar>
-          <name>XiaoYouChR</name>
-          <url>https://github.com/XiaoYouChR</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/16017904?s=40&amp;v=4</avatar>
-          <name>i0ntempest</name>
-          <url>https://github.com/i0ntempest</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/154665575?s=40&amp;v=4</avatar>
-          <name>Alpha-Qian</name>
-          <url>https://github.com/Alpha-Qian</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/142714722?s=40&amp;v=4</avatar>
-          <name>LittleNightSong</name>
-          <url>https://github.com/LittleNightSong</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>SWE-agent/mini-swe-agent</title>
-      <link>https://github.com/SWE-agent/mini-swe-agent</link>
-      <description>The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores &gt;74% on SWE-bench verified!</description>
-      <guid>https://github.com/SWE-agent/mini-swe-agent</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>9,431</stars>
-      <forks>1,298</forks>
-      <addStars>86</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13602468?s=40&amp;v=4</avatar>
-          <name>klieret</name>
-          <url>https://github.com/klieret</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/128240629?s=40&amp;v=4</avatar>
-          <name>Chesars</name>
-          <url>https://github.com/Chesars</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8196527?s=40&amp;v=4</avatar>
-          <name>closji</name>
-          <url>https://github.com/closji</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>dramaclaw/dramaclaw</title>
-      <link>https://github.com/dramaclaw/dramaclaw</link>
-      <description>A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可</description>
-      <guid>https://github.com/dramaclaw/dramaclaw</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>7,549</stars>
-      <forks>996</forks>
-      <addStars>171</addStars>
+      <stars>44,308</stars>
+      <forks>2,013</forks>
+      <addStars>117</addStars>
       <contributors/>
     </item>
     <item>
-      <title>google/elephant-goldfish-model</title>
-      <link>https://github.com/google/elephant-goldfish-model</link>
-      <description>Open-source skills for designing and reviewing software with AI agents</description>
-      <guid>https://github.com/google/elephant-goldfish-model</guid>
+      <title>Dodaios/ste80-humanizer</title>
+      <link>https://github.com/Dodaios/ste80-humanizer</link>
+      <description>STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.</description>
+      <guid>https://github.com/Dodaios/ste80-humanizer</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>15,279</stars>
-      <forks>1,080</forks>
-      <addStars>318</addStars>
+      <stars>74</stars>
+      <forks>0</forks>
+      <addStars>41</addStars>
       <contributors/>
     </item>
     <item>
@@ -403,93 +560,93 @@
       <guid>https://github.com/JuneYaooo/rea-video</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>4,670</stars>
-      <forks>579</forks>
-      <addStars>280</addStars>
+      <stars>5,563</stars>
+      <forks>732</forks>
+      <addStars>130</addStars>
       <contributors/>
     </item>
     <item>
-      <title>ifixai-ai/iFixAi</title>
-      <link>https://github.com/ifixai-ai/iFixAi</link>
-      <description>Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.</description>
-      <guid>https://github.com/ifixai-ai/iFixAi</guid>
+      <title>Lore-Hex/quill-router</title>
+      <link>https://github.com/Lore-Hex/quill-router</link>
+      <description>TrustedRouter.com repo for secure LLM proxying</description>
+      <guid>https://github.com/Lore-Hex/quill-router</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>44,203</stars>
-      <forks>2,009</forks>
-      <addStars>207</addStars>
+      <stars>128</stars>
+      <forks>4</forks>
+      <addStars>35</addStars>
       <contributors/>
     </item>
     <item>
-      <title>billion-token-one-task/Deepgraph</title>
-      <link>https://github.com/billion-token-one-task/Deepgraph</link>
-      <description>Token-scale scientific discovery engine — autonomous hypothesis generation, experiment execution, and knowledge graph synthesis</description>
-      <guid>https://github.com/billion-token-one-task/Deepgraph</guid>
+      <title>adventists-ai/sophon-realtime</title>
+      <link>https://github.com/adventists-ai/sophon-realtime</link>
+      <description>Sophon-Realtime v1: open full-duplex voice models that hear your tone and speak with one. Tag and Flash run on one GPU with vLLM-Omni; E2E in preview.</description>
+      <guid>https://github.com/adventists-ai/sophon-realtime</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>2,233</stars>
-      <forks>70</forks>
-      <addStars>169</addStars>
+      <stars>64</stars>
+      <forks>4</forks>
+      <addStars>23</addStars>
       <contributors/>
     </item>
     <item>
-      <title>shanselman/gputaskman</title>
-      <link>https://github.com/shanselman/gputaskman</link>
-      <description>An htop for what's inside your NVIDIA GPU on Windows: process memory, engine activity, and LLM weights/KV-cache introspection</description>
-      <guid>https://github.com/shanselman/gputaskman</guid>
+      <title>experientiallabs/experiential</title>
+      <link>https://github.com/experientiallabs/experiential</link>
+      <description>Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.</description>
+      <guid>https://github.com/experientiallabs/experiential</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>1,111</stars>
-      <forks>33</forks>
-      <addStars>144</addStars>
+      <stars>15,427</stars>
+      <forks>308</forks>
+      <addStars>61</addStars>
       <contributors/>
     </item>
     <item>
-      <title>blader/humanizer</title>
-      <link>https://github.com/blader/humanizer</link>
-      <description>Agent skill that removes signs of AI-generated writing from text</description>
-      <guid>https://github.com/blader/humanizer</guid>
+      <title>google/elephant-goldfish-model</title>
+      <link>https://github.com/google/elephant-goldfish-model</link>
+      <description>Open-source skills for designing and reviewing software with AI agents</description>
+      <guid>https://github.com/google/elephant-goldfish-model</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>66,587</stars>
-      <forks>5,470</forks>
-      <addStars>174</addStars>
+      <stars>16,479</stars>
+      <forks>1,165</forks>
+      <addStars>83</addStars>
       <contributors/>
     </item>
     <item>
-      <title>gokayfem/image-to-sculpt</title>
-      <link>https://github.com/gokayfem/image-to-sculpt</link>
-      <description>Turn one image of anything into a 3D sculpt measured against that image: registered views, map-fitting passes, Blender replay and timelapse. A skill for coding agents.</description>
-      <guid>https://github.com/gokayfem/image-to-sculpt</guid>
+      <title>ChenLiu-1996/figures4papers</title>
+      <link>https://github.com/ChenLiu-1996/figures4papers</link>
+      <description>My Python scripts to make high-quality figures for publications in top AI conferences and journals.</description>
+      <guid>https://github.com/ChenLiu-1996/figures4papers</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>45</stars>
-      <forks>0</forks>
+      <stars>10,546</stars>
+      <forks>723</forks>
+      <addStars>59</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>khazuly/spamscam</title>
+      <link>https://github.com/khazuly/spamscam</link>
+      <description>Multi-provider OTP spam tool</description>
+      <guid>https://github.com/khazuly/spamscam</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>94</stars>
+      <forks>15</forks>
+      <addStars>17</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Alishahryar1/free-claude-code</title>
+      <link>https://github.com/Alishahryar1/free-claude-code</link>
+      <description>Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)</description>
+      <guid>https://github.com/Alishahryar1/free-claude-code</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>67,638</stars>
+      <forks>11,402</forks>
       <addStars>51</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>GC-STEM/it140-m2-assignment</title>
-      <link>https://github.com/GC-STEM/it140-m2-assignment</link>
-      <description>IT 140 Module Two assignment for developing a beginner Python name-and-age program while practicing the Software Development Life Cycle (SDLC), including analysis, design, construction, testing, and debugging.</description>
-      <guid>https://github.com/GC-STEM/it140-m2-assignment</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>929</stars>
-      <forks>120</forks>
-      <addStars>70</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>synchopate/llama-modchip</title>
-      <link>https://github.com/synchopate/llama-modchip</link>
-      <description>🐋 Run 284B DeepSeek-V4-Flash (&lt;59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) &amp; 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 &amp; 13ms Claude Code restore.</description>
-      <guid>https://github.com/synchopate/llama-modchip</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>537</stars>
-      <forks>19</forks>
-      <addStars>77</addStars>
       <contributors/>
     </item>
     <item>
@@ -499,105 +656,69 @@
       <guid>https://github.com/D4Vinci/Scrapling</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>99,946</stars>
+      <stars>100,558</stars>
       <forks>10,877</forks>
-      <addStars>149</addStars>
+      <addStars>58</addStars>
       <contributors/>
     </item>
     <item>
-      <title>HKUDS/DeepTutor</title>
-      <link>https://github.com/HKUDS/DeepTutor</link>
-      <description>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</description>
-      <guid>https://github.com/HKUDS/DeepTutor</guid>
+      <title>Usagi-org/ai-goofish-monitor</title>
+      <link>https://github.com/Usagi-org/ai-goofish-monitor</link>
+      <description>基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。</description>
+      <guid>https://github.com/Usagi-org/ai-goofish-monitor</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>57,083</stars>
-      <forks>7,200</forks>
-      <addStars>174</addStars>
+      <stars>18,548</stars>
+      <forks>3,147</forks>
+      <addStars>51</addStars>
       <contributors/>
     </item>
     <item>
-      <title>NVIDIA/auto-ontology</title>
-      <link>https://github.com/NVIDIA/auto-ontology</link>
-      <description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</description>
-      <guid>https://github.com/NVIDIA/auto-ontology</guid>
+      <title>seedds/nxnative</title>
+      <link>https://github.com/seedds/nxnative</link>
+      <description>Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)</description>
+      <guid>https://github.com/seedds/nxnative</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>10,520</stars>
-      <forks>820</forks>
-      <addStars>189</addStars>
+      <stars>14,165</stars>
+      <forks>2,339</forks>
+      <addStars>51</addStars>
       <contributors/>
     </item>
     <item>
-      <title>debpalash/VoiceStudio</title>
-      <link>https://github.com/debpalash/VoiceStudio</link>
-      <description>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</description>
-      <guid>https://github.com/debpalash/VoiceStudio</guid>
+      <title>Lore-Hex/token-exchange-neocloud-in-a-box</title>
+      <link>https://github.com/Lore-Hex/token-exchange-neocloud-in-a-box</link>
+      <description>Neocloud in a Box: Open-source confidential GPU inference cloud in a box: Intel TDX + NVIDIA confidential-computing nodes for DeepSeek-V4.1-Flash and GLM-5.3, verifiable and listed on TrustedRouter</description>
+      <guid>https://github.com/Lore-Hex/token-exchange-neocloud-in-a-box</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>105,134</stars>
-      <forks>11,826</forks>
-      <addStars>246</addStars>
+      <stars>68</stars>
+      <forks>0</forks>
+      <addStars>19</addStars>
       <contributors/>
     </item>
     <item>
-      <title>ZhuLinsen/daily_stock_analysis</title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</description>
-      <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
+      <title>mindspore-ai/hyper-parallel</title>
+      <link>https://github.com/mindspore-ai/hyper-parallel</link>
+      <description>A SuperPod-Affinity Training Acceleration Framework.</description>
+      <guid>https://github.com/mindspore-ai/hyper-parallel</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>68,289</stars>
-      <forks>58,441</forks>
-      <addStars>75</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>harry0703/MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <description>利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.</description>
-      <guid>https://github.com/harry0703/MoneyPrinterTurbo</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>141,128</stars>
-      <forks>23,678</forks>
-      <addStars>101</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>WoYun520/gif-factory</title>
-      <link>https://github.com/WoYun520/gif-factory</link>
-      <description>A Codex skill for creating and verifying animated GIF sticker packs from character references.</description>
-      <guid>https://github.com/WoYun520/gif-factory</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>882</stars>
+      <stars>152</stars>
       <forks>96</forks>
-      <addStars>72</addStars>
+      <addStars>13</addStars>
       <contributors/>
     </item>
     <item>
-      <title>hugohe3/ppt-master</title>
-      <link>https://github.com/hugohe3/ppt-master</link>
-      <description>AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He</description>
-      <guid>https://github.com/hugohe3/ppt-master</guid>
+      <title>blader/humanizer</title>
+      <link>https://github.com/blader/humanizer</link>
+      <description>Agent skill that removes signs of AI-generated writing from text</description>
+      <guid>https://github.com/blader/humanizer</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>74,944</stars>
-      <forks>6,127</forks>
-      <addStars>87</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>RISE-X-Lab/OpenCollab</title>
-      <link>https://github.com/RISE-X-Lab/OpenCollab</link>
-      <description>A research-friendly, high-performance multi-agent collaboration coding framework.</description>
-      <guid>https://github.com/RISE-X-Lab/OpenCollab</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>1,258</stars>
-      <forks>125</forks>
-      <addStars>54</addStars>
+      <stars>67,117</stars>
+      <forks>5,500</forks>
+      <addStars>46</addStars>
       <contributors/>
     </item>
     <item>
@@ -607,33 +728,21 @@
       <guid>https://github.com/Graphify-Labs/graphify</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>144,549</stars>
-      <forks>14,536</forks>
-      <addStars>91</addStars>
+      <stars>145,039</stars>
+      <forks>14,588</forks>
+      <addStars>46</addStars>
       <contributors/>
     </item>
     <item>
-      <title>heymrun/heym</title>
-      <link>https://github.com/heymrun/heym</link>
-      <description>Build agentic systems. Run them with confidence. Orchestrate agents, automate business processes, inspect every execution, and keep humans in control. Deploy Heym on your own infrastructure.</description>
-      <guid>https://github.com/heymrun/heym</guid>
+      <title>kalil0321/reverse-api-engineer</title>
+      <link>https://github.com/kalil0321/reverse-api-engineer</link>
+      <description>Reverse engineer any website into a typed API client. Works with Claude Code, Codex, Cursor and OpenCode.</description>
+      <guid>https://github.com/kalil0321/reverse-api-engineer</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>1,513</stars>
-      <forks>151</forks>
-      <addStars>50</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>nextlevelbuilder/ui-ux-pro-max-skill</title>
-      <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
-      <description>An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.</description>
-      <guid>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>146,958</stars>
-      <forks>16,232</forks>
-      <addStars>85</addStars>
+      <stars>3,092</stars>
+      <forks>308</forks>
+      <addStars>33</addStars>
       <contributors/>
     </item>
   </channel>

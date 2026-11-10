@@ -2,7 +2,7 @@
   "title": "GitHub Solidity Languages Monthly Trending",
   "description": "Monthly Trending of Solidity Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 09 Nov 2026 04:38:21 GMT",
+  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
   "items": [
     {
       "title": "OpenZeppelin/openzeppelin-contracts",
@@ -10,9 +10,9 @@
       "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
       "language": "Solidity",
       "languageColor": "#AA6746",
-      "stars": "27,354",
-      "forks": "12,414",
-      "addStars": "126",
+      "stars": "27,355",
+      "forks": "12,415",
+      "addStars": "124",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/481465?s=40&v=4",
@@ -79,14 +79,51 @@
       ]
     },
     {
+      "title": "ethereum/ERCs",
+      "url": "https://github.com/ethereum/ERCs",
+      "description": "The Ethereum Request for Comment repository",
+      "language": "Solidity",
+      "languageColor": "#AA6746",
+      "stars": "776",
+      "forks": "1,112",
+      "addStars": "13",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/45835846?s=40&v=4",
+          "name": "Pandapip1",
+          "url": "https://github.com/Pandapip1"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57262657?s=40&v=4",
+          "name": "SamWilsn",
+          "url": "https://github.com/SamWilsn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14004106?s=40&v=4",
+          "name": "lightclient",
+          "url": "https://github.com/lightclient"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/85952233?s=40&v=4",
+          "name": "eth-bot",
+          "url": "https://github.com/eth-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158211?s=40&v=4",
+          "name": "wanderer",
+          "url": "https://github.com/wanderer"
+        }
+      ]
+    },
+    {
       "title": "foundry-rs/forge-std",
       "url": "https://github.com/foundry-rs/forge-std",
       "description": "A collection of helpful contracts and libraries for use with Forge and Foundry",
       "language": "Solidity",
       "languageColor": "#AA6746",
       "stars": "1,064",
-      "forks": "539",
-      "addStars": "13",
+      "forks": "540",
+      "addStars": "12",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/17163988?s=40&v=4",
@@ -140,7 +177,7 @@
       "languageColor": "#AA6746",
       "stars": "3,405",
       "forks": "500",
-      "addStars": "26",
+      "addStars": "25",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/5889274?s=40&v=4",
@@ -166,43 +203,6 @@
           "avatar": "https://avatars.githubusercontent.com/u/59190?s=40&v=4",
           "name": "RogerPodacter",
           "url": "https://github.com/RogerPodacter"
-        }
-      ]
-    },
-    {
-      "title": "morpho-org/vault-v2",
-      "url": "https://github.com/morpho-org/vault-v2",
-      "description": "Morpho's non-custodial vault protocol",
-      "language": "Solidity",
-      "languageColor": "#AA6746",
-      "stars": "111",
-      "forks": "81",
-      "addStars": "6",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/74971347?s=40&v=4",
-          "name": "MathisGD",
-          "url": "https://github.com/MathisGD"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2977?s=40&v=4",
-          "name": "adhusson",
-          "url": "https://github.com/adhusson"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22668539?s=40&v=4",
-          "name": "QGarchery",
-          "url": "https://github.com/QGarchery"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/40268131?s=40&v=4",
-          "name": "bhargavbh",
-          "url": "https://github.com/bhargavbh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/321822223?s=40&v=4",
-          "name": "MorphoDevin",
-          "url": "https://github.com/MorphoDevin"
         }
       ]
     },
@@ -244,14 +244,51 @@
       ]
     },
     {
+      "title": "morpho-org/vault-v2",
+      "url": "https://github.com/morpho-org/vault-v2",
+      "description": "Morpho's non-custodial vault protocol",
+      "language": "Solidity",
+      "languageColor": "#AA6746",
+      "stars": "112",
+      "forks": "81",
+      "addStars": "6",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/74971347?s=40&v=4",
+          "name": "MathisGD",
+          "url": "https://github.com/MathisGD"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2977?s=40&v=4",
+          "name": "adhusson",
+          "url": "https://github.com/adhusson"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22668539?s=40&v=4",
+          "name": "QGarchery",
+          "url": "https://github.com/QGarchery"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/40268131?s=40&v=4",
+          "name": "bhargavbh",
+          "url": "https://github.com/bhargavbh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/321822223?s=40&v=4",
+          "name": "MorphoDevin",
+          "url": "https://github.com/MorphoDevin"
+        }
+      ]
+    },
+    {
       "title": "transmissions11/solmate",
       "url": "https://github.com/transmissions11/solmate",
       "description": "Modern, opinionated, and gas optimized building blocks for smart contract development.",
       "language": "Solidity",
       "languageColor": "#AA6746",
-      "stars": "4,301",
-      "forks": "706",
-      "addStars": "15",
+      "stars": "4,302",
+      "forks": "705",
+      "addStars": "14",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/26209401?s=40&v=4",
@@ -288,7 +325,7 @@
       "languageColor": "#AA6746",
       "stars": "146",
       "forks": "55",
-      "addStars": "7",
+      "addStars": "8",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/24928141?s=40&v=4",
@@ -313,66 +350,39 @@
       ]
     },
     {
-      "title": "NomicFoundation/solx",
-      "url": "https://github.com/NomicFoundation/solx",
-      "description": "LLVM-based Solidity compiler.",
+      "title": "SunWeb3Sec/DeFiHackLabs",
+      "url": "https://github.com/SunWeb3Sec/DeFiHackLabs",
+      "description": "Reproduce DeFi hacked incidents using Foundry.",
       "language": "Solidity",
       "languageColor": "#AA6746",
-      "stars": "190",
-      "forks": "22",
-      "addStars": "2",
+      "stars": "6,840",
+      "forks": "1,494",
+      "addStars": "51",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/31586236?s=40&v=4",
-          "name": "hedgar2017",
-          "url": "https://github.com/hedgar2017"
+          "avatar": "https://avatars.githubusercontent.com/u/107249780?s=40&v=4",
+          "name": "SunWeb3Sec",
+          "url": "https://github.com/SunWeb3Sec"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2222615?s=40&v=4",
-          "name": "nebasuke",
-          "url": "https://github.com/nebasuke"
+          "avatar": "https://avatars.githubusercontent.com/u/53768199?s=40&v=4",
+          "name": "zhouxianyuan",
+          "url": "https://github.com/zhouxianyuan"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22070213?s=40&v=4",
-          "name": "antonbaliasnikov",
-          "url": "https://github.com/antonbaliasnikov"
-        }
-      ]
-    },
-    {
-      "title": "ethereum/ERCs",
-      "url": "https://github.com/ethereum/ERCs",
-      "description": "The Ethereum Request for Comment repository",
-      "language": "Solidity",
-      "languageColor": "#AA6746",
-      "stars": "776",
-      "forks": "1,111",
-      "addStars": "13",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/45835846?s=40&v=4",
-          "name": "Pandapip1",
-          "url": "https://github.com/Pandapip1"
+          "avatar": "https://avatars.githubusercontent.com/u/209417172?s=40&v=4",
+          "name": "Z-Bra0",
+          "url": "https://github.com/Z-Bra0"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/57262657?s=40&v=4",
-          "name": "SamWilsn",
-          "url": "https://github.com/SamWilsn"
+          "avatar": "https://avatars.githubusercontent.com/u/152027898?s=40&v=4",
+          "name": "BhariGowda",
+          "url": "https://github.com/BhariGowda"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/14004106?s=40&v=4",
-          "name": "lightclient",
-          "url": "https://github.com/lightclient"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/85952233?s=40&v=4",
-          "name": "eth-bot",
-          "url": "https://github.com/eth-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/158211?s=40&v=4",
-          "name": "wanderer",
-          "url": "https://github.com/wanderer"
+          "avatar": "https://avatars.githubusercontent.com/u/224065307?s=40&v=4",
+          "name": "TracExp207",
+          "url": "https://github.com/TracExp207"
         }
       ]
     }

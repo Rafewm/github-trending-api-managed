@@ -2,7 +2,7 @@
   "title": "GitHub Fortran Languages Monthly Trending",
   "description": "Monthly Trending of Fortran Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 09 Nov 2026 04:38:21 GMT",
+  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
   "items": [
     {
       "title": "firemodels/fds",
@@ -47,7 +47,7 @@
       "description": "Main repository for the NLR-supported OpenFAST whole-turbine and FAST.Farm wind farm simulation codes.",
       "language": "Fortran",
       "languageColor": "#4d41b1",
-      "stars": "987",
+      "stars": "988",
       "forks": "549",
       "addStars": "10",
       "contributors": [
@@ -122,7 +122,7 @@
       "language": "Fortran",
       "languageColor": "#4d41b1",
       "stars": "409",
-      "forks": "791",
+      "forks": "792",
       "addStars": "3",
       "contributors": [
         {
@@ -136,14 +136,14 @@
           "url": "https://github.com/eschnett"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/130920?s=40&v=4",
-          "name": "staticfloat",
-          "url": "https://github.com/staticfloat"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/383068?s=40&v=4",
           "name": "maleadt",
           "url": "https://github.com/maleadt"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/130920?s=40&v=4",
+          "name": "staticfloat",
+          "url": "https://github.com/staticfloat"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/145258?s=40&v=4",
@@ -153,51 +153,14 @@
       ]
     },
     {
-      "title": "E3SM-Project/E3SM",
-      "url": "https://github.com/E3SM-Project/E3SM",
-      "description": "Energy Exascale Earth System Model source code. NOTE: use \"maint\" branches for your work. Head of master is not validated.",
-      "language": "Fortran",
-      "languageColor": "#4d41b1",
-      "stars": "450",
-      "forks": "486",
-      "addStars": "6",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7292036?s=40&v=4",
-          "name": "jgfouca",
-          "url": "https://github.com/jgfouca"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3226046?s=40&v=4",
-          "name": "bartgol",
-          "url": "https://github.com/bartgol"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8136848?s=40&v=4",
-          "name": "singhbalwinder",
-          "url": "https://github.com/singhbalwinder"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13684848?s=40&v=4",
-          "name": "jonbob",
-          "url": "https://github.com/jonbob"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9679059?s=40&v=4",
-          "name": "whannah1",
-          "url": "https://github.com/whannah1"
-        }
-      ]
-    },
-    {
       "title": "wrf-model/WRF",
       "url": "https://github.com/wrf-model/WRF",
       "description": "The official repository for the Weather Research and Forecasting (WRF) model",
       "language": "Fortran",
       "languageColor": "#4d41b1",
-      "stars": "1,800",
+      "stars": "1,801",
       "forks": "898",
-      "addStars": "30",
+      "addStars": "29",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/12666234?s=40&v=4",
@@ -227,14 +190,51 @@
       ]
     },
     {
+      "title": "E3SM-Project/E3SM",
+      "url": "https://github.com/E3SM-Project/E3SM",
+      "description": "Energy Exascale Earth System Model source code. NOTE: use \"maint\" branches for your work. Head of master is not validated.",
+      "language": "Fortran",
+      "languageColor": "#4d41b1",
+      "stars": "451",
+      "forks": "486",
+      "addStars": "7",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7292036?s=40&v=4",
+          "name": "jgfouca",
+          "url": "https://github.com/jgfouca"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3226046?s=40&v=4",
+          "name": "bartgol",
+          "url": "https://github.com/bartgol"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8136848?s=40&v=4",
+          "name": "singhbalwinder",
+          "url": "https://github.com/singhbalwinder"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13684848?s=40&v=4",
+          "name": "jonbob",
+          "url": "https://github.com/jonbob"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9679059?s=40&v=4",
+          "name": "whannah1",
+          "url": "https://github.com/whannah1"
+        }
+      ]
+    },
+    {
       "title": "ElmerCSC/elmerfem",
       "url": "https://github.com/ElmerCSC/elmerfem",
       "description": "Official git repository of Elmer FEM software",
       "language": "Fortran",
       "languageColor": "#4d41b1",
-      "stars": "1,764",
+      "stars": "1,768",
       "forks": "410",
-      "addStars": "40",
+      "addStars": "41",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/6664192?s=40&v=4",
@@ -269,9 +269,9 @@
       "description": "CEA computes the equilibrium composition of mixtures via free-energy minimization, and uses the resulting product concentrations to determine thermodynamic and transport properties. It includes a large database of species with thermodynamic curve-fit data, and can be used for rocket performance, detonation parameters, and shock-wave analysis.",
       "language": "Fortran",
       "languageColor": "#4d41b1",
-      "stars": "227",
+      "stars": "228",
       "forks": "46",
-      "addStars": "16",
+      "addStars": "18",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/52251409?s=40&v=4",

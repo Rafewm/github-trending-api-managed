@@ -2,7 +2,7 @@
   "title": "GitHub Lean Languages Monthly Trending",
   "description": "Monthly Trending of Lean Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 09 Nov 2026 04:38:21 GMT",
+  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
   "items": [
     {
       "title": "anthropics/formal-math",
@@ -12,7 +12,7 @@
       "languageColor": "#ccc",
       "stars": "467",
       "forks": "88",
-      "addStars": "178",
+      "addStars": "176",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/254779305?s=40&v=4",
@@ -47,9 +47,9 @@
       "description": "The math library of Lean 4",
       "language": "Lean",
       "languageColor": "#ccc",
-      "stars": "4,452",
-      "forks": "1,838",
-      "addStars": "211",
+      "stars": "4,457",
+      "forks": "1,844",
+      "addStars": "203",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/477956?s=40&v=4",
@@ -84,9 +84,9 @@
       "description": "Lean 4 programming language and theorem prover",
       "language": "Lean",
       "languageColor": "#ccc",
-      "stars": "9,921",
-      "forks": "1,098",
-      "addStars": "477",
+      "stars": "9,938",
+      "forks": "1,100",
+      "addStars": "479",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/2778936?s=40&v=4",
@@ -160,7 +160,7 @@
       "languageColor": "#ccc",
       "stars": "119",
       "forks": "30",
-      "addStars": "4",
+      "addStars": "3",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/477956?s=40&v=4",
@@ -227,43 +227,6 @@
       ]
     },
     {
-      "title": "leanprover-community/batteries",
-      "url": "https://github.com/leanprover-community/batteries",
-      "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
-      "language": "Lean",
-      "languageColor": "#ccc",
-      "stars": "432",
-      "forks": "173",
-      "addStars": "13",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/477956?s=40&v=4",
-          "name": "kim-em",
-          "url": "https://github.com/kim-em"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/868588?s=40&v=4",
-          "name": "digama0",
-          "url": "https://github.com/digama0"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3247514?s=40&v=4",
-          "name": "fgdorais",
-          "url": "https://github.com/fgdorais"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/425260?s=40&v=4",
-          "name": "eric-wieser",
-          "url": "https://github.com/eric-wieser"
-        }
-      ]
-    },
-    {
       "title": "leanprover/lean4-cli",
       "url": "https://github.com/leanprover/lean4-cli",
       "description": "A Lean 4 library for configuring Command Line Interfaces and parsing command line arguments.",
@@ -271,7 +234,7 @@
       "languageColor": "#ccc",
       "stars": "125",
       "forks": "30",
-      "addStars": "2",
+      "addStars": "1",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/10852073?s=40&v=4",
@@ -301,49 +264,12 @@
       ]
     },
     {
-      "title": "google-deepmind/formal-conjectures",
-      "url": "https://github.com/google-deepmind/formal-conjectures",
-      "description": "A collection of formalized statements of conjectures in Lean.",
-      "language": "Lean",
-      "languageColor": "#ccc",
-      "stars": "1,357",
-      "forks": "578",
-      "addStars": "49",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3491627?s=40&v=4",
-          "name": "mo271",
-          "url": "https://github.com/mo271"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/72892199?s=40&v=4",
-          "name": "Paul-Lez",
-          "url": "https://github.com/Paul-Lez"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47568553?s=40&v=4",
-          "name": "smmercuri",
-          "url": "https://github.com/smmercuri"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14090593?s=40&v=4",
-          "name": "YaelDillies",
-          "url": "https://github.com/YaelDillies"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66788334?s=40&v=4",
-          "name": "Konamiu",
-          "url": "https://github.com/Konamiu"
-        }
-      ]
-    },
-    {
       "title": "leanprover-community/aesop",
       "url": "https://github.com/leanprover-community/aesop",
       "description": "White-box automation for Lean 4",
       "language": "Lean",
       "languageColor": "#ccc",
-      "stars": "415",
+      "stars": "414",
       "forks": "63",
       "addStars": "8",
       "contributors": [
@@ -375,12 +301,49 @@
       ]
     },
     {
+      "title": "leanprover-community/batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
+      "language": "Lean",
+      "languageColor": "#ccc",
+      "stars": "432",
+      "forks": "174",
+      "addStars": "12",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/477956?s=40&v=4",
+          "name": "kim-em",
+          "url": "https://github.com/kim-em"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/868588?s=40&v=4",
+          "name": "digama0",
+          "url": "https://github.com/digama0"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3247514?s=40&v=4",
+          "name": "fgdorais",
+          "url": "https://github.com/fgdorais"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/425260?s=40&v=4",
+          "name": "eric-wieser",
+          "url": "https://github.com/eric-wieser"
+        }
+      ]
+    },
+    {
       "title": "leanprover-community/ProofWidgets4",
       "url": "https://github.com/leanprover-community/ProofWidgets4",
       "description": "Helper toolkit for creating your own Lean 4 UserWidgets",
       "language": "Lean",
       "languageColor": "#ccc",
-      "stars": "233",
+      "stars": "232",
       "forks": "49",
       "addStars": "5",
       "contributors": [
@@ -486,12 +449,86 @@
       ]
     },
     {
+      "title": "google-deepmind/formal-conjectures",
+      "url": "https://github.com/google-deepmind/formal-conjectures",
+      "description": "A collection of formalized statements of conjectures in Lean.",
+      "language": "Lean",
+      "languageColor": "#ccc",
+      "stars": "1,356",
+      "forks": "579",
+      "addStars": "48",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3491627?s=40&v=4",
+          "name": "mo271",
+          "url": "https://github.com/mo271"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/72892199?s=40&v=4",
+          "name": "Paul-Lez",
+          "url": "https://github.com/Paul-Lez"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47568553?s=40&v=4",
+          "name": "smmercuri",
+          "url": "https://github.com/smmercuri"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14090593?s=40&v=4",
+          "name": "YaelDillies",
+          "url": "https://github.com/YaelDillies"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66788334?s=40&v=4",
+          "name": "Konamiu",
+          "url": "https://github.com/Konamiu"
+        }
+      ]
+    },
+    {
+      "title": "leanprover-community/physlib",
+      "url": "https://github.com/leanprover-community/physlib",
+      "description": "A project to digitalise results from physics into Lean.",
+      "language": "Lean",
+      "languageColor": "#ccc",
+      "stars": "833",
+      "forks": "224",
+      "addStars": "59",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/72603918?s=40&v=4",
+          "name": "jstoobysmith",
+          "url": "https://github.com/jstoobysmith"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/568733?s=40&v=4",
+          "name": "Timeroot",
+          "url": "https://github.com/Timeroot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46996788?s=40&v=4",
+          "name": "zhikaip",
+          "url": "https://github.com/zhikaip"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38562595?s=40&v=4",
+          "name": "pitmonticone",
+          "url": "https://github.com/pitmonticone"
+        }
+      ]
+    },
+    {
       "title": "leanprover/cslib",
       "url": "https://github.com/leanprover/cslib",
       "description": "The Lean Computer Science Library (CSLib)",
       "language": "Lean",
       "languageColor": "#ccc",
-      "stars": "801",
+      "stars": "802",
       "forks": "222",
       "addStars": "62",
       "contributors": [
@@ -514,6 +551,43 @@
           "avatar": "https://avatars.githubusercontent.com/u/10200200?s=40&v=4",
           "name": "SamuelSchlesinger",
           "url": "https://github.com/SamuelSchlesinger"
+        }
+      ]
+    },
+    {
+      "title": "strata-org/Strata",
+      "url": "https://github.com/strata-org/Strata",
+      "description": "",
+      "language": "Lean",
+      "languageColor": "#ccc",
+      "stars": "290",
+      "forks": "63",
+      "addStars": "18",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5995854?s=40&v=4",
+          "name": "shigoel",
+          "url": "https://github.com/shigoel"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/136006969?s=40&v=4",
+          "name": "aqjune-aws",
+          "url": "https://github.com/aqjune-aws"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3121201?s=40&v=4",
+          "name": "keyboardDrummer",
+          "url": "https://github.com/keyboardDrummer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3601079?s=40&v=4",
+          "name": "MikaelMayer",
+          "url": "https://github.com/MikaelMayer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/888880?s=40&v=4",
+          "name": "joehendrix",
+          "url": "https://github.com/joehendrix"
         }
       ]
     }
