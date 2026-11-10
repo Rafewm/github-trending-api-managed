@@ -3,7 +3,7 @@
     <title>GitHub Cuda Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Cuda Languages in GitHub</description>
-    <pubDate>Tue, 10 Nov 2026 02:33:16 GMT</pubDate>
+    <pubDate>Tue, 10 Nov 2026 12:05:27 GMT</pubDate>
     <item>
       <title>flashinfer-ai/flashinfer</title>
       <link>https://github.com/flashinfer-ai/flashinfer</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/flashinfer-ai/flashinfer</guid>
       <language>Cuda</language>
       <languageColor>#3A4E3A</languageColor>
-      <stars>6,885</stars>
-      <forks>1,726</forks>
+      <stars>6,887</stars>
+      <forks>1,728</forks>
       <addStars>51</addStars>
       <contributors>
         <contributor>
@@ -49,7 +49,7 @@
       <guid>https://github.com/NVIDIA/cuopt</guid>
       <language>Cuda</language>
       <languageColor>#3A4E3A</languageColor>
-      <stars>1,105</stars>
+      <stars>1,107</stars>
       <forks>256</forks>
       <addStars>11</addStars>
       <contributors>
@@ -77,44 +77,6 @@
           <avatar>https://avatars.githubusercontent.com/u/160623740?s=40&amp;v=4</avatar>
           <name>aliceb-nv</name>
           <url>https://github.com/aliceb-nv</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>karpathy/llm.c</title>
-      <link>https://github.com/karpathy/llm.c</link>
-      <description>LLM training in simple, raw C/CUDA</description>
-      <guid>https://github.com/karpathy/llm.c</guid>
-      <language>Cuda</language>
-      <languageColor>#3A4E3A</languageColor>
-      <stars>31,416</stars>
-      <forks>3,814</forks>
-      <addStars>55</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/241138?s=40&amp;v=4</avatar>
-          <name>karpathy</name>
-          <url>https://github.com/karpathy</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7938269?s=40&amp;v=4</avatar>
-          <name>ngc92</name>
-          <url>https://github.com/ngc92</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/29271842?s=40&amp;v=4</avatar>
-          <name>gordicaleksa</name>
-          <url>https://github.com/gordicaleksa</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7082233?s=40&amp;v=4</avatar>
-          <name>ademeure</name>
-          <url>https://github.com/ademeure</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/55313766?s=40&amp;v=4</avatar>
-          <name>rosslwheeler</name>
-          <url>https://github.com/rosslwheeler</url>
         </contributor>
       </contributors>
     </item>
@@ -157,13 +119,51 @@
       </contributors>
     </item>
     <item>
+      <title>deepseek-ai/DeepEP</title>
+      <link>https://github.com/deepseek-ai/DeepEP</link>
+      <description>DeepEP: an efficient expert-parallel communication library</description>
+      <guid>https://github.com/deepseek-ai/DeepEP</guid>
+      <language>Cuda</language>
+      <languageColor>#3A4E3A</languageColor>
+      <stars>10,426</stars>
+      <forks>1,553</forks>
+      <addStars>30</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/35299455?s=40&amp;v=4</avatar>
+          <name>LyricZhao</name>
+          <url>https://github.com/LyricZhao</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/9213347?s=40&amp;v=4</avatar>
+          <name>sphish</name>
+          <url>https://github.com/sphish</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5236035?s=40&amp;v=4</avatar>
+          <name>fzyzcjy</name>
+          <url>https://github.com/fzyzcjy</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/166747556?s=40&amp;v=4</avatar>
+          <name>seth-howell</name>
+          <url>https://github.com/seth-howell</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8215757?s=40&amp;v=4</avatar>
+          <name>wangfakang</name>
+          <url>https://github.com/wangfakang</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>mirage-project/mirage</title>
       <link>https://github.com/mirage-project/mirage</link>
       <description>Mirage Persistent Kernel: Compiling LLMs into a MegaKernel</description>
       <guid>https://github.com/mirage-project/mirage</guid>
       <language>Cuda</language>
       <languageColor>#3A4E3A</languageColor>
-      <stars>2,607</stars>
+      <stars>2,608</stars>
       <forks>272</forks>
       <addStars>18</addStars>
       <contributors>
@@ -195,40 +195,40 @@
       </contributors>
     </item>
     <item>
-      <title>deepseek-ai/DeepEP</title>
-      <link>https://github.com/deepseek-ai/DeepEP</link>
-      <description>DeepEP: an efficient expert-parallel communication library</description>
-      <guid>https://github.com/deepseek-ai/DeepEP</guid>
+      <title>karpathy/llm.c</title>
+      <link>https://github.com/karpathy/llm.c</link>
+      <description>LLM training in simple, raw C/CUDA</description>
+      <guid>https://github.com/karpathy/llm.c</guid>
       <language>Cuda</language>
       <languageColor>#3A4E3A</languageColor>
-      <stars>10,425</stars>
-      <forks>1,552</forks>
-      <addStars>30</addStars>
+      <stars>31,421</stars>
+      <forks>3,814</forks>
+      <addStars>55</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/35299455?s=40&amp;v=4</avatar>
-          <name>LyricZhao</name>
-          <url>https://github.com/LyricZhao</url>
+          <avatar>https://avatars.githubusercontent.com/u/241138?s=40&amp;v=4</avatar>
+          <name>karpathy</name>
+          <url>https://github.com/karpathy</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/9213347?s=40&amp;v=4</avatar>
-          <name>sphish</name>
-          <url>https://github.com/sphish</url>
+          <avatar>https://avatars.githubusercontent.com/u/7938269?s=40&amp;v=4</avatar>
+          <name>ngc92</name>
+          <url>https://github.com/ngc92</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/5236035?s=40&amp;v=4</avatar>
-          <name>fzyzcjy</name>
-          <url>https://github.com/fzyzcjy</url>
+          <avatar>https://avatars.githubusercontent.com/u/29271842?s=40&amp;v=4</avatar>
+          <name>gordicaleksa</name>
+          <url>https://github.com/gordicaleksa</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/166747556?s=40&amp;v=4</avatar>
-          <name>seth-howell</name>
-          <url>https://github.com/seth-howell</url>
+          <avatar>https://avatars.githubusercontent.com/u/7082233?s=40&amp;v=4</avatar>
+          <name>ademeure</name>
+          <url>https://github.com/ademeure</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8215757?s=40&amp;v=4</avatar>
-          <name>wangfakang</name>
-          <url>https://github.com/wangfakang</url>
+          <avatar>https://avatars.githubusercontent.com/u/55313766?s=40&amp;v=4</avatar>
+          <name>rosslwheeler</name>
+          <url>https://github.com/rosslwheeler</url>
         </contributor>
       </contributors>
     </item>
@@ -239,7 +239,7 @@
       <guid>https://github.com/deepseek-ai/DeepSelect</guid>
       <language>Cuda</language>
       <languageColor>#3A4E3A</languageColor>
-      <stars>536</stars>
+      <stars>539</stars>
       <forks>76</forks>
       <addStars>9</addStars>
       <contributors>
@@ -300,8 +300,8 @@
       <guid>https://github.com/deepseek-ai/DeepGEMM</guid>
       <language>Cuda</language>
       <languageColor>#3A4E3A</languageColor>
-      <stars>9,177</stars>
-      <forks>1,518</forks>
+      <stars>9,180</stars>
+      <forks>1,521</forks>
       <addStars>43</addStars>
       <contributors>
         <contributor>

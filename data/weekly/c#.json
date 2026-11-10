@@ -2,85 +2,16 @@
   "title": "GitHub C# Languages Weekly Trending",
   "description": "Weekly Trending of C# Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
+  "pubDate": "Tue, 10 Nov 2026 12:05:27 GMT",
   "items": [
-    {
-      "title": "raysan5/raylib",
-      "url": "https://github.com/raysan5/raylib",
-      "description": "A simple and easy-to-use library to enjoy videogames programming",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "35,618",
-      "forks": "3,381",
-      "addStars": "26",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5766837?s=40&v=4",
-          "name": "raysan5",
-          "url": "https://github.com/raysan5"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/322174?s=40&v=4",
-          "name": "JeffM2501",
-          "url": "https://github.com/JeffM2501"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5204368?s=40&v=4",
-          "name": "a3f",
-          "url": "https://github.com/a3f"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10688349?s=40&v=4",
-          "name": "victorfisac",
-          "url": "https://github.com/victorfisac"
-        }
-      ]
-    },
-    {
-      "title": "FoloToy/ai-passport",
-      "url": "https://github.com/FoloToy/ai-passport",
-      "description": "FOLOTOY AI Passport develop resources for Agent",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "858",
-      "forks": "340",
-      "addStars": "7",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17696928?s=40&v=4",
-          "name": "Shinku-Chen",
-          "url": "https://github.com/Shinku-Chen"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39644702?s=40&v=4",
-          "name": "Cjiio",
-          "url": "https://github.com/Cjiio"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1455685?s=40&v=4",
-          "name": "lewangdev",
-          "url": "https://github.com/lewangdev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22973001?s=40&v=4",
-          "name": "arthas276",
-          "url": "https://github.com/arthas276"
-        }
-      ]
-    },
     {
       "title": "sp00nznet/xboxrecomp",
       "url": "https://github.com/sp00nznet/xboxrecomp",
       "description": "Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "388",
-      "forks": "125",
+      "stars": "396",
+      "forks": "127",
       "addStars": "22",
       "contributors": [
         {
@@ -111,26 +42,221 @@
       ]
     },
     {
+      "title": "InterceptSuite/ProxyBridge",
+      "url": "https://github.com/InterceptSuite/ProxyBridge",
+      "description": "Simple Proxy Client to force proxy to any Windows/MacOS/Linux Application TCP and UDP traffic",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "7,078",
+      "forks": "444",
+      "addStars": "30",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39705906?s=40&v=4",
+          "name": "Anof-cyber",
+          "url": "https://github.com/Anof-cyber"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/195818135?s=40&v=4",
+          "name": "1rhino2",
+          "url": "https://github.com/1rhino2"
+        }
+      ]
+    },
+    {
+      "title": "Zelda64Recomp/Zelda64Recomp",
+      "url": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+      "description": "Static recompilation of Majora's Mask (and soon Ocarina of Time) for PC (Windows/Linux/Mac)",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "7,638",
+      "forks": "353",
+      "addStars": "11",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68165316?s=40&v=4",
+          "name": "Mr-Wiseguy",
+          "url": "https://github.com/Mr-Wiseguy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/79979276?s=40&v=4",
+          "name": "thecozies",
+          "url": "https://github.com/thecozies"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15913880?s=40&v=4",
+          "name": "Reonu",
+          "url": "https://github.com/Reonu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2475932?s=40&v=4",
+          "name": "dcvz",
+          "url": "https://github.com/dcvz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/538504?s=40&v=4",
+          "name": "DarioSamo",
+          "url": "https://github.com/DarioSamo"
+        }
+      ]
+    },
+    {
+      "title": "nrfconnect/sdk-nrf",
+      "url": "https://github.com/nrfconnect/sdk-nrf",
+      "description": "nRF Connect SDK main repository",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,450",
+      "forks": "1,599",
+      "addStars": "0",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29888381?s=40&v=4",
+          "name": "MarekPieta",
+          "url": "https://github.com/MarekPieta"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/28621316?s=40&v=4",
+          "name": "NordicBuilder",
+          "url": "https://github.com/NordicBuilder"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/100706482?s=40&v=4",
+          "name": "nordic-piks",
+          "url": "https://github.com/nordic-piks"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/100136718?s=40&v=4",
+          "name": "krish2718",
+          "url": "https://github.com/krish2718"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/40387179?s=40&v=4",
+          "name": "nordicjm",
+          "url": "https://github.com/nordicjm"
+        }
+      ]
+    },
+    {
+      "title": "madler/zlib",
+      "url": "https://github.com/madler/zlib",
+      "description": "A massively spiffy yet delicately unobtrusive compression library.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "7,211",
+      "forks": "2,898",
+      "addStars": "7",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/240717?s=40&v=4",
+          "name": "madler",
+          "url": "https://github.com/madler"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1364432?s=40&v=4",
+          "name": "nmoinvaz",
+          "url": "https://github.com/nmoinvaz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/58823072?s=40&v=4",
+          "name": "reytchison",
+          "url": "https://github.com/reytchison"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/69324626?s=40&v=4",
+          "name": "Chi-Iroh",
+          "url": "https://github.com/Chi-Iroh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3234522?s=40&v=4",
+          "name": "DimitriPapadopoulos",
+          "url": "https://github.com/DimitriPapadopoulos"
+        }
+      ]
+    },
+    {
+      "title": "zeldaret/oot",
+      "url": "https://github.com/zeldaret/oot",
+      "description": "Decompilation of The Legend of Zelda: Ocarina of Time",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "5,707",
+      "forks": "723",
+      "addStars": "13",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5306619?s=40&v=4",
+          "name": "Dragorn421",
+          "url": "https://github.com/Dragorn421"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22045047?s=40&v=4",
+          "name": "fig02",
+          "url": "https://github.com/fig02"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/146315916?s=40&v=4",
+          "name": "cadmic",
+          "url": "https://github.com/cadmic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32455037?s=40&v=4",
+          "name": "Roman971",
+          "url": "https://github.com/Roman971"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17233964?s=40&v=4",
+          "name": "Thar0",
+          "url": "https://github.com/Thar0"
+        }
+      ]
+    },
+    {
+      "title": "redcanaryco/atomic-red-team",
+      "url": "https://github.com/redcanaryco/atomic-red-team",
+      "description": "Small and highly portable detection tests based on MITRE's ATT&CK.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "12,814",
+      "forks": "3,254",
+      "addStars": "13",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22311332?s=40&v=4",
+          "name": "clr2of8",
+          "url": "https://github.com/clr2of8"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7771446?s=40&v=4",
+          "name": "patel-bhavin",
+          "url": "https://github.com/patel-bhavin"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/27735081?s=40&v=4",
+          "name": "cyberbuff",
+          "url": "https://github.com/cyberbuff"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5632822?s=40&v=4",
+          "name": "MHaggis",
+          "url": "https://github.com/MHaggis"
+        }
+      ]
+    },
+    {
       "title": "jhaizhou-ops/S2Arm",
       "url": "https://github.com/jhaizhou-ops/S2Arm",
       "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
       "language": "C#",
       "languageColor": "",
-      "stars": "1,772",
+      "stars": "2,224",
       "forks": "287",
-      "addStars": "1,614",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Zaneris/passenger",
-      "url": "https://github.com/Zaneris/passenger",
-      "description": "An open-source IDE for C# and .NET, built with Avalonia, for Windows, macOS and Linux: a Roslyn-powered editor, its own debugger with Hot Reload, a CPU and memory profiler, XAML tooling for Avalonia and WPF, and an MCP server for coding agents.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "391",
-      "forks": "24",
-      "addStars": "163",
+      "addStars": "1,992",
       "contributors": [],
       "source": "trendshift"
     },
@@ -140,9 +266,21 @@
       "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "language": "C#",
       "languageColor": "",
-      "stars": "24,740",
+      "stars": "25,139",
       "forks": "1,440",
-      "addStars": "564",
+      "addStars": "948",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Zaneris/passenger",
+      "url": "https://github.com/Zaneris/passenger",
+      "description": "An open-source IDE for C# and .NET, built with Avalonia, for Windows, macOS and Linux: a Roslyn-powered editor, its own debugger with Hot Reload, a CPU and memory profiler, XAML tooling for Avalonia and WPF, and an MCP server for coding agents.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "427",
+      "forks": "24",
+      "addStars": "209",
       "contributors": [],
       "source": "trendshift"
     },
@@ -152,9 +290,9 @@
       "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
       "language": "C#",
       "languageColor": "",
-      "stars": "11,402",
-      "forks": "517",
-      "addStars": "257",
+      "stars": "11,434",
+      "forks": "523",
+      "addStars": "282",
       "contributors": [],
       "source": "trendshift"
     },
@@ -164,9 +302,9 @@
       "description": "",
       "language": "C#",
       "languageColor": "",
-      "stars": "8,926",
+      "stars": "9,038",
       "forks": "322",
-      "addStars": "254",
+      "addStars": "371",
       "contributors": [],
       "source": "trendshift"
     },
@@ -176,33 +314,9 @@
       "description": "Arc-style (uiarc.dev) component library for Avalonia, built on AtomUI",
       "language": "C#",
       "languageColor": "",
-      "stars": "212",
+      "stars": "226",
       "forks": "21",
-      "addStars": "49",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "2dust/v2rayN",
-      "url": "https://github.com/2dust/v2rayN",
-      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "120,287",
-      "forks": "16,704",
-      "addStars": "86",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Tianyu199509/DeskBox",
-      "url": "https://github.com/Tianyu199509/DeskBox",
-      "description": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "8,759",
-      "forks": "504",
-      "addStars": "80",
+      "addStars": "61",
       "contributors": [],
       "source": "trendshift"
     },
@@ -212,9 +326,33 @@
       "description": "Turn an old Android phone into a desk panel for your Windows PC: 41 widgets, visual layout editor, webhooks, PC stats, media, AI quotas, Claude Code sessions, GitHub and shortcuts. USB or Wi-Fi, no cloud.",
       "language": "C#",
       "languageColor": "",
-      "stars": "108",
+      "stars": "137",
       "forks": "7",
-      "addStars": "29",
+      "addStars": "60",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "2dust/v2rayN",
+      "url": "https://github.com/2dust/v2rayN",
+      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "120,322",
+      "forks": "16,713",
+      "addStars": "117",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Tianyu199509/DeskBox",
+      "url": "https://github.com/Tianyu199509/DeskBox",
+      "description": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "8,782",
+      "forks": "472",
+      "addStars": "103",
       "contributors": [],
       "source": "trendshift"
     },
@@ -224,9 +362,9 @@
       "description": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 | 桌面分身 - UI Automation Testing Tools For Genshin Impact",
       "language": "C#",
       "languageColor": "",
-      "stars": "17,859",
-      "forks": "1,393",
-      "addStars": "58",
+      "stars": "17,878",
+      "forks": "1,405",
+      "addStars": "77",
       "contributors": [],
       "source": "trendshift"
     },
@@ -236,9 +374,21 @@
       "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
       "language": "C#",
       "languageColor": "",
-      "stars": "40,890",
-      "forks": "4,063",
-      "addStars": "53",
+      "stars": "40,906",
+      "forks": "4,071",
+      "addStars": "69",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "BeyondDimension/SteamTools",
+      "url": "https://github.com/BeyondDimension/SteamTools",
+      "description": "🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "27,481",
+      "forks": "1,797",
+      "addStars": "46",
       "contributors": [],
       "source": "trendshift"
     },
@@ -248,9 +398,21 @@
       "description": "FluentCleaner is the transparent, community-powered CCleaner alternative for Windows.",
       "language": "C#",
       "languageColor": "",
-      "stars": "6,980",
-      "forks": "272",
-      "addStars": "48",
+      "stars": "6,994",
+      "forks": "273",
+      "addStars": "61",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "dulaiduwang003/Pavise-Game",
+      "url": "https://github.com/dulaiduwang003/Pavise-Game",
+      "description": "Open-source Windows game resource manager. Suppresses background processes, gives games exclusive CPU cores, steers device interrupts off game cores, applies per-game GPU driver, memory and power policies, and restores every change after play. No injection, no telemetry. GPL-3.0.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "1,019",
+      "forks": "50",
+      "addStars": "63",
       "contributors": [],
       "source": "trendshift"
     },
@@ -260,9 +422,69 @@
       "description": "Activation & Lifecycle State Maintenance Toolkit",
       "language": "C#",
       "languageColor": "",
-      "stars": "2,374",
+      "stars": "2,389",
       "forks": "559",
-      "addStars": "41",
+      "addStars": "52",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "gadgetcue/MacDock",
+      "url": "https://github.com/gadgetcue/MacDock",
+      "description": "A macOS-style desktop shell for Windows 11 (dock, menu bar, Mission Control, Launchpad, Spotlight) in C#/WinForms. Builds with the compiler that ships with Windows.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "87",
+      "forks": "6",
+      "addStars": "23",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "BlueHeisenberg/SCSKiller",
+      "url": "https://github.com/BlueHeisenberg/SCSKiller",
+      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "4,482",
+      "forks": "138",
+      "addStars": "55",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "33,188",
+      "forks": "2,400",
+      "addStars": "46",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "CoplayDev/unity-mcp",
+      "url": "https://github.com/CoplayDev/unity-mcp",
+      "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "15,852",
+      "forks": "1,854",
+      "addStars": "45",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "RayrenSX/iPhoneMirror",
+      "url": "https://github.com/RayrenSX/iPhoneMirror",
+      "description": "Local Windows iPhone/iPad mirroring over USB and AirPlay with D3D11 preview, multi-device sessions, OBS output, and a standalone driver manager.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "1,784",
+      "forks": "134",
+      "addStars": "39",
       "contributors": [],
       "source": "trendshift"
     },
@@ -279,62 +501,38 @@
       "source": "trendshift"
     },
     {
-      "title": "BlueHeisenberg/SCSKiller",
-      "url": "https://github.com/BlueHeisenberg/SCSKiller",
-      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+      "title": "lachydotmcg/capri-desktop",
+      "url": "https://github.com/lachydotmcg/capri-desktop",
+      "description": "A quiet, unofficial Capri companion for your Windows desktop.",
       "language": "C#",
       "languageColor": "",
-      "stars": "4,470",
-      "forks": "138",
-      "addStars": "45",
+      "stars": "506",
+      "forks": "106",
+      "addStars": "43",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "v1k70rk4/HASS.Agent.NET10",
-      "url": "https://github.com/v1k70rk4/HASS.Agent.NET10",
-      "description": "Modern .NET 10 Windows companion app for Home Assistant with MQTT discovery, tray UI, system sensors, media controls, notifications, and optional Windows service support.",
+      "title": "Devolutions/UniGetUI",
+      "url": "https://github.com/Devolutions/UniGetUI",
+      "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
       "language": "C#",
       "languageColor": "",
-      "stars": "92",
-      "forks": "4",
-      "addStars": "18",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "dulaiduwang003/Pavise-Game",
-      "url": "https://github.com/dulaiduwang003/Pavise-Game",
-      "description": "Open-source Windows game resource manager. Suppresses background processes, gives games exclusive CPU cores, steers device interrupts off game cores, applies per-game GPU driver, memory and power policies, and restores every change after play. No injection, no telemetry. GPL-3.0.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "992",
-      "forks": "49",
+      "stars": "26,971",
+      "forks": "1,032",
       "addStars": "38",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "iOfficeAI/OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "title": "LagrangeDev/Lagrange.Core",
+      "url": "https://github.com/LagrangeDev/Lagrange.Core",
+      "description": "An Implementation of NTQQ Protocol, with Pure C#, Derived from Konata.Core",
       "language": "C#",
       "languageColor": "",
-      "stars": "33,172",
-      "forks": "2,391",
-      "addStars": "31",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "huaotem-bot/GeZi-downloader",
-      "url": "https://github.com/huaotem-bot/GeZi-downloader",
-      "description": "鸽子下载 —— Windows 上的四网盘下载器，支持夸克、UC、阿里云盘、迅雷云盘，可分享链接解析、免转存直链、多连接并发、边下边播与断点续传。",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "695",
-      "forks": "60",
-      "addStars": "27",
+      "stars": "3,010",
+      "forks": "369",
+      "addStars": "12",
       "contributors": [],
       "source": "trendshift"
     },
@@ -344,69 +542,9 @@
       "description": "这是基于图吧工具箱的使用WinUI 3 全新重构的版本，一款由社区驱动、深度契合 Windows 11 设计美学的现代化工具箱。它不仅确保你始终使用最新版本的工具，还集成了更加丰富的实用内置 fluent 风格的工具，更可满足高度自定义的个性化需求。",
       "language": "C#",
       "languageColor": "",
-      "stars": "6,154",
-      "forks": "187",
-      "addStars": "29",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "RayrenSX/iPhoneMirror",
-      "url": "https://github.com/RayrenSX/iPhoneMirror",
-      "description": "Local Windows iPhone/iPad mirroring over USB and AirPlay with D3D11 preview, multi-device sessions, OBS output, and a standalone driver manager.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "1,771",
-      "forks": "134",
-      "addStars": "27",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ntdevlabs/tiny11builder",
-      "url": "https://github.com/ntdevlabs/tiny11builder",
-      "description": "WinUI app for building smaller, customized Windows 11 images.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "21,834",
-      "forks": "1,689",
-      "addStars": "31",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "QL-Win/QuickLook",
-      "url": "https://github.com/QL-Win/QuickLook",
-      "description": "Bring macOS “Quick Look” feature to Windows",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "25,711",
-      "forks": "1,404",
-      "addStars": "25",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jellyfin/jellyfin",
-      "url": "https://github.com/jellyfin/jellyfin",
-      "description": "The Free Software Media System - Server Backend & API",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "59,164",
-      "forks": "6,022",
-      "addStars": "28",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "gadgetcue/MacDock",
-      "url": "https://github.com/gadgetcue/MacDock",
-      "description": "A macOS-style desktop shell for Windows 11 (dock, menu bar, Mission Control, Launchpad, Spotlight) in C#/WinForms. Builds with the compiler that ships with Windows.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "84",
-      "forks": "6",
-      "addStars": "17",
+      "stars": "6,164",
+      "forks": "188",
+      "addStars": "39",
       "contributors": [],
       "source": "trendshift"
     }

@@ -2,7 +2,7 @@
   "title": "GitHub C Languages Weekly Trending",
   "description": "Weekly Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
+  "pubDate": "Tue, 10 Nov 2026 12:05:27 GMT",
   "items": [
     {
       "title": "JustVugg/colibri",
@@ -10,8 +10,8 @@
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "49,434",
-      "forks": "5,807",
+      "stars": "49,605",
+      "forks": "5,838",
       "addStars": "3,084",
       "contributors": [
         {
@@ -42,45 +42,13 @@
       ]
     },
     {
-      "title": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "12,743",
-      "forks": "1,650",
-      "addStars": "556",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
-          "name": "Cyan4973",
-          "url": "https://github.com/Cyan4973"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
-          "name": "inikep",
-          "url": "https://github.com/inikep"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
-          "name": "t-mat",
-          "url": "https://github.com/t-mat"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
-          "name": "felixhandte",
-          "url": "https://github.com/felixhandte"
-        }
-      ]
-    },
-    {
       "title": "openssl/openssl",
       "url": "https://github.com/openssl/openssl",
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,397",
-      "forks": "11,591",
+      "stars": "31,402",
+      "forks": "11,593",
       "addStars": "281",
       "contributors": [
         {
@@ -116,8 +84,8 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "11,494",
-      "forks": "1,794",
+      "stars": "11,539",
+      "forks": "1,798",
       "addStars": "2,146",
       "contributors": [
         {
@@ -148,50 +116,13 @@
       ]
     },
     {
-      "title": "mpv-player/mpv",
-      "url": "https://github.com/mpv-player/mpv",
-      "description": "🎥 Command line media player",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "38,026",
-      "forks": "3,645",
-      "addStars": "378",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1126053?s=40&v=4",
-          "name": "kasper93",
-          "url": "https://github.com/kasper93"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5105515?s=40&v=4",
-          "name": "Dudemanguy",
-          "url": "https://github.com/Dudemanguy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11783568?s=40&v=4",
-          "name": "guidocella",
-          "url": "https://github.com/guidocella"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1149047?s=40&v=4",
-          "name": "haasn",
-          "url": "https://github.com/haasn"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24681?s=40&v=4",
-          "name": "pigoz",
-          "url": "https://github.com/pigoz"
-        }
-      ]
-    },
-    {
       "title": "curl/curl",
       "url": "https://github.com/curl/curl",
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "43,454",
-      "forks": "7,494",
+      "stars": "43,461",
+      "forks": "7,495",
       "addStars": "150",
       "contributors": [
         {
@@ -222,12 +153,49 @@
       ]
     },
     {
+      "title": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "38,043",
+      "forks": "3,646",
+      "addStars": "378",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1126053?s=40&v=4",
+          "name": "kasper93",
+          "url": "https://github.com/kasper93"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5105515?s=40&v=4",
+          "name": "Dudemanguy",
+          "url": "https://github.com/Dudemanguy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11783568?s=40&v=4",
+          "name": "guidocella",
+          "url": "https://github.com/guidocella"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1149047?s=40&v=4",
+          "name": "haasn",
+          "url": "https://github.com/haasn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24681?s=40&v=4",
+          "name": "pigoz",
+          "url": "https://github.com/pigoz"
+        }
+      ]
+    },
+    {
       "title": "madler/zlib",
       "url": "https://github.com/madler/zlib",
       "description": "A massively spiffy yet delicately unobtrusive compression library.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,210",
+      "stars": "7,211",
       "forks": "2,898",
       "addStars": "23",
       "contributors": [
@@ -264,8 +232,8 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "5,955",
-      "forks": "993",
+      "stars": "5,962",
+      "forks": "994",
       "addStars": "136",
       "contributors": [
         {
@@ -296,13 +264,87 @@
       ]
     },
     {
+      "title": "openwrt/openwrt",
+      "url": "https://github.com/openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "29,164",
+      "forks": "13,393",
+      "addStars": "151",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19352056?s=40&v=4",
+          "name": "juhosg",
+          "url": "https://github.com/juhosg"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1110044?s=40&v=4",
+          "name": "ffainelli",
+          "url": "https://github.com/ffainelli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2529314?s=40&v=4",
+          "name": "nbd168",
+          "url": "https://github.com/nbd168"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/78494?s=40&v=4",
+          "name": "hauke",
+          "url": "https://github.com/hauke"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2528802?s=40&v=4",
+          "name": "jow-",
+          "url": "https://github.com/jow-"
+        }
+      ]
+    },
+    {
+      "title": "mackron/miniaudio",
+      "url": "https://github.com/mackron/miniaudio",
+      "description": "Audio playback and capture library written in C, in a single source file.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "7,597",
+      "forks": "636",
+      "addStars": "123",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1232553?s=40&v=4",
+          "name": "mackron",
+          "url": "https://github.com/mackron"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29616?s=40&v=4",
+          "name": "tycho",
+          "url": "https://github.com/tycho"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/958469?s=40&v=4",
+          "name": "znakeeye",
+          "url": "https://github.com/znakeeye"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7667009?s=40&v=4",
+          "name": "Clownacy",
+          "url": "https://github.com/Clownacy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1697224?s=40&v=4",
+          "name": "iarwain",
+          "url": "https://github.com/iarwain"
+        }
+      ]
+    },
+    {
       "title": "espressif/esp-idf",
       "url": "https://github.com/espressif/esp-idf",
       "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "19,471",
-      "forks": "8,586",
+      "stars": "19,475",
+      "forks": "8,588",
       "addStars": "67",
       "contributors": [
         {
@@ -338,8 +380,8 @@
       "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,041",
-      "forks": "10,387",
+      "stars": "17,046",
+      "forks": "10,393",
       "addStars": "72",
       "contributors": [
         {
@@ -370,137 +412,14 @@
       ]
     },
     {
-      "title": "mackron/miniaudio",
-      "url": "https://github.com/mackron/miniaudio",
-      "description": "Audio playback and capture library written in C, in a single source file.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "7,594",
-      "forks": "636",
-      "addStars": "123",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1232553?s=40&v=4",
-          "name": "mackron",
-          "url": "https://github.com/mackron"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29616?s=40&v=4",
-          "name": "tycho",
-          "url": "https://github.com/tycho"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/958469?s=40&v=4",
-          "name": "znakeeye",
-          "url": "https://github.com/znakeeye"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7667009?s=40&v=4",
-          "name": "Clownacy",
-          "url": "https://github.com/Clownacy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1697224?s=40&v=4",
-          "name": "iarwain",
-          "url": "https://github.com/iarwain"
-        }
-      ]
-    },
-    {
-      "title": "rizinorg/rizin",
-      "url": "https://github.com/rizinorg/rizin",
-      "description": "UNIX-like reverse engineering framework and command-line toolset.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "4,172",
-      "forks": "704",
-      "addStars": "70",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/203261?s=40&v=4",
-          "name": "XVilka",
-          "url": "https://github.com/XVilka"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/562321?s=40&v=4",
-          "name": "ret2libc",
-          "url": "https://github.com/ret2libc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1460997?s=40&v=4",
-          "name": "thestr4ng3r",
-          "url": "https://github.com/thestr4ng3r"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/561184?s=40&v=4",
-          "name": "wargio",
-          "url": "https://github.com/wargio"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12002672?s=40&v=4",
-          "name": "kazarmy",
-          "url": "https://github.com/kazarmy"
-        }
-      ]
-    },
-    {
-      "title": "meta/zstd",
-      "url": "https://github.com/meta/zstd",
-      "description": "Zstandard - Fast real-time compression algorithm",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "28,213",
-      "forks": "2,680",
-      "addStars": "68",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
-          "name": "Cyan4973",
-          "url": "https://github.com/Cyan4973"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6619134?s=40&v=4",
-          "name": "terrelln",
-          "url": "https://github.com/terrelln"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
-          "name": "inikep",
-          "url": "https://github.com/inikep"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
-          "name": "felixhandte",
-          "url": "https://github.com/felixhandte"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7366343?s=40&v=4",
-          "name": "stellamplau",
-          "url": "https://github.com/stellamplau"
-        }
-      ]
-    },
-    {
       "title": "tangerineturtle1/NX2navi",
       "url": "https://github.com/tangerineturtle1/NX2navi",
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,414",
+      "stars": "2,606",
       "forks": "97",
-      "addStars": "1,150",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Leviidev/Henge",
-      "url": "https://github.com/Leviidev/Henge",
-      "description": "Emulate macOS on iOS and iPadOS",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,617",
-      "forks": "103",
-      "addStars": "522",
+      "addStars": "1,368",
       "contributors": [],
       "source": "trendshift"
     },
@@ -510,21 +429,21 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "695",
+      "stars": "804",
       "forks": "25",
-      "addStars": "336",
+      "addStars": "441",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "chiikabu/lunar-for-roblox-decompiled",
-      "url": "https://github.com/chiikabu/lunar-for-roblox-decompiled",
-      "description": "Decompiled Lunar for Roblox 1.0.16 - Electron app, NSIS installer and native DLLs",
+      "title": "Leviidev/Henge",
+      "url": "https://github.com/Leviidev/Henge",
+      "description": "Emulate macOS on iOS and iPadOS",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "113",
-      "forks": "0",
-      "addStars": "113",
+      "stars": "1,756",
+      "forks": "103",
+      "addStars": "649",
       "contributors": [],
       "source": "trendshift"
     },
@@ -534,81 +453,9 @@
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "6,196",
+      "stars": "6,299",
       "forks": "513",
-      "addStars": "292",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "teasergames/dbk-recomp",
-      "url": "https://github.com/teasergames/dbk-recomp",
-      "description": "",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "134",
-      "forks": "1",
-      "addStars": "84",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "EddizEge/AnkaNative",
-      "url": "https://github.com/EddizEge/AnkaNative",
-      "description": "Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "75",
-      "forks": "2",
-      "addStars": "67",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Zagitta/gpu-unlock",
-      "url": "https://github.com/Zagitta/gpu-unlock",
-      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "18,394",
-      "forks": "1,856",
-      "addStars": "248",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Lucas-blip-png/dkb-pc-recomp",
-      "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
-      "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "626",
-      "forks": "35",
-      "addStars": "163",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "martinmarinov/TempestSDR",
-      "url": "https://github.com/martinmarinov/TempestSDR",
-      "description": "Remote video eavesdropping using a software-defined radio platform",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,709",
-      "forks": "236",
-      "addStars": "58",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "torvalds/linux",
-      "url": "https://github.com/torvalds/linux",
-      "description": "Linux kernel source tree",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "255,037",
-      "forks": "61,630",
-      "addStars": "147",
+      "addStars": "386",
       "contributors": [],
       "source": "trendshift"
     },
@@ -618,33 +465,45 @@
       "description": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "141",
+      "stars": "222",
       "forks": "3",
-      "addStars": "66",
+      "addStars": "143",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "AurelioB/totk-android",
-      "url": "https://github.com/AurelioB/totk-android",
-      "description": "Tears of the Kingdom native Android port (TotK Native)",
+      "title": "EddizEge/AnkaNative",
+      "url": "https://github.com/EddizEge/AnkaNative",
+      "description": "Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "120",
-      "forks": "4",
-      "addStars": "48",
+      "stars": "115",
+      "forks": "2",
+      "addStars": "103",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "Revivedx/SavageWindRecomp",
-      "url": "https://github.com/Revivedx/SavageWindRecomp",
-      "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
+      "title": "chiikabu/lunar-for-roblox-decompiled",
+      "url": "https://github.com/chiikabu/lunar-for-roblox-decompiled",
+      "description": "Decompiled Lunar for Roblox 1.0.16 - Electron app, NSIS installer and native DLLs",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,716",
-      "forks": "232",
-      "addStars": "142",
+      "stars": "122",
+      "forks": "0",
+      "addStars": "120",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Zagitta/gpu-unlock",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "18,456",
+      "forks": "1,856",
+      "addStars": "326",
       "contributors": [],
       "source": "trendshift"
     },
@@ -654,9 +513,81 @@
       "description": "A compatibility layer for porting Switch games to Android, one game at a time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,220",
+      "stars": "1,314",
       "forks": "150",
-      "addStars": "132",
+      "addStars": "232",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Lucas-blip-png/dkb-pc-recomp",
+      "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+      "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "657",
+      "forks": "35",
+      "addStars": "202",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "teasergames/dbk-recomp",
+      "url": "https://github.com/teasergames/dbk-recomp",
+      "description": "",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "139",
+      "forks": "1",
+      "addStars": "87",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "martinmarinov/TempestSDR",
+      "url": "https://github.com/martinmarinov/TempestSDR",
+      "description": "Remote video eavesdropping using a software-defined radio platform",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,729",
+      "forks": "236",
+      "addStars": "76",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "torvalds/linux",
+      "url": "https://github.com/torvalds/linux",
+      "description": "Linux kernel source tree",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "255,086",
+      "forks": "61,719",
+      "addStars": "192",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "AurelioB/totk-android",
+      "url": "https://github.com/AurelioB/totk-android",
+      "description": "Tears of the Kingdom native Android port (TotK Native)",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "132",
+      "forks": "4",
+      "addStars": "59",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Revivedx/SavageWindRecomp",
+      "url": "https://github.com/Revivedx/SavageWindRecomp",
+      "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "3,750",
+      "forks": "232",
+      "addStars": "184",
       "contributors": [],
       "source": "trendshift"
     },
@@ -666,21 +597,9 @@
       "description": "Evasive fork of Donut to generate position-independent shellcode that loads PE Windows payloads from memory",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "42",
+      "stars": "53",
       "forks": "0",
-      "addStars": "39",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "rkaehn/uniform",
-      "url": "https://github.com/rkaehn/uniform",
-      "description": "Tools for building responsive and beautiful user interfaces.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "32",
-      "forks": "0",
-      "addStars": "30",
+      "addStars": "47",
       "contributors": [],
       "source": "trendshift"
     },
@@ -690,21 +609,9 @@
       "description": "Display and control your Android device",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "154,432",
-      "forks": "14,260",
-      "addStars": "94",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "sostenesfreitas/ocarina-recomp",
-      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
-      "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,065",
-      "forks": "67",
-      "addStars": "105",
+      "stars": "154,477",
+      "forks": "14,266",
+      "addStars": "136",
       "contributors": [],
       "source": "trendshift"
     },
@@ -714,9 +621,33 @@
       "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,399",
+      "stars": "7,442",
       "forks": "1,120",
-      "addStars": "74",
+      "addStars": "120",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sostenesfreitas/ocarina-recomp",
+      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+      "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,073",
+      "forks": "67",
+      "addStars": "113",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "rkaehn/uniform",
+      "url": "https://github.com/rkaehn/uniform",
+      "description": "UI tools for JavaScript and C",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "34",
+      "forks": "0",
+      "addStars": "32",
       "contributors": [],
       "source": "trendshift"
     },
@@ -726,9 +657,21 @@
       "description": "Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "385",
-      "forks": "97",
-      "addStars": "40",
+      "stars": "396",
+      "forks": "100",
+      "addStars": "48",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "xiaojieonly/Ehviewer_CN_SXJ",
+      "url": "https://github.com/xiaojieonly/Ehviewer_CN_SXJ",
+      "description": "ehviewer，用爱发电，快乐前行",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "28,945",
+      "forks": "780",
+      "addStars": "89",
       "contributors": [],
       "source": "trendshift"
     },
@@ -738,21 +681,9 @@
       "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "48,418",
-      "forks": "4,431",
-      "addStars": "66",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "mahdamin/esp-idf-injection-ng",
-      "url": "https://github.com/mahdamin/esp-idf-injection-ng",
-      "description": "Raw 802.11 frame injection on ESP-IDF v5+/v6+ via a one-command objcopy --weaken-symbol patch. Enables Authentication (SAE Commit), Deauth, Reassoc, Disassoc, and Control frames (RTS/CTS/ACK) through esp_wifi_80211_tx()",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "52",
-      "forks": "2",
-      "addStars": "19",
+      "stars": "48,439",
+      "forks": "4,445",
+      "addStars": "86",
       "contributors": [],
       "source": "trendshift"
     }

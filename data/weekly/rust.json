@@ -2,7 +2,7 @@
   "title": "GitHub Rust Languages Weekly Trending",
   "description": "Weekly Trending of Rust Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
+  "pubDate": "Tue, 10 Nov 2026 12:05:27 GMT",
   "items": [
     {
       "title": "vercel-labs/agent-desktop",
@@ -10,8 +10,8 @@
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "20,583",
-      "forks": "1,524",
+      "stars": "21,023",
+      "forks": "1,560",
       "addStars": "12,120",
       "contributors": [
         {
@@ -32,8 +32,8 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "12,286",
-      "forks": "478",
+      "stars": "12,339",
+      "forks": "482",
       "addStars": "2,395",
       "contributors": [
         {
@@ -59,8 +59,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "48,563",
-      "forks": "3,309",
+      "stars": "48,894",
+      "forks": "3,387",
       "addStars": "2,994",
       "contributors": [
         {
@@ -86,13 +86,50 @@
       ]
     },
     {
+      "title": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "description": "Local voice dictation for mac, windows and linux",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "6,057",
+      "forks": "371",
+      "addStars": "2,031",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
+          "name": "kitlangton",
+          "url": "https://github.com/kitlangton"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
+          "name": "thdxr",
+          "url": "https://github.com/thdxr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10430890?s=40&v=4",
+          "name": "Hona",
+          "url": "https://github.com/Hona"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
+          "name": "rekram1-node",
+          "url": "https://github.com/rekram1-node"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/34747899?s=40&v=4",
+          "name": "neriousy",
+          "url": "https://github.com/neriousy"
+        }
+      ]
+    },
+    {
       "title": "zed-industries/zed",
       "url": "https://github.com/zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "94,602",
-      "forks": "11,595",
+      "stars": "94,643",
+      "forks": "11,607",
       "addStars": "2,239",
       "contributors": [
         {
@@ -128,8 +165,8 @@
       "description": "the runtime your coding agents live on",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "49,798",
-      "forks": "4,020",
+      "stars": "49,886",
+      "forks": "4,033",
       "addStars": "2,227",
       "contributors": [
         {
@@ -160,8 +197,8 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "106,947",
-      "forks": "6,353",
+      "stars": "107,232",
+      "forks": "6,369",
       "addStars": "6,625",
       "contributors": [
         {
@@ -192,8 +229,8 @@
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "51,144",
-      "forks": "2,640",
+      "stars": "51,150",
+      "forks": "2,641",
       "addStars": "913",
       "contributors": [
         {
@@ -219,39 +256,39 @@
       ]
     },
     {
-      "title": "anomalyco/hex",
-      "url": "https://github.com/anomalyco/hex",
-      "description": "Local voice dictation for mac, windows and linux",
+      "title": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "5,999",
-      "forks": "365",
-      "addStars": "2,031",
+      "stars": "134,671",
+      "forks": "21,319",
+      "addStars": "1,908",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
-          "name": "kitlangton",
-          "url": "https://github.com/kitlangton"
+          "avatar": "https://avatars.githubusercontent.com/u/230027070?s=40&v=4",
+          "name": "jif-oai",
+          "url": "https://github.com/jif-oai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
-          "name": "thdxr",
-          "url": "https://github.com/thdxr"
+          "avatar": "https://avatars.githubusercontent.com/u/655869?s=40&v=4",
+          "name": "bolinfest",
+          "url": "https://github.com/bolinfest"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/10430890?s=40&v=4",
-          "name": "Hona",
-          "url": "https://github.com/Hona"
+          "avatar": "https://avatars.githubusercontent.com/u/223546144?s=40&v=4",
+          "name": "etraut-openai",
+          "url": "https://github.com/etraut-openai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
-          "name": "rekram1-node",
-          "url": "https://github.com/rekram1-node"
+          "avatar": "https://avatars.githubusercontent.com/u/219906144?s=40&v=4",
+          "name": "aibrahim-oai",
+          "url": "https://github.com/aibrahim-oai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/34747899?s=40&v=4",
-          "name": "neriousy",
-          "url": "https://github.com/neriousy"
+          "avatar": "https://avatars.githubusercontent.com/u/204937752?s=40&v=4",
+          "name": "pakrym-oai",
+          "url": "https://github.com/pakrym-oai"
         }
       ]
     },
@@ -262,7 +299,7 @@
       "language": "Rust",
       "languageColor": "#dea584",
       "stars": "41,079",
-      "forks": "2,350",
+      "forks": "2,351",
       "addStars": "454",
       "contributors": [
         {
@@ -288,34 +325,34 @@
       ]
     },
     {
-      "title": "clap-rs/clap",
-      "url": "https://github.com/clap-rs/clap",
-      "description": "A full featured, fast Command Line Argument Parser for Rust",
+      "title": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "16,950",
-      "forks": "1,310",
-      "addStars": "245",
+      "stars": "6,087",
+      "forks": "1,078",
+      "addStars": "185",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/60961?s=40&v=4",
-          "name": "epage",
-          "url": "https://github.com/epage"
+          "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&v=4",
+          "name": "howardjohn",
+          "url": "https://github.com/howardjohn"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6942134?s=40&v=4",
-          "name": "kbknapp",
-          "url": "https://github.com/kbknapp"
+          "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&v=4",
+          "name": "EItanya",
+          "url": "https://github.com/EItanya"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/174703?s=40&v=4",
-          "name": "pksunkara",
-          "url": "https://github.com/pksunkara"
+          "avatar": "https://avatars.githubusercontent.com/u/15183287?s=40&v=4",
+          "name": "npolshakova",
+          "url": "https://github.com/npolshakova"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/10212162?s=40&v=4",
-          "name": "homu",
-          "url": "https://github.com/homu"
+          "avatar": "https://avatars.githubusercontent.com/u/61794?s=40&v=4",
+          "name": "markuskobler",
+          "url": "https://github.com/markuskobler"
         }
       ]
     },
@@ -325,8 +362,8 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "20,129",
-      "forks": "1,233",
+      "stars": "20,199",
+      "forks": "1,234",
       "addStars": "1,200",
       "contributors": [
         {
@@ -357,108 +394,12 @@
       ]
     },
     {
-      "title": "agentgateway/agentgateway",
-      "url": "https://github.com/agentgateway/agentgateway",
-      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "6,073",
-      "forks": "1,075",
-      "addStars": "185",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/623453?s=40&v=4",
-          "name": "howardjohn",
-          "url": "https://github.com/howardjohn"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4185086?s=40&v=4",
-          "name": "EItanya",
-          "url": "https://github.com/EItanya"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15183287?s=40&v=4",
-          "name": "npolshakova",
-          "url": "https://github.com/npolshakova"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/61794?s=40&v=4",
-          "name": "markuskobler",
-          "url": "https://github.com/markuskobler"
-        }
-      ]
-    },
-    {
-      "title": "orhun/git-cliff",
-      "url": "https://github.com/orhun/git-cliff",
-      "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "12,518",
-      "forks": "365",
-      "addStars": "256",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24392180?s=40&v=4",
-          "name": "orhun",
-          "url": "https://github.com/orhun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13074130?s=40&v=4",
-          "name": "ognis1205",
-          "url": "https://github.com/ognis1205"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11428655?s=40&v=4",
-          "name": "marcoieni",
-          "url": "https://github.com/marcoieni"
-        }
-      ]
-    },
-    {
-      "title": "denoland/deno",
-      "url": "https://github.com/denoland/deno",
-      "description": "A modern runtime for JavaScript and TypeScript.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "108,940",
-      "forks": "6,929",
-      "addStars": "348",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13602871?s=40&v=4",
-          "name": "bartlomieju",
-          "url": "https://github.com/bartlomieju"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1609021?s=40&v=4",
-          "name": "dsherret",
-          "url": "https://github.com/dsherret"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/80?s=40&v=4",
-          "name": "ry",
-          "url": "https://github.com/ry"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34997667?s=40&v=4",
-          "name": "littledivy",
-          "url": "https://github.com/littledivy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17734409?s=40&v=4",
-          "name": "nathanwhit",
-          "url": "https://github.com/nathanwhit"
-        }
-      ]
-    },
-    {
       "title": "zeroclaw-labs/zeroclaw",
       "url": "https://github.com/zeroclaw-labs/zeroclaw",
       "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "33,302",
+      "stars": "33,306",
       "forks": "5,003",
       "addStars": "230",
       "contributors": [
@@ -485,26 +426,46 @@
       ]
     },
     {
+      "title": "clap-rs/clap",
+      "url": "https://github.com/clap-rs/clap",
+      "description": "A full featured, fast Command Line Argument Parser for Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "16,953",
+      "forks": "1,310",
+      "addStars": "245",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/60961?s=40&v=4",
+          "name": "epage",
+          "url": "https://github.com/epage"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6942134?s=40&v=4",
+          "name": "kbknapp",
+          "url": "https://github.com/kbknapp"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174703?s=40&v=4",
+          "name": "pksunkara",
+          "url": "https://github.com/pksunkara"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10212162?s=40&v=4",
+          "name": "homu",
+          "url": "https://github.com/homu"
+        }
+      ]
+    },
+    {
       "title": "anefzaoui/misterdownloadmanager",
       "url": "https://github.com/anefzaoui/misterdownloadmanager",
       "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "4,095",
+      "stars": "4,818",
       "forks": "191",
-      "addStars": "2,703",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "h4ckf0r0day/obscura",
-      "url": "https://github.com/h4ckf0r0day/obscura",
-      "description": "The headless browser for AI agents and web scraping",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "31,693",
-      "forks": "2,444",
-      "addStars": "1,134",
+      "addStars": "3,521",
       "contributors": [],
       "source": "trendshift"
     },
@@ -514,9 +475,21 @@
       "description": "",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "849",
+      "stars": "1,551",
       "forks": "0",
-      "addStars": "962",
+      "addStars": "1,597",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "31,929",
+      "forks": "2,540",
+      "addStars": "1,362",
       "contributors": [],
       "source": "trendshift"
     },
@@ -526,21 +499,9 @@
       "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "1,623",
+      "stars": "1,782",
       "forks": "75",
-      "addStars": "927",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Ray-lea/Argus",
-      "url": "https://github.com/Ray-lea/Argus",
-      "description": "现代 Windows 任务管理器 · A modern task manager for Windows, built with Rust and GPUI Kit.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "1,060",
-      "forks": "33",
-      "addStars": "650",
+      "addStars": "1,100",
       "contributors": [],
       "source": "trendshift"
     },
@@ -550,9 +511,21 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "24,580",
+      "stars": "25,328",
       "forks": "4,722",
-      "addStars": "2,097",
+      "addStars": "2,916",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Ray-lea/Argus",
+      "url": "https://github.com/Ray-lea/Argus",
+      "description": "现代 Windows 任务管理器 · A modern task manager for Windows, built with Rust and GPUI Kit.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,164",
+      "forks": "33",
+      "addStars": "767",
       "contributors": [],
       "source": "trendshift"
     },
@@ -562,105 +535,9 @@
       "description": "the ultimate vocal synthesizer - sing, speak, beatbox, and more",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "1,230",
+      "stars": "1,389",
       "forks": "102",
-      "addStars": "637",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "anomalyco/rune",
-      "url": "https://github.com/anomalyco/rune",
-      "description": "Rune: Native UI framework",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "5,913",
-      "forks": "176",
-      "addStars": "828",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "134,444",
-      "forks": "22,064",
-      "addStars": "628",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ShayanAbbas1/dbdelve",
-      "url": "https://github.com/ShayanAbbas1/dbdelve",
-      "description": "Fast and lightweight DB Client made in Rust and GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "861",
-      "forks": "43",
-      "addStars": "190",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "tokio-rs/topcoat",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "6,524",
-      "forks": "238",
-      "addStars": "179",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "since2006/shell-rs",
-      "url": "https://github.com/since2006/shell-rs",
-      "description": "High-performance native SSH client in Rust, GPU-rendered with GPUI: host manager, terminal, WinSCP-style SFTP and port forwarding. Rust 编写、GPU 渲染的原生 SSH 客户端。",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "645",
-      "forks": "60",
-      "addStars": "171",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zortax/zgui",
-      "url": "https://github.com/zortax/zgui",
-      "description": "reactive, retained rust ui framework",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "212",
-      "forks": "4",
-      "addStars": "158",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jub0t/Concat",
-      "url": "https://github.com/jub0t/Concat",
-      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "16,182",
-      "forks": "2,024",
-      "addStars": "496",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Daniel-King-8/CoreOps",
-      "url": "https://github.com/Daniel-King-8/CoreOps",
-      "description": "",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "200",
-      "forks": "0",
-      "addStars": "152",
+      "addStars": "823",
       "contributors": [],
       "source": "trendshift"
     },
@@ -670,9 +547,69 @@
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "103,458",
-      "forks": "14,069",
-      "addStars": "424",
+      "stars": "103,770",
+      "forks": "14,104",
+      "addStars": "701",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "since2006/shell-rs",
+      "url": "https://github.com/since2006/shell-rs",
+      "description": "High-performance native SSH client in Rust, GPU-rendered with GPUI: host manager, terminal, WinSCP-style SFTP and port forwarding. Rust 编写、GPU 渲染的原生 SSH 客户端。",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "754",
+      "forks": "60",
+      "addStars": "286",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "anomalyco/rune",
+      "url": "https://github.com/anomalyco/rune",
+      "description": "Rune: Native UI framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "6,001",
+      "forks": "176",
+      "addStars": "934",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Zleap-AI/SAG-Wiki",
+      "url": "https://github.com/Zleap-AI/SAG-Wiki",
+      "description": "A lightweight knowledge base for people and agents",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "643",
+      "forks": "49",
+      "addStars": "360",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ShayanAbbas1/dbdelve",
+      "url": "https://github.com/ShayanAbbas1/dbdelve",
+      "description": "Fast and lightweight DB Client made in Rust and GPUI.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "936",
+      "forks": "43",
+      "addStars": "259",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "6,572",
+      "forks": "246",
+      "addStars": "232",
       "contributors": [],
       "source": "trendshift"
     },
@@ -682,9 +619,33 @@
       "description": "Fast, resumable download manager with a browser extension. Many connections per file, instant resume, IDM-style download windows. Rust + Tauri.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "289",
+      "stars": "379",
       "forks": "11",
-      "addStars": "187",
+      "addStars": "269",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "16,380",
+      "forks": "2,069",
+      "addStars": "676",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "zortax/zgui",
+      "url": "https://github.com/zortax/zgui",
+      "description": "reactive, retained rust ui framework",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "258",
+      "forks": "6",
+      "addStars": "205",
       "contributors": [],
       "source": "trendshift"
     },
@@ -694,9 +655,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "40,262",
-      "forks": "6,397",
-      "addStars": "387",
+      "stars": "40,410",
+      "forks": "6,420",
+      "addStars": "524",
       "contributors": [],
       "source": "trendshift"
     },
@@ -706,33 +667,33 @@
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "153,064",
-      "forks": "10,794",
-      "addStars": "341",
+      "stars": "153,242",
+      "forks": "10,819",
+      "addStars": "503",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "deeplethe/sandstorm",
-      "url": "https://github.com/deeplethe/sandstorm",
-      "description": "Run thousands of AI agent sandboxes on the cheapest machines.",
+      "title": "Daniel-King-8/CoreOps",
+      "url": "https://github.com/Daniel-King-8/CoreOps",
+      "description": "",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "5,975",
-      "forks": "560",
-      "addStars": "323",
+      "stars": "201",
+      "forks": "0",
+      "addStars": "152",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "BenchUp3D/editor",
-      "url": "https://github.com/BenchUp3D/editor",
-      "description": "Free, open-source 3D woodworking and modeling software and SketchUp alternative. Built with Rust, WebAssembly and WebGPU. Runs in your browser or on desktop. 100% vibe-coded, only the finest slop, with great emphase on rendering speed and UI/UX.",
+      "title": "openlake-project/openlake",
+      "url": "https://github.com/openlake-project/openlake",
+      "description": "OpenLake is a high performance storage engine for efficient LLM inference and GPU Training",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "623",
-      "forks": "21",
-      "addStars": "120",
+      "stars": "3,090",
+      "forks": "496",
+      "addStars": "244",
       "contributors": [],
       "source": "trendshift"
     }

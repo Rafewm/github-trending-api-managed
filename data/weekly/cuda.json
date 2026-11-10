@@ -2,7 +2,7 @@
   "title": "GitHub Cuda Languages Weekly Trending",
   "description": "Weekly Trending of Cuda Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 10 Nov 2026 02:33:16 GMT",
+  "pubDate": "Tue, 10 Nov 2026 12:05:27 GMT",
   "items": [
     {
       "title": "flashinfer-ai/flashinfer",
@@ -10,8 +10,8 @@
       "description": "FlashInfer: Kernel Library for LLM Serving",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "6,885",
-      "forks": "1,726",
+      "stars": "6,887",
+      "forks": "1,728",
       "addStars": "51",
       "contributors": [
         {
@@ -47,7 +47,7 @@
       "description": "GPU accelerated decision optimization",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "1,105",
+      "stars": "1,107",
       "forks": "256",
       "addStars": "11",
       "contributors": [
@@ -75,43 +75,6 @@
           "avatar": "https://avatars.githubusercontent.com/u/160623740?s=40&v=4",
           "name": "aliceb-nv",
           "url": "https://github.com/aliceb-nv"
-        }
-      ]
-    },
-    {
-      "title": "karpathy/llm.c",
-      "url": "https://github.com/karpathy/llm.c",
-      "description": "LLM training in simple, raw C/CUDA",
-      "language": "Cuda",
-      "languageColor": "#3A4E3A",
-      "stars": "31,416",
-      "forks": "3,814",
-      "addStars": "55",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/241138?s=40&v=4",
-          "name": "karpathy",
-          "url": "https://github.com/karpathy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7938269?s=40&v=4",
-          "name": "ngc92",
-          "url": "https://github.com/ngc92"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29271842?s=40&v=4",
-          "name": "gordicaleksa",
-          "url": "https://github.com/gordicaleksa"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7082233?s=40&v=4",
-          "name": "ademeure",
-          "url": "https://github.com/ademeure"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55313766?s=40&v=4",
-          "name": "rosslwheeler",
-          "url": "https://github.com/rosslwheeler"
         }
       ]
     },
@@ -153,12 +116,49 @@
       ]
     },
     {
+      "title": "deepseek-ai/DeepEP",
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "description": "DeepEP: an efficient expert-parallel communication library",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "10,426",
+      "forks": "1,553",
+      "addStars": "30",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/35299455?s=40&v=4",
+          "name": "LyricZhao",
+          "url": "https://github.com/LyricZhao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9213347?s=40&v=4",
+          "name": "sphish",
+          "url": "https://github.com/sphish"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5236035?s=40&v=4",
+          "name": "fzyzcjy",
+          "url": "https://github.com/fzyzcjy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/166747556?s=40&v=4",
+          "name": "seth-howell",
+          "url": "https://github.com/seth-howell"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8215757?s=40&v=4",
+          "name": "wangfakang",
+          "url": "https://github.com/wangfakang"
+        }
+      ]
+    },
+    {
       "title": "mirage-project/mirage",
       "url": "https://github.com/mirage-project/mirage",
       "description": "Mirage Persistent Kernel: Compiling LLMs into a MegaKernel",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "2,607",
+      "stars": "2,608",
       "forks": "272",
       "addStars": "18",
       "contributors": [
@@ -190,39 +190,39 @@
       ]
     },
     {
-      "title": "deepseek-ai/DeepEP",
-      "url": "https://github.com/deepseek-ai/DeepEP",
-      "description": "DeepEP: an efficient expert-parallel communication library",
+      "title": "karpathy/llm.c",
+      "url": "https://github.com/karpathy/llm.c",
+      "description": "LLM training in simple, raw C/CUDA",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "10,425",
-      "forks": "1,552",
-      "addStars": "30",
+      "stars": "31,421",
+      "forks": "3,814",
+      "addStars": "55",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/35299455?s=40&v=4",
-          "name": "LyricZhao",
-          "url": "https://github.com/LyricZhao"
+          "avatar": "https://avatars.githubusercontent.com/u/241138?s=40&v=4",
+          "name": "karpathy",
+          "url": "https://github.com/karpathy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/9213347?s=40&v=4",
-          "name": "sphish",
-          "url": "https://github.com/sphish"
+          "avatar": "https://avatars.githubusercontent.com/u/7938269?s=40&v=4",
+          "name": "ngc92",
+          "url": "https://github.com/ngc92"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5236035?s=40&v=4",
-          "name": "fzyzcjy",
-          "url": "https://github.com/fzyzcjy"
+          "avatar": "https://avatars.githubusercontent.com/u/29271842?s=40&v=4",
+          "name": "gordicaleksa",
+          "url": "https://github.com/gordicaleksa"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/166747556?s=40&v=4",
-          "name": "seth-howell",
-          "url": "https://github.com/seth-howell"
+          "avatar": "https://avatars.githubusercontent.com/u/7082233?s=40&v=4",
+          "name": "ademeure",
+          "url": "https://github.com/ademeure"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8215757?s=40&v=4",
-          "name": "wangfakang",
-          "url": "https://github.com/wangfakang"
+          "avatar": "https://avatars.githubusercontent.com/u/55313766?s=40&v=4",
+          "name": "rosslwheeler",
+          "url": "https://github.com/rosslwheeler"
         }
       ]
     },
@@ -232,7 +232,7 @@
       "description": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "536",
+      "stars": "539",
       "forks": "76",
       "addStars": "9",
       "contributors": [
@@ -291,8 +291,8 @@
       "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "9,177",
-      "forks": "1,518",
+      "stars": "9,180",
+      "forks": "1,521",
       "addStars": "43",
       "contributors": [
         {
