@@ -20,6 +20,11 @@ const SORTS = {
     ['hn.time', 'Newest on HN'],
     ['stars', 'Total stars'],
   ],
+  new: [
+    ['created.perDay', 'Stars per day'],
+    ['stars', 'Total stars'],
+    ['created.time', 'Newest'],
+  ],
   releases: [
     ['release.score', 'Release Monitor rank'],
     ['reddit.time', 'Newest on Reddit'],
@@ -29,6 +34,7 @@ const SORTS = {
 const COLUMNS = {
   trending: ['Lang', 'Stars', 'Day', 'Week', 'Month', 'Status'],
   hn: ['Lang', 'Stars', 'Points', 'Comments', 'Posted', 'Status'],
+  new: ['Lang', 'Stars', 'Per day', 'Created', 'Status'],
   releases: ['Lang', 'Stars', 'Release', 'Reddit', 'Status'],
 };
 // Tabs that load one list per period, on first open.
@@ -38,6 +44,17 @@ const FEEDS = {
     periods: [['day', 'Daily'], ['week', 'Weekly'], ['month', 'Monthly'], ['year', 'Yearly'], ['all', 'All time']],
     label: 'Hacker News',
   },
+  new: {
+    url: (period) => `/api/new?period=${period}`,
+    periods: [
+      ['3', 'Last 3 days, 50+ stars'],
+      ['30', 'Last 30 days, 100+ stars'],
+      ['90', 'Last 90 days, 1K+ stars'],
+      ['730', 'Last 2 years, 10K+ stars'],
+      ['all', 'All time, 50K+ stars'],
+    ],
+    label: 'new repositories',
+  },
   releases: {
     url: (period) => `/api/releases?days=${period}`,
     periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['14', 'Last 14 days'], ['30', 'Last 30 days'], ['365', 'Last year']],
@@ -45,8 +62,8 @@ const FEEDS = {
   },
 };
 let browse = null;
-const feeds = { hn: {}, releases: {} };
-const periodChoice = { hn: 'day', releases: '7' };
+const feeds = { hn: {}, new: {}, releases: {} };
+const periodChoice = { hn: 'day', new: '30', releases: '7' };
 let limit = PAGE;
 let view = 'browse';
 let hidden = {};
@@ -55,7 +72,7 @@ let storeReady = false;
 // Bumped when a Hide/Track save starts and when it ends, so a refresh that overlapped one can tell.
 let listEdits = 0;
 let listQueue = Promise.resolve();
-const sortChoice = { trending: 'day.add', hn: 'hn.points', releases: 'release.score' };
+const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', releases: 'release.score' };
 
 const kind = () => (FEEDS[view] ? view : 'trending');
 const source = () => (FEEDS[view] ? feeds[view][periodChoice[view]] : browse);
@@ -175,6 +192,12 @@ function releaseCells(repo) {
   return `<td class="nowrap release" data-label="Release">${version}</td><td class="nowrap release" data-label="Reddit">${post}</td>`;
 }
 
+// GitHub search gives no daily growth, so stars per day since the repo was made stands in for it.
+function newCells(c) {
+  return `<td class="nowrap growth" data-label="Per day"><span aria-hidden="true">↗</span> ${c.perDay.toLocaleString('en-US')}</td>
+    <td class="nowrap" data-label="Created">${ago(new Date(c.time * 1000).toISOString())}</td>`;
+}
+
 function statusCell(repo) {
   if (repo.archived) return '<td class="nowrap status off" data-label="Status"><span aria-hidden="true">●</span> Archived</td>';
   const active = repo.pushedAt && Date.now() - Date.parse(repo.pushedAt) < 90 * DAY_MS;
@@ -225,6 +248,8 @@ function row(repo) {
         ? hnCells(story)
         : view === 'releases'
           ? releaseCells(repo)
+          : view === 'new' && repo.created
+            ? newCells(repo.created)
           : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`
     }
     ${statusCell(repo)}
@@ -281,11 +306,12 @@ function render() {
   $('results-title').textContent = {
     browse: 'Projects',
     hn: 'On Hacker News',
+    new: 'New and rising',
     releases: 'New releases',
     tracked: 'Tracked projects',
     hidden: 'Hidden projects',
   }[view];
-  for (const v of ['browse', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
+  for (const v of ['browse', 'new', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
   $('period-label').hidden = !FEEDS[view];
   $('source-label').hidden = view !== 'releases';
   renderHeader();
@@ -467,6 +493,7 @@ $('more').addEventListener('click', () => {
   render();
 });
 $('tab-browse').addEventListener('click', () => setView('browse'));
+$('tab-new').addEventListener('click', () => setView('new'));
 $('tab-hn').addEventListener('click', () => setView('hn'));
 $('tab-releases').addEventListener('click', () => setView('releases'));
 $('tab-tracked').addEventListener('click', () => setView('tracked'));

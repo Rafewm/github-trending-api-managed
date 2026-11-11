@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { growth, mergeTrending, dropStarred, dropRecentStars } from './trending.js';
+import { searchToRepos } from './trending.js';
 
 const item = (title, stars, addStars) => ({ title, stars, addStars, description: 'd', language: 'Go' });
 const node = (nameWithOwner, viewerHasStarred) => ({
@@ -123,4 +124,21 @@ test('mergeSources joins the same repo from both sources into one entry', async 
     { name: 'a/b', description: 'from monitor', release: { version: 'v1' }, reddit: { id: 'x' } },
     { name: 'c/d', description: '', reddit: { id: 'y' } },
   ]);
+});
+
+test('searchToRepos keeps valid names and works out stars per day', () => {
+  const now = Date.parse('2026-11-11T00:00:00Z');
+  const repos = searchToRepos(
+    [
+      { full_name: 'a/b', description: null, language: 'Go', stargazers_count: 1000, created_at: '2026-11-01T00:00:00Z' },
+      { full_name: 'a/new', stargazers_count: 60, created_at: '2026-11-10T20:00:00Z' },
+      { full_name: 'not a repo', stargazers_count: 5, created_at: '2026-11-01T00:00:00Z' },
+    ],
+    now,
+  );
+  assert.deepEqual(repos.map((r) => r.name), ['a/b', 'a/new']);
+  assert.equal(repos[0].description, '');
+  assert.equal(repos[0].created.perDay, 100);
+  // Under a day old counts as one day, so a few hours' stars don't look huge.
+  assert.equal(repos[1].created.perDay, 60);
 });

@@ -199,3 +199,23 @@ export function mergeSources(...lists) {
   }
   return [...repos.values()];
 }
+
+// GitHub search results (repotrend.com's method): new repos, with when they were made and stars per day since.
+export function searchToRepos(items, now = Date.now()) {
+  return items
+    .filter((item) => REPO_NAME.test(item?.full_name ?? ''))
+    .map((item) => {
+      const time = Math.floor(Date.parse(item.created_at) / 1000) || 0;
+      const days = Math.max((now / 1000 - time) / 86400, 1);
+      return {
+        name: item.full_name,
+        description: String(item.description ?? ''),
+        language: String(item.language ?? ''),
+        languageColor: '',
+        day: null,
+        week: null,
+        month: null,
+        created: { time, perDay: Math.round((Number(item.stargazers_count) || 0) / days) },
+      };
+    });
+}

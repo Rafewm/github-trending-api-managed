@@ -1,5 +1,5 @@
 import {
-  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources,
+  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos,
 } from './trending.js';
 import { cached } from './cache.js';
 
@@ -23,6 +23,10 @@ const RELEASE_CACHE_MS = 30 * 60 * 1000;
 // r/BestGitHubRepos posts, collected every 4 hours by the data repo's Action (script/reddit.js).
 const REDDIT = `${DATA}/reddit/BestGitHubRepos.json`;
 const DAY = 86400;
+// New repos gaining stars fast, by GitHub search like repotrend.com: [days back or null for all time, minimum stars].
+const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 730: [730, 10000], all: [null, 50000] };
+// GitHub search stops at 1,000 results, 100 per page.
+const SEARCH_PAGES = 10;
 const FIELDS =
   'nameWithOwner description primaryLanguage{name color} stargazerCount pushedAt isArchived viewerHasStarred owner{avatarUrl(size:40)} repositoryTopics(first:20){nodes{topic{name}}}';
 
@@ -127,6 +131,32 @@ async function loadReleases(days) {
   return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now(), failed };
 }
 
+async function searchPage(q, page, attempt = 1) {
+  const res = await fetch(
+    `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=100&page=${page}`,
+    { headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred', Accept: 'application/vnd.github+json' } },
+  );
+  // Search allows 30 requests a minute; wait as told (or back off) and retry.
+  if ((res.status === 403 || res.status === 429) && attempt < 4) {
+    const wait = Number(res.headers.get('retry-after')) || 10 * attempt;
+    await new Promise((resolve) => setTimeout(resolve, wait * 1000));
+    return searchPage(q, page, attempt + 1);
+  }
+  if (!res.ok) throw new Error(`GitHub search failed: ${res.status}${res.status === 401 ? '. Check your token.' : ''}`);
+  return res.json();
+}
+
+async function loadNew(period) {
+  const [days, min] = NEW_PERIODS[period];
+  const since = days && new Date(Date.now() - days * DAY * 1000).toISOString().slice(0, 10);
+  const q = `stars:>=${min}${since ? ` created:>=${since}` : ''}`;
+  const first = await searchPage(q, 1);
+  const pages = Math.min(Math.ceil((first.total_count ?? 0) / 100), SEARCH_PAGES);
+  const rest = await Promise.all(Array.from({ length: Math.max(pages - 1, 0) }, (_, i) => searchPage(q, i + 2)));
+  const list = searchToRepos([first, ...rest].flatMap((r) => r.items ?? []));
+  return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
+}
+
 // Newest first, so this catches anything starred since the cache was filled.
 async function fetchRecentStars() {
   const res = await fetch('https://api.github.com/user/starred?per_page=100', {
@@ -174,4 +204,15 @@ export function handleReleases(req, res) {
     return;
   }
   return respond(res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
+}
+
+// GET /api/new?period=3|30|90|730|all
+export function handleNew(req, res) {
+  const period = new URL(req.url, 'http://localhost').searchParams.get('period') ?? '30';
+  if (!Object.hasOwn(NEW_PERIODS, period)) {
+    res.writeHead(400, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ error: 'period must be 3, 30, 90, 730 or all.' }));
+    return;
+  }
+  return respond(res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
 }
