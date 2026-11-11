@@ -14,7 +14,7 @@ class HttpError extends Error {
   }
 }
 
-async function redis(command) {
+export async function redis(command) {
   if (!STORE_URL || !STORE_TOKEN) throw new HttpError(503, 'List store is not configured.');
   const res = await fetch(STORE_URL, {
     method: 'POST',

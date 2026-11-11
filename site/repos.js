@@ -1,6 +1,7 @@
 import {
   mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources,
 } from './trending.js';
+import { cached } from './cache.js';
 
 const TOKEN = process.env.UNSTARRED_TOKEN || process.env.GITHUB_TOKEN;
 const DATA = 'https://raw.githubusercontent.com/Rafewm/github-trending-api-managed/main/data';
@@ -133,18 +134,6 @@ async function fetchRecentStars() {
   });
   if (!res.ok) throw new Error(`GitHub request failed: ${res.status}${res.status === 401 ? '. Check your token.' : ''}`);
   return (await res.json()).map((repo) => repo.full_name);
-}
-
-const cache = new Map();
-function cached(key, ttl, load) {
-  const hit = cache.get(key);
-  if (hit && Date.now() - hit.at < ttl) return hit.data;
-  const data = load();
-  cache.set(key, { at: Date.now(), data });
-  data.catch(() => {
-    if (cache.get(key)?.data === data) cache.delete(key);
-  });
-  return data;
 }
 
 async function respond(res, load) {
