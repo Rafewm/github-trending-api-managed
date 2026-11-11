@@ -3,7 +3,8 @@ import { readFile } from 'node:fs/promises';
 import { handleRepos, handleHn, handleReleases, handleNew } from './repos.js';
 import { handleHidden, handleTracked } from './hidden.js';
 
-const PORT = Number(process.env.PORT) || 3210;
+// Above 15000, outside Windows' dynamic port range here (1024-15000), so Hyper-V/WSL never reserve it.
+const PORT = Number(process.env.PORT) || 18210;
 const STATIC = {
   '/': ['index.html', 'text/html; charset=utf-8'],
   '/app.js': ['app.js', 'text/javascript; charset=utf-8'],

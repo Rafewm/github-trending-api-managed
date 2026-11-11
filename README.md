@@ -145,7 +145,7 @@ Needs Node.js 22.9 or newer.
 ```bash
 cd site
 cp .env.example .env          # fill in UNSTARRED_TOKEN and HIDE_KEY
-npm start                     # http://localhost:3210
+npm start                     # http://localhost:18210
 npm test
 ```
 
