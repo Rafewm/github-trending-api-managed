@@ -3,7 +3,7 @@
     <title>GitHub C Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of C Languages in GitHub</description>
-    <pubDate>Wed, 11 Nov 2026 04:40:31 GMT</pubDate>
+    <pubDate>Wed, 11 Nov 2026 15:50:48 GMT</pubDate>
     <item>
       <title>lz4/lz4</title>
       <link>https://github.com/lz4/lz4</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/lz4/lz4</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>12,755</stars>
-      <forks>1,652</forks>
+      <stars>12,770</stars>
+      <forks>1,655</forks>
       <addStars>569</addStars>
       <contributors>
         <contributor>
@@ -44,8 +44,8 @@
       <guid>https://github.com/JustVugg/colibri</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>49,798</stars>
-      <forks>5,865</forks>
+      <stars>49,912</stars>
+      <forks>5,877</forks>
       <addStars>2,605</addStars>
       <contributors>
         <contributor>
@@ -82,7 +82,7 @@
       <guid>https://github.com/openssl/openssl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>31,409</stars>
+      <stars>31,408</stars>
       <forks>11,595</forks>
       <addStars>280</addStars>
       <contributors>
@@ -120,8 +120,8 @@
       <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>11,673</stars>
-      <forks>1,810</forks>
+      <stars>11,774</stars>
+      <forks>1,820</forks>
       <addStars>1,794</addStars>
       <contributors>
         <contributor>
@@ -152,51 +152,13 @@
       </contributors>
     </item>
     <item>
-      <title>curl/curl</title>
-      <link>https://github.com/curl/curl</link>
-      <description>A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features</description>
-      <guid>https://github.com/curl/curl</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>43,469</stars>
-      <forks>7,498</forks>
-      <addStars>143</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/177011?s=40&amp;v=4</avatar>
-          <name>bagder</name>
-          <url>https://github.com/bagder</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1446897?s=40&amp;v=4</avatar>
-          <name>vszakats</name>
-          <url>https://github.com/vszakats</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/242954?s=40&amp;v=4</avatar>
-          <name>yangtse</name>
-          <url>https://github.com/yangtse</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1523871?s=40&amp;v=4</avatar>
-          <name>captain-caveman2k</name>
-          <url>https://github.com/captain-caveman2k</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/228259?s=40&amp;v=4</avatar>
-          <name>dfandrich</name>
-          <url>https://github.com/dfandrich</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>mpv-player/mpv</title>
       <link>https://github.com/mpv-player/mpv</link>
       <description>🎥 Command line media player</description>
       <guid>https://github.com/mpv-player/mpv</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>38,055</stars>
+      <stars>38,066</stars>
       <forks>3,649</forks>
       <addStars>388</addStars>
       <contributors>
@@ -228,13 +190,46 @@
       </contributors>
     </item>
     <item>
+      <title>lvgl/lvgl</title>
+      <link>https://github.com/lvgl/lvgl</link>
+      <description>LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.</description>
+      <guid>https://github.com/lvgl/lvgl</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>25,144</stars>
+      <forks>4,446</forks>
+      <addStars>72</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7599318?s=40&amp;v=4</avatar>
+          <name>kisvegabor</name>
+          <url>https://github.com/kisvegabor</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/55462127?s=40&amp;v=4</avatar>
+          <name>AndreCostaaa</name>
+          <url>https://github.com/AndreCostaaa</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/42941056?s=40&amp;v=4</avatar>
+          <name>embeddedt</name>
+          <url>https://github.com/embeddedt</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/26767803?s=40&amp;v=4</avatar>
+          <name>FASTSHIFT</name>
+          <url>https://github.com/FASTSHIFT</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>madler/zlib</title>
       <link>https://github.com/madler/zlib</link>
       <description>A massively spiffy yet delicately unobtrusive compression library.</description>
       <guid>https://github.com/madler/zlib</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,216</stars>
+      <stars>7,218</stars>
       <forks>2,898</forks>
       <addStars>31</addStars>
       <contributors>
@@ -266,52 +261,14 @@
       </contributors>
     </item>
     <item>
-      <title>HarbourMasters/Shipwright</title>
-      <link>https://github.com/HarbourMasters/Shipwright</link>
-      <description/>
-      <guid>https://github.com/HarbourMasters/Shipwright</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>5,979</stars>
-      <forks>997</forks>
-      <addStars>141</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/159546?s=40&amp;v=4</avatar>
-          <name>serprex</name>
-          <url>https://github.com/serprex</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/70942617?s=40&amp;v=4</avatar>
-          <name>briaguya0</name>
-          <url>https://github.com/briaguya0</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/774771?s=40&amp;v=4</avatar>
-          <name>Malkierian</name>
-          <url>https://github.com/Malkierian</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13861068?s=40&amp;v=4</avatar>
-          <name>Archez</name>
-          <url>https://github.com/Archez</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7316699?s=40&amp;v=4</avatar>
-          <name>garrettjoecox</name>
-          <url>https://github.com/garrettjoecox</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>openwrt/openwrt</title>
       <link>https://github.com/openwrt/openwrt</link>
       <description>This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.</description>
       <guid>https://github.com/openwrt/openwrt</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>29,171</stars>
-      <forks>13,404</forks>
+      <stars>29,178</stars>
+      <forks>13,410</forks>
       <addStars>137</addStars>
       <contributors>
         <contributor>
@@ -342,40 +299,78 @@
       </contributors>
     </item>
     <item>
-      <title>espressif/esp-idf</title>
-      <link>https://github.com/espressif/esp-idf</link>
-      <description>Espressif IoT Development Framework. Official development framework for Espressif SoCs.</description>
-      <guid>https://github.com/espressif/esp-idf</guid>
+      <title>curl/curl</title>
+      <link>https://github.com/curl/curl</link>
+      <description>A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features</description>
+      <guid>https://github.com/curl/curl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>19,480</stars>
-      <forks>8,589</forks>
-      <addStars>64</addStars>
+      <stars>43,472</stars>
+      <forks>7,497</forks>
+      <addStars>143</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4349050?s=40&amp;v=4</avatar>
-          <name>igrr</name>
-          <url>https://github.com/igrr</url>
+          <avatar>https://avatars.githubusercontent.com/u/177011?s=40&amp;v=4</avatar>
+          <name>bagder</name>
+          <url>https://github.com/bagder</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/205573?s=40&amp;v=4</avatar>
-          <name>projectgus</name>
-          <url>https://github.com/projectgus</url>
+          <avatar>https://avatars.githubusercontent.com/u/1446897?s=40&amp;v=4</avatar>
+          <name>vszakats</name>
+          <url>https://github.com/vszakats</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8869469?s=40&amp;v=4</avatar>
-          <name>suda-morris</name>
-          <url>https://github.com/suda-morris</url>
+          <avatar>https://avatars.githubusercontent.com/u/242954?s=40&amp;v=4</avatar>
+          <name>yangtse</name>
+          <url>https://github.com/yangtse</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/21117421?s=40&amp;v=4</avatar>
-          <name>jack0c</name>
-          <url>https://github.com/jack0c</url>
+          <avatar>https://avatars.githubusercontent.com/u/1523871?s=40&amp;v=4</avatar>
+          <name>captain-caveman2k</name>
+          <url>https://github.com/captain-caveman2k</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/902446?s=40&amp;v=4</avatar>
-          <name>mahavirj</name>
-          <url>https://github.com/mahavirj</url>
+          <avatar>https://avatars.githubusercontent.com/u/228259?s=40&amp;v=4</avatar>
+          <name>dfandrich</name>
+          <url>https://github.com/dfandrich</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>fluent/fluent-bit</title>
+      <link>https://github.com/fluent/fluent-bit</link>
+      <description>Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows</description>
+      <guid>https://github.com/fluent/fluent-bit</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>8,186</stars>
+      <forks>2,033</forks>
+      <addStars>8</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/369718?s=40&amp;v=4</avatar>
+          <name>edsiper</name>
+          <url>https://github.com/edsiper</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/700876?s=40&amp;v=4</avatar>
+          <name>cosmo0920</name>
+          <url>https://github.com/cosmo0920</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/16795275?s=40&amp;v=4</avatar>
+          <name>nokute78</name>
+          <url>https://github.com/nokute78</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/601645?s=40&amp;v=4</avatar>
+          <name>pwhelan</name>
+          <url>https://github.com/pwhelan</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/28335?s=40&amp;v=4</avatar>
+          <name>leonardo-albertovich</name>
+          <url>https://github.com/leonardo-albertovich</url>
         </contributor>
       </contributors>
     </item>
@@ -386,8 +381,8 @@
       <guid>https://github.com/zephyrproject-rtos/zephyr</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,052</stars>
-      <forks>10,402</forks>
+      <stars>17,060</stars>
+      <forks>10,409</forks>
       <addStars>72</addStars>
       <contributors>
         <contributor>
@@ -418,15 +413,53 @@
       </contributors>
     </item>
     <item>
+      <title>meta/zstd</title>
+      <link>https://github.com/meta/zstd</link>
+      <description>Zstandard - Fast real-time compression algorithm</description>
+      <guid>https://github.com/meta/zstd</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>28,229</stars>
+      <forks>2,683</forks>
+      <addStars>75</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/750081?s=40&amp;v=4</avatar>
+          <name>Cyan4973</name>
+          <url>https://github.com/Cyan4973</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6619134?s=40&amp;v=4</avatar>
+          <name>terrelln</name>
+          <url>https://github.com/terrelln</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/15112322?s=40&amp;v=4</avatar>
+          <name>inikep</name>
+          <url>https://github.com/inikep</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1154694?s=40&amp;v=4</avatar>
+          <name>felixhandte</name>
+          <url>https://github.com/felixhandte</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7366343?s=40&amp;v=4</avatar>
+          <name>stellamplau</name>
+          <url>https://github.com/stellamplau</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>tangerineturtle1/NX2navi</title>
       <link>https://github.com/tangerineturtle1/NX2navi</link>
       <description/>
       <guid>https://github.com/tangerineturtle1/NX2navi</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,932</stars>
-      <forks>175</forks>
-      <addStars>1,664</addStars>
+      <stars>3,049</stars>
+      <forks>210</forks>
+      <addStars>1,786</addStars>
       <contributors/>
     </item>
     <item>
@@ -436,9 +469,9 @@
       <guid>https://github.com/Leviidev/Henge</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,877</stars>
+      <stars>1,954</stars>
       <forks>139</forks>
-      <addStars>774</addStars>
+      <addStars>855</addStars>
       <contributors/>
     </item>
     <item>
@@ -448,21 +481,9 @@
       <guid>https://github.com/yappologistic/CUI</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>884</stars>
-      <forks>46</forks>
-      <addStars>509</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>adriadam10/mkw-recomp</title>
-      <link>https://github.com/adriadam10/mkw-recomp</link>
-      <description>Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program</description>
-      <guid>https://github.com/adriadam10/mkw-recomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>321</stars>
-      <forks>10</forks>
-      <addStars>243</addStars>
+      <stars>901</stars>
+      <forks>53</forks>
+      <addStars>529</addStars>
       <contributors/>
     </item>
     <item>
@@ -472,165 +493,21 @@
       <guid>https://github.com/valentderah/totk-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>6,477</stars>
-      <forks>538</forks>
-      <addStars>575</addStars>
+      <stars>6,573</stars>
+      <forks>550</forks>
+      <addStars>669</addStars>
       <contributors/>
     </item>
     <item>
-      <title>torvalds/linux</title>
-      <link>https://github.com/torvalds/linux</link>
-      <description>Linux kernel source tree</description>
-      <guid>https://github.com/torvalds/linux</guid>
+      <title>adriadam10/mkw-recomp</title>
+      <link>https://github.com/adriadam10/mkw-recomp</link>
+      <description>Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program</description>
+      <guid>https://github.com/adriadam10/mkw-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>255,198</stars>
-      <forks>61,864</forks>
-      <addStars>319</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>EddizEge/AnkaNative</title>
-      <link>https://github.com/EddizEge/AnkaNative</link>
-      <description>Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)</description>
-      <guid>https://github.com/EddizEge/AnkaNative</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>136</stars>
-      <forks>6</forks>
-      <addStars>124</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Zagitta/gpu-unlock</title>
-      <link>https://github.com/Zagitta/gpu-unlock</link>
-      <description>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput</description>
-      <guid>https://github.com/Zagitta/gpu-unlock</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>18,590</stars>
-      <forks>1,881</forks>
-      <addStars>442</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Lucas-blip-png/dkb-pc-recomp</title>
-      <link>https://github.com/Lucas-blip-png/dkb-pc-recomp</link>
-      <description>Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.</description>
-      <guid>https://github.com/Lucas-blip-png/dkb-pc-recomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>731</stars>
-      <forks>40</forks>
-      <addStars>268</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>shirai91/nx2android</title>
-      <link>https://github.com/shirai91/nx2android</link>
-      <description>A compatibility layer for porting Switch games to Android, one game at a time</description>
-      <guid>https://github.com/shirai91/nx2android</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,378</stars>
-      <forks>175</forks>
-      <addStars>284</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>teasergames/dbk-recomp</title>
-      <link>https://github.com/teasergames/dbk-recomp</link>
-      <description/>
-      <guid>https://github.com/teasergames/dbk-recomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>146</stars>
-      <forks>2</forks>
-      <addStars>96</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Revivedx/SavageWindRecomp</title>
-      <link>https://github.com/Revivedx/SavageWindRecomp</link>
-      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
-      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>3,843</stars>
-      <forks>235</forks>
-      <addStars>266</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>chiikabu/lunar-for-roblox-decompiled</title>
-      <link>https://github.com/chiikabu/lunar-for-roblox-decompiled</link>
-      <description>Decompiled Lunar for Roblox 1.0.16 - Electron app, NSIS installer and native DLLs</description>
-      <guid>https://github.com/chiikabu/lunar-for-roblox-decompiled</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>125</stars>
-      <forks>14</forks>
-      <addStars>123</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>martinmarinov/TempestSDR</title>
-      <link>https://github.com/martinmarinov/TempestSDR</link>
-      <description>Remote video eavesdropping using a software-defined radio platform</description>
-      <guid>https://github.com/martinmarinov/TempestSDR</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,736</stars>
-      <forks>242</forks>
-      <addStars>83</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>AurelioB/totk-android</title>
-      <link>https://github.com/AurelioB/totk-android</link>
-      <description>Tears of the Kingdom native Android port (TotK Native)</description>
-      <guid>https://github.com/AurelioB/totk-android</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>145</stars>
-      <forks>8</forks>
-      <addStars>71</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Genymobile/scrcpy</title>
-      <link>https://github.com/Genymobile/scrcpy</link>
-      <description>Display and control your Android device</description>
-      <guid>https://github.com/Genymobile/scrcpy</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>154,525</stars>
-      <forks>14,275</forks>
-      <addStars>187</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>ly05010419/MacNativeGames</title>
-      <link>https://github.com/ly05010419/MacNativeGames</link>
-      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
-      <guid>https://github.com/ly05010419/MacNativeGames</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>7,494</stars>
-      <forks>1,137</forks>
-      <addStars>168</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>twili8/homer</title>
-      <link>https://github.com/twili8/homer</link>
-      <description>Evasive fork of Donut to generate position-independent shellcode that loads PE Windows payloads from memory</description>
-      <guid>https://github.com/twili8/homer</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>60</stars>
-      <forks>0</forks>
-      <addStars>55</addStars>
+      <stars>346</stars>
+      <forks>10</forks>
+      <addStars>275</addStars>
       <contributors/>
     </item>
     <item>
@@ -640,9 +517,141 @@
       <guid>https://github.com/yarrick/pingfs</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>3,609</stars>
-      <forks>139</forks>
-      <addStars>56</addStars>
+      <stars>3,815</stars>
+      <forks>142</forks>
+      <addStars>228</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>torvalds/linux</title>
+      <link>https://github.com/torvalds/linux</link>
+      <description>Linux kernel source tree</description>
+      <guid>https://github.com/torvalds/linux</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>255,292</stars>
+      <forks>61,864</forks>
+      <addStars>409</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Zagitta/gpu-unlock</title>
+      <link>https://github.com/Zagitta/gpu-unlock</link>
+      <description>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput</description>
+      <guid>https://github.com/Zagitta/gpu-unlock</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>18,645</stars>
+      <forks>1,907</forks>
+      <addStars>505</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Lucas-blip-png/dkb-pc-recomp</title>
+      <link>https://github.com/Lucas-blip-png/dkb-pc-recomp</link>
+      <description>Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.</description>
+      <guid>https://github.com/Lucas-blip-png/dkb-pc-recomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>760</stars>
+      <forks>41</forks>
+      <addStars>300</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>shirai91/nx2android</title>
+      <link>https://github.com/shirai91/nx2android</link>
+      <description>A compatibility layer for porting Switch games to Android, one game at a time</description>
+      <guid>https://github.com/shirai91/nx2android</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,414</stars>
+      <forks>188</forks>
+      <addStars>320</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>EddizEge/AnkaNative</title>
+      <link>https://github.com/EddizEge/AnkaNative</link>
+      <description>Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)</description>
+      <guid>https://github.com/EddizEge/AnkaNative</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>139</stars>
+      <forks>6</forks>
+      <addStars>125</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Revivedx/SavageWindRecomp</title>
+      <link>https://github.com/Revivedx/SavageWindRecomp</link>
+      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
+      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>3,887</stars>
+      <forks>242</forks>
+      <addStars>313</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>teasergames/dbk-recomp</title>
+      <link>https://github.com/teasergames/dbk-recomp</link>
+      <description/>
+      <guid>https://github.com/teasergames/dbk-recomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>150</stars>
+      <forks>2</forks>
+      <addStars>100</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>chiikabu/lunar-for-roblox-decompiled</title>
+      <link>https://github.com/chiikabu/lunar-for-roblox-decompiled</link>
+      <description>Decompiled Lunar for Roblox 1.0.16 - Electron app, NSIS installer and native DLLs</description>
+      <guid>https://github.com/chiikabu/lunar-for-roblox-decompiled</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>126</stars>
+      <forks>14</forks>
+      <addStars>124</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>martinmarinov/TempestSDR</title>
+      <link>https://github.com/martinmarinov/TempestSDR</link>
+      <description>Remote video eavesdropping using a software-defined radio platform</description>
+      <guid>https://github.com/martinmarinov/TempestSDR</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,738</stars>
+      <forks>242</forks>
+      <addStars>85</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Genymobile/scrcpy</title>
+      <link>https://github.com/Genymobile/scrcpy</link>
+      <description>Display and control your Android device</description>
+      <guid>https://github.com/Genymobile/scrcpy</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>154,555</stars>
+      <forks>14,275</forks>
+      <addStars>219</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>AurelioB/totk-android</title>
+      <link>https://github.com/AurelioB/totk-android</link>
+      <description>Tears of the Kingdom native Android port (TotK Native)</description>
+      <guid>https://github.com/AurelioB/totk-android</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>148</stars>
+      <forks>9</forks>
+      <addStars>75</addStars>
       <contributors/>
     </item>
     <item>
@@ -652,45 +661,69 @@
       <guid>https://github.com/FFmpeg/FFmpeg</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>66,906</stars>
+      <stars>66,981</stars>
       <forks>12,899</forks>
-      <addStars>145</addStars>
+      <addStars>213</addStars>
       <contributors/>
     </item>
     <item>
-      <title>sostenesfreitas/ocarina-recomp</title>
-      <link>https://github.com/sostenesfreitas/ocarina-recomp</link>
-      <description>Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.</description>
-      <guid>https://github.com/sostenesfreitas/ocarina-recomp</guid>
+      <title>ly05010419/MacNativeGames</title>
+      <link>https://github.com/ly05010419/MacNativeGames</link>
+      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
+      <guid>https://github.com/ly05010419/MacNativeGames</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,100</stars>
-      <forks>73</forks>
-      <addStars>139</addStars>
+      <stars>7,519</stars>
+      <forks>1,148</forks>
+      <addStars>194</addStars>
       <contributors/>
     </item>
     <item>
-      <title>LSPosed/LSPromise</title>
-      <link>https://github.com/LSPosed/LSPromise</link>
-      <description>Android complete exploit chain that enables privilege escalation from a local untrusted app to root/kernel, combination of CVE-2026-49881 and CVE-2026-43284</description>
-      <guid>https://github.com/LSPosed/LSPromise</guid>
+      <title>twili8/homer</title>
+      <link>https://github.com/twili8/homer</link>
+      <description>Evasive fork of Donut to generate position-independent shellcode that loads PE Windows payloads from memory</description>
+      <guid>https://github.com/twili8/homer</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>539</stars>
-      <forks>121</forks>
-      <addStars>46</addStars>
+      <stars>64</stars>
+      <forks>0</forks>
+      <addStars>59</addStars>
       <contributors/>
     </item>
     <item>
-      <title>xiaojieonly/Ehviewer_CN_SXJ</title>
-      <link>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</link>
-      <description>ehviewer，用爱发电，快乐前行</description>
-      <guid>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</guid>
+      <title>obsproject/obs-studio</title>
+      <link>https://github.com/obsproject/obs-studio</link>
+      <description>OBS Studio - Free and open source software for live streaming and screen recording</description>
+      <guid>https://github.com/obsproject/obs-studio</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>28,975</stars>
-      <forks>782</forks>
-      <addStars>119</addStars>
+      <stars>79,347</stars>
+      <forks>11,246</forks>
+      <addStars>164</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>MSNightmare/SignDrop</title>
+      <link>https://github.com/MSNightmare/SignDrop</link>
+      <description>Windows Common Log FileSystem Authentication 0day Local Privilege Escalation Vulnerability</description>
+      <guid>https://github.com/MSNightmare/SignDrop</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>99</stars>
+      <forks>11</forks>
+      <addStars>85</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>mirkobrombin/raven</title>
+      <link>https://github.com/mirkobrombin/raven</link>
+      <description>A Windows your apps recognize.</description>
+      <guid>https://github.com/mirkobrombin/raven</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,042</stars>
+      <forks>42</forks>
+      <addStars>115</addStars>
       <contributors/>
     </item>
   </channel>

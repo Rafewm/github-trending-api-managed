@@ -2,7 +2,7 @@
   "title": "GitHub Assembly Languages Monthly Trending",
   "description": "Monthly Trending of Assembly Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 11 Nov 2026 04:40:31 GMT",
+  "pubDate": "Wed, 11 Nov 2026 15:50:48 GMT",
   "items": [
     {
       "title": "chrislgarry/Apollo-11",
@@ -10,7 +10,7 @@
       "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
       "language": "Assembly",
       "languageColor": "#6E4C13",
-      "stars": "76,576",
+      "stars": "76,585",
       "forks": "8,321",
       "addStars": "3,001",
       "contributors": [
@@ -186,7 +186,7 @@
       "language": "Assembly",
       "languageColor": "#6E4C13",
       "stars": "1,692",
-      "forks": "345",
+      "forks": "346",
       "addStars": "37",
       "contributors": [
         {
@@ -254,39 +254,39 @@
       ]
     },
     {
-      "title": "leachim6/hello-world",
-      "url": "https://github.com/leachim6/hello-world",
-      "description": "Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see contributing.md for contribution instructions!",
+      "title": "ebitengine/purego",
+      "url": "https://github.com/ebitengine/purego",
+      "description": "A library for calling C functions from Go without Cgo",
       "language": "Assembly",
       "languageColor": "#6E4C13",
-      "stars": "12,039",
-      "forks": "2,115",
-      "addStars": "64",
+      "stars": "4,102",
+      "forks": "140",
+      "addStars": "87",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4377?s=40&v=4",
-          "name": "leachim6",
-          "url": "https://github.com/leachim6"
+          "avatar": "https://avatars.githubusercontent.com/u/10792661?s=40&v=4",
+          "name": "TotallyGamerJet",
+          "url": "https://github.com/TotallyGamerJet"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/29491356?s=40&v=4",
-          "name": "Richienb",
-          "url": "https://github.com/Richienb"
+          "avatar": "https://avatars.githubusercontent.com/u/16950?s=40&v=4",
+          "name": "hajimehoshi",
+          "url": "https://github.com/hajimehoshi"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/66077254?s=40&v=4",
-          "name": "MrBrain295",
-          "url": "https://github.com/MrBrain295"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2615179?s=40&v=4",
-          "name": "dcondrey",
-          "url": "https://github.com/dcondrey"
+          "avatar": "https://avatars.githubusercontent.com/u/3747816?s=40&v=4",
+          "name": "qmuntal",
+          "url": "https://github.com/qmuntal"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/41156994?s=40&v=4",
-          "name": "gnuhead-chieb",
-          "url": "https://github.com/gnuhead-chieb"
+          "avatar": "https://avatars.githubusercontent.com/u/20224954?s=40&v=4",
+          "name": "gdams",
+          "url": "https://github.com/gdams"
         }
       ]
     },
@@ -328,6 +328,43 @@
       ]
     },
     {
+      "title": "aws/aws-lc",
+      "url": "https://github.com/aws/aws-lc",
+      "description": "AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.",
+      "language": "Assembly",
+      "languageColor": "#6E4C13",
+      "stars": "864",
+      "forks": "238",
+      "addStars": "23",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/109690?s=40&v=4",
+          "name": "davidben",
+          "url": "https://github.com/davidben"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/21203?s=40&v=4",
+          "name": "agl",
+          "url": "https://github.com/agl"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/103147162?s=40&v=4",
+          "name": "justsmth",
+          "url": "https://github.com/justsmth"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/78765052?s=40&v=4",
+          "name": "jargh",
+          "url": "https://github.com/jargh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11924508?s=40&v=4",
+          "name": "samuel40791765",
+          "url": "https://github.com/samuel40791765"
+        }
+      ]
+    },
+    {
       "title": "apache/arrow-go",
       "url": "https://github.com/apache/arrow-go",
       "description": "Official Go implementation of Apache Arrow",
@@ -360,76 +397,39 @@
       ]
     },
     {
-      "title": "ebitengine/purego",
-      "url": "https://github.com/ebitengine/purego",
-      "description": "A library for calling C functions from Go without Cgo",
+      "title": "ThirteenAG/GTAIV.EFLC.FusionFix",
+      "url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix",
+      "description": "This project aims to fix or address some issues in Grand Theft Auto IV: The Complete Edition",
       "language": "Assembly",
       "languageColor": "#6E4C13",
-      "stars": "4,100",
-      "forks": "140",
-      "addStars": "87",
+      "stars": "3,527",
+      "forks": "126",
+      "addStars": "162",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/10792661?s=40&v=4",
-          "name": "TotallyGamerJet",
-          "url": "https://github.com/TotallyGamerJet"
+          "avatar": "https://avatars.githubusercontent.com/u/4904157?s=40&v=4",
+          "name": "ThirteenAG",
+          "url": "https://github.com/ThirteenAG"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/16950?s=40&v=4",
-          "name": "hajimehoshi",
-          "url": "https://github.com/hajimehoshi"
+          "avatar": "https://avatars.githubusercontent.com/u/133570309?s=40&v=4",
+          "name": "1heart2",
+          "url": "https://github.com/1heart2"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/133058741?s=40&v=4",
+          "name": "Parallellines0451",
+          "url": "https://github.com/Parallellines0451"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3747816?s=40&v=4",
-          "name": "qmuntal",
-          "url": "https://github.com/qmuntal"
+          "avatar": "https://avatars.githubusercontent.com/u/41953894?s=40&v=4",
+          "name": "sTc2201",
+          "url": "https://github.com/sTc2201"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/20224954?s=40&v=4",
-          "name": "gdams",
-          "url": "https://github.com/gdams"
-        }
-      ]
-    },
-    {
-      "title": "aws/aws-lc",
-      "url": "https://github.com/aws/aws-lc",
-      "description": "AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.",
-      "language": "Assembly",
-      "languageColor": "#6E4C13",
-      "stars": "863",
-      "forks": "238",
-      "addStars": "23",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/109690?s=40&v=4",
-          "name": "davidben",
-          "url": "https://github.com/davidben"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/21203?s=40&v=4",
-          "name": "agl",
-          "url": "https://github.com/agl"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/103147162?s=40&v=4",
-          "name": "justsmth",
-          "url": "https://github.com/justsmth"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/78765052?s=40&v=4",
-          "name": "jargh",
-          "url": "https://github.com/jargh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11924508?s=40&v=4",
-          "name": "samuel40791765",
-          "url": "https://github.com/samuel40791765"
+          "avatar": "https://avatars.githubusercontent.com/u/11007651?s=40&v=4",
+          "name": "Tomasak",
+          "url": "https://github.com/Tomasak"
         }
       ]
     },
@@ -471,50 +471,13 @@
       ]
     },
     {
-      "title": "ThirteenAG/GTAIV.EFLC.FusionFix",
-      "url": "https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix",
-      "description": "This project aims to fix or address some issues in Grand Theft Auto IV: The Complete Edition",
-      "language": "Assembly",
-      "languageColor": "#6E4C13",
-      "stars": "3,526",
-      "forks": "126",
-      "addStars": "162",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4904157?s=40&v=4",
-          "name": "ThirteenAG",
-          "url": "https://github.com/ThirteenAG"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133570309?s=40&v=4",
-          "name": "1heart2",
-          "url": "https://github.com/1heart2"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133058741?s=40&v=4",
-          "name": "Parallellines0451",
-          "url": "https://github.com/Parallellines0451"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/41953894?s=40&v=4",
-          "name": "sTc2201",
-          "url": "https://github.com/sTc2201"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11007651?s=40&v=4",
-          "name": "Tomasak",
-          "url": "https://github.com/Tomasak"
-        }
-      ]
-    },
-    {
       "title": "cemu-project/cemu_graphic_packs",
       "url": "https://github.com/cemu-project/cemu_graphic_packs",
       "description": "Community Graphic Packs for Cemu",
       "language": "Assembly",
       "languageColor": "#6E4C13",
-      "stars": "1,482",
-      "forks": "604",
+      "stars": "1,483",
+      "forks": "605",
       "addStars": "18",
       "contributors": [
         {
@@ -578,6 +541,43 @@
           "avatar": "https://avatars.githubusercontent.com/u/235296859?s=40&v=4",
           "name": "chenyucong58",
           "url": "https://github.com/chenyucong58"
+        }
+      ]
+    },
+    {
+      "title": "vxunderground/MalwareSourceCode",
+      "url": "https://github.com/vxunderground/MalwareSourceCode",
+      "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.",
+      "language": "Assembly",
+      "languageColor": "#6E4C13",
+      "stars": "18,913",
+      "forks": "2,106",
+      "addStars": "146",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57078196?s=40&v=4",
+          "name": "vxunderground",
+          "url": "https://github.com/vxunderground"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25308360?s=40&v=4",
+          "name": "TheDuchy",
+          "url": "https://github.com/TheDuchy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7806106?s=40&v=4",
+          "name": "f0wl",
+          "url": "https://github.com/f0wl"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26669887?s=40&v=4",
+          "name": "luca364",
+          "url": "https://github.com/luca364"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32627482?s=40&v=4",
+          "name": "EduApps-CDG",
+          "url": "https://github.com/EduApps-CDG"
         }
       ]
     },

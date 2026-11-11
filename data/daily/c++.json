@@ -2,17 +2,86 @@
   "title": "GitHub C++ Languages Daily Trending",
   "description": "Daily Trending of C++ Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 11 Nov 2026 04:40:31 GMT",
+  "pubDate": "Wed, 11 Nov 2026 15:50:48 GMT",
   "items": [
+    {
+      "title": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "53,174",
+      "forks": "5,043",
+      "addStars": "367",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
+          "name": "oneandonlydean",
+          "url": "https://github.com/oneandonlydean"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
+          "name": "adriadam10",
+          "url": "https://github.com/adriadam10"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67475268?s=40&v=4",
+          "name": "MarcZX10",
+          "url": "https://github.com/MarcZX10"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
+          "name": "boykopovar",
+          "url": "https://github.com/boykopovar"
+        }
+      ]
+    },
+    {
+      "title": "facebookresearch/faiss",
+      "url": "https://github.com/facebookresearch/faiss",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "41,424",
+      "forks": "4,606",
+      "addStars": "68",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6422482?s=40&v=4",
+          "name": "facebook-github-bot",
+          "url": "https://github.com/facebook-github-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25364969?s=40&v=4",
+          "name": "mdouze",
+          "url": "https://github.com/mdouze"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/20392406?s=40&v=4",
+          "name": "alibeklfc",
+          "url": "https://github.com/alibeklfc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1299134?s=40&v=4",
+          "name": "algoriddle",
+          "url": "https://github.com/algoriddle"
+        }
+      ]
+    },
     {
       "title": "google-deepmind/mujoco",
       "url": "https://github.com/google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "17,448",
-      "forks": "2,150",
-      "addStars": "456",
+      "stars": "17,601",
+      "forks": "2,162",
+      "addStars": "421",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/6387526?s=40&v=4",
@@ -42,66 +111,39 @@
       ]
     },
     {
-      "title": "orailnoor/cross-platform-llm-client",
-      "url": "https://github.com/orailnoor/cross-platform-llm-client",
-      "description": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
+      "title": "simdjson/simdjson",
+      "url": "https://github.com/simdjson/simdjson",
+      "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "2,136",
-      "forks": "419",
-      "addStars": "211",
+      "stars": "24,546",
+      "forks": "1,359",
+      "addStars": "21",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/54399984?s=40&v=4",
-          "name": "techjarves",
-          "url": "https://github.com/techjarves"
+          "avatar": "https://avatars.githubusercontent.com/u/391987?s=40&v=4",
+          "name": "lemire",
+          "url": "https://github.com/lemire"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/34442749?s=40&v=4",
-          "name": "orailnoor",
-          "url": "https://github.com/orailnoor"
+          "avatar": "https://avatars.githubusercontent.com/u/654882?s=40&v=4",
+          "name": "jkeiser",
+          "url": "https://github.com/jkeiser"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        }
-      ]
-    },
-    {
-      "title": "flameshot-org/flameshot",
-      "url": "https://github.com/flameshot-org/flameshot",
-      "description": "Powerful yet simple to use screenshot software 🖥️ 📸",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "31,504",
-      "forks": "2,097",
-      "addStars": "24",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46930769?s=40&v=4",
-          "name": "borgmanJeremy",
-          "url": "https://github.com/borgmanJeremy"
+          "avatar": "https://avatars.githubusercontent.com/u/37128715?s=40&v=4",
+          "name": "geofflangdale",
+          "url": "https://github.com/geofflangdale"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/14951430?s=40&v=4",
-          "name": "lupoDharkael",
-          "url": "https://github.com/lupoDharkael"
+          "avatar": "https://avatars.githubusercontent.com/u/3541498?s=40&v=4",
+          "name": "pauldreik",
+          "url": "https://github.com/pauldreik"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
-          "name": "weblate",
-          "url": "https://github.com/weblate"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15923484?s=40&v=4",
-          "name": "panpuchkov",
-          "url": "https://github.com/panpuchkov"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29044423?s=40&v=4",
-          "name": "veracioux",
-          "url": "https://github.com/veracioux"
+          "avatar": "https://avatars.githubusercontent.com/u/8302742?s=40&v=4",
+          "name": "FranciscoThiesen",
+          "url": "https://github.com/FranciscoThiesen"
         }
       ]
     },
@@ -111,8 +153,8 @@
       "description": "LLM inference in C/C++",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "133,984",
-      "forks": "25,355",
+      "stars": "134,072",
+      "forks": "25,400",
       "addStars": "120",
       "contributors": [
         {
@@ -143,71 +185,29 @@
       ]
     },
     {
-      "title": "deepseek-ai/3FS",
-      "url": "https://github.com/deepseek-ai/3FS",
-      "description": "A high-performance distributed file system designed to address the challenges of AI training and inference workloads.",
+      "title": "orailnoor/cross-platform-llm-client",
+      "url": "https://github.com/orailnoor/cross-platform-llm-client",
+      "description": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "10,449",
-      "forks": "1,153",
-      "addStars": "5",
+      "stars": "2,163",
+      "forks": "425",
+      "addStars": "211",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7477599?s=40&v=4",
-          "name": "SF-Zhou",
-          "url": "https://github.com/SF-Zhou"
+          "avatar": "https://avatars.githubusercontent.com/u/54399984?s=40&v=4",
+          "name": "techjarves",
+          "url": "https://github.com/techjarves"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/13906397?s=40&v=4",
-          "name": "yiyuanliu",
-          "url": "https://github.com/yiyuanliu"
+          "avatar": "https://avatars.githubusercontent.com/u/34442749?s=40&v=4",
+          "name": "orailnoor",
+          "url": "https://github.com/orailnoor"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/15710934?s=40&v=4",
-          "name": "huww98",
-          "url": "https://github.com/huww98"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3086004?s=40&v=4",
-          "name": "qieqieplus",
-          "url": "https://github.com/qieqieplus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10238125?s=40&v=4",
-          "name": "KuribohG",
-          "url": "https://github.com/KuribohG"
-        }
-      ]
-    },
-    {
-      "title": "noctalia-dev/umbriel",
-      "url": "https://github.com/noctalia-dev/umbriel",
-      "description": "A Wayland compositor designed for daily use, with scrolling, dwindle, master, and stacking layouts, per-output workspaces, window rules, blur, shadows, and fluid animations.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "1,608",
-      "forks": "121",
-      "addStars": "26",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2170677?s=40&v=4",
-          "name": "ItsLemmy",
-          "url": "https://github.com/ItsLemmy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/52084453?s=40&v=4",
-          "name": "Ly-sec",
-          "url": "https://github.com/Ly-sec"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/304616174?s=40&v=4",
-          "name": "Yocraft-2000",
-          "url": "https://github.com/Yocraft-2000"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66127592?s=40&v=4",
-          "name": "iamnitesh108",
-          "url": "https://github.com/iamnitesh108"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         }
       ]
     },
@@ -217,7 +217,7 @@
       "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "7,824",
+      "stars": "7,832",
       "forks": "462",
       "addStars": "25",
       "contributors": [
@@ -249,236 +249,113 @@
       ]
     },
     {
-      "title": "LibreSprite/LibreSprite",
-      "url": "https://github.com/LibreSprite/LibreSprite",
-      "description": "Animated sprite editor & pixel art tool -- Fork of the last GPLv2 commit of Aseprite",
+      "title": "mg-chao/snow-shot",
+      "url": "https://github.com/mg-chao/snow-shot",
+      "description": "Snow Shot is free, open-source screenshot software and a screen recording tool for Windows and macOS, with annotation, scrolling screenshots, offline OCR and image pinning. 免费开源截图软件，支持截图标注、滚动长截图、离线 OCR、贴图与录屏。",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "8,774",
-      "forks": "621",
-      "addStars": "10",
+      "stars": "6,943",
+      "forks": "449",
+      "addStars": "54",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/39654?s=40&v=4",
-          "name": "dacap",
-          "url": "https://github.com/dacap"
+          "avatar": "https://avatars.githubusercontent.com/u/87016106?s=40&v=4",
+          "name": "mg-chao",
+          "url": "https://github.com/mg-chao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11994138?s=40&v=4",
-          "name": "felipemanga",
-          "url": "https://github.com/felipemanga"
+          "avatar": "https://avatars.githubusercontent.com/u/75017711?s=40&v=4",
+          "name": "ayangweb",
+          "url": "https://github.com/ayangweb"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/25780951?s=40&v=4",
-          "name": "maujin111",
-          "url": "https://github.com/maujin111"
+          "avatar": "https://avatars.githubusercontent.com/u/182907634?s=40&v=4",
+          "name": "vladelaina",
+          "url": "https://github.com/vladelaina"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/63455151?s=40&v=4",
-          "name": "Zughy",
-          "url": "https://github.com/Zughy"
+          "avatar": "https://avatars.githubusercontent.com/u/7350620?s=40&v=4",
+          "name": "doumao",
+          "url": "https://github.com/doumao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1131371?s=40&v=4",
-          "name": "rautesamtr",
-          "url": "https://github.com/rautesamtr"
+          "avatar": "https://avatars.githubusercontent.com/u/32795958?s=40&v=4",
+          "name": "gaylong9",
+          "url": "https://github.com/gaylong9"
         }
       ]
     },
     {
-      "title": "dariulone/cyberpunk-vr-port",
-      "url": "https://github.com/dariulone/cyberpunk-vr-port",
-      "description": "",
+      "title": "alibaba/MNN",
+      "url": "https://github.com/alibaba/MNN",
+      "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "556",
-      "forks": "58",
-      "addStars": "8",
+      "stars": "16,495",
+      "forks": "2,521",
+      "addStars": "24",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/120137964?s=40&v=4",
-          "name": "dariulone",
-          "url": "https://github.com/dariulone"
+          "avatar": "https://avatars.githubusercontent.com/u/8401806?s=40&v=4",
+          "name": "wangzhaode",
+          "url": "https://github.com/wangzhaode"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4934309?s=40&v=4",
-          "name": "iPowerTech",
-          "url": "https://github.com/iPowerTech"
+          "avatar": "https://avatars.githubusercontent.com/u/58166196?s=40&v=4",
+          "name": "MNNTeam",
+          "url": "https://github.com/MNNTeam"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5484403?s=40&v=4",
+          "name": "jxt1234",
+          "url": "https://github.com/jxt1234"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10155763?s=40&v=4",
+          "name": "Yogayu",
+          "url": "https://github.com/Yogayu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2675838?s=40&v=4",
+          "name": "Juude",
+          "url": "https://github.com/Juude"
         }
       ]
     },
     {
-      "title": "mozilla-ai/llamafile",
-      "url": "https://github.com/mozilla-ai/llamafile",
-      "description": "Distribute and run LLMs with a single file.",
+      "title": "harry7557558/spirula-studio",
+      "url": "https://github.com/harry7557558/spirula-studio",
+      "description": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "26,612",
-      "forks": "1,675",
-      "addStars": "18",
+      "stars": "2,318",
+      "forks": "222",
+      "addStars": "23",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/49262?s=40&v=4",
-          "name": "jart",
-          "url": "https://github.com/jart"
+          "avatar": "https://avatars.githubusercontent.com/u/44143868?s=40&v=4",
+          "name": "harry7557558",
+          "url": "https://github.com/harry7557558"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4476645?s=40&v=4",
-          "name": "aittalam",
-          "url": "https://github.com/aittalam"
+          "avatar": "https://avatars.githubusercontent.com/u/77882176?s=40&v=4",
+          "name": "IAMSebyi",
+          "url": "https://github.com/IAMSebyi"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1559480?s=40&v=4",
-          "name": "cjpais",
-          "url": "https://github.com/cjpais"
+          "avatar": "https://avatars.githubusercontent.com/u/24575521?s=40&v=4",
+          "name": "debsahu",
+          "url": "https://github.com/debsahu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/42821?s=40&v=4",
-          "name": "stlhood",
-          "url": "https://github.com/stlhood"
+          "avatar": "https://avatars.githubusercontent.com/u/3869356?s=40&v=4",
+          "name": "ev5unleash",
+          "url": "https://github.com/ev5unleash"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        }
-      ]
-    },
-    {
-      "title": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "53,023",
-      "forks": "5,031",
-      "addStars": "367",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
-          "name": "oneandonlydean",
-          "url": "https://github.com/oneandonlydean"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
-          "name": "adriadam10",
-          "url": "https://github.com/adriadam10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67475268?s=40&v=4",
-          "name": "MarcZX10",
-          "url": "https://github.com/MarcZX10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
-          "name": "boykopovar",
-          "url": "https://github.com/boykopovar"
-        }
-      ]
-    },
-    {
-      "title": "moonlight-stream/moonlight-qt",
-      "url": "https://github.com/moonlight-stream/moonlight-qt",
-      "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "19,465",
-      "forks": "1,528",
-      "addStars": "26",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2695644?s=40&v=4",
-          "name": "cgutman",
-          "url": "https://github.com/cgutman"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5506073?s=40&v=4",
-          "name": "raidancampbell",
-          "url": "https://github.com/raidancampbell"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5084309?s=40&v=4",
-          "name": "jorys-paulin",
-          "url": "https://github.com/jorys-paulin"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42119227?s=40&v=4",
-          "name": "Kaitul",
-          "url": "https://github.com/Kaitul"
-        }
-      ]
-    },
-    {
-      "title": "notepad-plus-plus/notepad-plus-plus",
-      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
-      "description": "Notepad++ official repository",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "29,842",
-      "forks": "5,429",
-      "addStars": "12",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/90293?s=40&v=4",
-          "name": "donho",
-          "url": "https://github.com/donho"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55940305?s=40&v=4",
-          "name": "ozone10",
-          "url": "https://github.com/ozone10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13075183?s=40&v=4",
-          "name": "xomx",
-          "url": "https://github.com/xomx"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14791461?s=40&v=4",
-          "name": "SinghRajenM",
-          "url": "https://github.com/SinghRajenM"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12630740?s=40&v=4",
-          "name": "chcg",
-          "url": "https://github.com/chcg"
-        }
-      ]
-    },
-    {
-      "title": "YimMenu/YimMenuV2",
-      "url": "https://github.com/YimMenu/YimMenuV2",
-      "description": "Experimental menu for GTA 5: Enhanced",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "1,824",
-      "forks": "411",
-      "addStars": "2",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/96936658?s=40&v=4",
-          "name": "maybegreat48",
-          "url": "https://github.com/maybegreat48"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/110748953?s=40&v=4",
-          "name": "Mr-X-GTA",
-          "url": "https://github.com/Mr-X-GTA"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/18056374?s=40&v=4",
-          "name": "playday3008",
-          "url": "https://github.com/playday3008"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24372625?s=40&v=4",
-          "name": "Deadlineem",
-          "url": "https://github.com/Deadlineem"
+          "avatar": "https://avatars.githubusercontent.com/u/7759954?s=40&v=4",
+          "name": "MotivaCG",
+          "url": "https://github.com/MotivaCG"
         }
       ]
     },
@@ -488,33 +365,9 @@
       "description": "",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "6,726",
-      "forks": "538",
-      "addStars": "266",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "facebookresearch/faiss",
-      "url": "https://github.com/facebookresearch/faiss",
-      "description": "A library for efficient similarity search and clustering of dense vectors.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "41,374",
-      "forks": "4,596",
-      "addStars": "37",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "sapdragon/vac",
-      "url": "https://github.com/sapdragon/vac",
-      "description": "Valve Anti-Cheat (VAC) reconstructed in C++20, bugs and all.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "123",
-      "forks": "1",
-      "addStars": "32",
+      "stars": "7,188",
+      "forks": "615",
+      "addStars": "775",
       "contributors": [],
       "source": "trendshift"
     },
@@ -524,9 +377,9 @@
       "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "42,913",
-      "forks": "4,712",
-      "addStars": "85",
+      "stars": "43,127",
+      "forks": "4,753",
+      "addStars": "265",
       "contributors": [],
       "source": "trendshift"
     },
@@ -536,21 +389,33 @@
       "description": "VERY experimental Nintendo Switch 2 emulator",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "8,233",
-      "forks": "1,052",
-      "addStars": "73",
+      "stars": "8,384",
+      "forks": "1,100",
+      "addStars": "232",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "wynter-yaxley/atrium-desktop",
-      "url": "https://github.com/wynter-yaxley/atrium-desktop",
-      "description": "A native glass desktop for Windows 11: floating taskbar and desktop widgets with real-time refraction. Architecture review and verified feasibility probes.",
+      "title": "adrbn/bo2-mac",
+      "url": "https://github.com/adrbn/bo2-mac",
+      "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "191",
-      "forks": "14",
-      "addStars": "17",
+      "stars": "136",
+      "forks": "8",
+      "addStars": "66",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sapdragon/vac",
+      "url": "https://github.com/sapdragon/vac",
+      "description": "Valve Anti-Cheat (VAC) reconstructed in C++20, bugs and all.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "151",
+      "forks": "7",
+      "addStars": "64",
       "contributors": [],
       "source": "trendshift"
     },
@@ -560,9 +425,21 @@
       "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "504",
-      "forks": "31",
-      "addStars": "28",
+      "stars": "551",
+      "forks": "33",
+      "addStars": "68",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "201,506",
+      "forks": "81,368",
+      "addStars": "60",
       "contributors": [],
       "source": "trendshift"
     },
@@ -572,117 +449,9 @@
       "description": "Run real Linux kernel natively on iOS",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "266",
-      "forks": "23",
-      "addStars": "24",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "tangosdev/sm64ds-decomp",
-      "url": "https://github.com/tangosdev/sm64ds-decomp",
-      "description": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "248",
-      "forks": "34",
-      "addStars": "7",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "NuoRan/GameScrcpy",
-      "url": "https://github.com/NuoRan/GameScrcpy",
-      "description": "在 Windows 上用键盘、鼠标和手柄玩安卓手机游戏：低延迟投屏、键位映射、蓝图与 TypeScript 逻辑。Play Android games on Windows with a keyboard, a mouse and a gamepad.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "84",
-      "forks": "15",
-      "addStars": "11",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "DDDuoDuo/EndfieldHUD",
-      "url": "https://github.com/DDDuoDuo/EndfieldHUD",
-      "description": "A little bit of Arknights: Endfield on your computer. Open a layered, animated HUD from the menu bar for notes, files, music, game stats, and everyday tools.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "155",
-      "forks": "6",
-      "addStars": "12",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "2swap/swaptube",
-      "url": "https://github.com/2swap/swaptube",
-      "description": "youtube video renderer",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "1,819",
-      "forks": "82",
-      "addStars": "7",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "SerenityG4K/SpaceAnimalsRecomp",
-      "url": "https://github.com/SerenityG4K/SpaceAnimalsRecomp",
-      "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "22",
-      "forks": "0",
-      "addStars": "7",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "78/xiaozhi-esp32",
-      "url": "https://github.com/78/xiaozhi-esp32",
-      "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "33,028",
-      "forks": "7,756",
-      "addStars": "19",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "KytyPS5/KytyPS5",
-      "url": "https://github.com/KytyPS5/KytyPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "10,966",
-      "forks": "1,373",
-      "addStars": "18",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "TawhidI-602/The-House-of-the-Dead-ReWrithe",
-      "url": "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe",
-      "description": "The House of the Dead: ReWrithe - a rewrite of the arcade game and its 1998 PC port combined",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "100",
-      "forks": "6",
-      "addStars": "8",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "mihawk-99/PS5_Lichii",
-      "url": "https://github.com/mihawk-99/PS5_Lichii",
-      "description": "Experimental NS2 Emulator for the PS5",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "92",
-      "forks": "3",
-      "addStars": "6",
+      "stars": "307",
+      "forks": "31",
+      "addStars": "68",
       "contributors": [],
       "source": "trendshift"
     },
@@ -692,21 +461,129 @@
       "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "1,068",
-      "forks": "57",
-      "addStars": "11",
+      "stars": "1,105",
+      "forks": "59",
+      "addStars": "44",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "mg-chao/snow-shot",
-      "url": "https://github.com/mg-chao/snow-shot",
-      "description": "Snow Apps repository, providing source code for Snow Shot and Snow Image Viewer.",
+      "title": "LostRuins/koboldcpp",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "description": "KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "6,908",
-      "forks": "461",
-      "addStars": "13",
+      "stars": "12,251",
+      "forks": "879",
+      "addStars": "43",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "wynter-yaxley/atrium-desktop",
+      "url": "https://github.com/wynter-yaxley/atrium-desktop",
+      "description": "A native glass desktop for Windows 11: floating taskbar and desktop widgets with real-time refraction. Architecture review and verified feasibility probes.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "218",
+      "forks": "16",
+      "addStars": "39",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DDDuoDuo/EndfieldHUD",
+      "url": "https://github.com/DDDuoDuo/EndfieldHUD",
+      "description": "A little bit of Arknights: Endfield on your computer. Open a layered, animated HUD from the menu bar for notes, files, music, game stats, and everyday tools.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "178",
+      "forks": "6",
+      "addStars": "35",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Dittobyte/Recompia",
+      "url": "https://github.com/Dittobyte/Recompia",
+      "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "614",
+      "forks": "28",
+      "addStars": "51",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "78/xiaozhi-esp32",
+      "url": "https://github.com/78/xiaozhi-esp32",
+      "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "33,062",
+      "forks": "7,756",
+      "addStars": "55",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "SerenityG4K/SpaceAnimalsRecomp",
+      "url": "https://github.com/SerenityG4K/SpaceAnimalsRecomp",
+      "description": "StarFox Remake [recompiled]: static recompilation of Star Fox (Nintendo Switch 2) into a native Windows app, built on your PC from your own copy. No game files included.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "38",
+      "forks": "0",
+      "addStars": "25",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "laobamac/MirageWallpaper",
+      "url": "https://github.com/laobamac/MirageWallpaper",
+      "description": "The most perfect live wallpaper engine for macOS, supporting web/video/scene wallpaper",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "496",
+      "forks": "28",
+      "addStars": "25",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "JakeATX/llamAmpere",
+      "url": "https://github.com/JakeATX/llamAmpere",
+      "description": "llama.cpp fork for significantly improved performance on Ampere generation Nvidia cards (especially RTX 3090 / 3090 Ti): example: 110+ tok/s over a 100K-token generation at temperature 1 for qwen3.8, supporting full 262K ctx. Supports low memory (12gb) configs for 200k+ ctx",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "341",
+      "forks": "40",
+      "addStars": "30",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "TawhidI-602/The-House-of-the-Dead-ReWrithe",
+      "url": "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe",
+      "description": "The House of the Dead: ReWrithe - a rewrite of the arcade game and its 1998 PC port combined",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "120",
+      "forks": "7",
+      "addStars": "24",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "KytyPS5/KytyPS5",
+      "url": "https://github.com/KytyPS5/KytyPS5",
+      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "10,997",
+      "forks": "1,383",
+      "addStars": "47",
       "contributors": [],
       "source": "trendshift"
     },
@@ -716,21 +593,21 @@
       "description": "Share a single keyboard and mouse between multiple computers.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "30,884",
+      "stars": "30,913",
       "forks": "3,369",
-      "addStars": "13",
+      "addStars": "44",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "canonical/multipass",
-      "url": "https://github.com/canonical/multipass",
-      "description": "Multipass orchestrates virtual Ubuntu instances",
+      "title": "Atmosphere-NX/Atmosphere",
+      "url": "https://github.com/Atmosphere-NX/Atmosphere",
+      "description": "Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "9,360",
-      "forks": "854",
-      "addStars": "6",
+      "stars": "20,340",
+      "forks": "1,433",
+      "addStars": "20",
       "contributors": [],
       "source": "trendshift"
     }

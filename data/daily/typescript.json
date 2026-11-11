@@ -2,7 +2,7 @@
   "title": "GitHub Typescript Languages Daily Trending",
   "description": "Daily Trending of Typescript Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 11 Nov 2026 04:40:31 GMT",
+  "pubDate": "Wed, 11 Nov 2026 15:50:48 GMT",
   "items": [
     {
       "title": "meta/astryx",
@@ -10,9 +10,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "23,389",
-      "forks": "1,846",
-      "addStars": "3,108",
+      "stars": "24,481",
+      "forks": "1,914",
+      "addStars": "2,842",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/2781099?s=40&v=4",
@@ -37,14 +37,78 @@
       ]
     },
     {
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,545",
+      "forks": "132",
+      "addStars": "133",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39191?s=40&v=4",
+          "name": "paulirish",
+          "url": "https://github.com/paulirish"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1120896?s=40&v=4",
+          "name": "rviscomi",
+          "url": "https://github.com/rviscomi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/126118814?s=40&v=4",
+          "name": "micahjo7",
+          "url": "https://github.com/micahjo7"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/326742?s=40&v=4",
+          "name": "philipwalton",
+          "url": "https://github.com/philipwalton"
+        }
+      ]
+    },
+    {
+      "title": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "11,513",
+      "forks": "917",
+      "addStars": "20",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/269034524?s=40&v=4",
+          "name": "mldangelo-oai",
+          "url": "https://github.com/mldangelo-oai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "name": "codex",
+          "url": "https://github.com/codex"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/269041055?s=40&v=4",
+          "name": "ianw-oai",
+          "url": "https://github.com/ianw-oai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/272643392?s=40&v=4",
+          "name": "kmbroai",
+          "url": "https://github.com/kmbroai"
+        }
+      ]
+    },
+    {
       "title": "ranxianglei/billion-context",
       "url": "https://github.com/ranxianglei/billion-context",
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "6,455",
-      "forks": "535",
-      "addStars": "375",
+      "stars": "6,761",
+      "forks": "550",
+      "addStars": "756",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&v=4",
@@ -69,188 +133,13 @@
       ]
     },
     {
-      "title": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "20,776",
-      "forks": "2,886",
-      "addStars": "1,096",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
-          "name": "milind-soni",
-          "url": "https://github.com/milind-soni"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
-          "name": "aivsomkar",
-          "url": "https://github.com/aivsomkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
-          "name": "AdityaUmale",
-          "url": "https://github.com/AdityaUmale"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
-          "name": "robinsonnblack",
-          "url": "https://github.com/robinsonnblack"
-        }
-      ]
-    },
-    {
-      "title": "garrytan/gbrain",
-      "url": "https://github.com/garrytan/gbrain",
-      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "32,555",
-      "forks": "4,849",
-      "addStars": "462",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&v=4",
-          "name": "garrytan",
-          "url": "https://github.com/garrytan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/89218912?s=40&v=4",
-          "name": "time-attack",
-          "url": "https://github.com/time-attack"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98894508?s=40&v=4",
-          "name": "Masashi-Ono0611",
-          "url": "https://github.com/Masashi-Ono0611"
-        }
-      ]
-    },
-    {
-      "title": "every-app/open-seo",
-      "url": "https://github.com/every-app/open-seo",
-      "description": "Open source alternative to Semrush and Ahrefs",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "27,228",
-      "forks": "3,787",
-      "addStars": "141",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&v=4",
-          "name": "bensenescu",
-          "url": "https://github.com/bensenescu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/51297686?s=40&v=4",
-          "name": "carterwsmith",
-          "url": "https://github.com/carterwsmith"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/287046313?s=40&v=4",
-          "name": "jeremypenguin-max",
-          "url": "https://github.com/jeremypenguin-max"
-        }
-      ]
-    },
-    {
-      "title": "mantrakp04/ardia",
-      "url": "https://github.com/mantrakp04/ardia",
-      "description": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "1,653",
-      "forks": "225",
-      "addStars": "64",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/87142457?s=40&v=4",
-          "name": "mantrakp04",
-          "url": "https://github.com/mantrakp04"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/61931072?s=40&v=4",
-          "name": "narasaka",
-          "url": "https://github.com/narasaka"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/79391172?s=40&v=4",
-          "name": "TechSupportz",
-          "url": "https://github.com/TechSupportz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3771248?s=40&v=4",
-          "name": "LuisUrrutia",
-          "url": "https://github.com/LuisUrrutia"
-        }
-      ]
-    },
-    {
-      "title": "WhiteTowerAI/ohmygame",
-      "url": "https://github.com/WhiteTowerAI/ohmygame",
-      "description": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas. Bring your own key.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "2,051",
-      "forks": "259",
-      "addStars": "170",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/57213566?s=40&v=4",
-          "name": "dihuangdh",
-          "url": "https://github.com/dihuangdh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/106546046?s=40&v=4",
-          "name": "dogxii",
-          "url": "https://github.com/dogxii"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/226252692?s=40&v=4",
-          "name": "xinyang6879",
-          "url": "https://github.com/xinyang6879"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/178460854?s=40&v=4",
-          "name": "82228",
-          "url": "https://github.com/82228"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        }
-      ]
-    },
-    {
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "10,014",
-      "forks": "758",
+      "stars": "10,039",
+      "forks": "761",
       "addStars": "51",
       "contributors": [
         {
@@ -281,98 +170,39 @@
       ]
     },
     {
-      "title": "upscayl/upscayl",
-      "url": "https://github.com/upscayl/upscayl",
-      "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "title": "WhiteTowerAI/ohmygame",
+      "url": "https://github.com/WhiteTowerAI/ohmygame",
+      "description": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas. Bring your own key.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "52,197",
-      "forks": "2,737",
-      "addStars": "82",
+      "stars": "2,096",
+      "forks": "264",
+      "addStars": "170",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/25067102?s=40&v=4",
-          "name": "NayamAmarshe",
-          "url": "https://github.com/NayamAmarshe"
+          "avatar": "https://avatars.githubusercontent.com/u/57213566?s=40&v=4",
+          "name": "dihuangdh",
+          "url": "https://github.com/dihuangdh"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11874211?s=40&v=4",
-          "name": "aaronliu0130",
-          "url": "https://github.com/aaronliu0130"
+          "avatar": "https://avatars.githubusercontent.com/u/106546046?s=40&v=4",
+          "name": "dogxii",
+          "url": "https://github.com/dogxii"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/46394656?s=40&v=4",
-          "name": "TGS963",
-          "url": "https://github.com/TGS963"
+          "avatar": "https://avatars.githubusercontent.com/u/226252692?s=40&v=4",
+          "name": "xinyang6879",
+          "url": "https://github.com/xinyang6879"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/17238959?s=40&v=4",
-          "name": "Danik1601",
-          "url": "https://github.com/Danik1601"
-        }
-      ]
-    },
-    {
-      "title": "a-ghorbani/pocketpal-ai",
-      "url": "https://github.com/a-ghorbani/pocketpal-ai",
-      "description": "An app that brings language models directly to your phone.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "9,197",
-      "forks": "1,069",
-      "addStars": "43",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11278140?s=40&v=4",
-          "name": "a-ghorbani",
-          "url": "https://github.com/a-ghorbani"
+          "avatar": "https://avatars.githubusercontent.com/u/178460854?s=40&v=4",
+          "name": "82228",
+          "url": "https://github.com/82228"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
-          "name": "actions-user",
-          "url": "https://github.com/actions-user"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81525287?s=40&v=4",
-          "name": "Kuzmich55",
-          "url": "https://github.com/Kuzmich55"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
-          "name": "weblate",
-          "url": "https://github.com/weblate"
-        }
-      ]
-    },
-    {
-      "title": "fosrl/pangolin",
-      "url": "https://github.com/fosrl/pangolin",
-      "description": "Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "23,569",
-      "forks": "828",
-      "addStars": "108",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4999704?s=40&v=4",
-          "name": "oschwartz10612",
-          "url": "https://github.com/oschwartz10612"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6850869?s=40&v=4",
-          "name": "miloschwartz",
-          "url": "https://github.com/miloschwartz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38298743?s=40&v=4",
-          "name": "Fredkiss3",
-          "url": "https://github.com/Fredkiss3"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/127591405?s=40&v=4",
-          "name": "Lokowitz",
-          "url": "https://github.com/Lokowitz"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         }
       ]
     },
@@ -382,8 +212,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "8,729",
-      "forks": "1,054",
+      "stars": "8,737",
+      "forks": "1,056",
       "addStars": "12",
       "contributors": [
         {
@@ -414,14 +244,378 @@
       ]
     },
     {
-      "title": "sneg55/warpdrive",
-      "url": "https://github.com/sneg55/warpdrive",
-      "description": "Open-source alternative to Pipedrive, self-hosted business-development CRM",
+      "title": "ever-co/ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "909",
-      "forks": "13",
-      "addStars": "130",
+      "stars": "8,775",
+      "forks": "1,337",
+      "addStars": "30",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/118497?s=40&v=4",
+          "name": "evereq",
+          "url": "https://github.com/evereq"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/41804588?s=40&v=4",
+          "name": "rahul-rocket",
+          "url": "https://github.com/rahul-rocket"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/45813955?s=40&v=4",
+          "name": "adkif",
+          "url": "https://github.com/adkif"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/40795644?s=40&v=4",
+          "name": "AlexTasev",
+          "url": "https://github.com/AlexTasev"
+        }
+      ]
+    },
+    {
+      "title": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "32,657",
+      "forks": "4,866",
+      "addStars": "462",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&v=4",
+          "name": "garrytan",
+          "url": "https://github.com/garrytan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/89218912?s=40&v=4",
+          "name": "time-attack",
+          "url": "https://github.com/time-attack"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/98894508?s=40&v=4",
+          "name": "Masashi-Ono0611",
+          "url": "https://github.com/Masashi-Ono0611"
+        }
+      ]
+    },
+    {
+      "title": "LibreSpark/LibreTV",
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "24,437",
+      "forks": "31,128",
+      "addStars": "204",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/110226580?s=40&v=4",
+          "name": "bestZwei",
+          "url": "https://github.com/bestZwei"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/155552943?s=40&v=4",
+          "name": "senshinya",
+          "url": "https://github.com/senshinya"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/89735151?s=40&v=4",
+          "name": "JohnsonRan",
+          "url": "https://github.com/JohnsonRan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12743204?s=40&v=4",
+          "name": "WLongSAMA",
+          "url": "https://github.com/WLongSAMA"
+        }
+      ]
+    },
+    {
+      "title": "nab138/iloader",
+      "url": "https://github.com/nab138/iloader",
+      "description": "User friendly sideloader",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "4,782",
+      "forks": "365",
+      "addStars": "76",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/56705177?s=40&v=4",
+          "name": "nab138",
+          "url": "https://github.com/nab138"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174910454?s=40&v=4",
+          "name": "okinaau",
+          "url": "https://github.com/okinaau"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/110660302?s=40&v=4",
+          "name": "baocreata",
+          "url": "https://github.com/baocreata"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/151872490?s=40&v=4",
+          "name": "se2crid",
+          "url": "https://github.com/se2crid"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/195480169?s=40&v=4",
+          "name": "CelloSerenity",
+          "url": "https://github.com/CelloSerenity"
+        }
+      ]
+    },
+    {
+      "title": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "23,170",
+      "forks": "1,960",
+      "addStars": "128",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14025786?s=40&v=4",
+          "name": "jikkai",
+          "url": "https://github.com/jikkai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68851825?s=40&v=4",
+          "name": "DR-Univer",
+          "url": "https://github.com/DR-Univer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26315959?s=40&v=4",
+          "name": "wpxp123456",
+          "url": "https://github.com/wpxp123456"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12122021?s=40&v=4",
+          "name": "wzhudev",
+          "url": "https://github.com/wzhudev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26371161?s=40&v=4",
+          "name": "Dushusir",
+          "url": "https://github.com/Dushusir"
+        }
+      ]
+    },
+    {
+      "title": "NapNeko/NapCatQQ",
+      "url": "https://github.com/NapNeko/NapCatQQ",
+      "description": "Modern protocol-side framework based on NTQQ",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "12,684",
+      "forks": "1,706",
+      "addStars": "141",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61873808?s=40&v=4",
+          "name": "MliKiowa",
+          "url": "https://github.com/MliKiowa"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25684570?s=40&v=4",
+          "name": "Wesley-Young",
+          "url": "https://github.com/Wesley-Young"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43831609?s=40&v=4",
+          "name": "bietiaop",
+          "url": "https://github.com/bietiaop"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10002169?s=40&v=4",
+          "name": "linyuchen",
+          "url": "https://github.com/linyuchen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/114645197?s=40&v=4",
+          "name": "pk5ls20",
+          "url": "https://github.com/pk5ls20"
+        }
+      ]
+    },
+    {
+      "title": "OpenCTI-Platform/opencti",
+      "url": "https://github.com/OpenCTI-Platform/opencti",
+      "description": "Open Cyber Threat Intelligence Platform",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "10,336",
+      "forks": "1,508",
+      "addStars": "40",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1334279?s=40&v=4",
+          "name": "SamuelHassine",
+          "url": "https://github.com/SamuelHassine"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/285555?s=40&v=4",
+          "name": "richard-julien",
+          "url": "https://github.com/richard-julien"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/75783086?s=40&v=4",
+          "name": "Archidoit",
+          "url": "https://github.com/Archidoit"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/130652934?s=40&v=4",
+          "name": "Filigran-Automation",
+          "url": "https://github.com/Filigran-Automation"
+        }
+      ]
+    },
+    {
+      "title": "tss878/delta-executor-toolkit",
+      "url": "https://github.com/tss878/delta-executor-toolkit",
+      "description": "Delta Executor for PC: Full Working Installer with All Tools Pre-Configured",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,128",
+      "forks": "0",
+      "addStars": "732",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sghnnnn01212-cmyk/data-grip-desktop",
+      "url": "https://github.com/sghnnnn01212-cmyk/data-grip-desktop",
+      "description": "Data-Grip 2026: Complete Standalone Desktop Utility for Efficient Data Management",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "930",
+      "forks": "0",
+      "addStars": "712",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "RolandoV3/metatrader-5-bot",
+      "url": "https://github.com/RolandoV3/metatrader-5-bot",
+      "description": "Community-driven MetaTrader 5 bot with full features ready for desktop use",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,036",
+      "forks": "0",
+      "addStars": "602",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "rdeepak-wq121/quicken-deluxe-installer",
+      "url": "https://github.com/rdeepak-wq121/quicken-deluxe-installer",
+      "description": "Quicken Deluxe Desktop Installer with Full Feature Set Enabled",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,034",
+      "forks": "0",
+      "addStars": "581",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Marcian15350/robux-generator-enhancement",
+      "url": "https://github.com/Marcian15350/robux-generator-enhancement",
+      "description": "Robux-Generator: Full Installer, All Features Activated, Desktop-Ready",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,034",
+      "forks": "0",
+      "addStars": "576",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "SK-Dev666/rust-external-trainer-tool",
+      "url": "https://github.com/SK-Dev666/rust-external-trainer-tool",
+      "description": "Rust External 2026: Full Standalone Trainer Setup, Tools and Dependencies Ready to Run",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,034",
+      "forks": "0",
+      "addStars": "570",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ebtsamalhakmy-sketch/desktop-backup-suite",
+      "url": "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite",
+      "description": "Aomei Backupper 2026: Full-Feature Desktop Backup and Recovery Suite",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "951",
+      "forks": "0",
+      "addStars": "566",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ethangangasingh-crypto/musicmakerunlimited",
+      "url": "https://github.com/ethangangasingh-crypto/musicmakerunlimited",
+      "description": "Musicmakerunlimited 2026: Full-Feature Desktop Installer with Complete Toolset",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,034",
+      "forks": "0",
+      "addStars": "565",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "utkarshryanite25-a11y/sony-vegas-pro-desktop",
+      "url": "https://github.com/utkarshryanite25-a11y/sony-vegas-pro-desktop",
+      "description": "Sony Vegas Pro 2026 standalone setup with pre-installed professional video editing and VFX tools",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,034",
+      "forks": "0",
+      "addStars": "562",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "uchihamx999-beep/imei-repair-toolkit",
+      "url": "https://github.com/uchihamx999-beep/imei-repair-toolkit",
+      "description": "IMEI Repair 2026: Standalone Installer and Complete Setup for Device Repair Solutions",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "1,033",
+      "forks": "0",
+      "addStars": "548",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Paulinho182/hitfilm-desktop-installer",
+      "url": "https://github.com/Paulinho182/hitfilm-desktop-installer",
+      "description": "HitFilm: Fully Featured Desktop Video Editing and VFX Suite",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "862",
+      "forks": "1",
+      "addStars": "433",
       "contributors": [],
       "source": "trendshift"
     },
@@ -431,57 +625,9 @@
       "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "121,569",
-      "forks": "8,477",
-      "addStars": "231",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "450,304",
-      "forks": "111,961",
-      "addStars": "612",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "alexeyw/lot-map",
-      "url": "https://github.com/alexeyw/lot-map",
-      "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in five languages.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "97",
-      "forks": "6",
-      "addStars": "56",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "luobinger/PerkRadar",
-      "url": "https://github.com/luobinger/PerkRadar",
-      "description": "PerkRadar — A self-hosted deals aggregator that fetches freebies, limited-time offers, and discounts from multiple sources every two hours, with source status tracking, expiration handling, and personal bookmarks.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "311",
-      "forks": "4",
-      "addStars": "73",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "deepseek-ai/deepseek-harness",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "278,299",
-      "forks": "36,525",
-      "addStars": "184",
+      "stars": "122,089",
+      "forks": "8,552",
+      "addStars": "683",
       "contributors": [],
       "source": "trendshift"
     },
@@ -491,21 +637,45 @@
       "description": "Open Source Slack and Campfire inspired chat with one click deploy to Cloudflare.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "700",
-      "forks": "23",
-      "addStars": "97",
+      "stars": "858",
+      "forks": "73",
+      "addStars": "263",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "description": "",
+      "title": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "55,877",
-      "forks": "11,369",
-      "addStars": "247",
+      "stars": "278,815",
+      "forks": "36,671",
+      "addStars": "641",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "451,822",
+      "forks": "112,485",
+      "addStars": "1,943",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "29,406",
+      "forks": "3,583",
+      "addStars": "234",
       "contributors": [],
       "source": "trendshift"
     },
@@ -515,165 +685,69 @@
       "description": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "199",
-      "forks": "0",
-      "addStars": "52",
+      "stars": "358",
+      "forks": "43",
+      "addStars": "217",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "LNPANDY/HGhub-MacOS-iOS-Version",
-      "url": "https://github.com/LNPANDY/HGhub-MacOS-iOS-Version",
-      "description": "HGhub 跨平台客户端 (macOS & iOS 增强版) · 支持 Apple Silicon / Intel 双架构 DMG 与 iOS 免签 IPA · 沉浸式刷剧 / 手势缩放 / 原生横屏全屏 / 多线路镜像测速",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "258",
-      "forks": "46",
-      "addStars": "41",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "hypit-ai/hypit",
-      "url": "https://github.com/hypit-ai/hypit",
-      "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "29,139",
-      "forks": "3,662",
-      "addStars": "90",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "115,872",
-      "forks": "10,578",
-      "addStars": "100",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "82,359",
-      "forks": "7,873",
-      "addStars": "96",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "200,578",
-      "forks": "10,982",
-      "addStars": "88",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "title": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "1,341",
-      "forks": "117",
-      "addStars": "33",
+      "stars": "56,527",
+      "forks": "11,537",
+      "addStars": "834",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "nukeratframework/nukerat",
-      "url": "https://github.com/nukeratframework/nukerat",
-      "description": "A post exploitation framework for advanced Red Team operations",
+      "title": "alexeyw/lot-map",
+      "url": "https://github.com/alexeyw/lot-map",
+      "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in five languages.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "127",
-      "forks": "12",
-      "addStars": "28",
+      "stars": "240",
+      "forks": "23",
+      "addStars": "184",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "amosblomqvist/learnharness",
-      "url": "https://github.com/amosblomqvist/learnharness",
-      "description": "Agent harness for learning difficult things.",
+      "title": "xmwengxing/CFPilot",
+      "url": "https://github.com/xmwengxing/CFPilot",
+      "description": "Cloudflare Workers 代理微内核 · 真连接优选面板 · 一键部署（VLESS/Trojan/XHTTP + 优选订阅 + 本地真连接优选器 + 中文部署向导）",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "8,371",
-      "forks": "1,144",
-      "addStars": "91",
+      "stars": "184",
+      "forks": "3",
+      "addStars": "171",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "title": "luobinger/PerkRadar",
+      "url": "https://github.com/luobinger/PerkRadar",
+      "description": "PerkRadar — A self-hosted deals aggregator that fetches freebies, limited-time offers, and discounts from multiple sources every two hours, with source status tracking, expiration handling, and personal bookmarks.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "50,341",
-      "forks": "7,304",
-      "addStars": "85",
+      "stars": "402",
+      "forks": "54",
+      "addStars": "142",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "DmNote-App/DmNote",
-      "url": "https://github.com/DmNote-App/DmNote",
-      "description": "Make it yours. A customizable key viewer for DJMAX RESPECT V and any game.",
+      "title": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "4,238",
-      "forks": "476",
-      "addStars": "42",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "egoist/tinytraffic",
-      "url": "https://github.com/egoist/tinytraffic",
-      "description": "self-host web analytics in a single binary",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "134",
-      "forks": "0",
-      "addStars": "27",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "SonicloudTech/mouse-mcp",
-      "url": "https://github.com/SonicloudTech/mouse-mcp",
-      "description": "Hardware mouse MCP server for AI agents on Windows x64. USB HID control and voice dictation; requires compatible uMouse hardware and firmware. 面向 AI 智能体的硬件鼠标 MCP：USB HID 控制与语音听写，需要兼容的 uMouse 设备与固件。",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "215",
-      "forks": "1",
-      "addStars": "29",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "23,066",
-      "forks": "2,030",
-      "addStars": "35",
+      "stars": "10,962",
+      "forks": "1,438",
+      "addStars": "198",
       "contributors": [],
       "source": "trendshift"
     }

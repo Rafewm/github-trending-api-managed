@@ -2,7 +2,7 @@
   "title": "GitHub Javascript Languages Monthly Trending",
   "description": "Monthly Trending of Javascript Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 11 Nov 2026 04:40:31 GMT",
+  "pubDate": "Wed, 11 Nov 2026 15:50:48 GMT",
   "items": [
     {
       "title": "cloudflare/security-audit-skill",
@@ -10,8 +10,8 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "69,514",
-      "forks": "4,593",
+      "stars": "70,005",
+      "forks": "4,641",
       "addStars": "41,811",
       "contributors": [
         {
@@ -32,13 +32,50 @@
       ]
     },
     {
+      "title": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "113,361",
+      "forks": "7,633",
+      "addStars": "19,249",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/219127460?s=40&v=4",
+          "name": "Leonxlnx",
+          "url": "https://github.com/Leonxlnx"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "name": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/122161868?s=40&v=4",
+          "name": "HugoSpy",
+          "url": "https://github.com/HugoSpy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/36102904?s=40&v=4",
+          "name": "bougieL",
+          "url": "https://github.com/bougieL"
+        }
+      ]
+    },
+    {
       "title": "rorygallagher2024/glasshouse",
       "url": "https://github.com/rorygallagher2024/glasshouse",
       "description": "For rooted LG webOS TVs: a live dashboard, privacy control, debloating, an ad & telemetry blocker, replacement home screen, and custom screensavers. Runs on the TV itself. Includes an optional Home Assistant MQTT bridge for smart home control.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "2,051",
-      "forks": "125",
+      "stars": "2,061",
+      "forks": "126",
       "addStars": "1,486",
       "contributors": [
         {
@@ -69,12 +106,49 @@
       ]
     },
     {
+      "title": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "22,538",
+      "forks": "1,276",
+      "addStars": "5,474",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22140958?s=40&v=4",
+          "name": "section9-lab",
+          "url": "https://github.com/section9-lab"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8353464?s=40&v=4",
+          "name": "joway",
+          "url": "https://github.com/joway"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17873165?s=40&v=4",
+          "name": "aute",
+          "url": "https://github.com/aute"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/77671587?s=40&v=4",
+          "name": "WUXM5",
+          "url": "https://github.com/WUXM5"
+        }
+      ]
+    },
+    {
       "title": "michael-denyer/pstack-claude",
       "url": "https://github.com/michael-denyer/pstack-claude",
       "description": "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "4,218",
+      "stars": "4,232",
       "forks": "387",
       "addStars": "2,469",
       "contributors": [
@@ -106,82 +180,13 @@
       ]
     },
     {
-      "title": "citrolabs/ego-lite",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "22,468",
-      "forks": "1,274",
-      "addStars": "5,474",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22140958?s=40&v=4",
-          "name": "section9-lab",
-          "url": "https://github.com/section9-lab"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8353464?s=40&v=4",
-          "name": "joway",
-          "url": "https://github.com/joway"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17873165?s=40&v=4",
-          "name": "aute",
-          "url": "https://github.com/aute"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/77671587?s=40&v=4",
-          "name": "WUXM5",
-          "url": "https://github.com/WUXM5"
-        }
-      ]
-    },
-    {
-      "title": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "33,830",
-      "forks": "2,322",
-      "addStars": "7,742",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-          "name": "mksglu",
-          "url": "https://github.com/mksglu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-          "name": "ipedro",
-          "url": "https://github.com/ipedro"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "name": "ousamabenyounes",
-          "url": "https://github.com/ousamabenyounes"
-        }
-      ]
-    },
-    {
       "title": "mrdoob/three.js",
       "url": "https://github.com/mrdoob/three.js",
       "description": "JavaScript 3D Library.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "118,099",
-      "forks": "36,944",
+      "stars": "118,150",
+      "forks": "36,947",
       "addStars": "1,997",
       "contributors": [
         {
@@ -217,8 +222,8 @@
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "39,295",
-      "forks": "2,830",
+      "stars": "39,390",
+      "forks": "2,833",
       "addStars": "18,213",
       "contributors": [
         {
@@ -249,50 +254,13 @@
       ]
     },
     {
-      "title": "withmarbleapp/os-taxonomy",
-      "url": "https://github.com/withmarbleapp/os-taxonomy",
-      "description": "",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "7,664",
-      "forks": "1,247",
-      "addStars": "2,930",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2501329?s=40&v=4",
-          "name": "guillaumeboniface",
-          "url": "https://github.com/guillaumeboniface"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/262926223?s=40&v=4",
-          "name": "lauramionel",
-          "url": "https://github.com/lauramionel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5299031?s=40&v=4",
-          "name": "kevin9327",
-          "url": "https://github.com/kevin9327"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/166712943?s=40&v=4",
-          "name": "Aliciawque",
-          "url": "https://github.com/Aliciawque"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/218489957?s=40&v=4",
-          "name": "ShiroKSH",
-          "url": "https://github.com/ShiroKSH"
-        }
-      ]
-    },
-    {
       "title": "DuarteSantos8/openGym",
       "url": "https://github.com/DuarteSantos8/openGym",
       "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "20,833",
-      "forks": "2,803",
+      "stars": "20,925",
+      "forks": "2,814",
       "addStars": "11,693",
       "contributors": [
         {
@@ -328,8 +296,8 @@
       "description": "List of Permanent Free LLM API (API Keys)",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "12,858",
-      "forks": "1,529",
+      "stars": "12,900",
+      "forks": "1,537",
       "addStars": "3,164",
       "contributors": [
         {
@@ -355,13 +323,45 @@
       ]
     },
     {
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "33,874",
+      "forks": "2,323",
+      "addStars": "7,742",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
+          "name": "mksglu",
+          "url": "https://github.com/mksglu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
+          "name": "ipedro",
+          "url": "https://github.com/ipedro"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
+          "name": "ousamabenyounes",
+          "url": "https://github.com/ousamabenyounes"
+        }
+      ]
+    },
+    {
       "title": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "300,883",
-      "forks": "44,406",
+      "stars": "301,147",
+      "forks": "44,433",
       "addStars": "25,762",
       "contributors": [
         {
@@ -392,8 +392,8 @@
       "description": "🎆Interactive Online Platform that Visualizes Algorithms from Code",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "49,470",
-      "forks": "7,657",
+      "stars": "49,477",
+      "forks": "7,658",
       "addStars": "659",
       "contributors": [
         {
@@ -429,8 +429,8 @@
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "252,510",
-      "forks": "52,250",
+      "stars": "252,468",
+      "forks": "52,320",
       "addStars": "3,363",
       "contributors": [
         {
@@ -466,9 +466,9 @@
       "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "13,773",
-      "forks": "752",
-      "addStars": "10,423",
+      "stars": "14,184",
+      "forks": "786",
+      "addStars": "10,803",
       "contributors": [],
       "source": "trendshift"
     },
@@ -478,9 +478,9 @@
       "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "6,706",
-      "forks": "865",
-      "addStars": "5,316",
+      "stars": "6,861",
+      "forks": "893",
+      "addStars": "5,484",
       "contributors": [],
       "source": "trendshift"
     },
@@ -490,9 +490,9 @@
       "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "68,777",
-      "forks": "1,940",
-      "addStars": "14,563",
+      "stars": "69,555",
+      "forks": "1,973",
+      "addStars": "15,258",
       "contributors": [],
       "source": "trendshift"
     },
@@ -502,9 +502,9 @@
       "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "2,982",
-      "forks": "449",
-      "addStars": "2,614",
+      "stars": "3,069",
+      "forks": "464",
+      "addStars": "2,686",
       "contributors": [],
       "source": "trendshift"
     },
@@ -514,9 +514,33 @@
       "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "3,454",
-      "forks": "271",
-      "addStars": "2,650",
+      "stars": "3,475",
+      "forks": "273",
+      "addStars": "2,680",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "188,757",
+      "forks": "11,098",
+      "addStars": "7,297",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DeanChensj/jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 164 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "5,377",
+      "forks": "632",
+      "addStars": "3,311",
       "contributors": [],
       "source": "trendshift"
     },
@@ -533,50 +557,14 @@
       "source": "trendshift"
     },
     {
-      "title": "DeanChensj/jiangshan-map",
-      "url": "https://github.com/DeanChensj/jiangshan-map",
-      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 164 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "5,268",
-      "forks": "612",
-      "addStars": "3,232",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "188,434",
-      "forks": "11,036",
-      "addStars": "6,972",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "113,042",
-      "forks": "7,989",
-      "addStars": "6,035",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "lemomo-ai/lemo-opuscar",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "14,531",
-      "forks": "1,738",
-      "addStars": "4,425",
+      "stars": "14,676",
+      "forks": "1,782",
+      "addStars": "4,597",
       "contributors": [],
       "source": "trendshift"
     },
@@ -586,9 +574,9 @@
       "description": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "6,620",
-      "forks": "2,848",
-      "addStars": "2,774",
+      "stars": "6,817",
+      "forks": "2,973",
+      "addStars": "3,007",
       "contributors": [],
       "source": "trendshift"
     },
@@ -598,9 +586,9 @@
       "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "9,198",
-      "forks": "547",
-      "addStars": "3,091",
+      "stars": "9,227",
+      "forks": "552",
+      "addStars": "3,118",
       "contributors": [],
       "source": "trendshift"
     },
@@ -610,9 +598,9 @@
       "description": "",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "2,008",
-      "forks": "1,087",
-      "addStars": "1,840",
+      "stars": "2,018",
+      "forks": "1,095",
+      "addStars": "1,848",
       "contributors": [],
       "source": "trendshift"
     },
@@ -629,26 +617,26 @@
       "source": "trendshift"
     },
     {
-      "title": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "24,218",
-      "forks": "8,320",
-      "addStars": "2,441",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "DhvanilPatel/swarm-cursors",
       "url": "https://github.com/DhvanilPatel/swarm-cursors",
       "description": "",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "2,779",
+      "stars": "2,886",
       "forks": "301",
-      "addStars": "1,686",
+      "addStars": "1,809",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "24,280",
+      "forks": "8,462",
+      "addStars": "2,513",
       "contributors": [],
       "source": "trendshift"
     },
@@ -658,9 +646,9 @@
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "14,897",
-      "forks": "1,782",
-      "addStars": "1,462",
+      "stars": "14,937",
+      "forks": "1,791",
+      "addStars": "1,498",
       "contributors": [],
       "source": "trendshift"
     },
@@ -670,33 +658,9 @@
       "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "1,536",
-      "forks": "134",
-      "addStars": "1,083",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "career-ops-hq/career-ops",
-      "url": "https://github.com/career-ops-hq/career-ops",
-      "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "81,774",
-      "forks": "16,194",
-      "addStars": "2,710",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "tt-a1i/archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "95,392",
-      "forks": "6,929",
-      "addStars": "3,278",
+      "stars": "1,551",
+      "forks": "136",
+      "addStars": "1,098",
       "contributors": [],
       "source": "trendshift"
     },
@@ -706,9 +670,33 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "115,244",
-      "forks": "12,504",
-      "addStars": "3,018",
+      "stars": "115,582",
+      "forks": "12,633",
+      "addStars": "3,335",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "career-ops-hq/career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "81,866",
+      "forks": "16,232",
+      "addStars": "2,799",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "95,522",
+      "forks": "6,959",
+      "addStars": "3,398",
       "contributors": [],
       "source": "trendshift"
     },
@@ -718,9 +706,9 @@
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "33,943",
-      "forks": "6,141",
-      "addStars": "2,001",
+      "stars": "34,030",
+      "forks": "6,185",
+      "addStars": "2,083",
       "contributors": [],
       "source": "trendshift"
     },
@@ -730,9 +718,9 @@
       "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "26,529",
-      "forks": "2,249",
-      "addStars": "3,182",
+      "stars": "26,629",
+      "forks": "2,272",
+      "addStars": "3,293",
       "contributors": [],
       "source": "trendshift"
     }
