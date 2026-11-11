@@ -2,6 +2,177 @@
   "title": "GitHub Nix Languages Monthly Trending",
   "description": "Monthly Trending of Nix Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 10 Nov 2026 21:38:30 GMT",
-  "items": []
+  "pubDate": "Wed, 11 Nov 2026 04:40:31 GMT",
+  "items": [
+    {
+      "title": "NixOS/nixpkgs",
+      "url": "https://github.com/NixOS/nixpkgs",
+      "description": "Nix Packages collection & NixOS",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": "26,785",
+      "forks": "20,711",
+      "addStars": "435",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/37933096?s=40&v=4",
+          "name": "r-ryantm",
+          "url": "https://github.com/r-ryantm"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/116184?s=40&v=4",
+          "name": "fabaff",
+          "url": "https://github.com/fabaff"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15247171?s=40&v=4",
+          "name": "NickCao",
+          "url": "https://github.com/NickCao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7258858?s=40&v=4",
+          "name": "SuperSandro2000",
+          "url": "https://github.com/SuperSandro2000"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/131599?s=40&v=4",
+          "name": "mweinelt",
+          "url": "https://github.com/mweinelt"
+        }
+      ]
+    },
+    {
+      "title": "supabase/postgres",
+      "url": "https://github.com/supabase/postgres",
+      "description": "Unmodified Postgres with some useful extensions",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": "1,806",
+      "forks": "277",
+      "addStars": "16",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/115821?s=40&v=4",
+          "name": "samrose",
+          "url": "https://github.com/samrose"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26374889?s=40&v=4",
+          "name": "dragarcia",
+          "url": "https://github.com/dragarcia"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/397622?s=40&v=4",
+          "name": "darora",
+          "url": "https://github.com/darora"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/31685197?s=40&v=4",
+          "name": "soedirgo",
+          "url": "https://github.com/soedirgo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1639722?s=40&v=4",
+          "name": "sweatybridge",
+          "url": "https://github.com/sweatybridge"
+        }
+      ]
+    },
+    {
+      "title": "NixOS/nixos-hardware",
+      "url": "https://github.com/NixOS/nixos-hardware",
+      "description": "A collection of NixOS modules covering hardware quirks.",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": "3,359",
+      "forks": "1,002",
+      "addStars": "40",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/96200?s=40&v=4",
+          "name": "Mic92",
+          "url": "https://github.com/Mic92"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/329349?s=40&v=4",
+          "name": "mexisme",
+          "url": "https://github.com/mexisme"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1643293?s=40&v=4",
+          "name": "lukateras",
+          "url": "https://github.com/lukateras"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7258858?s=40&v=4",
+          "name": "SuperSandro2000",
+          "url": "https://github.com/SuperSandro2000"
+        }
+      ]
+    },
+    {
+      "title": "nix-community/disko",
+      "url": "https://github.com/nix-community/disko",
+      "description": "Declarative disk partitioning and formatting using nix [maintainers=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": "3,427",
+      "forks": "341",
+      "addStars": "71",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/96200?s=40&v=4",
+          "name": "Mic92",
+          "url": "https://github.com/Mic92"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/621759?s=40&v=4",
+          "name": "lassulus",
+          "url": "https://github.com/lassulus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9742635?s=40&v=4",
+          "name": "iFreilicht",
+          "url": "https://github.com/iFreilicht"
+        }
+      ]
+    },
+    {
+      "title": "nix-community/home-manager",
+      "url": "https://github.com/nix-community/home-manager",
+      "description": "Manage a user environment using Nix [maintainer=@khaneliman, @rycee]",
+      "language": "Nix",
+      "languageColor": "#7e7eff",
+      "stars": "10,515",
+      "forks": "2,511",
+      "addStars": "115",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1778670?s=40&v=4",
+          "name": "khaneliman",
+          "url": "https://github.com/khaneliman"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/798147?s=40&v=4",
+          "name": "rycee",
+          "url": "https://github.com/rycee"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/886074?s=40&v=4",
+          "name": "teto",
+          "url": "https://github.com/teto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4323933?s=40&v=4",
+          "name": "ncfavier",
+          "url": "https://github.com/ncfavier"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/20448408?s=40&v=4",
+          "name": "berbiche",
+          "url": "https://github.com/berbiche"
+        }
+      ]
+    }
+  ]
 }
