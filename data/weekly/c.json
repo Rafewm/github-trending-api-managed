@@ -2,7 +2,7 @@
   "title": "GitHub C Languages Weekly Trending",
   "description": "Weekly Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 12 Nov 2026 05:43:58 GMT",
+  "pubDate": "Thu, 12 Nov 2026 16:33:48 GMT",
   "items": [
     {
       "title": "lz4/lz4",
@@ -10,8 +10,8 @@
       "description": "Extremely Fast Compression algorithm",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "12,777",
-      "forks": "1,657",
+      "stars": "12,788",
+      "forks": "1,658",
       "addStars": "588",
       "contributors": [
         {
@@ -42,8 +42,8 @@
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "50,020",
-      "forks": "5,890",
+      "stars": "50,254",
+      "forks": "5,918",
       "addStars": "2,379",
       "contributors": [
         {
@@ -79,8 +79,8 @@
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,424",
-      "forks": "11,598",
+      "stars": "31,429",
+      "forks": "11,601",
       "addStars": "277",
       "contributors": [
         {
@@ -116,8 +116,8 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "11,846",
-      "forks": "1,829",
+      "stars": "11,883",
+      "forks": "1,835",
       "addStars": "1,757",
       "contributors": [
         {
@@ -153,7 +153,7 @@
       "description": "🎥 Command line media player",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "38,076",
+      "stars": "38,087",
       "forks": "3,651",
       "addStars": "397",
       "contributors": [
@@ -190,7 +190,7 @@
       "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "25,150",
+      "stars": "25,153",
       "forks": "4,448",
       "addStars": "70",
       "contributors": [
@@ -217,12 +217,49 @@
       ]
     },
     {
+      "title": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "77,473",
+      "forks": "25,054",
+      "addStars": "332",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65632?s=40&v=4",
+          "name": "antirez",
+          "url": "https://github.com/antirez"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7045099?s=40&v=4",
+          "name": "oranagra",
+          "url": "https://github.com/oranagra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9845?s=40&v=4",
+          "name": "pietern",
+          "url": "https://github.com/pietern"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/965798?s=40&v=4",
+          "name": "sundb",
+          "url": "https://github.com/sundb"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22811481?s=40&v=4",
+          "name": "enjoy-binbin",
+          "url": "https://github.com/enjoy-binbin"
+        }
+      ]
+    },
+    {
       "title": "madler/zlib",
       "url": "https://github.com/madler/zlib",
       "description": "A massively spiffy yet delicately unobtrusive compression library.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,220",
+      "stars": "7,223",
       "forks": "2,900",
       "addStars": "34",
       "contributors": [
@@ -254,50 +291,13 @@
       ]
     },
     {
-      "title": "openwrt/openwrt",
-      "url": "https://github.com/openwrt/openwrt",
-      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "29,186",
-      "forks": "13,416",
-      "addStars": "118",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19352056?s=40&v=4",
-          "name": "juhosg",
-          "url": "https://github.com/juhosg"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1110044?s=40&v=4",
-          "name": "ffainelli",
-          "url": "https://github.com/ffainelli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2529314?s=40&v=4",
-          "name": "nbd168",
-          "url": "https://github.com/nbd168"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/78494?s=40&v=4",
-          "name": "hauke",
-          "url": "https://github.com/hauke"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2528802?s=40&v=4",
-          "name": "jow-",
-          "url": "https://github.com/jow-"
-        }
-      ]
-    },
-    {
       "title": "curl/curl",
       "url": "https://github.com/curl/curl",
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "43,488",
-      "forks": "7,498",
+      "stars": "43,492",
+      "forks": "7,496",
       "addStars": "144",
       "contributors": [
         {
@@ -328,87 +328,13 @@
       ]
     },
     {
-      "title": "fluent/fluent-bit",
-      "url": "https://github.com/fluent/fluent-bit",
-      "description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "8,187",
-      "forks": "2,035",
-      "addStars": "8",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/369718?s=40&v=4",
-          "name": "edsiper",
-          "url": "https://github.com/edsiper"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/700876?s=40&v=4",
-          "name": "cosmo0920",
-          "url": "https://github.com/cosmo0920"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16795275?s=40&v=4",
-          "name": "nokute78",
-          "url": "https://github.com/nokute78"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/601645?s=40&v=4",
-          "name": "pwhelan",
-          "url": "https://github.com/pwhelan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28335?s=40&v=4",
-          "name": "leonardo-albertovich",
-          "url": "https://github.com/leonardo-albertovich"
-        }
-      ]
-    },
-    {
-      "title": "zephyrproject-rtos/zephyr",
-      "url": "https://github.com/zephyrproject-rtos/zephyr",
-      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "17,064",
-      "forks": "10,416",
-      "addStars": "75",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/180017?s=40&v=4",
-          "name": "nashif",
-          "url": "https://github.com/nashif"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1098415?s=40&v=4",
-          "name": "jukkar",
-          "url": "https://github.com/jukkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/128251?s=40&v=4",
-          "name": "kartben",
-          "url": "https://github.com/kartben"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16417047?s=40&v=4",
-          "name": "galak",
-          "url": "https://github.com/galak"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25011557?s=40&v=4",
-          "name": "gmarull",
-          "url": "https://github.com/gmarull"
-        }
-      ]
-    },
-    {
       "title": "meta/zstd",
       "url": "https://github.com/meta/zstd",
       "description": "Zstandard - Fast real-time compression algorithm",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "28,239",
-      "forks": "2,684",
+      "stars": "28,245",
+      "forks": "2,685",
       "addStars": "78",
       "contributors": [
         {
@@ -439,14 +365,51 @@
       ]
     },
     {
+      "title": "fluent/fluent-bit",
+      "url": "https://github.com/fluent/fluent-bit",
+      "description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "8,189",
+      "forks": "2,036",
+      "addStars": "8",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/369718?s=40&v=4",
+          "name": "edsiper",
+          "url": "https://github.com/edsiper"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/700876?s=40&v=4",
+          "name": "cosmo0920",
+          "url": "https://github.com/cosmo0920"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16795275?s=40&v=4",
+          "name": "nokute78",
+          "url": "https://github.com/nokute78"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/601645?s=40&v=4",
+          "name": "pwhelan",
+          "url": "https://github.com/pwhelan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/28335?s=40&v=4",
+          "name": "leonardo-albertovich",
+          "url": "https://github.com/leonardo-albertovich"
+        }
+      ]
+    },
+    {
       "title": "tangerineturtle1/NX2navi",
       "url": "https://github.com/tangerineturtle1/NX2navi",
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,305",
+      "stars": "3,414",
       "forks": "210",
-      "addStars": "2,039",
+      "addStars": "2,145",
       "contributors": [],
       "source": "trendshift"
     },
@@ -456,9 +419,9 @@
       "description": "Emulate macOS on iOS and iPadOS",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,043",
+      "stars": "2,084",
       "forks": "161",
-      "addStars": "938",
+      "addStars": "975",
       "contributors": [],
       "source": "trendshift"
     },
@@ -468,9 +431,9 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "920",
+      "stars": "941",
       "forks": "53",
-      "addStars": "545",
+      "addStars": "567",
       "contributors": [],
       "source": "trendshift"
     },
@@ -480,21 +443,9 @@
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "6,762",
+      "stars": "6,850",
       "forks": "550",
-      "addStars": "859",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "yarrick/pingfs",
-      "url": "https://github.com/yarrick/pingfs",
-      "description": "Stores your data in ICMP ping packets",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "3,890",
-      "forks": "142",
-      "addStars": "294",
+      "addStars": "935",
       "contributors": [],
       "source": "trendshift"
     },
@@ -504,9 +455,9 @@
       "description": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "425",
+      "stars": "479",
       "forks": "16",
-      "addStars": "350",
+      "addStars": "407",
       "contributors": [],
       "source": "trendshift"
     },
@@ -516,9 +467,21 @@
       "description": "Linux kernel source tree",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "255,429",
+      "stars": "255,467",
       "forks": "62,005",
-      "addStars": "541",
+      "addStars": "580",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "yarrick/pingfs",
+      "url": "https://github.com/yarrick/pingfs",
+      "description": "Stores your data in ICMP ping packets",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "3,901",
+      "forks": "142",
+      "addStars": "304",
       "contributors": [],
       "source": "trendshift"
     },
@@ -528,9 +491,9 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "18,778",
+      "stars": "18,863",
       "forks": "1,907",
-      "addStars": "635",
+      "addStars": "718",
       "contributors": [],
       "source": "trendshift"
     },
@@ -540,9 +503,9 @@
       "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "812",
+      "stars": "847",
       "forks": "41",
-      "addStars": "351",
+      "addStars": "385",
       "contributors": [],
       "source": "trendshift"
     },
@@ -552,9 +515,9 @@
       "description": "A compatibility layer for porting Switch games to Android, one game at a time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,458",
+      "stars": "1,499",
       "forks": "188",
-      "addStars": "369",
+      "addStars": "402",
       "contributors": [],
       "source": "trendshift"
     },
@@ -564,9 +527,9 @@
       "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,979",
+      "stars": "4,036",
       "forks": "242",
-      "addStars": "408",
+      "addStars": "460",
       "contributors": [],
       "source": "trendshift"
     },
@@ -576,21 +539,9 @@
       "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "67,084",
+      "stars": "67,111",
       "forks": "12,950",
-      "addStars": "313",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "EddizEge/AnkaNative",
-      "url": "https://github.com/EddizEge/AnkaNative",
-      "description": "Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "143",
-      "forks": "8",
-      "addStars": "129",
+      "addStars": "339",
       "contributors": [],
       "source": "trendshift"
     },
@@ -600,21 +551,21 @@
       "description": "Windows Common Log FileSystem Authentication 0day Local Privilege Escalation Vulnerability",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "198",
+      "stars": "240",
       "forks": "11",
-      "addStars": "180",
+      "addStars": "222",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "obsproject/obs-studio",
-      "url": "https://github.com/obsproject/obs-studio",
-      "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "title": "EddizEge/AnkaNative",
+      "url": "https://github.com/EddizEge/AnkaNative",
+      "description": "Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "79,427",
-      "forks": "11,318",
-      "addStars": "241",
+      "stars": "144",
+      "forks": "8",
+      "addStars": "130",
       "contributors": [],
       "source": "trendshift"
     },
@@ -624,9 +575,21 @@
       "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,578",
+      "stars": "7,636",
       "forks": "1,148",
-      "addStars": "252",
+      "addStars": "310",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "obsproject/obs-studio",
+      "url": "https://github.com/obsproject/obs-studio",
+      "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "79,451",
+      "forks": "11,318",
+      "addStars": "269",
       "contributors": [],
       "source": "trendshift"
     },
@@ -636,9 +599,9 @@
       "description": "Display and control your Android device",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "154,607",
+      "stars": "154,646",
       "forks": "14,282",
-      "addStars": "267",
+      "addStars": "310",
       "contributors": [],
       "source": "trendshift"
     },
@@ -648,9 +611,9 @@
       "description": "A new bootable USB solution.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "80,819",
+      "stars": "80,831",
       "forks": "5,222",
-      "addStars": "161",
+      "addStars": "173",
       "contributors": [],
       "source": "trendshift"
     },
@@ -660,9 +623,33 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "155",
+      "stars": "157",
       "forks": "2",
-      "addStars": "103",
+      "addStars": "105",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "martinmarinov/TempestSDR",
+      "url": "https://github.com/martinmarinov/TempestSDR",
+      "description": "Remote video eavesdropping using a software-defined radio platform",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,742",
+      "forks": "243",
+      "addStars": "90",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "AurelioB/totk-android",
+      "url": "https://github.com/AurelioB/totk-android",
+      "description": "Tears of the Kingdom native Android port (TotK Native)",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "161",
+      "forks": "9",
+      "addStars": "87",
       "contributors": [],
       "source": "trendshift"
     },
@@ -675,42 +662,6 @@
       "stars": "127",
       "forks": "14",
       "addStars": "125",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "martinmarinov/TempestSDR",
-      "url": "https://github.com/martinmarinov/TempestSDR",
-      "description": "Remote video eavesdropping using a software-defined radio platform",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,742",
-      "forks": "242",
-      "addStars": "89",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "redis/redis",
-      "url": "https://github.com/redis/redis",
-      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "77,461",
-      "forks": "19,096",
-      "addStars": "155",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "AurelioB/totk-android",
-      "url": "https://github.com/AurelioB/totk-android",
-      "description": "Tears of the Kingdom native Android port (TotK Native)",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "159",
-      "forks": "9",
-      "addStars": "85",
       "contributors": [],
       "source": "trendshift"
     }

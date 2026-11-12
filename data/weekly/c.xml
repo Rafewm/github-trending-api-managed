@@ -3,7 +3,7 @@
     <title>GitHub C Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of C Languages in GitHub</description>
-    <pubDate>Thu, 12 Nov 2026 05:43:58 GMT</pubDate>
+    <pubDate>Thu, 12 Nov 2026 16:33:48 GMT</pubDate>
     <item>
       <title>lz4/lz4</title>
       <link>https://github.com/lz4/lz4</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/lz4/lz4</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>12,777</stars>
-      <forks>1,657</forks>
+      <stars>12,788</stars>
+      <forks>1,658</forks>
       <addStars>588</addStars>
       <contributors>
         <contributor>
@@ -44,8 +44,8 @@
       <guid>https://github.com/JustVugg/colibri</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>50,020</stars>
-      <forks>5,890</forks>
+      <stars>50,254</stars>
+      <forks>5,918</forks>
       <addStars>2,379</addStars>
       <contributors>
         <contributor>
@@ -82,8 +82,8 @@
       <guid>https://github.com/openssl/openssl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>31,424</stars>
-      <forks>11,598</forks>
+      <stars>31,429</stars>
+      <forks>11,601</forks>
       <addStars>277</addStars>
       <contributors>
         <contributor>
@@ -120,8 +120,8 @@
       <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>11,846</stars>
-      <forks>1,829</forks>
+      <stars>11,883</stars>
+      <forks>1,835</forks>
       <addStars>1,757</addStars>
       <contributors>
         <contributor>
@@ -158,7 +158,7 @@
       <guid>https://github.com/mpv-player/mpv</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>38,076</stars>
+      <stars>38,087</stars>
       <forks>3,651</forks>
       <addStars>397</addStars>
       <contributors>
@@ -196,7 +196,7 @@
       <guid>https://github.com/lvgl/lvgl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>25,150</stars>
+      <stars>25,153</stars>
       <forks>4,448</forks>
       <addStars>70</addStars>
       <contributors>
@@ -223,13 +223,51 @@
       </contributors>
     </item>
     <item>
+      <title>redis/redis</title>
+      <link>https://github.com/redis/redis</link>
+      <description>For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.</description>
+      <guid>https://github.com/redis/redis</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>77,473</stars>
+      <forks>25,054</forks>
+      <addStars>332</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/65632?s=40&amp;v=4</avatar>
+          <name>antirez</name>
+          <url>https://github.com/antirez</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7045099?s=40&amp;v=4</avatar>
+          <name>oranagra</name>
+          <url>https://github.com/oranagra</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/9845?s=40&amp;v=4</avatar>
+          <name>pietern</name>
+          <url>https://github.com/pietern</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/965798?s=40&amp;v=4</avatar>
+          <name>sundb</name>
+          <url>https://github.com/sundb</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/22811481?s=40&amp;v=4</avatar>
+          <name>enjoy-binbin</name>
+          <url>https://github.com/enjoy-binbin</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>madler/zlib</title>
       <link>https://github.com/madler/zlib</link>
       <description>A massively spiffy yet delicately unobtrusive compression library.</description>
       <guid>https://github.com/madler/zlib</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,220</stars>
+      <stars>7,223</stars>
       <forks>2,900</forks>
       <addStars>34</addStars>
       <contributors>
@@ -261,52 +299,14 @@
       </contributors>
     </item>
     <item>
-      <title>openwrt/openwrt</title>
-      <link>https://github.com/openwrt/openwrt</link>
-      <description>This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.</description>
-      <guid>https://github.com/openwrt/openwrt</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>29,186</stars>
-      <forks>13,416</forks>
-      <addStars>118</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/19352056?s=40&amp;v=4</avatar>
-          <name>juhosg</name>
-          <url>https://github.com/juhosg</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1110044?s=40&amp;v=4</avatar>
-          <name>ffainelli</name>
-          <url>https://github.com/ffainelli</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2529314?s=40&amp;v=4</avatar>
-          <name>nbd168</name>
-          <url>https://github.com/nbd168</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/78494?s=40&amp;v=4</avatar>
-          <name>hauke</name>
-          <url>https://github.com/hauke</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2528802?s=40&amp;v=4</avatar>
-          <name>jow-</name>
-          <url>https://github.com/jow-</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>curl/curl</title>
       <link>https://github.com/curl/curl</link>
       <description>A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features</description>
       <guid>https://github.com/curl/curl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>43,488</stars>
-      <forks>7,498</forks>
+      <stars>43,492</stars>
+      <forks>7,496</forks>
       <addStars>144</addStars>
       <contributors>
         <contributor>
@@ -337,90 +337,14 @@
       </contributors>
     </item>
     <item>
-      <title>fluent/fluent-bit</title>
-      <link>https://github.com/fluent/fluent-bit</link>
-      <description>Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows</description>
-      <guid>https://github.com/fluent/fluent-bit</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>8,187</stars>
-      <forks>2,035</forks>
-      <addStars>8</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/369718?s=40&amp;v=4</avatar>
-          <name>edsiper</name>
-          <url>https://github.com/edsiper</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/700876?s=40&amp;v=4</avatar>
-          <name>cosmo0920</name>
-          <url>https://github.com/cosmo0920</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/16795275?s=40&amp;v=4</avatar>
-          <name>nokute78</name>
-          <url>https://github.com/nokute78</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/601645?s=40&amp;v=4</avatar>
-          <name>pwhelan</name>
-          <url>https://github.com/pwhelan</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/28335?s=40&amp;v=4</avatar>
-          <name>leonardo-albertovich</name>
-          <url>https://github.com/leonardo-albertovich</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>zephyrproject-rtos/zephyr</title>
-      <link>https://github.com/zephyrproject-rtos/zephyr</link>
-      <description>Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.</description>
-      <guid>https://github.com/zephyrproject-rtos/zephyr</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>17,064</stars>
-      <forks>10,416</forks>
-      <addStars>75</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/180017?s=40&amp;v=4</avatar>
-          <name>nashif</name>
-          <url>https://github.com/nashif</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1098415?s=40&amp;v=4</avatar>
-          <name>jukkar</name>
-          <url>https://github.com/jukkar</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/128251?s=40&amp;v=4</avatar>
-          <name>kartben</name>
-          <url>https://github.com/kartben</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/16417047?s=40&amp;v=4</avatar>
-          <name>galak</name>
-          <url>https://github.com/galak</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/25011557?s=40&amp;v=4</avatar>
-          <name>gmarull</name>
-          <url>https://github.com/gmarull</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>meta/zstd</title>
       <link>https://github.com/meta/zstd</link>
       <description>Zstandard - Fast real-time compression algorithm</description>
       <guid>https://github.com/meta/zstd</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>28,239</stars>
-      <forks>2,684</forks>
+      <stars>28,245</stars>
+      <forks>2,685</forks>
       <addStars>78</addStars>
       <contributors>
         <contributor>
@@ -451,15 +375,53 @@
       </contributors>
     </item>
     <item>
+      <title>fluent/fluent-bit</title>
+      <link>https://github.com/fluent/fluent-bit</link>
+      <description>Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows</description>
+      <guid>https://github.com/fluent/fluent-bit</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>8,189</stars>
+      <forks>2,036</forks>
+      <addStars>8</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/369718?s=40&amp;v=4</avatar>
+          <name>edsiper</name>
+          <url>https://github.com/edsiper</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/700876?s=40&amp;v=4</avatar>
+          <name>cosmo0920</name>
+          <url>https://github.com/cosmo0920</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/16795275?s=40&amp;v=4</avatar>
+          <name>nokute78</name>
+          <url>https://github.com/nokute78</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/601645?s=40&amp;v=4</avatar>
+          <name>pwhelan</name>
+          <url>https://github.com/pwhelan</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/28335?s=40&amp;v=4</avatar>
+          <name>leonardo-albertovich</name>
+          <url>https://github.com/leonardo-albertovich</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>tangerineturtle1/NX2navi</title>
       <link>https://github.com/tangerineturtle1/NX2navi</link>
       <description/>
       <guid>https://github.com/tangerineturtle1/NX2navi</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>3,305</stars>
+      <stars>3,414</stars>
       <forks>210</forks>
-      <addStars>2,039</addStars>
+      <addStars>2,145</addStars>
       <contributors/>
     </item>
     <item>
@@ -469,9 +431,9 @@
       <guid>https://github.com/Leviidev/Henge</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,043</stars>
+      <stars>2,084</stars>
       <forks>161</forks>
-      <addStars>938</addStars>
+      <addStars>975</addStars>
       <contributors/>
     </item>
     <item>
@@ -481,9 +443,9 @@
       <guid>https://github.com/yappologistic/CUI</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>920</stars>
+      <stars>941</stars>
       <forks>53</forks>
-      <addStars>545</addStars>
+      <addStars>567</addStars>
       <contributors/>
     </item>
     <item>
@@ -493,21 +455,9 @@
       <guid>https://github.com/valentderah/totk-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>6,762</stars>
+      <stars>6,850</stars>
       <forks>550</forks>
-      <addStars>859</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>yarrick/pingfs</title>
-      <link>https://github.com/yarrick/pingfs</link>
-      <description>Stores your data in ICMP ping packets</description>
-      <guid>https://github.com/yarrick/pingfs</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>3,890</stars>
-      <forks>142</forks>
-      <addStars>294</addStars>
+      <addStars>935</addStars>
       <contributors/>
     </item>
     <item>
@@ -517,9 +467,9 @@
       <guid>https://github.com/adriadam10/mkw-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>425</stars>
+      <stars>479</stars>
       <forks>16</forks>
-      <addStars>350</addStars>
+      <addStars>407</addStars>
       <contributors/>
     </item>
     <item>
@@ -529,9 +479,21 @@
       <guid>https://github.com/torvalds/linux</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>255,429</stars>
+      <stars>255,467</stars>
       <forks>62,005</forks>
-      <addStars>541</addStars>
+      <addStars>580</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>yarrick/pingfs</title>
+      <link>https://github.com/yarrick/pingfs</link>
+      <description>Stores your data in ICMP ping packets</description>
+      <guid>https://github.com/yarrick/pingfs</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>3,901</stars>
+      <forks>142</forks>
+      <addStars>304</addStars>
       <contributors/>
     </item>
     <item>
@@ -541,9 +503,9 @@
       <guid>https://github.com/Zagitta/gpu-unlock</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>18,778</stars>
+      <stars>18,863</stars>
       <forks>1,907</forks>
-      <addStars>635</addStars>
+      <addStars>718</addStars>
       <contributors/>
     </item>
     <item>
@@ -553,9 +515,9 @@
       <guid>https://github.com/Lucas-blip-png/dkb-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>812</stars>
+      <stars>847</stars>
       <forks>41</forks>
-      <addStars>351</addStars>
+      <addStars>385</addStars>
       <contributors/>
     </item>
     <item>
@@ -565,9 +527,9 @@
       <guid>https://github.com/shirai91/nx2android</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,458</stars>
+      <stars>1,499</stars>
       <forks>188</forks>
-      <addStars>369</addStars>
+      <addStars>402</addStars>
       <contributors/>
     </item>
     <item>
@@ -577,9 +539,9 @@
       <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>3,979</stars>
+      <stars>4,036</stars>
       <forks>242</forks>
-      <addStars>408</addStars>
+      <addStars>460</addStars>
       <contributors/>
     </item>
     <item>
@@ -589,21 +551,9 @@
       <guid>https://github.com/FFmpeg/FFmpeg</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>67,084</stars>
+      <stars>67,111</stars>
       <forks>12,950</forks>
-      <addStars>313</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>EddizEge/AnkaNative</title>
-      <link>https://github.com/EddizEge/AnkaNative</link>
-      <description>Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)</description>
-      <guid>https://github.com/EddizEge/AnkaNative</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>143</stars>
-      <forks>8</forks>
-      <addStars>129</addStars>
+      <addStars>339</addStars>
       <contributors/>
     </item>
     <item>
@@ -613,21 +563,21 @@
       <guid>https://github.com/MSNightmare/SignDrop</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>198</stars>
+      <stars>240</stars>
       <forks>11</forks>
-      <addStars>180</addStars>
+      <addStars>222</addStars>
       <contributors/>
     </item>
     <item>
-      <title>obsproject/obs-studio</title>
-      <link>https://github.com/obsproject/obs-studio</link>
-      <description>OBS Studio - Free and open source software for live streaming and screen recording</description>
-      <guid>https://github.com/obsproject/obs-studio</guid>
+      <title>EddizEge/AnkaNative</title>
+      <link>https://github.com/EddizEge/AnkaNative</link>
+      <description>Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)</description>
+      <guid>https://github.com/EddizEge/AnkaNative</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>79,427</stars>
-      <forks>11,318</forks>
-      <addStars>241</addStars>
+      <stars>144</stars>
+      <forks>8</forks>
+      <addStars>130</addStars>
       <contributors/>
     </item>
     <item>
@@ -637,9 +587,21 @@
       <guid>https://github.com/ly05010419/MacNativeGames</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,578</stars>
+      <stars>7,636</stars>
       <forks>1,148</forks>
-      <addStars>252</addStars>
+      <addStars>310</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>obsproject/obs-studio</title>
+      <link>https://github.com/obsproject/obs-studio</link>
+      <description>OBS Studio - Free and open source software for live streaming and screen recording</description>
+      <guid>https://github.com/obsproject/obs-studio</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>79,451</stars>
+      <forks>11,318</forks>
+      <addStars>269</addStars>
       <contributors/>
     </item>
     <item>
@@ -649,9 +611,9 @@
       <guid>https://github.com/Genymobile/scrcpy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>154,607</stars>
+      <stars>154,646</stars>
       <forks>14,282</forks>
-      <addStars>267</addStars>
+      <addStars>310</addStars>
       <contributors/>
     </item>
     <item>
@@ -661,9 +623,9 @@
       <guid>https://github.com/ventoy/Ventoy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>80,819</stars>
+      <stars>80,831</stars>
       <forks>5,222</forks>
-      <addStars>161</addStars>
+      <addStars>173</addStars>
       <contributors/>
     </item>
     <item>
@@ -673,9 +635,33 @@
       <guid>https://github.com/teasergames/dbk-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>155</stars>
+      <stars>157</stars>
       <forks>2</forks>
-      <addStars>103</addStars>
+      <addStars>105</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>martinmarinov/TempestSDR</title>
+      <link>https://github.com/martinmarinov/TempestSDR</link>
+      <description>Remote video eavesdropping using a software-defined radio platform</description>
+      <guid>https://github.com/martinmarinov/TempestSDR</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,742</stars>
+      <forks>243</forks>
+      <addStars>90</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>AurelioB/totk-android</title>
+      <link>https://github.com/AurelioB/totk-android</link>
+      <description>Tears of the Kingdom native Android port (TotK Native)</description>
+      <guid>https://github.com/AurelioB/totk-android</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>161</stars>
+      <forks>9</forks>
+      <addStars>87</addStars>
       <contributors/>
     </item>
     <item>
@@ -688,42 +674,6 @@
       <stars>127</stars>
       <forks>14</forks>
       <addStars>125</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>martinmarinov/TempestSDR</title>
-      <link>https://github.com/martinmarinov/TempestSDR</link>
-      <description>Remote video eavesdropping using a software-defined radio platform</description>
-      <guid>https://github.com/martinmarinov/TempestSDR</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,742</stars>
-      <forks>242</forks>
-      <addStars>89</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>redis/redis</title>
-      <link>https://github.com/redis/redis</link>
-      <description>For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.</description>
-      <guid>https://github.com/redis/redis</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>77,461</stars>
-      <forks>19,096</forks>
-      <addStars>155</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>AurelioB/totk-android</title>
-      <link>https://github.com/AurelioB/totk-android</link>
-      <description>Tears of the Kingdom native Android port (TotK Native)</description>
-      <guid>https://github.com/AurelioB/totk-android</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>159</stars>
-      <forks>9</forks>
-      <addStars>85</addStars>
       <contributors/>
     </item>
   </channel>
