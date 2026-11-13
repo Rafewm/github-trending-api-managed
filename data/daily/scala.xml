@@ -3,7 +3,7 @@
     <title>GitHub Scala Languages Daily Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Daily Trending of Scala Languages in GitHub</description>
-    <pubDate>Fri, 13 Nov 2026 00:53:30 GMT</pubDate>
+    <pubDate>Fri, 13 Nov 2026 11:51:40 GMT</pubDate>
     <item>
       <title>apache/spark</title>
       <link>https://github.com/apache/spark</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/apache/spark</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>44,499</stars>
-      <forks>29,590</forks>
+      <stars>44,508</stars>
+      <forks>29,589</forks>
       <addStars>25</addStars>
       <contributors>
         <contributor>
@@ -87,7 +87,7 @@
       <guid>https://github.com/OpenXiangShan/XiangShan</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>7,392</stars>
+      <stars>7,394</stars>
       <forks>984</forks>
       <addStars>3</addStars>
       <contributors>
@@ -119,101 +119,78 @@
       </contributors>
     </item>
     <item>
-      <title>apache/datafusion-comet</title>
-      <link>https://github.com/apache/datafusion-comet</link>
-      <description>Apache DataFusion Comet Spark Accelerator</description>
-      <guid>https://github.com/apache/datafusion-comet</guid>
+      <title>NVIDIA/cudf-spark</title>
+      <link>https://github.com/NVIDIA/cudf-spark</link>
+      <description>NVIDIA cuDF for Apache Spark plugin - accelerate Apache Spark with GPUs</description>
+      <guid>https://github.com/NVIDIA/cudf-spark</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>1,322</stars>
-      <forks>418</forks>
-      <addStars>1</addStars>
+      <stars>1,014</stars>
+      <forks>316</forks>
+      <addStars>0</addStars>
       <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/70000568?s=40&amp;v=4</avatar>
+          <name>nvauto</name>
+          <url>https://github.com/nvauto</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1360766?s=40&amp;v=4</avatar>
+          <name>jlowe</name>
+          <url>https://github.com/jlowe</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/3441321?s=40&amp;v=4</avatar>
+          <name>revans2</name>
+          <url>https://github.com/revans2</url>
+        </contributor>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/934084?s=40&amp;v=4</avatar>
           <name>andygrove</name>
           <url>https://github.com/andygrove</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/68855?s=40&amp;v=4</avatar>
-          <name>viirya</name>
-          <url>https://github.com/viirya</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/10247224?s=40&amp;v=4</avatar>
-          <name>comphead</name>
-          <url>https://github.com/comphead</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6855576?s=40&amp;v=4</avatar>
-          <name>mbutrovich</name>
-          <url>https://github.com/mbutrovich</url>
+          <avatar>https://avatars.githubusercontent.com/u/4563792?s=40&amp;v=4</avatar>
+          <name>tgravescs</name>
+          <url>https://github.com/tgravescs</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>ucb-bar/chipyard</title>
-      <link>https://github.com/ucb-bar/chipyard</link>
-      <description>An Agile RISC-V SoC Design Framework with in-order cores, out-of-order cores, accelerators, and more</description>
-      <guid>https://github.com/ucb-bar/chipyard</guid>
+      <title>delta-io/delta</title>
+      <link>https://github.com/delta-io/delta</link>
+      <description>An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs</description>
+      <guid>https://github.com/delta-io/delta</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>2,460</stars>
-      <forks>943</forks>
-      <addStars>3</addStars>
+      <stars>9,077</stars>
+      <forks>2,218</forks>
+      <addStars>2</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/14086183?s=40&amp;v=4</avatar>
-          <name>jerryz123</name>
-          <url>https://github.com/jerryz123</url>
+          <avatar>https://avatars.githubusercontent.com/u/59617782?s=40&amp;v=4</avatar>
+          <name>scottsand-db</name>
+          <url>https://github.com/scottsand-db</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8823803?s=40&amp;v=4</avatar>
-          <name>abejgonzalez</name>
-          <url>https://github.com/abejgonzalez</url>
+          <avatar>https://avatars.githubusercontent.com/u/89107911?s=40&amp;v=4</avatar>
+          <name>allisonport-db</name>
+          <url>https://github.com/allisonport-db</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/5404010?s=40&amp;v=4</avatar>
-          <name>hansungk</name>
-          <url>https://github.com/hansungk</url>
+          <avatar>https://avatars.githubusercontent.com/u/1719945?s=40&amp;v=4</avatar>
+          <name>vkorukanti</name>
+          <url>https://github.com/vkorukanti</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6775168?s=40&amp;v=4</avatar>
-          <name>davidbiancolin</name>
-          <url>https://github.com/davidbiancolin</url>
+          <avatar>https://avatars.githubusercontent.com/u/1000778?s=40&amp;v=4</avatar>
+          <name>zsxwing</name>
+          <url>https://github.com/zsxwing</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/21228757?s=40&amp;v=4</avatar>
-          <name>alonamid</name>
-          <url>https://github.com/alonamid</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>twitter/the-algorithm</title>
-      <link>https://github.com/twitter/the-algorithm</link>
-      <description>Source code for the X Recommendation Algorithm</description>
-      <guid>https://github.com/twitter/the-algorithm</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>74,072</stars>
-      <forks>13,256</forks>
-      <addStars>9</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/25687?s=40&amp;v=4</avatar>
-          <name>dzhao</name>
-          <url>https://github.com/dzhao</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/20663776?s=40&amp;v=4</avatar>
-          <name>pouriya</name>
-          <url>https://github.com/pouriya</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/35087590?s=40&amp;v=4</avatar>
-          <name>anqueue</name>
-          <url>https://github.com/anqueue</url>
+          <avatar>https://avatars.githubusercontent.com/u/2551496?s=40&amp;v=4</avatar>
+          <name>prakharjain09</name>
+          <url>https://github.com/prakharjain09</url>
         </contributor>
       </contributors>
     </item>
@@ -256,73 +233,78 @@
       </contributors>
     </item>
     <item>
-      <title>delta-io/delta</title>
-      <link>https://github.com/delta-io/delta</link>
-      <description>An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs</description>
-      <guid>https://github.com/delta-io/delta</guid>
+      <title>apache/gluten</title>
+      <link>https://github.com/apache/gluten</link>
+      <description>Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.</description>
+      <guid>https://github.com/apache/gluten</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>9,076</stars>
-      <forks>2,218</forks>
-      <addStars>2</addStars>
+      <stars>1,622</stars>
+      <forks>677</forks>
+      <addStars>0</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/59617782?s=40&amp;v=4</avatar>
-          <name>scottsand-db</name>
-          <url>https://github.com/scottsand-db</url>
+          <avatar>https://avatars.githubusercontent.com/u/11284395?s=40&amp;v=4</avatar>
+          <name>zhztheplayer</name>
+          <url>https://github.com/zhztheplayer</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/89107911?s=40&amp;v=4</avatar>
-          <name>allisonport-db</name>
-          <url>https://github.com/allisonport-db</url>
+          <avatar>https://avatars.githubusercontent.com/u/137994563?s=40&amp;v=4</avatar>
+          <name>GlutenPerfBot</name>
+          <url>https://github.com/GlutenPerfBot</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1719945?s=40&amp;v=4</avatar>
-          <name>vkorukanti</name>
-          <url>https://github.com/vkorukanti</url>
+          <avatar>https://avatars.githubusercontent.com/u/13806761?s=40&amp;v=4</avatar>
+          <name>philo-he</name>
+          <url>https://github.com/philo-he</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1000778?s=40&amp;v=4</avatar>
-          <name>zsxwing</name>
-          <url>https://github.com/zsxwing</url>
+          <avatar>https://avatars.githubusercontent.com/u/43917?s=40&amp;v=4</avatar>
+          <name>zhouyuan</name>
+          <url>https://github.com/zhouyuan</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2551496?s=40&amp;v=4</avatar>
-          <name>prakharjain09</name>
-          <url>https://github.com/prakharjain09</url>
+          <avatar>https://avatars.githubusercontent.com/u/52736607?s=40&amp;v=4</avatar>
+          <name>marin-ma</name>
+          <url>https://github.com/marin-ma</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>zio/zio-http</title>
-      <link>https://github.com/zio/zio-http</link>
-      <description>A next-generation Scala framework for building scalable, correct, and efficient HTTP clients and servers</description>
-      <guid>https://github.com/zio/zio-http</guid>
+      <title>ucb-bar/gemmini</title>
+      <link>https://github.com/ucb-bar/gemmini</link>
+      <description>Berkeley's Spatial Array Generator</description>
+      <guid>https://github.com/ucb-bar/gemmini</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>877</stars>
-      <forks>500</forks>
-      <addStars>1</addStars>
+      <stars>1,571</stars>
+      <forks>308</forks>
+      <addStars>3</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7283535?s=40&amp;v=4</avatar>
-          <name>987Nabil</name>
-          <url>https://github.com/987Nabil</url>
+          <avatar>https://avatars.githubusercontent.com/u/13737642?s=40&amp;v=4</avatar>
+          <name>hngenc</name>
+          <url>https://github.com/hngenc</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/194482?s=40&amp;v=4</avatar>
-          <name>tusharmath</name>
-          <url>https://github.com/tusharmath</url>
+          <avatar>https://avatars.githubusercontent.com/u/14086183?s=40&amp;v=4</avatar>
+          <name>jerryz123</name>
+          <url>https://github.com/jerryz123</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/43047562?s=40&amp;v=4</avatar>
-          <name>scala-steward</name>
-          <url>https://github.com/scala-steward</url>
+          <avatar>https://avatars.githubusercontent.com/u/18361764?s=40&amp;v=4</avatar>
+          <name>AmeerHajAli</name>
+          <url>https://github.com/AmeerHajAli</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/122967190?s=40&amp;v=4</avatar>
-          <name>d11-amitsingh</name>
-          <url>https://github.com/d11-amitsingh</url>
+          <avatar>https://avatars.githubusercontent.com/u/54855793?s=40&amp;v=4</avatar>
+          <name>SeahK</name>
+          <url>https://github.com/SeahK</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/18318060?s=40&amp;v=4</avatar>
+          <name>richardyrh</name>
+          <url>https://github.com/richardyrh</url>
         </contributor>
       </contributors>
     </item>
@@ -334,7 +316,7 @@
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
       <stars>167</stars>
-      <forks>225</forks>
+      <forks>226</forks>
       <addStars>0</addStars>
       <contributors>
         <contributor>
@@ -384,6 +366,39 @@
           <avatar>https://avatars.githubusercontent.com/u/235974?s=40&amp;v=4</avatar>
           <name>khajavi</name>
           <url>https://github.com/khajavi</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>apache/datafusion-comet</title>
+      <link>https://github.com/apache/datafusion-comet</link>
+      <description>Apache DataFusion Comet Spark Accelerator</description>
+      <guid>https://github.com/apache/datafusion-comet</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>1,322</stars>
+      <forks>418</forks>
+      <addStars>1</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/934084?s=40&amp;v=4</avatar>
+          <name>andygrove</name>
+          <url>https://github.com/andygrove</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/68855?s=40&amp;v=4</avatar>
+          <name>viirya</name>
+          <url>https://github.com/viirya</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/10247224?s=40&amp;v=4</avatar>
+          <name>comphead</name>
+          <url>https://github.com/comphead</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6855576?s=40&amp;v=4</avatar>
+          <name>mbutrovich</name>
+          <url>https://github.com/mbutrovich</url>
         </contributor>
       </contributors>
     </item>

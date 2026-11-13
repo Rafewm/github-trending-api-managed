@@ -2,7 +2,7 @@
   "title": "GitHub Swift Languages Monthly Trending",
   "description": "Monthly Trending of Swift Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 13 Nov 2026 00:53:30 GMT",
+  "pubDate": "Fri, 13 Nov 2026 11:51:40 GMT",
   "items": [
     {
       "title": "xtool-org/xtool",
@@ -10,8 +10,8 @@
       "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "15,400",
-      "forks": "918",
+      "stars": "15,427",
+      "forks": "922",
       "addStars": "7,607",
       "contributors": [
         {
@@ -42,12 +42,49 @@
       ]
     },
     {
+      "title": "jithin-sabu/purge-app",
+      "url": "https://github.com/jithin-sabu/purge-app",
+      "description": "Free up your Mac. Safely. A free, open-source native Mac app that clears the cache and junk your Mac piles up on its own. Files go to the Trash by default, so you can put them back.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "1,890",
+      "forks": "104",
+      "addStars": "726",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/110096782?s=40&v=4",
+          "name": "jithin-sabu",
+          "url": "https://github.com/jithin-sabu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "name": "cursoragent",
+          "url": "https://github.com/cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/239800305?s=40&v=4",
+          "name": "monis-ecom",
+          "url": "https://github.com/monis-ecom"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/321368898?s=40&v=4",
+          "name": "alexkirov288-hub",
+          "url": "https://github.com/alexkirov288-hub"
+        }
+      ]
+    },
+    {
       "title": "hugeBlack/GetMoreRam",
       "url": "https://github.com/hugeBlack/GetMoreRam",
       "description": "A simple AltSign wrapper app that allows you to enable \"Increased Memory Limit\" to your sideloaded apps without using Xcode",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "465",
+      "stars": "467",
       "forks": "151",
       "addStars": "94",
       "contributors": [
@@ -69,8 +106,8 @@
       "description": "Run iOS apps without actually installing them!",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "14,146",
-      "forks": "1,323",
+      "stars": "14,173",
+      "forks": "1,322",
       "addStars": "1,500",
       "contributors": [
         {
@@ -106,7 +143,7 @@
       "description": "Status Trio — a native macOS app that combines Wi-Fi, battery, and volume into one compact, configurable status icon for the menu bar, the Dock, or both, inspired by the iPhone Duo combined status bar.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,873",
+      "stars": "1,889",
       "forks": "99",
       "addStars": "1,225",
       "contributors": [
@@ -133,50 +170,13 @@
       ]
     },
     {
-      "title": "manaflow-ai/cmux",
-      "url": "https://github.com/manaflow-ai/cmux",
-      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "28,779",
-      "forks": "2,659",
-      "addStars": "891",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/54008264?s=40&v=4",
-          "name": "lawrencecchen",
-          "url": "https://github.com/lawrencecchen"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38676809?s=40&v=4",
-          "name": "austinywang",
-          "url": "https://github.com/austinywang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13091533?s=40&v=4",
-          "name": "teamleaderleo",
-          "url": "https://github.com/teamleaderleo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67667005?s=40&v=4",
-          "name": "azooz2003-bit",
-          "url": "https://github.com/azooz2003-bit"
-        }
-      ]
-    },
-    {
       "title": "claration/feather",
       "url": "https://github.com/claration/feather",
       "description": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "5,095",
-      "forks": "483",
+      "stars": "5,097",
+      "forks": "484",
       "addStars": "293",
       "contributors": [
         {
@@ -207,13 +207,50 @@
       ]
     },
     {
+      "title": "manaflow-ai/cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "28,778",
+      "forks": "2,662",
+      "addStars": "891",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/54008264?s=40&v=4",
+          "name": "lawrencecchen",
+          "url": "https://github.com/lawrencecchen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38676809?s=40&v=4",
+          "name": "austinywang",
+          "url": "https://github.com/austinywang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13091533?s=40&v=4",
+          "name": "teamleaderleo",
+          "url": "https://github.com/teamleaderleo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67667005?s=40&v=4",
+          "name": "azooz2003-bit",
+          "url": "https://github.com/azooz2003-bit"
+        }
+      ]
+    },
+    {
       "title": "FrizzleM/SideInstaller",
       "url": "https://github.com/FrizzleM/SideInstaller",
       "description": "An an app that installs Sidestore on iOS 27, fully on-device",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,407",
-      "forks": "112",
+      "stars": "1,412",
+      "forks": "113",
       "addStars": "416",
       "contributors": [
         {
@@ -276,19 +313,19 @@
       ]
     },
     {
-      "title": "jithin-sabu/purge-app",
-      "url": "https://github.com/jithin-sabu/purge-app",
-      "description": "Free up your Mac. Safely. A free, open-source native Mac app that clears the cache and junk your Mac piles up on its own. Files go to the Trash by default, so you can put them back.",
+      "title": "momenbasel/PureMac",
+      "url": "https://github.com/momenbasel/PureMac",
+      "description": "Free, open-source macOS cleaner. CleanMyMac alternative with zero telemetry. Native SwiftUI, scheduled auto-cleaning, Xcode/Homebrew/system cache cleanup. MIT licensed.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,881",
-      "forks": "102",
-      "addStars": "726",
+      "stars": "7,773",
+      "forks": "456",
+      "addStars": "721",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/110096782?s=40&v=4",
-          "name": "jithin-sabu",
-          "url": "https://github.com/jithin-sabu"
+          "avatar": "https://avatars.githubusercontent.com/u/8724766?s=40&v=4",
+          "name": "momenbasel",
+          "url": "https://github.com/momenbasel"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -296,19 +333,41 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "name": "cursoragent",
-          "url": "https://github.com/cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/79738961?s=40&v=4",
+          "name": "zeck00",
+          "url": "https://github.com/zeck00"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/239800305?s=40&v=4",
-          "name": "monis-ecom",
-          "url": "https://github.com/monis-ecom"
+          "avatar": "https://avatars.githubusercontent.com/u/1768446?s=40&v=4",
+          "name": "balcsida",
+          "url": "https://github.com/balcsida"
+        }
+      ]
+    },
+    {
+      "title": "HD838A/remote-mic-app",
+      "url": "https://github.com/HD838A/remote-mic-app",
+      "description": "无线麦（SayAll.app）：支持小米蓝牙遥控器 2 和 2 Pro，变成 Mac 语音输入设备",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "2,876",
+      "forks": "296",
+      "addStars": "1,061",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/126734171?s=40&v=4",
+          "name": "HD838A",
+          "url": "https://github.com/HD838A"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/321368898?s=40&v=4",
-          "name": "alexkirov288-hub",
-          "url": "https://github.com/alexkirov288-hub"
+          "avatar": "https://avatars.githubusercontent.com/u/996292?s=40&v=4",
+          "name": "Channe",
+          "url": "https://github.com/Channe"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         }
       ]
     },
@@ -319,7 +378,7 @@
       "language": "Swift",
       "languageColor": "#F05138",
       "stars": "9,432",
-      "forks": "3,281",
+      "forks": "3,283",
       "addStars": "257",
       "contributors": [
         {
@@ -355,8 +414,8 @@
       "description": "Mac Sai: the open-source Mac cleaner, optimizer, and malware scanner. A free, Apple-notarized alternative to CleanMyMac, built with Swift 6 and SwiftUI.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "2,152",
-      "forks": "135",
+      "stars": "2,153",
+      "forks": "136",
       "addStars": "343",
       "contributors": [
         {
@@ -382,83 +441,14 @@
       ]
     },
     {
-      "title": "altstoreio/AltStore",
-      "url": "https://github.com/altstoreio/AltStore",
-      "description": "AltStore is an alternative app store for non-jailbroken iOS devices.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "14,943",
-      "forks": "1,737",
-      "addStars": "446",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/705880?s=40&v=4",
-          "name": "rileytestut",
-          "url": "https://github.com/rileytestut"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15572604?s=40&v=4",
-          "name": "caroline-moore",
-          "url": "https://github.com/caroline-moore"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/99302292?s=40&v=4",
-          "name": "shanegillio",
-          "url": "https://github.com/shanegillio"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5678977?s=40&v=4",
-          "name": "tbodt",
-          "url": "https://github.com/tbodt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/26331126?s=40&v=4",
-          "name": "noah978",
-          "url": "https://github.com/noah978"
-        }
-      ]
-    },
-    {
-      "title": "ob-f/OpenBot",
-      "url": "https://github.com/ob-f/OpenBot",
-      "description": "OpenBot leverages smartphones as brains for low-cost robots. We have designed a small electric vehicle that costs about $50 and serves as a robot body. Our software stack for Android smartphones supports advanced robotics workloads such as person following and real-time autonomous navigation.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "3,661",
-      "forks": "699",
-      "addStars": "138",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19666890?s=40&v=4",
-          "name": "thias15",
-          "url": "https://github.com/thias15"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11999742?s=40&v=4",
-          "name": "dhruv2295",
-          "url": "https://github.com/dhruv2295"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4115966?s=40&v=4",
-          "name": "izivkov",
-          "url": "https://github.com/izivkov"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/83397705?s=40&v=4",
-          "name": "quentin-leboutet",
-          "url": "https://github.com/quentin-leboutet"
-        }
-      ]
-    },
-    {
       "title": "huamidev/GestaltX",
       "url": "https://github.com/huamidev/GestaltX",
       "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "6,922",
+      "stars": "7,135",
       "forks": "2,371",
-      "addStars": "6,872",
+      "addStars": "7,074",
       "contributors": [],
       "source": "trendshift"
     },
@@ -468,9 +458,9 @@
       "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "6,439",
+      "stars": "6,668",
       "forks": "811",
-      "addStars": "3,958",
+      "addStars": "4,168",
       "contributors": [],
       "source": "trendshift"
     },
@@ -480,9 +470,9 @@
       "description": "Entire MacOS running in your terminal.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "2,655",
+      "stars": "2,692",
       "forks": "186",
-      "addStars": "2,441",
+      "addStars": "2,470",
       "contributors": [],
       "source": "trendshift"
     },
@@ -492,9 +482,9 @@
       "description": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "2,194",
+      "stars": "2,206",
       "forks": "378",
-      "addStars": "2,187",
+      "addStars": "2,197",
       "contributors": [],
       "source": "trendshift"
     },
@@ -504,9 +494,9 @@
       "description": "Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + Venus + MoltenVK, controllers, CoreAudio sound",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "2,587",
+      "stars": "2,590",
       "forks": "87",
-      "addStars": "1,586",
+      "addStars": "1,588",
       "contributors": [],
       "source": "trendshift"
     },
@@ -516,9 +506,9 @@
       "description": "Free and open-source macOS menu bar toolkit.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "34,489",
-      "forks": "1,828",
-      "addStars": "2,618",
+      "stars": "34,528",
+      "forks": "1,849",
+      "addStars": "2,658",
       "contributors": [],
       "source": "trendshift"
     },
@@ -528,9 +518,33 @@
       "description": "A mind map for your Claude/ChatGPT chats — macOS menu-bar app",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,049",
+      "stars": "1,054",
       "forks": "112",
-      "addStars": "821",
+      "addStars": "825",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "JosssphZhou/poki",
+      "url": "https://github.com/JosssphZhou/poki",
+      "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "1,043",
+      "forks": "186",
+      "addStars": "1,003",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Kianuni/Erosion-CN",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "1,827",
+      "forks": "373",
+      "addStars": "1,103",
       "contributors": [],
       "source": "trendshift"
     },
@@ -547,38 +561,14 @@
       "source": "trendshift"
     },
     {
-      "title": "JosssphZhou/poki",
-      "url": "https://github.com/JosssphZhou/poki",
-      "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "1,025",
-      "forks": "186",
-      "addStars": "985",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Kianuni/Erosion-CN",
-      "url": "https://github.com/Kianuni/Erosion-CN",
-      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "1,721",
-      "forks": "373",
-      "addStars": "991",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "nilbuild/tinyhand",
       "url": "https://github.com/nilbuild/tinyhand",
       "description": "A tiny hand on a stick that points at things on your Mac screen.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "662",
+      "stars": "670",
       "forks": "69",
-      "addStars": "559",
+      "addStars": "568",
       "contributors": [],
       "source": "trendshift"
     },
@@ -588,9 +578,9 @@
       "description": "iOS customization toolbox using the worse_query sandbox escape. Supports iOS 26.0 - 26.7.2, iOS 27.0 - 27.2.1, & 27.3b1.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "783",
-      "forks": "122",
-      "addStars": "528",
+      "stars": "792",
+      "forks": "125",
+      "addStars": "536",
       "contributors": [],
       "source": "trendshift"
     },
@@ -612,9 +602,9 @@
       "description": "Process Explorer for MacOS",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "771",
+      "stars": "889",
       "forks": "23",
-      "addStars": "728",
+      "addStars": "835",
       "contributors": [],
       "source": "trendshift"
     },
@@ -624,9 +614,9 @@
       "description": "",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "824",
+      "stars": "827",
       "forks": "119",
-      "addStars": "525",
+      "addStars": "528",
       "contributors": [],
       "source": "trendshift"
     },
@@ -636,21 +626,9 @@
       "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,786",
+      "stars": "1,793",
       "forks": "219",
-      "addStars": "699",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Jarvis322/macos-sysdata",
-      "url": "https://github.com/Jarvis322/macos-sysdata",
-      "description": "See what is really inside macOS System Data and delete it item by item. A free menu bar app that explains every category and shows each command before it runs.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "2,175",
-      "forks": "85",
-      "addStars": "684",
+      "addStars": "707",
       "contributors": [],
       "source": "trendshift"
     },
@@ -660,45 +638,21 @@
       "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "118,384",
-      "forks": "10,374",
-      "addStars": "918",
+      "stars": "118,423",
+      "forks": "10,412",
+      "addStars": "953",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "HD838A/remote-mic-app",
-      "url": "https://github.com/HD838A/remote-mic-app",
-      "description": "无线麦（SayAll.app）：支持小米蓝牙遥控器 2 和 2 Pro，变成 Mac 语音输入设备",
+      "title": "Jarvis322/macos-sysdata",
+      "url": "https://github.com/Jarvis322/macos-sysdata",
+      "description": "See what is really inside macOS System Data and delete it item by item. A free menu bar app that explains every category and shows each command before it runs.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "2,859",
-      "forks": "296",
-      "addStars": "642",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "mengangs/ipadn",
-      "url": "https://github.com/mengangs/ipadn",
-      "description": "",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "634",
-      "forks": "49",
-      "addStars": "451",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "musubipapi/airpointer",
-      "url": "https://github.com/musubipapi/airpointer",
-      "description": "",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "383",
-      "forks": "51",
-      "addStars": "376",
+      "stars": "2,186",
+      "forks": "86",
+      "addStars": "695",
       "contributors": [],
       "source": "trendshift"
     },
@@ -708,9 +662,33 @@
       "description": "Excalidraw app for mac. Powered by pure SwiftUI.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,786",
+      "stars": "1,856",
       "forks": "97",
-      "addStars": "257",
+      "addStars": "333",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "mengangs/ipadn",
+      "url": "https://github.com/mengangs/ipadn",
+      "description": "",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "672",
+      "forks": "49",
+      "addStars": "488",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "musubipapi/airpointer",
+      "url": "https://github.com/musubipapi/airpointer",
+      "description": "",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "388",
+      "forks": "51",
+      "addStars": "382",
       "contributors": [],
       "source": "trendshift"
     },
@@ -720,9 +698,9 @@
       "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "4,888",
+      "stars": "4,905",
       "forks": "677",
-      "addStars": "729",
+      "addStars": "747",
       "contributors": [],
       "source": "trendshift"
     }

@@ -2,17 +2,54 @@
   "title": "GitHub All Languages Daily Trending",
   "description": "Daily Trending of All Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 13 Nov 2026 00:53:30 GMT",
+  "pubDate": "Fri, 13 Nov 2026 11:51:40 GMT",
   "items": [
+    {
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": "50,149",
+      "forks": "3,722",
+      "addStars": "206",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&v=4",
+          "name": "lizhengfeng101",
+          "url": "https://github.com/lizhengfeng101"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/149216116?s=40&v=4",
+          "name": "wu21-web",
+          "url": "https://github.com/wu21-web"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16241795?s=40&v=4",
+          "name": "chethanuk",
+          "url": "https://github.com/chethanuk"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267806965?s=40&v=4",
+          "name": "Qiyuanqiii",
+          "url": "https://github.com/Qiyuanqiii"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61303077?s=40&v=4",
+          "name": "stay-foolish-forever",
+          "url": "https://github.com/stay-foolish-forever"
+        }
+      ]
+    },
     {
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "2,943",
-      "forks": "199",
-      "addStars": "739",
+      "stars": "4,110",
+      "forks": "240",
+      "addStars": "1,875",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/39191?s=40&v=4",
@@ -42,9 +79,9 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "12,423",
-      "forks": "978",
-      "addStars": "643",
+      "stars": "12,800",
+      "forks": "1,003",
+      "addStars": "754",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/269034524?s=40&v=4",
@@ -69,76 +106,39 @@
       ]
     },
     {
-      "title": "nvm-sh/nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": "96,015",
-      "forks": "10,759",
-      "addStars": "63",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "71,225",
+      "forks": "57,208",
+      "addStars": "272",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/45469?s=40&v=4",
-          "name": "ljharb",
-          "url": "https://github.com/ljharb"
+          "avatar": "https://avatars.githubusercontent.com/u/42829555?s=40&v=4",
+          "name": "ZhuLinsen",
+          "url": "https://github.com/ZhuLinsen"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3691490?s=40&v=4",
-          "name": "PeterDaveHello",
-          "url": "https://github.com/PeterDaveHello"
+          "avatar": "https://avatars.githubusercontent.com/u/176381099?s=40&v=4",
+          "name": "massif-01",
+          "url": "https://github.com/massif-01"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/89353?s=40&v=4",
-          "name": "creationix",
-          "url": "https://github.com/creationix"
+          "avatar": "https://avatars.githubusercontent.com/u/56824280?s=40&v=4",
+          "name": "freesme",
+          "url": "https://github.com/freesme"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/351038?s=40&v=4",
-          "name": "koenpunt",
-          "url": "https://github.com/koenpunt"
+          "avatar": "https://avatars.githubusercontent.com/u/30621586?s=40&v=4",
+          "name": "Activer007",
+          "url": "https://github.com/Activer007"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2123375?s=40&v=4",
-          "name": "lukechilds",
-          "url": "https://github.com/lukechilds"
-        }
-      ]
-    },
-    {
-      "title": "pookjw/HermesEnabler",
-      "url": "https://github.com/pookjw/HermesEnabler",
-      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
-      "language": "Objective-C",
-      "languageColor": "#438eff",
-      "stars": "1,538",
-      "forks": "139",
-      "addStars": "218",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11896738?s=40&v=4",
-          "name": "pookjw",
-          "url": "https://github.com/pookjw"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/30961174?s=40&v=4",
-          "name": "metalnodeug",
-          "url": "https://github.com/metalnodeug"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66147452?s=40&v=4",
-          "name": "SamZong233",
-          "url": "https://github.com/SamZong233"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6193760?s=40&v=4",
-          "name": "dfrias",
-          "url": "https://github.com/dfrias"
+          "avatar": "https://avatars.githubusercontent.com/u/36181736?s=40&v=4",
+          "name": "birdxs",
+          "url": "https://github.com/birdxs"
         }
       ]
     },
@@ -148,9 +148,9 @@
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
       "languageColor": "#701516",
-      "stars": "13,917",
-      "forks": "1,042",
-      "addStars": "967",
+      "stars": "14,347",
+      "forks": "1,080",
+      "addStars": "944",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/187772?s=40&v=4",
@@ -175,135 +175,19 @@
       ]
     },
     {
-      "title": "QwenLM/qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "description": "An open-source AI coding agent that lives in your terminal.",
+      "title": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "29,810",
-      "forks": "3,396",
-      "addStars": "151",
+      "stars": "10,252",
+      "forks": "776",
+      "addStars": "100",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1166785?s=40&v=4",
-          "name": "wenshao",
-          "url": "https://github.com/wenshao"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/224605497?s=40&v=4",
-          "name": "qwencoder",
-          "url": "https://github.com/qwencoder"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11473889?s=40&v=4",
-          "name": "yiliang114",
-          "url": "https://github.com/yiliang114"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/480123?s=40&v=4",
-          "name": "tanzhenxin",
-          "url": "https://github.com/tanzhenxin"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/269191875?s=40&v=4",
-          "name": "qwen-code-dev-bot",
-          "url": "https://github.com/qwen-code-dev-bot"
-        }
-      ]
-    },
-    {
-      "title": "ashhart/TensorFold",
-      "url": "https://github.com/ashhart/TensorFold",
-      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "1,938",
-      "forks": "391",
-      "addStars": "54",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/71890694?s=40&v=4",
-          "name": "ashhart",
-          "url": "https://github.com/ashhart"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/600316?s=40&v=4",
-          "name": "jschmied",
-          "url": "https://github.com/jschmied"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/288991054?s=40&v=4",
-          "name": "BobClawblaw",
-          "url": "https://github.com/BobClawblaw"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/106273?s=40&v=4",
-          "name": "laudney",
-          "url": "https://github.com/laudney"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15323295?s=40&v=4",
-          "name": "BlivionIaG",
-          "url": "https://github.com/BlivionIaG"
-        }
-      ]
-    },
-    {
-      "title": "nodejs/node",
-      "url": "https://github.com/nodejs/node",
-      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "123,600",
-      "forks": "38,057",
-      "addStars": "62",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/718899?s=40&v=4",
-          "name": "Trott",
-          "url": "https://github.com/Trott"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/80?s=40&v=4",
-          "name": "ry",
-          "url": "https://github.com/ry"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/275871?s=40&v=4",
-          "name": "bnoordhuis",
-          "url": "https://github.com/bnoordhuis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/899444?s=40&v=4",
-          "name": "addaleax",
-          "url": "https://github.com/addaleax"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9287?s=40&v=4",
-          "name": "isaacs",
-          "url": "https://github.com/isaacs"
-        }
-      ]
-    },
-    {
-      "title": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "116,670",
-      "forks": "12,210",
-      "addStars": "816",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/110953?s=40&v=4",
-          "name": "addyosmani",
-          "url": "https://github.com/addyosmani"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1307927?s=40&v=4",
-          "name": "nucliweb",
-          "url": "https://github.com/nucliweb"
+          "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&v=4",
+          "name": "backnotprop",
+          "url": "https://github.com/backnotprop"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -311,63 +195,78 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "name": "rudycelekli",
-          "url": "https://github.com/rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/110197373?s=40&v=4",
+          "name": "utpalsinghdev",
+          "url": "https://github.com/utpalsinghdev"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-          "name": "ayobamiseun",
-          "url": "https://github.com/ayobamiseun"
+          "avatar": "https://avatars.githubusercontent.com/u/47978193?s=40&v=4",
+          "name": "leoreisdias",
+          "url": "https://github.com/leoreisdias"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1078682?s=40&v=4",
+          "name": "uvw",
+          "url": "https://github.com/uvw"
         }
       ]
     },
     {
-      "title": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "26,538",
-      "forks": "2,059",
-      "addStars": "1,830",
+      "title": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "description": "A fancy self-hosted monitoring tool",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "93,627",
+      "forks": "8,706",
+      "addStars": "61",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2781099?s=40&v=4",
-          "name": "cixzhang",
-          "url": "https://github.com/cixzhang"
+          "avatar": "https://avatars.githubusercontent.com/u/1336778?s=40&v=4",
+          "name": "louislam",
+          "url": "https://github.com/louislam"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/254546175?s=40&v=4",
-          "name": "rubyycheung",
-          "url": "https://github.com/rubyycheung"
+          "avatar": "https://avatars.githubusercontent.com/u/26258709?s=40&v=4",
+          "name": "CommanderStorm",
+          "url": "https://github.com/CommanderStorm"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/17398284?s=40&v=4",
-          "name": "josephfarina",
-          "url": "https://github.com/josephfarina"
+          "avatar": "https://avatars.githubusercontent.com/u/3271800?s=40&v=4",
+          "name": "chakflying",
+          "url": "https://github.com/chakflying"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/197597?s=40&v=4",
-          "name": "vjeux",
-          "url": "https://github.com/vjeux"
+          "avatar": "https://avatars.githubusercontent.com/u/905878?s=40&v=4",
+          "name": "Saibamen",
+          "url": "https://github.com/Saibamen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67638596?s=40&v=4",
+          "name": "Computroniks",
+          "url": "https://github.com/Computroniks"
         }
       ]
     },
     {
-      "title": "CopilotKit/OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "11,607",
-      "forks": "1,436",
-      "addStars": "298",
+      "title": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "37,148",
+      "forks": "4,930",
+      "addStars": "95",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1574202?s=40&v=4",
-          "name": "davidmckayv",
-          "url": "https://github.com/davidmckayv"
+          "avatar": "https://avatars.githubusercontent.com/u/51647?s=40&v=4",
+          "name": "wesbillman",
+          "url": "https://github.com/wesbillman"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15384764?s=40&v=4",
+          "name": "wpfleger96",
+          "url": "https://github.com/wpfleger96"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -375,88 +274,147 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5299031?s=40&v=4",
-          "name": "kevin9327",
-          "url": "https://github.com/kevin9327"
+          "avatar": "https://avatars.githubusercontent.com/u/109685178?s=40&v=4",
+          "name": "tlongwell-block",
+          "url": "https://github.com/tlongwell-block"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/27702539?s=40&v=4",
-          "name": "guidovizoso",
-          "url": "https://github.com/guidovizoso"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67006255?s=40&v=4",
-          "name": "Ayush7614",
-          "url": "https://github.com/Ayush7614"
+          "avatar": "https://avatars.githubusercontent.com/u/7863796?s=40&v=4",
+          "name": "klopez4212",
+          "url": "https://github.com/klopez4212"
         }
       ]
     },
     {
-      "title": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "title": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "69,290",
-      "forks": "10,760",
-      "addStars": "415",
+      "stars": "3,863",
+      "forks": "842",
+      "addStars": "60",
       "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20476625?s=40&v=4",
-          "name": "Alishahryar1",
-          "url": "https://github.com/Alishahryar1"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "name": "cursoragent",
-          "url": "https://github.com/cursoragent"
-        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "name": "claude",
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/49880456?s=40&v=4",
-          "name": "Tanishq-1",
-          "url": "https://github.com/Tanishq-1"
+          "avatar": "https://avatars.githubusercontent.com/u/205491838?s=40&v=4",
+          "name": "tradermonty",
+          "url": "https://github.com/tradermonty"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/270693131?s=40&v=4",
+          "name": "raikkonenPotter",
+          "url": "https://github.com/raikkonenPotter"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42257?s=40&v=4",
+          "name": "wolframarnold",
+          "url": "https://github.com/wolframarnold"
         }
       ]
     },
     {
-      "title": "ggml-org/llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "description": "LLM inference in C/C++",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "134,556",
-      "forks": "25,508",
-      "addStars": "176",
+      "title": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": "9,184",
+      "forks": "421",
+      "addStars": "173",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1991296?s=40&v=4",
-          "name": "ggerganov",
-          "url": "https://github.com/ggerganov"
+          "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&v=4",
+          "name": "bradfitz",
+          "url": "https://github.com/bradfitz"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7702203?s=40&v=4",
-          "name": "ngxson",
-          "url": "https://github.com/ngxson"
+          "avatar": "https://avatars.githubusercontent.com/u/1918?s=40&v=4",
+          "name": "danderson",
+          "url": "https://github.com/danderson"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1629204?s=40&v=4",
-          "name": "CISC",
-          "url": "https://github.com/CISC"
+          "avatar": "https://avatars.githubusercontent.com/u/1079173?s=40&v=4",
+          "name": "andrew-d",
+          "url": "https://github.com/andrew-d"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/18492268?s=40&v=4",
-          "name": "JohannesGaessler",
-          "url": "https://github.com/JohannesGaessler"
+          "avatar": "https://avatars.githubusercontent.com/u/348?s=40&v=4",
+          "name": "raggi",
+          "url": "https://github.com/raggi"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2141330?s=40&v=4",
-          "name": "slaren",
-          "url": "https://github.com/slaren"
+          "avatar": "https://avatars.githubusercontent.com/u/10344482?s=40&v=4",
+          "name": "jwhited",
+          "url": "https://github.com/jwhited"
+        }
+      ]
+    },
+    {
+      "title": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "1,399",
+      "forks": "65",
+      "addStars": "245",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/243683505?s=40&v=4",
+          "name": "Likely7",
+          "url": "https://github.com/Likely7"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/314820892?s=40&v=4",
+          "name": "georgeg911",
+          "url": "https://github.com/georgeg911"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/48664596?s=40&v=4",
+          "name": "GeT-LeFt",
+          "url": "https://github.com/GeT-LeFt"
+        }
+      ]
+    },
+    {
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "55,217",
+      "forks": "4,606",
+      "addStars": "60",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
+          "name": "OrKoN",
+          "url": "https://github.com/OrKoN"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
+          "name": "Lightning00Blade",
+          "url": "https://github.com/Lightning00Blade"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
+          "name": "browser-automation-bot",
+          "url": "https://github.com/browser-automation-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
+          "name": "yulunz",
+          "url": "https://github.com/yulunz"
         }
       ]
     },
@@ -466,57 +424,9 @@
       "description": "A library of behaviors for agents to build the next generation of user interfaces.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "1,300",
+      "stars": "2,678",
       "forks": "4",
-      "addStars": "184",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "wdcpclover/ai4paper",
-      "url": "https://github.com/wdcpclover/ai4paper",
-      "description": "PDF 全文翻译，保留排版双语对照 · 2.4 亿文献检索一键入库 · 文库知识库问答 · AI 精读论文、综述与思维导图 · 列表直显期刊分区 / 中科院 / JCR / 影响因子 · 免插件网页版 app.ai4paper.pro · 适配 Zotero 7–10",
-      "language": "HTML",
-      "languageColor": "",
-      "stars": "4,819",
-      "forks": "49",
-      "addStars": "119",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "h4ckf0r0day/obscura",
-      "url": "https://github.com/h4ckf0r0day/obscura",
-      "description": "The headless browser for AI agents and web scraping",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "33,860",
-      "forks": "2,693",
-      "addStars": "78",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "aws/aws-emulator",
-      "url": "https://github.com/aws/aws-emulator",
-      "description": "",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "5,262",
-      "forks": "115",
-      "addStars": "87",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zxsos/HGhubX",
-      "url": "https://github.com/zxsos/HGhubX",
-      "description": "YellowFruit third-party client",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "1,282",
-      "forks": "496",
-      "addStars": "45",
+      "addStars": "1,585",
       "contributors": [],
       "source": "trendshift"
     },
@@ -526,141 +436,21 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "",
       "languageColor": "",
-      "stars": "7,211",
-      "forks": "181",
-      "addStars": "71",
+      "stars": "9,018",
+      "forks": "258",
+      "addStars": "1,886",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "Edge0-AI/Edge0",
-      "url": "https://github.com/Edge0-AI/Edge0",
-      "description": "Run 35B MoE models in ~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads a step ahead. Mac, iPhone, Android, Windows supported",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "10,212",
-      "forks": "1,751",
-      "addStars": "47",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "snchimata/tokenfold",
-      "url": "https://github.com/snchimata/tokenfold",
-      "description": "Private, provider-neutral context compression for LLMs. Reversibly compress schemas and logs inside your perimeter with zero third-party calls.",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "132",
-      "forks": "36",
-      "addStars": "14",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "dotnet/skills",
-      "url": "https://github.com/dotnet/skills",
-      "description": "Repository for skills to assist AI coding agents with .NET and C#",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "5,994",
-      "forks": "495",
-      "addStars": "22",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "anefzaoui/misterdownloadmanager",
-      "url": "https://github.com/anefzaoui/misterdownloadmanager",
-      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "7,845",
-      "forks": "615",
-      "addStars": "42",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zeronsh/zeron",
-      "url": "https://github.com/zeronsh/zeron",
-      "description": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "3,504",
-      "forks": "428",
-      "addStars": "13",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "beenuar/AiSOC",
-      "url": "https://github.com/beenuar/AiSOC",
-      "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "7,493",
-      "forks": "937",
-      "addStars": "29",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "huaizhuanghub/dsh-persona-dafeiyu",
-      "url": "https://github.com/huaizhuanghub/dsh-persona-dafeiyu",
-      "description": "Persona library plugin for DeepSeek Harness: built-in personas, import your own, switch without restart.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "107",
-      "forks": "9",
-      "addStars": "9",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "serveroshq/panel",
-      "url": "https://github.com/serveroshq/panel",
-      "description": "The open source ServerOS panel: one place to run the Linux servers you already own.",
-      "language": "PHP",
-      "languageColor": "",
-      "stars": "444",
-      "forks": "3",
-      "addStars": "25",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "NotRexed/Hookshot",
-      "url": "https://github.com/NotRexed/Hookshot",
-      "description": "",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "8,762",
-      "forks": "780",
-      "addStars": "33",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "language": "Dart",
-      "languageColor": "",
-      "stars": "20,718",
-      "forks": "943",
-      "addStars": "40",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "wici-ai/inferssd",
-      "url": "https://github.com/wici-ai/inferssd",
-      "description": "Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Built on llama.cpp.",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "634",
-      "forks": "74",
-      "addStars": "20",
+      "title": "zxsos/HGhubX",
+      "url": "https://github.com/zxsos/HGhubX",
+      "description": "YellowFruit third-party client",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "2,093",
+      "forks": "496",
+      "addStars": "960",
       "contributors": [],
       "source": "trendshift"
     },
@@ -670,21 +460,225 @@
       "description": "Andee lives on your phone or Mac and uses any app like you do—no integrations, no root, any model; memory and passwords never leave your device | Andee 住进你的手机或 Mac，像你一样操作任何 App——无需集成、无需 Root、支持任意模型，记忆和密码绝不离开设备。",
       "language": "Kotlin",
       "languageColor": "",
-      "stars": "5,198",
+      "stars": "6,063",
       "forks": "289",
-      "addStars": "26",
+      "addStars": "869",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "canivel/dynolab",
-      "url": "https://github.com/canivel/dynolab",
-      "description": "Dyno Lab — an AI safety, alignment and interpretability research workbench for Apple Silicon. Explore activations, probes, SAEs and interventions with local inference, a Python SDK, APIs and MCP.",
+      "title": "Edge0-AI/Edge0",
+      "url": "https://github.com/Edge0-AI/Edge0",
+      "description": "Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "10,769",
+      "forks": "1,840",
+      "addStars": "575",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "34,625",
+      "forks": "2,790",
+      "addStars": "752",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "wici-ai/inferssd",
+      "url": "https://github.com/wici-ai/inferssd",
+      "description": "Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Built on llama.cpp.",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "1,046",
+      "forks": "74",
+      "addStars": "412",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "23,669",
+      "forks": "2,096",
+      "addStars": "372",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "aws/aws-emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "description": "",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "6,008",
+      "forks": "115",
+      "addStars": "774",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "11,973",
+      "forks": "1,558",
+      "addStars": "407",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "30,076",
+      "forks": "3,648",
+      "addStars": "296",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "323",
-      "forks": "187",
-      "addStars": "17",
+      "stars": "69,684",
+      "forks": "11,710",
+      "addStars": "433",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "hyperionaidev/smolmaxxing",
+      "url": "https://github.com/hyperionaidev/smolmaxxing",
+      "description": "maxxing the ability to run different LLMs on the smallest devices possible",
+      "language": "C",
+      "languageColor": "",
+      "stars": "445",
+      "forks": "0",
+      "addStars": "236",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "apex-compute/ANR",
+      "url": "https://github.com/apex-compute/ANR",
+      "description": "Apex Neural Rendering (ANR) by Apex Compute",
+      "language": "",
+      "languageColor": "",
+      "stars": "1,165",
+      "forks": "2",
+      "addStars": "277",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "simpsoka/zigzag",
+      "url": "https://github.com/simpsoka/zigzag",
+      "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "407",
+      "forks": "5",
+      "addStars": "227",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "heartleo/zlib",
+      "url": "https://github.com/heartleo/zlib",
+      "description": "A command-line tool for Z-Library. Search, download, send to Kindle and WeRead, and integrate with AI agents.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": "1,830",
+      "forks": "141",
+      "addStars": "222",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": "35,891",
+      "forks": "3,299",
+      "addStars": "500",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "serveroshq/panel",
+      "url": "https://github.com/serveroshq/panel",
+      "description": "The open source ServerOS panel: one place to run the Linux servers you already own.",
+      "language": "PHP",
+      "languageColor": "",
+      "stars": "682",
+      "forks": "3",
+      "addStars": "213",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "30,750",
+      "forks": "6,019",
+      "addStars": "1,077",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tylertms/Stela",
+      "url": "https://github.com/tylertms/Stela",
+      "description": "Boots unmodified Apple silicon macOS on x86-64 PCs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,640",
+      "forks": "54",
+      "addStars": "297",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "134,811",
+      "forks": "22,789",
+      "addStars": "286",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "123,965",
+      "forks": "8,667",
+      "addStars": "525",
       "contributors": [],
       "source": "trendshift"
     }
