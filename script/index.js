@@ -11,6 +11,7 @@ const { BASE_URL, DATA_BASE_URL } = require('./base')
 const { save } = require('./save')
 const { addTrendshift } = require('./trendshift')
 const { updateReddit } = require('./reddit')
+const { updateSkills } = require('./skills')
 
 const path = require('path');
 const { readFileSync } = require('fs');
@@ -81,4 +82,5 @@ function delay(ms) {
   // Runs after GitHub trending is saved, so it only adds repos missing from those files.
   await addTrendshift()
   await updateReddit()
+  await updateSkills()
 })();

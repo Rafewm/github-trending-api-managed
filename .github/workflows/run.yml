@@ -36,6 +36,9 @@ jobs:
 
       - name: Build the trending
         run: pnpm build
+        env:
+          # Used by script/skills.js for GitHub search's higher rate limit.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
