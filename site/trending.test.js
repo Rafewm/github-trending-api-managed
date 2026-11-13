@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { growth, mergeTrending, dropStarred, dropRecentStars } from './trending.js';
-import { searchToRepos } from './trending.js';
+import { searchToRepos, skillsToRepos } from './trending.js';
 
 const item = (title, stars, addStars) => ({ title, stars, addStars, description: 'd', language: 'Go' });
 const node = (nameWithOwner, viewerHasStarred) => ({
@@ -141,4 +141,20 @@ test('searchToRepos keeps valid names and works out stars per day', () => {
   assert.equal(repos[0].created.perDay, 100);
   // Under a day old counts as one day, so a few hours' stars don't look huge.
   assert.equal(repos[1].created.perDay, 60);
+});
+
+test('skillsToRepos drops starred repos and bad names, and fills page fields', () => {
+  const now = Date.parse('2026-11-11T00:00:00Z');
+  const entries = [
+    { name: 'a/mcp', stars: 500, created: '2026-11-01T00:00:00Z', pushed: '2026-11-10T00:00:00Z', type: 'mcp', topics: ['mcp'] },
+    { name: 'B/Starred', stars: 9, created: '2026-01-01T00:00:00Z', type: 'skill' },
+    { name: 'not a repo', stars: 1 },
+  ];
+  const { repos, hiddenStarred } = skillsToRepos(entries, new Set(['b/starred']), now);
+  assert.equal(hiddenStarred, 1);
+  assert.deepEqual(repos.map((r) => r.name), ['a/mcp']);
+  assert.equal(repos[0].skill, 'mcp');
+  assert.equal(repos[0].created.perDay, 50);
+  assert.equal(repos[0].pushedAt, '2026-11-10T00:00:00Z');
+  assert.equal(repos[0].avatar, 'https://avatars.githubusercontent.com/a?s=40');
 });

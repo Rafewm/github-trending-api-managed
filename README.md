@@ -2,8 +2,8 @@
 
 Two things live in this repo:
 
-1. **A trending data API.** A GitHub Action scrapes [GitHub Trending](https://github.com/trending) every 4 hours, adds the live [Trendshift](https://trendshift.io) rankings, and commits the results as static JSON and RSS files under [`data/`](data).
-2. **Unstarred**, a website in [`site/`](site) for browsing that data, new repositories gaining stars fast, GitHub projects on Hacker News and notable new releases, with every repo you have already starred filtered out.
+1. **A trending data API.** A GitHub Action scrapes [GitHub Trending](https://github.com/trending) every 4 hours, adds the live [Trendshift](https://trendshift.io) rankings, collects agent skills and MCP servers, and commits the results as static JSON and RSS files under [`data/`](data).
+2. **Unstarred**, a website in [`site/`](site) for browsing that data, new repositories gaining stars fast, agent skills and MCP servers, GitHub projects on Hacker News and notable new releases, with every repo you have already starred filtered out.
 
 [简体中文](README_zh-CN.md) (describes the original data API only)
 
@@ -74,15 +74,24 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 - The archive allows about one request every few seconds, so each run only asks for posts newer than the newest saved one, pauses between pages, waits when the archive says to, and saves after every page.
 - The archive records posts shortly after they are made, so upvote counts are not kept.
 
+### Agent skills
+
+[`script/skills.js`](script/skills.js) collects agent skills, MCP servers and AI agent tools into [`data/skills/skills.json`](data/skills/skills.json), using the same GitHub searches as [AgentSkillsHub](https://github.com/zhuyansen/agent-skills-hub) (topics, names and descriptions such as `mcp-server`, `claude-skill`, `agent-skills`, `openclaw` and `codex`).
+
+- Each entry has `name`, `description`, `language`, `stars`, `topics`, `created`, `pushed`, `avatar` and `type`, most stars first.
+- `type` is `mcp`, `claude`, `codex` (Codex and OpenClaw), `agent`, `skill` or `tool`, from keywords in the name, description and topics.
+- It runs about every 8 hours (every other Action run), reads up to 1,000 repos per search, and skips forks and archived repos. If most searches fail, the last good file is kept.
+
 ### Updating the data
 
 `.github/workflows/run.yml` runs `pnpm build` every 4 hours and on manual dispatch, then commits `data/`. To run it yourself:
 
 ```bash
 pnpm install
-pnpm build                    # GitHub Trending for every language, then Trendshift and Reddit (about 30 minutes)
+pnpm build                    # GitHub Trending for every language, then Trendshift, Reddit and skills (about 30 minutes)
 node script/trendshift.js     # Trendshift step only
 node script/reddit.js         # Reddit step only
+node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
 ```
 
 ---
@@ -95,6 +104,8 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **New** finds new repositories gaining stars fast with the [GitHub search API](https://docs.github.com/en/rest/search/search#search-repositories), the method [repotrend.com](https://github.com/creatuluw/repotrend.com) uses: repos made in the last 3 days with 50+ stars, 30 days with 100+, 90 days with 1K+, 2 years with 10K+, or any age with 50K+. Search returns at most 1,000 repos per period. GitHub search gives no daily growth, so rows show stars per day since the repo was made, and that is the default sort.
 
+**Skills** lists the agent skills, MCP servers and agent tools from `data/skills/skills.json`, with a **Type** filter (MCP servers, Claude skills, Codex and OpenClaw, agent tools, other skills, other tools). Starred repos are dropped by checking your whole starred list, which is faster than the 50-at-a-time GraphQL check for thousands of repos.
+
 **Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Each period holds at most the 1,000 highest-scoring stories, which is the API's limit.
 
 **Releases** combines two sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) and posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread). A **Source** filter shows both, Reddit only or Release Monitor only; a repo found by both appears once with both links. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
@@ -103,7 +114,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Hide** removes a repo from every list without starring it. The **Hidden** tab lists them with an Unhide button.
 
-**Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse, New, Hacker News and Releases and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
+**Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse, New, Skills, Hacker News and Releases and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
 
 Both lists are stored in Upstash Redis, so they are the same on every device. Anyone can view them; changing them needs your hide key, which each browser asks for once.
 
@@ -123,6 +134,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | --- | --- |
 | `GET /api/repos` | Trending repos you have not starred. Cached 5 minutes. |
 | `GET /api/new?period=3\|30\|90\|730\|all` | New repos gaining stars fast that you have not starred, with `created.perDay`. Cached 30 minutes. |
+| `GET /api/skills?type=all\|mcp\|claude\|codex\|agent\|skill\|tool` | Agent skills and MCP servers you have not starred. Cached 30 minutes. |
 | `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases and r/BestGitHubRepos posts for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
 | `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
@@ -165,6 +177,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 - Data scraper by [isboyjc/github-trending-api](https://github.com/isboyjc/github-trending-api), via [alvinunreal/github-trending-api-managed](https://github.com/alvinunreal/github-trending-api-managed).
 - Extra rankings from [Trendshift.io](https://trendshift.io); reading its page data follows [quantavil/trendshift](https://github.com/quantavil/trendshift).
 - The New tab follows [repotrend.com](https://github.com/creatuluw/repotrend.com)'s GitHub search queries.
+- The Skills tab uses [AgentSkillsHub](https://github.com/zhuyansen/agent-skills-hub)'s GitHub search queries and categories.
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
 - Release data from [Release Monitor](https://releasemonitor.org).
 - Reddit posts from r/BestGitHubRepos via [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift).

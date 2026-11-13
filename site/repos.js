@@ -1,5 +1,5 @@
 import {
-  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos,
+  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos,
 } from './trending.js';
 import { cached } from './cache.js';
 
@@ -25,6 +25,10 @@ const REDDIT = `${DATA}/reddit/BestGitHubRepos.json`;
 const DAY = 86400;
 // New repos gaining stars fast, by GitHub search like repotrend.com: [days back or null for all time, minimum stars].
 const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 730: [730, 10000], all: [null, 50000] };
+// Agent skills, MCP servers and agent tools, collected every 8 hours by the data repo's Action (script/skills.js).
+const SKILLS = `${DATA}/skills/skills.json`;
+const SKILL_TYPES = ['all', 'mcp', 'claude', 'codex', 'agent', 'skill', 'tool'];
+const SKILLS_ALL_MAX = 5000;
 // GitHub search stops at 1,000 results, 100 per page.
 const SEARCH_PAGES = 10;
 const FIELDS =
@@ -157,6 +161,33 @@ async function loadNew(period) {
   return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
 }
 
+// Every repo you starred, for lists too long to check 50 at a time over GraphQL.
+async function fetchAllStars() {
+  const page = (n) =>
+    fetch(`https://api.github.com/user/starred?per_page=100&page=${n}`, {
+      headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred' },
+    });
+  const first = await page(1);
+  if (!first.ok) throw new Error(`GitHub request failed: ${first.status}${first.status === 401 ? '. Check your token.' : ''}`);
+  const last = Number(first.headers.get('link')?.match(/[?&]page=(\d+)>; rel="last"/)?.[1] ?? 1);
+  const rest = await Promise.all(Array.from({ length: last - 1 }, (_, i) => page(i + 2)));
+  const failed = rest.find((res) => !res.ok);
+  // A partial list would let starred repos through, so any failed page fails the whole load.
+  if (failed) throw new Error(`GitHub request failed: ${failed.status}`);
+  const pages = await Promise.all([first, ...rest].map((res) => res.json()));
+  return pages.flat().map((repo) => repo.full_name.toLowerCase());
+}
+
+async function loadSkills(type) {
+  const [res, starred] = await Promise.all([fetch(SKILLS), cached('stars:all', RELEASE_CACHE_MS, fetchAllStars)]);
+  if (!res.ok) throw new Error(`Skills file failed: ${res.status}`);
+  const { updated, repos = [] } = await res.json();
+  // shortcut: "all" keeps the 5,000 with most stars (the file is sorted), since every repo is over Upstash's 10 MB
+  // value limit and slow on phones; each type still lists all of its repos. Page it server-side if that matters.
+  const list = type === 'all' ? repos.slice(0, SKILLS_ALL_MAX) : repos.filter((r) => r.type === type);
+  return { ...skillsToRepos(list, new Set(starred)), tracked: list.length, refreshed: Date.parse(updated) || Date.now() };
+}
+
 // Newest first, so this catches anything starred since the cache was filled.
 async function fetchRecentStars() {
   const res = await fetch('https://api.github.com/user/starred?per_page=100', {
@@ -215,4 +246,15 @@ export function handleNew(req, res) {
     return;
   }
   return respond(res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
+}
+
+// GET /api/skills?type=all|mcp|claude|codex|agent|skill|tool
+export function handleSkills(req, res) {
+  const type = new URL(req.url, 'http://localhost').searchParams.get('type') ?? 'all';
+  if (!SKILL_TYPES.includes(type)) {
+    res.writeHead(400, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ error: `type must be ${SKILL_TYPES.join(', ')}.` }));
+    return;
+  }
+  return respond(res, () => cached(`skills:${type}`, RELEASE_CACHE_MS, () => loadSkills(type)));
 }

@@ -25,6 +25,11 @@ const SORTS = {
     ['stars', 'Total stars'],
     ['created.time', 'Newest'],
   ],
+  skills: [
+    ['stars', 'Total stars'],
+    ['created.perDay', 'Stars per day'],
+    ['created.time', 'Newest'],
+  ],
   releases: [
     ['release.score', 'Release Monitor rank'],
     ['reddit.time', 'Newest on Reddit'],
@@ -35,6 +40,7 @@ const COLUMNS = {
   trending: ['Lang', 'Stars', 'Day', 'Week', 'Month', 'Status'],
   hn: ['Lang', 'Stars', 'Points', 'Comments', 'Posted', 'Status'],
   new: ['Lang', 'Stars', 'Per day', 'Created', 'Status'],
+  skills: ['Lang', 'Stars', 'Type', 'Created', 'Status'],
   releases: ['Lang', 'Stars', 'Release', 'Reddit', 'Status'],
 };
 // Tabs that load one list per period, on first open.
@@ -55,6 +61,20 @@ const FEEDS = {
     ],
     label: 'new repositories',
   },
+  skills: {
+    url: (type) => `/api/skills?type=${type}`,
+    title: 'Type',
+    periods: [
+      ['all', 'All types'],
+      ['mcp', 'MCP servers'],
+      ['claude', 'Claude skills'],
+      ['codex', 'Codex and OpenClaw'],
+      ['agent', 'Agent tools'],
+      ['skill', 'Other skills'],
+      ['tool', 'Other tools'],
+    ],
+    label: 'skills',
+  },
   releases: {
     url: (period) => `/api/releases?days=${period}`,
     periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['14', 'Last 14 days'], ['30', 'Last 30 days'], ['365', 'Last year']],
@@ -62,8 +82,8 @@ const FEEDS = {
   },
 };
 let browse = null;
-const feeds = { hn: {}, new: {}, releases: {} };
-const periodChoice = { hn: 'day', new: '30', releases: '7' };
+const feeds = { hn: {}, new: {}, skills: {}, releases: {} };
+const periodChoice = { hn: 'day', new: '30', skills: 'all', releases: '7' };
 let limit = PAGE;
 let view = 'browse';
 let hidden = {};
@@ -72,7 +92,7 @@ let storeReady = false;
 // Bumped when a Hide/Track save starts and when it ends, so a refresh that overlapped one can tell.
 let listEdits = 0;
 let listQueue = Promise.resolve();
-const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', releases: 'release.score' };
+const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', skills: 'stars', releases: 'release.score' };
 
 const kind = () => (FEEDS[view] ? view : 'trending');
 const source = () => (FEEDS[view] ? feeds[view][periodChoice[view]] : browse);
@@ -198,6 +218,13 @@ function newCells(c) {
     <td class="nowrap" data-label="Created">${ago(new Date(c.time * 1000).toISOString())}</td>`;
 }
 
+const skillLabel = (type) => new Map(FEEDS.skills.periods).get(type) ?? 'Other tools';
+
+function skillCells(repo) {
+  return `<td class="nowrap" data-label="Type">${esc(skillLabel(repo.skill))}</td>
+    <td class="nowrap" data-label="Created">${ago(new Date(repo.created.time * 1000).toISOString())}</td>`;
+}
+
 function statusCell(repo) {
   if (repo.archived) return '<td class="nowrap status off" data-label="Status"><span aria-hidden="true">●</span> Archived</td>';
   const active = repo.pushedAt && Date.now() - Date.parse(repo.pushedAt) < 90 * DAY_MS;
@@ -250,6 +277,8 @@ function row(repo) {
           ? releaseCells(repo)
           : view === 'new' && repo.created
             ? newCells(repo.created)
+            : view === 'skills' && repo.skill
+              ? skillCells(repo)
           : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`
     }
     ${statusCell(repo)}
@@ -307,11 +336,12 @@ function render() {
     browse: 'Projects',
     hn: 'On Hacker News',
     new: 'New and rising',
+    skills: 'Agent skills and MCP',
     releases: 'New releases',
     tracked: 'Tracked projects',
     hidden: 'Hidden projects',
   }[view];
-  for (const v of ['browse', 'new', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
+  for (const v of ['browse', 'new', 'skills', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
   $('period-label').hidden = !FEEDS[view];
   $('source-label').hidden = view !== 'releases';
   renderHeader();
@@ -377,6 +407,7 @@ async function showFeed() {
 
 function setPeriods() {
   if (!FEEDS[view]) return;
+  $('period-label').firstChild.textContent = `${FEEDS[view].title ?? 'Period'} `;
   $('period').replaceChildren(...FEEDS[view].periods.map(([value, label]) => new Option(label, value)));
   $('period').value = periodChoice[view];
 }
@@ -494,6 +525,7 @@ $('more').addEventListener('click', () => {
 });
 $('tab-browse').addEventListener('click', () => setView('browse'));
 $('tab-new').addEventListener('click', () => setView('new'));
+$('tab-skills').addEventListener('click', () => setView('skills'));
 $('tab-hn').addEventListener('click', () => setView('hn'));
 $('tab-releases').addEventListener('click', () => setView('releases'));
 $('tab-tracked').addEventListener('click', () => setView('tracked'));

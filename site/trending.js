@@ -219,3 +219,36 @@ export function searchToRepos(items, now = Date.now()) {
       };
     });
 }
+
+// data/skills/skills.json entries (collected like AgentSkillsHub) as page rows, without the repos you starred.
+export function skillsToRepos(entries, starred, now = Date.now()) {
+  const repos = [];
+  let hiddenStarred = 0;
+  for (const e of entries) {
+    if (!REPO_NAME.test(e?.name ?? '')) continue;
+    if (starred.has(e.name.toLowerCase())) {
+      hiddenStarred++;
+      continue;
+    }
+    const time = Math.floor(Date.parse(e.created) / 1000) || 0;
+    const stars = Number(e.stars) || 0;
+    repos.push({
+      name: e.name,
+      description: String(e.description ?? ''),
+      language: String(e.language ?? ''),
+      languageColor: '',
+      day: null,
+      week: null,
+      month: null,
+      stars,
+      pushedAt: e.pushed ?? null,
+      archived: false,
+      // GitHub serves an owner's avatar by login, so the file doesn't store the URL.
+      avatar: `https://avatars.githubusercontent.com/${e.name.split('/')[0]}?s=40`,
+      topics: Array.isArray(e.topics) ? e.topics.map(String) : [],
+      created: { time, perDay: Math.round(stars / Math.max((now / 1000 - time) / 86400, 1)) },
+      skill: String(e.type ?? 'tool'),
+    });
+  }
+  return { repos, hiddenStarred };
+}
