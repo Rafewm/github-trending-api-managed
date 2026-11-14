@@ -3,7 +3,7 @@
     <title>GitHub Nix Languages Monthly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Monthly Trending of Nix Languages in GitHub</description>
-    <pubDate>Sat, 14 Nov 2026 11:13:01 GMT</pubDate>
+    <pubDate>Sat, 14 Nov 2026 17:39:01 GMT</pubDate>
     <item>
       <title>NixOS/nixpkgs</title>
       <link>https://github.com/NixOS/nixpkgs</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/NixOS/nixpkgs</guid>
       <language>Nix</language>
       <languageColor>#7e7eff</languageColor>
-      <stars>26,822</stars>
-      <forks>20,754</forks>
+      <stars>26,826</stars>
+      <forks>20,759</forks>
       <addStars>438</addStars>
       <contributors>
         <contributor>
@@ -43,14 +43,47 @@
       </contributors>
     </item>
     <item>
+      <title>NixOS/nixos-hardware</title>
+      <link>https://github.com/NixOS/nixos-hardware</link>
+      <description>A collection of NixOS modules covering hardware quirks.</description>
+      <guid>https://github.com/NixOS/nixos-hardware</guid>
+      <language>Nix</language>
+      <languageColor>#7e7eff</languageColor>
+      <stars>3,363</stars>
+      <forks>1,005</forks>
+      <addStars>38</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/96200?s=40&amp;v=4</avatar>
+          <name>Mic92</name>
+          <url>https://github.com/Mic92</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/329349?s=40&amp;v=4</avatar>
+          <name>mexisme</name>
+          <url>https://github.com/mexisme</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1643293?s=40&amp;v=4</avatar>
+          <name>lukateras</name>
+          <url>https://github.com/lukateras</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7258858?s=40&amp;v=4</avatar>
+          <name>SuperSandro2000</name>
+          <url>https://github.com/SuperSandro2000</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>nix-community/home-manager</title>
       <link>https://github.com/nix-community/home-manager</link>
       <description>Manage a user environment using Nix [maintainer=@khaneliman, @rycee]</description>
       <guid>https://github.com/nix-community/home-manager</guid>
       <language>Nix</language>
       <languageColor>#7e7eff</languageColor>
-      <stars>10,517</stars>
-      <forks>2,511</forks>
+      <stars>10,519</stars>
+      <forks>2,512</forks>
       <addStars>108</addStars>
       <contributors>
         <contributor>
@@ -77,39 +110,6 @@
           <avatar>https://avatars.githubusercontent.com/u/20448408?s=40&amp;v=4</avatar>
           <name>berbiche</name>
           <url>https://github.com/berbiche</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>NixOS/nixos-hardware</title>
-      <link>https://github.com/NixOS/nixos-hardware</link>
-      <description>A collection of NixOS modules covering hardware quirks.</description>
-      <guid>https://github.com/NixOS/nixos-hardware</guid>
-      <language>Nix</language>
-      <languageColor>#7e7eff</languageColor>
-      <stars>3,362</stars>
-      <forks>1,005</forks>
-      <addStars>38</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/96200?s=40&amp;v=4</avatar>
-          <name>Mic92</name>
-          <url>https://github.com/Mic92</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/329349?s=40&amp;v=4</avatar>
-          <name>mexisme</name>
-          <url>https://github.com/mexisme</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1643293?s=40&amp;v=4</avatar>
-          <name>lukateras</name>
-          <url>https://github.com/lukateras</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7258858?s=40&amp;v=4</avatar>
-          <name>SuperSandro2000</name>
-          <url>https://github.com/SuperSandro2000</url>
         </contributor>
       </contributors>
     </item>
@@ -186,8 +186,8 @@
       <guid>https://github.com/supabase/postgres</guid>
       <language>Nix</language>
       <languageColor>#7e7eff</languageColor>
-      <stars>1,807</stars>
-      <forks>276</forks>
+      <stars>1,808</stars>
+      <forks>278</forks>
       <addStars>17</addStars>
       <contributors>
         <contributor>

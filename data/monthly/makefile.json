@@ -2,45 +2,8 @@
   "title": "GitHub Makefile Languages Monthly Trending",
   "description": "Monthly Trending of Makefile Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
+  "pubDate": "Sat, 14 Nov 2026 17:39:01 GMT",
   "items": [
-    {
-      "title": "ROCKNIX/distribution",
-      "url": "https://github.com/ROCKNIX/distribution",
-      "description": "",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "1,656",
-      "forks": "407",
-      "addStars": "45",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
-          "name": "sraue",
-          "url": "https://github.com/sraue"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
-          "name": "heitbaum",
-          "url": "https://github.com/heitbaum"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
-          "name": "MilhouseVH",
-          "url": "https://github.com/MilhouseVH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
-          "name": "CvH",
-          "url": "https://github.com/CvH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/758738?s=40&v=4",
-          "name": "stefansaraev",
-          "url": "https://github.com/stefansaraev"
-        }
-      ]
-    },
     {
       "title": "mindsdb/mindshub",
       "url": "https://github.com/mindsdb/mindshub",
@@ -159,7 +122,7 @@
       "language": "Makefile",
       "languageColor": "#427819",
       "stars": "750",
-      "forks": "245",
+      "forks": "246",
       "addStars": "36",
       "contributors": [
         {
@@ -291,43 +254,6 @@
       ]
     },
     {
-      "title": "freebsd/freebsd-ports",
-      "url": "https://github.com/freebsd/freebsd-ports",
-      "description": "FreeBSD ports tree (read-only mirror)",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "1,231",
-      "forks": "891",
-      "addStars": "20",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/688777?s=40&v=4",
-          "name": "sunpoet",
-          "url": "https://github.com/sunpoet"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/271906?s=40&v=4",
-          "name": "yurivict",
-          "url": "https://github.com/yurivict"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/474217?s=40&v=4",
-          "name": "AMDmi3",
-          "url": "https://github.com/AMDmi3"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11153579?s=40&v=4",
-          "name": "jbeich",
-          "url": "https://github.com/jbeich"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/103607?s=40&v=4",
-          "name": "bapt",
-          "url": "https://github.com/bapt"
-        }
-      ]
-    },
-    {
       "title": "Ysurac/openmptcprouter",
       "url": "https://github.com/Ysurac/openmptcprouter",
       "description": "OpenMPTCProuter is an open source solution to aggregate multiple internet connections using Multipath TCP (MPTCP) on OpenWrt",
@@ -365,12 +291,86 @@
       ]
     },
     {
+      "title": "ROCKNIX/distribution",
+      "url": "https://github.com/ROCKNIX/distribution",
+      "description": "",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "1,658",
+      "forks": "408",
+      "addStars": "45",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
+          "name": "sraue",
+          "url": "https://github.com/sraue"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
+          "name": "heitbaum",
+          "url": "https://github.com/heitbaum"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
+          "name": "MilhouseVH",
+          "url": "https://github.com/MilhouseVH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
+          "name": "CvH",
+          "url": "https://github.com/CvH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/758738?s=40&v=4",
+          "name": "stefansaraev",
+          "url": "https://github.com/stefansaraev"
+        }
+      ]
+    },
+    {
+      "title": "qmk/qmk_userspace",
+      "url": "https://github.com/qmk/qmk_userspace",
+      "description": "Userspace for the open-source QMK keyboard firmware.",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "194",
+      "forks": "2,816",
+      "addStars": "6",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2985843?s=40&v=4",
+          "name": "tzarc",
+          "url": "https://github.com/tzarc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/63959?s=40&v=4",
+          "name": "peterjc",
+          "url": "https://github.com/peterjc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/616082?s=40&v=4",
+          "name": "sigprof",
+          "url": "https://github.com/sigprof"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/690135?s=40&v=4",
+          "name": "kroleg",
+          "url": "https://github.com/kroleg"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2642266?s=40&v=4",
+          "name": "cskeeters",
+          "url": "https://github.com/cskeeters"
+        }
+      ]
+    },
+    {
       "title": "itchio/itch.io",
       "url": "https://github.com/itchio/itch.io",
       "description": "🐛 Public itch.io issues tracker and documentation - use support instead for private information!",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "286",
+      "stars": "285",
       "forks": "45",
       "addStars": "5",
       "contributors": [
@@ -434,39 +434,76 @@
       ]
     },
     {
-      "title": "qmk/qmk_userspace",
-      "url": "https://github.com/qmk/qmk_userspace",
-      "description": "Userspace for the open-source QMK keyboard firmware.",
+      "title": "PartialVolume/shredos.x86_64",
+      "url": "https://github.com/PartialVolume/shredos.x86_64",
+      "description": "Shredos Disk Eraser 64 bit for all Intel 64 bit processors as well as processors from AMD and other vendors which make compatible 64 bit chips. ShredOS - Secure disk erasure/wipe",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "194",
-      "forks": "2,817",
-      "addStars": "6",
+      "stars": "3,279",
+      "forks": "150",
+      "addStars": "76",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2985843?s=40&v=4",
-          "name": "tzarc",
-          "url": "https://github.com/tzarc"
+          "avatar": "https://avatars.githubusercontent.com/u/22084881?s=40&v=4",
+          "name": "PartialVolume",
+          "url": "https://github.com/PartialVolume"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/63959?s=40&v=4",
-          "name": "peterjc",
-          "url": "https://github.com/peterjc"
+          "avatar": "https://avatars.githubusercontent.com/u/24509509?s=40&v=4",
+          "name": "desertwitch",
+          "url": "https://github.com/desertwitch"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/616082?s=40&v=4",
-          "name": "sigprof",
-          "url": "https://github.com/sigprof"
+          "avatar": "https://avatars.githubusercontent.com/u/45062335?s=40&v=4",
+          "name": "JeremyComelli1",
+          "url": "https://github.com/JeremyComelli1"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/690135?s=40&v=4",
-          "name": "kroleg",
-          "url": "https://github.com/kroleg"
+          "avatar": "https://avatars.githubusercontent.com/u/26367057?s=40&v=4",
+          "name": "Knogle",
+          "url": "https://github.com/Knogle"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2642266?s=40&v=4",
-          "name": "cskeeters",
-          "url": "https://github.com/cskeeters"
+          "avatar": "https://avatars.githubusercontent.com/u/116610?s=40&v=4",
+          "name": "petski",
+          "url": "https://github.com/petski"
+        }
+      ]
+    },
+    {
+      "title": "LibreELEC/LibreELEC.tv",
+      "url": "https://github.com/LibreELEC/LibreELEC.tv",
+      "description": "Just enough OS for KODI",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "2,856",
+      "forks": "1,218",
+      "addStars": "39",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
+          "name": "sraue",
+          "url": "https://github.com/sraue"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
+          "name": "heitbaum",
+          "url": "https://github.com/heitbaum"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
+          "name": "CvH",
+          "url": "https://github.com/CvH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
+          "name": "MilhouseVH",
+          "url": "https://github.com/MilhouseVH"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/251794?s=40&v=4",
+          "name": "chewitt",
+          "url": "https://github.com/chewitt"
         }
       ]
     },
@@ -508,86 +545,12 @@
       ]
     },
     {
-      "title": "LibreELEC/LibreELEC.tv",
-      "url": "https://github.com/LibreELEC/LibreELEC.tv",
-      "description": "Just enough OS for KODI",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "2,858",
-      "forks": "1,218",
-      "addStars": "39",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/306166?s=40&v=4",
-          "name": "sraue",
-          "url": "https://github.com/sraue"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6086324?s=40&v=4",
-          "name": "heitbaum",
-          "url": "https://github.com/heitbaum"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1355173?s=40&v=4",
-          "name": "CvH",
-          "url": "https://github.com/CvH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/805038?s=40&v=4",
-          "name": "MilhouseVH",
-          "url": "https://github.com/MilhouseVH"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/251794?s=40&v=4",
-          "name": "chewitt",
-          "url": "https://github.com/chewitt"
-        }
-      ]
-    },
-    {
-      "title": "PartialVolume/shredos.x86_64",
-      "url": "https://github.com/PartialVolume/shredos.x86_64",
-      "description": "Shredos Disk Eraser 64 bit for all Intel 64 bit processors as well as processors from AMD and other vendors which make compatible 64 bit chips. ShredOS - Secure disk erasure/wipe",
-      "language": "Makefile",
-      "languageColor": "#427819",
-      "stars": "3,278",
-      "forks": "150",
-      "addStars": "76",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22084881?s=40&v=4",
-          "name": "PartialVolume",
-          "url": "https://github.com/PartialVolume"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24509509?s=40&v=4",
-          "name": "desertwitch",
-          "url": "https://github.com/desertwitch"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/45062335?s=40&v=4",
-          "name": "JeremyComelli1",
-          "url": "https://github.com/JeremyComelli1"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/26367057?s=40&v=4",
-          "name": "Knogle",
-          "url": "https://github.com/Knogle"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/116610?s=40&v=4",
-          "name": "petski",
-          "url": "https://github.com/petski"
-        }
-      ]
-    },
-    {
       "title": "deepseek-ai/DeepSeek-LLM",
       "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
       "description": "DeepSeek LLM: Let there be answers",
       "language": "Makefile",
       "languageColor": "#427819",
-      "stars": "7,276",
+      "stars": "7,277",
       "forks": "1,214",
       "addStars": "74",
       "contributors": [
@@ -615,6 +578,38 @@
           "avatar": "https://avatars.githubusercontent.com/u/13479945?s=40&v=4",
           "name": "luofuli",
           "url": "https://github.com/luofuli"
+        }
+      ]
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted-data",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+      "description": "machine-readable data for https://awesome-selfhosted.net",
+      "language": "Makefile",
+      "languageColor": "#427819",
+      "stars": "1,224",
+      "forks": "1,504",
+      "addStars": "55",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3950390?s=40&v=4",
+          "name": "nodiscc",
+          "url": "https://github.com/nodiscc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32241933?s=40&v=4",
+          "name": "Ki-er",
+          "url": "https://github.com/Ki-er"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66558576?s=40&v=4",
+          "name": "Rabenherz112",
+          "url": "https://github.com/Rabenherz112"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/70863536?s=40&v=4",
+          "name": "kokomo123",
+          "url": "https://github.com/kokomo123"
         }
       ]
     },

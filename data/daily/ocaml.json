@@ -2,7 +2,7 @@
   "title": "GitHub Ocaml Languages Daily Trending",
   "description": "Daily Trending of Ocaml Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
+  "pubDate": "Sat, 14 Nov 2026 17:39:01 GMT",
   "items": [
     {
       "title": "janestreet/magic-trace",
@@ -79,6 +79,43 @@
       ]
     },
     {
+      "title": "ocaml/ocaml",
+      "url": "https://github.com/ocaml/ocaml",
+      "description": "The core OCaml system: compilers, runtime system, base libraries",
+      "language": "OCaml",
+      "languageColor": "#ef7a08",
+      "stars": "6,634",
+      "forks": "1,457",
+      "addStars": "5",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3845810?s=40&v=4",
+          "name": "xavierleroy",
+          "url": "https://github.com/xavierleroy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/426238?s=40&v=4",
+          "name": "gasche",
+          "url": "https://github.com/gasche"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5250680?s=40&v=4",
+          "name": "dra27",
+          "url": "https://github.com/dra27"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7689388?s=40&v=4",
+          "name": "Octachron",
+          "url": "https://github.com/Octachron"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3305274?s=40&v=4",
+          "name": "alainfrisch",
+          "url": "https://github.com/alainfrisch"
+        }
+      ]
+    },
+    {
       "title": "semgrep/semgrep-interfaces",
       "url": "https://github.com/semgrep/semgrep-interfaces",
       "description": "Store the ATD/openapi/protobuf/... interfaces between semgrep components",
@@ -121,8 +158,8 @@
       "description": "A verification toolchain for Rust programs",
       "language": "OCaml",
       "languageColor": "#ef7a08",
-      "stars": "1,200",
-      "forks": "153",
+      "stars": "1,201",
+      "forks": "154",
       "addStars": "3",
       "contributors": [
         {
@@ -149,43 +186,6 @@
           "avatar": "https://avatars.githubusercontent.com/u/51876429?s=40&v=4",
           "name": "oliver-butterley",
           "url": "https://github.com/oliver-butterley"
-        }
-      ]
-    },
-    {
-      "title": "janestreet/core",
-      "url": "https://github.com/janestreet/core",
-      "description": "Jane Street Capital's standard library overlay",
-      "language": "OCaml",
-      "languageColor": "#ef7a08",
-      "stars": "1,361",
-      "forks": "136",
-      "addStars": "2",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1379116?s=40&v=4",
-          "name": "xclerc",
-          "url": "https://github.com/xclerc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/118852?s=40&v=4",
-          "name": "trefis",
-          "url": "https://github.com/trefis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/126541268?s=40&v=4",
-          "name": "public-release",
-          "url": "https://github.com/public-release"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5682294?s=40&v=4",
-          "name": "aalekseyev",
-          "url": "https://github.com/aalekseyev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/196982?s=40&v=4",
-          "name": "bmillwood",
-          "url": "https://github.com/bmillwood"
         }
       ]
     }

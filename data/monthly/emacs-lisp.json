@@ -2,7 +2,7 @@
   "title": "GitHub Emacs-lisp Languages Monthly Trending",
   "description": "Monthly Trending of Emacs-lisp Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
+  "pubDate": "Sat, 14 Nov 2026 17:39:01 GMT",
   "items": [
     {
       "title": "google-coral/coralnpu",
@@ -47,7 +47,7 @@
       "description": "Style guides for Google-originated open-source projects",
       "language": "Emacs Lisp",
       "languageColor": "#c065db",
-      "stars": "39,824",
+      "stars": "39,825",
       "forks": "12,923",
       "addStars": "198",
       "contributors": [
@@ -185,43 +185,6 @@
       ]
     },
     {
-      "title": "emacs-lsp/lsp-mode",
-      "url": "https://github.com/emacs-lsp/lsp-mode",
-      "description": "Emacs client/library for the Language Server Protocol",
-      "language": "Emacs Lisp",
-      "languageColor": "#c065db",
-      "stars": "5,136",
-      "forks": "985",
-      "addStars": "13",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13259670?s=40&v=4",
-          "name": "yyoncho",
-          "url": "https://github.com/yyoncho"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2142872?s=40&v=4",
-          "name": "vibhavp",
-          "url": "https://github.com/vibhavp"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7820865?s=40&v=4",
-          "name": "ericdallo",
-          "url": "https://github.com/ericdallo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8685505?s=40&v=4",
-          "name": "jcs090218",
-          "url": "https://github.com/jcs090218"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&v=4",
-          "name": "traviscibot",
-          "url": "https://github.com/traviscibot"
-        }
-      ]
-    },
-    {
       "title": "magit/magit",
       "url": "https://github.com/magit/magit",
       "description": "It's Magit! A Git Porcelain inside Emacs.",
@@ -255,6 +218,43 @@
           "avatar": "https://avatars.githubusercontent.com/u/637127?s=40&v=4",
           "name": "peweisberg-fadv",
           "url": "https://github.com/peweisberg-fadv"
+        }
+      ]
+    },
+    {
+      "title": "emacs-lsp/lsp-mode",
+      "url": "https://github.com/emacs-lsp/lsp-mode",
+      "description": "Emacs client/library for the Language Server Protocol",
+      "language": "Emacs Lisp",
+      "languageColor": "#c065db",
+      "stars": "5,136",
+      "forks": "985",
+      "addStars": "13",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13259670?s=40&v=4",
+          "name": "yyoncho",
+          "url": "https://github.com/yyoncho"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2142872?s=40&v=4",
+          "name": "vibhavp",
+          "url": "https://github.com/vibhavp"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7820865?s=40&v=4",
+          "name": "ericdallo",
+          "url": "https://github.com/ericdallo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8685505?s=40&v=4",
+          "name": "jcs090218",
+          "url": "https://github.com/jcs090218"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&v=4",
+          "name": "traviscibot",
+          "url": "https://github.com/traviscibot"
         }
       ]
     },
@@ -301,7 +301,7 @@
       "description": "Mirror of GNU Emacs",
       "language": "Emacs Lisp",
       "languageColor": "#c065db",
-      "stars": "5,251",
+      "stars": "5,252",
       "forks": "1,425",
       "addStars": "43",
       "contributors": [

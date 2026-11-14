@@ -2,7 +2,7 @@
   "title": "GitHub Cuda Languages Monthly Trending",
   "description": "Monthly Trending of Cuda Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
+  "pubDate": "Sat, 14 Nov 2026 17:39:01 GMT",
   "items": [
     {
       "title": "flashinfer-ai/flashinfer",
@@ -10,8 +10,8 @@
       "description": "FlashInfer: Kernel Library for LLM Serving",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "6,920",
-      "forks": "1,755",
+      "stars": "6,924",
+      "forks": "1,756",
       "addStars": "323",
       "contributors": [
         {
@@ -47,7 +47,7 @@
       "description": "LLM training in simple, raw C/CUDA",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "31,469",
+      "stars": "31,472",
       "forks": "3,825",
       "addStars": "360",
       "contributors": [
@@ -84,8 +84,8 @@
       "description": "DeepEP: an efficient expert-parallel communication library",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "10,442",
-      "forks": "1,559",
+      "stars": "10,443",
+      "forks": "1,560",
       "addStars": "189",
       "contributors": [
         {
@@ -116,13 +116,50 @@
       ]
     },
     {
+      "title": "NVIDIA/cudnn-frontend",
+      "url": "https://github.com/NVIDIA/cudnn-frontend",
+      "description": "cuDNN Frontend is NVIDIA's modern, open-source entry point to the cuDNN library and a growing collection of high-performance open-source kernels.",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "999",
+      "forks": "337",
+      "addStars": "36",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38851819?s=40&v=4",
+          "name": "YangXu1990uiuc",
+          "url": "https://github.com/YangXu1990uiuc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/916946?s=40&v=4",
+          "name": "Anerudhan",
+          "url": "https://github.com/Anerudhan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/288483202?s=40&v=4",
+          "name": "RomanAnders90",
+          "url": "https://github.com/RomanAnders90"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/192209249?s=40&v=4",
+          "name": "0z5a",
+          "url": "https://github.com/0z5a"
+        }
+      ]
+    },
+    {
       "title": "NVIDIA/cuopt",
       "url": "https://github.com/NVIDIA/cuopt",
       "description": "GPU accelerated decision optimization",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "1,114",
-      "forks": "260",
+      "stars": "1,115",
+      "forks": "259",
       "addStars": "55",
       "contributors": [
         {
@@ -196,7 +233,7 @@
       "language": "Cuda",
       "languageColor": "#3A4E3A",
       "stars": "895",
-      "forks": "266",
+      "forks": "265",
       "addStars": "28",
       "contributors": [
         {
@@ -255,7 +292,7 @@
       "language": "Cuda",
       "languageColor": "#3A4E3A",
       "stars": "4,009",
-      "forks": "554",
+      "forks": "555",
       "addStars": "48",
       "contributors": [
         {

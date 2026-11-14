@@ -2,16 +2,48 @@
   "title": "GitHub All Languages Weekly Trending",
   "description": "Weekly Trending of All Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
+  "pubDate": "Sat, 14 Nov 2026 17:39:01 GMT",
   "items": [
+    {
+      "title": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "27,914",
+      "forks": "2,167",
+      "addStars": "13,375",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2781099?s=40&v=4",
+          "name": "cixzhang",
+          "url": "https://github.com/cixzhang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254546175?s=40&v=4",
+          "name": "rubyycheung",
+          "url": "https://github.com/rubyycheung"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17398284?s=40&v=4",
+          "name": "josephfarina",
+          "url": "https://github.com/josephfarina"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/197597?s=40&v=4",
+          "name": "vjeux",
+          "url": "https://github.com/vjeux"
+        }
+      ]
+    },
     {
       "title": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "111,446",
-      "forks": "12,903",
+      "stars": "111,655",
+      "forks": "12,923",
       "addStars": "13,364",
       "contributors": [
         {
@@ -47,8 +79,8 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "194,329",
-      "forks": "22,864",
+      "stars": "194,482",
+      "forks": "22,891",
       "addStars": "6,169",
       "contributors": [
         {
@@ -79,50 +111,13 @@
       ]
     },
     {
-      "title": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "22,461",
-      "forks": "3,122",
-      "addStars": "7,763",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
-          "name": "milind-soni",
-          "url": "https://github.com/milind-soni"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
-          "name": "aivsomkar",
-          "url": "https://github.com/aivsomkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
-          "name": "AdityaUmale",
-          "url": "https://github.com/AdityaUmale"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
-          "name": "robinsonnblack",
-          "url": "https://github.com/robinsonnblack"
-        }
-      ]
-    },
-    {
       "title": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "50,919",
-      "forks": "3,546",
+      "stars": "51,081",
+      "forks": "3,562",
       "addStars": "4,360",
       "contributors": [
         {
@@ -153,8 +148,8 @@
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "18,812",
-      "forks": "1,405",
+      "stars": "18,998",
+      "forks": "1,413",
       "addStars": "5,560",
       "contributors": [
         {
@@ -180,13 +175,50 @@
       ]
     },
     {
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "22,658",
+      "forks": "3,149",
+      "addStars": "7,763",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
+          "name": "milind-soni",
+          "url": "https://github.com/milind-soni"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
+          "name": "aivsomkar",
+          "url": "https://github.com/aivsomkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
+          "name": "AdityaUmale",
+          "url": "https://github.com/AdityaUmale"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
+          "name": "robinsonnblack",
+          "url": "https://github.com/robinsonnblack"
+        }
+      ]
+    },
+    {
       "title": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "72,038",
-      "forks": "57,402",
+      "stars": "72,198",
+      "forks": "57,461",
       "addStars": "3,778",
       "contributors": [
         {
@@ -217,50 +249,13 @@
       ]
     },
     {
-      "title": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "12,692",
-      "forks": "1,049",
-      "addStars": "4,108",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/263323607?s=40&v=4",
-          "name": "DinaLaptii",
-          "url": "https://github.com/DinaLaptii"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/21292702?s=40&v=4",
-          "name": "yuvalshkolar",
-          "url": "https://github.com/yuvalshkolar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29655923?s=40&v=4",
-          "name": "liavnave",
-          "url": "https://github.com/liavnave"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/263700388?s=40&v=4",
-          "name": "liofnv",
-          "url": "https://github.com/liofnv"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/263323887?s=40&v=4",
-          "name": "tomer-levin-nv",
-          "url": "https://github.com/tomer-levin-nv"
-        }
-      ]
-    },
-    {
       "title": "google-deepmind/mujoco",
       "url": "https://github.com/google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "17,925",
-      "forks": "2,190",
+      "stars": "17,955",
+      "forks": "2,196",
       "addStars": "1,764",
       "contributors": [
         {
@@ -291,19 +286,19 @@
       ]
     },
     {
-      "title": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": "324,113",
-      "forks": "27,206",
-      "addStars": "7,599",
+      "title": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "10,888",
+      "forks": "821",
+      "addStars": "511",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
-          "name": "mattpocock",
-          "url": "https://github.com/mattpocock"
+          "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&v=4",
+          "name": "backnotprop",
+          "url": "https://github.com/backnotprop"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -311,9 +306,19 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
-          "name": "gabimoncha",
-          "url": "https://github.com/gabimoncha"
+          "avatar": "https://avatars.githubusercontent.com/u/110197373?s=40&v=4",
+          "name": "utpalsinghdev",
+          "url": "https://github.com/utpalsinghdev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47978193?s=40&v=4",
+          "name": "leoreisdias",
+          "url": "https://github.com/leoreisdias"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1078682?s=40&v=4",
+          "name": "uvw",
+          "url": "https://github.com/uvw"
         }
       ]
     },
@@ -323,8 +328,8 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "117,324",
-      "forks": "12,275",
+      "stars": "117,469",
+      "forks": "12,286",
       "addStars": "3,502",
       "contributors": [
         {
@@ -355,76 +360,12 @@
       ]
     },
     {
-      "title": "cloudflare/security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "72,196",
-      "forks": "4,813",
-      "addStars": "8,829",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "name": "literally-dan",
-          "url": "https://github.com/literally-dan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "name": "CooperSheroy",
-          "url": "https://github.com/CooperSheroy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "name": "kennysarnoski-jarvis",
-          "url": "https://github.com/kennysarnoski-jarvis"
-        }
-      ]
-    },
-    {
-      "title": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "95,005",
-      "forks": "11,697",
-      "addStars": "2,117",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&v=4",
-          "name": "as-cii",
-          "url": "https://github.com/as-cii"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/326587?s=40&v=4",
-          "name": "maxbrunsfeld",
-          "url": "https://github.com/maxbrunsfeld"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1486634?s=40&v=4",
-          "name": "maxdeviant",
-          "url": "https://github.com/maxdeviant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1789?s=40&v=4",
-          "name": "nathansobo",
-          "url": "https://github.com/nathansobo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/94272?s=40&v=4",
-          "name": "ConradIrwin",
-          "url": "https://github.com/ConradIrwin"
-        }
-      ]
-    },
-    {
       "title": "anthropics/claude-quickstarts",
       "url": "https://github.com/anthropics/claude-quickstarts",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "20,910",
+      "stars": "20,950",
       "forks": "3,494",
       "addStars": "1,731",
       "contributors": [
@@ -456,80 +397,14 @@
       ]
     },
     {
-      "title": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "23,542",
-      "forks": "1,747",
-      "addStars": "5,408",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
-          "name": "lahfir",
-          "url": "https://github.com/lahfir"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "name": "ctate",
-          "url": "https://github.com/ctate"
-        }
-      ]
-    },
-    {
-      "title": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "85,494",
-      "forks": "16,311",
-      "addStars": "1,126",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28616219?s=40&v=4",
-          "name": "arvinxx",
-          "url": "https://github.com/arvinxx"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32174276?s=40&v=4",
-          "name": "semantic-release-bot",
-          "url": "https://github.com/semantic-release-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/41773861?s=40&v=4",
-          "name": "tjx666",
-          "url": "https://github.com/tjx666"
-        }
-      ]
-    },
-    {
-      "title": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "27,658",
-      "forks": "2,451",
-      "addStars": "11,051",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "GoogleChrome/modern-web-guidance",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "",
       "languageColor": "",
-      "stars": "12,293",
+      "stars": "13,815",
       "forks": "407",
-      "addStars": "9,650",
+      "addStars": "11,329",
       "contributors": [],
       "source": "trendshift"
     },
@@ -539,9 +414,9 @@
       "description": "Agent skills",
       "language": "",
       "languageColor": "",
-      "stars": "8,407",
+      "stars": "8,499",
       "forks": "519",
-      "addStars": "8,166",
+      "addStars": "8,287",
       "contributors": [],
       "source": "trendshift"
     },
@@ -551,9 +426,9 @@
       "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "9,223",
+      "stars": "9,402",
       "forks": "701",
-      "addStars": "7,810",
+      "addStars": "8,015",
       "contributors": [],
       "source": "trendshift"
     },
@@ -563,9 +438,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "458,580",
+      "stars": "459,270",
       "forks": "114,159",
-      "addStars": "14,909",
+      "addStars": "15,643",
       "contributors": [],
       "source": "trendshift"
     },
@@ -575,9 +450,9 @@
       "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "7,468",
+      "stars": "7,530",
       "forks": "2,435",
-      "addStars": "7,393",
+      "addStars": "7,460",
       "contributors": [],
       "source": "trendshift"
     },
@@ -594,26 +469,26 @@
       "source": "trendshift"
     },
     {
-      "title": "Lee-xeo/Claude-Cage",
-      "url": "https://github.com/Lee-xeo/Claude-Cage",
-      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": "5,334",
-      "forks": "573",
-      "addStars": "4,738",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "aws/aws-emulator",
       "url": "https://github.com/aws/aws-emulator",
       "description": "",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "7,666",
+      "stars": "7,912",
       "forks": "232",
-      "addStars": "7,118",
+      "addStars": "7,391",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Lee-xeo/Claude-Cage",
+      "url": "https://github.com/Lee-xeo/Claude-Cage",
+      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": "5,422",
+      "forks": "573",
+      "addStars": "4,833",
       "contributors": [],
       "source": "trendshift"
     },
@@ -623,21 +498,9 @@
       "description": "The headless browser for AI agents and web scraping",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "35,219",
+      "stars": "35,338",
       "forks": "2,860",
-      "addStars": "4,637",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Minireel/HGhub",
-      "url": "https://github.com/Minireel/HGhub",
-      "description": "YellowFruit third-party client",
-      "language": "",
-      "languageColor": "",
-      "stars": "8,835",
-      "forks": "3,396",
-      "addStars": "5,586",
+      "addStars": "4,763",
       "contributors": [],
       "source": "trendshift"
     },
@@ -647,9 +510,21 @@
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "5,276",
+      "stars": "5,630",
       "forks": "286",
-      "addStars": "4,041",
+      "addStars": "4,427",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub",
+      "description": "YellowFruit third-party client",
+      "language": "",
+      "languageColor": "",
+      "stars": "8,843",
+      "forks": "3,396",
+      "addStars": "5,598",
       "contributors": [],
       "source": "trendshift"
     },
@@ -659,9 +534,9 @@
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
       "languageColor": "#701516",
-      "stars": "14,978",
+      "stars": "15,133",
       "forks": "1,206",
-      "addStars": "3,843",
+      "addStars": "4,009",
       "contributors": [],
       "source": "trendshift"
     },
@@ -671,9 +546,9 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "31,842",
+      "stars": "32,447",
       "forks": "6,335",
-      "addStars": "9,397",
+      "addStars": "10,040",
       "contributors": [],
       "source": "trendshift"
     },
@@ -683,21 +558,9 @@
       "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "73,430",
+      "stars": "74,042",
       "forks": "2,080",
-      "addStars": "7,433",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "expo/exact",
-      "url": "https://github.com/expo/exact",
-      "description": "",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "4,094",
-      "forks": "88",
-      "addStars": "4,086",
+      "addStars": "8,027",
       "contributors": [],
       "source": "trendshift"
     },
@@ -707,9 +570,21 @@
       "description": "",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "60,008",
+      "stars": "60,334",
       "forks": "12,045",
-      "addStars": "7,559",
+      "addStars": "7,908",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "expo/exact",
+      "url": "https://github.com/expo/exact",
+      "description": "",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "4,141",
+      "forks": "88",
+      "addStars": "4,138",
       "contributors": [],
       "source": "trendshift"
     },
@@ -719,9 +594,9 @@
       "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
       "language": "C#",
       "languageColor": "",
-      "stars": "2,913",
+      "stars": "2,953",
       "forks": "526",
-      "addStars": "2,666",
+      "addStars": "2,717",
       "contributors": [],
       "source": "trendshift"
     },
@@ -731,21 +606,21 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,982",
+      "stars": "4,047",
       "forks": "270",
-      "addStars": "2,719",
+      "addStars": "2,784",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "shadcn/improve",
-      "url": "https://github.com/shadcn/improve",
-      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "language": "",
-      "languageColor": "",
-      "stars": "11,810",
-      "forks": "508",
-      "addStars": "2,459",
+      "title": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "22,531",
+      "forks": "989",
+      "addStars": "6,602",
       "contributors": [],
       "source": "trendshift"
     },
@@ -755,9 +630,9 @@
       "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "124,614",
+      "stars": "124,829",
       "forks": "8,745",
-      "addStars": "5,347",
+      "addStars": "5,586",
       "contributors": [],
       "source": "trendshift"
     }

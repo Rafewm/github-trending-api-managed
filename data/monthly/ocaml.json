@@ -2,7 +2,7 @@
   "title": "GitHub Ocaml Languages Monthly Trending",
   "description": "Monthly Trending of Ocaml Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
+  "pubDate": "Sat, 14 Nov 2026 17:39:01 GMT",
   "items": [
     {
       "title": "ocaml/ocaml",
@@ -47,8 +47,8 @@
       "description": "A verification toolchain for Rust programs",
       "language": "OCaml",
       "languageColor": "#ef7a08",
-      "stars": "1,200",
-      "forks": "153",
+      "stars": "1,201",
+      "forks": "154",
       "addStars": "166",
       "contributors": [
         {
@@ -148,43 +148,6 @@
       ]
     },
     {
-      "title": "rescript-lang/rescript",
-      "url": "https://github.com/rescript-lang/rescript",
-      "description": "ReScript is a robustly typed language that compiles to efficient and human-readable JavaScript.",
-      "language": "OCaml",
-      "languageColor": "#ef7a08",
-      "stars": "7,486",
-      "forks": "486",
-      "addStars": "31",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/747051?s=40&v=4",
-          "name": "bobzhang",
-          "url": "https://github.com/bobzhang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7965335?s=40&v=4",
-          "name": "cristianoc",
-          "url": "https://github.com/cristianoc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/591384?s=40&v=4",
-          "name": "cknitt",
-          "url": "https://github.com/cknitt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3487?s=40&v=4",
-          "name": "nico",
-          "url": "https://github.com/nico"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        }
-      ]
-    },
-    {
       "title": "ocaml/opam",
       "url": "https://github.com/ocaml/opam",
       "description": "opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.",
@@ -218,6 +181,43 @@
           "avatar": "https://avatars.githubusercontent.com/u/5250680?s=40&v=4",
           "name": "dra27",
           "url": "https://github.com/dra27"
+        }
+      ]
+    },
+    {
+      "title": "rescript-lang/rescript",
+      "url": "https://github.com/rescript-lang/rescript",
+      "description": "ReScript is a robustly typed language that compiles to efficient and human-readable JavaScript.",
+      "language": "OCaml",
+      "languageColor": "#ef7a08",
+      "stars": "7,486",
+      "forks": "486",
+      "addStars": "31",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/747051?s=40&v=4",
+          "name": "bobzhang",
+          "url": "https://github.com/bobzhang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7965335?s=40&v=4",
+          "name": "cristianoc",
+          "url": "https://github.com/cristianoc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/591384?s=40&v=4",
+          "name": "cknitt",
+          "url": "https://github.com/cknitt"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3487?s=40&v=4",
+          "name": "nico",
+          "url": "https://github.com/nico"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         }
       ]
     },
@@ -264,7 +264,7 @@
       "description": "A static analyzer for Java, C, C++, and Objective-C",
       "language": "OCaml",
       "languageColor": "#ef7a08",
-      "stars": "15,753",
+      "stars": "15,754",
       "forks": "2,100",
       "addStars": "52",
       "contributors": [
@@ -301,7 +301,7 @@
       "description": "Unison file synchronizer",
       "language": "OCaml",
       "languageColor": "#ef7a08",
-      "stars": "5,582",
+      "stars": "5,583",
       "forks": "279",
       "addStars": "64",
       "contributors": [
