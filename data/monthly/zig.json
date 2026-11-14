@@ -2,7 +2,7 @@
   "title": "GitHub Zig Languages Monthly Trending",
   "description": "Monthly Trending of Zig Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 14 Nov 2026 00:39:57 GMT",
+  "pubDate": "Sat, 14 Nov 2026 11:13:01 GMT",
   "items": [
     {
       "title": "lightpanda-io/browser",
@@ -10,8 +10,8 @@
       "description": "Lightpanda: the headless browser designed for AI and automation",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "42,012",
-      "forks": "2,108",
+      "stars": "42,037",
+      "forks": "2,112",
       "addStars": "5,755",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "64,080",
-      "forks": "3,916",
+      "stars": "64,094",
+      "forks": "3,915",
       "addStars": "2,083",
       "contributors": [
         {
@@ -74,8 +74,8 @@
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,079",
-      "forks": "404",
+      "stars": "2,086",
+      "forks": "406",
       "addStars": "787",
       "contributors": [
         {
@@ -111,7 +111,7 @@
       "description": "A language server for Zig supporting developers with features like autocomplete and goto definition",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "5,335",
+      "stars": "5,334",
       "forks": "476",
       "addStars": "137",
       "contributors": [
@@ -185,8 +185,8 @@
       "description": "Moved to Codeberg",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "43,263",
-      "forks": "3,116",
+      "stars": "43,262",
+      "forks": "3,114",
       "addStars": "123",
       "contributors": [
         {
@@ -259,8 +259,8 @@
       "description": "Unix like coding agent",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "3,834",
-      "forks": "444",
+      "stars": "3,836",
+      "forks": "443",
       "addStars": "429",
       "contributors": [
         {
@@ -296,7 +296,7 @@
       "description": "Session attach/detach for the terminal",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,285",
+      "stars": "2,284",
       "forks": "183",
       "addStars": "92",
       "contributors": [
@@ -333,7 +333,7 @@
       "description": "A fast, native terminal for Windows. Formerly winghostty. 🌙",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "549",
+      "stars": "551",
       "forks": "22",
       "addStars": "118",
       "contributors": [
@@ -371,7 +371,7 @@
       "language": "Zig",
       "languageColor": "#ec915c",
       "stars": "1,267",
-      "forks": "111",
+      "forks": "110",
       "addStars": "93",
       "contributors": [
         {
@@ -407,7 +407,7 @@
       "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,447",
+      "stars": "2,451",
       "forks": "263",
       "addStars": "571",
       "contributors": [
@@ -439,7 +439,7 @@
       "description": "The financial transactions database designed for mission critical safety and performance.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "17,373",
+      "stars": "17,376",
       "forks": "935",
       "addStars": "230",
       "contributors": [
@@ -469,6 +469,210 @@
           "url": "https://github.com/fabioarnold"
         }
       ]
+    },
+    {
+      "title": "alexrlocke/neorex",
+      "url": "https://github.com/alexrlocke/neorex",
+      "description": "A Rex-Native frontend for Neovim. ",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "321",
+      "forks": "17",
+      "addStars": "289",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "justrach/nanoui",
+      "url": "https://github.com/justrach/nanoui",
+      "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "904",
+      "forks": "46",
+      "addStars": "393",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "justrach/nanolight",
+      "url": "https://github.com/justrach/nanolight",
+      "description": "A ⌘Space launcher for the Mac, drawn by nanoui: apps, math, Google suggestions with results in the panel, Grok and X",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "401",
+      "forks": "33",
+      "addStars": "263",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "RshaCuDeVidro/larperCord",
+      "url": "https://github.com/RshaCuDeVidro/larperCord",
+      "description": "A native Discord client of about 100~ MB RAM, whose entire interface is a theme file.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "252",
+      "forks": "20",
+      "addStars": "178",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "duty1g/x64dbg-mcp-server",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "2,826",
+      "forks": "361",
+      "addStars": "187",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "okcontract/oksolc",
+      "url": "https://github.com/okcontract/oksolc",
+      "description": "A Solidity compiler written in Zig. Reduces compilation time 10 to 50x and still targets byte-for-byte compatibility with solc",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "114",
+      "forks": "7",
+      "addStars": "53",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "valvesky/velocitty",
+      "url": "https://github.com/valvesky/velocitty",
+      "description": "⚡ Lightning fast terminal.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "198",
+      "forks": "10",
+      "addStars": "41",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ndrean/ZeBridge",
+      "url": "https://github.com/ndrean/ZeBridge",
+      "description": "A bidirectional, local-first sync engine between Postgres and edge SQLite/PGLITE/Postgres/DuckDB clients over NATS",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "43",
+      "forks": "1",
+      "addStars": "38",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sleep3r/mtproto.zig",
+      "url": "https://github.com/sleep3r/mtproto.zig",
+      "description": "Keep the people you love connected — a tiny self-hosted Telegram proxy that hides in plain HTTPS",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "2,212",
+      "forks": "142",
+      "addStars": "92",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "beamivalice/sushi",
+      "url": "https://github.com/beamivalice/sushi",
+      "description": "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology to achieve frontier sub 4 bits compression. ",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "468",
+      "forks": "39",
+      "addStars": "82",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "oxydizer/rediwm",
+      "url": "https://github.com/oxydizer/rediwm",
+      "description": "RediWM is a Wayland compositor written in Zig (OpenGL ES) that includes  everything in one process",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "96",
+      "forks": "4",
+      "addStars": "52",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "blackboardsh/electrobun",
+      "url": "https://github.com/blackboardsh/electrobun",
+      "description": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "13,056",
+      "forks": "412",
+      "addStars": "66",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DivyanshGolyan/rui",
+      "url": "https://github.com/DivyanshGolyan/rui",
+      "description": "A local coding-agent runtime with reusable conversations, Bash approvals, and crash recovery. Written in Zig with SQLite.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "8",
+      "forks": "1",
+      "addStars": "4",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "zml/zml",
+      "url": "https://github.com/zml/zml",
+      "description": "Any model. Any hardware. Zero compromise. Built with @ziglang / @openxla / MLIR / @bazelbuild",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "4,259",
+      "forks": "206",
+      "addStars": "43",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "manishrjain/egres",
+      "url": "https://github.com/manishrjain/egres",
+      "description": "A Postgres Compatible Database for Heavy, Multi-Tenant Workloads",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "274",
+      "forks": "15",
+      "addStars": "44",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "neurocyte/flow",
+      "url": "https://github.com/neurocyte/flow",
+      "description": "Flow Control: a programmer's text editor",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "2,553",
+      "forks": "144",
+      "addStars": "36",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "duanebester/gooey",
+      "url": "https://github.com/duanebester/gooey",
+      "description": "Gooey is a hybrid immediate/retained mode UI framework designed for building fast, GPU-rendered applications on macOS/Metal, WebAssembly/WebGPU, and Wayland/Vulkan",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "691",
+      "forks": "12",
+      "addStars": "26",
+      "contributors": [],
+      "source": "trendshift"
     }
   ]
 }
