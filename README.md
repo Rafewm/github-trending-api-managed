@@ -137,6 +137,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | `GET /api/skills?type=all\|mcp\|claude\|codex\|agent\|skill\|tool` | Agent skills and MCP servers you have not starred. Cached 30 minutes. |
 | `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases and r/BestGitHubRepos posts for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
+| `GET /api/stars` | Your 10 newest stars, uncached, checked when you return to the tab so a repo you just starred leaves at once. |
 | `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
 | `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos, with the `X-Hide-Key` header. Returns the new list. |
 

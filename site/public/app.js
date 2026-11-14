@@ -92,6 +92,9 @@ let storeReady = false;
 // Bumped when a Hide/Track save starts and when it ends, so a refresh that overlapped one can tell.
 let listEdits = 0;
 let listQueue = Promise.resolve();
+let pendingSaves = 0;
+// Your newest stars, checked when you come back to the tab, so a repo you just starred leaves at once.
+let newStars = new Set();
 const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', skills: 'stars', releases: 'release.score' };
 
 const kind = () => (FEEDS[view] ? view : 'trending');
@@ -132,13 +135,16 @@ async function saveList(list, change) {
 // Saves run one at a time, so an earlier save's response can never land after a newer one.
 async function queueSave(list, change) {
   listEdits++;
+  pendingSaves++;
   const job = listQueue.then(() => saveList(list, change));
   listQueue = job.catch(() => {});
   try {
     const next = await job;
-    if (next) list === 'hidden' ? (hidden = next) : (tracked = next);
+    // Only the last queued save's list is current; earlier ones would undo clicks made since.
+    if (next && pendingSaves === 1) list === 'hidden' ? (hidden = next) : (tracked = next);
     return next;
   } finally {
+    pendingSaves--;
     listEdits++;
   }
 }
@@ -162,7 +168,7 @@ const savedView = () => view === 'hidden' || view === 'tracked';
 
 // Hidden and tracked entries are snapshots so they stay listed after a repo leaves trending.
 function currentList() {
-  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name] && !tracked[r.name]);
+  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name] && !tracked[r.name] && !newStars.has(r.name));
   const loaded = Object.values(feeds).flatMap((byPeriod) => Object.values(byPeriod).flatMap((d) => d.repos));
   const live = new Map([...loaded, ...(browse?.repos ?? [])].map((r) => [r.name, r]));
   return Object.values(view === 'hidden' ? hidden : tracked).map((r) => live.get(r.name) ?? r);
@@ -421,32 +427,49 @@ function setView(next) {
   render();
 }
 
+// The page changes at once and the save runs behind it; a failed or cancelled save puts the lists back.
 async function toggleList(button) {
   const { toggle: name, list } = button.dataset;
-  const saved = list === 'hidden' ? hidden : tracked;
-  const buttons = [...$('rows').querySelectorAll('[data-toggle]')];
-  const index = buttons.indexOf(button);
-  button.disabled = true;
-  try {
-    const other = list === 'hidden' ? 'tracked' : 'hidden';
-    if (saved[name]) {
-      if (!(await queueSave(list, { unhide: [name] }))) return;
-    } else {
-      // Add first, then remove from the other list, so a failed second step never loses the repo.
-      if (!(await queueSave(list, { hide: [currentList().find((r) => r.name === name)] }))) return;
-      if ((other === 'hidden' ? hidden : tracked)[name]) await queueSave(other, { unhide: [name] });
-    }
-    moveLocalHidden();
-  } catch (err) {
-    showError(`Could not update the ${list} list: ${err.message}`);
-    return;
-  } finally {
-    button.disabled = false;
-  }
+  const other = list === 'hidden' ? 'tracked' : 'hidden';
+  const before = { hidden: { ...hidden }, tracked: { ...tracked } };
+  const adding = !before[list][name];
+  const repo = adding && currentList().find((r) => r.name === name);
+  const index = [...$('rows').querySelectorAll('[data-toggle]')].indexOf(button);
+  const lists = { hidden, tracked };
+  if (adding) {
+    lists[list][name] = repo;
+    delete lists[other][name];
+  } else delete lists[list][name];
   render();
   // The clicked row may be gone, so keep keyboard focus at the same place in the list.
   const next = $('rows').querySelectorAll('[data-toggle]');
   (next[index] ?? next[next.length - 1] ?? $(`tab-${view}`)).focus();
+  try {
+    // Add first, then remove from the other list, so a failed second step never loses the repo.
+    const saved = await queueSave(list, adding ? { hide: [repo] } : { unhide: [name] });
+    if (saved && adding && before[other][name]) await queueSave(other, { unhide: [name] });
+    if (!saved) throw null;
+    moveLocalHidden();
+  } catch (err) {
+    hidden = before.hidden;
+    tracked = before.tracked;
+    render();
+    if (err) showError(`Could not update the ${list} list: ${err.message}`);
+  }
+}
+
+async function checkStars() {
+  try {
+    const res = await fetch('/api/stars', { cache: 'no-store' });
+    if (!res.ok) return;
+    const names = await res.json();
+    if (names.some((n) => !newStars.has(n))) {
+      newStars = new Set(names);
+      render();
+    }
+  } catch {
+    // The full refresh that follows still drops starred repos.
+  }
 }
 
 // Merges new languages and topics into the filter choices, keeping the current selection.
@@ -535,6 +558,9 @@ $('rows').addEventListener('click', (e) => {
   if (button && !button.disabled) toggleList(button);
 });
 // Coming back from GitHub after starring something updates the list without a manual reload.
-window.addEventListener('focus', refresh);
+window.addEventListener('focus', () => {
+  checkStars();
+  refresh();
+});
 setSorts();
 refresh().then(moveLocalHidden);

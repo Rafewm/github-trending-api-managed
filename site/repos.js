@@ -189,8 +189,8 @@ async function loadSkills(type) {
 }
 
 // Newest first, so this catches anything starred since the cache was filled.
-async function fetchRecentStars() {
-  const res = await fetch('https://api.github.com/user/starred?per_page=100', {
+async function fetchRecentStars(count = 100) {
+  const res = await fetch(`https://api.github.com/user/starred?per_page=${count}`, {
     headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred' },
   });
   if (!res.ok) throw new Error(`GitHub request failed: ${res.status}${res.status === 401 ? '. Check your token.' : ''}`);
@@ -257,4 +257,17 @@ export function handleSkills(req, res) {
     return;
   }
   return respond(res, () => cached(`skills:${type}`, RELEASE_CACHE_MS, () => loadSkills(type)));
+}
+
+// GET /api/stars: your 10 newest stars, uncached, so the page can drop a repo as soon as you come back from starring it.
+export async function handleStars(req, res) {
+  try {
+    const body = JSON.stringify(await fetchRecentStars(10));
+    res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(body);
+  } catch (err) {
+    console.error(err.message);
+    res.writeHead(502, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ error: err.message }));
+  }
 }
