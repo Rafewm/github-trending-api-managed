@@ -3,7 +3,7 @@
     <title>GitHub Scala Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Scala Languages in GitHub</description>
-    <pubDate>Sun, 15 Nov 2026 04:46:29 GMT</pubDate>
+    <pubDate>Sun, 15 Nov 2026 15:19:32 GMT</pubDate>
     <item>
       <title>apache/spark</title>
       <link>https://github.com/apache/spark</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/apache/spark</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>44,523</stars>
-      <forks>29,591</forks>
+      <stars>44,525</stars>
+      <forks>29,595</forks>
       <addStars>112</addStars>
       <contributors>
         <contributor>
@@ -49,7 +49,7 @@
       <guid>https://github.com/twitter/the-algorithm</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>74,080</stars>
+      <stars>74,081</stars>
       <forks>13,250</forks>
       <addStars>82</addStars>
       <contributors>
@@ -109,14 +109,52 @@
       </contributors>
     </item>
     <item>
+      <title>lichess-org/lila</title>
+      <link>https://github.com/lichess-org/lila</link>
+      <description>♞ lichess.org: the forever free, adless and open source chess server ♞</description>
+      <guid>https://github.com/lichess-org/lila</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>18,986</stars>
+      <forks>2,812</forks>
+      <addStars>38</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/140370?s=40&amp;v=4</avatar>
+          <name>ornicar</name>
+          <url>https://github.com/ornicar</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/402777?s=40&amp;v=4</avatar>
+          <name>niklasf</name>
+          <url>https://github.com/niklasf</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/437967?s=40&amp;v=4</avatar>
+          <name>lenguyenthanh</name>
+          <url>https://github.com/lenguyenthanh</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/19309705?s=40&amp;v=4</avatar>
+          <name>benediktwerner</name>
+          <url>https://github.com/benediktwerner</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/56031107?s=40&amp;v=4</avatar>
+          <name>kraktus</name>
+          <url>https://github.com/kraktus</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>delta-io/delta</title>
       <link>https://github.com/delta-io/delta</link>
       <description>An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs</description>
       <guid>https://github.com/delta-io/delta</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>9,080</stars>
-      <forks>2,218</forks>
+      <stars>9,083</stars>
+      <forks>2,220</forks>
       <addStars>13</addStars>
       <contributors>
         <contributor>
@@ -143,6 +181,77 @@
           <avatar>https://avatars.githubusercontent.com/u/2551496?s=40&amp;v=4</avatar>
           <name>prakharjain09</name>
           <url>https://github.com/prakharjain09</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>ucb-bar/chipyard</title>
+      <link>https://github.com/ucb-bar/chipyard</link>
+      <description>An Agile RISC-V SoC Design Framework with in-order cores, out-of-order cores, accelerators, and more</description>
+      <guid>https://github.com/ucb-bar/chipyard</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>2,461</stars>
+      <forks>947</forks>
+      <addStars>9</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/14086183?s=40&amp;v=4</avatar>
+          <name>jerryz123</name>
+          <url>https://github.com/jerryz123</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8823803?s=40&amp;v=4</avatar>
+          <name>abejgonzalez</name>
+          <url>https://github.com/abejgonzalez</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5404010?s=40&amp;v=4</avatar>
+          <name>hansungk</name>
+          <url>https://github.com/hansungk</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6775168?s=40&amp;v=4</avatar>
+          <name>davidbiancolin</name>
+          <url>https://github.com/davidbiancolin</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/21228757?s=40&amp;v=4</avatar>
+          <name>alonamid</name>
+          <url>https://github.com/alonamid</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>zio/zio</title>
+      <link>https://github.com/zio/zio</link>
+      <description>ZIO — A type-safe, composable library for async and concurrent programming in Scala</description>
+      <guid>https://github.com/zio/zio</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>4,434</stars>
+      <forks>1,600</forks>
+      <addStars>1</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/20825463?s=40&amp;v=4</avatar>
+          <name>adamgfraser</name>
+          <url>https://github.com/adamgfraser</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/156745?s=40&amp;v=4</avatar>
+          <name>jdegoes</name>
+          <url>https://github.com/jdegoes</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/67301607?s=40&amp;v=4</avatar>
+          <name>kyri-petrou</name>
+          <url>https://github.com/kyri-petrou</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/235974?s=40&amp;v=4</avatar>
+          <name>khajavi</name>
+          <url>https://github.com/khajavi</url>
         </contributor>
       </contributors>
     </item>
@@ -185,106 +294,40 @@
       </contributors>
     </item>
     <item>
-      <title>OpenXiangShan/XiangShanLab</title>
-      <link>https://github.com/OpenXiangShan/XiangShanLab</link>
-      <description>XiangShanLab is the open-source XiangShan ecosystem's entry layer — a learning, practice, and collaboration hub spanning the RISC-V processor core and its specialized domains, making high-performance processor design learnable, doable, and participable, and welcoming collaborators from academia and industry to join real open-source development.</description>
-      <guid>https://github.com/OpenXiangShan/XiangShanLab</guid>
+      <title>VirtusLab/orca</title>
+      <link>https://github.com/VirtusLab/orca</link>
+      <description>Deterministic, AI-driven development flows.</description>
+      <guid>https://github.com/VirtusLab/orca</guid>
       <language>Scala</language>
       <languageColor>#c22d40</languageColor>
-      <stars>63</stars>
-      <forks>58</forks>
+      <stars>199</stars>
+      <forks>18</forks>
       <addStars>1</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/61073069?s=40&amp;v=4</avatar>
-          <name>syhhyl</name>
-          <url>https://github.com/syhhyl</url>
+          <avatar>https://avatars.githubusercontent.com/u/60503?s=40&amp;v=4</avatar>
+          <name>adamw</name>
+          <url>https://github.com/adamw</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/95285866?s=40&amp;v=4</avatar>
-          <name>TimeFlysLeo</name>
-          <url>https://github.com/TimeFlysLeo</url>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/185732821?s=40&amp;v=4</avatar>
-          <name>HisionWang</name>
-          <url>https://github.com/HisionWang</url>
+          <avatar>https://avatars.githubusercontent.com/u/79057?s=40&amp;v=4</avatar>
+          <name>zikolach</name>
+          <url>https://github.com/zikolach</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/197852272?s=40&amp;v=4</avatar>
-          <name>skye1577</name>
-          <url>https://github.com/skye1577</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>zio/zio</title>
-      <link>https://github.com/zio/zio</link>
-      <description>ZIO — A type-safe, composable library for async and concurrent programming in Scala</description>
-      <guid>https://github.com/zio/zio</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>4,434</stars>
-      <forks>1,600</forks>
-      <addStars>1</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/20825463?s=40&amp;v=4</avatar>
-          <name>adamgfraser</name>
-          <url>https://github.com/adamgfraser</url>
+          <avatar>https://avatars.githubusercontent.com/u/824335?s=40&amp;v=4</avatar>
+          <name>miguel-vila</name>
+          <url>https://github.com/miguel-vila</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/156745?s=40&amp;v=4</avatar>
-          <name>jdegoes</name>
-          <url>https://github.com/jdegoes</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/67301607?s=40&amp;v=4</avatar>
-          <name>kyri-petrou</name>
-          <url>https://github.com/kyri-petrou</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/235974?s=40&amp;v=4</avatar>
-          <name>khajavi</name>
-          <url>https://github.com/khajavi</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>ucb-bar/chipyard</title>
-      <link>https://github.com/ucb-bar/chipyard</link>
-      <description>An Agile RISC-V SoC Design Framework with in-order cores, out-of-order cores, accelerators, and more</description>
-      <guid>https://github.com/ucb-bar/chipyard</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>2,461</stars>
-      <forks>946</forks>
-      <addStars>9</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/14086183?s=40&amp;v=4</avatar>
-          <name>jerryz123</name>
-          <url>https://github.com/jerryz123</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8823803?s=40&amp;v=4</avatar>
-          <name>abejgonzalez</name>
-          <url>https://github.com/abejgonzalez</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/5404010?s=40&amp;v=4</avatar>
-          <name>hansungk</name>
-          <url>https://github.com/hansungk</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6775168?s=40&amp;v=4</avatar>
-          <name>davidbiancolin</name>
-          <url>https://github.com/davidbiancolin</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/21228757?s=40&amp;v=4</avatar>
-          <name>alonamid</name>
-          <url>https://github.com/alonamid</url>
+          <avatar>https://avatars.githubusercontent.com/u/2291742?s=40&amp;v=4</avatar>
+          <name>riccardomerolla</name>
+          <url>https://github.com/riccardomerolla</url>
         </contributor>
       </contributors>
     </item>
@@ -327,158 +370,6 @@
       </contributors>
     </item>
     <item>
-      <title>VirtusLab/orca</title>
-      <link>https://github.com/VirtusLab/orca</link>
-      <description>Deterministic, AI-driven development flows.</description>
-      <guid>https://github.com/VirtusLab/orca</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>199</stars>
-      <forks>18</forks>
-      <addStars>1</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/60503?s=40&amp;v=4</avatar>
-          <name>adamw</name>
-          <url>https://github.com/adamw</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/79057?s=40&amp;v=4</avatar>
-          <name>zikolach</name>
-          <url>https://github.com/zikolach</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/824335?s=40&amp;v=4</avatar>
-          <name>miguel-vila</name>
-          <url>https://github.com/miguel-vila</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/2291742?s=40&amp;v=4</avatar>
-          <name>riccardomerolla</name>
-          <url>https://github.com/riccardomerolla</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>lichess-org/lila</title>
-      <link>https://github.com/lichess-org/lila</link>
-      <description>♞ lichess.org: the forever free, adless and open source chess server ♞</description>
-      <guid>https://github.com/lichess-org/lila</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>18,984</stars>
-      <forks>2,812</forks>
-      <addStars>38</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/140370?s=40&amp;v=4</avatar>
-          <name>ornicar</name>
-          <url>https://github.com/ornicar</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/402777?s=40&amp;v=4</avatar>
-          <name>niklasf</name>
-          <url>https://github.com/niklasf</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/437967?s=40&amp;v=4</avatar>
-          <name>lenguyenthanh</name>
-          <url>https://github.com/lenguyenthanh</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/19309705?s=40&amp;v=4</avatar>
-          <name>benediktwerner</name>
-          <url>https://github.com/benediktwerner</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/56031107?s=40&amp;v=4</avatar>
-          <name>kraktus</name>
-          <url>https://github.com/kraktus</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>joernio/joern</title>
-      <link>https://github.com/joernio/joern</link>
-      <description>Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc</description>
-      <guid>https://github.com/joernio/joern</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>3,642</stars>
-      <forks>476</forks>
-      <addStars>16</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1417198?s=40&amp;v=4</avatar>
-          <name>max-leuthaeuser</name>
-          <url>https://github.com/max-leuthaeuser</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1379115?s=40&amp;v=4</avatar>
-          <name>fabsx00</name>
-          <url>https://github.com/fabsx00</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/497951?s=40&amp;v=4</avatar>
-          <name>ursachec</name>
-          <url>https://github.com/ursachec</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/506752?s=40&amp;v=4</avatar>
-          <name>mpollmeier</name>
-          <url>https://github.com/mpollmeier</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3519109?s=40&amp;v=4</avatar>
-          <name>xavierpinho</name>
-          <url>https://github.com/xavierpinho</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>apache/gluten</title>
-      <link>https://github.com/apache/gluten</link>
-      <description>Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.</description>
-      <guid>https://github.com/apache/gluten</guid>
-      <language>Scala</language>
-      <languageColor>#c22d40</languageColor>
-      <stars>1,623</stars>
-      <forks>679</forks>
-      <addStars>6</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/11284395?s=40&amp;v=4</avatar>
-          <name>zhztheplayer</name>
-          <url>https://github.com/zhztheplayer</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/137994563?s=40&amp;v=4</avatar>
-          <name>GlutenPerfBot</name>
-          <url>https://github.com/GlutenPerfBot</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13806761?s=40&amp;v=4</avatar>
-          <name>philo-he</name>
-          <url>https://github.com/philo-he</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/43917?s=40&amp;v=4</avatar>
-          <name>zhouyuan</name>
-          <url>https://github.com/zhouyuan</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/52736607?s=40&amp;v=4</avatar>
-          <name>marin-ma</name>
-          <url>https://github.com/marin-ma</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>llm4s/llm4s</title>
       <link>https://github.com/llm4s/llm4s</link>
       <description>Agentic and LLM Programming in Scala</description>
@@ -513,6 +404,115 @@
           <avatar>https://avatars.githubusercontent.com/u/117119879?s=40&amp;v=4</avatar>
           <name>Vi-shub</name>
           <url>https://github.com/Vi-shub</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>OpenXiangShan/XiangShanLab</title>
+      <link>https://github.com/OpenXiangShan/XiangShanLab</link>
+      <description>XiangShanLab is the open-source XiangShan ecosystem's entry layer — a learning, practice, and collaboration hub spanning the RISC-V processor core and its specialized domains, making high-performance processor design learnable, doable, and participable, and welcoming collaborators from academia and industry to join real open-source development.</description>
+      <guid>https://github.com/OpenXiangShan/XiangShanLab</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>63</stars>
+      <forks>58</forks>
+      <addStars>1</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/61073069?s=40&amp;v=4</avatar>
+          <name>syhhyl</name>
+          <url>https://github.com/syhhyl</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/95285866?s=40&amp;v=4</avatar>
+          <name>TimeFlysLeo</name>
+          <url>https://github.com/TimeFlysLeo</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/185732821?s=40&amp;v=4</avatar>
+          <name>HisionWang</name>
+          <url>https://github.com/HisionWang</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/197852272?s=40&amp;v=4</avatar>
+          <name>skye1577</name>
+          <url>https://github.com/skye1577</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>ucb-bar/gemmini</title>
+      <link>https://github.com/ucb-bar/gemmini</link>
+      <description>Berkeley's Spatial Array Generator</description>
+      <guid>https://github.com/ucb-bar/gemmini</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>1,573</stars>
+      <forks>309</forks>
+      <addStars>13</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/13737642?s=40&amp;v=4</avatar>
+          <name>hngenc</name>
+          <url>https://github.com/hngenc</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/14086183?s=40&amp;v=4</avatar>
+          <name>jerryz123</name>
+          <url>https://github.com/jerryz123</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/18361764?s=40&amp;v=4</avatar>
+          <name>AmeerHajAli</name>
+          <url>https://github.com/AmeerHajAli</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/54855793?s=40&amp;v=4</avatar>
+          <name>SeahK</name>
+          <url>https://github.com/SeahK</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/18318060?s=40&amp;v=4</avatar>
+          <name>richardyrh</name>
+          <url>https://github.com/richardyrh</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>joernio/joern</title>
+      <link>https://github.com/joernio/joern</link>
+      <description>Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc</description>
+      <guid>https://github.com/joernio/joern</guid>
+      <language>Scala</language>
+      <languageColor>#c22d40</languageColor>
+      <stars>3,643</stars>
+      <forks>476</forks>
+      <addStars>16</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1417198?s=40&amp;v=4</avatar>
+          <name>max-leuthaeuser</name>
+          <url>https://github.com/max-leuthaeuser</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1379115?s=40&amp;v=4</avatar>
+          <name>fabsx00</name>
+          <url>https://github.com/fabsx00</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/497951?s=40&amp;v=4</avatar>
+          <name>ursachec</name>
+          <url>https://github.com/ursachec</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/506752?s=40&amp;v=4</avatar>
+          <name>mpollmeier</name>
+          <url>https://github.com/mpollmeier</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/3519109?s=40&amp;v=4</avatar>
+          <name>xavierpinho</name>
+          <url>https://github.com/xavierpinho</url>
         </contributor>
       </contributors>
     </item>

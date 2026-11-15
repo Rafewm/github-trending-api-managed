@@ -2,7 +2,7 @@
   "title": "GitHub Scala Languages Weekly Trending",
   "description": "Weekly Trending of Scala Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 15 Nov 2026 04:46:29 GMT",
+  "pubDate": "Sun, 15 Nov 2026 15:19:32 GMT",
   "items": [
     {
       "title": "apache/spark",
@@ -10,8 +10,8 @@
       "description": "Apache Spark - A unified analytics engine for large-scale data processing",
       "language": "Scala",
       "languageColor": "#c22d40",
-      "stars": "44,523",
-      "forks": "29,591",
+      "stars": "44,525",
+      "forks": "29,595",
       "addStars": "112",
       "contributors": [
         {
@@ -47,7 +47,7 @@
       "description": "Source code for the X Recommendation Algorithm",
       "language": "Scala",
       "languageColor": "#c22d40",
-      "stars": "74,080",
+      "stars": "74,081",
       "forks": "13,250",
       "addStars": "82",
       "contributors": [
@@ -106,13 +106,50 @@
       ]
     },
     {
+      "title": "lichess-org/lila",
+      "url": "https://github.com/lichess-org/lila",
+      "description": "♞ lichess.org: the forever free, adless and open source chess server ♞",
+      "language": "Scala",
+      "languageColor": "#c22d40",
+      "stars": "18,986",
+      "forks": "2,812",
+      "addStars": "38",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/140370?s=40&v=4",
+          "name": "ornicar",
+          "url": "https://github.com/ornicar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/402777?s=40&v=4",
+          "name": "niklasf",
+          "url": "https://github.com/niklasf"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/437967?s=40&v=4",
+          "name": "lenguyenthanh",
+          "url": "https://github.com/lenguyenthanh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19309705?s=40&v=4",
+          "name": "benediktwerner",
+          "url": "https://github.com/benediktwerner"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/56031107?s=40&v=4",
+          "name": "kraktus",
+          "url": "https://github.com/kraktus"
+        }
+      ]
+    },
+    {
       "title": "delta-io/delta",
       "url": "https://github.com/delta-io/delta",
       "description": "An open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs",
       "language": "Scala",
       "languageColor": "#c22d40",
-      "stars": "9,080",
-      "forks": "2,218",
+      "stars": "9,083",
+      "forks": "2,220",
       "addStars": "13",
       "contributors": [
         {
@@ -139,6 +176,75 @@
           "avatar": "https://avatars.githubusercontent.com/u/2551496?s=40&v=4",
           "name": "prakharjain09",
           "url": "https://github.com/prakharjain09"
+        }
+      ]
+    },
+    {
+      "title": "ucb-bar/chipyard",
+      "url": "https://github.com/ucb-bar/chipyard",
+      "description": "An Agile RISC-V SoC Design Framework with in-order cores, out-of-order cores, accelerators, and more",
+      "language": "Scala",
+      "languageColor": "#c22d40",
+      "stars": "2,461",
+      "forks": "947",
+      "addStars": "9",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14086183?s=40&v=4",
+          "name": "jerryz123",
+          "url": "https://github.com/jerryz123"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8823803?s=40&v=4",
+          "name": "abejgonzalez",
+          "url": "https://github.com/abejgonzalez"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5404010?s=40&v=4",
+          "name": "hansungk",
+          "url": "https://github.com/hansungk"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6775168?s=40&v=4",
+          "name": "davidbiancolin",
+          "url": "https://github.com/davidbiancolin"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/21228757?s=40&v=4",
+          "name": "alonamid",
+          "url": "https://github.com/alonamid"
+        }
+      ]
+    },
+    {
+      "title": "zio/zio",
+      "url": "https://github.com/zio/zio",
+      "description": "ZIO — A type-safe, composable library for async and concurrent programming in Scala",
+      "language": "Scala",
+      "languageColor": "#c22d40",
+      "stars": "4,434",
+      "forks": "1,600",
+      "addStars": "1",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/20825463?s=40&v=4",
+          "name": "adamgfraser",
+          "url": "https://github.com/adamgfraser"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/156745?s=40&v=4",
+          "name": "jdegoes",
+          "url": "https://github.com/jdegoes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67301607?s=40&v=4",
+          "name": "kyri-petrou",
+          "url": "https://github.com/kyri-petrou"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/235974?s=40&v=4",
+          "name": "khajavi",
+          "url": "https://github.com/khajavi"
         }
       ]
     },
@@ -180,103 +286,39 @@
       ]
     },
     {
-      "title": "OpenXiangShan/XiangShanLab",
-      "url": "https://github.com/OpenXiangShan/XiangShanLab",
-      "description": "XiangShanLab is the open-source XiangShan ecosystem's entry layer — a learning, practice, and collaboration hub spanning the RISC-V processor core and its specialized domains, making high-performance processor design learnable, doable, and participable, and welcoming collaborators from academia and industry to join real open-source development.",
+      "title": "VirtusLab/orca",
+      "url": "https://github.com/VirtusLab/orca",
+      "description": "Deterministic, AI-driven development flows.",
       "language": "Scala",
       "languageColor": "#c22d40",
-      "stars": "63",
-      "forks": "58",
+      "stars": "199",
+      "forks": "18",
       "addStars": "1",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/61073069?s=40&v=4",
-          "name": "syhhyl",
-          "url": "https://github.com/syhhyl"
+          "avatar": "https://avatars.githubusercontent.com/u/60503?s=40&v=4",
+          "name": "adamw",
+          "url": "https://github.com/adamw"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/95285866?s=40&v=4",
-          "name": "TimeFlysLeo",
-          "url": "https://github.com/TimeFlysLeo"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/185732821?s=40&v=4",
-          "name": "HisionWang",
-          "url": "https://github.com/HisionWang"
+          "avatar": "https://avatars.githubusercontent.com/u/79057?s=40&v=4",
+          "name": "zikolach",
+          "url": "https://github.com/zikolach"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/197852272?s=40&v=4",
-          "name": "skye1577",
-          "url": "https://github.com/skye1577"
-        }
-      ]
-    },
-    {
-      "title": "zio/zio",
-      "url": "https://github.com/zio/zio",
-      "description": "ZIO — A type-safe, composable library for async and concurrent programming in Scala",
-      "language": "Scala",
-      "languageColor": "#c22d40",
-      "stars": "4,434",
-      "forks": "1,600",
-      "addStars": "1",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20825463?s=40&v=4",
-          "name": "adamgfraser",
-          "url": "https://github.com/adamgfraser"
+          "avatar": "https://avatars.githubusercontent.com/u/824335?s=40&v=4",
+          "name": "miguel-vila",
+          "url": "https://github.com/miguel-vila"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/156745?s=40&v=4",
-          "name": "jdegoes",
-          "url": "https://github.com/jdegoes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67301607?s=40&v=4",
-          "name": "kyri-petrou",
-          "url": "https://github.com/kyri-petrou"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/235974?s=40&v=4",
-          "name": "khajavi",
-          "url": "https://github.com/khajavi"
-        }
-      ]
-    },
-    {
-      "title": "ucb-bar/chipyard",
-      "url": "https://github.com/ucb-bar/chipyard",
-      "description": "An Agile RISC-V SoC Design Framework with in-order cores, out-of-order cores, accelerators, and more",
-      "language": "Scala",
-      "languageColor": "#c22d40",
-      "stars": "2,461",
-      "forks": "946",
-      "addStars": "9",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14086183?s=40&v=4",
-          "name": "jerryz123",
-          "url": "https://github.com/jerryz123"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8823803?s=40&v=4",
-          "name": "abejgonzalez",
-          "url": "https://github.com/abejgonzalez"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5404010?s=40&v=4",
-          "name": "hansungk",
-          "url": "https://github.com/hansungk"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6775168?s=40&v=4",
-          "name": "davidbiancolin",
-          "url": "https://github.com/davidbiancolin"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/21228757?s=40&v=4",
-          "name": "alonamid",
-          "url": "https://github.com/alonamid"
+          "avatar": "https://avatars.githubusercontent.com/u/2291742?s=40&v=4",
+          "name": "riccardomerolla",
+          "url": "https://github.com/riccardomerolla"
         }
       ]
     },
@@ -318,154 +360,6 @@
       ]
     },
     {
-      "title": "VirtusLab/orca",
-      "url": "https://github.com/VirtusLab/orca",
-      "description": "Deterministic, AI-driven development flows.",
-      "language": "Scala",
-      "languageColor": "#c22d40",
-      "stars": "199",
-      "forks": "18",
-      "addStars": "1",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/60503?s=40&v=4",
-          "name": "adamw",
-          "url": "https://github.com/adamw"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/79057?s=40&v=4",
-          "name": "zikolach",
-          "url": "https://github.com/zikolach"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/824335?s=40&v=4",
-          "name": "miguel-vila",
-          "url": "https://github.com/miguel-vila"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2291742?s=40&v=4",
-          "name": "riccardomerolla",
-          "url": "https://github.com/riccardomerolla"
-        }
-      ]
-    },
-    {
-      "title": "lichess-org/lila",
-      "url": "https://github.com/lichess-org/lila",
-      "description": "♞ lichess.org: the forever free, adless and open source chess server ♞",
-      "language": "Scala",
-      "languageColor": "#c22d40",
-      "stars": "18,984",
-      "forks": "2,812",
-      "addStars": "38",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/140370?s=40&v=4",
-          "name": "ornicar",
-          "url": "https://github.com/ornicar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/402777?s=40&v=4",
-          "name": "niklasf",
-          "url": "https://github.com/niklasf"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/437967?s=40&v=4",
-          "name": "lenguyenthanh",
-          "url": "https://github.com/lenguyenthanh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19309705?s=40&v=4",
-          "name": "benediktwerner",
-          "url": "https://github.com/benediktwerner"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/56031107?s=40&v=4",
-          "name": "kraktus",
-          "url": "https://github.com/kraktus"
-        }
-      ]
-    },
-    {
-      "title": "joernio/joern",
-      "url": "https://github.com/joernio/joern",
-      "description": "Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc",
-      "language": "Scala",
-      "languageColor": "#c22d40",
-      "stars": "3,642",
-      "forks": "476",
-      "addStars": "16",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1417198?s=40&v=4",
-          "name": "max-leuthaeuser",
-          "url": "https://github.com/max-leuthaeuser"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1379115?s=40&v=4",
-          "name": "fabsx00",
-          "url": "https://github.com/fabsx00"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/497951?s=40&v=4",
-          "name": "ursachec",
-          "url": "https://github.com/ursachec"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/506752?s=40&v=4",
-          "name": "mpollmeier",
-          "url": "https://github.com/mpollmeier"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3519109?s=40&v=4",
-          "name": "xavierpinho",
-          "url": "https://github.com/xavierpinho"
-        }
-      ]
-    },
-    {
-      "title": "apache/gluten",
-      "url": "https://github.com/apache/gluten",
-      "description": "Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.",
-      "language": "Scala",
-      "languageColor": "#c22d40",
-      "stars": "1,623",
-      "forks": "679",
-      "addStars": "6",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11284395?s=40&v=4",
-          "name": "zhztheplayer",
-          "url": "https://github.com/zhztheplayer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/137994563?s=40&v=4",
-          "name": "GlutenPerfBot",
-          "url": "https://github.com/GlutenPerfBot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13806761?s=40&v=4",
-          "name": "philo-he",
-          "url": "https://github.com/philo-he"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43917?s=40&v=4",
-          "name": "zhouyuan",
-          "url": "https://github.com/zhouyuan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/52736607?s=40&v=4",
-          "name": "marin-ma",
-          "url": "https://github.com/marin-ma"
-        }
-      ]
-    },
-    {
       "title": "llm4s/llm4s",
       "url": "https://github.com/llm4s/llm4s",
       "description": "Agentic and LLM Programming in Scala",
@@ -499,6 +393,112 @@
           "avatar": "https://avatars.githubusercontent.com/u/117119879?s=40&v=4",
           "name": "Vi-shub",
           "url": "https://github.com/Vi-shub"
+        }
+      ]
+    },
+    {
+      "title": "OpenXiangShan/XiangShanLab",
+      "url": "https://github.com/OpenXiangShan/XiangShanLab",
+      "description": "XiangShanLab is the open-source XiangShan ecosystem's entry layer — a learning, practice, and collaboration hub spanning the RISC-V processor core and its specialized domains, making high-performance processor design learnable, doable, and participable, and welcoming collaborators from academia and industry to join real open-source development.",
+      "language": "Scala",
+      "languageColor": "#c22d40",
+      "stars": "63",
+      "forks": "58",
+      "addStars": "1",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61073069?s=40&v=4",
+          "name": "syhhyl",
+          "url": "https://github.com/syhhyl"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/95285866?s=40&v=4",
+          "name": "TimeFlysLeo",
+          "url": "https://github.com/TimeFlysLeo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/185732821?s=40&v=4",
+          "name": "HisionWang",
+          "url": "https://github.com/HisionWang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/197852272?s=40&v=4",
+          "name": "skye1577",
+          "url": "https://github.com/skye1577"
+        }
+      ]
+    },
+    {
+      "title": "ucb-bar/gemmini",
+      "url": "https://github.com/ucb-bar/gemmini",
+      "description": "Berkeley's Spatial Array Generator",
+      "language": "Scala",
+      "languageColor": "#c22d40",
+      "stars": "1,573",
+      "forks": "309",
+      "addStars": "13",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13737642?s=40&v=4",
+          "name": "hngenc",
+          "url": "https://github.com/hngenc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14086183?s=40&v=4",
+          "name": "jerryz123",
+          "url": "https://github.com/jerryz123"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18361764?s=40&v=4",
+          "name": "AmeerHajAli",
+          "url": "https://github.com/AmeerHajAli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/54855793?s=40&v=4",
+          "name": "SeahK",
+          "url": "https://github.com/SeahK"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18318060?s=40&v=4",
+          "name": "richardyrh",
+          "url": "https://github.com/richardyrh"
+        }
+      ]
+    },
+    {
+      "title": "joernio/joern",
+      "url": "https://github.com/joernio/joern",
+      "description": "Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc",
+      "language": "Scala",
+      "languageColor": "#c22d40",
+      "stars": "3,643",
+      "forks": "476",
+      "addStars": "16",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1417198?s=40&v=4",
+          "name": "max-leuthaeuser",
+          "url": "https://github.com/max-leuthaeuser"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1379115?s=40&v=4",
+          "name": "fabsx00",
+          "url": "https://github.com/fabsx00"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/497951?s=40&v=4",
+          "name": "ursachec",
+          "url": "https://github.com/ursachec"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/506752?s=40&v=4",
+          "name": "mpollmeier",
+          "url": "https://github.com/mpollmeier"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3519109?s=40&v=4",
+          "name": "xavierpinho",
+          "url": "https://github.com/xavierpinho"
         }
       ]
     }

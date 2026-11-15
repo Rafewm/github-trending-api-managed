@@ -2,7 +2,7 @@
   "title": "GitHub Cuda Languages Monthly Trending",
   "description": "Monthly Trending of Cuda Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 15 Nov 2026 04:46:29 GMT",
+  "pubDate": "Sun, 15 Nov 2026 15:19:32 GMT",
   "items": [
     {
       "title": "flashinfer-ai/flashinfer",
@@ -10,8 +10,8 @@
       "description": "FlashInfer: Kernel Library for LLM Serving",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "6,927",
-      "forks": "1,756",
+      "stars": "6,928",
+      "forks": "1,757",
       "addStars": "325",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "LLM training in simple, raw C/CUDA",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "31,475",
-      "forks": "3,825",
+      "stars": "31,481",
+      "forks": "3,826",
       "addStars": "362",
       "contributors": [
         {
@@ -84,8 +84,8 @@
       "description": "DeepEP: an efficient expert-parallel communication library",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "10,445",
-      "forks": "1,560",
+      "stars": "10,446",
+      "forks": "1,563",
       "addStars": "187",
       "contributors": [
         {
@@ -116,50 +116,13 @@
       ]
     },
     {
-      "title": "NVIDIA/cudnn-frontend",
-      "url": "https://github.com/NVIDIA/cudnn-frontend",
-      "description": "cuDNN Frontend is NVIDIA's modern, open-source entry point to the cuDNN library and a growing collection of high-performance open-source kernels.",
-      "language": "Cuda",
-      "languageColor": "#3A4E3A",
-      "stars": "1,000",
-      "forks": "337",
-      "addStars": "36",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38851819?s=40&v=4",
-          "name": "YangXu1990uiuc",
-          "url": "https://github.com/YangXu1990uiuc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/916946?s=40&v=4",
-          "name": "Anerudhan",
-          "url": "https://github.com/Anerudhan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/288483202?s=40&v=4",
-          "name": "RomanAnders90",
-          "url": "https://github.com/RomanAnders90"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/192209249?s=40&v=4",
-          "name": "0z5a",
-          "url": "https://github.com/0z5a"
-        }
-      ]
-    },
-    {
       "title": "NVIDIA/cuopt",
       "url": "https://github.com/NVIDIA/cuopt",
       "description": "GPU accelerated decision optimization",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "1,115",
-      "forks": "259",
+      "stars": "1,116",
+      "forks": "260",
       "addStars": "58",
       "contributors": [
         {
@@ -195,8 +158,8 @@
       "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "9,195",
-      "forks": "1,531",
+      "stars": "9,197",
+      "forks": "1,532",
       "addStars": "264",
       "contributors": [
         {
@@ -286,13 +249,50 @@
       ]
     },
     {
+      "title": "NVIDIA/cudnn-frontend",
+      "url": "https://github.com/NVIDIA/cudnn-frontend",
+      "description": "cuDNN Frontend is NVIDIA's modern, open-source entry point to the cuDNN library and a growing collection of high-performance open-source kernels.",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "1,000",
+      "forks": "337",
+      "addStars": "36",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38851819?s=40&v=4",
+          "name": "YangXu1990uiuc",
+          "url": "https://github.com/YangXu1990uiuc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/916946?s=40&v=4",
+          "name": "Anerudhan",
+          "url": "https://github.com/Anerudhan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/288483202?s=40&v=4",
+          "name": "RomanAnders90",
+          "url": "https://github.com/RomanAnders90"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/192209249?s=40&v=4",
+          "name": "0z5a",
+          "url": "https://github.com/0z5a"
+        }
+      ]
+    },
+    {
       "title": "thu-ml/SageAttention",
       "url": "https://github.com/thu-ml/SageAttention",
       "description": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models.",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "4,009",
-      "forks": "555",
+      "stars": "4,010",
+      "forks": "556",
       "addStars": "48",
       "contributors": [
         {

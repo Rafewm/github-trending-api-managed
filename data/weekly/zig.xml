@@ -3,7 +3,7 @@
     <title>GitHub Zig Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Zig Languages in GitHub</description>
-    <pubDate>Sun, 15 Nov 2026 04:46:29 GMT</pubDate>
+    <pubDate>Sun, 15 Nov 2026 15:19:32 GMT</pubDate>
     <item>
       <title>ashhart/TensorFold</title>
       <link>https://github.com/ashhart/TensorFold</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/ashhart/TensorFold</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,187</stars>
-      <forks>514</forks>
+      <stars>2,246</stars>
+      <forks>521</forks>
       <addStars>453</addStars>
       <contributors>
         <contributor>
@@ -49,8 +49,8 @@
       <guid>https://github.com/ghostty-org/ghostty</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>64,116</stars>
-      <forks>3,921</forks>
+      <stars>64,131</stars>
+      <forks>3,923</forks>
       <addStars>338</addStars>
       <contributors>
         <contributor>
@@ -77,8 +77,8 @@
       <guid>https://github.com/vercel-labs/fx</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>3,851</stars>
-      <forks>444</forks>
+      <stars>3,865</stars>
+      <forks>445</forks>
       <addStars>55</addStars>
       <contributors>
         <contributor>
@@ -109,51 +109,13 @@
       </contributors>
     </item>
     <item>
-      <title>tigerbeetle/tigerbeetle</title>
-      <link>https://github.com/tigerbeetle/tigerbeetle</link>
-      <description>The financial transactions database designed for mission critical safety and performance.</description>
-      <guid>https://github.com/tigerbeetle/tigerbeetle</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>17,378</stars>
-      <forks>936</forks>
-      <addStars>69</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/461112?s=40&amp;v=4</avatar>
-          <name>sentientwaffle</name>
-          <url>https://github.com/sentientwaffle</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1711539?s=40&amp;v=4</avatar>
-          <name>matklad</name>
-          <url>https://github.com/matklad</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/5728002?s=40&amp;v=4</avatar>
-          <name>batiati</name>
-          <url>https://github.com/batiati</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/703017?s=40&amp;v=4</avatar>
-          <name>cb22</name>
-          <url>https://github.com/cb22</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/473672?s=40&amp;v=4</avatar>
-          <name>fabioarnold</name>
-          <url>https://github.com/fabioarnold</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>lightpanda-io/browser</title>
       <link>https://github.com/lightpanda-io/browser</link>
       <description>Lightpanda: the headless browser designed for AI and automation</description>
       <guid>https://github.com/lightpanda-io/browser</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>42,053</stars>
+      <stars>42,083</stars>
       <forks>2,117</forks>
       <addStars>526</addStars>
       <contributors>
@@ -185,13 +147,51 @@
       </contributors>
     </item>
     <item>
+      <title>tigerbeetle/tigerbeetle</title>
+      <link>https://github.com/tigerbeetle/tigerbeetle</link>
+      <description>The financial transactions database designed for mission critical safety and performance.</description>
+      <guid>https://github.com/tigerbeetle/tigerbeetle</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>17,379</stars>
+      <forks>936</forks>
+      <addStars>69</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/461112?s=40&amp;v=4</avatar>
+          <name>sentientwaffle</name>
+          <url>https://github.com/sentientwaffle</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1711539?s=40&amp;v=4</avatar>
+          <name>matklad</name>
+          <url>https://github.com/matklad</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5728002?s=40&amp;v=4</avatar>
+          <name>batiati</name>
+          <url>https://github.com/batiati</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/703017?s=40&amp;v=4</avatar>
+          <name>cb22</name>
+          <url>https://github.com/cb22</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/473672?s=40&amp;v=4</avatar>
+          <name>fabioarnold</name>
+          <url>https://github.com/fabioarnold</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>zigtools/zls</title>
       <link>https://github.com/zigtools/zls</link>
       <description>A language server for Zig supporting developers with features like autocomplete and goto definition</description>
       <guid>https://github.com/zigtools/zls</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>5,333</stars>
+      <stars>5,335</stars>
       <forks>478</forks>
       <addStars>34</addStars>
       <contributors>
@@ -219,6 +219,44 @@
           <avatar>https://avatars.githubusercontent.com/u/2286349?s=40&amp;v=4</avatar>
           <name>leecannon</name>
           <url>https://github.com/leecannon</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>ziglang/zig</title>
+      <link>https://github.com/ziglang/zig</link>
+      <description>Moved to Codeberg</description>
+      <guid>https://github.com/ziglang/zig</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>43,262</stars>
+      <forks>3,115</forks>
+      <addStars>54</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/106511?s=40&amp;v=4</avatar>
+          <name>andrewrk</name>
+          <url>https://github.com/andrewrk</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1519747?s=40&amp;v=4</avatar>
+          <name>kubkon</name>
+          <url>https://github.com/kubkon</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/44076?s=40&amp;v=4</avatar>
+          <name>alexrp</name>
+          <url>https://github.com/alexrp</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/15308111?s=40&amp;v=4</avatar>
+          <name>Vexu</name>
+          <url>https://github.com/Vexu</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/15544577?s=40&amp;v=4</avatar>
+          <name>jacobly0</name>
+          <url>https://github.com/jacobly0</url>
         </contributor>
       </contributors>
     </item>
@@ -261,82 +299,6 @@
       </contributors>
     </item>
     <item>
-      <title>ziglang/zig</title>
-      <link>https://github.com/ziglang/zig</link>
-      <description>Moved to Codeberg</description>
-      <guid>https://github.com/ziglang/zig</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>43,265</stars>
-      <forks>3,115</forks>
-      <addStars>54</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/106511?s=40&amp;v=4</avatar>
-          <name>andrewrk</name>
-          <url>https://github.com/andrewrk</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1519747?s=40&amp;v=4</avatar>
-          <name>kubkon</name>
-          <url>https://github.com/kubkon</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/44076?s=40&amp;v=4</avatar>
-          <name>alexrp</name>
-          <url>https://github.com/alexrp</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/15308111?s=40&amp;v=4</avatar>
-          <name>Vexu</name>
-          <url>https://github.com/Vexu</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/15544577?s=40&amp;v=4</avatar>
-          <name>jacobly0</name>
-          <url>https://github.com/jacobly0</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>neurocyte/flow</title>
-      <link>https://github.com/neurocyte/flow</link>
-      <description>Flow Control: a programmer's text editor</description>
-      <guid>https://github.com/neurocyte/flow</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>2,553</stars>
-      <forks>132</forks>
-      <addStars>25</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1552770?s=40&amp;v=4</avatar>
-          <name>neurocyte</name>
-          <url>https://github.com/neurocyte</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/531285?s=40&amp;v=4</avatar>
-          <name>ikks</name>
-          <url>https://github.com/ikks</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/476352?s=40&amp;v=4</avatar>
-          <name>rockorager</name>
-          <url>https://github.com/rockorager</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/304904?s=40&amp;v=4</avatar>
-          <name>marler8997</name>
-          <url>https://github.com/marler8997</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3136063?s=40&amp;v=4</avatar>
-          <name>ilohmar</name>
-          <url>https://github.com/ilohmar</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>neurosnap/zmx</title>
       <link>https://github.com/neurosnap/zmx</link>
       <description>Session attach/detach for the terminal</description>
@@ -371,6 +333,120 @@
           <avatar>https://avatars.githubusercontent.com/u/1858057?s=40&amp;v=4</avatar>
           <name>mdsakalu</name>
           <url>https://github.com/mdsakalu</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>amanthanvi/noctty</title>
+      <link>https://github.com/amanthanvi/noctty</link>
+      <description>A fast, native terminal for Windows. Formerly winghostty. 🌙</description>
+      <guid>https://github.com/amanthanvi/noctty</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>554</stars>
+      <forks>22</forks>
+      <addStars>29</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1299?s=40&amp;v=4</avatar>
+          <name>mitchellh</name>
+          <url>https://github.com/mitchellh</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/740022?s=40&amp;v=4</avatar>
+          <name>jcollie</name>
+          <url>https://github.com/jcollie</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/22306104?s=40&amp;v=4</avatar>
+          <name>amanthanvi</name>
+          <url>https://github.com/amanthanvi</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7241851?s=40&amp;v=4</avatar>
+          <name>qwerasd205</name>
+          <url>https://github.com/qwerasd205</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/10311?s=40&amp;v=4</avatar>
+          <name>jparise</name>
+          <url>https://github.com/jparise</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>neurocyte/flow</title>
+      <link>https://github.com/neurocyte/flow</link>
+      <description>Flow Control: a programmer's text editor</description>
+      <guid>https://github.com/neurocyte/flow</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>2,554</stars>
+      <forks>132</forks>
+      <addStars>25</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1552770?s=40&amp;v=4</avatar>
+          <name>neurocyte</name>
+          <url>https://github.com/neurocyte</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/531285?s=40&amp;v=4</avatar>
+          <name>ikks</name>
+          <url>https://github.com/ikks</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/476352?s=40&amp;v=4</avatar>
+          <name>rockorager</name>
+          <url>https://github.com/rockorager</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/304904?s=40&amp;v=4</avatar>
+          <name>marler8997</name>
+          <url>https://github.com/marler8997</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/3136063?s=40&amp;v=4</avatar>
+          <name>ilohmar</name>
+          <url>https://github.com/ilohmar</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>Seafoam-Labs/Shelly-ALPM</title>
+      <link>https://github.com/Seafoam-Labs/Shelly-ALPM</link>
+      <description>Pacman alternative for ArchLinux, designed with you in mind.</description>
+      <guid>https://github.com/Seafoam-Labs/Shelly-ALPM</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>1,277</stars>
+      <forks>111</forks>
+      <addStars>19</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/40698010?s=40&amp;v=4</avatar>
+          <name>ZoeyErinBauer</name>
+          <url>https://github.com/ZoeyErinBauer</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/69315797?s=40&amp;v=4</avatar>
+          <name>caroberrie</name>
+          <url>https://github.com/caroberrie</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/142009768?s=40&amp;v=4</avatar>
+          <name>VinnyQF</name>
+          <url>https://github.com/VinnyQF</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6123841?s=40&amp;v=4</avatar>
+          <name>azdanov</name>
+          <url>https://github.com/azdanov</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6131799?s=40&amp;v=4</avatar>
+          <name>Henry2o1o</name>
+          <url>https://github.com/Henry2o1o</url>
         </contributor>
       </contributors>
     </item>
@@ -413,120 +489,6 @@
       </contributors>
     </item>
     <item>
-      <title>amanthanvi/noctty</title>
-      <link>https://github.com/amanthanvi/noctty</link>
-      <description>A fast, native terminal for Windows. Formerly winghostty. 🌙</description>
-      <guid>https://github.com/amanthanvi/noctty</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>552</stars>
-      <forks>22</forks>
-      <addStars>29</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1299?s=40&amp;v=4</avatar>
-          <name>mitchellh</name>
-          <url>https://github.com/mitchellh</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/740022?s=40&amp;v=4</avatar>
-          <name>jcollie</name>
-          <url>https://github.com/jcollie</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/22306104?s=40&amp;v=4</avatar>
-          <name>amanthanvi</name>
-          <url>https://github.com/amanthanvi</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7241851?s=40&amp;v=4</avatar>
-          <name>qwerasd205</name>
-          <url>https://github.com/qwerasd205</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/10311?s=40&amp;v=4</avatar>
-          <name>jparise</name>
-          <url>https://github.com/jparise</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>Seafoam-Labs/Shelly-ALPM</title>
-      <link>https://github.com/Seafoam-Labs/Shelly-ALPM</link>
-      <description>Pacman alternative for ArchLinux, designed with you in mind.</description>
-      <guid>https://github.com/Seafoam-Labs/Shelly-ALPM</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>1,273</stars>
-      <forks>111</forks>
-      <addStars>19</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/40698010?s=40&amp;v=4</avatar>
-          <name>ZoeyErinBauer</name>
-          <url>https://github.com/ZoeyErinBauer</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/69315797?s=40&amp;v=4</avatar>
-          <name>caroberrie</name>
-          <url>https://github.com/caroberrie</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/142009768?s=40&amp;v=4</avatar>
-          <name>VinnyQF</name>
-          <url>https://github.com/VinnyQF</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6123841?s=40&amp;v=4</avatar>
-          <name>azdanov</name>
-          <url>https://github.com/azdanov</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6131799?s=40&amp;v=4</avatar>
-          <name>Henry2o1o</name>
-          <url>https://github.com/Henry2o1o</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>david-vanderson/dvui</title>
-      <link>https://github.com/david-vanderson/dvui</link>
-      <description>Immediate Zig GUI for Apps and Games</description>
-      <guid>https://github.com/david-vanderson/dvui</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>1,754</stars>
-      <forks>157</forks>
-      <addStars>13</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3290996?s=40&amp;v=4</avatar>
-          <name>david-vanderson</name>
-          <url>https://github.com/david-vanderson</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/94024065?s=40&amp;v=4</avatar>
-          <name>RedPhoenixQ</name>
-          <url>https://github.com/RedPhoenixQ</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13688765?s=40&amp;v=4</avatar>
-          <name>phatchman</name>
-          <url>https://github.com/phatchman</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/48253336?s=40&amp;v=4</avatar>
-          <name>VisenDev</name>
-          <url>https://github.com/VisenDev</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7933289?s=40&amp;v=4</avatar>
-          <name>Yinameah</name>
-          <url>https://github.com/Yinameah</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>Loongphy/codex-auth</title>
       <link>https://github.com/Loongphy/codex-auth</link>
       <description>A CLI tool to switch and manage Codex accounts</description>
@@ -560,68 +522,78 @@
       </contributors>
     </item>
     <item>
-      <title>blackboardsh/electrobun</title>
-      <link>https://github.com/blackboardsh/electrobun</link>
-      <description>Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.</description>
-      <guid>https://github.com/blackboardsh/electrobun</guid>
+      <title>PixelGuys/Cubyz</title>
+      <link>https://github.com/PixelGuys/Cubyz</link>
+      <description>Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects.</description>
+      <guid>https://github.com/PixelGuys/Cubyz</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>13,056</stars>
-      <forks>381</forks>
-      <addStars>23</addStars>
+      <stars>3,765</stars>
+      <forks>252</forks>
+      <addStars>15</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/75102186?s=40&amp;v=4</avatar>
-          <name>YoavCodes</name>
-          <url>https://github.com/YoavCodes</url>
+          <avatar>https://avatars.githubusercontent.com/u/43880493?s=40&amp;v=4</avatar>
+          <name>IntegratedQuantum</name>
+          <url>https://github.com/IntegratedQuantum</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
+          <avatar>https://avatars.githubusercontent.com/u/122191047?s=40&amp;v=4</avatar>
+          <name>careeoki</name>
+          <url>https://github.com/careeoki</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/56759001?s=40&amp;v=4</avatar>
-          <name>devallibus</name>
-          <url>https://github.com/devallibus</url>
+          <avatar>https://avatars.githubusercontent.com/u/56170852?s=40&amp;v=4</avatar>
+          <name>Argmaster</name>
+          <url>https://github.com/Argmaster</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/22935000?s=40&amp;v=4</avatar>
-          <name>NullDev</name>
-          <url>https://github.com/NullDev</url>
+          <avatar>https://avatars.githubusercontent.com/u/56411012?s=40&amp;v=4</avatar>
+          <name>Wunka</name>
+          <url>https://github.com/Wunka</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/61791080?s=40&amp;v=4</avatar>
-          <name>ungedenstad</name>
-          <url>https://github.com/ungedenstad</url>
+          <avatar>https://avatars.githubusercontent.com/u/69110900?s=40&amp;v=4</avatar>
+          <name>codemob-dev</name>
+          <url>https://github.com/codemob-dev</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>sleep3r/mtproto.zig</title>
-      <link>https://github.com/sleep3r/mtproto.zig</link>
-      <description>Keep the people you love connected — a tiny self-hosted Telegram proxy that hides in plain HTTPS</description>
-      <guid>https://github.com/sleep3r/mtproto.zig</guid>
+      <title>david-vanderson/dvui</title>
+      <link>https://github.com/david-vanderson/dvui</link>
+      <description>Immediate Zig GUI for Apps and Games</description>
+      <guid>https://github.com/david-vanderson/dvui</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,218</stars>
-      <forks>73</forks>
-      <addStars>55</addStars>
+      <stars>1,756</stars>
+      <forks>157</forks>
+      <addStars>13</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/33665156?s=40&amp;v=4</avatar>
-          <name>sleep3r</name>
-          <url>https://github.com/sleep3r</url>
+          <avatar>https://avatars.githubusercontent.com/u/3290996?s=40&amp;v=4</avatar>
+          <name>david-vanderson</name>
+          <url>https://github.com/david-vanderson</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/9842424?s=40&amp;v=4</avatar>
-          <name>va4st</name>
-          <url>https://github.com/va4st</url>
+          <avatar>https://avatars.githubusercontent.com/u/94024065?s=40&amp;v=4</avatar>
+          <name>RedPhoenixQ</name>
+          <url>https://github.com/RedPhoenixQ</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/64381618?s=40&amp;v=4</avatar>
-          <name>ishad0w</name>
-          <url>https://github.com/ishad0w</url>
+          <avatar>https://avatars.githubusercontent.com/u/13688765?s=40&amp;v=4</avatar>
+          <name>phatchman</name>
+          <url>https://github.com/phatchman</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/48253336?s=40&amp;v=4</avatar>
+          <name>VisenDev</name>
+          <url>https://github.com/VisenDev</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7933289?s=40&amp;v=4</avatar>
+          <name>Yinameah</name>
+          <url>https://github.com/Yinameah</url>
         </contributor>
       </contributors>
     </item>
@@ -632,9 +604,21 @@
       <guid>https://github.com/ddalcu/mlx-serve</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,462</stars>
-      <forks>263</forks>
-      <addStars>57</addStars>
+      <stars>2,464</stars>
+      <forks>288</forks>
+      <addStars>58</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>sleep3r/mtproto.zig</title>
+      <link>https://github.com/sleep3r/mtproto.zig</link>
+      <description>Keep the people you love connected — a tiny self-hosted Telegram proxy that hides in plain HTTPS</description>
+      <guid>https://github.com/sleep3r/mtproto.zig</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>2,219</stars>
+      <forks>143</forks>
+      <addStars>44</addStars>
       <contributors/>
     </item>
     <item>
@@ -656,9 +640,9 @@
       <guid>https://github.com/beamivalice/sushi</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>469</stars>
+      <stars>471</stars>
       <forks>40</forks>
-      <addStars>33</addStars>
+      <addStars>34</addStars>
       <contributors/>
     </item>
     <item>
@@ -671,6 +655,30 @@
       <stars>904</stars>
       <forks>48</forks>
       <addStars>36</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>kristoff-it/ziggy</title>
+      <link>https://github.com/kristoff-it/ziggy</link>
+      <description>A data serialization language for expressing clear API messages, config files, etc.</description>
+      <guid>https://github.com/kristoff-it/ziggy</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>616</stars>
+      <forks>49</forks>
+      <addStars>11</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>debpalash/Opal</title>
+      <link>https://github.com/debpalash/Opal</link>
+      <description>The Open-source Netflix, Spotify, Crunchyroll, Plex/Jellyfin alternative. Movies, shows, comics, manga, TV, torrents, streaming, music, podcasts, radio, wallpapers and local ai for Available on macOS, Windows, Linux, iOS &amp; Android</description>
+      <guid>https://github.com/debpalash/Opal</guid>
+      <language>Zig</language>
+      <languageColor>#ec915c</languageColor>
+      <stars>146</stars>
+      <forks>22</forks>
+      <addStars>14</addStars>
       <contributors/>
     </item>
     <item>
@@ -710,30 +718,6 @@
       <contributors/>
     </item>
     <item>
-      <title>kristoff-it/ziggy</title>
-      <link>https://github.com/kristoff-it/ziggy</link>
-      <description>A data serialization language for expressing clear API messages, config files, etc.</description>
-      <guid>https://github.com/kristoff-it/ziggy</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>615</stars>
-      <forks>49</forks>
-      <addStars>10</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>debpalash/Opal</title>
-      <link>https://github.com/debpalash/Opal</link>
-      <description>The Open-source Netflix, Spotify, Crunchyroll, Plex/Jellyfin alternative. Movies, shows, comics, manga, TV, torrents, streaming, music, podcasts, radio, wallpapers and local ai for Available on macOS, Windows, Linux, iOS &amp; Android</description>
-      <guid>https://github.com/debpalash/Opal</guid>
-      <language>Zig</language>
-      <languageColor>#ec915c</languageColor>
-      <stars>145</stars>
-      <forks>22</forks>
-      <addStars>13</addStars>
-      <contributors/>
-    </item>
-    <item>
       <title>RshaCuDeVidro/larperCord</title>
       <link>https://github.com/RshaCuDeVidro/larperCord</link>
       <description>A native Discord client of about 100~ MB RAM, whose entire interface is a theme file.</description>
@@ -746,27 +730,27 @@
       <contributors/>
     </item>
     <item>
-      <title>duty1g/x64dbg-mcp-server</title>
-      <link>https://github.com/duty1g/x64dbg-mcp-server</link>
-      <description>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros</description>
-      <guid>https://github.com/duty1g/x64dbg-mcp-server</guid>
+      <title>OpenReliant/openreliant</title>
+      <link>https://github.com/OpenReliant/openreliant</link>
+      <description>An open-source reimplementation of StarLancer's engine, in Zig on SDL3. Needs your own copy of the game.</description>
+      <guid>https://github.com/OpenReliant/openreliant</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>2,828</stars>
-      <forks>361</forks>
-      <addStars>21</addStars>
+      <stars>54</stars>
+      <forks>4</forks>
+      <addStars>8</addStars>
       <contributors/>
     </item>
     <item>
-      <title>akiyosi/zonvie</title>
-      <link>https://github.com/akiyosi/zonvie</link>
-      <description>🧟 Zonvie is a Fast, feature-rich Neovim GUI built with Zig, native on macOS and Windows.</description>
-      <guid>https://github.com/akiyosi/zonvie</guid>
+      <title>gakonst/tatami</title>
+      <link>https://github.com/gakonst/tatami</link>
+      <description>A tiling window manager for macOS, written from scratch in Zig</description>
+      <guid>https://github.com/gakonst/tatami</guid>
       <language>Zig</language>
       <languageColor>#ec915c</languageColor>
-      <stars>170</stars>
-      <forks>10</forks>
-      <addStars>9</addStars>
+      <stars>85</stars>
+      <forks>11</forks>
+      <addStars>8</addStars>
       <contributors/>
     </item>
   </channel>

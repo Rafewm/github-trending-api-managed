@@ -2,7 +2,7 @@
   "title": "GitHub C Languages Weekly Trending",
   "description": "Weekly Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 15 Nov 2026 04:46:29 GMT",
+  "pubDate": "Sun, 15 Nov 2026 15:19:32 GMT",
   "items": [
     {
       "title": "JustVugg/colibri",
@@ -10,8 +10,8 @@
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "51,159",
-      "forks": "6,128",
+      "stars": "51,263",
+      "forks": "6,191",
       "addStars": "2,461",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "12,092",
-      "forks": "1,867",
+      "stars": "12,116",
+      "forks": "1,873",
       "addStars": "924",
       "contributors": [
         {
@@ -79,49 +79,12 @@
       ]
     },
     {
-      "title": "ventoy/Ventoy",
-      "url": "https://github.com/ventoy/Ventoy",
-      "description": "A new bootable USB solution.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "80,909",
-      "forks": "5,095",
-      "addStars": "298",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59477474?s=40&v=4",
-          "name": "ventoy",
-          "url": "https://github.com/ventoy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67432394?s=40&v=4",
-          "name": "wiz64",
-          "url": "https://github.com/wiz64"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/53147200?s=40&v=4",
-          "name": "VenusGirl",
-          "url": "https://github.com/VenusGirl"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/54566818?s=40&v=4",
-          "name": "crasadure",
-          "url": "https://github.com/crasadure"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/31486344?s=40&v=4",
-          "name": "AnomSanjaya",
-          "url": "https://github.com/AnomSanjaya"
-        }
-      ]
-    },
-    {
       "title": "DarkFlippers/unleashed-firmware",
       "url": "https://github.com/DarkFlippers/unleashed-firmware",
       "description": "Flipper Zero Unleashed Firmware",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "22,742",
+      "stars": "22,746",
       "forks": "1,988",
       "addStars": "78",
       "contributors": [
@@ -153,39 +116,39 @@
       ]
     },
     {
-      "title": "redis/redis",
-      "url": "https://github.com/redis/redis",
-      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "title": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "77,524",
-      "forks": "25,062",
-      "addStars": "257",
+      "stars": "80,907",
+      "forks": "5,096",
+      "addStars": "298",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/65632?s=40&v=4",
-          "name": "antirez",
-          "url": "https://github.com/antirez"
+          "avatar": "https://avatars.githubusercontent.com/u/59477474?s=40&v=4",
+          "name": "ventoy",
+          "url": "https://github.com/ventoy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7045099?s=40&v=4",
-          "name": "oranagra",
-          "url": "https://github.com/oranagra"
+          "avatar": "https://avatars.githubusercontent.com/u/67432394?s=40&v=4",
+          "name": "wiz64",
+          "url": "https://github.com/wiz64"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/9845?s=40&v=4",
-          "name": "pietern",
-          "url": "https://github.com/pietern"
+          "avatar": "https://avatars.githubusercontent.com/u/53147200?s=40&v=4",
+          "name": "VenusGirl",
+          "url": "https://github.com/VenusGirl"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/965798?s=40&v=4",
-          "name": "sundb",
-          "url": "https://github.com/sundb"
+          "avatar": "https://avatars.githubusercontent.com/u/54566818?s=40&v=4",
+          "name": "crasadure",
+          "url": "https://github.com/crasadure"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22811481?s=40&v=4",
-          "name": "enjoy-binbin",
-          "url": "https://github.com/enjoy-binbin"
+          "avatar": "https://avatars.githubusercontent.com/u/31486344?s=40&v=4",
+          "name": "AnomSanjaya",
+          "url": "https://github.com/AnomSanjaya"
         }
       ]
     },
@@ -195,8 +158,8 @@
       "description": "Display and control your Android device",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "154,846",
-      "forks": "14,219",
+      "stars": "154,886",
+      "forks": "14,222",
       "addStars": "625",
       "contributors": [
         {
@@ -227,12 +190,86 @@
       ]
     },
     {
+      "title": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "77,512",
+      "forks": "25,060",
+      "addStars": "257",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65632?s=40&v=4",
+          "name": "antirez",
+          "url": "https://github.com/antirez"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7045099?s=40&v=4",
+          "name": "oranagra",
+          "url": "https://github.com/oranagra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9845?s=40&v=4",
+          "name": "pietern",
+          "url": "https://github.com/pietern"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/965798?s=40&v=4",
+          "name": "sundb",
+          "url": "https://github.com/sundb"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22811481?s=40&v=4",
+          "name": "enjoy-binbin",
+          "url": "https://github.com/enjoy-binbin"
+        }
+      ]
+    },
+    {
+      "title": "nothings/stb",
+      "url": "https://github.com/nothings/stb",
+      "description": "stb single-file public domain libraries for C/C++",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "35,036",
+      "forks": "8,126",
+      "addStars": "73",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7525026?s=40&v=4",
+          "name": "nothings",
+          "url": "https://github.com/nothings"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1077496?s=40&v=4",
+          "name": "rygorous",
+          "url": "https://github.com/rygorous"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/815310?s=40&v=4",
+          "name": "BSVino",
+          "url": "https://github.com/BSVino"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8225057?s=40&v=4",
+          "name": "ocornut",
+          "url": "https://github.com/ocornut"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7214365?s=40&v=4",
+          "name": "rwhitworth",
+          "url": "https://github.com/rwhitworth"
+        }
+      ]
+    },
+    {
       "title": "obsproject/obs-studio",
       "url": "https://github.com/obsproject/obs-studio",
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "79,592",
+      "stars": "79,597",
       "forks": "11,265",
       "addStars": "467",
       "contributors": [
@@ -264,39 +301,39 @@
       ]
     },
     {
-      "title": "nothings/stb",
-      "url": "https://github.com/nothings/stb",
-      "description": "stb single-file public domain libraries for C/C++",
+      "title": "git/git",
+      "url": "https://github.com/git/git",
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "35,032",
-      "forks": "8,125",
-      "addStars": "73",
+      "stars": "64,325",
+      "forks": "28,765",
+      "addStars": "166",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7525026?s=40&v=4",
-          "name": "nothings",
-          "url": "https://github.com/nothings"
+          "avatar": "https://avatars.githubusercontent.com/u/54884?s=40&v=4",
+          "name": "gitster",
+          "url": "https://github.com/gitster"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1077496?s=40&v=4",
-          "name": "rygorous",
-          "url": "https://github.com/rygorous"
+          "avatar": "https://avatars.githubusercontent.com/u/45925?s=40&v=4",
+          "name": "peff",
+          "url": "https://github.com/peff"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/815310?s=40&v=4",
-          "name": "BSVino",
-          "url": "https://github.com/BSVino"
+          "avatar": "https://avatars.githubusercontent.com/u/127790?s=40&v=4",
+          "name": "dscho",
+          "url": "https://github.com/dscho"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8225057?s=40&v=4",
-          "name": "ocornut",
-          "url": "https://github.com/ocornut"
+          "avatar": "https://avatars.githubusercontent.com/u/4056630?s=40&v=4",
+          "name": "pks-t",
+          "url": "https://github.com/pks-t"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7214365?s=40&v=4",
-          "name": "rwhitworth",
-          "url": "https://github.com/rwhitworth"
+          "avatar": "https://avatars.githubusercontent.com/u/45301?s=40&v=4",
+          "name": "avar",
+          "url": "https://github.com/avar"
         }
       ]
     },
@@ -306,21 +343,9 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,117",
-      "forks": "320",
-      "addStars": "2,841",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Leviidev/Henge",
-      "url": "https://github.com/Leviidev/Henge",
-      "description": "Emulate macOS on iOS and iPadOS",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "2,282",
-      "forks": "190",
-      "addStars": "1,173",
+      "stars": "4,156",
+      "forks": "327",
+      "addStars": "2,886",
       "contributors": [],
       "source": "trendshift"
     },
@@ -330,9 +355,21 @@
       "description": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "927",
+      "stars": "1,047",
       "forks": "47",
-      "addStars": "856",
+      "addStars": "971",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Leviidev/Henge",
+      "url": "https://github.com/Leviidev/Henge",
+      "description": "Emulate macOS on iOS and iPadOS",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "2,317",
+      "forks": "190",
+      "addStars": "1,202",
       "contributors": [],
       "source": "trendshift"
     },
@@ -342,9 +379,9 @@
       "description": "Native UI components for C: about 150 of them, with spring motion and full keyboard support. Windows, macOS and Linux, no dependencies.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,029",
+      "stars": "1,038",
       "forks": "69",
-      "addStars": "654",
+      "addStars": "663",
       "contributors": [],
       "source": "trendshift"
     },
@@ -354,9 +391,9 @@
       "description": "Linux kernel source tree",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "255,694",
-      "forks": "62,310",
-      "addStars": "813",
+      "stars": "255,739",
+      "forks": "62,404",
+      "addStars": "842",
       "contributors": [],
       "source": "trendshift"
     },
@@ -366,9 +403,9 @@
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,233",
+      "stars": "7,303",
       "forks": "598",
-      "addStars": "1,326",
+      "addStars": "1,388",
       "contributors": [],
       "source": "trendshift"
     },
@@ -378,9 +415,9 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "19,543",
+      "stars": "19,618",
       "forks": "2,008",
-      "addStars": "1,401",
+      "addStars": "1,484",
       "contributors": [],
       "source": "trendshift"
     },
@@ -390,9 +427,9 @@
       "description": "maxxing the ability to run different LLMs on the smallest devices possible",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "700",
+      "stars": "714",
       "forks": "23",
-      "addStars": "675",
+      "addStars": "689",
       "contributors": [],
       "source": "trendshift"
     },
@@ -402,9 +439,9 @@
       "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,371",
+      "stars": "4,413",
       "forks": "267",
-      "addStars": "797",
+      "addStars": "849",
       "contributors": [],
       "source": "trendshift"
     },
@@ -414,9 +451,9 @@
       "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,005",
+      "stars": "1,021",
       "forks": "60",
-      "addStars": "540",
+      "addStars": "560",
       "contributors": [],
       "source": "trendshift"
     },
@@ -426,9 +463,9 @@
       "description": "Stores your data in ICMP ping packets",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "3,924",
+      "stars": "3,928",
       "forks": "145",
-      "addStars": "326",
+      "addStars": "331",
       "contributors": [],
       "source": "trendshift"
     },
@@ -438,9 +475,9 @@
       "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "67,288",
-      "forks": "12,969",
-      "addStars": "527",
+      "stars": "67,341",
+      "forks": "12,980",
+      "addStars": "563",
       "contributors": [],
       "source": "trendshift"
     },
@@ -450,9 +487,9 @@
       "description": "A compatibility layer for porting Switch games to Android, one game at a time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,616",
+      "stars": "1,637",
       "forks": "213",
-      "addStars": "523",
+      "addStars": "540",
       "contributors": [],
       "source": "trendshift"
     },
@@ -462,9 +499,9 @@
       "description": "Windows Common Log FileSystem Authentication 0day Local Privilege Escalation Vulnerability",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "395",
+      "stars": "399",
       "forks": "94",
-      "addStars": "375",
+      "addStars": "382",
       "contributors": [],
       "source": "trendshift"
     },
@@ -474,9 +511,9 @@
       "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,815",
+      "stars": "7,844",
       "forks": "1,184",
-      "addStars": "493",
+      "addStars": "520",
       "contributors": [],
       "source": "trendshift"
     },
@@ -486,9 +523,33 @@
       "description": "Native Windows 11 ARM64 on iOS (iPhone Duo) with direct ARM64 JIT, 4KB ASID MMU, UEFI/ACPI/NVMe/xHCI/NetKVM, and Surface Laptop Ultra clamshell UI",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "287",
+      "stars": "299",
       "forks": "46",
-      "addStars": "281",
+      "addStars": "295",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "SonicloudTech/mouse-sdk",
+      "url": "https://github.com/SonicloudTech/mouse-sdk",
+      "description": "Cross-platform USB HID/BLE smart mouse SDK with a C ABI for device events and audio. Windows x64/macOS ARM64 downloads; other platform packages on request. 跨平台智能鼠标接入 SDK：USB/BLE、C ABI、按键事件与音频；提供 Windows x64/macOS ARM64 下载，其他平台按需获取。",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "586",
+      "forks": "3",
+      "addStars": "275",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Simon3Sarkis/super-odyssey-pc-recomp",
+      "url": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+      "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "317",
+      "forks": "12",
+      "addStars": "234",
       "contributors": [],
       "source": "trendshift"
     },
@@ -505,38 +566,14 @@
       "source": "trendshift"
     },
     {
-      "title": "Simon3Sarkis/super-odyssey-pc-recomp",
-      "url": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
-      "description": "A native Windows PC port of Super Mario Odyssey by static recompilation. Bring your own game: no game files included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "305",
-      "forks": "12",
-      "addStars": "224",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "48,646",
-      "forks": "4,469",
-      "addStars": "295",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "EddizEge/AnkaNative",
-      "url": "https://github.com/EddizEge/AnkaNative",
-      "description": "Anka Native: run your own Switch 2 games natively on Android (Snapdragon/Adreno)",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "151",
-      "forks": "9",
-      "addStars": "137",
+      "stars": "48,660",
+      "forks": "4,474",
+      "addStars": "306",
       "contributors": [],
       "source": "trendshift"
     }
