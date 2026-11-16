@@ -2,7 +2,7 @@
   "title": "GitHub Rust Languages Weekly Trending",
   "description": "Weekly Trending of Rust Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 16 Nov 2026 04:42:52 GMT",
+  "pubDate": "Mon, 16 Nov 2026 17:56:02 GMT",
   "items": [
     {
       "title": "vercel-labs/agent-browser",
@@ -10,8 +10,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "51,718",
-      "forks": "3,620",
+      "stars": "51,932",
+      "forks": "3,627",
       "addStars": "4,217",
       "contributors": [
         {
@@ -37,13 +37,45 @@
       ]
     },
     {
+      "title": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "7,242",
+      "forks": "315",
+      "addStars": "888",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&v=4",
+          "name": "pikaju",
+          "url": "https://github.com/pikaju"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/31693992?s=40&v=4",
+          "name": "akoll",
+          "url": "https://github.com/akoll"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6180?s=40&v=4",
+          "name": "carllerche",
+          "url": "https://github.com/carllerche"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/62555273?s=40&v=4",
+          "name": "AmeinEskinder",
+          "url": "https://github.com/AmeinEskinder"
+        }
+      ]
+    },
+    {
       "title": "block/buzz",
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "37,493",
-      "forks": "4,951",
+      "stars": "37,516",
+      "forks": "4,955",
       "addStars": "703",
       "contributors": [
         {
@@ -79,8 +111,8 @@
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "24,289",
-      "forks": "1,806",
+      "stars": "24,557",
+      "forks": "1,826",
       "addStars": "4,719",
       "contributors": [
         {
@@ -96,146 +128,13 @@
       ]
     },
     {
-      "title": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "104,393",
-      "forks": "13,578",
-      "addStars": "1,444",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
-          "name": "ruvnet",
-          "url": "https://github.com/ruvnet"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
-          "name": "proffesor-for-testing",
-          "url": "https://github.com/proffesor-for-testing"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/124563?s=40&v=4",
-          "name": "aepod",
-          "url": "https://github.com/aepod"
-        }
-      ]
-    },
-    {
-      "title": "tokio-rs/topcoat",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "7,241",
-      "forks": "326",
-      "addStars": "888",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&v=4",
-          "name": "pikaju",
-          "url": "https://github.com/pikaju"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/31693992?s=40&v=4",
-          "name": "akoll",
-          "url": "https://github.com/akoll"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6180?s=40&v=4",
-          "name": "carllerche",
-          "url": "https://github.com/carllerche"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/62555273?s=40&v=4",
-          "name": "AmeinEskinder",
-          "url": "https://github.com/AmeinEskinder"
-        }
-      ]
-    },
-    {
-      "title": "astral-sh/ruff",
-      "url": "https://github.com/astral-sh/ruff",
-      "description": "An extremely fast Python linter and code formatter, written in Rust.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "51,280",
-      "forks": "2,710",
-      "addStars": "363",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&v=4",
-          "name": "charliermarsh",
-          "url": "https://github.com/charliermarsh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1203881?s=40&v=4",
-          "name": "MichaReiser",
-          "url": "https://github.com/MichaReiser"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66076021?s=40&v=4",
-          "name": "AlexWaygood",
-          "url": "https://github.com/AlexWaygood"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&v=4",
-          "name": "sharkdp",
-          "url": "https://github.com/sharkdp"
-        }
-      ]
-    },
-    {
-      "title": "longbridge/gpui-kit",
-      "url": "https://github.com/longbridge/gpui-kit",
-      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "20,790",
-      "forks": "1,274",
-      "addStars": "838",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&v=4",
-          "name": "huacnlee",
-          "url": "https://github.com/huacnlee"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28998859?s=40&v=4",
-          "name": "madcodelife",
-          "url": "https://github.com/madcodelife"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "name": "codex",
-          "url": "https://github.com/codex"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22312482?s=40&v=4",
-          "name": "ylinwind",
-          "url": "https://github.com/ylinwind"
-        }
-      ]
-    },
-    {
       "title": "zellij-org/zellij",
       "url": "https://github.com/zellij-org/zellij",
       "description": "A terminal workspace with batteries included",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "36,087",
-      "forks": "1,544",
+      "stars": "36,099",
+      "forks": "1,545",
       "addStars": "162",
       "contributors": [
         {
@@ -266,13 +165,45 @@
       ]
     },
     {
+      "title": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "104,441",
+      "forks": "13,580",
+      "addStars": "1,444",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
+          "name": "ruvnet",
+          "url": "https://github.com/ruvnet"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
+          "name": "proffesor-for-testing",
+          "url": "https://github.com/proffesor-for-testing"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/124563?s=40&v=4",
+          "name": "aepod",
+          "url": "https://github.com/aepod"
+        }
+      ]
+    },
+    {
       "title": "rustdesk/rustdesk",
       "url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "129,629",
-      "forks": "20,744",
+      "stars": "129,723",
+      "forks": "20,781",
       "addStars": "992",
       "contributors": [
         {
@@ -303,13 +234,77 @@
       ]
     },
     {
+      "title": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "51,223",
+      "forks": "2,711",
+      "addStars": "363",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&v=4",
+          "name": "charliermarsh",
+          "url": "https://github.com/charliermarsh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1203881?s=40&v=4",
+          "name": "MichaReiser",
+          "url": "https://github.com/MichaReiser"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66076021?s=40&v=4",
+          "name": "AlexWaygood",
+          "url": "https://github.com/AlexWaygood"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&v=4",
+          "name": "sharkdp",
+          "url": "https://github.com/sharkdp"
+        }
+      ]
+    },
+    {
+      "title": "ModernRelay/omnigraph",
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "2,799",
+      "forks": "327",
+      "addStars": "607",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&v=4",
+          "name": "aaltshuler",
+          "url": "https://github.com/aaltshuler"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6823991?s=40&v=4",
+          "name": "ragnorc",
+          "url": "https://github.com/ragnorc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13484327?s=40&v=4",
+          "name": "azimafroozeh",
+          "url": "https://github.com/azimafroozeh"
+        }
+      ]
+    },
+    {
       "title": "CapSoftware/Cap",
       "url": "https://github.com/CapSoftware/Cap",
       "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "25,087",
-      "forks": "2,369",
+      "stars": "25,120",
+      "forks": "2,372",
       "addStars": "423",
       "contributors": [
         {
@@ -340,78 +335,14 @@
       ]
     },
     {
-      "title": "herdrdev/herdr",
-      "url": "https://github.com/herdrdev/herdr",
-      "description": "the runtime your coding agents live on",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "51,226",
-      "forks": "4,143",
-      "addStars": "1,888",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7064011?s=40&v=4",
-          "name": "ogulcancelik",
-          "url": "https://github.com/ogulcancelik"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14083666?s=40&v=4",
-          "name": "JJLiebig",
-          "url": "https://github.com/JJLiebig"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/300245827?s=40&v=4",
-          "name": "akbash-bot",
-          "url": "https://github.com/akbash-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/285672167?s=40&v=4",
-          "name": "kangal-bot",
-          "url": "https://github.com/kangal-bot"
-        }
-      ]
-    },
-    {
-      "title": "ModernRelay/omnigraph",
-      "url": "https://github.com/ModernRelay/omnigraph",
-      "description": "Object-storage native graph database with branching and typed ontology",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "2,673",
-      "forks": "321",
-      "addStars": "607",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/176176572?s=40&v=4",
-          "name": "aaltshuler",
-          "url": "https://github.com/aaltshuler"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6823991?s=40&v=4",
-          "name": "ragnorc",
-          "url": "https://github.com/ragnorc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13484327?s=40&v=4",
-          "name": "azimafroozeh",
-          "url": "https://github.com/azimafroozeh"
-        }
-      ]
-    },
-    {
       "title": "libracoder/kiri",
       "url": "https://github.com/libracoder/kiri",
       "description": "A small, fast container runtime for macOS, Windows and Linux",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "6,555",
+      "stars": "8,304",
       "forks": "230",
-      "addStars": "451",
+      "addStars": "2,170",
       "contributors": [],
       "source": "trendshift"
     },
@@ -421,9 +352,9 @@
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "33,808",
+      "stars": "34,520",
       "forks": "6,787",
-      "addStars": "221",
+      "addStars": "880",
       "contributors": [],
       "source": "trendshift"
     },
@@ -433,9 +364,9 @@
       "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "10,429",
+      "stars": "11,013",
       "forks": "837",
-      "addStars": "193",
+      "addStars": "714",
       "contributors": [],
       "source": "trendshift"
     },
@@ -445,9 +376,9 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "110,816",
-      "forks": "7,146",
-      "addStars": "98",
+      "stars": "111,232",
+      "forks": "7,195",
+      "addStars": "519",
       "contributors": [],
       "source": "trendshift"
     },
@@ -457,9 +388,9 @@
       "description": "Open-source, self-hosted Grok Bot alternative",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "61",
+      "stars": "171",
       "forks": "2",
-      "addStars": "31",
+      "addStars": "162",
       "contributors": [],
       "source": "trendshift"
     },
@@ -469,117 +400,9 @@
       "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "10,307",
+      "stars": "10,629",
       "forks": "1,424",
-      "addStars": "82",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "farion1231/cc-switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "154,654",
-      "forks": "10,904",
-      "addStars": "77",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "kunobi-ninja/kache",
-      "url": "https://github.com/kunobi-ninja/kache",
-      "description": "Zero-copy, content-addressed Rust build cache for Rust, C/C++ and more. No copies, no wasted disk",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "1,476",
-      "forks": "99",
-      "addStars": "44",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "tylertms/Stela",
-      "url": "https://github.com/tylertms/Stela",
-      "description": "Boots unmodified Apple silicon macOS on x86-64 PCs",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "2,506",
-      "forks": "141",
-      "addStars": "66",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "aws/aws-emulator",
-      "url": "https://github.com/aws/aws-emulator",
-      "description": "",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "8,472",
-      "forks": "349",
-      "addStars": "63",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "elripalda/RecompLauncher",
-      "url": "https://github.com/elripalda/RecompLauncher",
-      "description": "PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "1,043",
-      "forks": "48",
-      "addStars": "55",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jub0t/Concat",
-      "url": "https://github.com/jub0t/Concat",
-      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "17,873",
-      "forks": "2,234",
-      "addStars": "57",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "makepad/makepad",
-      "url": "https://github.com/makepad/makepad",
-      "description": "Makepad is a creative software development platform for Rust that compiles to wasm/webGL, osx/metal, windows/dx11 linux/opengl",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "7,492",
-      "forks": "423",
-      "addStars": "44",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ShayanAbbas1/dbdelve",
-      "url": "https://github.com/ShayanAbbas1/dbdelve",
-      "description": "Fast and lightweight DB Client made in Rust and GPUI.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "1,418",
-      "forks": "74",
-      "addStars": "50",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "h4ckf0r0day/obscura",
-      "url": "https://github.com/h4ckf0r0day/obscura",
-      "description": "The headless browser for AI agents and web scraping",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "35,678",
-      "forks": "2,898",
-      "addStars": "44",
+      "addStars": "412",
       "contributors": [],
       "source": "trendshift"
     },
@@ -589,33 +412,69 @@
       "description": "A minimalist and powerful harness with one tool: a persistent Python REPL. ",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "144",
+      "stars": "273",
       "forks": "8",
-      "addStars": "14",
+      "addStars": "145",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "anomalyco/hex",
-      "url": "https://github.com/anomalyco/hex",
-      "description": "Local voice dictation for mac, windows and linux",
+      "title": "antithesishq/bombadil",
+      "url": "https://github.com/antithesishq/bombadil",
+      "description": "Property-based testing for web and terminal UIs",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "6,934",
-      "forks": "427",
-      "addStars": "36",
+      "stars": "2,194",
+      "forks": "81",
+      "addStars": "239",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "clash-verge-rev/clash-verge-rev",
-      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "title": "aws/aws-emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "description": "",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "158,590",
-      "forks": "11,927",
-      "addStars": "35",
+      "stars": "8,735",
+      "forks": "349",
+      "addStars": "351",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "154,901",
+      "forks": "10,915",
+      "addStars": "287",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "jub0t/Concat",
+      "url": "https://github.com/jub0t/Concat",
+      "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "18,091",
+      "forks": "2,267",
+      "addStars": "268",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "6,448",
+      "forks": "1,247",
+      "addStars": "220",
       "contributors": [],
       "source": "trendshift"
     },
@@ -625,33 +484,129 @@
       "description": "A fast, beautiful file explorer for Windows that never makes you wait. Built with Rust and GPUI.",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "82",
+      "stars": "129",
       "forks": "1",
-      "addStars": "12",
+      "addStars": "63",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "tangency-labs/solidcraft",
-      "url": "https://github.com/tangency-labs/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "title": "kunobi-ninja/kache",
+      "url": "https://github.com/kunobi-ninja/kache",
+      "description": "Zero-copy, content-addressed Rust build cache for Rust, C/C++ and more. No copies, no wasted disk",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "16,516",
-      "forks": "2,310",
-      "addStars": "35",
+      "stars": "1,536",
+      "forks": "99",
+      "addStars": "99",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "t8y2/dbx",
-      "url": "https://github.com/t8y2/dbx",
-      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "title": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "30,408",
-      "forks": "3,146",
-      "addStars": "33",
+      "stars": "35,868",
+      "forks": "2,938",
+      "addStars": "233",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "crafter-station/Muelle",
+      "url": "https://github.com/crafter-station/Muelle",
+      "description": "A lightweight, macOS-style dock for Windows 11, with glass visuals, smooth magnification, and an experimental Genie effect.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "85",
+      "forks": "0",
+      "addStars": "61",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "tylertms/Stela",
+      "url": "https://github.com/tylertms/Stela",
+      "description": "Boots unmodified Apple silicon macOS on x86-64 PCs",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "2,663",
+      "forks": "141",
+      "addStars": "217",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "elripalda/RecompLauncher",
+      "url": "https://github.com/elripalda/RecompLauncher",
+      "description": "PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "1,161",
+      "forks": "48",
+      "addStars": "178",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "makepad/makepad",
+      "url": "https://github.com/makepad/makepad",
+      "description": "Makepad is a creative software development platform for Rust that compiles to wasm/webGL, osx/metal, windows/dx11 linux/opengl",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "7,578",
+      "forks": "423",
+      "addStars": "129",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "158,758",
+      "forks": "11,944",
+      "addStars": "189",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "description": "Local voice dictation for mac, windows and linux",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "7,076",
+      "forks": "460",
+      "addStars": "175",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "herdrdev/herdr",
+      "url": "https://github.com/herdrdev/herdr",
+      "description": "the runtime your coding agents live on",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "51,349",
+      "forks": "4,667",
+      "addStars": "185",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "storytold/photocraft",
+      "url": "https://github.com/storytold/photocraft",
+      "description": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "79,776",
+      "forks": "14,550",
+      "addStars": "168",
       "contributors": [],
       "source": "trendshift"
     }

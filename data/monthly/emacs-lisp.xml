@@ -3,7 +3,7 @@
     <title>GitHub Emacs-lisp Languages Monthly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Monthly Trending of Emacs-lisp Languages in GitHub</description>
-    <pubDate>Mon, 16 Nov 2026 04:42:52 GMT</pubDate>
+    <pubDate>Mon, 16 Nov 2026 17:56:02 GMT</pubDate>
     <item>
       <title>google-coral/coralnpu</title>
       <link>https://github.com/google-coral/coralnpu</link>
@@ -11,7 +11,7 @@
       <guid>https://github.com/google-coral/coralnpu</guid>
       <language>Emacs Lisp</language>
       <languageColor>#c065db</languageColor>
-      <stars>2,699</stars>
+      <stars>2,704</stars>
       <forks>377</forks>
       <addStars>107</addStars>
       <contributors>
@@ -49,8 +49,8 @@
       <guid>https://github.com/google/styleguide</guid>
       <language>Emacs Lisp</language>
       <languageColor>#c065db</languageColor>
-      <stars>39,832</stars>
-      <forks>12,921</forks>
+      <stars>39,833</stars>
+      <forks>12,920</forks>
       <addStars>196</addStars>
       <contributors>
         <contributor>
@@ -76,51 +76,13 @@
       </contributors>
     </item>
     <item>
-      <title>xenodium/agent-shell</title>
-      <link>https://github.com/xenodium/agent-shell</link>
-      <description>Brings your favorite AI agents to Emacs, keeping you at home: familiar buffers and bindings, no terminal emulation. Powered by ACP.</description>
-      <guid>https://github.com/xenodium/agent-shell</guid>
-      <language>Emacs Lisp</language>
-      <languageColor>#c065db</languageColor>
-      <stars>2,058</stars>
-      <forks>263</forks>
-      <addStars>108</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8107219?s=40&amp;v=4</avatar>
-          <name>xenodium</name>
-          <url>https://github.com/xenodium</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/312540?s=40&amp;v=4</avatar>
-          <name>nhojb</name>
-          <url>https://github.com/nhojb</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/255802?s=40&amp;v=4</avatar>
-          <name>liaowang11</name>
-          <url>https://github.com/liaowang11</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/592734?s=40&amp;v=4</avatar>
-          <name>fritzgrabo</name>
-          <url>https://github.com/fritzgrabo</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>dakra/ghostel</title>
       <link>https://github.com/dakra/ghostel</link>
       <description>Terminal emulator powered by libghostty</description>
       <guid>https://github.com/dakra/ghostel</guid>
       <language>Emacs Lisp</language>
       <languageColor>#c065db</languageColor>
-      <stars>1,157</stars>
+      <stars>1,158</stars>
       <forks>79</forks>
       <addStars>167</addStars>
       <contributors>
@@ -158,7 +120,7 @@
       <guid>https://github.com/syl20bnr/spacemacs</guid>
       <language>Emacs Lisp</language>
       <languageColor>#c065db</languageColor>
-      <stars>24,557</stars>
+      <stars>24,558</stars>
       <forks>4,814</forks>
       <addStars>31</addStars>
       <contributors>
@@ -234,7 +196,7 @@
       <guid>https://github.com/emacs-lsp/lsp-mode</guid>
       <language>Emacs Lisp</language>
       <languageColor>#c065db</languageColor>
-      <stars>5,135</stars>
+      <stars>5,137</stars>
       <forks>985</forks>
       <addStars>13</addStars>
       <contributors>
@@ -262,6 +224,44 @@
           <avatar>https://avatars.githubusercontent.com/u/33116358?s=40&amp;v=4</avatar>
           <name>traviscibot</name>
           <url>https://github.com/traviscibot</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>xenodium/agent-shell</title>
+      <link>https://github.com/xenodium/agent-shell</link>
+      <description>Brings your favorite AI agents to Emacs, keeping you at home: familiar buffers and bindings, no terminal emulation. Powered by ACP.</description>
+      <guid>https://github.com/xenodium/agent-shell</guid>
+      <language>Emacs Lisp</language>
+      <languageColor>#c065db</languageColor>
+      <stars>2,058</stars>
+      <forks>263</forks>
+      <addStars>108</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/8107219?s=40&amp;v=4</avatar>
+          <name>xenodium</name>
+          <url>https://github.com/xenodium</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/312540?s=40&amp;v=4</avatar>
+          <name>nhojb</name>
+          <url>https://github.com/nhojb</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/255802?s=40&amp;v=4</avatar>
+          <name>liaowang11</name>
+          <url>https://github.com/liaowang11</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/592734?s=40&amp;v=4</avatar>
+          <name>fritzgrabo</name>
+          <url>https://github.com/fritzgrabo</url>
         </contributor>
       </contributors>
     </item>
@@ -310,8 +310,8 @@
       <guid>https://github.com/doomemacs/core</guid>
       <language>Emacs Lisp</language>
       <languageColor>#c065db</languageColor>
-      <stars>22,824</stars>
-      <forks>3,139</forks>
+      <stars>22,825</stars>
+      <forks>3,140</forks>
       <addStars>112</addStars>
       <contributors>
         <contributor>

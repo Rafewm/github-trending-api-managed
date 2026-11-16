@@ -2,7 +2,7 @@
   "title": "GitHub Swift Languages Weekly Trending",
   "description": "Weekly Trending of Swift Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 16 Nov 2026 04:42:52 GMT",
+  "pubDate": "Mon, 16 Nov 2026 17:56:02 GMT",
   "items": [
     {
       "title": "apple/container",
@@ -10,8 +10,8 @@
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "51,550",
-      "forks": "1,832",
+      "stars": "51,652",
+      "forks": "1,837",
       "addStars": "435",
       "contributors": [
         {
@@ -42,12 +42,44 @@
       ]
     },
     {
+      "title": "jaywcjlove/awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "118,657",
+      "forks": "10,350",
+      "addStars": "630",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1680273?s=40&v=4",
+          "name": "jaywcjlove",
+          "url": "https://github.com/jaywcjlove"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/20600565?s=40&v=4",
+          "name": "alichtman",
+          "url": "https://github.com/alichtman"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/503123?s=40&v=4",
+          "name": "xcv58",
+          "url": "https://github.com/xcv58"
+        }
+      ]
+    },
+    {
       "title": "jithin-sabu/purge-app",
       "url": "https://github.com/jithin-sabu/purge-app",
       "description": "Free up your Mac. Safely. A free, open-source native Mac app that clears the cache and junk your Mac piles up on its own. Files go to the Trash by default, so you can put them back.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,931",
+      "stars": "1,938",
       "forks": "107",
       "addStars": "252",
       "contributors": [
@@ -79,44 +111,12 @@
       ]
     },
     {
-      "title": "jaywcjlove/awesome-mac",
-      "url": "https://github.com/jaywcjlove/awesome-mac",
-      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "118,620",
-      "forks": "10,333",
-      "addStars": "630",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1680273?s=40&v=4",
-          "name": "jaywcjlove",
-          "url": "https://github.com/jaywcjlove"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20600565?s=40&v=4",
-          "name": "alichtman",
-          "url": "https://github.com/alichtman"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/503123?s=40&v=4",
-          "name": "xcv58",
-          "url": "https://github.com/xcv58"
-        }
-      ]
-    },
-    {
       "title": "LiveContainer/LiveContainer",
       "url": "https://github.com/LiveContainer/LiveContainer",
       "description": "Run iOS apps without actually installing them!",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "14,286",
+      "stars": "14,307",
       "forks": "1,329",
       "addStars": "369",
       "contributors": [
@@ -148,88 +148,39 @@
       ]
     },
     {
-      "title": "suversal/WrapPin",
-      "url": "https://github.com/suversal/WrapPin",
-      "description": "iOS 27+ 本机虚拟定位与步行路线测试工具",
+      "title": "dwarvesf/hidden",
+      "url": "https://github.com/dwarvesf/hidden",
+      "description": "An ultra-light MacOS utility that helps hide menu bar icons",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "937",
-      "forks": "138",
-      "addStars": "137",
+      "stars": "15,426",
+      "forks": "542",
+      "addStars": "62",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/29352759?s=40&v=4",
-          "name": "suversal",
-          "url": "https://github.com/suversal"
+          "avatar": "https://avatars.githubusercontent.com/u/1749624?s=40&v=4",
+          "name": "tieubao",
+          "url": "https://github.com/tieubao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/14150687?s=40&v=4",
+          "name": "phucledien",
+          "url": "https://github.com/phucledien"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3839507?s=40&v=4",
-          "name": "svcvit",
-          "url": "https://github.com/svcvit"
-        }
-      ]
-    },
-    {
-      "title": "github/CopilotForXcode",
-      "url": "https://github.com/github/CopilotForXcode",
-      "description": "AI coding assistant for Xcode",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "6,389",
-      "forks": "2,103",
-      "addStars": "21",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
-          "name": "actions-user",
-          "url": "https://github.com/actions-user"
+          "avatar": "https://avatars.githubusercontent.com/u/37923396?s=40&v=4",
+          "name": "siliconprime-thanhduc",
+          "url": "https://github.com/siliconprime-thanhduc"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/18088142?s=40&v=4",
-          "name": "CroffZ",
-          "url": "https://github.com/CroffZ"
+          "avatar": "https://avatars.githubusercontent.com/u/35858359?s=40&v=4",
+          "name": "viettrungphan",
+          "url": "https://github.com/viettrungphan"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1682753?s=40&v=4",
-          "name": "devm33",
-          "url": "https://github.com/devm33"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1051453?s=40&v=4",
-          "name": "eliperkins",
-          "url": "https://github.com/eliperkins"
-        }
-      ]
-    },
-    {
-      "title": "HD838A/remote-mic-app",
-      "url": "https://github.com/HD838A/remote-mic-app",
-      "description": "无线麦（SayAll.app）：支持小米蓝牙遥控器 2 和 2 Pro，变成 Mac 语音输入设备",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "2,940",
-      "forks": "303",
-      "addStars": "248",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/126734171?s=40&v=4",
-          "name": "HD838A",
-          "url": "https://github.com/HD838A"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/996292?s=40&v=4",
-          "name": "Channe",
-          "url": "https://github.com/Channe"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
+          "avatar": "https://avatars.githubusercontent.com/u/43706386?s=40&v=4",
+          "name": "p-z-l",
+          "url": "https://github.com/p-z-l"
         }
       ]
     },
@@ -239,7 +190,7 @@
       "description": "An an app that installs Sidestore on iOS 27, fully on-device",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,446",
+      "stars": "1,453",
       "forks": "117",
       "addStars": "108",
       "contributors": [
@@ -266,13 +217,72 @@
       ]
     },
     {
+      "title": "github/CopilotForXcode",
+      "url": "https://github.com/github/CopilotForXcode",
+      "description": "AI coding assistant for Xcode",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "6,391",
+      "forks": "2,106",
+      "addStars": "21",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
+          "name": "actions-user",
+          "url": "https://github.com/actions-user"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18088142?s=40&v=4",
+          "name": "CroffZ",
+          "url": "https://github.com/CroffZ"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1682753?s=40&v=4",
+          "name": "devm33",
+          "url": "https://github.com/devm33"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1051453?s=40&v=4",
+          "name": "eliperkins",
+          "url": "https://github.com/eliperkins"
+        }
+      ]
+    },
+    {
+      "title": "suversal/WrapPin",
+      "url": "https://github.com/suversal/WrapPin",
+      "description": "iOS 27+ 本机虚拟定位与步行路线测试工具",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "952",
+      "forks": "142",
+      "addStars": "137",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29352759?s=40&v=4",
+          "name": "suversal",
+          "url": "https://github.com/suversal"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3839507?s=40&v=4",
+          "name": "svcvit",
+          "url": "https://github.com/svcvit"
+        }
+      ]
+    },
+    {
       "title": "maxgoedjen/secretive",
       "url": "https://github.com/maxgoedjen/secretive",
       "description": "Protect your SSH keys with your Mac's Secure Enclave",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "9,441",
-      "forks": "240",
+      "stars": "9,466",
+      "forks": "241",
       "addStars": "164",
       "contributors": [
         {
@@ -303,39 +313,29 @@
       ]
     },
     {
-      "title": "exelban/stats",
-      "url": "https://github.com/exelban/stats",
-      "description": "macOS system monitor in your menu bar",
+      "title": "HD838A/remote-mic-app",
+      "url": "https://github.com/HD838A/remote-mic-app",
+      "description": "无线麦（SayAll.app）：支持小米蓝牙遥控器 2 和 2 Pro，变成 Mac 语音输入设备",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "43,420",
-      "forks": "1,632",
-      "addStars": "204",
+      "stars": "2,962",
+      "forks": "307",
+      "addStars": "248",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/13332412?s=40&v=4",
-          "name": "exelban",
-          "url": "https://github.com/exelban"
+          "avatar": "https://avatars.githubusercontent.com/u/126734171?s=40&v=4",
+          "name": "HD838A",
+          "url": "https://github.com/HD838A"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/32911758?s=40&v=4",
-          "name": "jrthsr700tmax",
-          "url": "https://github.com/jrthsr700tmax"
+          "avatar": "https://avatars.githubusercontent.com/u/996292?s=40&v=4",
+          "name": "Channe",
+          "url": "https://github.com/Channe"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/89069957?s=40&v=4",
-          "name": "Jerry23011",
-          "url": "https://github.com/Jerry23011"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2065714?s=40&v=4",
-          "name": "Fighter456",
-          "url": "https://github.com/Fighter456"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/21986946?s=40&v=4",
-          "name": "Tai-Zhou",
-          "url": "https://github.com/Tai-Zhou"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         }
       ]
     },
@@ -345,8 +345,8 @@
       "description": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "5,122",
-      "forks": "488",
+      "stars": "5,126",
+      "forks": "489",
       "addStars": "82",
       "contributors": [
         {
@@ -377,71 +377,12 @@
       ]
     },
     {
-      "title": "sw33tLie/macshot",
-      "url": "https://github.com/sw33tLie/macshot",
-      "description": "Feature-packed native macOS screenshot & recording tool: annotate, auto-redact PII, record GIFs, OCR + translate, scroll capture, beautify, and more. No Electron, no subscription.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "4,175",
-      "forks": "283",
-      "addStars": "103",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47645560?s=40&v=4",
-          "name": "sw33tLie",
-          "url": "https://github.com/sw33tLie"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4518860?s=40&v=4",
-          "name": "bytepl",
-          "url": "https://github.com/bytepl"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/176813606?s=40&v=4",
-          "name": "RyanStarFox",
-          "url": "https://github.com/RyanStarFox"
-        }
-      ]
-    },
-    {
-      "title": "sozercan/kaset",
-      "url": "https://github.com/sozercan/kaset",
-      "description": "📼 The missing YouTube and YouTube Music macOS app",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "2,605",
-      "forks": "202",
-      "addStars": "82",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/852750?s=40&v=4",
-          "name": "sozercan",
-          "url": "https://github.com/sozercan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50164908?s=40&v=4",
-          "name": "pukuba",
-          "url": "https://github.com/pukuba"
-        }
-      ]
-    },
-    {
       "title": "ggml-org/Llama-macOS",
       "url": "https://github.com/ggml-org/Llama-macOS",
       "description": "A cosy home for your LLMs.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,828",
+      "stars": "1,831",
       "forks": "149",
       "addStars": "78",
       "contributors": [
@@ -473,39 +414,71 @@
       ]
     },
     {
-      "title": "Aidoku/Aidoku",
-      "url": "https://github.com/Aidoku/Aidoku",
-      "description": "Manga reading app for iOS, iPadOS, and macOS",
+      "title": "abue-ammar/tinycast",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "description": "A native macOS launcher for everyday productivity. Lightweight and open source.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "4,759",
-      "forks": "336",
-      "addStars": "42",
+      "stars": "9,497",
+      "forks": "606",
+      "addStars": "195",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11185448?s=40&v=4",
-          "name": "Skittyblock",
-          "url": "https://github.com/Skittyblock"
+          "avatar": "https://avatars.githubusercontent.com/u/14371506?s=40&v=4",
+          "name": "abue-ammar",
+          "url": "https://github.com/abue-ammar"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
-          "name": "weblate",
-          "url": "https://github.com/weblate"
+          "avatar": "https://avatars.githubusercontent.com/u/81174108?s=40&v=4",
+          "name": "list-jonas",
+          "url": "https://github.com/list-jonas"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/64679454?s=40&v=4",
-          "name": "aphronyx",
-          "url": "https://github.com/aphronyx"
+          "avatar": "https://avatars.githubusercontent.com/u/11879201?s=40&v=4",
+          "name": "Risengan",
+          "url": "https://github.com/Risengan"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8082010?s=40&v=4",
-          "name": "kingbri1",
-          "url": "https://github.com/kingbri1"
+          "avatar": "https://avatars.githubusercontent.com/u/319949436?s=40&v=4",
+          "name": "notsoshu",
+          "url": "https://github.com/notsoshu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/61936050?s=40&v=4",
-          "name": "dyphire",
-          "url": "https://github.com/dyphire"
+          "avatar": "https://avatars.githubusercontent.com/u/39670015?s=40&v=4",
+          "name": "mathieusouflis",
+          "url": "https://github.com/mathieusouflis"
+        }
+      ]
+    },
+    {
+      "title": "sw33tLie/macshot",
+      "url": "https://github.com/sw33tLie/macshot",
+      "description": "Feature-packed native macOS screenshot & recording tool: annotate, auto-redact PII, record GIFs, OCR + translate, scroll capture, beautify, and more. No Electron, no subscription.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "4,184",
+      "forks": "283",
+      "addStars": "103",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47645560?s=40&v=4",
+          "name": "sw33tLie",
+          "url": "https://github.com/sw33tLie"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4518860?s=40&v=4",
+          "name": "bytepl",
+          "url": "https://github.com/bytepl"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/176813606?s=40&v=4",
+          "name": "RyanStarFox",
+          "url": "https://github.com/RyanStarFox"
         }
       ]
     },
@@ -515,7 +488,7 @@
       "description": "Native Jellyfin Client for iOS and tvOS",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "4,286",
+      "stars": "4,289",
       "forks": "665",
       "addStars": "24",
       "contributors": [
@@ -547,26 +520,152 @@
       ]
     },
     {
+      "title": "sozercan/kaset",
+      "url": "https://github.com/sozercan/kaset",
+      "description": "📼 The missing YouTube and YouTube Music macOS app",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "2,610",
+      "forks": "202",
+      "addStars": "82",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/852750?s=40&v=4",
+          "name": "sozercan",
+          "url": "https://github.com/sozercan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50164908?s=40&v=4",
+          "name": "pukuba",
+          "url": "https://github.com/pukuba"
+        }
+      ]
+    },
+    {
+      "title": "Aidoku/Aidoku",
+      "url": "https://github.com/Aidoku/Aidoku",
+      "description": "Manga reading app for iOS, iPadOS, and macOS",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "4,761",
+      "forks": "337",
+      "addStars": "42",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11185448?s=40&v=4",
+          "name": "Skittyblock",
+          "url": "https://github.com/Skittyblock"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
+          "name": "weblate",
+          "url": "https://github.com/weblate"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/64679454?s=40&v=4",
+          "name": "aphronyx",
+          "url": "https://github.com/aphronyx"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8082010?s=40&v=4",
+          "name": "kingbri1",
+          "url": "https://github.com/kingbri1"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61936050?s=40&v=4",
+          "name": "dyphire",
+          "url": "https://github.com/dyphire"
+        }
+      ]
+    },
+    {
+      "title": "exelban/stats",
+      "url": "https://github.com/exelban/stats",
+      "description": "macOS system monitor in your menu bar",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "43,445",
+      "forks": "1,632",
+      "addStars": "204",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13332412?s=40&v=4",
+          "name": "exelban",
+          "url": "https://github.com/exelban"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32911758?s=40&v=4",
+          "name": "jrthsr700tmax",
+          "url": "https://github.com/jrthsr700tmax"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/89069957?s=40&v=4",
+          "name": "Jerry23011",
+          "url": "https://github.com/Jerry23011"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2065714?s=40&v=4",
+          "name": "Fighter456",
+          "url": "https://github.com/Fighter456"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/21986946?s=40&v=4",
+          "name": "Tai-Zhou",
+          "url": "https://github.com/Tai-Zhou"
+        }
+      ]
+    },
+    {
+      "title": "linearmouse/linearmouse",
+      "url": "https://github.com/linearmouse/linearmouse",
+      "description": "The mouse and trackpad utility for Mac.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "7,206",
+      "forks": "204",
+      "addStars": "56",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3000535?s=40&v=4",
+          "name": "lujjjh",
+          "url": "https://github.com/lujjjh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/129873445?s=40&v=4",
+          "name": "linearmousebot",
+          "url": "https://github.com/linearmousebot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43320714?s=40&v=4",
+          "name": "aerulion",
+          "url": "https://github.com/aerulion"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/54919428?s=40&v=4",
+          "name": "fraschm1998",
+          "url": "https://github.com/fraschm1998"
+        }
+      ]
+    },
+    {
       "title": "yetanotherbrowser/yab",
       "url": "https://github.com/yetanotherbrowser/yab",
       "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "317",
+      "stars": "552",
       "forks": "5",
-      "addStars": "71",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zephyr4123/snug",
-      "url": "https://github.com/zephyr4123/snug",
-      "description": "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "176",
-      "forks": "6",
-      "addStars": "29",
+      "addStars": "304",
       "contributors": [],
       "source": "trendshift"
     },
@@ -576,177 +675,21 @@
       "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "7,240",
+      "stars": "7,401",
       "forks": "908",
-      "addStars": "24",
+      "addStars": "174",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "frs0n/GestaltEdit",
-      "url": "https://github.com/frs0n/GestaltEdit",
-      "description": "iOS 27 MobileGestalt editor",
+      "title": "zephyr4123/snug",
+      "url": "https://github.com/zephyr4123/snug",
+      "description": "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,113",
-      "forks": "86",
-      "addStars": "21",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "vorssaint/vorssaint-utils",
-      "url": "https://github.com/vorssaint/vorssaint-utils",
-      "description": "Free and open-source macOS menu bar toolkit.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "34,863",
-      "forks": "1,877",
-      "addStars": "16",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "huamidev/GestaltX",
-      "url": "https://github.com/huamidev/GestaltX",
-      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "7,754",
-      "forks": "2,663",
-      "addStars": "16",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "aoyamashou/UUyc-companion",
-      "url": "https://github.com/aoyamashou/UUyc-companion",
-      "description": "改善 Mac 版 UU远程 的使用体验，远程开始时自动提供与您的设备同分辨率的虚拟屏幕，告别上下大黑边。可选自动关闭其他屏幕，告别远程时Dock栏和窗口跑不见",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "243",
-      "forks": "29",
-      "addStars": "12",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Louis-CFM/coucou",
-      "url": "https://github.com/Louis-CFM/coucou",
-      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "7,234",
-      "forks": "1,293",
-      "addStars": "13",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "oneamendez/crate-ios",
-      "url": "https://github.com/oneamendez/crate-ios",
-      "description": "crate: run Linux VMs on iPhone and iPad",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "283",
-      "forks": "8",
-      "addStars": "11",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "iPocket-APP/MijiaLAN",
-      "url": "https://github.com/iPocket-APP/MijiaLAN",
-      "description": "macOS 菜单栏米家局域网控制与 Apple Home 桥接 · Local Mijia device control and HomeKit bridge for macOS",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "137",
-      "forks": "4",
-      "addStars": "9",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "abue-ammar/tinycast",
-      "url": "https://github.com/abue-ammar/tinycast",
-      "description": "A native macOS launcher for everyday productivity. Lightweight and open source.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "9,475",
-      "forks": "666",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "fxgl/steamac",
-      "url": "https://github.com/fxgl/steamac",
-      "description": "Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + Venus + MoltenVK, controllers, CoreAudio sound",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "2,679",
-      "forks": "92",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "wquguru/cicada",
-      "url": "https://github.com/wquguru/cicada",
-      "description": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "2,307",
-      "forks": "389",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Kianuni/Erosion-CN",
-      "url": "https://github.com/Kianuni/Erosion-CN",
-      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "2,131",
-      "forks": "427",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "pachterlab/Manimble",
-      "url": "https://github.com/pachterlab/Manimble",
-      "description": "Edit manim slides",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "41",
-      "forks": "0",
-      "addStars": "7",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "dqhieu/Silica",
-      "url": "https://github.com/dqhieu/Silica",
-      "description": "",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "257",
-      "forks": "18",
-      "addStars": "8",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "bddicken/parallax",
-      "url": "https://github.com/bddicken/parallax",
-      "description": "",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "77",
-      "forks": "4",
-      "addStars": "5",
+      "stars": "251",
+      "forks": "6",
+      "addStars": "102",
       "contributors": [],
       "source": "trendshift"
     },
@@ -756,21 +699,189 @@
       "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "1,356",
+      "stars": "1,489",
       "forks": "225",
-      "addStars": "7",
+      "addStars": "140",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "finnmckenty/NTSCRT",
-      "url": "https://github.com/finnmckenty/NTSCRT",
-      "description": "Vintage analog TV/VHS image tool for macOS: ntsc-rs signal emulation + RetroArch CRT shaders (librashader), glued together with SwiftUI/Metal",
+      "title": "oneamendez/crate-ios",
+      "url": "https://github.com/oneamendez/crate-ios",
+      "description": "crate: run Linux VMs on iPhone and iPad",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "481",
-      "forks": "34",
-      "addStars": "6",
+      "stars": "389",
+      "forks": "8",
+      "addStars": "109",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "huamidev/GestaltX",
+      "url": "https://github.com/huamidev/GestaltX",
+      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "7,857",
+      "forks": "2,505",
+      "addStars": "126",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "frs0n/GestaltEdit",
+      "url": "https://github.com/frs0n/GestaltEdit",
+      "description": "iOS 27 MobileGestalt editor",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "1,191",
+      "forks": "94",
+      "addStars": "90",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "andyhuo520/beanpod",
+      "url": "https://github.com/andyhuo520/beanpod",
+      "description": "豆仓 BeanPod：原生 macOS 录音豆管理 App — 本机转写、纪要待办、知识库问答、逐句回听与英语学习、MCP 接入 Claude / Codex",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "40",
+      "forks": "0",
+      "addStars": "39",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "vorssaint/vorssaint-utils",
+      "url": "https://github.com/vorssaint/vorssaint-utils",
+      "description": "Free and open-source macOS menu bar toolkit.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "34,941",
+      "forks": "1,886",
+      "addStars": "104",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "aoyamashou/UUyc-companion",
+      "url": "https://github.com/aoyamashou/UUyc-companion",
+      "description": "改善 Mac 版 UU远程 的使用体验，远程开始时自动提供与您的设备同分辨率的虚拟屏幕，告别上下大黑边。可选自动关闭其他屏幕，告别远程时Dock栏和窗口跑不见",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "290",
+      "forks": "29",
+      "addStars": "52",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "pachterlab/Manimble",
+      "url": "https://github.com/pachterlab/Manimble",
+      "description": "Edit manim slides",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "80",
+      "forks": "0",
+      "addStars": "43",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Kianuni/Erosion-CN",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "2,189",
+      "forks": "427",
+      "addStars": "65",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "7,267",
+      "forks": "1,306",
+      "addStars": "45",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "wquguru/cicada",
+      "url": "https://github.com/wquguru/cicada",
+      "description": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "2,352",
+      "forks": "389",
+      "addStars": "50",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "nadim-sheikh/AccountDeck",
+      "url": "https://github.com/nadim-sheikh/AccountDeck",
+      "description": "One menu bar app for all your Claude, Claude Code, Codex and ChatGPT accounts: one-click switching, live usage limits, chats that follow you. macOS + Windows (beta).",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "41",
+      "forks": "0",
+      "addStars": "23",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "LinkPass888/CarCanvas",
+      "url": "https://github.com/LinkPass888/CarCanvas",
+      "description": "Overwrite CarPlay wallpaper caches with your own images.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "63",
+      "forks": "1",
+      "addStars": "24",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "pxx917144686/APP",
+      "url": "https://github.com/pxx917144686/APP",
+      "description": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "311",
+      "forks": "45",
+      "addStars": "14",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ganeshmshetty/openclip",
+      "url": "https://github.com/ganeshmshetty/openclip",
+      "description": "An open-source, macOS text action popup for running custom scripts, AI actions, and extensible workflows on selected text.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "793",
+      "forks": "51",
+      "addStars": "22",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Kianuni/Camlo",
+      "url": "https://github.com/Kianuni/Camlo",
+      "description": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "113",
+      "forks": "6",
+      "addStars": "12",
       "contributors": [],
       "source": "trendshift"
     },
@@ -780,9 +891,21 @@
       "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
       "language": "Swift",
       "languageColor": "#F05138",
-      "stars": "4,995",
+      "stars": "5,025",
       "forks": "692",
-      "addStars": "6",
+      "addStars": "32",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "driceroland/Search",
+      "url": "https://github.com/driceroland/Search",
+      "description": "A small, fast WebKit browser for macOS, by Office Commun.",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "3,010",
+      "forks": "335",
+      "addStars": "27",
       "contributors": [],
       "source": "trendshift"
     }

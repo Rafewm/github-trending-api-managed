@@ -2,7 +2,7 @@
   "title": "GitHub Kotlin Languages Weekly Trending",
   "description": "Weekly Trending of Kotlin Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 16 Nov 2026 04:42:52 GMT",
+  "pubDate": "Mon, 16 Nov 2026 17:56:02 GMT",
   "items": [
     {
       "title": "samolego/Canta",
@@ -10,8 +10,8 @@
       "description": "Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "7,384",
-      "forks": "179",
+      "stars": "7,420",
+      "forks": "180",
       "addStars": "562",
       "contributors": [
         {
@@ -32,50 +32,13 @@
       ]
     },
     {
-      "title": "CYQawa/YunX",
-      "url": "https://github.com/CYQawa/YunX",
-      "description": "YunX云析 ✨一个安卓 网盘解析 + 视频平台解析 下载app✨",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "8,065",
-      "forks": "427",
-      "addStars": "1,275",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/197054527?s=40&v=4",
-          "name": "CYQawa",
-          "url": "https://github.com/CYQawa"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/143770458?s=40&v=4",
-          "name": "tidain",
-          "url": "https://github.com/tidain"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/99045618?s=40&v=4",
-          "name": "xiaoxun007",
-          "url": "https://github.com/xiaoxun007"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/84219882?s=40&v=4",
-          "name": "hiuyt",
-          "url": "https://github.com/hiuyt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "name": "mvanhorn",
-          "url": "https://github.com/mvanhorn"
-        }
-      ]
-    },
-    {
       "title": "tidain/YunX-Desktop",
       "url": "https://github.com/tidain/YunX-Desktop",
       "description": "YunX（云析）的官方 windows 桌面端",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "6,221",
-      "forks": "484",
+      "stars": "6,402",
+      "forks": "497",
       "addStars": "2,635",
       "contributors": [
         {
@@ -106,13 +69,50 @@
       ]
     },
     {
+      "title": "CYQawa/YunX",
+      "url": "https://github.com/CYQawa/YunX",
+      "description": "YunX云析 ✨一个安卓 网盘解析 + 视频平台解析 下载app✨",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "8,168",
+      "forks": "430",
+      "addStars": "1,275",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/197054527?s=40&v=4",
+          "name": "CYQawa",
+          "url": "https://github.com/CYQawa"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/143770458?s=40&v=4",
+          "name": "tidain",
+          "url": "https://github.com/tidain"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/99045618?s=40&v=4",
+          "name": "xiaoxun007",
+          "url": "https://github.com/xiaoxun007"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/84219882?s=40&v=4",
+          "name": "hiuyt",
+          "url": "https://github.com/hiuyt"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "name": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        }
+      ]
+    },
+    {
       "title": "realidkroo/Mochy-Music",
       "url": "https://github.com/realidkroo/Mochy-Music",
       "description": "A modern, cool, sleek music player. made with <3",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "1,810",
-      "forks": "85",
+      "stars": "1,848",
+      "forks": "92",
       "addStars": "627",
       "contributors": [
         {
@@ -148,8 +148,8 @@
       "description": "Android app for streaming and downloading media.",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "11,314",
-      "forks": "1,218",
+      "stars": "11,323",
+      "forks": "1,222",
       "addStars": "143",
       "contributors": [
         {
@@ -185,8 +185,8 @@
       "description": "A Kernel based root solution for Android",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "20,629",
-      "forks": "5,108",
+      "stars": "20,650",
+      "forks": "5,116",
       "addStars": "328",
       "contributors": [
         {
@@ -217,71 +217,76 @@
       ]
     },
     {
-      "title": "RikkaApps/Shizuku",
-      "url": "https://github.com/RikkaApps/Shizuku",
-      "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+      "title": "maxrave-dev/SimpMusic",
+      "url": "https://github.com/maxrave-dev/SimpMusic",
+      "description": "A cross-platform music app using YouTube Music for backend",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "33,787",
-      "forks": "3,673",
-      "addStars": "641",
+      "stars": "13,470",
+      "forks": "787",
+      "addStars": "419",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&v=4",
-          "name": "RikkaW",
-          "url": "https://github.com/RikkaW"
+          "avatar": "https://avatars.githubusercontent.com/u/113747128?s=40&v=4",
+          "name": "maxrave-dev",
+          "url": "https://github.com/maxrave-dev"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26996262?s=40&v=4",
-          "name": "vvb2060",
-          "url": "https://github.com/vvb2060"
+          "avatar": "https://avatars.githubusercontent.com/u/87689078?s=40&v=4",
+          "name": "RounakDadsena",
+          "url": "https://github.com/RounakDadsena"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/13131972?s=40&v=4",
-          "name": "haruue",
-          "url": "https://github.com/haruue"
+          "avatar": "https://avatars.githubusercontent.com/u/102886591?s=40&v=4",
+          "name": "spiicez21",
+          "url": "https://github.com/spiicez21"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22442525?s=40&v=4",
-          "name": "ryuunoakaihitomi",
-          "url": "https://github.com/ryuunoakaihitomi"
+          "avatar": "https://avatars.githubusercontent.com/u/96661824?s=40&v=4",
+          "name": "CrazyWolf13",
+          "url": "https://github.com/CrazyWolf13"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/50289872?s=40&v=4",
-          "name": "tclement0922",
-          "url": "https://github.com/tclement0922"
+          "avatar": "https://avatars.githubusercontent.com/u/16017808?s=40&v=4",
+          "name": "cuong-tran",
+          "url": "https://github.com/cuong-tran"
         }
       ]
     },
     {
-      "title": "HapeLee/legado-with-MD3",
-      "url": "https://github.com/HapeLee/legado-with-MD3",
-      "description": "使用 Material Design 3 全新设计的阅读 3.0",
+      "title": "gkd-kit/gkd",
+      "url": "https://github.com/gkd-kit/gkd",
+      "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "7,035",
-      "forks": "819",
-      "addStars": "140",
+      "stars": "44,886",
+      "forks": "2,142",
+      "addStars": "566",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/63206378?s=40&v=4",
-          "name": "HapeLee",
-          "url": "https://github.com/HapeLee"
+          "avatar": "https://avatars.githubusercontent.com/u/38517192?s=40&v=4",
+          "name": "lisonge",
+          "url": "https://github.com/lisonge"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8674809?s=40&v=4",
-          "name": "821938089",
-          "url": "https://github.com/821938089"
+          "avatar": "https://avatars.githubusercontent.com/u/4233744?s=40&v=4",
+          "name": "tiann",
+          "url": "https://github.com/tiann"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/62234963?s=40&v=4",
-          "name": "5151561",
-          "url": "https://github.com/5151561"
+          "avatar": "https://avatars.githubusercontent.com/u/121001029?s=40&v=4",
+          "name": "cjy0812",
+          "url": "https://github.com/cjy0812"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/82232510?s=40&v=4",
-          "name": "Xwite",
-          "url": "https://github.com/Xwite"
+          "avatar": "https://avatars.githubusercontent.com/u/17351112?s=40&v=4",
+          "name": "fansangg",
+          "url": "https://github.com/fansangg"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/85251920?s=40&v=4",
+          "name": "Lin-arm",
+          "url": "https://github.com/Lin-arm"
         }
       ]
     },
@@ -291,7 +296,7 @@
       "description": "A Download Manager that speeds up your downloads",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "19,307",
+      "stars": "19,327",
       "forks": "1,030",
       "addStars": "260",
       "contributors": [
@@ -323,56 +328,115 @@
       ]
     },
     {
-      "title": "maxrave-dev/SimpMusic",
-      "url": "https://github.com/maxrave-dev/SimpMusic",
-      "description": "A cross-platform music app using YouTube Music for backend",
+      "title": "RookieEnough/Orion-Store",
+      "url": "https://github.com/RookieEnough/Orion-Store",
+      "description": "The ultimate home for Open Source and Cleaned apps. OrionStore offers instant access to YouTube Morphe, YT Music Morphe, and essential open-source tools without the clutter. No servers, no tracking, just a beautiful, modern gateway to the apps you love.",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "13,436",
-      "forks": "784",
-      "addStars": "419",
+      "stars": "4,191",
+      "forks": "144",
+      "addStars": "168",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/113747128?s=40&v=4",
-          "name": "maxrave-dev",
-          "url": "https://github.com/maxrave-dev"
+          "avatar": "https://avatars.githubusercontent.com/u/128968367?s=40&v=4",
+          "name": "RookieEnough",
+          "url": "https://github.com/RookieEnough"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/87689078?s=40&v=4",
-          "name": "RounakDadsena",
-          "url": "https://github.com/RounakDadsena"
+          "avatar": "https://avatars.githubusercontent.com/u/259336696?s=40&v=4",
+          "name": "Droover-ux",
+          "url": "https://github.com/Droover-ux"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/102886591?s=40&v=4",
-          "name": "spiicez21",
-          "url": "https://github.com/spiicez21"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/96661824?s=40&v=4",
-          "name": "CrazyWolf13",
-          "url": "https://github.com/CrazyWolf13"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16017808?s=40&v=4",
-          "name": "cuong-tran",
-          "url": "https://github.com/cuong-tran"
+          "avatar": "https://avatars.githubusercontent.com/u/106865140?s=40&v=4",
+          "name": "ArianPashae",
+          "url": "https://github.com/ArianPashae"
         }
       ]
     },
     {
-      "title": "frknkrc44/HMA-OSS",
-      "url": "https://github.com/frknkrc44/HMA-OSS",
-      "description": "A Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project, but LSPosed dependency is replaced with Zygisk.",
+      "title": "HapeLee/legado-with-MD3",
+      "url": "https://github.com/HapeLee/legado-with-MD3",
+      "description": "使用 Material Design 3 全新设计的阅读 3.0",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "4,132",
-      "forks": "266",
-      "addStars": "137",
+      "stars": "7,047",
+      "forks": "822",
+      "addStars": "140",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/52071314?s=40&v=4",
-          "name": "Dr-TSNG",
-          "url": "https://github.com/Dr-TSNG"
+          "avatar": "https://avatars.githubusercontent.com/u/63206378?s=40&v=4",
+          "name": "HapeLee",
+          "url": "https://github.com/HapeLee"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8674809?s=40&v=4",
+          "name": "821938089",
+          "url": "https://github.com/821938089"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/62234963?s=40&v=4",
+          "name": "5151561",
+          "url": "https://github.com/5151561"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/82232510?s=40&v=4",
+          "name": "Xwite",
+          "url": "https://github.com/Xwite"
+        }
+      ]
+    },
+    {
+      "title": "RikkaApps/Shizuku",
+      "url": "https://github.com/RikkaApps/Shizuku",
+      "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "33,856",
+      "forks": "3,683",
+      "addStars": "641",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12999176?s=40&v=4",
+          "name": "RikkaW",
+          "url": "https://github.com/RikkaW"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26996262?s=40&v=4",
+          "name": "vvb2060",
+          "url": "https://github.com/vvb2060"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13131972?s=40&v=4",
+          "name": "haruue",
+          "url": "https://github.com/haruue"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22442525?s=40&v=4",
+          "name": "ryuunoakaihitomi",
+          "url": "https://github.com/ryuunoakaihitomi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50289872?s=40&v=4",
+          "name": "tclement0922",
+          "url": "https://github.com/tclement0922"
+        }
+      ]
+    },
+    {
+      "title": "Dev4Mod/WaEnhancer",
+      "url": "https://github.com/Dev4Mod/WaEnhancer",
+      "description": "WhatsApp tools for Android",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "1,897",
+      "forks": "265",
+      "addStars": "37",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15899174?s=40&v=4",
+          "name": "Dev4Mod",
+          "url": "https://github.com/Dev4Mod"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/45714956?s=40&v=4",
@@ -380,19 +444,51 @@
           "url": "https://github.com/frknkrc44"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/20322043?s=40&v=4",
-          "name": "lelemka0",
-          "url": "https://github.com/lelemka0"
+          "avatar": "https://avatars.githubusercontent.com/u/68740307?s=40&v=4",
+          "name": "masbentoooredoo",
+          "url": "https://github.com/masbentoooredoo"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/18079988?s=40&v=4",
-          "name": "aviraxp",
-          "url": "https://github.com/aviraxp"
+          "avatar": "https://avatars.githubusercontent.com/u/160529153?s=40&v=4",
+          "name": "zhongerxll",
+          "url": "https://github.com/zhongerxll"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/41381927?s=40&v=4",
-          "name": "keta1",
-          "url": "https://github.com/keta1"
+          "avatar": "https://avatars.githubusercontent.com/u/91574316?s=40&v=4",
+          "name": "BryanGIG",
+          "url": "https://github.com/BryanGIG"
+        }
+      ]
+    },
+    {
+      "title": "aistra0528/Hail",
+      "url": "https://github.com/aistra0528/Hail",
+      "description": "Disable / Hide / Suspend / Uninstall Android apps without root.",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "7,329",
+      "forks": "284",
+      "addStars": "126",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/55940744?s=40&v=4",
+          "name": "aistra0528",
+          "url": "https://github.com/aistra0528"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50285380?s=40&v=4",
+          "name": "AokiFuru",
+          "url": "https://github.com/AokiFuru"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/51242302?s=40&v=4",
+          "name": "Jesse205",
+          "url": "https://github.com/Jesse205"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88732071?s=40&v=4",
+          "name": "prasetyodedy",
+          "url": "https://github.com/prasetyodedy"
         }
       ]
     },
@@ -402,8 +498,8 @@
       "description": "Essential tools and mods for Android nerds",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "3,898",
-      "forks": "111",
+      "stars": "3,913",
+      "forks": "110",
       "addStars": "166",
       "contributors": [
         {
@@ -434,73 +530,14 @@
       ]
     },
     {
-      "title": "RookieEnough/Orion-Store",
-      "url": "https://github.com/RookieEnough/Orion-Store",
-      "description": "The ultimate home for Open Source and Cleaned apps. OrionStore offers instant access to YouTube Morphe, YT Music Morphe, and essential open-source tools without the clutter. No servers, no tracking, just a beautiful, modern gateway to the apps you love.",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "4,176",
-      "forks": "143",
-      "addStars": "168",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/128968367?s=40&v=4",
-          "name": "RookieEnough",
-          "url": "https://github.com/RookieEnough"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/259336696?s=40&v=4",
-          "name": "Droover-ux",
-          "url": "https://github.com/Droover-ux"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/106865140?s=40&v=4",
-          "name": "ArianPashae",
-          "url": "https://github.com/ArianPashae"
-        }
-      ]
-    },
-    {
-      "title": "aistra0528/Hail",
-      "url": "https://github.com/aistra0528/Hail",
-      "description": "Disable / Hide / Suspend / Uninstall Android apps without root.",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "7,313",
-      "forks": "284",
-      "addStars": "126",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55940744?s=40&v=4",
-          "name": "aistra0528",
-          "url": "https://github.com/aistra0528"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50285380?s=40&v=4",
-          "name": "AokiFuru",
-          "url": "https://github.com/AokiFuru"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/51242302?s=40&v=4",
-          "name": "Jesse205",
-          "url": "https://github.com/Jesse205"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/88732071?s=40&v=4",
-          "name": "prasetyodedy",
-          "url": "https://github.com/prasetyodedy"
-        }
-      ]
-    },
-    {
       "title": "Eynnzerr/TelemetryCleaner",
       "url": "https://github.com/Eynnzerr/TelemetryCleaner",
       "description": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "1,046",
+      "stars": "1,275",
       "forks": "77",
-      "addStars": "95",
+      "addStars": "295",
       "contributors": [],
       "source": "trendshift"
     },
@@ -510,21 +547,9 @@
       "description": "Made for listening, not logging in. Levyra is an open-source music player for Android and Windows, bringing music discovery, synced lyrics, radio and beautiful artwork together. No ads, no tracking, just music ♫",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "2,000",
-      "forks": "67",
-      "addStars": "48",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "pengchujin/aerial-tv",
-      "url": "https://github.com/pengchujin/aerial-tv",
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "12,061",
-      "forks": "1,055",
-      "addStars": "44",
+      "stars": "2,152",
+      "forks": "70",
+      "addStars": "209",
       "contributors": [],
       "source": "trendshift"
     },
@@ -534,9 +559,21 @@
       "description": "DroidDeck brings the SteamOS experience to Android",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "20,337",
-      "forks": "1,058",
-      "addStars": "32",
+      "stars": "20,469",
+      "forks": "1,079",
+      "addStars": "168",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "12,178",
+      "forks": "1,055",
+      "addStars": "162",
       "contributors": [],
       "source": "trendshift"
     },
@@ -546,69 +583,9 @@
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "8,742",
+      "stars": "8,840",
       "forks": "1,997",
-      "addStars": "24",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "MetaCubeX/ClashMetaForAndroid",
-      "url": "https://github.com/MetaCubeX/ClashMetaForAndroid",
-      "description": "A rule-based tunnel for Android.",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "49,571",
-      "forks": "3,201",
-      "addStars": "15",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "kilolonion/agent-vscreen",
-      "url": "https://github.com/kilolonion/agent-vscreen",
-      "description": "A background virtual screen for any Android AI agent: it operates apps on an invisible display while you keep using your phone. CLI / MCP / HTTP, Shizuku, no root. 给任何手机 agent 用的后台副屏。",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "84",
-      "forks": "8",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "digital-grease/fauxx",
-      "url": "https://github.com/digital-grease/fauxx",
-      "description": "Data poisoning for your everyday tracking",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "671",
-      "forks": "34",
-      "addStars": "11",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "schan-lab/Mobile-SLAM",
-      "url": "https://github.com/schan-lab/Mobile-SLAM",
-      "description": "",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "28",
-      "forks": "0",
-      "addStars": "8",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Verlintas/NOIR",
-      "url": "https://github.com/Verlintas/NOIR",
-      "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "3,561",
-      "forks": "316",
-      "addStars": "12",
+      "addStars": "123",
       "contributors": [],
       "source": "trendshift"
     },
@@ -618,69 +595,33 @@
       "description": "",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "10,536",
+      "stars": "10,590",
       "forks": "720",
-      "addStars": "11",
+      "addStars": "63",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "rushiranpise/Shizuku-Next",
-      "url": "https://github.com/rushiranpise/Shizuku-Next",
-      "description": "A feature-rich Shizuku fork with improved setup, reliability, UI, and additional start methods.",
+      "title": "MetaCubeX/ClashMetaForAndroid",
+      "url": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "description": "A rule-based tunnel for Android.",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "1,935",
-      "forks": "76",
-      "addStars": "10",
+      "stars": "49,620",
+      "forks": "3,211",
+      "addStars": "64",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "gkd-kit/gkd",
-      "url": "https://github.com/gkd-kit/gkd",
-      "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+      "title": "N3urda/hongguoTV",
+      "url": "https://github.com/N3urda/hongguoTV",
+      "description": "安卓 TV 红果短剧客户端：项目规划、接口调研与可行性验证",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "44,822",
-      "forks": "2,209",
-      "addStars": "10",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Cyletix/CyIME",
-      "url": "https://github.com/Cyletix/CyIME",
-      "description": "CyIME 输入法：Android 中文输入法（Rime），26 键/九键/双拼/五笔/手写/离线语音/字幕模式。致力于做出世界上最好的输入法 | Chinese keyboard for Android",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "1,318",
-      "forks": "60",
-      "addStars": "9",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "fahadalijaved/OneOS",
-      "url": "https://github.com/fahadalijaved/OneOS",
-      "description": "Another Android, next to One UI: switch a rooted Samsung Galaxy into another Android system and back, without flashing.",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "594",
-      "forks": "65",
-      "addStars": "8",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "kota-zo/Orpheon",
-      "url": "https://github.com/kota-zo/Orpheon",
-      "description": "Native Android client for Spotify, built with Jetpack Compose",
-      "language": "Kotlin",
-      "languageColor": "#A97BFF",
-      "stars": "2,175",
-      "forks": "131",
-      "addStars": "8",
+      "stars": "1,099",
+      "forks": "202",
+      "addStars": "52",
       "contributors": [],
       "source": "trendshift"
     },
@@ -690,21 +631,117 @@
       "description": "A minimal Android music player for Spotify, YouTube Music, and local audio.",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "105",
+      "stars": "128",
       "forks": "4",
-      "addStars": "6",
+      "addStars": "31",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "jev-chat/jev-chat-jarvis",
-      "url": "https://github.com/jev-chat/jev-chat-jarvis",
-      "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+      "title": "2dust/v2rayNG",
+      "url": "https://github.com/2dust/v2rayNG",
+      "description": "A V2Ray client for Android, support Xray core and v2fly core",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": "8,401",
-      "forks": "1,382",
-      "addStars": "7",
+      "stars": "66,013",
+      "forks": "8,504",
+      "addStars": "59",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "PimpinPumpkin/Vela",
+      "url": "https://github.com/PimpinPumpkin/Vela",
+      "description": "Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid Flock cameras",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "2,696",
+      "forks": "153",
+      "addStars": "49",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "digital-grease/fauxx",
+      "url": "https://github.com/digital-grease/fauxx",
+      "description": "Data poisoning for your everyday tracking",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "699",
+      "forks": "37",
+      "addStars": "38",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Verlintas/NOIR",
+      "url": "https://github.com/Verlintas/NOIR",
+      "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "3,603",
+      "forks": "316",
+      "addStars": "54",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Cyletix/CyIME",
+      "url": "https://github.com/Cyletix/CyIME",
+      "description": "CyIME 输入法：Android 中文输入法（Rime），26 键/九键/双拼/五笔/手写/离线语音/字幕模式。致力于做出世界上最好的输入法 | Chinese keyboard for Android",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "1,362",
+      "forks": "60",
+      "addStars": "51",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "bannedbook/fanqiang",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "56,729",
+      "forks": "8,836",
+      "addStars": "44",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "fahadalijaved/OneOS",
+      "url": "https://github.com/fahadalijaved/OneOS",
+      "description": "Another Android, next to One UI: switch a rooted Samsung Galaxy into another Android system and back, without flashing.",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "633",
+      "forks": "65",
+      "addStars": "46",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "kota-zo/Orpheon",
+      "url": "https://github.com/kota-zo/Orpheon",
+      "description": "Native Android client for Spotify, built with Jetpack Compose",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "2,215",
+      "forks": "131",
+      "addStars": "48",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "kilolonion/agent-vscreen",
+      "url": "https://github.com/kilolonion/agent-vscreen",
+      "description": "A background virtual screen for any Android AI agent: it operates apps on an invisible display while you keep using your phone. CLI / MCP / HTTP, Shizuku, no root. 给任何手机 agent 用的后台副屏。",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": "107",
+      "forks": "8",
+      "addStars": "26",
       "contributors": [],
       "source": "trendshift"
     }

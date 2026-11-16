@@ -2,53 +2,16 @@
   "title": "GitHub Dart Languages Weekly Trending",
   "description": "Weekly Trending of Dart Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 16 Nov 2026 04:42:52 GMT",
+  "pubDate": "Mon, 16 Nov 2026 17:56:02 GMT",
   "items": [
-    {
-      "title": "localsend/localsend",
-      "url": "https://github.com/localsend/localsend",
-      "description": "An open-source cross-platform alternative to AirDrop",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "99,182",
-      "forks": "5,684",
-      "addStars": "1,278",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38380847?s=40&v=4",
-          "name": "Tienisto",
-          "url": "https://github.com/Tienisto"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/78599753?s=40&v=4",
-          "name": "ShlomoCode",
-          "url": "https://github.com/ShlomoCode"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/125032334?s=40&v=4",
-          "name": "sergd88",
-          "url": "https://github.com/sergd88"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39922116?s=40&v=4",
-          "name": "TheGB0077",
-          "url": "https://github.com/TheGB0077"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4068977?s=40&v=4",
-          "name": "gidano",
-          "url": "https://github.com/gidano"
-        }
-      ]
-    },
     {
       "title": "hiddify/hiddify-app",
       "url": "https://github.com/hiddify/hiddify-app",
       "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "34,067",
-      "forks": "3,230",
+      "stars": "34,082",
+      "forks": "3,235",
       "addStars": "331",
       "contributors": [
         {
@@ -79,12 +42,49 @@
       ]
     },
     {
+      "title": "localsend/localsend",
+      "url": "https://github.com/localsend/localsend",
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "99,286",
+      "forks": "5,690",
+      "addStars": "1,278",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38380847?s=40&v=4",
+          "name": "Tienisto",
+          "url": "https://github.com/Tienisto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/78599753?s=40&v=4",
+          "name": "ShlomoCode",
+          "url": "https://github.com/ShlomoCode"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/125032334?s=40&v=4",
+          "name": "sergd88",
+          "url": "https://github.com/sergd88"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39922116?s=40&v=4",
+          "name": "TheGB0077",
+          "url": "https://github.com/TheGB0077"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4068977?s=40&v=4",
+          "name": "gidano",
+          "url": "https://github.com/gidano"
+        }
+      ]
+    },
+    {
       "title": "KaringX/karing",
       "url": "https://github.com/KaringX/karing",
       "description": "Simple & Powerful proxy utility, Support routing rules for clash/sing-box",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "16,185",
+      "stars": "16,190",
       "forks": "1,360",
       "addStars": "198",
       "contributors": [
@@ -116,45 +116,13 @@
       ]
     },
     {
-      "title": "techjarves/Uncensored-Local-AI-Multiplatform",
-      "url": "https://github.com/techjarves/Uncensored-Local-AI-Multiplatform",
-      "description": "A cross-platform Flutter app that runs uncensored, 100% offline open-source AI models (GGUF) directly on your Android, iOS, or PC. No cloud, no filters, total privacy.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "1,642",
-      "forks": "388",
-      "addStars": "133",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/54399984?s=40&v=4",
-          "name": "techjarves",
-          "url": "https://github.com/techjarves"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/102392763?s=40&v=4",
-          "name": "handel22",
-          "url": "https://github.com/handel22"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/37583483?s=40&v=4",
-          "name": "thereisnotime",
-          "url": "https://github.com/thereisnotime"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/223635574?s=40&v=4",
-          "name": "qwen-intl",
-          "url": "https://github.com/qwen-intl"
-        }
-      ]
-    },
-    {
       "title": "AppFlowy-IO/AppFlowy",
       "url": "https://github.com/AppFlowy-IO/AppFlowy",
       "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "78,984",
-      "forks": "6,291",
+      "stars": "79,024",
+      "forks": "6,304",
       "addStars": "539",
       "contributors": [
         {
@@ -185,71 +153,34 @@
       ]
     },
     {
-      "title": "bggRGjQaUbCoE/PiliPlus",
-      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus",
-      "description": "PiliPlus",
+      "title": "techjarves/Uncensored-Local-AI-Multiplatform",
+      "url": "https://github.com/techjarves/Uncensored-Local-AI-Multiplatform",
+      "description": "A cross-platform Flutter app that runs uncensored, 100% offline open-source AI models (GGUF) directly on your Android, iOS, or PC. No cloud, no filters, total privacy.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "20,919",
-      "forks": "1,648",
-      "addStars": "433",
+      "stars": "1,645",
+      "forks": "388",
+      "addStars": "133",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/114972867?s=40&v=4",
-          "name": "bggRGjQaUbCoE",
-          "url": "https://github.com/bggRGjQaUbCoE"
+          "avatar": "https://avatars.githubusercontent.com/u/54399984?s=40&v=4",
+          "name": "techjarves",
+          "url": "https://github.com/techjarves"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/25545225?s=40&v=4",
-          "name": "guozhigq",
-          "url": "https://github.com/guozhigq"
+          "avatar": "https://avatars.githubusercontent.com/u/102392763?s=40&v=4",
+          "name": "handel22",
+          "url": "https://github.com/handel22"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/17450420?s=40&v=4",
-          "name": "orz12",
-          "url": "https://github.com/orz12"
+          "avatar": "https://avatars.githubusercontent.com/u/37583483?s=40&v=4",
+          "name": "thereisnotime",
+          "url": "https://github.com/thereisnotime"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/107370289?s=40&v=4",
-          "name": "My-Responsitories",
-          "url": "https://github.com/My-Responsitories"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/89803422?s=40&v=4",
-          "name": "VillagerTom",
-          "url": "https://github.com/VillagerTom"
-        }
-      ]
-    },
-    {
-      "title": "GopeedLab/gopeed",
-      "url": "https://github.com/GopeedLab/gopeed",
-      "description": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "27,718",
-      "forks": "1,809",
-      "addStars": "227",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13160176?s=40&v=4",
-          "name": "monkeyWie",
-          "url": "https://github.com/monkeyWie"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/85693457?s=40&v=4",
-          "name": "pugaizai",
-          "url": "https://github.com/pugaizai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19659202?s=40&v=4",
-          "name": "hugetiny",
-          "url": "https://github.com/hugetiny"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/109361374?s=40&v=4",
-          "name": "ElliotCHEN37",
-          "url": "https://github.com/ElliotCHEN37"
+          "avatar": "https://avatars.githubusercontent.com/u/223635574?s=40&v=4",
+          "name": "qwen-intl",
+          "url": "https://github.com/qwen-intl"
         }
       ]
     },
@@ -259,8 +190,8 @@
       "description": "💚 End-to-end encrypted cloud for everything.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "30,157",
-      "forks": "1,921",
+      "stars": "30,203",
+      "forks": "1,923",
       "addStars": "174",
       "contributors": [
         {
@@ -291,13 +222,50 @@
       ]
     },
     {
+      "title": "bggRGjQaUbCoE/PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus",
+      "description": "PiliPlus",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "20,954",
+      "forks": "1,649",
+      "addStars": "433",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/114972867?s=40&v=4",
+          "name": "bggRGjQaUbCoE",
+          "url": "https://github.com/bggRGjQaUbCoE"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25545225?s=40&v=4",
+          "name": "guozhigq",
+          "url": "https://github.com/guozhigq"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17450420?s=40&v=4",
+          "name": "orz12",
+          "url": "https://github.com/orz12"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/107370289?s=40&v=4",
+          "name": "My-Responsitories",
+          "url": "https://github.com/My-Responsitories"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/89803422?s=40&v=4",
+          "name": "VillagerTom",
+          "url": "https://github.com/VillagerTom"
+        }
+      ]
+    },
+    {
       "title": "KaringX/clashmi",
       "url": "https://github.com/KaringX/clashmi",
       "description": "Clash Mihomo for iOS/MacOS/Android/Windows/Linux",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "10,532",
-      "forks": "661",
+      "stars": "10,550",
+      "forks": "663",
       "addStars": "174",
       "contributors": [
         {
@@ -328,34 +296,34 @@
       ]
     },
     {
-      "title": "chen08209/FlClash",
-      "url": "https://github.com/chen08209/FlClash",
-      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+      "title": "GopeedLab/gopeed",
+      "url": "https://github.com/GopeedLab/gopeed",
+      "description": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "63,433",
-      "forks": "4,197",
-      "addStars": "1,376",
+      "stars": "27,735",
+      "forks": "1,810",
+      "addStars": "227",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/66918471?s=40&v=4",
-          "name": "chen08209",
-          "url": "https://github.com/chen08209"
+          "avatar": "https://avatars.githubusercontent.com/u/13160176?s=40&v=4",
+          "name": "monkeyWie",
+          "url": "https://github.com/monkeyWie"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
-          "name": "actions-user",
-          "url": "https://github.com/actions-user"
+          "avatar": "https://avatars.githubusercontent.com/u/85693457?s=40&v=4",
+          "name": "pugaizai",
+          "url": "https://github.com/pugaizai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/41893946?s=40&v=4",
-          "name": "txyyh",
-          "url": "https://github.com/txyyh"
+          "avatar": "https://avatars.githubusercontent.com/u/19659202?s=40&v=4",
+          "name": "hugetiny",
+          "url": "https://github.com/hugetiny"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/101031809?s=40&v=4",
-          "name": "BIGGASSS",
-          "url": "https://github.com/BIGGASSS"
+          "avatar": "https://avatars.githubusercontent.com/u/109361374?s=40&v=4",
+          "name": "ElliotCHEN37",
+          "url": "https://github.com/ElliotCHEN37"
         }
       ]
     },
@@ -365,8 +333,8 @@
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "181,282",
-      "forks": "32,167",
+      "stars": "181,241",
+      "forks": "32,143",
       "addStars": "266",
       "contributors": [
         {
@@ -397,123 +365,12 @@
       ]
     },
     {
-      "title": "ch6vip/novel-sound",
-      "url": "https://github.com/ch6vip/novel-sound",
-      "description": "内容聚合 Android 客户端：小说/短剧/漫剧/听书/漫画，Flutter UI + 进程内 Rust 核心，无自建服务器、无需 root",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "1,491",
-      "forks": "227",
-      "addStars": "215",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/111047811?s=40&v=4",
-          "name": "ch6vip",
-          "url": "https://github.com/ch6vip"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/120073078?s=40&v=4",
-          "name": "faithleysath",
-          "url": "https://github.com/faithleysath"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/264581355?s=40&v=4",
-          "name": "lihan-01",
-          "url": "https://github.com/lihan-01"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47658090?s=40&v=4",
-          "name": "wudilsr",
-          "url": "https://github.com/wudilsr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/193759651?s=40&v=4",
-          "name": "Ethan13322836698",
-          "url": "https://github.com/Ethan13322836698"
-        }
-      ]
-    },
-    {
-      "title": "InlitX/GymMane",
-      "url": "https://github.com/InlitX/GymMane",
-      "description": "Offline gym log for Android. No account, no ads, no internet.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "1,757",
-      "forks": "198",
-      "addStars": "142",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/193412982?s=40&v=4",
-          "name": "InlitX",
-          "url": "https://github.com/InlitX"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49823690?s=40&v=4",
-          "name": "Marcos6226",
-          "url": "https://github.com/Marcos6226"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/126305432?s=40&v=4",
-          "name": "9DYnastY",
-          "url": "https://github.com/9DYnastY"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11397078?s=40&v=4",
-          "name": "alexanderpp",
-          "url": "https://github.com/alexanderpp"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/73625179?s=40&v=4",
-          "name": "NuIIX",
-          "url": "https://github.com/NuIIX"
-        }
-      ]
-    },
-    {
-      "title": "cogwheel0/conduit",
-      "url": "https://github.com/cogwheel0/conduit",
-      "description": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "2,464",
-      "forks": "283",
-      "addStars": "41",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/172976095?s=40&v=4",
-          "name": "cogwheel0",
-          "url": "https://github.com/cogwheel0"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1063618?s=40&v=4",
-          "name": "kapily",
-          "url": "https://github.com/kapily"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/295140484?s=40&v=4",
-          "name": "Qyzom",
-          "url": "https://github.com/Qyzom"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34218629?s=40&v=4",
-          "name": "TowardInfinity",
-          "url": "https://github.com/TowardInfinity"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/61460660?s=40&v=4",
-          "name": "larsb24",
-          "url": "https://github.com/larsb24"
-        }
-      ]
-    },
-    {
       "title": "ComicSparks/jasmine",
       "url": "https://github.com/ComicSparks/jasmine",
       "description": "JM漫画全平台客户端。A comic browser，support Android / iOS / MacOS / Windows / Linux.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "5,560",
+      "stars": "5,565",
       "forks": "365",
       "addStars": "35",
       "contributors": [
@@ -535,14 +392,132 @@
       ]
     },
     {
+      "title": "Spyou/Zangetsu",
+      "url": "https://github.com/Spyou/Zangetsu",
+      "description": "Free, open-source app for anime, movies, series, manga and light novels — on Android, Android TV and iOS (beta).",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "555",
+      "forks": "70",
+      "addStars": "44",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88382789?s=40&v=4",
+          "name": "Spyou",
+          "url": "https://github.com/Spyou"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43285863?s=40&v=4",
+          "name": "NeighborhoodNerd",
+          "url": "https://github.com/NeighborhoodNerd"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/188639646?s=40&v=4",
+          "name": "Dev-next-gen",
+          "url": "https://github.com/Dev-next-gen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/229025345?s=40&v=4",
+          "name": "mo7AmMeD64",
+          "url": "https://github.com/mo7AmMeD64"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38371196?s=40&v=4",
+          "name": "xayron",
+          "url": "https://github.com/xayron"
+        }
+      ]
+    },
+    {
+      "title": "TomBursch/kitchenowl",
+      "url": "https://github.com/TomBursch/kitchenowl",
+      "description": "KitchenOwl is a self-hosted grocery list and recipe manager. The backend is made with Flask and the frontend with Flutter. Easily add items to your shopping list before you go shopping. You can also create recipes and add items based on what you want to cook.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "3,863",
+      "forks": "274",
+      "addStars": "38",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9092682?s=40&v=4",
+          "name": "TomBursch",
+          "url": "https://github.com/TomBursch"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
+          "name": "weblate",
+          "url": "https://github.com/weblate"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18518012?s=40&v=4",
+          "name": "pHamala",
+          "url": "https://github.com/pHamala"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38719631?s=40&v=4",
+          "name": "cMensendiek",
+          "url": "https://github.com/cMensendiek"
+        }
+      ]
+    },
+    {
+      "title": "UnboundTechCo/defyxVPN",
+      "url": "https://github.com/UnboundTechCo/defyxVPN",
+      "description": "A modern, secure VPN application built with Flutter that provides internet freedom and privacy protection.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "929",
+      "forks": "83",
+      "addStars": "24",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206609342?s=40&v=4",
+          "name": "goku-kamehameha",
+          "url": "https://github.com/goku-kamehameha"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/220383162?s=40&v=4",
+          "name": "JuliusCaesarCrypto",
+          "url": "https://github.com/JuliusCaesarCrypto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/232051826?s=40&v=4",
+          "name": "iammorgoth",
+          "url": "https://github.com/iammorgoth"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206658336?s=40&v=4",
+          "name": "immortalut",
+          "url": "https://github.com/immortalut"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/125141320?s=40&v=4",
+          "name": "CluvexStudio",
+          "url": "https://github.com/CluvexStudio"
+        }
+      ]
+    },
+    {
       "title": "ccch1mneyyy/dsh-Go",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "23,812",
+      "stars": "24,604",
       "forks": "1,102",
-      "addStars": "103",
+      "addStars": "946",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "chen08209/FlClash",
+      "url": "https://github.com/chen08209/FlClash",
+      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "63,524",
+      "forks": "4,418",
+      "addStars": "152",
       "contributors": [],
       "source": "trendshift"
     },
@@ -552,9 +527,9 @@
       "description": "红果鉴/真果鉴 - 专属私有短剧客户端",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "1,640",
+      "stars": "1,725",
       "forks": "235",
-      "addStars": "20",
+      "addStars": "107",
       "contributors": [],
       "source": "trendshift"
     },
@@ -564,45 +539,21 @@
       "description": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "42,670",
-      "forks": "1,536",
-      "addStars": "7",
+      "stars": "42,753",
+      "forks": "1,545",
+      "addStars": "99",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "simonoppowa/OpenNutriTracker",
-      "url": "https://github.com/simonoppowa/OpenNutriTracker",
-      "description": "🍴 OpenNutriTracker is a free and open source calorie tracker with a focus on simplicity and privacy.",
+      "title": "drdon1234/Hentai-Park",
+      "url": "https://github.com/drdon1234/Hentai-Park",
+      "description": "跨平台成人内容聚合客户端：以站点插件整合漫画、图集、视频、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护。 | Cross-platform adult content client with source plugins for comics, galleries, videos, novels and game resources; unified search, rankings, reading, playback, subscriptions, offline downloads and privacy controls.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "2,917",
-      "forks": "441",
-      "addStars": "5",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "appshubcc/Bettbox",
-      "url": "https://github.com/appshubcc/Bettbox",
-      "description": "Another Better Network Toolbox",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "4,936",
-      "forks": "300",
-      "addStars": "5",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ImranR98/Obtainium",
-      "url": "https://github.com/ImranR98/Obtainium",
-      "description": "Get Android app updates straight from the source.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "21,567",
-      "forks": "697",
-      "addStars": "5",
+      "stars": "59",
+      "forks": "1",
+      "addStars": "14",
       "contributors": [],
       "source": "trendshift"
     },
@@ -612,153 +563,33 @@
       "description": "文析助手，一个跨平台的聚合网盘解析与管理软件，目前支持17家主流网盘解析。已支持安卓，iOS，Windows，macOS端",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "1,642",
-      "forks": "144",
-      "addStars": "5",
+      "stars": "1,680",
+      "forks": "150",
+      "addStars": "44",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "OpenSelfHosting/OpenKey",
-      "url": "https://github.com/OpenSelfHosting/OpenKey",
-      "description": "Self-hosted, end-to-end encrypted password manager by OpenSelfHosting.",
+      "title": "ch6vip/novel-sound",
+      "url": "https://github.com/ch6vip/novel-sound",
+      "description": "内容聚合 Android 客户端：小说/短剧/漫剧/听书/漫画，Flutter UI + 进程内 Rust 核心，无自建服务器、无需 root",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "67",
-      "forks": "5",
-      "addStars": "3",
+      "stars": "1,521",
+      "forks": "241",
+      "addStars": "36",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "hugeicons/hugeicons",
-      "url": "https://github.com/hugeicons/hugeicons",
-      "description": "Beautiful, consistent, pixel-perfect icons for every framework. 60,000+ icons (6,000+ free) for React, Vue, Svelte, Angular, React Native, Flutter and more.",
+      "title": "simonoppowa/OpenNutriTracker",
+      "url": "https://github.com/simonoppowa/OpenNutriTracker",
+      "description": "🍴 OpenNutriTracker is a free and open source calorie tracker with a focus on simplicity and privacy.",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "1,233",
-      "forks": "52",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "AneryCoft/course_helper",
-      "url": "https://github.com/AneryCoft/course_helper",
-      "description": "学习通/雨课堂课程管理，支持签到、随堂练习等功能",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "463",
-      "forks": "59",
-      "addStars": "4",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Starfallan/PiliNara",
-      "url": "https://github.com/Starfallan/PiliNara",
-      "description": "PiliPlus 的第三方Fork版本，做了一些自用改动",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "1,357",
-      "forks": "96",
-      "addStars": "4",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Sle2p/AniCh",
-      "url": "https://github.com/Sle2p/AniCh",
-      "description": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "8,129",
-      "forks": "168",
-      "addStars": "4",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "niuhuan/kobi",
-      "url": "https://github.com/niuhuan/kobi",
-      "description": "美观易用且无广告的漫画和轻小说客户端, 同时支持MacOS，Windows，Android，iOS。(拷贝漫画)",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "1,721",
-      "forks": "61",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Manuito83/torn-pda",
-      "url": "https://github.com/Manuito83/torn-pda",
-      "description": "TORN City personal assisstant",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "132",
-      "forks": "58",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "likelikeslike/ViPER4Windows",
-      "url": "https://github.com/likelikeslike/ViPER4Windows",
-      "description": "Redesigned ViPER4Windows.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "106",
-      "forks": "7",
-      "addStars": "2",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "TNT-Likely/BeeCount",
-      "url": "https://github.com/TNT-Likely/BeeCount",
-      "description": "Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP | 本地优先的跨端记账 · 自建云 + iCloud/WebDAV/S3 同步 · AI 记账 · MCP",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "2,817",
-      "forks": "417",
-      "addStars": "3",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "getlantern/lantern",
-      "url": "https://github.com/getlantern/lantern",
-      "description": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "16,810",
-      "forks": "11,056",
-      "addStars": "3",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "zzyoxml/md3Music",
-      "url": "https://github.com/zzyoxml/md3Music",
-      "description": "酷狗概念版 第三方音乐播放器 Flutter + Rust   ",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "1,445",
-      "forks": "87",
-      "addStars": "3",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Solido/awesome-flutter",
-      "url": "https://github.com/Solido/awesome-flutter",
-      "description": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
-      "language": "Dart",
-      "languageColor": "#00B4AB",
-      "stars": "61,926",
-      "forks": "6,706",
-      "addStars": "3",
+      "stars": "2,935",
+      "forks": "442",
+      "addStars": "24",
       "contributors": [],
       "source": "trendshift"
     },
@@ -768,9 +599,129 @@
       "description": "A cross-platform Bilibili third-party client focused on viewing experience | 跨平台B站第三方客户端 - 专注观看体验",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": "711",
+      "stars": "735",
       "forks": "33",
-      "addStars": "3",
+      "addStars": "28",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Sle2p/AniCh",
+      "url": "https://github.com/Sle2p/AniCh",
+      "description": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "8,153",
+      "forks": "169",
+      "addStars": "28",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "appshubcc/Bettbox",
+      "url": "https://github.com/appshubcc/Bettbox",
+      "description": "Another Better Network Toolbox",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "4,957",
+      "forks": "300",
+      "addStars": "25",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ImranR98/Obtainium",
+      "url": "https://github.com/ImranR98/Obtainium",
+      "description": "Get Android app updates straight from the source.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "21,586",
+      "forks": "699",
+      "addStars": "25",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "InlitX/GymMane",
+      "url": "https://github.com/InlitX/GymMane",
+      "description": " Offline gym log for Android. No account, no ads, no internet.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "1,779",
+      "forks": "209",
+      "addStars": "23",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "CyrilPeng/Venera-Next",
+      "url": "https://github.com/CyrilPeng/Venera-Next",
+      "description": "VeneraNext 是一个跨平台漫画阅读器，支持本地漫画、WebDAV 漫画源、第三方网络漫画源，支持 Android、iOS、Windows、Linux、macOS 平台。",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "2,345",
+      "forks": "83",
+      "addStars": "21",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Solido/awesome-flutter",
+      "url": "https://github.com/Solido/awesome-flutter",
+      "description": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "61,938",
+      "forks": "6,706",
+      "addStars": "18",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "zzyoxml/md3Music",
+      "url": "https://github.com/zzyoxml/md3Music",
+      "description": "酷狗概念版 第三方音乐播放器 Flutter + Rust   ",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "1,461",
+      "forks": "88",
+      "addStars": "17",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "bia-pain-bache/BPB-VPN",
+      "url": "https://github.com/bia-pain-bache/BPB-VPN",
+      "description": "An open-source VPN client for bypassing censorship, with self-deployed Cloudflare Workers, WARP, MASQUE, Psiphon, Tor and Chain proxies.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "391",
+      "forks": "17",
+      "addStars": "16",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "looplj/reveric",
+      "url": "https://github.com/looplj/reveric",
+      "description": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "880",
+      "forks": "211",
+      "addStars": "17",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "OpenSelfHosting/OpenKey",
+      "url": "https://github.com/OpenSelfHosting/OpenKey",
+      "description": "Self-hosted, end-to-end encrypted password manager by OpenSelfHosting.",
+      "language": "Dart",
+      "languageColor": "#00B4AB",
+      "stars": "74",
+      "forks": "5",
+      "addStars": "7",
       "contributors": [],
       "source": "trendshift"
     }
