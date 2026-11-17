@@ -1,7 +1,7 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { handleRepos, handleHn, handleReleases, handleNew, handleSkills, handleStars } from './repos.js';
-import { handleHidden, handleTracked } from './hidden.js';
+import { handleHidden, handleTracked, handleStar } from './hidden.js';
 
 // Above 15000, outside Windows' dynamic port range here (1024-15000), so Hyper-V/WSL never reserve it.
 const PORT = Number(process.env.PORT) || 18210;
@@ -28,6 +28,7 @@ createServer(async (req, res) => {
   if (path === '/api/skills') return handleSkills(req, res);
   if (path === '/api/new') return handleNew(req, res);
   if (path === '/api/releases') return handleReleases(req, res);
+  if (path === '/api/star') return handleStar(req, res);
   if (path === '/api/hidden') return handleHidden(req, res);
   if (path === '/api/tracked') return handleTracked(req, res);
   const file = STATIC[path];

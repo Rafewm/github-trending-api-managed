@@ -22,7 +22,7 @@ const upstash = createServer(async (req, res) => {
 process.env.KV_REST_API_URL = `http://127.0.0.1:${upstash.address().port}`;
 process.env.KV_REST_API_TOKEN = 'store-token';
 process.env.HIDE_KEY = 'right-key';
-const { handleHidden, handleTracked } = await import('./hidden.js');
+const { handleHidden, handleTracked, handleStar } = await import('./hidden.js');
 const app = createServer(handleHidden).listen(0);
 const trackApp = createServer(handleTracked).listen(0);
 const url = `http://127.0.0.1:${app.address().port}/api/hidden`;
@@ -75,4 +75,18 @@ test('tracked list is stored apart from the hidden list and needs the key', asyn
   assert.deepEqual(Object.keys(await res.json()), ['x/y']);
   assert.equal(store.has('x/y'), false);
   assert.deepEqual(await (await fetch(url)).json(), {});
+});
+
+test('star needs the key, POST and a safe repo name before calling GitHub', async () => {
+  const starApp = createServer(handleStar).listen(0);
+  const starUrl = `http://127.0.0.1:${starApp.address().port}/api/star`;
+  const star = (name, key = 'right-key', method = 'POST') =>
+    fetch(starUrl, { method, headers: { 'X-Hide-Key': key }, body: method === 'GET' ? undefined : JSON.stringify({ name }) });
+  try {
+    assert.equal((await star('a/b', 'wrong')).status, 401);
+    assert.equal((await star('a/b', 'right-key', 'GET')).status, 405);
+    for (const bad of ['../x', 'a/..', 'a/.', 'no-slash', 42]) assert.equal((await star(bad)).status, 400, String(bad));
+  } finally {
+    starApp.close();
+  }
 });

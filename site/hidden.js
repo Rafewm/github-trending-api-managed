@@ -5,6 +5,7 @@ import { REPO_NAME, cleanSnapshot } from './trending.js';
 const STORE_URL = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
 const STORE_TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
 const HIDE_KEY = process.env.HIDE_KEY;
+const TOKEN = process.env.UNSTARRED_TOKEN || process.env.GITHUB_TOKEN;
 const MAX_BODY = 1_000_000;
 
 class HttpError extends Error {
@@ -50,11 +51,21 @@ async function readBody(req) {
 
 const digest = (s) => createHash('sha256').update(String(s)).digest();
 
-async function writeList(req, key) {
+function checkKey(req) {
   if (!HIDE_KEY) throw new HttpError(503, 'HIDE_KEY is not set on the server.');
   if (!timingSafeEqual(digest(req.headers['x-hide-key'] ?? ''), digest(HIDE_KEY))) {
     throw new HttpError(401, 'Wrong hide key.');
   }
+}
+
+function fail(res, err) {
+  if (!err.status) console.error(err);
+  res.writeHead(err.status ?? 500, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+  res.end(JSON.stringify({ error: err.status ? err.message : 'Internal error.' }));
+}
+
+async function writeList(req, key) {
+  checkKey(req);
   const { hide = [], unhide = [] } = (await readBody(req)) ?? {};
   if (!Array.isArray(hide) || !Array.isArray(unhide)) throw new HttpError(400, 'hide and unhide must be arrays.');
   const repos = hide.map(cleanSnapshot);
@@ -75,12 +86,36 @@ const listHandler = (key) => async (req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
     res.end(body);
   } catch (err) {
-    if (!err.status) console.error(err);
-    res.writeHead(err.status ?? 500, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
-    res.end(JSON.stringify({ error: err.status ? err.message : 'Internal error.' }));
+    fail(res, err);
   }
 };
 
 export const handleHidden = listHandler('unstarred:hidden');
 // Repos saved for later: same rules and key as the hidden list, separate storage.
 export const handleTracked = listHandler('unstarred:tracked');
+
+// POST {"name": "owner/repo"} stars the repo on GitHub with the server's token. Needs the hide key like list writes.
+export async function handleStar(req, res) {
+  try {
+    if (req.method !== 'POST') throw new HttpError(405, 'Method not allowed.');
+    checkKey(req);
+    const { name } = (await readBody(req)) ?? {};
+    // REPO_NAME lets "." and ".." through, which fetch would resolve into a different API path.
+    if (typeof name !== 'string' || !REPO_NAME.test(name) || name.split('/').some((p) => p === '.' || p === '..')) {
+      throw new HttpError(400, 'Invalid repository name.');
+    }
+    const gh = await fetch(`https://api.github.com/user/starred/${name}`, {
+      method: 'PUT',
+      headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred', Accept: 'application/vnd.github+json', 'Content-Length': '0' },
+    });
+    // GitHub answers 403 or 404 when the token may read but not star, depending on the token type.
+    if (gh.status === 403 || gh.status === 404) {
+      throw new HttpError(502, `GitHub refused the star (${gh.status}). The server's token needs the Starring permission.`);
+    }
+    if (!gh.ok) throw new HttpError(502, `GitHub star failed: ${gh.status}`);
+    res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ starred: name }));
+  } catch (err) {
+    fail(res, err);
+  }
+}

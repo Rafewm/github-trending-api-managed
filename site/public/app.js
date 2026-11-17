@@ -95,6 +95,8 @@ let listQueue = Promise.resolve();
 let pendingSaves = 0;
 // Your newest stars, checked when you come back to the tab, so a repo you just starred leaves at once.
 let newStars = new Set();
+// Repos starred with the Star button. Kept apart from newStars, which each check replaces.
+const siteStars = new Set();
 const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', skills: 'stars', releases: 'release.score' };
 
 const kind = () => (FEEDS[view] ? view : 'trending');
@@ -114,13 +116,19 @@ function showError(text) {
 }
 
 // Returns the server's new list ('hidden' or 'tracked'), or null when no key was entered.
-async function saveList(list, change) {
+function hideKey() {
   let key = storage((s) => s.getItem(HIDE_KEY));
   if (!key) {
     key = prompt('Enter your hide key to change your lists.')?.trim();
     if (!key) return null;
     storage((s) => s.setItem(HIDE_KEY, key));
   }
+  return key;
+}
+
+async function saveList(list, change) {
+  const key = hideKey();
+  if (!key) return null;
   const res = await fetch(`/api/${list}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'X-Hide-Key': key },
@@ -168,7 +176,7 @@ const savedView = () => view === 'hidden' || view === 'tracked';
 
 // Hidden and tracked entries are snapshots so they stay listed after a repo leaves trending.
 function currentList() {
-  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name] && !tracked[r.name] && !newStars.has(r.name));
+  if (!savedView()) return (source()?.repos ?? []).filter((r) => !hidden[r.name] && !tracked[r.name] && !newStars.has(r.name) && !siteStars.has(r.name));
   const loaded = Object.values(feeds).flatMap((byPeriod) => Object.values(byPeriod).flatMap((d) => d.repos));
   const live = new Map([...loaded, ...(browse?.repos ?? [])].map((r) => [r.name, r]));
   return Object.values(view === 'hidden' ? hidden : tracked).map((r) => live.get(r.name) ?? r);
@@ -289,6 +297,7 @@ function row(repo) {
     }
     ${statusCell(repo)}
     <td class="col-actions">${trackButton}<div class="actions">
+      <button class="open" type="button" data-star="${esc(repo.name)}" aria-label="Star ${esc(repo.name)} on GitHub"><span aria-hidden="true">★</span> Star</button>
       ${hideButton}
       <a class="open" href="${url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${esc(repo.name)} on GitHub">GitHub ↗</a>
       ${story ? `<a class="open" href="${hnUrl}" target="_blank" rel="noopener noreferrer" aria-label="Open the Hacker News discussion for ${esc(repo.name)}">HN ↗</a>` : ''}
@@ -458,6 +467,40 @@ async function toggleList(button) {
   }
 }
 
+// Stars on GitHub through the server. The row leaves at once and comes back if the star fails.
+async function starRepo(button) {
+  const name = button.dataset.star;
+  const key = hideKey();
+  if (!key) return;
+  const lists = { hidden, tracked };
+  // A starred repo has no place in Hidden or Track, so starring one there also takes it off that list.
+  const list = savedView() ? view : null;
+  const entry = list && lists[list][name];
+  const index = [...$('rows').querySelectorAll('[data-star]')].indexOf(button);
+  siteStars.add(name);
+  if (entry) delete lists[list][name];
+  render();
+  const next = $('rows').querySelectorAll('[data-star]');
+  (next[index] ?? next[next.length - 1] ?? $(`tab-${view}`)).focus();
+  try {
+    const res = await fetch('/api/star', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Hide-Key': key },
+      body: JSON.stringify({ name }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (res.status === 401) storage((s) => s.removeItem(HIDE_KEY));
+    if (!res.ok) throw new Error(data.error ?? `Request failed: ${res.status}`);
+  } catch (err) {
+    siteStars.delete(name);
+    if (entry) (list === 'hidden' ? hidden : tracked)[name] = entry;
+    render();
+    showError(`Could not star ${name}: ${err.message}`);
+    return;
+  }
+  if (entry) queueSave(list, { unhide: [name] }).catch((err) => showError(`Starred, but could not update the ${list} list: ${err.message}`));
+}
+
 async function checkStars() {
   try {
     const res = await fetch('/api/stars', { cache: 'no-store' });
@@ -554,6 +597,8 @@ $('tab-releases').addEventListener('click', () => setView('releases'));
 $('tab-tracked').addEventListener('click', () => setView('tracked'));
 $('tab-hidden').addEventListener('click', () => setView('hidden'));
 $('rows').addEventListener('click', (e) => {
+  const star = e.target.closest('[data-star]');
+  if (star) return starRepo(star);
   const button = e.target.closest('[data-toggle]');
   if (button && !button.disabled) toggleList(button);
 });
