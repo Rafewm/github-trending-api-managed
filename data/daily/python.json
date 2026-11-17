@@ -2,49 +2,17 @@
   "title": "GitHub Python Languages Daily Trending",
   "description": "Daily Trending of Python Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 17 Nov 2026 02:45:39 GMT",
+  "pubDate": "Tue, 17 Nov 2026 12:45:51 GMT",
   "items": [
-    {
-      "title": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "6,400",
-      "forks": "1,334",
-      "addStars": "837",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/205491838?s=40&v=4",
-          "name": "tradermonty",
-          "url": "https://github.com/tradermonty"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/270693131?s=40&v=4",
-          "name": "raikkonenPotter",
-          "url": "https://github.com/raikkonenPotter"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42257?s=40&v=4",
-          "name": "wolframarnold",
-          "url": "https://github.com/wolframarnold"
-        }
-      ]
-    },
     {
       "title": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "7,508",
-      "forks": "1,156",
-      "addStars": "1,094",
+      "stars": "8,216",
+      "forks": "1,268",
+      "addStars": "1,007",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -74,9 +42,9 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "68,215",
-      "forks": "6,042",
-      "addStars": "135",
+      "stars": "68,597",
+      "forks": "6,110",
+      "addStars": "772",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
@@ -101,14 +69,73 @@
       ]
     },
     {
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "65,684",
+      "forks": "8,620",
+      "addStars": "188",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&v=4",
+          "name": "jingyaogong",
+          "url": "https://github.com/jingyaogong"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/124225682?s=40&v=4",
+          "name": "iomgaa-ycz",
+          "url": "https://github.com/iomgaa-ycz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/142557582?s=40&v=4",
+          "name": "Linxiushen",
+          "url": "https://github.com/Linxiushen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/70605804?s=40&v=4",
+          "name": "basil-k-aji-dev",
+          "url": "https://github.com/basil-k-aji-dev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16349082?s=40&v=4",
+          "name": "readlnh",
+          "url": "https://github.com/readlnh"
+        }
+      ]
+    },
+    {
+      "title": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "2,204",
+      "forks": "328",
+      "addStars": "1,175",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/34639474?s=40&v=4",
+          "name": "yiwen-song",
+          "url": "https://github.com/yiwen-song"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/31419980?s=40&v=4",
+          "name": "obrienciaran",
+          "url": "https://github.com/obrienciaran"
+        }
+      ]
+    },
+    {
       "title": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
       "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "2,809",
-      "forks": "367",
-      "addStars": "873",
+      "stars": "3,175",
+      "forks": "450",
+      "addStars": "969",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&v=4",
@@ -138,24 +165,61 @@
       ]
     },
     {
-      "title": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "title": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "1,636",
-      "forks": "246",
-      "addStars": "313",
+      "stars": "76,211",
+      "forks": "8,647",
+      "addStars": "325",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/34639474?s=40&v=4",
-          "name": "yiwen-song",
-          "url": "https://github.com/yiwen-song"
+          "avatar": "https://avatars.githubusercontent.com/u/49919286?s=40&v=4",
+          "name": "0xallam",
+          "url": "https://github.com/0xallam"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/31419980?s=40&v=4",
-          "name": "obrienciaran",
-          "url": "https://github.com/obrienciaran"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46074070?s=40&v=4",
+          "name": "bearsyankees",
+          "url": "https://github.com/bearsyankees"
+        }
+      ]
+    },
+    {
+      "title": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "6,738",
+      "forks": "1,390",
+      "addStars": "771",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/205491838?s=40&v=4",
+          "name": "tradermonty",
+          "url": "https://github.com/tradermonty"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/270693131?s=40&v=4",
+          "name": "raikkonenPotter",
+          "url": "https://github.com/raikkonenPotter"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42257?s=40&v=4",
+          "name": "wolframarnold",
+          "url": "https://github.com/wolframarnold"
         }
       ]
     },
@@ -165,9 +229,9 @@
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "6,917",
-      "forks": "609",
-      "addStars": "367",
+      "stars": "7,523",
+      "forks": "691",
+      "addStars": "1,376",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -182,19 +246,24 @@
       ]
     },
     {
-      "title": "isair/jarvis",
-      "url": "https://github.com/isair/jarvis",
-      "description": "A 100% private and local AI assistant for your desktop. Always present, able to jump into conversations. Supports unlimited MCP tools and unlimited memory with self-learning. Free WisprFlow alternative with its dictation support. Runs on macOS, Windows and Linux.",
+      "title": "dograh-hq/dograh",
+      "url": "https://github.com/dograh-hq/dograh",
+      "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "2,326",
-      "forks": "553",
-      "addStars": "25",
+      "stars": "6,169",
+      "forks": "1,594",
+      "addStars": "13",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/988213?s=40&v=4",
-          "name": "isair",
-          "url": "https://github.com/isair"
+          "avatar": "https://avatars.githubusercontent.com/u/8191081?s=40&v=4",
+          "name": "a6kme",
+          "url": "https://github.com/a6kme"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/87858386?s=40&v=4",
+          "name": "chewwbaka",
+          "url": "https://github.com/chewwbaka"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -202,137 +271,169 @@
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/97910170?s=40&v=4",
-          "name": "serdarkaleli",
-          "url": "https://github.com/serdarkaleli"
+          "avatar": "https://avatars.githubusercontent.com/u/16789275?s=40&v=4",
+          "name": "nuthalapativarun",
+          "url": "https://github.com/nuthalapativarun"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/226285732?s=40&v=4",
-          "name": "andresnunes1404",
-          "url": "https://github.com/andresnunes1404"
+          "avatar": "https://avatars.githubusercontent.com/u/292969434?s=40&v=4",
+          "name": "sandeepvemu-dograh",
+          "url": "https://github.com/sandeepvemu-dograh"
         }
       ]
     },
     {
-      "title": "openai/whisper",
-      "url": "https://github.com/openai/whisper",
-      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "title": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "112,860",
-      "forks": "13,671",
-      "addStars": "126",
+      "stars": "38,228",
+      "forks": "4,063",
+      "addStars": "161",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/266841?s=40&v=4",
-          "name": "jongwook",
-          "url": "https://github.com/jongwook"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3709715?s=40&v=4",
-          "name": "cclauss",
-          "url": "https://github.com/cclauss"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19899190?s=40&v=4",
-          "name": "ryanheise",
-          "url": "https://github.com/ryanheise"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/731031?s=40&v=4",
-          "name": "petterreinholdtsen",
-          "url": "https://github.com/petterreinholdtsen"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1714412?s=40&v=4",
-          "name": "HennerM",
-          "url": "https://github.com/HennerM"
-        }
-      ]
-    },
-    {
-      "title": "davila7/claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "33,878",
-      "forks": "4,013",
-      "addStars": "120",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6216945?s=40&v=4",
-          "name": "davila7",
-          "url": "https://github.com/davila7"
+          "avatar": "https://avatars.githubusercontent.com/u/23645449?s=40&v=4",
+          "name": "virgiliojr94",
+          "url": "https://github.com/virgiliojr94"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "name": "claude",
           "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/183437397?s=40&v=4",
+          "name": "dex0shubham",
+          "url": "https://github.com/dex0shubham"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/195990789?s=40&v=4",
+          "name": "Stamina9",
+          "url": "https://github.com/Stamina9"
         }
       ]
     },
     {
-      "title": "huggingface/transformers",
-      "url": "https://github.com/huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "title": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "169,089",
-      "forks": "35,215",
-      "addStars": "132",
+      "stars": "79,697",
+      "forks": "9,758",
+      "addStars": "88",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/35901082?s=40&v=4",
-          "name": "sgugger",
-          "url": "https://github.com/sgugger"
+          "avatar": "https://avatars.githubusercontent.com/u/67639393?s=40&v=4",
+          "name": "Prat011",
+          "url": "https://github.com/Prat011"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2521628?s=40&v=4",
-          "name": "ydshieh",
-          "url": "https://github.com/ydshieh"
+          "avatar": "https://avatars.githubusercontent.com/u/7982102?s=40&v=4",
+          "name": "sohamganatra",
+          "url": "https://github.com/sohamganatra"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7353373?s=40&v=4",
-          "name": "thomwolf",
-          "url": "https://github.com/thomwolf"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/30755778?s=40&v=4",
-          "name": "LysandreJik",
-          "url": "https://github.com/LysandreJik"
+          "avatar": "https://avatars.githubusercontent.com/u/24948667?s=40&v=4",
+          "name": "sanjay3290",
+          "url": "https://github.com/sanjay3290"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/23423619?s=40&v=4",
-          "name": "patrickvonplaten",
-          "url": "https://github.com/patrickvonplaten"
+          "avatar": "https://avatars.githubusercontent.com/u/167574?s=40&v=4",
+          "name": "mellson",
+          "url": "https://github.com/mellson"
         }
       ]
     },
     {
-      "title": "ifixai-ai/iFixAi",
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "title": "HKUDS/RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "46,128",
-      "forks": "1,823",
-      "addStars": "311",
+      "stars": "24,574",
+      "forks": "2,878",
+      "addStars": "9",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "name": "rudycelekli",
-          "url": "https://github.com/rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/49157727?s=40&v=4",
+          "name": "LarFii",
+          "url": "https://github.com/LarFii"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/258243974?s=40&v=4",
-          "name": "n-papaioannou",
-          "url": "https://github.com/n-papaioannou"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/260612219?s=40&v=4",
-          "name": "stefyi-4355",
-          "url": "https://github.com/stefyi-4355"
+          "avatar": "https://avatars.githubusercontent.com/u/88304745?s=40&v=4",
+          "name": "StevenSiahaann",
+          "url": "https://github.com/StevenSiahaann"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/204865953?s=40&v=4",
+          "name": "chaohuang-ai",
+          "url": "https://github.com/chaohuang-ai"
+        }
+      ]
+    },
+    {
+      "title": "HKUDS/AutoSwarm",
+      "url": "https://github.com/HKUDS/AutoSwarm",
+      "description": "AutoSwarm: Unify All Your Agents. Break Context Barriers. Watch Them Work Together for You.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "2,615",
+      "forks": "437",
+      "addStars": "54",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/90381931?s=40&v=4",
+          "name": "LZH-YS1998",
+          "url": "https://github.com/LZH-YS1998"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/204865953?s=40&v=4",
+          "name": "chaohuang-ai",
+          "url": "https://github.com/chaohuang-ai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4724788?s=40&v=4",
+          "name": "cgycorey",
+          "url": "https://github.com/cgycorey"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/83827003?s=40&v=4",
+          "name": "CatJuly",
+          "url": "https://github.com/CatJuly"
+        }
+      ]
+    },
+    {
+      "title": "3441293738/creatorhub",
+      "url": "https://github.com/3441293738/creatorhub",
+      "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手 / 视频号 / TikTok",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "3,613",
+      "forks": "708",
+      "addStars": "124",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/122080135?s=40&v=4",
+          "name": "3441293738",
+          "url": "https://github.com/3441293738"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -347,8 +448,8 @@
       "description": "Open-source, self-hosted AI agent platform for your company's AI teammates. Build, run and govern agents on your own servers and models: shared chat, RAG, skills, a real browser, 4,700+ MCP servers, budgets, approvals and an audit trail. An alternative to ChatGPT Enterprise and Grok Bot. Apache-2.0, built on Pydantic AI.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "370",
-      "forks": "63",
+      "stars": "390",
+      "forks": "68",
       "addStars": "59",
       "contributors": [
         {
@@ -374,150 +475,39 @@
       ]
     },
     {
-      "title": "HKUDS/Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "38,392",
-      "forks": "6,250",
-      "addStars": "92",
+      "stars": "149,335",
+      "forks": "14,361",
+      "addStars": "615",
       "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/127300695?s=40&v=4",
-          "name": "warren618",
-          "url": "https://github.com/warren618"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2840631?s=40&v=4",
-          "name": "shadowinlife",
-          "url": "https://github.com/shadowinlife"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/64453045?s=40&v=4",
-          "name": "santhreal",
-          "url": "https://github.com/santhreal"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "name": "rudycelekli",
-          "url": "https://github.com/rudycelekli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/136805224?s=40&v=4",
-          "name": "Shizoqua",
-          "url": "https://github.com/Shizoqua"
-        }
-      ]
-    },
-    {
-      "title": "bkerler/mtkclient",
-      "url": "https://github.com/bkerler/mtkclient",
-      "description": "Mediatek Flash and Repair Utility",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "1,542",
-      "forks": "313",
-      "addStars": "9",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6317772?s=40&v=4",
-          "name": "bkerler",
-          "url": "https://github.com/bkerler"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/296002993?s=40&v=4",
-          "name": "nenyuxdev",
-          "url": "https://github.com/nenyuxdev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42168917?s=40&v=4",
-          "name": "timbeh",
-          "url": "https://github.com/timbeh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11697869?s=40&v=4",
-          "name": "gat45",
-          "url": "https://github.com/gat45"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39171306?s=40&v=4",
-          "name": "R0rt1z2",
-          "url": "https://github.com/R0rt1z2"
-        }
-      ]
-    },
-    {
-      "title": "FujiwaraChoki/supoclip",
-      "url": "https://github.com/FujiwaraChoki/supoclip",
-      "description": "An open-source OpusClip alternative",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "3,329",
-      "forks": "746",
-      "addStars": "109",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/78088687?s=40&v=4",
-          "name": "FujiwaraChoki",
-          "url": "https://github.com/FujiwaraChoki"
-        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "name": "claude",
           "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "name": "cursoragent",
-          "url": "https://github.com/cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/216348667?s=40&v=4",
+          "name": "safishamsi",
+          "url": "https://github.com/safishamsi"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "name": "codex",
-          "url": "https://github.com/codex"
+          "avatar": "https://avatars.githubusercontent.com/u/144055433?s=40&v=4",
+          "name": "ayushcodes10",
+          "url": "https://github.com/ayushcodes10"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2454364?s=40&v=4",
-          "name": "stale2000",
-          "url": "https://github.com/stale2000"
-        }
-      ]
-    },
-    {
-      "title": "superdesigndev/treg",
-      "url": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "8,181",
-      "forks": "778",
-      "addStars": "88",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&v=4",
-          "name": "JayZeeDesign",
-          "url": "https://github.com/JayZeeDesign"
+          "avatar": "https://avatars.githubusercontent.com/u/74607221?s=40&v=4",
+          "name": "Deepjyoti-Sarmah",
+          "url": "https://github.com/Deepjyoti-Sarmah"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6255130?s=40&v=4",
-          "name": "stonexer",
-          "url": "https://github.com/stonexer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/64325867?s=40&v=4",
-          "name": "shehjad-dev",
-          "url": "https://github.com/shehjad-dev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12494079?s=40&v=4",
-          "name": "unclecode",
-          "url": "https://github.com/unclecode"
+          "avatar": "https://avatars.githubusercontent.com/u/160410581?s=40&v=4",
+          "name": "rohit-jsfreaky",
+          "url": "https://github.com/rohit-jsfreaky"
         }
       ]
     },
@@ -527,21 +517,33 @@
       "description": "Offline knowledge library for survival and rebuilding",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "330",
+      "stars": "1,066",
       "forks": "14",
-      "addStars": "167",
+      "addStars": "824",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "waw666waw666/RegisterHub",
-      "url": "https://github.com/waw666waw666/RegisterHub",
-      "description": "万能注册机模板 | Universal Auto-Registration Template",
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "148",
-      "forks": "70",
-      "addStars": "25",
+      "stars": "41,186",
+      "forks": "4,879",
+      "addStars": "464",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "EL4CTEO/blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills",
+      "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "1,657",
+      "forks": "140",
+      "addStars": "327",
       "contributors": [],
       "source": "trendshift"
     },
@@ -551,141 +553,21 @@
       "description": "PyBot: a chatbot written in pure Python by a swarm of agents. No weights, no training, just rules.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "183",
-      "forks": "0",
-      "addStars": "35",
+      "stars": "443",
+      "forks": "36",
+      "addStars": "287",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
+      "title": "ethanplusai/sellbird",
+      "url": "https://github.com/ethanplusai/sellbird",
+      "description": "Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "196,082",
-      "forks": "24,128",
-      "addStars": "77",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "morganlinton/BeautifulRust",
-      "url": "https://github.com/morganlinton/BeautifulRust",
-      "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "1,908",
-      "forks": "96",
-      "addStars": "29",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "111,938",
-      "forks": "12,669",
-      "addStars": "77",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "58,831",
-      "forks": "5,568",
-      "addStars": "35",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "aryamandarda/tamserve",
-      "url": "https://github.com/aryamandarda/tamserve",
-      "description": "Live, multi-camera object tracking with SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "23",
-      "forks": "2",
-      "addStars": "15",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "bojieli/ai-agent-book",
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "58,352",
-      "forks": "6,937",
-      "addStars": "43",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "149,057",
-      "forks": "15,028",
-      "addStars": "54",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "150,460",
-      "forks": "16,617",
-      "addStars": "52",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "NVIDIA/cuPotential",
-      "url": "https://github.com/NVIDIA/cuPotential",
-      "description": "",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "16",
-      "forks": "0",
-      "addStars": "19",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Sunghwan0112/spritecast",
-      "url": "https://github.com/Sunghwan0112/spritecast",
-      "description": "Claude Code plugin: game sprites at your game's exact camera angle, drawn in your art style - props, 8-direction walking characters, characters seated on your own chairs (3D-guided)",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "119",
-      "forks": "9",
-      "addStars": "19",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "hugohe3/ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "77,535",
-      "forks": "6,331",
-      "addStars": "49",
+      "stars": "6,085",
+      "forks": "1,285",
+      "addStars": "296",
       "contributors": [],
       "source": "trendshift"
     },
@@ -695,33 +577,141 @@
       "description": "",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "3,263",
+      "stars": "3,394",
       "forks": "452",
-      "addStars": "32",
+      "addStars": "156",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "196,400",
+      "forks": "24,207",
+      "addStars": "382",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "2,027",
+      "forks": "96",
+      "addStars": "141",
       "contributors": [],
       "source": "trendshift"
     },
     {
       "title": "JuneYaooo/rea-video",
       "url": "https://github.com/JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "9,704",
-      "forks": "1,416",
-      "addStars": "50",
+      "stars": "10,011",
+      "forks": "1,470",
+      "addStars": "341",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "blader/humanizer",
-      "url": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "69,916",
-      "forks": "5,748",
-      "addStars": "45",
+      "stars": "112,290",
+      "forks": "12,749",
+      "addStars": "444",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "microsoft/TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "7,383",
+      "forks": "498",
+      "addStars": "241",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "waw666waw666/RegisterHub",
+      "url": "https://github.com/waw666waw666/RegisterHub",
+      "description": "万能注册机模板 | Universal Auto-Registration Template",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "232",
+      "forks": "208",
+      "addStars": "104",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "58,921",
+      "forks": "5,578",
+      "addStars": "123",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "heardlabs/heard",
+      "url": "https://github.com/heardlabs/heard",
+      "description": "Open-source (Apache 2.0) voice tool for Claude Code and Codex on macOS that reads your coding agent's progress aloud. The voice runs locally with Kokoro, no account needed, or bring your own ElevenLabs or Speechify key. Hear a short spoken summary when your agent finishes, fails or needs approval.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "549",
+      "forks": "35",
+      "addStars": "111",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "77,753",
+      "forks": "6,363",
+      "addStars": "250",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "112,541",
+      "forks": "10,739",
+      "addStars": "227",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "150,680",
+      "forks": "16,671",
+      "addStars": "263",
       "contributors": [],
       "source": "trendshift"
     },
@@ -731,9 +721,9 @@
       "description": "Personal AI, On Personal Devices",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "15,992",
-      "forks": "4,020",
-      "addStars": "43",
+      "stars": "16,171",
+      "forks": "4,089",
+      "addStars": "221",
       "contributors": [],
       "source": "trendshift"
     }

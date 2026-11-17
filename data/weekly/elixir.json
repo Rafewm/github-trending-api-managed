@@ -2,7 +2,7 @@
   "title": "GitHub Elixir Languages Weekly Trending",
   "description": "Weekly Trending of Elixir Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 17 Nov 2026 02:45:39 GMT",
+  "pubDate": "Tue, 17 Nov 2026 12:45:51 GMT",
   "items": [
     {
       "title": "supabase/realtime",
@@ -42,43 +42,6 @@
       ]
     },
     {
-      "title": "kieraneglin/pinchflat",
-      "url": "https://github.com/kieraneglin/pinchflat",
-      "description": "Your next YouTube media manager",
-      "language": "Elixir",
-      "languageColor": "#6e4a7e",
-      "stars": "5,468",
-      "forks": "183",
-      "addStars": "26",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/569917?s=40&v=4",
-          "name": "kieraneglin",
-          "url": "https://github.com/kieraneglin"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/64379246?s=40&v=4",
-          "name": "robertkleinschuster",
-          "url": "https://github.com/robertkleinschuster"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/213795?s=40&v=4",
-          "name": "onedr0p",
-          "url": "https://github.com/onedr0p"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/33544?s=40&v=4",
-          "name": "philips",
-          "url": "https://github.com/philips"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/271673?s=40&v=4",
-          "name": "ddacunha",
-          "url": "https://github.com/ddacunha"
-        }
-      ]
-    },
-    {
       "title": "blockscout/blockscout",
       "url": "https://github.com/blockscout/blockscout",
       "description": "Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains.",
@@ -111,34 +74,39 @@
       ]
     },
     {
-      "title": "plausible/analytics",
-      "url": "https://github.com/plausible/analytics",
-      "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+      "title": "kieraneglin/pinchflat",
+      "url": "https://github.com/kieraneglin/pinchflat",
+      "description": "Your next YouTube media manager",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "29,869",
-      "forks": "1,941",
-      "addStars": "71",
+      "stars": "5,469",
+      "forks": "183",
+      "addStars": "26",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3731516?s=40&v=4",
-          "name": "ukutaht",
-          "url": "https://github.com/ukutaht"
+          "avatar": "https://avatars.githubusercontent.com/u/569917?s=40&v=4",
+          "name": "kieraneglin",
+          "url": "https://github.com/kieraneglin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/173738?s=40&v=4",
-          "name": "aerosol",
-          "url": "https://github.com/aerosol"
+          "avatar": "https://avatars.githubusercontent.com/u/64379246?s=40&v=4",
+          "name": "robertkleinschuster",
+          "url": "https://github.com/robertkleinschuster"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/588351?s=40&v=4",
-          "name": "zoldar",
-          "url": "https://github.com/zoldar"
+          "avatar": "https://avatars.githubusercontent.com/u/213795?s=40&v=4",
+          "name": "onedr0p",
+          "url": "https://github.com/onedr0p"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/56999674?s=40&v=4",
-          "name": "RobertJoonas",
-          "url": "https://github.com/RobertJoonas"
+          "avatar": "https://avatars.githubusercontent.com/u/33544?s=40&v=4",
+          "name": "philips",
+          "url": "https://github.com/philips"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/271673?s=40&v=4",
+          "name": "ddacunha",
+          "url": "https://github.com/ddacunha"
         }
       ]
     },
@@ -180,6 +148,102 @@
       ]
     },
     {
+      "title": "plausible/analytics",
+      "url": "https://github.com/plausible/analytics",
+      "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+      "language": "Elixir",
+      "languageColor": "#6e4a7e",
+      "stars": "29,870",
+      "forks": "1,941",
+      "addStars": "71",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3731516?s=40&v=4",
+          "name": "ukutaht",
+          "url": "https://github.com/ukutaht"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/173738?s=40&v=4",
+          "name": "aerosol",
+          "url": "https://github.com/aerosol"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/588351?s=40&v=4",
+          "name": "zoldar",
+          "url": "https://github.com/zoldar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/56999674?s=40&v=4",
+          "name": "RobertJoonas",
+          "url": "https://github.com/RobertJoonas"
+        }
+      ]
+    },
+    {
+      "title": "Spectral-Finance/lux",
+      "url": "https://github.com/Spectral-Finance/lux",
+      "description": "Lux is an open-source framework for building multi-agent, swarmed intelligence built by Spectral Labs. With Beams, Prisms, Lenses, and Signals, it orchestrates AI-driven workflows to create truly autonomous organizations.",
+      "language": "Elixir",
+      "languageColor": "#6e4a7e",
+      "stars": "140",
+      "forks": "169",
+      "addStars": "1",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/923630?s=40&v=4",
+          "name": "rparcus",
+          "url": "https://github.com/rparcus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/286950?s=40&v=4",
+          "name": "chitacan",
+          "url": "https://github.com/chitacan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14638987?s=40&v=4",
+          "name": "IdrisHanafi",
+          "url": "https://github.com/IdrisHanafi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/126037263?s=40&v=4",
+          "name": "sojinmm",
+          "url": "https://github.com/sojinmm"
+        }
+      ]
+    },
+    {
+      "title": "teslamate-org/teslamate",
+      "url": "https://github.com/teslamate-org/teslamate",
+      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+      "language": "Elixir",
+      "languageColor": "#6e4a7e",
+      "stars": "9,279",
+      "forks": "1,042",
+      "addStars": "28",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8999358?s=40&v=4",
+          "name": "adriankumpf",
+          "url": "https://github.com/adriankumpf"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16510328?s=40&v=4",
+          "name": "JakobLichterfeld",
+          "url": "https://github.com/JakobLichterfeld"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2990373?s=40&v=4",
+          "name": "swiffer",
+          "url": "https://github.com/swiffer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        }
+      ]
+    },
+    {
       "title": "elixir-lsp/elixir_sense",
       "url": "https://github.com/elixir-lsp/elixir_sense",
       "description": "Provides context-aware information for code completion, documentation, go/jump to definition, signature info and more",
@@ -217,44 +281,12 @@
       ]
     },
     {
-      "title": "teslamate-org/teslamate",
-      "url": "https://github.com/teslamate-org/teslamate",
-      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
-      "language": "Elixir",
-      "languageColor": "#6e4a7e",
-      "stars": "9,275",
-      "forks": "1,042",
-      "addStars": "28",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8999358?s=40&v=4",
-          "name": "adriankumpf",
-          "url": "https://github.com/adriankumpf"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16510328?s=40&v=4",
-          "name": "JakobLichterfeld",
-          "url": "https://github.com/JakobLichterfeld"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2990373?s=40&v=4",
-          "name": "swiffer",
-          "url": "https://github.com/swiffer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        }
-      ]
-    },
-    {
       "title": "firezone/firezone",
       "url": "https://github.com/firezone/firezone",
       "description": "Blazing-fast remote access",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "9,188",
+      "stars": "9,189",
       "forks": "467",
       "addStars": "16",
       "contributors": [
@@ -281,66 +313,39 @@
       ]
     },
     {
-      "title": "ash-project/ash",
-      "url": "https://github.com/ash-project/ash",
-      "description": "A declarative, extensible framework for building Elixir applications.",
+      "title": "Tymeslot/tymeslot",
+      "url": "https://github.com/Tymeslot/tymeslot",
+      "description": "Open-source meeting scheduling platform built with Elixir/Phoenix LiveView. Self-host or use the managed cloud at tymeslot.app.",
       "language": "Elixir",
       "languageColor": "#6e4a7e",
-      "stars": "2,568",
-      "forks": "470",
-      "addStars": "12",
+      "stars": "318",
+      "forks": "62",
+      "addStars": "10",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5722339?s=40&v=4",
-          "name": "zachdaniel",
-          "url": "https://github.com/zachdaniel"
+          "avatar": "https://avatars.githubusercontent.com/u/24662784?s=40&v=4",
+          "name": "wahve3",
+          "url": "https://github.com/wahve3"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11669837?s=40&v=4",
-          "name": "barnabasJ",
-          "url": "https://github.com/barnabasJ"
+          "avatar": "https://avatars.githubusercontent.com/u/3321655?s=40&v=4",
+          "name": "jacotec",
+          "url": "https://github.com/jacotec"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/59449?s=40&v=4",
-          "name": "jimsynz",
-          "url": "https://github.com/jimsynz"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/543859?s=40&v=4",
-          "name": "sevenseacat",
-          "url": "https://github.com/sevenseacat"
-        }
-      ]
-    },
-    {
-      "title": "Spectral-Finance/lux",
-      "url": "https://github.com/Spectral-Finance/lux",
-      "description": "Lux is an open-source framework for building multi-agent, swarmed intelligence built by Spectral Labs. With Beams, Prisms, Lenses, and Signals, it orchestrates AI-driven workflows to create truly autonomous organizations.",
-      "language": "Elixir",
-      "languageColor": "#6e4a7e",
-      "stars": "139",
-      "forks": "169",
-      "addStars": "1",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/923630?s=40&v=4",
-          "name": "rparcus",
-          "url": "https://github.com/rparcus"
+          "avatar": "https://avatars.githubusercontent.com/u/105296759?s=40&v=4",
+          "name": "j-cvx",
+          "url": "https://github.com/j-cvx"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/286950?s=40&v=4",
-          "name": "chitacan",
-          "url": "https://github.com/chitacan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14638987?s=40&v=4",
-          "name": "IdrisHanafi",
-          "url": "https://github.com/IdrisHanafi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/126037263?s=40&v=4",
-          "name": "sojinmm",
-          "url": "https://github.com/sojinmm"
+          "avatar": "https://avatars.githubusercontent.com/u/36459148?s=40&v=4",
+          "name": "evoludigit",
+          "url": "https://github.com/evoludigit"
         }
       ]
     }

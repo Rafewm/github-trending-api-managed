@@ -3,7 +3,7 @@
     <title>GitHub C Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of C Languages in GitHub</description>
-    <pubDate>Tue, 17 Nov 2026 02:45:39 GMT</pubDate>
+    <pubDate>Tue, 17 Nov 2026 12:45:51 GMT</pubDate>
     <item>
       <title>JustVugg/colibri</title>
       <link>https://github.com/JustVugg/colibri</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/JustVugg/colibri</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>51,601</stars>
-      <forks>6,241</forks>
+      <stars>51,667</stars>
+      <forks>6,258</forks>
       <addStars>2,306</addStars>
       <contributors>
         <contributor>
@@ -43,40 +43,40 @@
       </contributors>
     </item>
     <item>
-      <title>redis/redis</title>
-      <link>https://github.com/redis/redis</link>
-      <description>For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.</description>
-      <guid>https://github.com/redis/redis</guid>
+      <title>nothings/stb</title>
+      <link>https://github.com/nothings/stb</link>
+      <description>stb single-file public domain libraries for C/C++</description>
+      <guid>https://github.com/nothings/stb</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>77,512</stars>
-      <forks>25,054</forks>
-      <addStars>292</addStars>
+      <stars>35,042</stars>
+      <forks>8,125</forks>
+      <addStars>70</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/65632?s=40&amp;v=4</avatar>
-          <name>antirez</name>
-          <url>https://github.com/antirez</url>
+          <avatar>https://avatars.githubusercontent.com/u/7525026?s=40&amp;v=4</avatar>
+          <name>nothings</name>
+          <url>https://github.com/nothings</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7045099?s=40&amp;v=4</avatar>
-          <name>oranagra</name>
-          <url>https://github.com/oranagra</url>
+          <avatar>https://avatars.githubusercontent.com/u/1077496?s=40&amp;v=4</avatar>
+          <name>rygorous</name>
+          <url>https://github.com/rygorous</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/9845?s=40&amp;v=4</avatar>
-          <name>pietern</name>
-          <url>https://github.com/pietern</url>
+          <avatar>https://avatars.githubusercontent.com/u/815310?s=40&amp;v=4</avatar>
+          <name>BSVino</name>
+          <url>https://github.com/BSVino</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/965798?s=40&amp;v=4</avatar>
-          <name>sundb</name>
-          <url>https://github.com/sundb</url>
+          <avatar>https://avatars.githubusercontent.com/u/8225057?s=40&amp;v=4</avatar>
+          <name>ocornut</name>
+          <url>https://github.com/ocornut</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/22811481?s=40&amp;v=4</avatar>
-          <name>enjoy-binbin</name>
-          <url>https://github.com/enjoy-binbin</url>
+          <avatar>https://avatars.githubusercontent.com/u/7214365?s=40&amp;v=4</avatar>
+          <name>rwhitworth</name>
+          <url>https://github.com/rwhitworth</url>
         </contributor>
       </contributors>
     </item>
@@ -87,7 +87,7 @@
       <guid>https://github.com/DarkFlippers/unleashed-firmware</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>22,764</stars>
+      <stars>22,769</stars>
       <forks>1,990</forks>
       <addStars>92</addStars>
       <contributors>
@@ -119,14 +119,52 @@
       </contributors>
     </item>
     <item>
+      <title>redis/redis</title>
+      <link>https://github.com/redis/redis</link>
+      <description>For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.</description>
+      <guid>https://github.com/redis/redis</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>77,537</stars>
+      <forks>25,055</forks>
+      <addStars>292</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/65632?s=40&amp;v=4</avatar>
+          <name>antirez</name>
+          <url>https://github.com/antirez</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7045099?s=40&amp;v=4</avatar>
+          <name>oranagra</name>
+          <url>https://github.com/oranagra</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/9845?s=40&amp;v=4</avatar>
+          <name>pietern</name>
+          <url>https://github.com/pietern</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/965798?s=40&amp;v=4</avatar>
+          <name>sundb</name>
+          <url>https://github.com/sundb</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/22811481?s=40&amp;v=4</avatar>
+          <name>enjoy-binbin</name>
+          <url>https://github.com/enjoy-binbin</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>git/git</title>
       <link>https://github.com/git/git</link>
       <description>Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.</description>
       <guid>https://github.com/git/git</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>64,347</stars>
-      <forks>28,767</forks>
+      <stars>64,351</stars>
+      <forks>28,770</forks>
       <addStars>156</addStars>
       <contributors>
         <contributor>
@@ -163,8 +201,8 @@
       <guid>https://github.com/Genymobile/scrcpy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>154,995</stars>
-      <forks>14,232</forks>
+      <stars>155,042</stars>
+      <forks>14,241</forks>
       <addStars>617</addStars>
       <contributors>
         <contributor>
@@ -195,40 +233,111 @@
       </contributors>
     </item>
     <item>
-      <title>nothings/stb</title>
-      <link>https://github.com/nothings/stb</link>
-      <description>stb single-file public domain libraries for C/C++</description>
-      <guid>https://github.com/nothings/stb</guid>
+      <title>meshcore-dev/MeshCore</title>
+      <link>https://github.com/meshcore-dev/MeshCore</link>
+      <description>A new lightweight, hybrid routing mesh protocol for packet radios</description>
+      <guid>https://github.com/meshcore-dev/MeshCore</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>35,042</stars>
-      <forks>8,124</forks>
-      <addStars>70</addStars>
+      <stars>4,082</stars>
+      <forks>1,602</forks>
+      <addStars>54</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7525026?s=40&amp;v=4</avatar>
-          <name>nothings</name>
-          <url>https://github.com/nothings</url>
+          <avatar>https://avatars.githubusercontent.com/u/172365781?s=40&amp;v=4</avatar>
+          <name>ripplebiz</name>
+          <url>https://github.com/ripplebiz</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1077496?s=40&amp;v=4</avatar>
-          <name>rygorous</name>
-          <url>https://github.com/rygorous</url>
+          <avatar>https://avatars.githubusercontent.com/u/3173581?s=40&amp;v=4</avatar>
+          <name>liamcottle</name>
+          <url>https://github.com/liamcottle</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/815310?s=40&amp;v=4</avatar>
-          <name>BSVino</name>
-          <url>https://github.com/BSVino</url>
+          <avatar>https://avatars.githubusercontent.com/u/4464292?s=40&amp;v=4</avatar>
+          <name>fdlamotte</name>
+          <url>https://github.com/fdlamotte</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8225057?s=40&amp;v=4</avatar>
-          <name>ocornut</name>
-          <url>https://github.com/ocornut</url>
+          <avatar>https://avatars.githubusercontent.com/u/37787853?s=40&amp;v=4</avatar>
+          <name>oltaco</name>
+          <url>https://github.com/oltaco</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7214365?s=40&amp;v=4</avatar>
-          <name>rwhitworth</name>
-          <url>https://github.com/rwhitworth</url>
+          <avatar>https://avatars.githubusercontent.com/u/1572066?s=40&amp;v=4</avatar>
+          <name>recrof</name>
+          <url>https://github.com/recrof</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>semgrep/semgrep</title>
+      <link>https://github.com/semgrep/semgrep</link>
+      <description>Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.</description>
+      <guid>https://github.com/semgrep/semgrep</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>17,760</stars>
+      <forks>1,195</forks>
+      <addStars>178</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/332336?s=40&amp;v=4</avatar>
+          <name>aryx</name>
+          <url>https://github.com/aryx</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5313615?s=40&amp;v=4</avatar>
+          <name>IagoAbal</name>
+          <url>https://github.com/IagoAbal</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6498855?s=40&amp;v=4</avatar>
+          <name>brendongo</name>
+          <url>https://github.com/brendongo</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/7988361?s=40&amp;v=4</avatar>
+          <name>nmote</name>
+          <url>https://github.com/nmote</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>eclipse-mosquitto/mosquitto</title>
+      <link>https://github.com/eclipse-mosquitto/mosquitto</link>
+      <description>Eclipse Mosquitto - An open source MQTT broker</description>
+      <guid>https://github.com/eclipse-mosquitto/mosquitto</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>11,460</stars>
+      <forks>2,668</forks>
+      <addStars>105</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/79578?s=40&amp;v=4</avatar>
+          <name>ralight</name>
+          <url>https://github.com/ralight</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/43614633?s=40&amp;v=4</avatar>
+          <name>keptt</name>
+          <url>https://github.com/keptt</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/127907?s=40&amp;v=4</avatar>
+          <name>karlp</name>
+          <url>https://github.com/karlp</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/10656714?s=40&amp;v=4</avatar>
+          <name>NorbertHeusser</name>
+          <url>https://github.com/NorbertHeusser</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/359833?s=40&amp;v=4</avatar>
+          <name>PierreF</name>
+          <url>https://github.com/PierreF</url>
         </contributor>
       </contributors>
     </item>
@@ -239,8 +348,8 @@
       <guid>https://github.com/ventoy/Ventoy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>80,925</stars>
-      <forks>5,086</forks>
+      <stars>80,963</stars>
+      <forks>5,094</forks>
       <addStars>324</addStars>
       <contributors>
         <contributor>
@@ -271,27 +380,27 @@
       </contributors>
     </item>
     <item>
-      <title>igawa6/peanuts-native</title>
-      <link>https://github.com/igawa6/peanuts-native</link>
-      <description/>
-      <guid>https://github.com/igawa6/peanuts-native</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>269</stars>
-      <forks>6</forks>
-      <addStars>139</addStars>
-      <contributors/>
-    </item>
-    <item>
       <title>Zagitta/gpu-unlock</title>
       <link>https://github.com/Zagitta/gpu-unlock</link>
       <description>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput</description>
       <guid>https://github.com/Zagitta/gpu-unlock</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>20,011</stars>
+      <stars>20,108</stars>
       <forks>2,077</forks>
-      <addStars>302</addStars>
+      <addStars>413</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>igawa6/peanuts-native</title>
+      <link>https://github.com/igawa6/peanuts-native</link>
+      <description/>
+      <guid>https://github.com/igawa6/peanuts-native</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>288</stars>
+      <forks>6</forks>
+      <addStars>162</addStars>
       <contributors/>
     </item>
     <item>
@@ -301,9 +410,9 @@
       <guid>https://github.com/inotbarnacle/ID6_apps_prerelease</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>283</stars>
+      <stars>291</stars>
       <forks>46</forks>
-      <addStars>74</addStars>
+      <addStars>83</addStars>
       <contributors/>
     </item>
     <item>
@@ -313,69 +422,9 @@
       <guid>https://github.com/torvalds/linux</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>255,942</stars>
-      <forks>62,437</forks>
-      <addStars>141</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>iqui27/nuvio-native-legacy</title>
-      <link>https://github.com/iqui27/nuvio-native-legacy</link>
-      <description>Unofficial native Nuvio client for LG webOS 3+, Samsung Tizen 4+, GoogleTV 7+. C/SDL2/GLES2 on LG and on Samsung (native .tpk, Tizen 4.0-9), plus a WebAssembly .wgt for Tizen 5.5+. Install from the Homebrew Channel or the releases.</description>
-      <guid>https://github.com/iqui27/nuvio-native-legacy</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>555</stars>
-      <forks>77</forks>
-      <addStars>72</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Revivedx/SavageWindRecomp</title>
-      <link>https://github.com/Revivedx/SavageWindRecomp</link>
-      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
-      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>4,645</stars>
-      <forks>281</forks>
-      <addStars>145</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>hyperionaidev/smolmaxxing</title>
-      <link>https://github.com/hyperionaidev/smolmaxxing</link>
-      <description>maxxing the ability to run different LLMs on the smallest devices possible</description>
-      <guid>https://github.com/hyperionaidev/smolmaxxing</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>881</stars>
-      <forks>33</forks>
-      <addStars>138</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>adriadam10/mkw-recomp</title>
-      <link>https://github.com/adriadam10/mkw-recomp</link>
-      <description>Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program</description>
-      <guid>https://github.com/adriadam10/mkw-recomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,362</stars>
-      <forks>88</forks>
-      <addStars>143</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>valentderah/totk-pc-recomp</title>
-      <link>https://github.com/valentderah/totk-pc-recomp</link>
-      <description>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.</description>
-      <guid>https://github.com/valentderah/totk-pc-recomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>7,515</stars>
-      <forks>614</forks>
-      <addStars>146</addStars>
+      <stars>256,014</stars>
+      <forks>62,557</forks>
+      <addStars>218</addStars>
       <contributors/>
     </item>
     <item>
@@ -385,21 +434,9 @@
       <guid>https://github.com/tmux/tmux</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>50,415</stars>
-      <forks>3,071</forks>
-      <addStars>88</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>xXBneutzerNameXx/PS5-Cleanup</title>
-      <link>https://github.com/xXBneutzerNameXx/PS5-Cleanup</link>
-      <description>Clean up a jailbroken PS5 like new, no reinstall.</description>
-      <guid>https://github.com/xXBneutzerNameXx/PS5-Cleanup</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>94</stars>
-      <forks>2</forks>
-      <addStars>37</addStars>
+      <stars>50,449</stars>
+      <forks>3,075</forks>
+      <addStars>122</addStars>
       <contributors/>
     </item>
     <item>
@@ -409,9 +446,21 @@
       <guid>https://github.com/WollyMonjac/Tiny-2.1</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>149</stars>
+      <stars>180</stars>
       <forks>12</forks>
-      <addStars>44</addStars>
+      <addStars>80</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>hyperionaidev/smolmaxxing</title>
+      <link>https://github.com/hyperionaidev/smolmaxxing</link>
+      <description>maxxing the ability to run different LLMs on the smallest devices possible</description>
+      <guid>https://github.com/hyperionaidev/smolmaxxing</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>914</stars>
+      <forks>33</forks>
+      <addStars>172</addStars>
       <contributors/>
     </item>
     <item>
@@ -421,33 +470,69 @@
       <guid>https://github.com/leonardo-alegria/garlic-llm</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>117</stars>
+      <stars>136</stars>
       <forks>10</forks>
-      <addStars>55</addStars>
+      <addStars>78</addStars>
       <contributors/>
     </item>
     <item>
-      <title>ages2001/WINUDF</title>
-      <link>https://github.com/ages2001/WINUDF</link>
-      <description>UDF IFS (Installable File System driver) for DOS, Windows 1.0x/2.xx/3.xx/95/98/ME</description>
-      <guid>https://github.com/ages2001/WINUDF</guid>
+      <title>Revivedx/SavageWindRecomp</title>
+      <link>https://github.com/Revivedx/SavageWindRecomp</link>
+      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
+      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>50</stars>
-      <forks>1</forks>
-      <addStars>40</addStars>
+      <stars>4,669</stars>
+      <forks>281</forks>
+      <addStars>172</addStars>
       <contributors/>
     </item>
     <item>
-      <title>brianbell-x/ssd-ransomware-guard</title>
-      <link>https://github.com/brianbell-x/ssd-ransomware-guard</link>
-      <description>An 89 KB ternary System-1 decision model in SSD SRAM for zero-byte-loss ransomware rollback.</description>
-      <guid>https://github.com/brianbell-x/ssd-ransomware-guard</guid>
+      <title>adriadam10/mkw-recomp</title>
+      <link>https://github.com/adriadam10/mkw-recomp</link>
+      <description>Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program</description>
+      <guid>https://github.com/adriadam10/mkw-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>57</stars>
-      <forks>6</forks>
-      <addStars>40</addStars>
+      <stars>1,391</stars>
+      <forks>88</forks>
+      <addStars>174</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>valentderah/totk-pc-recomp</title>
+      <link>https://github.com/valentderah/totk-pc-recomp</link>
+      <description>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.</description>
+      <guid>https://github.com/valentderah/totk-pc-recomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>7,557</stars>
+      <forks>619</forks>
+      <addStars>181</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>iqui27/nuvio-native-legacy</title>
+      <link>https://github.com/iqui27/nuvio-native-legacy</link>
+      <description>Unofficial native Nuvio client for LG webOS 3+, Samsung Tizen 4+, GoogleTV 7+. C/SDL2/GLES2 on LG and on Samsung (native .tpk, Tizen 4.0-9), plus a WebAssembly .wgt for Tizen 5.5+. Install from the Homebrew Channel or the releases.</description>
+      <guid>https://github.com/iqui27/nuvio-native-legacy</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>561</stars>
+      <forks>79</forks>
+      <addStars>78</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>xXBneutzerNameXx/PS5-Cleanup</title>
+      <link>https://github.com/xXBneutzerNameXx/PS5-Cleanup</link>
+      <description>Clean up a jailbroken PS5 like new, no reinstall.</description>
+      <guid>https://github.com/xXBneutzerNameXx/PS5-Cleanup</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>98</stars>
+      <forks>2</forks>
+      <addStars>42</addStars>
       <contributors/>
     </item>
     <item>
@@ -457,45 +542,33 @@
       <guid>https://github.com/cpq/bare-metal-programming-guide</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>5,039</stars>
+      <stars>5,047</stars>
       <forks>470</forks>
-      <addStars>29</addStars>
+      <addStars>37</addStars>
       <contributors/>
     </item>
     <item>
-      <title>mxhm11cr/LinuxRunner</title>
-      <link>https://github.com/mxhm11cr/LinuxRunner</link>
-      <description>Run ARM64 Linux userspace and desktop applications on iPhone and iPad.</description>
-      <guid>https://github.com/mxhm11cr/LinuxRunner</guid>
+      <title>ages2001/WINUDF</title>
+      <link>https://github.com/ages2001/WINUDF</link>
+      <description>UDF IFS (Installable File System driver) for DOS, Windows 1.0x/2.xx/3.xx/95/98/ME</description>
+      <guid>https://github.com/ages2001/WINUDF</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,064</stars>
-      <forks>70</forks>
-      <addStars>76</addStars>
+      <stars>59</stars>
+      <forks>1</forks>
+      <addStars>48</addStars>
       <contributors/>
     </item>
     <item>
-      <title>nullmoth/liberator</title>
-      <link>https://github.com/nullmoth/liberator</link>
-      <description>Liberator: macOS 27 on PCs and Intel Macs</description>
-      <guid>https://github.com/nullmoth/liberator</guid>
+      <title>brianbell-x/ssd-ransomware-guard</title>
+      <link>https://github.com/brianbell-x/ssd-ransomware-guard</link>
+      <description>An 89 KB ternary System-1 decision model in SSD SRAM for zero-byte-loss ransomware rollback.</description>
+      <guid>https://github.com/brianbell-x/ssd-ransomware-guard</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>107</stars>
-      <forks>2</forks>
-      <addStars>31</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>eclipse-mosquitto/mosquitto</title>
-      <link>https://github.com/eclipse-mosquitto/mosquitto</link>
-      <description>Eclipse Mosquitto - An open source MQTT broker</description>
-      <guid>https://github.com/eclipse-mosquitto/mosquitto</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>11,454</stars>
-      <forks>2,677</forks>
-      <addStars>52</addStars>
+      <stars>58</stars>
+      <forks>6</forks>
+      <addStars>41</addStars>
       <contributors/>
     </item>
     <item>
@@ -505,45 +578,69 @@
       <guid>https://github.com/ammaarreshi/WindowsiOS</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>381</stars>
+      <stars>408</stars>
       <forks>62</forks>
-      <addStars>66</addStars>
+      <addStars>102</addStars>
       <contributors/>
     </item>
     <item>
-      <title>tangerineturtle1/NX2navi</title>
-      <link>https://github.com/tangerineturtle1/NX2navi</link>
-      <description/>
-      <guid>https://github.com/tangerineturtle1/NX2navi</guid>
+      <title>nullmoth/liberator</title>
+      <link>https://github.com/nullmoth/liberator</link>
+      <description>Liberator: macOS 27 on PCs and Intel Macs</description>
+      <guid>https://github.com/nullmoth/liberator</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>4,286</stars>
-      <forks>356</forks>
-      <addStars>75</addStars>
+      <stars>115</stars>
+      <forks>2</forks>
+      <addStars>43</addStars>
       <contributors/>
     </item>
     <item>
-      <title>Lucas-blip-png/dkb-pc-recomp</title>
-      <link>https://github.com/Lucas-blip-png/dkb-pc-recomp</link>
-      <description>Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.</description>
-      <guid>https://github.com/Lucas-blip-png/dkb-pc-recomp</guid>
+      <title>mxhm11cr/LinuxRunner</title>
+      <link>https://github.com/mxhm11cr/LinuxRunner</link>
+      <description>Run ARM64 Linux userspace and desktop applications on iPhone and iPad.</description>
+      <guid>https://github.com/mxhm11cr/LinuxRunner</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,139</stars>
-      <forks>67</forks>
-      <addStars>66</addStars>
+      <stars>1,073</stars>
+      <forks>70</forks>
+      <addStars>87</addStars>
       <contributors/>
     </item>
     <item>
-      <title>xiaojieonly/Ehviewer_CN_SXJ</title>
-      <link>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</link>
-      <description>ehviewer，用爱发电，快乐前行</description>
-      <guid>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</guid>
+      <title>zFitness/nx2androidX</title>
+      <link>https://github.com/zFitness/nx2androidX</link>
+      <description>A compatibility layer for porting your own Switch games to Android, one game at a time. The game's own code runs on the device; no game content ships here.</description>
+      <guid>https://github.com/zFitness/nx2androidX</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>29,211</stars>
-      <forks>791</forks>
-      <addStars>62</addStars>
+      <stars>151</stars>
+      <forks>10</forks>
+      <addStars>51</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>FareedKhan-dev/kimi-k3-in-c</title>
+      <link>https://github.com/FareedKhan-dev/kimi-k3-in-c</link>
+      <description>A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.</description>
+      <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>12,236</stars>
+      <forks>1,929</forks>
+      <addStars>97</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>shirai91/nx2android</title>
+      <link>https://github.com/shirai91/nx2android</link>
+      <description>A compatibility layer for porting Switch games to Android, one game at a time</description>
+      <guid>https://github.com/shirai91/nx2android</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,745</stars>
+      <forks>228</forks>
+      <addStars>91</addStars>
       <contributors/>
     </item>
   </channel>

@@ -3,7 +3,7 @@
     <title>GitHub C Languages Monthly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Monthly Trending of C Languages in GitHub</description>
-    <pubDate>Tue, 17 Nov 2026 02:45:39 GMT</pubDate>
+    <pubDate>Tue, 17 Nov 2026 12:45:51 GMT</pubDate>
     <item>
       <title>php/php-src</title>
       <link>https://github.com/php/php-src</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/php/php-src</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>41,787</stars>
-      <forks>8,535</forks>
+      <stars>41,788</stars>
+      <forks>8,537</forks>
       <addStars>1,446</addStars>
       <contributors>
         <contributor>
@@ -49,8 +49,8 @@
       <guid>https://github.com/openssl/openssl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>31,468</stars>
-      <forks>11,621</forks>
+      <stars>31,469</stars>
+      <forks>11,620</forks>
       <addStars>617</addStars>
       <contributors>
         <contributor>
@@ -87,8 +87,8 @@
       <guid>https://github.com/obsproject/obs-studio</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>79,613</stars>
-      <forks>11,270</forks>
+      <stars>79,662</stars>
+      <forks>11,284</forks>
       <addStars>2,252</addStars>
       <contributors>
         <contributor>
@@ -119,40 +119,40 @@
       </contributors>
     </item>
     <item>
-      <title>microsoft/PowerToys</title>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows</description>
-      <guid>https://github.com/microsoft/PowerToys</guid>
+      <title>JustVugg/colibri</title>
+      <link>https://github.com/JustVugg/colibri</link>
+      <description>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.</description>
+      <guid>https://github.com/JustVugg/colibri</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>141,074</stars>
-      <forks>8,748</forks>
-      <addStars>2,091</addStars>
+      <stars>51,667</stars>
+      <forks>6,258</forks>
+      <addStars>9,415</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1462282?s=40&amp;v=4</avatar>
-          <name>crutkas</name>
-          <url>https://github.com/crutkas</url>
+          <avatar>https://avatars.githubusercontent.com/u/13022503?s=40&amp;v=4</avatar>
+          <name>JustVugg</name>
+          <url>https://github.com/JustVugg</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1169912?s=40&amp;v=4</avatar>
-          <name>bao-qian</name>
-          <url>https://github.com/bao-qian</url>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/9866362?s=40&amp;v=4</avatar>
-          <name>niels9001</name>
-          <url>https://github.com/niels9001</url>
+          <avatar>https://avatars.githubusercontent.com/u/48591714?s=40&amp;v=4</avatar>
+          <name>ZacharyZcR</name>
+          <url>https://github.com/ZacharyZcR</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1725475?s=40&amp;v=4</avatar>
-          <name>qianlifeng</name>
-          <url>https://github.com/qianlifeng</url>
+          <avatar>https://avatars.githubusercontent.com/u/289220702?s=40&amp;v=4</avatar>
+          <name>monotophic</name>
+          <url>https://github.com/monotophic</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/26118718?s=40&amp;v=4</avatar>
-          <name>jaimecbernardo</name>
-          <url>https://github.com/jaimecbernardo</url>
+          <avatar>https://avatars.githubusercontent.com/u/47457359?s=40&amp;v=4</avatar>
+          <name>rudycelekli</name>
+          <url>https://github.com/rudycelekli</url>
         </contributor>
       </contributors>
     </item>
@@ -163,8 +163,8 @@
       <guid>https://github.com/iqui27/nuvio-native-legacy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>555</stars>
-      <forks>68</forks>
+      <stars>561</stars>
+      <forks>70</forks>
       <addStars>292</addStars>
       <contributors>
         <contributor>
@@ -201,8 +201,8 @@
       <guid>https://github.com/mpv-player/mpv</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>38,159</stars>
-      <forks>3,662</forks>
+      <stars>38,167</stars>
+      <forks>3,665</forks>
       <addStars>822</addStars>
       <contributors>
         <contributor>
@@ -233,14 +233,52 @@
       </contributors>
     </item>
     <item>
+      <title>microsoft/PowerToys</title>
+      <link>https://github.com/microsoft/PowerToys</link>
+      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows</description>
+      <guid>https://github.com/microsoft/PowerToys</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>141,094</stars>
+      <forks>8,747</forks>
+      <addStars>2,091</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1462282?s=40&amp;v=4</avatar>
+          <name>crutkas</name>
+          <url>https://github.com/crutkas</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1169912?s=40&amp;v=4</avatar>
+          <name>bao-qian</name>
+          <url>https://github.com/bao-qian</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/9866362?s=40&amp;v=4</avatar>
+          <name>niels9001</name>
+          <url>https://github.com/niels9001</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1725475?s=40&amp;v=4</avatar>
+          <name>qianlifeng</name>
+          <url>https://github.com/qianlifeng</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/26118718?s=40&amp;v=4</avatar>
+          <name>jaimecbernardo</name>
+          <url>https://github.com/jaimecbernardo</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>redis/redis</title>
       <link>https://github.com/redis/redis</link>
       <description>For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.</description>
       <guid>https://github.com/redis/redis</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>77,512</stars>
-      <forks>25,054</forks>
+      <stars>77,537</stars>
+      <forks>25,055</forks>
       <addStars>1,033</addStars>
       <contributors>
         <contributor>
@@ -271,89 +309,13 @@
       </contributors>
     </item>
     <item>
-      <title>HarbourMasters/Shipwright</title>
-      <link>https://github.com/HarbourMasters/Shipwright</link>
-      <description/>
-      <guid>https://github.com/HarbourMasters/Shipwright</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>6,080</stars>
-      <forks>1,014</forks>
-      <addStars>473</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/159546?s=40&amp;v=4</avatar>
-          <name>serprex</name>
-          <url>https://github.com/serprex</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/70942617?s=40&amp;v=4</avatar>
-          <name>briaguya0</name>
-          <url>https://github.com/briaguya0</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/774771?s=40&amp;v=4</avatar>
-          <name>Malkierian</name>
-          <url>https://github.com/Malkierian</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13861068?s=40&amp;v=4</avatar>
-          <name>Archez</name>
-          <url>https://github.com/Archez</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/7316699?s=40&amp;v=4</avatar>
-          <name>garrettjoecox</name>
-          <url>https://github.com/garrettjoecox</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>KernelSU-Next/KernelSU-Next</title>
-      <link>https://github.com/KernelSU-Next/KernelSU-Next</link>
-      <description>An advanced Kernel based root solution for Android</description>
-      <guid>https://github.com/KernelSU-Next/KernelSU-Next</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>4,867</stars>
-      <forks>1,284</forks>
-      <addStars>435</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4233744?s=40&amp;v=4</avatar>
-          <name>tiann</name>
-          <url>https://github.com/tiann</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/33044977?s=40&amp;v=4</avatar>
-          <name>rifsxd</name>
-          <url>https://github.com/rifsxd</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/30978685?s=40&amp;v=4</avatar>
-          <name>Ylarod</name>
-          <url>https://github.com/Ylarod</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/56485584?s=40&amp;v=4</avatar>
-          <name>5ec1cff</name>
-          <url>https://github.com/5ec1cff</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/271129047?s=40&amp;v=4</avatar>
-          <name>inforcqb-self</name>
-          <url>https://github.com/inforcqb-self</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>systemd/systemd</title>
       <link>https://github.com/systemd/systemd</link>
       <description>The systemd System and Service Manager</description>
       <guid>https://github.com/systemd/systemd</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,039</stars>
+      <stars>17,040</stars>
       <forks>4,837</forks>
       <addStars>248</addStars>
       <contributors>
@@ -385,14 +347,52 @@
       </contributors>
     </item>
     <item>
+      <title>KernelSU-Next/KernelSU-Next</title>
+      <link>https://github.com/KernelSU-Next/KernelSU-Next</link>
+      <description>An advanced Kernel based root solution for Android</description>
+      <guid>https://github.com/KernelSU-Next/KernelSU-Next</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>4,870</stars>
+      <forks>1,286</forks>
+      <addStars>435</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4233744?s=40&amp;v=4</avatar>
+          <name>tiann</name>
+          <url>https://github.com/tiann</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/33044977?s=40&amp;v=4</avatar>
+          <name>rifsxd</name>
+          <url>https://github.com/rifsxd</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/30978685?s=40&amp;v=4</avatar>
+          <name>Ylarod</name>
+          <url>https://github.com/Ylarod</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/56485584?s=40&amp;v=4</avatar>
+          <name>5ec1cff</name>
+          <url>https://github.com/5ec1cff</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/271129047?s=40&amp;v=4</avatar>
+          <name>inforcqb-self</name>
+          <url>https://github.com/inforcqb-self</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>zephyrproject-rtos/zephyr</title>
       <link>https://github.com/zephyrproject-rtos/zephyr</link>
       <description>Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.</description>
       <guid>https://github.com/zephyrproject-rtos/zephyr</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,100</stars>
-      <forks>10,446</forks>
+      <stars>17,105</stars>
+      <forks>10,455</forks>
       <addStars>331</addStars>
       <contributors>
         <contributor>
@@ -423,116 +423,40 @@
       </contributors>
     </item>
     <item>
-      <title>sp00nznet/ps3recomp</title>
-      <link>https://github.com/sp00nznet/ps3recomp</link>
-      <description>Static recompilation runtime libraries for PlayStation 3 titles.</description>
-      <guid>https://github.com/sp00nznet/ps3recomp</guid>
+      <title>HarbourMasters/Shipwright</title>
+      <link>https://github.com/HarbourMasters/Shipwright</link>
+      <description/>
+      <guid>https://github.com/HarbourMasters/Shipwright</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>708</stars>
-      <forks>112</forks>
-      <addStars>261</addStars>
+      <stars>6,085</stars>
+      <forks>1,014</forks>
+      <addStars>473</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
+          <avatar>https://avatars.githubusercontent.com/u/159546?s=40&amp;v=4</avatar>
+          <name>serprex</name>
+          <url>https://github.com/serprex</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4937302?s=40&amp;v=4</avatar>
-          <name>sp00nznet</name>
-          <url>https://github.com/sp00nznet</url>
+          <avatar>https://avatars.githubusercontent.com/u/70942617?s=40&amp;v=4</avatar>
+          <name>briaguya0</name>
+          <url>https://github.com/briaguya0</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/146774802?s=40&amp;v=4</avatar>
-          <name>sagemono</name>
-          <url>https://github.com/sagemono</url>
+          <avatar>https://avatars.githubusercontent.com/u/774771?s=40&amp;v=4</avatar>
+          <name>Malkierian</name>
+          <url>https://github.com/Malkierian</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/46506773?s=40&amp;v=4</avatar>
-          <name>canersaka</name>
-          <url>https://github.com/canersaka</url>
+          <avatar>https://avatars.githubusercontent.com/u/13861068?s=40&amp;v=4</avatar>
+          <name>Archez</name>
+          <url>https://github.com/Archez</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/3731082?s=40&amp;v=4</avatar>
-          <name>tekulvw</name>
-          <url>https://github.com/tekulvw</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>sp00nznet/xboxrecomp</title>
-      <link>https://github.com/sp00nznet/xboxrecomp</link>
-      <description>Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.</description>
-      <guid>https://github.com/sp00nznet/xboxrecomp</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>416</stars>
-      <forks>135</forks>
-      <addStars>194</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4937302?s=40&amp;v=4</avatar>
-          <name>sp00nznet</name>
-          <url>https://github.com/sp00nznet</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/170875756?s=40&amp;v=4</avatar>
-          <name>NoRain211</name>
-          <url>https://github.com/NoRain211</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/4037632?s=40&amp;v=4</avatar>
-          <name>apexJCL</name>
-          <url>https://github.com/apexJCL</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/289226582?s=40&amp;v=4</avatar>
-          <name>fearkov</name>
-          <url>https://github.com/fearkov</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>JustVugg/colibri</title>
-      <link>https://github.com/JustVugg/colibri</link>
-      <description>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.</description>
-      <guid>https://github.com/JustVugg/colibri</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>51,601</stars>
-      <forks>6,241</forks>
-      <addStars>9,415</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13022503?s=40&amp;v=4</avatar>
-          <name>JustVugg</name>
-          <url>https://github.com/JustVugg</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/48591714?s=40&amp;v=4</avatar>
-          <name>ZacharyZcR</name>
-          <url>https://github.com/ZacharyZcR</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/289220702?s=40&amp;v=4</avatar>
-          <name>monotophic</name>
-          <url>https://github.com/monotophic</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/47457359?s=40&amp;v=4</avatar>
-          <name>rudycelekli</name>
-          <url>https://github.com/rudycelekli</url>
+          <avatar>https://avatars.githubusercontent.com/u/7316699?s=40&amp;v=4</avatar>
+          <name>garrettjoecox</name>
+          <url>https://github.com/garrettjoecox</url>
         </contributor>
       </contributors>
     </item>
@@ -543,7 +467,7 @@
       <guid>https://github.com/xiaojieonly/Ehviewer_CN_SXJ</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>29,215</stars>
+      <stars>29,238</stars>
       <forks>785</forks>
       <addStars>1,505</addStars>
       <contributors>
@@ -575,15 +499,124 @@
       </contributors>
     </item>
     <item>
+      <title>sp00nznet/xboxrecomp</title>
+      <link>https://github.com/sp00nznet/xboxrecomp</link>
+      <description>Turn any Xbox game binary into a native Windows executable. No emulation. No interpreter. Just raw, recompiled C.</description>
+      <guid>https://github.com/sp00nznet/xboxrecomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>418</stars>
+      <forks>135</forks>
+      <addStars>194</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4937302?s=40&amp;v=4</avatar>
+          <name>sp00nznet</name>
+          <url>https://github.com/sp00nznet</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/170875756?s=40&amp;v=4</avatar>
+          <name>NoRain211</name>
+          <url>https://github.com/NoRain211</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4037632?s=40&amp;v=4</avatar>
+          <name>apexJCL</name>
+          <url>https://github.com/apexJCL</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/289226582?s=40&amp;v=4</avatar>
+          <name>fearkov</name>
+          <url>https://github.com/fearkov</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>lz4/lz4</title>
+      <link>https://github.com/lz4/lz4</link>
+      <description>Extremely Fast Compression algorithm</description>
+      <guid>https://github.com/lz4/lz4</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>12,791</stars>
+      <forks>1,663</forks>
+      <addStars>700</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/750081?s=40&amp;v=4</avatar>
+          <name>Cyan4973</name>
+          <url>https://github.com/Cyan4973</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/15112322?s=40&amp;v=4</avatar>
+          <name>inikep</name>
+          <url>https://github.com/inikep</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/898396?s=40&amp;v=4</avatar>
+          <name>t-mat</name>
+          <url>https://github.com/t-mat</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1154694?s=40&amp;v=4</avatar>
+          <name>felixhandte</name>
+          <url>https://github.com/felixhandte</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>curl/curl</title>
+      <link>https://github.com/curl/curl</link>
+      <description>A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features</description>
+      <guid>https://github.com/curl/curl</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>43,540</stars>
+      <forks>7,505</forks>
+      <addStars>525</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/177011?s=40&amp;v=4</avatar>
+          <name>bagder</name>
+          <url>https://github.com/bagder</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1446897?s=40&amp;v=4</avatar>
+          <name>vszakats</name>
+          <url>https://github.com/vszakats</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/242954?s=40&amp;v=4</avatar>
+          <name>yangtse</name>
+          <url>https://github.com/yangtse</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1523871?s=40&amp;v=4</avatar>
+          <name>captain-caveman2k</name>
+          <url>https://github.com/captain-caveman2k</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/228259?s=40&amp;v=4</avatar>
+          <name>dfandrich</name>
+          <url>https://github.com/dfandrich</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>valentderah/totk-pc-recomp</title>
       <link>https://github.com/valentderah/totk-pc-recomp</link>
       <description>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.</description>
       <guid>https://github.com/valentderah/totk-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,515</stars>
-      <forks>614</forks>
-      <addStars>4,950</addStars>
+      <stars>7,557</stars>
+      <forks>619</forks>
+      <addStars>4,985</addStars>
       <contributors/>
     </item>
     <item>
@@ -593,9 +626,9 @@
       <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>12,208</stars>
-      <forks>1,924</forks>
-      <addStars>2,949</addStars>
+      <stars>12,236</stars>
+      <forks>1,929</forks>
+      <addStars>2,979</addStars>
       <contributors/>
     </item>
     <item>
@@ -605,9 +638,9 @@
       <guid>https://github.com/tangerineturtle1/NX2navi</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>4,286</stars>
+      <stars>4,293</stars>
       <forks>356</forks>
-      <addStars>3,883</addStars>
+      <addStars>3,891</addStars>
       <contributors/>
     </item>
     <item>
@@ -617,9 +650,9 @@
       <guid>https://github.com/Zagitta/gpu-unlock</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>20,011</stars>
+      <stars>20,108</stars>
       <forks>2,077</forks>
-      <addStars>6,178</addStars>
+      <addStars>6,289</addStars>
       <contributors/>
     </item>
     <item>
@@ -629,9 +662,9 @@
       <guid>https://github.com/Leviidev/Henge</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,373</stars>
+      <stars>2,393</stars>
       <forks>206</forks>
-      <addStars>2,166</addStars>
+      <addStars>2,186</addStars>
       <contributors/>
     </item>
     <item>
@@ -641,9 +674,9 @@
       <guid>https://github.com/shirai91/nx2android</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,721</stars>
+      <stars>1,745</stars>
       <forks>228</forks>
-      <addStars>1,220</addStars>
+      <addStars>1,248</addStars>
       <contributors/>
     </item>
     <item>
@@ -653,9 +686,9 @@
       <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>4,645</stars>
+      <stars>4,669</stars>
       <forks>281</forks>
-      <addStars>2,097</addStars>
+      <addStars>2,124</addStars>
       <contributors/>
     </item>
     <item>
@@ -665,9 +698,9 @@
       <guid>https://github.com/Gamer92000/echo-dot-assist</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,230</stars>
-      <forks>104</forks>
-      <addStars>956</addStars>
+      <stars>1,246</stars>
+      <forks>107</forks>
+      <addStars>971</addStars>
       <contributors/>
     </item>
     <item>
@@ -677,9 +710,9 @@
       <guid>https://github.com/torvalds/linux</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>255,942</stars>
-      <forks>62,437</forks>
-      <addStars>1,962</addStars>
+      <stars>256,014</stars>
+      <forks>62,557</forks>
+      <addStars>2,039</addStars>
       <contributors/>
     </item>
     <item>
@@ -689,9 +722,9 @@
       <guid>https://github.com/adriadam10/mkw-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,362</stars>
+      <stars>1,391</stars>
       <forks>88</forks>
-      <addStars>1,282</addStars>
+      <addStars>1,313</addStars>
       <contributors/>
     </item>
     <item>
@@ -701,21 +734,21 @@
       <guid>https://github.com/sostenesfreitas/ocarina-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,219</stars>
+      <stars>1,218</stars>
       <forks>90</forks>
-      <addStars>1,184</addStars>
+      <addStars>1,183</addStars>
       <contributors/>
     </item>
     <item>
       <title>Lucas-blip-png/dkb-pc-recomp</title>
       <link>https://github.com/Lucas-blip-png/dkb-pc-recomp</link>
-      <description>Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.</description>
+      <description>Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.</description>
       <guid>https://github.com/Lucas-blip-png/dkb-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,139</stars>
+      <stars>1,156</stars>
       <forks>67</forks>
-      <addStars>1,025</addStars>
+      <addStars>1,042</addStars>
       <contributors/>
     </item>
     <item>
@@ -725,9 +758,9 @@
       <guid>https://github.com/yappologistic/CUI</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,117</stars>
+      <stars>1,122</stars>
       <forks>73</forks>
-      <addStars>1,027</addStars>
+      <addStars>1,031</addStars>
       <contributors/>
     </item>
     <item>
@@ -737,9 +770,9 @@
       <guid>https://github.com/saragordic/window-sweaters</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,502</stars>
+      <stars>1,506</stars>
       <forks>47</forks>
-      <addStars>674</addStars>
+      <addStars>678</addStars>
       <contributors/>
     </item>
     <item>
@@ -749,21 +782,9 @@
       <guid>https://github.com/FFmpeg/FFmpeg</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>67,402</stars>
-      <forks>13,001</forks>
-      <addStars>1,246</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>lz4/lz4</title>
-      <link>https://github.com/lz4/lz4</link>
-      <description>Extremely Fast Compression algorithm</description>
-      <guid>https://github.com/lz4/lz4</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>12,789</stars>
-      <forks>1,647</forks>
-      <addStars>612</addStars>
+      <stars>67,446</stars>
+      <forks>13,018</forks>
+      <addStars>1,283</addStars>
       <contributors/>
     </item>
     <item>
@@ -773,9 +794,9 @@
       <guid>https://github.com/mxhm11cr/LinuxRunner</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,064</stars>
+      <stars>1,073</stars>
       <forks>70</forks>
-      <addStars>655</addStars>
+      <addStars>666</addStars>
       <contributors/>
     </item>
     <item>
@@ -785,9 +806,9 @@
       <guid>https://github.com/hyperionaidev/smolmaxxing</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>881</stars>
+      <stars>914</stars>
       <forks>33</forks>
-      <addStars>856</addStars>
+      <addStars>890</addStars>
       <contributors/>
     </item>
     <item>
@@ -797,9 +818,21 @@
       <guid>https://github.com/Genymobile/scrcpy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>154,987</stars>
-      <forks>14,329</forks>
-      <addStars>1,320</addStars>
+      <stars>155,035</stars>
+      <forks>14,338</forks>
+      <addStars>1,363</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ly05010419/MacNativeGames</title>
+      <link>https://github.com/ly05010419/MacNativeGames</link>
+      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
+      <guid>https://github.com/ly05010419/MacNativeGames</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>7,954</stars>
+      <forks>1,207</forks>
+      <addStars>1,273</addStars>
       <contributors/>
     </item>
     <item>
@@ -815,27 +848,15 @@
       <contributors/>
     </item>
     <item>
-      <title>ly05010419/MacNativeGames</title>
-      <link>https://github.com/ly05010419/MacNativeGames</link>
-      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
-      <guid>https://github.com/ly05010419/MacNativeGames</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>7,933</stars>
-      <forks>1,202</forks>
-      <addStars>1,252</addStars>
-      <contributors/>
-    </item>
-    <item>
       <title>th0mk/nfsu2-web</title>
       <link>https://github.com/th0mk/nfsu2-web</link>
       <description>Archived: development continues privately. Need for Speed: Underground 2 in the browser, nfsu2.xyz</description>
       <guid>https://github.com/th0mk/nfsu2-web</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,206</stars>
+      <stars>1,207</stars>
       <forks>278</forks>
-      <addStars>631</addStars>
+      <addStars>632</addStars>
       <contributors/>
     </item>
     <item>
@@ -845,9 +866,9 @@
       <guid>https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,255</stars>
+      <stars>2,266</stars>
       <forks>259</forks>
-      <addStars>845</addStars>
+      <addStars>856</addStars>
       <contributors/>
     </item>
   </channel>
