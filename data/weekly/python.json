@@ -2,7 +2,7 @@
   "title": "GitHub Python Languages Weekly Trending",
   "description": "Weekly Trending of Python Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 17 Nov 2026 12:45:51 GMT",
+  "pubDate": "Tue, 17 Nov 2026 23:19:41 GMT",
   "items": [
     {
       "title": "ZhuLinsen/daily_stock_analysis",
@@ -10,8 +10,8 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "72,993",
-      "forks": "57,743",
+      "stars": "73,076",
+      "forks": "57,780",
       "addStars": "4,355",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "196,438",
-      "forks": "23,045",
+      "stars": "196,712",
+      "forks": "23,064",
       "addStars": "5,666",
       "contributors": [
         {
@@ -84,8 +84,8 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "8,216",
-      "forks": "1,268",
+      "stars": "9,199",
+      "forks": "1,353",
       "addStars": "1,747",
       "contributors": [
         {
@@ -116,8 +116,8 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "6,738",
-      "forks": "1,390",
+      "stars": "6,852",
+      "forks": "1,405",
       "addStars": "2,407",
       "contributors": [
         {
@@ -148,8 +148,8 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "68,597",
-      "forks": "6,110",
+      "stars": "69,009",
+      "forks": "6,145",
       "addStars": "901",
       "contributors": [
         {
@@ -180,8 +180,8 @@
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "40,833",
-      "forks": "3,299",
+      "stars": "40,862",
+      "forks": "3,301",
       "addStars": "933",
       "contributors": [
         {
@@ -202,8 +202,8 @@
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "7,931",
-      "forks": "463",
+      "stars": "7,953",
+      "forks": "468",
       "addStars": "2,221",
       "contributors": [
         {
@@ -229,8 +229,8 @@
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "7,523",
-      "forks": "691",
+      "stars": "7,727",
+      "forks": "715",
       "addStars": "1,528",
       "contributors": [
         {
@@ -251,8 +251,8 @@
       "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "33,898",
-      "forks": "4,019",
+      "stars": "33,927",
+      "forks": "4,026",
       "addStars": "640",
       "contributors": [
         {
@@ -268,13 +268,50 @@
       ]
     },
     {
+      "title": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "70,358",
+      "forks": "5,524",
+      "addStars": "2,860",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1672?s=40&v=4",
+          "name": "blader",
+          "url": "https://github.com/blader"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "name": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8268155?s=40&v=4",
+          "name": "Scott-Emberson",
+          "url": "https://github.com/Scott-Emberson"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/243858445?s=40&v=4",
+          "name": "warp-agent",
+          "url": "https://github.com/warp-agent"
+        }
+      ]
+    },
+    {
       "title": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "113,548",
-      "forks": "13,073",
+      "stars": "113,757",
+      "forks": "13,096",
       "addStars": "7,067",
       "contributors": [
         {
@@ -310,8 +347,8 @@
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "20,621",
-      "forks": "1,526",
+      "stars": "20,789",
+      "forks": "1,534",
       "addStars": "4,249",
       "contributors": [
         {
@@ -342,8 +379,8 @@
       "description": "An open-source OpusClip alternative",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "3,378",
-      "forks": "753",
+      "stars": "3,432",
+      "forks": "769",
       "addStars": "573",
       "contributors": [
         {
@@ -379,8 +416,8 @@
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "26,551",
-      "forks": "2,363",
+      "stars": "26,639",
+      "forks": "2,371",
       "addStars": "1,373",
       "contributors": [
         {
@@ -411,8 +448,8 @@
       "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "6,892",
-      "forks": "1,338",
+      "stars": "6,980",
+      "forks": "1,354",
       "addStars": "1,131",
       "contributors": [
         {
@@ -433,8 +470,8 @@
       "description": "",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "19,409",
-      "forks": "2,769",
+      "stars": "19,423",
+      "forks": "2,770",
       "addStars": "495",
       "contributors": [
         {
@@ -470,8 +507,8 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "70,966",
-      "forks": "11,025",
+      "stars": "71,067",
+      "forks": "11,026",
       "addStars": "3,313",
       "contributors": [
         {
@@ -497,14 +534,26 @@
       ]
     },
     {
+      "title": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "2,839",
+      "forks": "313",
+      "addStars": "2,004",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
       "title": "Immortal-Protocols/lastbook",
       "url": "https://github.com/Immortal-Protocols/lastbook",
       "description": "Offline knowledge library for survival and rebuilding",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "1,066",
+      "stars": "1,584",
       "forks": "14",
-      "addStars": "1,048",
+      "addStars": "1,595",
       "contributors": [],
       "source": "trendshift"
     },
@@ -514,21 +563,21 @@
       "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "3,131",
+      "stars": "3,310",
       "forks": "438",
-      "addStars": "1,513",
+      "addStars": "1,672",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "title": "gylive/google-ultra",
+      "url": "https://github.com/gylive/google-ultra",
+      "description": "",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "2,086",
-      "forks": "313",
-      "addStars": "1,259",
+      "stars": "1,351",
+      "forks": "19",
+      "addStars": "1,339",
       "contributors": [],
       "source": "trendshift"
     },
@@ -538,57 +587,9 @@
       "description": "PyBot: a chatbot written in pure Python by a swarm of agents. No weights, no training, just rules.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "443",
+      "stars": "644",
       "forks": "36",
-      "addStars": "438",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "microsoft/TokenEconomizer",
-      "url": "https://github.com/microsoft/TokenEconomizer",
-      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "7,383",
-      "forks": "498",
-      "addStars": "881",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Tejas-TA/predikit",
-      "url": "https://github.com/Tejas-TA/predikit",
-      "description": "The missing bridge between your ML models and your AI agents.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "755",
-      "forks": "133",
-      "addStars": "379",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "112,290",
-      "forks": "12,749",
-      "addStars": "1,020",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Graphify-Labs/graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "149,281",
-      "forks": "15,111",
-      "addStars": "902",
+      "addStars": "634",
       "contributors": [],
       "source": "trendshift"
     },
@@ -598,21 +599,9 @@
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "65,646",
+      "stars": "65,894",
       "forks": "8,917",
-      "addStars": "398",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "JuneYaooo/rea-video",
-      "url": "https://github.com/JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "10,011",
-      "forks": "1,470",
-      "addStars": "854",
+      "addStars": "646",
       "contributors": [],
       "source": "trendshift"
     },
@@ -622,9 +611,9 @@
       "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "1,657",
+      "stars": "1,934",
       "forks": "140",
-      "addStars": "483",
+      "addStars": "723",
       "contributors": [],
       "source": "trendshift"
     },
@@ -634,21 +623,81 @@
       "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "41,186",
+      "stars": "41,496",
       "forks": "4,879",
-      "addStars": "551",
+      "addStars": "832",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "duwqijlk/muse-protocol",
-      "url": "https://github.com/duwqijlk/muse-protocol",
-      "description": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "1,548",
-      "forks": "614",
-      "addStars": "539",
+      "stars": "112,729",
+      "forks": "12,749",
+      "addStars": "1,438",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "microsoft/TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "7,482",
+      "forks": "498",
+      "addStars": "976",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Tejas-TA/predikit",
+      "url": "https://github.com/Tejas-TA/predikit",
+      "description": "The missing bridge between your ML models and your AI agents.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "786",
+      "forks": "133",
+      "addStars": "406",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "149,586",
+      "forks": "15,111",
+      "addStars": "1,200",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "JuneYaooo/rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "10,231",
+      "forks": "1,470",
+      "addStars": "1,066",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ethanplusai/sellbird",
+      "url": "https://github.com/ethanplusai/sellbird",
+      "description": "Sellbird (formerly Harvey): the open-source outreach platform that runs on your Claude or ChatGPT plan. Finds companies and decision makers, verifies emails, writes personal cold email, sends it and handles the replies.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "6,330",
+      "forks": "1,285",
+      "addStars": "660",
       "contributors": [],
       "source": "trendshift"
     },
@@ -658,57 +707,33 @@
       "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "150,680",
+      "stars": "150,867",
       "forks": "16,671",
-      "addStars": "732",
+      "addStars": "919",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "Murea-Labs/InWorld",
-      "url": "https://github.com/Murea-Labs/InWorld",
-      "description": "",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "3,394",
-      "forks": "452",
-      "addStars": "313",
+      "stars": "882",
+      "forks": "45",
+      "addStars": "469",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ShadowHackrs/gmail-account-creator",
-      "url": "https://github.com/ShadowHackrs/gmail-account-creator",
-      "description": "🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Create Gmail accounts in bulk with ease.",
+      "title": "open-jarvis/OpenJarvis",
+      "url": "https://github.com/open-jarvis/OpenJarvis",
+      "description": "Personal AI, On Personal Devices",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "6,151",
-      "forks": "1,120",
-      "addStars": "199",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "morganlinton/BeautifulRust",
-      "url": "https://github.com/morganlinton/BeautifulRust",
-      "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "2,027",
-      "forks": "96",
-      "addStars": "205",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "blader/humanizer",
-      "url": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "70,125",
-      "forks": "5,769",
-      "addStars": "662",
+      "stars": "16,424",
+      "forks": "4,089",
+      "addStars": "772",
       "contributors": [],
       "source": "trendshift"
     }
