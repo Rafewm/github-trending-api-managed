@@ -2,54 +2,17 @@
   "title": "GitHub C# Languages Monthly Trending",
   "description": "Monthly Trending of C# Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 18 Nov 2026 05:52:59 GMT",
+  "pubDate": "Wed, 18 Nov 2026 16:59:05 GMT",
   "items": [
-    {
-      "title": "zephyrproject-rtos/zephyr",
-      "url": "https://github.com/zephyrproject-rtos/zephyr",
-      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "17,114",
-      "forks": "10,467",
-      "addStars": "8",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/180017?s=40&v=4",
-          "name": "nashif",
-          "url": "https://github.com/nashif"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1098415?s=40&v=4",
-          "name": "jukkar",
-          "url": "https://github.com/jukkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/128251?s=40&v=4",
-          "name": "kartben",
-          "url": "https://github.com/kartben"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16417047?s=40&v=4",
-          "name": "galak",
-          "url": "https://github.com/galak"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25011557?s=40&v=4",
-          "name": "gmarull",
-          "url": "https://github.com/gmarull"
-        }
-      ]
-    },
     {
       "title": "semgrep/semgrep",
       "url": "https://github.com/semgrep/semgrep",
       "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,793",
-      "forks": "1,197",
-      "addStars": "41",
+      "stars": "17,801",
+      "forks": "1,198",
+      "addStars": "31",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/332336?s=40&v=4",
@@ -74,83 +37,14 @@
       ]
     },
     {
-      "title": "aircrack-ng/aircrack-ng",
-      "url": "https://github.com/aircrack-ng/aircrack-ng",
-      "description": "WiFi security auditing tools suite",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "7,932",
-      "forks": "1,412",
-      "addStars": "4",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3520734?s=40&v=4",
-          "name": "Mister-X-",
-          "url": "https://github.com/Mister-X-"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/73767?s=40&v=4",
-          "name": "jbenden",
-          "url": "https://github.com/jbenden"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59890178?s=40&v=4",
-          "name": "gemesa",
-          "url": "https://github.com/gemesa"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1670905?s=40&v=4",
-          "name": "ZeroChaos-",
-          "url": "https://github.com/ZeroChaos-"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5159728?s=40&v=4",
-          "name": "jmberg",
-          "url": "https://github.com/jmberg"
-        }
-      ]
-    },
-    {
-      "title": "DeusData/codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "48,797",
-      "forks": "4,054",
-      "addStars": "48",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81762164?s=40&v=4",
-          "name": "DeusData",
-          "url": "https://github.com/DeusData"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/72750828?s=40&v=4",
-          "name": "BernhardJackiewicz",
-          "url": "https://github.com/BernhardJackiewicz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/144919470?s=40&v=4",
-          "name": "DavidHLP",
-          "url": "https://github.com/DavidHLP"
-        }
-      ]
-    },
-    {
       "title": "Cisco-Talos/clamav",
       "url": "https://github.com/Cisco-Talos/clamav",
       "description": "ClamAV - Documentation is here: https://docs.clamav.net",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,655",
-      "forks": "981",
-      "addStars": "41",
+      "stars": "7,662",
+      "forks": "982",
+      "addStars": "16",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/30635813?s=40&v=4",
@@ -180,39 +74,325 @@
       ]
     },
     {
-      "title": "eclipse-mosquitto/mosquitto",
-      "url": "https://github.com/eclipse-mosquitto/mosquitto",
-      "description": "Eclipse Mosquitto - An open source MQTT broker",
+      "title": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "11,467",
-      "forks": "2,669",
-      "addStars": "15",
+      "stars": "80,951",
+      "forks": "5,085",
+      "addStars": "130",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/79578?s=40&v=4",
-          "name": "ralight",
-          "url": "https://github.com/ralight"
+          "avatar": "https://avatars.githubusercontent.com/u/59477474?s=40&v=4",
+          "name": "ventoy",
+          "url": "https://github.com/ventoy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/43614633?s=40&v=4",
-          "name": "keptt",
-          "url": "https://github.com/keptt"
+          "avatar": "https://avatars.githubusercontent.com/u/67432394?s=40&v=4",
+          "name": "wiz64",
+          "url": "https://github.com/wiz64"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/127907?s=40&v=4",
-          "name": "karlp",
-          "url": "https://github.com/karlp"
+          "avatar": "https://avatars.githubusercontent.com/u/53147200?s=40&v=4",
+          "name": "VenusGirl",
+          "url": "https://github.com/VenusGirl"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/10656714?s=40&v=4",
-          "name": "NorbertHeusser",
-          "url": "https://github.com/NorbertHeusser"
+          "avatar": "https://avatars.githubusercontent.com/u/54566818?s=40&v=4",
+          "name": "crasadure",
+          "url": "https://github.com/crasadure"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/359833?s=40&v=4",
-          "name": "PierreF",
-          "url": "https://github.com/PierreF"
+          "avatar": "https://avatars.githubusercontent.com/u/31486344?s=40&v=4",
+          "name": "AnomSanjaya",
+          "url": "https://github.com/AnomSanjaya"
+        }
+      ]
+    },
+    {
+      "title": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "77,511",
+      "forks": "25,047",
+      "addStars": "236",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65632?s=40&v=4",
+          "name": "antirez",
+          "url": "https://github.com/antirez"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7045099?s=40&v=4",
+          "name": "oranagra",
+          "url": "https://github.com/oranagra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9845?s=40&v=4",
+          "name": "pietern",
+          "url": "https://github.com/pietern"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/965798?s=40&v=4",
+          "name": "sundb",
+          "url": "https://github.com/sundb"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22811481?s=40&v=4",
+          "name": "enjoy-binbin",
+          "url": "https://github.com/enjoy-binbin"
+        }
+      ]
+    },
+    {
+      "title": "obsproject/obs-studio",
+      "url": "https://github.com/obsproject/obs-studio",
+      "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "79,693",
+      "forks": "11,285",
+      "addStars": "278",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2084112?s=40&v=4",
+          "name": "jp9000",
+          "url": "https://github.com/jp9000"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10396506?s=40&v=4",
+          "name": "jpark37",
+          "url": "https://github.com/jpark37"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9436503?s=40&v=4",
+          "name": "PatTheMav",
+          "url": "https://github.com/PatTheMav"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3123295?s=40&v=4",
+          "name": "derrod",
+          "url": "https://github.com/derrod"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/624931?s=40&v=4",
+          "name": "RytoEX",
+          "url": "https://github.com/RytoEX"
+        }
+      ]
+    },
+    {
+      "title": "pgvector/pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "description": "Open-source vector similarity search for Postgres",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "23,726",
+      "forks": "1,399",
+      "addStars": "20",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/220358?s=40&v=4",
+          "name": "ankane",
+          "url": "https://github.com/ankane"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/191602?s=40&v=4",
+          "name": "hlinnaka",
+          "url": "https://github.com/hlinnaka"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1694?s=40&v=4",
+          "name": "jkatz",
+          "url": "https://github.com/jkatz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42318777?s=40&v=4",
+          "name": "lychen0618",
+          "url": "https://github.com/lychen0618"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7227?s=40&v=4",
+          "name": "lfittl",
+          "url": "https://github.com/lfittl"
+        }
+      ]
+    },
+    {
+      "title": "raysan5/raylib",
+      "url": "https://github.com/raysan5/raylib",
+      "description": "A simple and easy-to-use library to enjoy videogames programming",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "35,720",
+      "forks": "3,396",
+      "addStars": "8",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5766837?s=40&v=4",
+          "name": "raysan5",
+          "url": "https://github.com/raysan5"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/322174?s=40&v=4",
+          "name": "JeffM2501",
+          "url": "https://github.com/JeffM2501"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5204368?s=40&v=4",
+          "name": "a3f",
+          "url": "https://github.com/a3f"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10688349?s=40&v=4",
+          "name": "victorfisac",
+          "url": "https://github.com/victorfisac"
+        }
+      ]
+    },
+    {
+      "title": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "41,804",
+      "forks": "8,575",
+      "addStars": "8",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2510034?s=40&v=4",
+          "name": "dstogov",
+          "url": "https://github.com/dstogov"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/216080?s=40&v=4",
+          "name": "nikic",
+          "url": "https://github.com/nikic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22016?s=40&v=4",
+          "name": "weltling",
+          "url": "https://github.com/weltling"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2306138?s=40&v=4",
+          "name": "cmb69",
+          "url": "https://github.com/cmb69"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158724?s=40&v=4",
+          "name": "iliaal",
+          "url": "https://github.com/iliaal"
+        }
+      ]
+    },
+    {
+      "title": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "25,200",
+      "forks": "4,455",
+      "addStars": "12",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7599318?s=40&v=4",
+          "name": "kisvegabor",
+          "url": "https://github.com/kisvegabor"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/55462127?s=40&v=4",
+          "name": "AndreCostaaa",
+          "url": "https://github.com/AndreCostaaa"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42941056?s=40&v=4",
+          "name": "embeddedt",
+          "url": "https://github.com/embeddedt"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26767803?s=40&v=4",
+          "name": "FASTSHIFT",
+          "url": "https://github.com/FASTSHIFT"
+        }
+      ]
+    },
+    {
+      "title": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "17,122",
+      "forks": "10,497",
+      "addStars": "16",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/180017?s=40&v=4",
+          "name": "nashif",
+          "url": "https://github.com/nashif"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1098415?s=40&v=4",
+          "name": "jukkar",
+          "url": "https://github.com/jukkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/128251?s=40&v=4",
+          "name": "kartben",
+          "url": "https://github.com/kartben"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16417047?s=40&v=4",
+          "name": "galak",
+          "url": "https://github.com/galak"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25011557?s=40&v=4",
+          "name": "gmarull",
+          "url": "https://github.com/gmarull"
+        }
+      ]
+    },
+    {
+      "title": "OpenIPC/firmware",
+      "url": "https://github.com/OpenIPC/firmware",
+      "description": "Alternative IP Camera firmware from an open community",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "2,297",
+      "forks": "527",
+      "addStars": "3",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88846?s=40&v=4",
+          "name": "ZigFisher",
+          "url": "https://github.com/ZigFisher"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/35473052?s=40&v=4",
+          "name": "viktorxda",
+          "url": "https://github.com/viktorxda"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6576495?s=40&v=4",
+          "name": "widgetii",
+          "url": "https://github.com/widgetii"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
+          "name": "actions-user",
+          "url": "https://github.com/actions-user"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7954832?s=40&v=4",
+          "name": "dimerr",
+          "url": "https://github.com/dimerr"
         }
       ]
     },
@@ -222,9 +402,9 @@
       "description": "",
       "language": "C#",
       "languageColor": "",
-      "stars": "10,240",
-      "forks": "394",
-      "addStars": "8,854",
+      "stars": "10,263",
+      "forks": "398",
+      "addStars": "8,880",
       "contributors": [],
       "source": "trendshift"
     },
@@ -234,9 +414,9 @@
       "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "language": "C#",
       "languageColor": "",
-      "stars": "28,536",
-      "forks": "1,652",
-      "addStars": "9,260",
+      "stars": "28,715",
+      "forks": "1,668",
+      "addStars": "9,451",
       "contributors": [],
       "source": "trendshift"
     },
@@ -246,9 +426,9 @@
       "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
       "language": "C#",
       "languageColor": "",
-      "stars": "3,521",
+      "stars": "3,581",
       "forks": "605",
-      "addStars": "3,465",
+      "addStars": "3,527",
       "contributors": [],
       "source": "trendshift"
     },
@@ -258,9 +438,9 @@
       "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 115 widgets for system stats, AI coding, media and automation. USB or paired Wi-Fi. No cloud required.",
       "language": "C#",
       "languageColor": "",
-      "stars": "2,733",
-      "forks": "308",
-      "addStars": "2,692",
+      "stars": "3,063",
+      "forks": "436",
+      "addStars": "3,013",
       "contributors": [],
       "source": "trendshift"
     },
@@ -270,9 +450,9 @@
       "description": "Open-source Windows game resource manager. Suppresses background processes, gives games exclusive CPU cores, steers device interrupts off game cores, applies per-game GPU driver, memory and power policies, and restores every change after play. No injection, no telemetry. GPL-3.0.",
       "language": "C#",
       "languageColor": "",
-      "stars": "2,253",
-      "forks": "90",
-      "addStars": "1,652",
+      "stars": "2,329",
+      "forks": "95",
+      "addStars": "1,726",
       "contributors": [],
       "source": "trendshift"
     },
@@ -282,9 +462,9 @@
       "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
       "language": "C#",
       "languageColor": "",
-      "stars": "12,472",
+      "stars": "12,621",
       "forks": "583",
-      "addStars": "1,744",
+      "addStars": "1,883",
       "contributors": [],
       "source": "trendshift"
     },
@@ -294,9 +474,9 @@
       "description": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
       "language": "C#",
       "languageColor": "",
-      "stars": "9,285",
-      "forks": "534",
-      "addStars": "1,357",
+      "stars": "9,316",
+      "forks": "537",
+      "addStars": "1,389",
       "contributors": [],
       "source": "trendshift"
     },
@@ -306,9 +486,9 @@
       "description": "An open-source IDE for C# and .NET, built with Avalonia, for Windows, macOS and Linux: a Roslyn-powered editor, its own debugger with Hot Reload, a CPU and memory profiler, XAML tooling for Avalonia and WPF, and an MCP server for coding agents.",
       "language": "C#",
       "languageColor": "",
-      "stars": "729",
-      "forks": "63",
-      "addStars": "524",
+      "stars": "741",
+      "forks": "67",
+      "addStars": "533",
       "contributors": [],
       "source": "trendshift"
     },
@@ -318,9 +498,9 @@
       "description": "哔哩哔哩第三方桌面客户端 · Windows / WPF / .NET 10 ",
       "language": "C#",
       "languageColor": "",
-      "stars": "703",
-      "forks": "18",
-      "addStars": "482",
+      "stars": "709",
+      "forks": "20",
+      "addStars": "488",
       "contributors": [],
       "source": "trendshift"
     },
@@ -330,9 +510,9 @@
       "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
       "language": "C#",
       "languageColor": "",
-      "stars": "120,843",
+      "stars": "120,886",
       "forks": "16,787",
-      "addStars": "1,194",
+      "addStars": "1,246",
       "contributors": [],
       "source": "trendshift"
     },
@@ -342,9 +522,9 @@
       "description": "A quiet, unofficial Capri companion for your Windows desktop.",
       "language": "C#",
       "languageColor": "",
-      "stars": "675",
-      "forks": "140",
-      "addStars": "442",
+      "stars": "688",
+      "forks": "145",
+      "addStars": "455",
       "contributors": [],
       "source": "trendshift"
     },
@@ -354,9 +534,9 @@
       "description": "Nota — a free DAW for macOS, Windows and Linux. No subscription, no account — just open it and make music.",
       "language": "C#",
       "languageColor": "",
-      "stars": "632",
-      "forks": "58",
-      "addStars": "433",
+      "stars": "646",
+      "forks": "60",
+      "addStars": "448",
       "contributors": [],
       "source": "trendshift"
     },
@@ -366,9 +546,9 @@
       "description": "",
       "language": "C#",
       "languageColor": "",
-      "stars": "896",
-      "forks": "27",
-      "addStars": "755",
+      "stars": "924",
+      "forks": "34",
+      "addStars": "783",
       "contributors": [],
       "source": "trendshift"
     },
@@ -378,9 +558,9 @@
       "description": "FluentCleaner is the transparent, community-powered CCleaner alternative for Windows.",
       "language": "C#",
       "languageColor": "",
-      "stars": "7,263",
+      "stars": "7,335",
       "forks": "278",
-      "addStars": "600",
+      "addStars": "668",
       "contributors": [],
       "source": "trendshift"
     },
@@ -390,9 +570,9 @@
       "description": "Repository for skills to assist AI coding agents with .NET and C#",
       "language": "C#",
       "languageColor": "",
-      "stars": "6,265",
+      "stars": "6,272",
       "forks": "526",
-      "addStars": "484",
+      "addStars": "491",
       "contributors": [],
       "source": "trendshift"
     },
@@ -402,21 +582,9 @@
       "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
       "language": "C#",
       "languageColor": "",
-      "stars": "4,654",
-      "forks": "143",
-      "addStars": "949",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "umlx5h/LLPlayer",
-      "url": "https://github.com/umlx5h/LLPlayer",
-      "description": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "4,748",
-      "forks": "311",
-      "addStars": "311",
+      "stars": "4,657",
+      "forks": "145",
+      "addStars": "952",
       "contributors": [],
       "source": "trendshift"
     },
@@ -426,9 +594,21 @@
       "description": "A Dynamic Island for Windows 11 with AI coding tool quotas, usage tracking, music controls, and more.",
       "language": "C#",
       "languageColor": "",
-      "stars": "803",
-      "forks": "82",
-      "addStars": "443",
+      "stars": "817",
+      "forks": "85",
+      "addStars": "458",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "umlx5h/LLPlayer",
+      "url": "https://github.com/umlx5h/LLPlayer",
+      "description": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "4,750",
+      "forks": "311",
+      "addStars": "313",
       "contributors": [],
       "source": "trendshift"
     },
@@ -438,9 +618,9 @@
       "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
       "language": "C#",
       "languageColor": "",
-      "stars": "41,123",
+      "stars": "41,137",
       "forks": "4,108",
-      "addStars": "571",
+      "addStars": "587",
       "contributors": [],
       "source": "trendshift"
     },
@@ -450,9 +630,33 @@
       "description": "LocalExile Open Source MMO Framework.",
       "language": "C#",
       "languageColor": "",
-      "stars": "283",
-      "forks": "123",
-      "addStars": "220",
+      "stars": "284",
+      "forks": "127",
+      "addStars": "221",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ntdevlabs/tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "22,188",
+      "forks": "1,707",
+      "addStars": "745",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "jellyfin/jellyfin",
+      "url": "https://github.com/jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "languageColor": "",
+      "stars": "59,494",
+      "forks": "6,081",
+      "addStars": "624",
       "contributors": [],
       "source": "trendshift"
     },
@@ -463,20 +667,8 @@
       "language": "C#",
       "languageColor": "",
       "stars": "396",
-      "forks": "10",
+      "forks": "11",
       "addStars": "256",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jellyfin/jellyfin",
-      "url": "https://github.com/jellyfin/jellyfin",
-      "description": "The Free Software Media System - Server Backend & API",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "59,483",
-      "forks": "6,081",
-      "addStars": "609",
       "contributors": [],
       "source": "trendshift"
     },
@@ -486,33 +678,21 @@
       "description": "📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 | 桌面分身 - UI Automation Testing Tools For Genshin Impact",
       "language": "C#",
       "languageColor": "",
-      "stars": "18,128",
+      "stars": "18,153",
       "forks": "1,440",
-      "addStars": "644",
+      "addStars": "669",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "ntdevlabs/tiny11builder",
-      "url": "https://github.com/ntdevlabs/tiny11builder",
-      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "title": "krezio/roomy",
+      "url": "https://github.com/krezio/roomy",
+      "description": "Your C: drive is full. Let's fix that. See what's eating your space in plain English and clean the safe stuff in one click.",
       "language": "C#",
       "languageColor": "",
-      "stars": "22,053",
-      "forks": "1,707",
-      "addStars": "614",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "Bai-Cute/big-blue-fish-desktop-pet",
-      "url": "https://github.com/Bai-Cute/big-blue-fish-desktop-pet",
-      "description": "蓝色大肥鱼 Windows AI 桌宠，内置 4B 本地大模型，以鲸鱼娘人设结合天气、科技新闻和当前应用，通过文字气泡温柔陪伴。支持一键安装与离电暂停推理。Big Blue Fish desktop pet with local LLM.",
-      "language": "C#",
-      "languageColor": "",
-      "stars": "362",
-      "forks": "29",
-      "addStars": "205",
+      "stars": "445",
+      "forks": "21",
+      "addStars": "398",
       "contributors": [],
       "source": "trendshift"
     }

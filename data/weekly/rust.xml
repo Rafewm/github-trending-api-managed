@@ -3,7 +3,7 @@
     <title>GitHub Rust Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Rust Languages in GitHub</description>
-    <pubDate>Wed, 18 Nov 2026 05:52:59 GMT</pubDate>
+    <pubDate>Wed, 18 Nov 2026 16:59:05 GMT</pubDate>
     <item>
       <title>vercel-labs/agent-browser</title>
       <link>https://github.com/vercel-labs/agent-browser</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/vercel-labs/agent-browser</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>52,445</stars>
-      <forks>3,668</forks>
+      <stars>52,596</stars>
+      <forks>3,680</forks>
       <addStars>3,429</addStars>
       <contributors>
         <contributor>
@@ -38,14 +38,47 @@
       </contributors>
     </item>
     <item>
+      <title>ModernRelay/omnigraph</title>
+      <link>https://github.com/ModernRelay/omnigraph</link>
+      <description>Object-storage native graph database with branching and typed ontology</description>
+      <guid>https://github.com/ModernRelay/omnigraph</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>3,028</stars>
+      <forks>336</forks>
+      <addStars>956</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4</avatar>
+          <name>aaltshuler</name>
+          <url>https://github.com/aaltshuler</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6823991?s=40&amp;v=4</avatar>
+          <name>ragnorc</name>
+          <url>https://github.com/ragnorc</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/13484327?s=40&amp;v=4</avatar>
+          <name>azimafroozeh</name>
+          <url>https://github.com/azimafroozeh</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>block/buzz</title>
       <link>https://github.com/block/buzz</link>
       <description>A hive mind communication platform</description>
       <guid>https://github.com/block/buzz</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>37,560</stars>
-      <forks>4,958</forks>
+      <stars>37,576</stars>
+      <forks>4,961</forks>
       <addStars>759</addStars>
       <contributors>
         <contributor>
@@ -76,47 +109,14 @@
       </contributors>
     </item>
     <item>
-      <title>tokio-rs/topcoat</title>
-      <link>https://github.com/tokio-rs/topcoat</link>
-      <description>A batteries-included framework for building web apps</description>
-      <guid>https://github.com/tokio-rs/topcoat</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>7,252</stars>
-      <forks>313</forks>
-      <addStars>627</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8947616?s=40&amp;v=4</avatar>
-          <name>pikaju</name>
-          <url>https://github.com/pikaju</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/31693992?s=40&amp;v=4</avatar>
-          <name>akoll</name>
-          <url>https://github.com/akoll</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6180?s=40&amp;v=4</avatar>
-          <name>carllerche</name>
-          <url>https://github.com/carllerche</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/62555273?s=40&amp;v=4</avatar>
-          <name>AmeinEskinder</name>
-          <url>https://github.com/AmeinEskinder</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>zellij-org/zellij</title>
       <link>https://github.com/zellij-org/zellij</link>
       <description>A terminal workspace with batteries included</description>
       <guid>https://github.com/zellij-org/zellij</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>36,125</stars>
-      <forks>1,546</forks>
+      <stars>36,134</stars>
+      <forks>1,549</forks>
       <addStars>183</addStars>
       <contributors>
         <contributor>
@@ -147,48 +147,53 @@
       </contributors>
     </item>
     <item>
-      <title>vercel-labs/agent-desktop</title>
-      <link>https://github.com/vercel-labs/agent-desktop</link>
-      <description>Computer use CLI for AI agents</description>
-      <guid>https://github.com/vercel-labs/agent-desktop</guid>
+      <title>tokio-rs/topcoat</title>
+      <link>https://github.com/tokio-rs/topcoat</link>
+      <description>A batteries-included framework for building web apps</description>
+      <guid>https://github.com/tokio-rs/topcoat</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>25,079</stars>
-      <forks>1,879</forks>
-      <addStars>3,817</addStars>
+      <stars>7,262</stars>
+      <forks>312</forks>
+      <addStars>627</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/70215676?s=40&amp;v=4</avatar>
-          <name>lahfir</name>
-          <url>https://github.com/lahfir</url>
+          <avatar>https://avatars.githubusercontent.com/u/8947616?s=40&amp;v=4</avatar>
+          <name>pikaju</name>
+          <url>https://github.com/pikaju</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/366502?s=40&amp;v=4</avatar>
-          <name>ctate</name>
-          <url>https://github.com/ctate</url>
+          <avatar>https://avatars.githubusercontent.com/u/31693992?s=40&amp;v=4</avatar>
+          <name>akoll</name>
+          <url>https://github.com/akoll</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/6180?s=40&amp;v=4</avatar>
+          <name>carllerche</name>
+          <url>https://github.com/carllerche</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/62555273?s=40&amp;v=4</avatar>
+          <name>AmeinEskinder</name>
+          <url>https://github.com/AmeinEskinder</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>ModernRelay/omnigraph</title>
-      <link>https://github.com/ModernRelay/omnigraph</link>
-      <description>Object-storage native graph database with branching and typed ontology</description>
-      <guid>https://github.com/ModernRelay/omnigraph</guid>
+      <title>martin-olivier/airgorah</title>
+      <link>https://github.com/martin-olivier/airgorah</link>
+      <description>A WiFi security auditing software</description>
+      <guid>https://github.com/martin-olivier/airgorah</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>2,986</stars>
-      <forks>334</forks>
-      <addStars>956</addStars>
+      <stars>6,637</stars>
+      <forks>1,093</forks>
+      <addStars>1,468</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/176176572?s=40&amp;v=4</avatar>
-          <name>aaltshuler</name>
-          <url>https://github.com/aaltshuler</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6823991?s=40&amp;v=4</avatar>
-          <name>ragnorc</name>
-          <url>https://github.com/ragnorc</url>
+          <avatar>https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4</avatar>
+          <name>martin-olivier</name>
+          <url>https://github.com/martin-olivier</url>
         </contributor>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
@@ -196,9 +201,9 @@
           <url>https://github.com/claude</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13484327?s=40&amp;v=4</avatar>
-          <name>azimafroozeh</name>
-          <url>https://github.com/azimafroozeh</url>
+          <avatar>https://avatars.githubusercontent.com/u/55240433?s=40&amp;v=4</avatar>
+          <name>m-bdf</name>
+          <url>https://github.com/m-bdf</url>
         </contributor>
       </contributors>
     </item>
@@ -209,8 +214,8 @@
       <guid>https://github.com/crmne/zapfast</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>4,697</stars>
-      <forks>472</forks>
+      <stars>4,723</stars>
+      <forks>476</forks>
       <addStars>888</addStars>
       <contributors>
         <contributor>
@@ -236,96 +241,73 @@
       </contributors>
     </item>
     <item>
-      <title>martin-olivier/airgorah</title>
-      <link>https://github.com/martin-olivier/airgorah</link>
-      <description>A WiFi security auditing software</description>
-      <guid>https://github.com/martin-olivier/airgorah</guid>
+      <title>astral-sh/ruff</title>
+      <link>https://github.com/astral-sh/ruff</link>
+      <description>An extremely fast Python linter and code formatter, written in Rust.</description>
+      <guid>https://github.com/astral-sh/ruff</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>6,611</stars>
-      <forks>1,093</forks>
-      <addStars>1,468</addStars>
+      <stars>51,263</stars>
+      <forks>2,762</forks>
+      <addStars>399</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/58467105?s=40&amp;v=4</avatar>
-          <name>martin-olivier</name>
-          <url>https://github.com/martin-olivier</url>
+          <avatar>https://avatars.githubusercontent.com/u/1309177?s=40&amp;v=4</avatar>
+          <name>charliermarsh</name>
+          <url>https://github.com/charliermarsh</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
+          <avatar>https://avatars.githubusercontent.com/u/1203881?s=40&amp;v=4</avatar>
+          <name>MichaReiser</name>
+          <url>https://github.com/MichaReiser</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/55240433?s=40&amp;v=4</avatar>
-          <name>m-bdf</name>
-          <url>https://github.com/m-bdf</url>
+          <avatar>https://avatars.githubusercontent.com/u/66076021?s=40&amp;v=4</avatar>
+          <name>AlexWaygood</name>
+          <url>https://github.com/AlexWaygood</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/4209276?s=40&amp;v=4</avatar>
+          <name>sharkdp</name>
+          <url>https://github.com/sharkdp</url>
         </contributor>
       </contributors>
     </item>
     <item>
-      <title>rustdesk/rustdesk</title>
-      <link>https://github.com/rustdesk/rustdesk</link>
-      <description>An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</description>
-      <guid>https://github.com/rustdesk/rustdesk</guid>
+      <title>NVIDIA-NeMo/Switchyard</title>
+      <link>https://github.com/NVIDIA-NeMo/Switchyard</link>
+      <description>Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.</description>
+      <guid>https://github.com/NVIDIA-NeMo/Switchyard</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>129,955</stars>
-      <forks>20,851</forks>
-      <addStars>1,031</addStars>
+      <stars>3,646</stars>
+      <forks>376</forks>
+      <addStars>135</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/71636191?s=40&amp;v=4</avatar>
-          <name>rustdesk</name>
-          <url>https://github.com/rustdesk</url>
+          <avatar>https://avatars.githubusercontent.com/u/186739590?s=40&amp;v=4</avatar>
+          <name>elyasmnvidian</name>
+          <url>https://github.com/elyasmnvidian</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/13586388?s=40&amp;v=4</avatar>
-          <name>fufesou</name>
-          <url>https://github.com/fufesou</url>
+          <avatar>https://avatars.githubusercontent.com/u/197974741?s=40&amp;v=4</avatar>
+          <name>nachiketb-nvidia</name>
+          <url>https://github.com/nachiketb-nvidia</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/14891774?s=40&amp;v=4</avatar>
-          <name>21pages</name>
-          <url>https://github.com/21pages</url>
+          <avatar>https://avatars.githubusercontent.com/u/180418?s=40&amp;v=4</avatar>
+          <name>grahamking</name>
+          <url>https://github.com/grahamking</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/39793325?s=40&amp;v=4</avatar>
-          <name>Kingtous</name>
-          <url>https://github.com/Kingtous</url>
+          <avatar>https://avatars.githubusercontent.com/u/196090752?s=40&amp;v=4</avatar>
+          <name>ryan-lempka</name>
+          <url>https://github.com/ryan-lempka</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/62206297?s=40&amp;v=4</avatar>
-          <name>Heap-Hop</name>
-          <url>https://github.com/Heap-Hop</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>GyulyVGC/sniffnet</title>
-      <link>https://github.com/GyulyVGC/sniffnet</link>
-      <description>Comfortably monitor your network traffic 🕵️‍♂️</description>
-      <guid>https://github.com/GyulyVGC/sniffnet</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>43,049</stars>
-      <forks>2,023</forks>
-      <addStars>730</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/100347457?s=40&amp;v=4</avatar>
-          <name>GyulyVGC</name>
-          <url>https://github.com/GyulyVGC</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/101053125?s=40&amp;v=4</avatar>
-          <name>Crirock</name>
-          <url>https://github.com/Crirock</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/48846352?s=40&amp;v=4</avatar>
-          <name>joshuamegnauth54</name>
-          <url>https://github.com/joshuamegnauth54</url>
+          <avatar>https://avatars.githubusercontent.com/u/208532109?s=40&amp;v=4</avatar>
+          <name>ayushag-nv</name>
+          <url>https://github.com/ayushag-nv</url>
         </contributor>
       </contributors>
     </item>
@@ -336,9 +318,9 @@
       <guid>https://github.com/libracoder/kiri</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>10,212</stars>
-      <forks>437</forks>
-      <addStars>3,961</addStars>
+      <stars>10,650</stars>
+      <forks>486</forks>
+      <addStars>4,360</addStars>
       <contributors/>
     </item>
     <item>
@@ -348,9 +330,9 @@
       <guid>https://github.com/erkamyaman/rust-anything</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>1,671</stars>
-      <forks>23</forks>
-      <addStars>1,282</addStars>
+      <stars>2,868</stars>
+      <forks>229</forks>
+      <addStars>2,387</addStars>
       <contributors/>
     </item>
     <item>
@@ -360,9 +342,9 @@
       <guid>https://github.com/storytold/craft-anything</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>35,921</stars>
-      <forks>7,156</forks>
-      <addStars>2,301</addStars>
+      <stars>36,626</stars>
+      <forks>7,382</forks>
+      <addStars>2,972</addStars>
       <contributors/>
     </item>
     <item>
@@ -372,9 +354,9 @@
       <guid>https://github.com/anefzaoui/misterdownloadmanager</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>12,315</stars>
-      <forks>1,041</forks>
-      <addStars>1,978</addStars>
+      <stars>12,855</stars>
+      <forks>1,120</forks>
+      <addStars>2,561</addStars>
       <contributors/>
     </item>
     <item>
@@ -384,9 +366,9 @@
       <guid>https://github.com/pbakaus/impeccable</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>112,338</stars>
+      <stars>112,736</stars>
       <forks>7,276</forks>
-      <addStars>1,622</addStars>
+      <addStars>2,004</addStars>
       <contributors/>
     </item>
     <item>
@@ -396,9 +378,9 @@
       <guid>https://github.com/antithesishq/bombadil</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>2,602</stars>
+      <stars>2,667</stars>
       <forks>100</forks>
-      <addStars>637</addStars>
+      <addStars>713</addStars>
       <contributors/>
     </item>
     <item>
@@ -408,9 +390,9 @@
       <guid>https://github.com/horizon-rust/horizon</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>11,152</stars>
-      <forks>1,532</forks>
-      <addStars>922</addStars>
+      <stars>11,260</stars>
+      <forks>1,574</forks>
+      <addStars>1,036</addStars>
       <contributors/>
     </item>
     <item>
@@ -420,21 +402,21 @@
       <guid>https://github.com/Minireel/HGhub</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>9,900</stars>
-      <forks>4,227</forks>
-      <addStars>920</addStars>
+      <stars>10,040</stars>
+      <forks>4,411</forks>
+      <addStars>1,065</addStars>
       <contributors/>
     </item>
     <item>
-      <title>davidondrej/superbot</title>
-      <link>https://github.com/davidondrej/superbot</link>
-      <description>Open-source, self-hosted Grok Bot alternative</description>
-      <guid>https://github.com/davidondrej/superbot</guid>
+      <title>vercel-labs/agent-desktop</title>
+      <link>https://github.com/vercel-labs/agent-desktop</link>
+      <description>Computer use CLI for AI agents</description>
+      <guid>https://github.com/vercel-labs/agent-desktop</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>308</stars>
-      <forks>75</forks>
-      <addStars>286</addStars>
+      <stars>25,242</stars>
+      <forks>1,902</forks>
+      <addStars>1,080</addStars>
       <contributors/>
     </item>
     <item>
@@ -444,81 +426,21 @@
       <guid>https://github.com/farion1231/cc-switch</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>155,298</stars>
+      <stars>155,511</stars>
       <forks>10,952</forks>
-      <addStars>697</addStars>
+      <addStars>895</addStars>
       <contributors/>
     </item>
     <item>
-      <title>jub0t/Concat</title>
-      <link>https://github.com/jub0t/Concat</link>
-      <description>Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API &amp; MCP.</description>
-      <guid>https://github.com/jub0t/Concat</guid>
+      <title>davidondrej/superbot</title>
+      <link>https://github.com/davidondrej/superbot</link>
+      <description>Open-source, self-hosted Grok Bot alternative</description>
+      <guid>https://github.com/davidondrej/superbot</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>18,463</stars>
-      <forks>2,290</forks>
-      <addStars>647</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>aws/aws-emulator</title>
-      <link>https://github.com/aws/aws-emulator</link>
-      <description/>
-      <guid>https://github.com/aws/aws-emulator</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>9,168</stars>
-      <forks>402</forks>
-      <addStars>763</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>tylertms/Stela</title>
-      <link>https://github.com/tylertms/Stela</link>
-      <description>Boots unmodified Apple silicon macOS on x86-64 PCs</description>
-      <guid>https://github.com/tylertms/Stela</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>3,070</stars>
-      <forks>193</forks>
-      <addStars>615</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>unharnessed-agent/Unharnessed</title>
-      <link>https://github.com/unharnessed-agent/Unharnessed</link>
-      <description>A minimalist and powerful harness with one tool: a persistent Python REPL. </description>
-      <guid>https://github.com/unharnessed-agent/Unharnessed</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>317</stars>
-      <forks>25</forks>
-      <addStars>182</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>elripalda/RecompLauncher</title>
-      <link>https://github.com/elripalda/RecompLauncher</link>
-      <description>PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.</description>
-      <guid>https://github.com/elripalda/RecompLauncher</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>1,453</stars>
-      <forks>68</forks>
-      <addStars>453</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>storytold/photocraft</title>
-      <link>https://github.com/storytold/photocraft</link>
-      <description>PhotoCraft: An open-source photo editor written from scratch in pure Rust</description>
-      <guid>https://github.com/storytold/photocraft</guid>
-      <language>Rust</language>
-      <languageColor>#dea584</languageColor>
-      <stars>80,155</stars>
-      <forks>14,625</forks>
-      <addStars>544</addStars>
+      <stars>329</stars>
+      <forks>99</forks>
+      <addStars>308</addStars>
       <contributors/>
     </item>
     <item>
@@ -528,45 +450,57 @@
       <guid>https://github.com/gelenmedya/rustyfiles</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>254</stars>
-      <forks>10</forks>
-      <addStars>178</addStars>
+      <stars>367</stars>
+      <forks>30</forks>
+      <addStars>282</addStars>
       <contributors/>
     </item>
     <item>
-      <title>tangency-labs/solidcraft</title>
-      <link>https://github.com/tangency-labs/solidcraft</link>
-      <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
-      <guid>https://github.com/tangency-labs/solidcraft</guid>
+      <title>jub0t/Concat</title>
+      <link>https://github.com/jub0t/Concat</link>
+      <description>Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API &amp; MCP.</description>
+      <guid>https://github.com/jub0t/Concat</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>16,978</stars>
-      <forks>2,383</forks>
-      <addStars>488</addStars>
+      <stars>18,601</stars>
+      <forks>2,329</forks>
+      <addStars>785</addStars>
       <contributors/>
     </item>
     <item>
-      <title>h4ckf0r0day/obscura</title>
-      <link>https://github.com/h4ckf0r0day/obscura</link>
-      <description>The headless browser for AI agents and web scraping</description>
-      <guid>https://github.com/h4ckf0r0day/obscura</guid>
+      <title>aws/aws-emulator</title>
+      <link>https://github.com/aws/aws-emulator</link>
+      <description/>
+      <guid>https://github.com/aws/aws-emulator</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>36,240</stars>
-      <forks>3,009</forks>
-      <addStars>603</addStars>
+      <stars>9,255</stars>
+      <forks>402</forks>
+      <addStars>862</addStars>
       <contributors/>
     </item>
     <item>
-      <title>BurntSushi/jiff</title>
-      <link>https://github.com/BurntSushi/jiff</link>
-      <description>A datetime library for Rust that encourages you to jump into the pit of success.</description>
-      <guid>https://github.com/BurntSushi/jiff</guid>
+      <title>tylertms/Stela</title>
+      <link>https://github.com/tylertms/Stela</link>
+      <description>A translation-based Apple Silicon layer for x86-64 PCs</description>
+      <guid>https://github.com/tylertms/Stela</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
       <stars>3,180</stars>
-      <forks>148</forks>
-      <addStars>160</addStars>
+      <forks>232</forks>
+      <addStars>712</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>storytold/photocraft</title>
+      <link>https://github.com/storytold/photocraft</link>
+      <description>PhotoCraft: An open-source photo editor written from scratch in pure Rust</description>
+      <guid>https://github.com/storytold/photocraft</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>80,239</stars>
+      <forks>14,683</forks>
+      <addStars>638</addStars>
       <contributors/>
     </item>
     <item>
@@ -576,9 +510,33 @@
       <guid>https://github.com/clash-verge-rev/clash-verge-rev</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>159,039</stars>
+      <stars>159,197</stars>
       <forks>11,980</forks>
-      <addStars>467</addStars>
+      <addStars>628</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>tangency-labs/solidcraft</title>
+      <link>https://github.com/tangency-labs/solidcraft</link>
+      <description>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</description>
+      <guid>https://github.com/tangency-labs/solidcraft</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>17,062</stars>
+      <forks>2,428</forks>
+      <addStars>564</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>elripalda/RecompLauncher</title>
+      <link>https://github.com/elripalda/RecompLauncher</link>
+      <description>PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.</description>
+      <guid>https://github.com/elripalda/RecompLauncher</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>1,512</stars>
+      <forks>80</forks>
+      <addStars>511</addStars>
       <contributors/>
     </item>
     <item>
@@ -588,21 +546,57 @@
       <guid>https://github.com/Chunyu33/light-c</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>3,734</stars>
-      <forks>154</forks>
-      <addStars>239</addStars>
+      <stars>3,784</stars>
+      <forks>157</forks>
+      <addStars>296</addStars>
       <contributors/>
     </item>
     <item>
-      <title>herdrdev/herdr</title>
-      <link>https://github.com/herdrdev/herdr</link>
-      <description>the runtime your coding agents live on</description>
-      <guid>https://github.com/herdrdev/herdr</guid>
+      <title>h4ckf0r0day/obscura</title>
+      <link>https://github.com/h4ckf0r0day/obscura</link>
+      <description>The headless browser for AI agents and web scraping</description>
+      <guid>https://github.com/h4ckf0r0day/obscura</guid>
       <language>Rust</language>
       <languageColor>#dea584</languageColor>
-      <stars>51,625</stars>
-      <forks>4,685</forks>
-      <addStars>451</addStars>
+      <stars>36,354</stars>
+      <forks>3,009</forks>
+      <addStars>712</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>anomalyco/hex</title>
+      <link>https://github.com/anomalyco/hex</link>
+      <description>Local voice dictation for mac, windows and linux</description>
+      <guid>https://github.com/anomalyco/hex</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>7,406</stars>
+      <forks>484</forks>
+      <addStars>519</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>unharnessed-agent/Unharnessed</title>
+      <link>https://github.com/unharnessed-agent/Unharnessed</link>
+      <description>A minimalist and powerful harness with one tool: a persistent Python REPL. </description>
+      <guid>https://github.com/unharnessed-agent/Unharnessed</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>321</stars>
+      <forks>25</forks>
+      <addStars>187</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>BurntSushi/jiff</title>
+      <link>https://github.com/BurntSushi/jiff</link>
+      <description>A datetime library for Rust that encourages you to jump into the pit of success.</description>
+      <guid>https://github.com/BurntSushi/jiff</guid>
+      <language>Rust</language>
+      <languageColor>#dea584</languageColor>
+      <stars>3,214</stars>
+      <forks>148</forks>
+      <addStars>189</addStars>
       <contributors/>
     </item>
   </channel>
