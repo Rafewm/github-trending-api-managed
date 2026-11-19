@@ -2,48 +2,16 @@
   "title": "GitHub Typescript Languages Weekly Trending",
   "description": "Weekly Trending of Typescript Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 19 Nov 2026 01:42:26 GMT",
+  "pubDate": "Thu, 19 Nov 2026 12:28:59 GMT",
   "items": [
-    {
-      "title": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "8,860",
-      "forks": "739",
-      "addStars": "7,257",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39191?s=40&v=4",
-          "name": "paulirish",
-          "url": "https://github.com/paulirish"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1120896?s=40&v=4",
-          "name": "rviscomi",
-          "url": "https://github.com/rviscomi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/126118814?s=40&v=4",
-          "name": "micahjo7",
-          "url": "https://github.com/micahjo7"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/175836?s=40&v=4",
-          "name": "LeaVerou",
-          "url": "https://github.com/LeaVerou"
-        }
-      ]
-    },
     {
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "13,468",
-      "forks": "1,356",
+      "stars": "13,578",
+      "forks": "1,369",
       "addStars": "3,290",
       "contributors": [
         {
@@ -74,45 +42,13 @@
       ]
     },
     {
-      "title": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "description": "An open source design system that's fully customizable and agent ready",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "30,602",
-      "forks": "2,400",
-      "addStars": "6,250",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2781099?s=40&v=4",
-          "name": "cixzhang",
-          "url": "https://github.com/cixzhang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17398284?s=40&v=4",
-          "name": "josephfarina",
-          "url": "https://github.com/josephfarina"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/254546175?s=40&v=4",
-          "name": "rubyycheung",
-          "url": "https://github.com/rubyycheung"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/197597?s=40&v=4",
-          "name": "vjeux",
-          "url": "https://github.com/vjeux"
-        }
-      ]
-    },
-    {
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "10,419",
-      "forks": "1,368",
+      "stars": "10,575",
+      "forks": "1,377",
       "addStars": "1,567",
       "contributors": [
         {
@@ -143,13 +79,45 @@
       ]
     },
     {
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "9,007",
+      "forks": "749",
+      "addStars": "7,257",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39191?s=40&v=4",
+          "name": "paulirish",
+          "url": "https://github.com/paulirish"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1120896?s=40&v=4",
+          "name": "rviscomi",
+          "url": "https://github.com/rviscomi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/126118814?s=40&v=4",
+          "name": "micahjo7",
+          "url": "https://github.com/micahjo7"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/175836?s=40&v=4",
+          "name": "LeaVerou",
+          "url": "https://github.com/LeaVerou"
+        }
+      ]
+    },
+    {
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "58,224",
-      "forks": "4,877",
+      "stars": "58,302",
+      "forks": "4,882",
       "addStars": "3,143",
       "contributors": [
         {
@@ -180,8 +148,8 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "20,455",
-      "forks": "2,105",
+      "stars": "20,559",
+      "forks": "2,112",
       "addStars": "3,221",
       "contributors": [
         {
@@ -212,34 +180,34 @@
       ]
     },
     {
-      "title": "openai/codex-security",
-      "url": "https://github.com/openai/codex-security",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "title": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "14,123",
-      "forks": "1,101",
-      "addStars": "2,630",
+      "stars": "30,780",
+      "forks": "2,410",
+      "addStars": "6,250",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/269034524?s=40&v=4",
-          "name": "mldangelo-oai",
-          "url": "https://github.com/mldangelo-oai"
+          "avatar": "https://avatars.githubusercontent.com/u/2781099?s=40&v=4",
+          "name": "cixzhang",
+          "url": "https://github.com/cixzhang"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "name": "codex",
-          "url": "https://github.com/codex"
+          "avatar": "https://avatars.githubusercontent.com/u/17398284?s=40&v=4",
+          "name": "josephfarina",
+          "url": "https://github.com/josephfarina"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/269041055?s=40&v=4",
-          "name": "ianw-oai",
-          "url": "https://github.com/ianw-oai"
+          "avatar": "https://avatars.githubusercontent.com/u/254546175?s=40&v=4",
+          "name": "rubyycheung",
+          "url": "https://github.com/rubyycheung"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/272643392?s=40&v=4",
-          "name": "kmbroai",
-          "url": "https://github.com/kmbroai"
+          "avatar": "https://avatars.githubusercontent.com/u/197597?s=40&v=4",
+          "name": "vjeux",
+          "url": "https://github.com/vjeux"
         }
       ]
     },
@@ -249,8 +217,8 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "29,896",
-      "forks": "2,706",
+      "stars": "30,414",
+      "forks": "2,737",
       "addStars": "6,840",
       "contributors": [
         {
@@ -281,13 +249,45 @@
       ]
     },
     {
+      "title": "a2ui-project/a2ui",
+      "url": "https://github.com/a2ui-project/a2ui",
+      "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "17,644",
+      "forks": "1,429",
+      "addStars": "557",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8867023?s=40&v=4",
+          "name": "gspencergoog",
+          "url": "https://github.com/gspencergoog"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57464258?s=40&v=4",
+          "name": "nan-yu",
+          "url": "https://github.com/nan-yu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6869388?s=40&v=4",
+          "name": "jacobsimionato",
+          "url": "https://github.com/jacobsimionato"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/64992551?s=40&v=4",
+          "name": "josemontespg",
+          "url": "https://github.com/josemontespg"
+        }
+      ]
+    },
+    {
       "title": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "30,766",
-      "forks": "3,556",
+      "stars": "30,780",
+      "forks": "3,559",
       "addStars": "1,387",
       "contributors": [
         {
@@ -318,204 +318,34 @@
       ]
     },
     {
-      "title": "a2ui-project/a2ui",
-      "url": "https://github.com/a2ui-project/a2ui",
-      "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "title": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "17,616",
-      "forks": "1,428",
-      "addStars": "557",
+      "stars": "14,169",
+      "forks": "1,108",
+      "addStars": "2,630",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8867023?s=40&v=4",
-          "name": "gspencergoog",
-          "url": "https://github.com/gspencergoog"
+          "avatar": "https://avatars.githubusercontent.com/u/269034524?s=40&v=4",
+          "name": "mldangelo-oai",
+          "url": "https://github.com/mldangelo-oai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/57464258?s=40&v=4",
-          "name": "nan-yu",
-          "url": "https://github.com/nan-yu"
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "name": "codex",
+          "url": "https://github.com/codex"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6869388?s=40&v=4",
-          "name": "jacobsimionato",
-          "url": "https://github.com/jacobsimionato"
+          "avatar": "https://avatars.githubusercontent.com/u/269041055?s=40&v=4",
+          "name": "ianw-oai",
+          "url": "https://github.com/ianw-oai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/64992551?s=40&v=4",
-          "name": "josemontespg",
-          "url": "https://github.com/josemontespg"
-        }
-      ]
-    },
-    {
-      "title": "CopilotKit/OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "12,871",
-      "forks": "1,599",
-      "addStars": "1,901",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1574202?s=40&v=4",
-          "name": "davidmckayv",
-          "url": "https://github.com/davidmckayv"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/27702539?s=40&v=4",
-          "name": "guidovizoso",
-          "url": "https://github.com/guidovizoso"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67006255?s=40&v=4",
-          "name": "Ayush7614",
-          "url": "https://github.com/Ayush7614"
-        }
-      ]
-    },
-    {
-      "title": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "25,414",
-      "forks": "3,592",
-      "addStars": "4,246",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
-          "name": "milind-soni",
-          "url": "https://github.com/milind-soni"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
-          "name": "AdityaUmale",
-          "url": "https://github.com/AdityaUmale"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
-          "name": "aivsomkar",
-          "url": "https://github.com/aivsomkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
-          "name": "robinsonnblack",
-          "url": "https://github.com/robinsonnblack"
-        }
-      ]
-    },
-    {
-      "title": "lobehub/lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "85,804",
-      "forks": "16,350",
-      "addStars": "829",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28616219?s=40&v=4",
-          "name": "arvinxx",
-          "url": "https://github.com/arvinxx"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32174276?s=40&v=4",
-          "name": "semantic-release-bot",
-          "url": "https://github.com/semantic-release-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/41773861?s=40&v=4",
-          "name": "tjx666",
-          "url": "https://github.com/tjx666"
-        }
-      ]
-    },
-    {
-      "title": "elie222/rakazo",
-      "url": "https://github.com/elie222/rakazo",
-      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "9,147",
-      "forks": "1,645",
-      "addStars": "1,230",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3090527?s=40&v=4",
-          "name": "elie222",
-          "url": "https://github.com/elie222"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "name": "cursoragent",
-          "url": "https://github.com/cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/23367003?s=40&v=4",
-          "name": "zicochaos",
-          "url": "https://github.com/zicochaos"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/226968270?s=40&v=4",
-          "name": "yxr-2025",
-          "url": "https://github.com/yxr-2025"
-        }
-      ]
-    },
-    {
-      "title": "Viren070/AIOStreams",
-      "url": "https://github.com/Viren070/AIOStreams",
-      "description": "AIOStreams brings your Stremio addons, debrid services and Usenet together into one list, filtered, sorted and formatted your way, and plays it in Stremio or in its own apps for every screen.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "3,275",
-      "forks": "956",
-      "addStars": "136",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/71220264?s=40&v=4",
-          "name": "Viren070",
-          "url": "https://github.com/Viren070"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/210764791?s=40&v=4",
-          "name": "webstreamr",
-          "url": "https://github.com/webstreamr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
-          "name": "weblate",
-          "url": "https://github.com/weblate"
+          "avatar": "https://avatars.githubusercontent.com/u/272643392?s=40&v=4",
+          "name": "kmbroai",
+          "url": "https://github.com/kmbroai"
         }
       ]
     },
@@ -525,8 +355,8 @@
       "description": "Email for professionals and teams",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "7,112",
-      "forks": "1,233",
+      "stars": "7,203",
+      "forks": "1,244",
       "addStars": "991",
       "contributors": [
         {
@@ -557,26 +387,221 @@
       ]
     },
     {
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "25,636",
+      "forks": "3,632",
+      "addStars": "4,246",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
+          "name": "milind-soni",
+          "url": "https://github.com/milind-soni"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
+          "name": "AdityaUmale",
+          "url": "https://github.com/AdityaUmale"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
+          "name": "aivsomkar",
+          "url": "https://github.com/aivsomkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
+          "name": "robinsonnblack",
+          "url": "https://github.com/robinsonnblack"
+        }
+      ]
+    },
+    {
+      "title": "Viren070/AIOStreams",
+      "url": "https://github.com/Viren070/AIOStreams",
+      "description": "AIOStreams brings your Stremio addons, debrid services and Usenet together into one list, filtered, sorted and formatted your way, and plays it in Stremio or in its own apps for every screen.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "3,277",
+      "forks": "955",
+      "addStars": "136",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/71220264?s=40&v=4",
+          "name": "Viren070",
+          "url": "https://github.com/Viren070"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/210764791?s=40&v=4",
+          "name": "webstreamr",
+          "url": "https://github.com/webstreamr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
+          "name": "weblate",
+          "url": "https://github.com/weblate"
+        }
+      ]
+    },
+    {
+      "title": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "85,845",
+      "forks": "16,348",
+      "addStars": "829",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/28616219?s=40&v=4",
+          "name": "arvinxx",
+          "url": "https://github.com/arvinxx"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32174276?s=40&v=4",
+          "name": "semantic-release-bot",
+          "url": "https://github.com/semantic-release-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/41773861?s=40&v=4",
+          "name": "tjx666",
+          "url": "https://github.com/tjx666"
+        }
+      ]
+    },
+    {
+      "title": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "12,926",
+      "forks": "1,606",
+      "addStars": "1,901",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1574202?s=40&v=4",
+          "name": "davidmckayv",
+          "url": "https://github.com/davidmckayv"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/27702539?s=40&v=4",
+          "name": "guidovizoso",
+          "url": "https://github.com/guidovizoso"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67006255?s=40&v=4",
+          "name": "Ayush7614",
+          "url": "https://github.com/Ayush7614"
+        }
+      ]
+    },
+    {
+      "title": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "28,959",
+      "forks": "2,321",
+      "addStars": "143",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4570265?s=40&v=4",
+          "name": "davideast",
+          "url": "https://github.com/davideast"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/824246?s=40&v=4",
+          "name": "xkxx",
+          "url": "https://github.com/xkxx"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2390382?s=40&v=4",
+          "name": "rmyndharis",
+          "url": "https://github.com/rmyndharis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "name": "mvanhorn",
+          "url": "https://github.com/mvanhorn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/201552351?s=40&v=4",
+          "name": "Emp1500",
+          "url": "https://github.com/Emp1500"
+        }
+      ]
+    },
+    {
+      "title": "tobi/qmd",
+      "url": "https://github.com/tobi/qmd",
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "31,234",
+      "forks": "1,967",
+      "addStars": "175",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/347?s=40&v=4",
+          "name": "tobi",
+          "url": "https://github.com/tobi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32409546?s=40&v=4",
+          "name": "aaronccasanova",
+          "url": "https://github.com/aaronccasanova"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/21740?s=40&v=4",
+          "name": "danmackinlay",
+          "url": "https://github.com/danmackinlay"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26392883?s=40&v=4",
+          "name": "brettdavies",
+          "url": "https://github.com/brettdavies"
+        }
+      ]
+    },
+    {
       "title": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "468,307",
-      "forks": "116,148",
-      "addStars": "6,437",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "NYLLON-SOFTWARE/SignuDoc",
-      "url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
-      "description": "Open-source document signature platform. Not affiliated with DocuSign. ",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "2,173",
-      "forks": "375",
-      "addStars": "1,877",
+      "stars": "469,098",
+      "forks": "116,523",
+      "addStars": "7,234",
       "contributors": [],
       "source": "trendshift"
     },
@@ -586,9 +611,21 @@
       "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "11,824",
-      "forks": "1,192",
-      "addStars": "1,835",
+      "stars": "12,050",
+      "forks": "1,280",
+      "addStars": "2,058",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "NYLLON-SOFTWARE/SignuDoc",
+      "url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
+      "description": "Open-source document signature platform. Not affiliated with DocuSign. ",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "2,281",
+      "forks": "375",
+      "addStars": "2,006",
       "contributors": [],
       "source": "trendshift"
     },
@@ -598,9 +635,9 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "65,253",
-      "forks": "12,611",
-      "addStars": "3,774",
+      "stars": "65,791",
+      "forks": "12,778",
+      "addStars": "4,319",
       "contributors": [],
       "source": "trendshift"
     },
@@ -610,9 +647,9 @@
       "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "128,906",
+      "stars": "129,325",
       "forks": "9,009",
-      "addStars": "3,194",
+      "addStars": "3,613",
       "contributors": [],
       "source": "trendshift"
     },
@@ -622,9 +659,9 @@
       "description": "Chat Demo",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "4,817",
+      "stars": "4,955",
       "forks": "1,058",
-      "addStars": "1,898",
+      "addStars": "2,033",
       "contributors": [],
       "source": "trendshift"
     },
@@ -634,9 +671,9 @@
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "283,631",
-      "forks": "37,722",
-      "addStars": "2,043",
+      "stars": "283,994",
+      "forks": "37,846",
+      "addStars": "2,399",
       "contributors": [],
       "source": "trendshift"
     },
@@ -646,9 +683,9 @@
       "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "54,679",
-      "forks": "7,961",
-      "addStars": "1,807",
+      "stars": "54,887",
+      "forks": "8,070",
+      "addStars": "2,037",
       "contributors": [],
       "source": "trendshift"
     },
@@ -658,9 +695,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "86,531",
-      "forks": "8,319",
-      "addStars": "1,810",
+      "stars": "86,755",
+      "forks": "8,394",
+      "addStars": "2,033",
       "contributors": [],
       "source": "trendshift"
     },
@@ -670,57 +707,9 @@
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "21,321",
-      "forks": "1,988",
-      "addStars": "1,287",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ZiChuanLan/freebie-radar",
-      "url": "https://github.com/ZiChuanLan/freebie-radar",
-      "description": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "1,615",
-      "forks": "265",
-      "addStars": "827",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "bendlang/bend",
-      "url": "https://github.com/bendlang/bend",
-      "description": "Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "25,517",
-      "forks": "832",
-      "addStars": "477",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "8,984",
-      "forks": "885",
-      "addStars": "1,010",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "203,161",
-      "forks": "11,069",
-      "addStars": "1,161",
+      "stars": "21,540",
+      "forks": "2,025",
+      "addStars": "1,503",
       "contributors": [],
       "source": "trendshift"
     },
@@ -730,33 +719,81 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "17,205",
-      "forks": "1,894",
-      "addStars": "782",
+      "stars": "17,405",
+      "forks": "1,970",
+      "addStars": "974",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "interfere-inc/landmines",
-      "url": "https://github.com/interfere-inc/landmines",
-      "description": "Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "593",
-      "forks": "5",
-      "addStars": "596",
+      "stars": "203,473",
+      "forks": "11,099",
+      "addStars": "1,468",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "zxsos/HGhubX",
-      "url": "https://github.com/zxsos/HGhubX",
-      "description": "YellowFruit third-party client",
+      "title": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "description": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "4,876",
-      "forks": "3,040",
-      "addStars": "1,062",
+      "stars": "1,719",
+      "forks": "265",
+      "addStars": "934",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "simplexai-labs/linger",
+      "url": "https://github.com/simplexai-labs/linger",
+      "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "958",
+      "forks": "30",
+      "addStars": "656",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "9,092",
+      "forks": "909",
+      "addStars": "1,124",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "bendlang/bend",
+      "url": "https://github.com/bendlang/bend",
+      "description": "Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "25,547",
+      "forks": "842",
+      "addStars": "507",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "solidjs/solid",
+      "url": "https://github.com/solidjs/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "36,746",
+      "forks": "1,230",
+      "addStars": "478",
       "contributors": [],
       "source": "trendshift"
     }

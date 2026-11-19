@@ -2,7 +2,7 @@
   "title": "GitHub Jupyter-notebook Languages Monthly Trending",
   "description": "Monthly Trending of Jupyter-notebook Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 19 Nov 2026 01:42:26 GMT",
+  "pubDate": "Thu, 19 Nov 2026 12:28:59 GMT",
   "items": [
     {
       "title": "anthropics/claude-cookbooks",
@@ -10,7 +10,7 @@
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "54,862",
+      "stars": "54,873",
       "forks": "6,669",
       "addStars": "1,392",
       "contributors": [
@@ -47,8 +47,8 @@
       "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "42,010",
-      "forks": "6,719",
+      "stars": "42,020",
+      "forks": "6,720",
       "addStars": "3,748",
       "contributors": [
         {
@@ -84,8 +84,8 @@
       "description": "Neural Networks: Zero to Hero",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "25,842",
-      "forks": "3,745",
+      "stars": "25,847",
+      "forks": "3,751",
       "addStars": "1,029",
       "contributors": [
         {
@@ -101,13 +101,40 @@
       ]
     },
     {
+      "title": "zazencodes/zazencodes-season-3",
+      "url": "https://github.com/zazencodes/zazencodes-season-3",
+      "description": "YouTube video source code for Season 3",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "541",
+      "forks": "152",
+      "addStars": "343",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13775567?s=40&v=4",
+          "name": "zazencodes",
+          "url": "https://github.com/zazencodes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/287231?s=40&v=4",
+          "name": "denmojo",
+          "url": "https://github.com/denmojo"
+        }
+      ]
+    },
+    {
       "title": "xiaolai/the-craft-of-selfteaching",
       "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
       "description": "One has no future if one couldn't teach themself.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "19,372",
-      "forks": "18,069",
+      "stars": "19,383",
+      "forks": "18,076",
       "addStars": "1,620",
       "contributors": [
         {
@@ -138,40 +165,13 @@
       ]
     },
     {
-      "title": "zazencodes/zazencodes-season-3",
-      "url": "https://github.com/zazencodes/zazencodes-season-3",
-      "description": "YouTube video source code for Season 3",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "534",
-      "forks": "152",
-      "addStars": "343",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13775567?s=40&v=4",
-          "name": "zazencodes",
-          "url": "https://github.com/zazencodes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/287231?s=40&v=4",
-          "name": "denmojo",
-          "url": "https://github.com/denmojo"
-        }
-      ]
-    },
-    {
       "title": "anthropics/courses",
       "url": "https://github.com/anthropics/courses",
       "description": "Anthropic's educational courses",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
       "stars": "23,133",
-      "forks": "2,608",
+      "forks": "2,610",
       "addStars": "275",
       "contributors": [
         {
@@ -202,35 +202,13 @@
       ]
     },
     {
-      "title": "karpathy/micrograd",
-      "url": "https://github.com/karpathy/micrograd",
-      "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "19,012",
-      "forks": "3,023",
-      "addStars": "1,097",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/241138?s=40&v=4",
-          "name": "karpathy",
-          "url": "https://github.com/karpathy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1837749?s=40&v=4",
-          "name": "bpesquet",
-          "url": "https://github.com/bpesquet"
-        }
-      ]
-    },
-    {
       "title": "anthropics/prompt-eng-interactive-tutorial",
       "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
       "description": "Anthropic's Interactive Prompt Engineering Tutorial",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "39,539",
-      "forks": "4,387",
+      "stars": "39,542",
+      "forks": "4,388",
       "addStars": "982",
       "contributors": [
         {
@@ -246,13 +224,35 @@
       ]
     },
     {
+      "title": "karpathy/micrograd",
+      "url": "https://github.com/karpathy/micrograd",
+      "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "19,018",
+      "forks": "3,024",
+      "addStars": "1,097",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/241138?s=40&v=4",
+          "name": "karpathy",
+          "url": "https://github.com/karpathy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1837749?s=40&v=4",
+          "name": "bpesquet",
+          "url": "https://github.com/bpesquet"
+        }
+      ]
+    },
+    {
       "title": "langchain-ai/rag-from-scratch",
       "url": "https://github.com/langchain-ai/rag-from-scratch",
       "description": "",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "10,129",
-      "forks": "2,311",
+      "stars": "10,133",
+      "forks": "2,314",
       "addStars": "654",
       "contributors": [
         {
@@ -274,6 +274,112 @@
           "avatar": "https://avatars.githubusercontent.com/u/49557684?s=40&v=4",
           "name": "svilupp",
           "url": "https://github.com/svilupp"
+        }
+      ]
+    },
+    {
+      "title": "facebookresearch/sam2",
+      "url": "https://github.com/facebookresearch/sam2",
+      "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "20,188",
+      "forks": "2,602",
+      "addStars": "202",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6997335?s=40&v=4",
+          "name": "ronghanghu",
+          "url": "https://github.com/ronghanghu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/48327001?s=40&v=4",
+          "name": "NielsRogge",
+          "url": "https://github.com/NielsRogge"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8292193?s=40&v=4",
+          "name": "haithamkhedr",
+          "url": "https://github.com/haithamkhedr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25299377?s=40&v=4",
+          "name": "arun477",
+          "url": "https://github.com/arun477"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/135471798?s=40&v=4",
+          "name": "CharlesCNorton",
+          "url": "https://github.com/CharlesCNorton"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA-NeMo/Nemotron",
+      "url": "https://github.com/NVIDIA-NeMo/Nemotron",
+      "description": "Developer Asset Hub for NVIDIA Nemotron — A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "2,363",
+      "forks": "490",
+      "addStars": "184",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/161380339?s=40&v=4",
+          "name": "chrisalexiuk-nvidia",
+          "url": "https://github.com/chrisalexiuk-nvidia"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3015785?s=40&v=4",
+          "name": "marcromeyn",
+          "url": "https://github.com/marcromeyn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67914344?s=40&v=4",
+          "name": "anushapant",
+          "url": "https://github.com/anushapant"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1216955?s=40&v=4",
+          "name": "oliverholworthy",
+          "url": "https://github.com/oliverholworthy"
+        }
+      ]
+    },
+    {
+      "title": "datawhalechina/diy-llm",
+      "url": "https://github.com/datawhalechina/diy-llm",
+      "description": "Covers pre-training data, Tokenizer, Transformer, MoE,distributed training, Scaling Laws, inference & alignment .6 progressive code assignments for full-stack LLM learning | 涵盖预训练数据、分词器、Transformer、MoE、分布式训练、缩放定律、推理与对齐，6 项渐进代码作业，掌握 LLM 全栈知识",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "3,012",
+      "forks": "296",
+      "addStars": "1,509",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/184539312?s=40&v=4",
+          "name": "1iyouzhen",
+          "url": "https://github.com/1iyouzhen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/64852985?s=40&v=4",
+          "name": "xuhu0115",
+          "url": "https://github.com/xuhu0115"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/154665250?s=40&v=4",
+          "name": "kangkang-Adam",
+          "url": "https://github.com/kangkang-Adam"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/131243303?s=40&v=4",
+          "name": "FuTseYi",
+          "url": "https://github.com/FuTseYi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/52625628?s=40&v=4",
+          "name": "jiangyinhe",
+          "url": "https://github.com/jiangyinhe"
         }
       ]
     },
@@ -315,86 +421,12 @@
       ]
     },
     {
-      "title": "facebookresearch/sam2",
-      "url": "https://github.com/facebookresearch/sam2",
-      "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "20,187",
-      "forks": "2,600",
-      "addStars": "202",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6997335?s=40&v=4",
-          "name": "ronghanghu",
-          "url": "https://github.com/ronghanghu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/48327001?s=40&v=4",
-          "name": "NielsRogge",
-          "url": "https://github.com/NielsRogge"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8292193?s=40&v=4",
-          "name": "haithamkhedr",
-          "url": "https://github.com/haithamkhedr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25299377?s=40&v=4",
-          "name": "arun477",
-          "url": "https://github.com/arun477"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/135471798?s=40&v=4",
-          "name": "CharlesCNorton",
-          "url": "https://github.com/CharlesCNorton"
-        }
-      ]
-    },
-    {
-      "title": "datawhalechina/diy-llm",
-      "url": "https://github.com/datawhalechina/diy-llm",
-      "description": "Covers pre-training data, Tokenizer, Transformer, MoE,distributed training, Scaling Laws, inference & alignment .6 progressive code assignments for full-stack LLM learning | 涵盖预训练数据、分词器、Transformer、MoE、分布式训练、缩放定律、推理与对齐，6 项渐进代码作业，掌握 LLM 全栈知识",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "3,008",
-      "forks": "296",
-      "addStars": "1,509",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/184539312?s=40&v=4",
-          "name": "1iyouzhen",
-          "url": "https://github.com/1iyouzhen"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/64852985?s=40&v=4",
-          "name": "xuhu0115",
-          "url": "https://github.com/xuhu0115"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/154665250?s=40&v=4",
-          "name": "kangkang-Adam",
-          "url": "https://github.com/kangkang-Adam"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/131243303?s=40&v=4",
-          "name": "FuTseYi",
-          "url": "https://github.com/FuTseYi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/52625628?s=40&v=4",
-          "name": "jiangyinhe",
-          "url": "https://github.com/jiangyinhe"
-        }
-      ]
-    },
-    {
       "title": "mrdbourke/zero-to-mastery-ml",
       "url": "https://github.com/mrdbourke/zero-to-mastery-ml",
       "description": "All course materials for the Zero to Mastery Machine Learning and Data Science course.",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "7,638",
+      "stars": "7,643",
       "forks": "4,256",
       "addStars": "527",
       "contributors": [
@@ -426,34 +458,103 @@
       ]
     },
     {
-      "title": "NVIDIA-NeMo/Nemotron",
-      "url": "https://github.com/NVIDIA-NeMo/Nemotron",
-      "description": "Developer Asset Hub for NVIDIA Nemotron — A one-stop resource for training recipes, usage cookbooks, datasets, and full end-to-end reference examples to build with Nemotron models",
+      "title": "google-research/google-research",
+      "url": "https://github.com/google-research/google-research",
+      "description": "Google Research",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "2,361",
-      "forks": "489",
-      "addStars": "184",
+      "stars": "39,228",
+      "forks": "8,517",
+      "addStars": "317",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/161380339?s=40&v=4",
-          "name": "chrisalexiuk-nvidia",
-          "url": "https://github.com/chrisalexiuk-nvidia"
+          "avatar": "https://avatars.githubusercontent.com/u/6813603?s=40&v=4",
+          "name": "rybakov",
+          "url": "https://github.com/rybakov"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3015785?s=40&v=4",
-          "name": "marcromeyn",
-          "url": "https://github.com/marcromeyn"
+          "avatar": "https://avatars.githubusercontent.com/u/35786058?s=40&v=4",
+          "name": "agutkin",
+          "url": "https://github.com/agutkin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/67914344?s=40&v=4",
-          "name": "anushapant",
-          "url": "https://github.com/anushapant"
+          "avatar": "https://avatars.githubusercontent.com/u/86793140?s=40&v=4",
+          "name": "vratnakar",
+          "url": "https://github.com/vratnakar"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1216955?s=40&v=4",
-          "name": "oliverholworthy",
-          "url": "https://github.com/oliverholworthy"
+          "avatar": "https://avatars.githubusercontent.com/u/581947?s=40&v=4",
+          "name": "yilei",
+          "url": "https://github.com/yilei"
+        }
+      ]
+    },
+    {
+      "title": "DataExpert-io/data-engineer-handbook",
+      "url": "https://github.com/DataExpert-io/data-engineer-handbook",
+      "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "45,216",
+      "forks": "9,435",
+      "addStars": "761",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4583288?s=40&v=4",
+          "name": "EcZachly",
+          "url": "https://github.com/EcZachly"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/72290009?s=40&v=4",
+          "name": "ry-v1",
+          "url": "https://github.com/ry-v1"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/188408630?s=40&v=4",
+          "name": "isangwanrahul",
+          "url": "https://github.com/isangwanrahul"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57084343?s=40&v=4",
+          "name": "evil-in",
+          "url": "https://github.com/evil-in"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6037277?s=40&v=4",
+          "name": "damaradiprabowo",
+          "url": "https://github.com/damaradiprabowo"
+        }
+      ]
+    },
+    {
+      "title": "GoogleCloudPlatform/generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini platform",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "stars": "17,962",
+      "forks": "4,529",
+      "addStars": "197",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13262395?s=40&v=4",
+          "name": "holtskinner",
+          "url": "https://github.com/holtskinner"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/106993205?s=40&v=4",
+          "name": "gericdong",
+          "url": "https://github.com/gericdong"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25180681?s=40&v=4",
+          "name": "renovate-bot",
+          "url": "https://github.com/renovate-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88703814?s=40&v=4",
+          "name": "inardini",
+          "url": "https://github.com/inardini"
         }
       ]
     },
@@ -463,7 +564,7 @@
       "description": "🔊 Text-Prompted Generative Audio Model",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "39,378",
+      "stars": "39,381",
       "forks": "4,661",
       "addStars": "161",
       "contributors": [
@@ -500,8 +601,8 @@
       "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "42,663",
-      "forks": "4,422",
+      "stars": "42,695",
+      "forks": "4,426",
       "addStars": "3,506",
       "contributors": [
         {
@@ -532,140 +633,39 @@
       ]
     },
     {
-      "title": "DataExpert-io/data-engineer-handbook",
-      "url": "https://github.com/DataExpert-io/data-engineer-handbook",
-      "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
+      "title": "Liquid4All/cookbook",
+      "url": "https://github.com/Liquid4All/cookbook",
+      "description": "Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK",
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
-      "stars": "45,212",
-      "forks": "9,436",
-      "addStars": "761",
+      "stars": "2,789",
+      "forks": "429",
+      "addStars": "181",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4583288?s=40&v=4",
-          "name": "EcZachly",
-          "url": "https://github.com/EcZachly"
+          "avatar": "https://avatars.githubusercontent.com/u/14981636?s=40&v=4",
+          "name": "Paulescu",
+          "url": "https://github.com/Paulescu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/72290009?s=40&v=4",
-          "name": "ry-v1",
-          "url": "https://github.com/ry-v1"
+          "avatar": "https://avatars.githubusercontent.com/u/1508483?s=40&v=4",
+          "name": "chintan-projects",
+          "url": "https://github.com/chintan-projects"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/188408630?s=40&v=4",
-          "name": "isangwanrahul",
-          "url": "https://github.com/isangwanrahul"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/57084343?s=40&v=4",
-          "name": "evil-in",
-          "url": "https://github.com/evil-in"
+          "avatar": "https://avatars.githubusercontent.com/u/68144184?s=40&v=4",
+          "name": "iamleonie",
+          "url": "https://github.com/iamleonie"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6037277?s=40&v=4",
-          "name": "damaradiprabowo",
-          "url": "https://github.com/damaradiprabowo"
-        }
-      ]
-    },
-    {
-      "title": "GoogleCloudPlatform/generative-ai",
-      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
-      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini platform",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "17,960",
-      "forks": "4,527",
-      "addStars": "197",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13262395?s=40&v=4",
-          "name": "holtskinner",
-          "url": "https://github.com/holtskinner"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/106993205?s=40&v=4",
-          "name": "gericdong",
-          "url": "https://github.com/gericdong"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25180681?s=40&v=4",
-          "name": "renovate-bot",
-          "url": "https://github.com/renovate-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/88703814?s=40&v=4",
-          "name": "inardini",
-          "url": "https://github.com/inardini"
-        }
-      ]
-    },
-    {
-      "title": "google-research/google-research",
-      "url": "https://github.com/google-research/google-research",
-      "description": "Google Research",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "39,223",
-      "forks": "8,518",
-      "addStars": "317",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6813603?s=40&v=4",
-          "name": "rybakov",
-          "url": "https://github.com/rybakov"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/35786058?s=40&v=4",
-          "name": "agutkin",
-          "url": "https://github.com/agutkin"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/86793140?s=40&v=4",
-          "name": "vratnakar",
-          "url": "https://github.com/vratnakar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/581947?s=40&v=4",
-          "name": "yilei",
-          "url": "https://github.com/yilei"
-        }
-      ]
-    },
-    {
-      "title": "SakanaAI/AI-Scientist",
-      "url": "https://github.com/SakanaAI/AI-Scientist",
-      "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬",
-      "language": "Jupyter Notebook",
-      "languageColor": "#DA5B0B",
-      "stars": "15,020",
-      "forks": "2,086",
-      "addStars": "289",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20336225?s=40&v=4",
-          "name": "conglu1997",
-          "url": "https://github.com/conglu1997"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6912913?s=40&v=4",
-          "name": "luchris429",
-          "url": "https://github.com/luchris429"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20374662?s=40&v=4",
-          "name": "RobertTLange",
-          "url": "https://github.com/RobertTLange"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5861166?s=40&v=4",
-          "name": "CompleteDotTech",
-          "url": "https://github.com/CompleteDotTech"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19530191?s=40&v=4",
-          "name": "t46",
-          "url": "https://github.com/t46"
+          "avatar": "https://avatars.githubusercontent.com/u/696710?s=40&v=4",
+          "name": "ThomasGmeinder",
+          "url": "https://github.com/ThomasGmeinder"
         }
       ]
     }

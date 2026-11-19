@@ -2,7 +2,7 @@
   "title": "GitHub Cuda Languages Daily Trending",
   "description": "Daily Trending of Cuda Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 19 Nov 2026 01:42:26 GMT",
+  "pubDate": "Thu, 19 Nov 2026 12:28:59 GMT",
   "items": [
     {
       "title": "flashinfer-ai/flashinfer",
@@ -10,8 +10,8 @@
       "description": "FlashInfer: Kernel Library for LLM Serving",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "6,959",
-      "forks": "1,773",
+      "stars": "6,962",
+      "forks": "1,775",
       "addStars": "9",
       "contributors": [
         {
@@ -42,49 +42,12 @@
       ]
     },
     {
-      "title": "NVIDIA/cudnn-frontend",
-      "url": "https://github.com/NVIDIA/cudnn-frontend",
-      "description": "cuDNN Frontend is NVIDIA's modern, open-source entry point to the cuDNN library and a growing collection of high-performance open-source kernels.",
-      "language": "Cuda",
-      "languageColor": "#3A4E3A",
-      "stars": "1,007",
-      "forks": "340",
-      "addStars": "2",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "name": "claude",
-          "url": "https://github.com/claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38851819?s=40&v=4",
-          "name": "YangXu1990uiuc",
-          "url": "https://github.com/YangXu1990uiuc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/916946?s=40&v=4",
-          "name": "Anerudhan",
-          "url": "https://github.com/Anerudhan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/288483202?s=40&v=4",
-          "name": "RomanAnders90",
-          "url": "https://github.com/RomanAnders90"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/192209249?s=40&v=4",
-          "name": "0z5a",
-          "url": "https://github.com/0z5a"
-        }
-      ]
-    },
-    {
       "title": "deepseek-ai/DeepEP",
       "url": "https://github.com/deepseek-ai/DeepEP",
       "description": "DeepEP: an efficient expert-parallel communication library",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "10,455",
+      "stars": "10,457",
       "forks": "1,563",
       "addStars": "5",
       "contributors": [
@@ -116,13 +79,87 @@
       ]
     },
     {
+      "title": "NVIDIA/cudnn-frontend",
+      "url": "https://github.com/NVIDIA/cudnn-frontend",
+      "description": "cuDNN Frontend is NVIDIA's modern, open-source entry point to the cuDNN library and a growing collection of high-performance open-source kernels.",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "1,008",
+      "forks": "340",
+      "addStars": "2",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38851819?s=40&v=4",
+          "name": "YangXu1990uiuc",
+          "url": "https://github.com/YangXu1990uiuc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/916946?s=40&v=4",
+          "name": "Anerudhan",
+          "url": "https://github.com/Anerudhan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/288483202?s=40&v=4",
+          "name": "RomanAnders90",
+          "url": "https://github.com/RomanAnders90"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/192209249?s=40&v=4",
+          "name": "0z5a",
+          "url": "https://github.com/0z5a"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA/raft",
+      "url": "https://github.com/NVIDIA/raft",
+      "description": "RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications.",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "1,056",
+      "forks": "260",
+      "addStars": "2",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1242464?s=40&v=4",
+          "name": "cjnolet",
+          "url": "https://github.com/cjnolet"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/38199262?s=40&v=4",
+          "name": "GPUtester",
+          "url": "https://github.com/GPUtester"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9253178?s=40&v=4",
+          "name": "achirkin",
+          "url": "https://github.com/achirkin"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14876585?s=40&v=4",
+          "name": "divyegala",
+          "url": "https://github.com/divyegala"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3943761?s=40&v=4",
+          "name": "bdice",
+          "url": "https://github.com/bdice"
+        }
+      ]
+    },
+    {
       "title": "deepseek-ai/DeepGEMM",
       "url": "https://github.com/deepseek-ai/DeepGEMM",
       "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "9,204",
-      "forks": "1,537",
+      "stars": "9,207",
+      "forks": "1,541",
       "addStars": "3",
       "contributors": [
         {
@@ -158,7 +195,7 @@
       "description": "NCCL Tests",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "1,708",
+      "stars": "1,707",
       "forks": "418",
       "addStars": "1",
       "contributors": [
@@ -190,39 +227,76 @@
       ]
     },
     {
-      "title": "NVIDIA/nvbench",
-      "url": "https://github.com/NVIDIA/nvbench",
-      "description": "CUDA Kernel Benchmarking Library",
+      "title": "mirage-project/mirage",
+      "url": "https://github.com/mirage-project/mirage",
+      "description": "Mirage Persistent Kernel: Compiling LLMs into a MegaKernel",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "949",
-      "forks": "137",
-      "addStars": "0",
+      "stars": "2,622",
+      "forks": "277",
+      "addStars": "3",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/58744?s=40&v=4",
-          "name": "alliepiper",
-          "url": "https://github.com/alliepiper"
+          "avatar": "https://avatars.githubusercontent.com/u/1669058?s=40&v=4",
+          "name": "jiazhihao",
+          "url": "https://github.com/jiazhihao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/21087696?s=40&v=4",
-          "name": "oleksandr-pavlyk",
-          "url": "https://github.com/oleksandr-pavlyk"
+          "avatar": "https://avatars.githubusercontent.com/u/82456363?s=40&v=4",
+          "name": "yzhou442",
+          "url": "https://github.com/yzhou442"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/9890394?s=40&v=4",
-          "name": "gevtushenko",
-          "url": "https://github.com/gevtushenko"
+          "avatar": "https://avatars.githubusercontent.com/u/99570243?s=40&v=4",
+          "name": "xinhaoc",
+          "url": "https://github.com/xinhaoc"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3190405?s=40&v=4",
-          "name": "shwina",
-          "url": "https://github.com/shwina"
+          "avatar": "https://avatars.githubusercontent.com/u/48128384?s=40&v=4",
+          "name": "wmdi",
+          "url": "https://github.com/wmdi"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/215756?s=40&v=4",
-          "name": "robertmaynard",
-          "url": "https://github.com/robertmaynard"
+          "avatar": "https://avatars.githubusercontent.com/u/145248565?s=40&v=4",
+          "name": "undefined-c0der",
+          "url": "https://github.com/undefined-c0der"
+        }
+      ]
+    },
+    {
+      "title": "karpathy/llm.c",
+      "url": "https://github.com/karpathy/llm.c",
+      "description": "LLM training in simple, raw C/CUDA",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "31,507",
+      "forks": "3,832",
+      "addStars": "7",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/241138?s=40&v=4",
+          "name": "karpathy",
+          "url": "https://github.com/karpathy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7938269?s=40&v=4",
+          "name": "ngc92",
+          "url": "https://github.com/ngc92"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29271842?s=40&v=4",
+          "name": "gordicaleksa",
+          "url": "https://github.com/gordicaleksa"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7082233?s=40&v=4",
+          "name": "ademeure",
+          "url": "https://github.com/ademeure"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/55313766?s=40&v=4",
+          "name": "rosslwheeler",
+          "url": "https://github.com/rosslwheeler"
         }
       ]
     },
@@ -232,7 +306,7 @@
       "description": "cuVS - a library for vector search and clustering on the GPU",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "901",
+      "stars": "902",
       "forks": "267",
       "addStars": "2",
       "contributors": [
@@ -301,39 +375,71 @@
       ]
     },
     {
-      "title": "NVIDIA/cuopt",
-      "url": "https://github.com/NVIDIA/cuopt",
-      "description": "GPU accelerated decision optimization",
+      "title": "HazyResearch/ThunderKittens",
+      "url": "https://github.com/HazyResearch/ThunderKittens",
+      "description": "Tile primitives for speedy kernels",
       "language": "Cuda",
       "languageColor": "#3A4E3A",
-      "stars": "1,120",
-      "forks": "262",
-      "addStars": "2",
+      "stars": "3,803",
+      "forks": "350",
+      "addStars": "0",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/42624703?s=40&v=4",
-          "name": "ramakrishnap-nv",
-          "url": "https://github.com/ramakrishnap-nv"
+          "avatar": "https://avatars.githubusercontent.com/u/11230781?s=40&v=4",
+          "name": "benjaminfspector",
+          "url": "https://github.com/benjaminfspector"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/38199262?s=40&v=4",
-          "name": "GPUtester",
-          "url": "https://github.com/GPUtester"
+          "avatar": "https://avatars.githubusercontent.com/u/31910389?s=40&v=4",
+          "name": "StuartSul",
+          "url": "https://github.com/StuartSul"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/224634272?s=40&v=4",
-          "name": "nguidotti",
-          "url": "https://github.com/nguidotti"
+          "avatar": "https://avatars.githubusercontent.com/u/48185825?s=40&v=4",
+          "name": "Aaryan0404",
+          "url": "https://github.com/Aaryan0404"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1172537?s=40&v=4",
-          "name": "tmckayus",
-          "url": "https://github.com/tmckayus"
+          "avatar": "https://avatars.githubusercontent.com/u/42813008?s=40&v=4",
+          "name": "jordan-benjamin",
+          "url": "https://github.com/jordan-benjamin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/160623740?s=40&v=4",
-          "name": "aliceb-nv",
-          "url": "https://github.com/aliceb-nv"
+          "avatar": "https://avatars.githubusercontent.com/u/29069240?s=40&v=4",
+          "name": "simran-arora",
+          "url": "https://github.com/simran-arora"
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA/cuCollections",
+      "url": "https://github.com/NVIDIA/cuCollections",
+      "description": "",
+      "language": "Cuda",
+      "languageColor": "#3A4E3A",
+      "stars": "678",
+      "forks": "127",
+      "addStars": "0",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12716979?s=40&v=4",
+          "name": "PointKernel",
+          "url": "https://github.com/PointKernel"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15221289?s=40&v=4",
+          "name": "jrhemstad",
+          "url": "https://github.com/jrhemstad"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2955913?s=40&v=4",
+          "name": "sleeepyjack",
+          "url": "https://github.com/sleeepyjack"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/215756?s=40&v=4",
+          "name": "robertmaynard",
+          "url": "https://github.com/robertmaynard"
         }
       ]
     }

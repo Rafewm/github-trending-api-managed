@@ -3,7 +3,7 @@
     <title>GitHub Python Languages Monthly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Monthly Trending of Python Languages in GitHub</description>
-    <pubDate>Thu, 19 Nov 2026 01:42:26 GMT</pubDate>
+    <pubDate>Thu, 19 Nov 2026 12:28:59 GMT</pubDate>
     <item>
       <title>anthropics/skills</title>
       <link>https://github.com/anthropics/skills</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/anthropics/skills</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>197,232</stars>
-      <forks>23,100</forks>
+      <stars>197,517</stars>
+      <forks>23,132</forks>
       <addStars>15,769</addStars>
       <contributors>
         <contributor>
@@ -43,14 +43,37 @@
       </contributors>
     </item>
     <item>
+      <title>Jakeschincariol/instagram-agent-skill</title>
+      <link>https://github.com/Jakeschincariol/instagram-agent-skill</link>
+      <description>Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.</description>
+      <guid>https://github.com/Jakeschincariol/instagram-agent-skill</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>7,188</stars>
+      <forks>1,397</forks>
+      <addStars>5,309</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/196724947?s=40&amp;v=4</avatar>
+          <name>Jakeschincariol</name>
+          <url>https://github.com/Jakeschincariol</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>HKUDS/DeepTutor</title>
       <link>https://github.com/HKUDS/DeepTutor</link>
       <description>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</description>
       <guid>https://github.com/HKUDS/DeepTutor</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>60,510</stars>
-      <forks>7,325</forks>
+      <stars>60,694</stars>
+      <forks>7,348</forks>
       <addStars>19,065</addStars>
       <contributors>
         <contributor>
@@ -82,8 +105,8 @@
       <guid>https://github.com/sherlock-project/sherlock</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>114,204</stars>
-      <forks>13,130</forks>
+      <stars>114,420</stars>
+      <forks>13,146</forks>
       <addStars>20,046</addStars>
       <contributors>
         <contributor>
@@ -120,8 +143,8 @@
       <guid>https://github.com/AgriciDaniel/claude-seo</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>30,685</stars>
-      <forks>3,826</forks>
+      <stars>30,803</stars>
+      <forks>3,833</forks>
       <addStars>11,532</addStars>
       <contributors>
         <contributor>
@@ -152,15 +175,15 @@
       </contributors>
     </item>
     <item>
-      <title>kajisho5/ffmpeg-skill</title>
-      <link>https://github.com/kajisho5/ffmpeg-skill</link>
-      <description>Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.</description>
-      <guid>https://github.com/kajisho5/ffmpeg-skill</guid>
+      <title>elementalsouls/Claude-BugHunter</title>
+      <link>https://github.com/elementalsouls/Claude-BugHunter</link>
+      <description>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</description>
+      <guid>https://github.com/elementalsouls/Claude-BugHunter</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>8,034</stars>
-      <forks>754</forks>
-      <addStars>6,030</addStars>
+      <stars>11,762</stars>
+      <forks>1,548</forks>
+      <addStars>5,774</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
@@ -168,9 +191,42 @@
           <url>https://github.com/claude</url>
         </contributor>
         <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/66463177?s=40&amp;v=4</avatar>
+          <name>injectifytest</name>
+          <url>https://github.com/injectifytest</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/49252733?s=40&amp;v=4</avatar>
+          <name>elementalsouls</name>
+          <url>https://github.com/elementalsouls</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/47457359?s=40&amp;v=4</avatar>
+          <name>rudycelekli</name>
+          <url>https://github.com/rudycelekli</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>kajisho5/ffmpeg-skill</title>
+      <link>https://github.com/kajisho5/ffmpeg-skill</link>
+      <description>Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.</description>
+      <guid>https://github.com/kajisho5/ffmpeg-skill</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>8,144</stars>
+      <forks>765</forks>
+      <addStars>6,030</addStars>
+      <contributors>
+        <contributor>
           <avatar>https://avatars.githubusercontent.com/u/20648875?s=40&amp;v=4</avatar>
           <name>kajisho5</name>
           <url>https://github.com/kajisho5</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
         </contributor>
       </contributors>
     </item>
@@ -181,8 +237,8 @@
       <guid>https://github.com/anthropics/knowledge-work-plugins</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>36,530</stars>
-      <forks>4,028</forks>
+      <stars>36,555</stars>
+      <forks>4,033</forks>
       <addStars>6,534</addStars>
       <contributors>
         <contributor>
@@ -208,40 +264,40 @@
       </contributors>
     </item>
     <item>
-      <title>AstrBotDevs/AstrBot</title>
-      <link>https://github.com/AstrBotDevs/AstrBot</link>
-      <description>AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨</description>
-      <guid>https://github.com/AstrBotDevs/AstrBot</guid>
+      <title>TauricResearch/TradingAgents</title>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <description>TradingAgents: Multi-Agents LLM Financial Trading Framework</description>
+      <guid>https://github.com/TauricResearch/TradingAgents</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>47,164</stars>
-      <forks>3,615</forks>
-      <addStars>5,306</addStars>
+      <stars>123,128</stars>
+      <forks>23,605</forks>
+      <addStars>11,672</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/37870767?s=40&amp;v=4</avatar>
-          <name>Soulter</name>
-          <url>https://github.com/Soulter</url>
+          <avatar>https://avatars.githubusercontent.com/u/48253104?s=40&amp;v=4</avatar>
+          <name>Yijia-Xiao</name>
+          <url>https://github.com/Yijia-Xiao</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/176760093?s=40&amp;v=4</avatar>
-          <name>Raven95676</name>
-          <url>https://github.com/Raven95676</url>
+          <avatar>https://avatars.githubusercontent.com/u/68405458?s=40&amp;v=4</avatar>
+          <name>EdwardoSunny</name>
+          <url>https://github.com/EdwardoSunny</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/67079377?s=40&amp;v=4</avatar>
-          <name>RC-CHN</name>
-          <url>https://github.com/RC-CHN</url>
+          <avatar>https://avatars.githubusercontent.com/u/91041827?s=40&amp;v=4</avatar>
+          <name>CadeYu</name>
+          <url>https://github.com/CadeYu</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/62183434?s=40&amp;v=4</avatar>
-          <name>zouyonghe</name>
-          <url>https://github.com/zouyonghe</url>
+          <avatar>https://avatars.githubusercontent.com/u/15189961?s=40&amp;v=4</avatar>
+          <name>luohy15</name>
+          <url>https://github.com/luohy15</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/110004162?s=40&amp;v=4</avatar>
-          <name>anka-afk</name>
-          <url>https://github.com/anka-afk</url>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
         </contributor>
       </contributors>
     </item>
@@ -252,7 +308,7 @@
       <guid>https://github.com/NVIDIA/SkillSpector</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>26,830</stars>
+      <stars>26,895</stars>
       <forks>2,392</forks>
       <addStars>6,381</addStars>
       <contributors>
@@ -285,8 +341,8 @@
       <guid>https://github.com/D4Vinci/Scrapling</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>104,220</stars>
-      <forks>10,881</forks>
+      <stars>104,314</stars>
+      <forks>10,898</forks>
       <addStars>16,193</addStars>
       <contributors>
         <contributor>
@@ -317,40 +373,73 @@
       </contributors>
     </item>
     <item>
-      <title>TauricResearch/TradingAgents</title>
-      <link>https://github.com/TauricResearch/TradingAgents</link>
-      <description>TradingAgents: Multi-Agents LLM Financial Trading Framework</description>
-      <guid>https://github.com/TauricResearch/TradingAgents</guid>
+      <title>mvanhorn/last30days-skill</title>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</description>
+      <guid>https://github.com/mvanhorn/last30days-skill</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>123,086</stars>
-      <forks>23,601</forks>
-      <addStars>11,672</addStars>
+      <stars>70,518</stars>
+      <forks>6,278</forks>
+      <addStars>5,361</addStars>
       <contributors>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/48253104?s=40&amp;v=4</avatar>
-          <name>Yijia-Xiao</name>
-          <url>https://github.com/Yijia-Xiao</url>
+          <avatar>https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4</avatar>
+          <name>mvanhorn</name>
+          <url>https://github.com/mvanhorn</url>
         </contributor>
         <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/68405458?s=40&amp;v=4</avatar>
-          <name>EdwardoSunny</name>
-          <url>https://github.com/EdwardoSunny</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/91041827?s=40&amp;v=4</avatar>
-          <name>CadeYu</name>
-          <url>https://github.com/CadeYu</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/15189961?s=40&amp;v=4</avatar>
-          <name>luohy15</name>
-          <url>https://github.com/luohy15</url>
+          <avatar>https://avatars.githubusercontent.com/u/517103?s=40&amp;v=4</avatar>
+          <name>tmchow</name>
+          <url>https://github.com/tmchow</url>
         </contributor>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
           <name>claude</name>
           <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/158724?s=40&amp;v=4</avatar>
+          <name>iliaal</name>
+          <url>https://github.com/iliaal</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
+      <title>AstrBotDevs/AstrBot</title>
+      <link>https://github.com/AstrBotDevs/AstrBot</link>
+      <description>AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨</description>
+      <guid>https://github.com/AstrBotDevs/AstrBot</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>47,196</stars>
+      <forks>3,621</forks>
+      <addStars>5,306</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/37870767?s=40&amp;v=4</avatar>
+          <name>Soulter</name>
+          <url>https://github.com/Soulter</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/176760093?s=40&amp;v=4</avatar>
+          <name>Raven95676</name>
+          <url>https://github.com/Raven95676</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/67079377?s=40&amp;v=4</avatar>
+          <name>RC-CHN</name>
+          <url>https://github.com/RC-CHN</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/62183434?s=40&amp;v=4</avatar>
+          <name>zouyonghe</name>
+          <url>https://github.com/zouyonghe</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/110004162?s=40&amp;v=4</avatar>
+          <name>anka-afk</name>
+          <url>https://github.com/anka-afk</url>
         </contributor>
       </contributors>
     </item>
@@ -361,8 +450,8 @@
       <guid>https://github.com/The-PR-Agent/pr-agent</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>16,388</stars>
-      <forks>2,218</forks>
+      <stars>16,413</stars>
+      <forks>2,223</forks>
       <addStars>3,008</addStars>
       <contributors>
         <contributor>
@@ -394,8 +483,8 @@
       <guid>https://github.com/harry0703/MoneyPrinterTurbo</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>144,508</stars>
-      <forks>23,211</forks>
+      <stars>144,636</stars>
+      <forks>23,247</forks>
       <addStars>12,482</addStars>
       <contributors>
         <contributor>
@@ -426,52 +515,14 @@
       </contributors>
     </item>
     <item>
-      <title>blader/humanizer</title>
-      <link>https://github.com/blader/humanizer</link>
-      <description>Agent skill that removes signs of AI-generated writing from text</description>
-      <guid>https://github.com/blader/humanizer</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>70,844</stars>
-      <forks>5,559</forks>
-      <addStars>12,972</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1672?s=40&amp;v=4</avatar>
-          <name>blader</name>
-          <url>https://github.com/blader</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4</avatar>
-          <name>mvanhorn</name>
-          <url>https://github.com/mvanhorn</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/8268155?s=40&amp;v=4</avatar>
-          <name>Scott-Emberson</name>
-          <url>https://github.com/Scott-Emberson</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/243858445?s=40&amp;v=4</avatar>
-          <name>warp-agent</name>
-          <url>https://github.com/warp-agent</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>fastapi/fastapi</title>
       <link>https://github.com/fastapi/fastapi</link>
       <description>FastAPI framework, high performance, easy to learn, fast to code, ready for production</description>
       <guid>https://github.com/fastapi/fastapi</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>104,870</stars>
-      <forks>10,352</forks>
+      <stars>104,897</stars>
+      <forks>10,365</forks>
       <addStars>2,985</addStars>
       <contributors>
         <contributor>
@@ -487,86 +538,15 @@
       </contributors>
     </item>
     <item>
-      <title>mvanhorn/last30days-skill</title>
-      <link>https://github.com/mvanhorn/last30days-skill</link>
-      <description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</description>
-      <guid>https://github.com/mvanhorn/last30days-skill</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>70,060</stars>
-      <forks>6,245</forks>
-      <addStars>5,361</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/455140?s=40&amp;v=4</avatar>
-          <name>mvanhorn</name>
-          <url>https://github.com/mvanhorn</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/517103?s=40&amp;v=4</avatar>
-          <name>tmchow</name>
-          <url>https://github.com/tmchow</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
-          <name>claude</name>
-          <url>https://github.com/claude</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/158724?s=40&amp;v=4</avatar>
-          <name>iliaal</name>
-          <url>https://github.com/iliaal</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
-      <title>home-assistant/core</title>
-      <link>https://github.com/home-assistant/core</link>
-      <description>🏡 Open source home automation that puts local control and privacy first.</description>
-      <guid>https://github.com/home-assistant/core</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>92,330</stars>
-      <forks>39,358</forks>
-      <addStars>1,220</addStars>
-      <contributors>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/1444314?s=40&amp;v=4</avatar>
-          <name>balloob</name>
-          <url>https://github.com/balloob</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/663432?s=40&amp;v=4</avatar>
-          <name>bdraco</name>
-          <url>https://github.com/bdraco</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/6771947?s=40&amp;v=4</avatar>
-          <name>epenet</name>
-          <url>https://github.com/epenet</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/195327?s=40&amp;v=4</avatar>
-          <name>frenck</name>
-          <url>https://github.com/frenck</url>
-        </contributor>
-        <contributor>
-          <avatar>https://avatars.githubusercontent.com/u/14281572?s=40&amp;v=4</avatar>
-          <name>emontnemery</name>
-          <url>https://github.com/emontnemery</url>
-        </contributor>
-      </contributors>
-    </item>
-    <item>
       <title>NVIDIA/auto-ontology</title>
       <link>https://github.com/NVIDIA/auto-ontology</link>
       <description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</description>
       <guid>https://github.com/NVIDIA/auto-ontology</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>13,798</stars>
+      <stars>13,880</stars>
       <forks>1,211</forks>
-      <addStars>13,134</addStars>
+      <addStars>13,218</addStars>
       <contributors/>
     </item>
     <item>
@@ -576,9 +556,9 @@
       <guid>https://github.com/google/elephant-goldfish-model</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>21,156</stars>
-      <forks>1,577</forks>
-      <addStars>13,469</addStars>
+      <stars>21,282</stars>
+      <forks>1,600</forks>
+      <addStars>13,598</addStars>
       <contributors/>
     </item>
     <item>
@@ -588,9 +568,9 @@
       <guid>https://github.com/JuneYaooo/rea-video</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>10,680</stars>
+      <stars>10,851</stars>
       <forks>1,569</forks>
-      <addStars>10,616</addStars>
+      <addStars>10,795</addStars>
       <contributors/>
     </item>
     <item>
@@ -600,21 +580,9 @@
       <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>73,349</stars>
-      <forks>60,406</forks>
-      <addStars>6,018</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>elementalsouls/Claude-BugHunter</title>
-      <link>https://github.com/elementalsouls/Claude-BugHunter</link>
-      <description>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</description>
-      <guid>https://github.com/elementalsouls/Claude-BugHunter</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>11,375</stars>
-      <forks>1,436</forks>
-      <addStars>6,038</addStars>
+      <stars>73,445</stars>
+      <forks>60,531</forks>
+      <addStars>6,107</addStars>
       <contributors/>
     </item>
     <item>
@@ -624,9 +592,9 @@
       <guid>https://github.com/debpalash/VoiceStudio</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>113,558</stars>
-      <forks>12,869</forks>
-      <addStars>16,753</addStars>
+      <stars>113,781</stars>
+      <forks>12,958</forks>
+      <addStars>16,973</addStars>
       <contributors/>
     </item>
     <item>
@@ -636,9 +604,9 @@
       <guid>https://github.com/Usagi-org/ai-goofish-monitor</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>20,202</stars>
-      <forks>3,370</forks>
-      <addStars>4,692</addStars>
+      <stars>20,243</stars>
+      <forks>3,384</forks>
+      <addStars>4,736</addStars>
       <contributors/>
     </item>
     <item>
@@ -648,33 +616,9 @@
       <guid>https://github.com/modelflare-ai/AnyModelBot</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>4,629</stars>
+      <stars>4,708</stars>
       <forks>108</forks>
-      <addStars>4,538</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Graphify-Labs/graphify</title>
-      <link>https://github.com/Graphify-Labs/graphify</link>
-      <description>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</description>
-      <guid>https://github.com/Graphify-Labs/graphify</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>150,174</stars>
-      <forks>15,172</forks>
-      <addStars>10,168</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>BryceYuuu/RUN</title>
-      <link>https://github.com/BryceYuuu/RUN</link>
-      <description>RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。</description>
-      <guid>https://github.com/BryceYuuu/RUN</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>4,954</stars>
-      <forks>350</forks>
-      <addStars>4,032</addStars>
+      <addStars>4,621</addStars>
       <contributors/>
     </item>
     <item>
@@ -684,9 +628,33 @@
       <guid>https://github.com/google-research/paper-orchestra</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>4,296</stars>
-      <forks>471</forks>
-      <addStars>4,121</addStars>
+      <stars>4,776</stars>
+      <forks>579</forks>
+      <addStars>4,619</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Graphify-Labs/graphify</title>
+      <link>https://github.com/Graphify-Labs/graphify</link>
+      <description>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</description>
+      <guid>https://github.com/Graphify-Labs/graphify</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>150,375</stars>
+      <forks>15,234</forks>
+      <addStars>10,363</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>BryceYuuu/RUN</title>
+      <link>https://github.com/BryceYuuu/RUN</link>
+      <description>RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。</description>
+      <guid>https://github.com/BryceYuuu/RUN</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>4,975</stars>
+      <forks>352</forks>
+      <addStars>4,053</addStars>
       <contributors/>
     </item>
     <item>
@@ -696,9 +664,9 @@
       <guid>https://github.com/tradermonty/claude-trading-skills</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>7,079</stars>
-      <forks>1,468</forks>
-      <addStars>3,571</addStars>
+      <stars>7,153</stars>
+      <forks>1,494</forks>
+      <addStars>3,645</addStars>
       <contributors/>
     </item>
     <item>
@@ -708,9 +676,21 @@
       <guid>https://github.com/Gathin23/cleanyourtv</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>59,338</stars>
-      <forks>7,808</forks>
-      <addStars>11,423</addStars>
+      <stars>59,465</stars>
+      <forks>7,843</forks>
+      <addStars>11,556</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>blader/humanizer</title>
+      <link>https://github.com/blader/humanizer</link>
+      <description>Agent skill that removes signs of AI-generated writing from text</description>
+      <guid>https://github.com/blader/humanizer</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>71,012</stars>
+      <forks>5,838</forks>
+      <addStars>8,050</addStars>
       <contributors/>
     </item>
     <item>
@@ -720,9 +700,9 @@
       <guid>https://github.com/github/spec-kit</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>150,499</stars>
-      <forks>14,024</forks>
-      <addStars>6,104</addStars>
+      <stars>150,588</stars>
+      <forks>14,047</forks>
+      <addStars>6,193</addStars>
       <contributors/>
     </item>
     <item>
@@ -732,33 +712,21 @@
       <guid>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>151,340</stars>
-      <forks>16,717</forks>
-      <addStars>7,947</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>OpenMontageInc/OpenMontage</title>
-      <link>https://github.com/OpenMontageInc/OpenMontage</link>
-      <description>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</description>
-      <guid>https://github.com/OpenMontageInc/OpenMontage</guid>
-      <language>Python</language>
-      <languageColor>#3572A5</languageColor>
-      <stars>81,573</stars>
-      <forks>11,720</forks>
-      <addStars>7,625</addStars>
+      <stars>151,537</stars>
+      <forks>16,763</forks>
+      <addStars>8,150</addStars>
       <contributors/>
     </item>
     <item>
       <title>NVIDIA/SkillEvaluator</title>
       <link>https://github.com/NVIDIA/SkillEvaluator</link>
-      <description>Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</description>
+      <description>Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.</description>
       <guid>https://github.com/NVIDIA/SkillEvaluator</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>3,725</stars>
-      <forks>481</forks>
-      <addStars>3,118</addStars>
+      <stars>3,993</stars>
+      <forks>536</forks>
+      <addStars>3,382</addStars>
       <contributors/>
     </item>
     <item>
@@ -768,9 +736,21 @@
       <guid>https://github.com/open-jarvis/OpenJarvis</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>16,995</stars>
-      <forks>4,202</forks>
-      <addStars>4,288</addStars>
+      <stars>17,099</stars>
+      <forks>4,345</forks>
+      <addStars>4,395</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>OpenMontageInc/OpenMontage</title>
+      <link>https://github.com/OpenMontageInc/OpenMontage</link>
+      <description>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</description>
+      <guid>https://github.com/OpenMontageInc/OpenMontage</guid>
+      <language>Python</language>
+      <languageColor>#3572A5</languageColor>
+      <stars>81,654</stars>
+      <forks>11,772</forks>
+      <addStars>7,709</addStars>
       <contributors/>
     </item>
     <item>
@@ -780,9 +760,9 @@
       <guid>https://github.com/microsoft/TokenEconomizer</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>7,659</stars>
+      <stars>7,727</stars>
       <forks>529</forks>
-      <addStars>4,641</addStars>
+      <addStars>4,706</addStars>
       <contributors/>
     </item>
   </channel>
