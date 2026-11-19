@@ -3,7 +3,7 @@
     <title>GitHub C++ Languages Daily Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Daily Trending of C++ Languages in GitHub</description>
-    <pubDate>Wed, 18 Nov 2026 16:59:05 GMT</pubDate>
+    <pubDate>Thu, 19 Nov 2026 01:42:26 GMT</pubDate>
     <item>
       <title>openvinotoolkit/openvino</title>
       <link>https://github.com/openvinotoolkit/openvino</link>
@@ -11,9 +11,9 @@
       <guid>https://github.com/openvinotoolkit/openvino</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>11,264</stars>
-      <forks>3,599</forks>
-      <addStars>18</addStars>
+      <stars>11,341</stars>
+      <forks>3,603</forks>
+      <addStars>24</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2566854?s=40&amp;v=4</avatar>
@@ -44,9 +44,9 @@
       <guid>https://github.com/microsoft/BitNet</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>41,920</stars>
-      <forks>3,931</forks>
-      <addStars>271</addStars>
+      <stars>42,040</stars>
+      <forks>3,949</forks>
+      <addStars>325</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/54800242?s=40&amp;v=4</avatar>
@@ -82,9 +82,9 @@
       <guid>https://github.com/boykopovar/AnyPS5</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>55,509</stars>
-      <forks>5,332</forks>
-      <addStars>727</addStars>
+      <stars>56,072</stars>
+      <forks>5,394</forks>
+      <addStars>693</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/158058829?s=40&amp;v=4</avatar>
@@ -120,9 +120,9 @@
       <guid>https://github.com/tensorflow/tensorflow</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>201,605</stars>
-      <forks>77,962</forks>
-      <addStars>229</addStars>
+      <stars>201,591</stars>
+      <forks>77,956</forks>
+      <addStars>111</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/17151892?s=40&amp;v=4</avatar>
@@ -159,8 +159,8 @@
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
       <stars>14,642</stars>
-      <forks>4,746</forks>
-      <addStars>27</addStars>
+      <forks>4,748</forks>
+      <addStars>20</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/4332953?s=40&amp;v=4</avatar>
@@ -196,8 +196,8 @@
       <guid>https://github.com/gabime/spdlog</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>29,770</stars>
-      <forks>5,339</forks>
+      <stars>29,773</stars>
+      <forks>5,338</forks>
       <addStars>7</addStars>
       <contributors>
         <contributor>
@@ -234,9 +234,9 @@
       <guid>https://github.com/ggml-org/llama.cpp</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>135,625</stars>
-      <forks>25,734</forks>
-      <addStars>421</addStars>
+      <stars>135,614</stars>
+      <forks>25,742</forks>
+      <addStars>306</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/1991296?s=40&amp;v=4</avatar>
@@ -266,15 +266,53 @@
       </contributors>
     </item>
     <item>
+      <title>incoai/splash</title>
+      <link>https://github.com/incoai/splash</link>
+      <description>A local inference engine for Apple silicon, built around the model.</description>
+      <guid>https://github.com/incoai/splash</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>2,410</stars>
+      <forks>232</forks>
+      <addStars>49</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/141193260?s=40&amp;v=4</avatar>
+          <name>jianc99</name>
+          <url>https://github.com/jianc99</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/5782437?s=40&amp;v=4</avatar>
+          <name>zhijian-liu</name>
+          <url>https://github.com/zhijian-liu</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/50020539?s=40&amp;v=4</avatar>
+          <name>liang2kl</name>
+          <url>https://github.com/liang2kl</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/3253044?s=40&amp;v=4</avatar>
+          <name>linson007</name>
+          <url>https://github.com/linson007</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>noctalia-dev/umbriel</title>
       <link>https://github.com/noctalia-dev/umbriel</link>
       <description>A Wayland compositor designed for daily use, with scrolling, dwindle, master, and stacking layouts, per-output workspaces, window rules, blur, shadows, and fluid animations.</description>
       <guid>https://github.com/noctalia-dev/umbriel</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>1,749</stars>
-      <forks>137</forks>
-      <addStars>26</addStars>
+      <stars>1,754</stars>
+      <forks>138</forks>
+      <addStars>20</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2170677?s=40&amp;v=4</avatar>
@@ -305,9 +343,9 @@
       <guid>https://github.com/Neroued/ninfer</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>3,380</stars>
-      <forks>727</forks>
-      <addStars>9</addStars>
+      <stars>3,382</stars>
+      <forks>728</forks>
+      <addStars>7</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/142312170?s=40&amp;v=4</avatar>
@@ -343,7 +381,7 @@
       <guid>https://github.com/socquique/TamaPoke</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>327</stars>
+      <stars>328</stars>
       <forks>155</forks>
       <addStars>9</addStars>
       <contributors>
@@ -381,21 +419,9 @@
       <guid>https://github.com/krisgfx9/Wireless-Device-Battery-Monitor</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>3,654</stars>
-      <forks>27</forks>
-      <addStars>1,075</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>rolazd/xiaoai-doubao</title>
-      <link>https://github.com/rolazd/xiaoai-doubao</link>
-      <description>把小爱音箱 Pro 改成孩子的英语玩伴：喊豆包豆包，用英语聊天，记得孩子</description>
-      <guid>https://github.com/rolazd/xiaoai-doubao</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>255</stars>
-      <forks>42</forks>
-      <addStars>205</addStars>
+      <stars>3,934</stars>
+      <forks>312</forks>
+      <addStars>51</addStars>
       <contributors/>
     </item>
     <item>
@@ -405,33 +431,9 @@
       <guid>https://github.com/KytyPS5/KytyPS5</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>11,631</stars>
+      <stars>11,760</stars>
       <forks>1,438</forks>
-      <addStars>155</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Niko1221/Strata</title>
-      <link>https://github.com/Niko1221/Strata</link>
-      <description>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.</description>
-      <guid>https://github.com/Niko1221/Strata</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>45,540</stars>
-      <forks>5,104</forks>
-      <addStars>262</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Sacrappy/HeyListen</title>
-      <link>https://github.com/Sacrappy/HeyListen</link>
-      <description>A Native Recompilation for The Legend of Zelda Ocarina of Time Remake on Switch 2 based on Hookshot.</description>
-      <guid>https://github.com/Sacrappy/HeyListen</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>182</stars>
-      <forks>19</forks>
-      <addStars>85</addStars>
+      <addStars>29</addStars>
       <contributors/>
     </item>
     <item>
@@ -441,21 +443,9 @@
       <guid>https://github.com/Likely7/Veyra-NRVideo</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>3,440</stars>
+      <stars>3,578</stars>
       <forks>247</forks>
-      <addStars>199</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>localai-org/depth-anything.cpp</title>
-      <link>https://github.com/localai-org/depth-anything.cpp</link>
-      <description>A from-scratch C++17/ggml port of Depth Anything 2 and 3 (ByteDance)</description>
-      <guid>https://github.com/localai-org/depth-anything.cpp</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>1,331</stars>
-      <forks>130</forks>
-      <addStars>66</addStars>
+      <addStars>33</addStars>
       <contributors/>
     </item>
     <item>
@@ -465,9 +455,33 @@
       <guid>https://github.com/CM-idea/SnowAir</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>470</stars>
+      <stars>503</stars>
       <forks>35</forks>
-      <addStars>63</addStars>
+      <addStars>18</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Niko1221/Strata</title>
+      <link>https://github.com/Niko1221/Strata</link>
+      <description>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.</description>
+      <guid>https://github.com/Niko1221/Strata</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>45,648</stars>
+      <forks>5,104</forks>
+      <addStars>14</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>imxieyi/Kernarium</title>
+      <link>https://github.com/imxieyi/Kernarium</link>
+      <description>Run real Linux kernel natively on iOS</description>
+      <guid>https://github.com/imxieyi/Kernarium</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>523</stars>
+      <forks>57</forks>
+      <addStars>10</addStars>
       <contributors/>
     </item>
     <item>
@@ -477,93 +491,9 @@
       <guid>https://github.com/jesdga95/basalt</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>1,245</stars>
+      <stars>1,378</stars>
       <forks>186</forks>
-      <addStars>75</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>intrinsic-ai/intrinsic-core</title>
-      <link>https://github.com/intrinsic-ai/intrinsic-core</link>
-      <description>Intrinsic Core™ provides an open, local runtime, SDK, and hardware agnostic, real-time control framework for industrial robotics.</description>
-      <guid>https://github.com/intrinsic-ai/intrinsic-core</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>730</stars>
-      <forks>90</forks>
-      <addStars>50</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>metasequoiaime/msime-windows</title>
-      <link>https://github.com/metasequoiaime/msime-windows</link>
-      <description>水杉输入法 Windows 产品：TSF、Server、GUI、设置页与安装器。内测：tg: https://t.me/msimegroup QQ Group: 829919142</description>
-      <guid>https://github.com/metasequoiaime/msime-windows</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>3,514</stars>
-      <forks>199</forks>
-      <addStars>39</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>yuaotian/antigravity-proxy</title>
-      <link>https://github.com/yuaotian/antigravity-proxy</link>
-      <description>🚀 Transparent proxy injector for Antigravity. Force SOCKS5/HTTP proxy without TUN mode on Windows. | 专为 Antigravity 打造的免 TUN 强制代理工具，支持 DLL 注入与进程流量劫持。</description>
-      <guid>https://github.com/yuaotian/antigravity-proxy</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>4,998</stars>
-      <forks>352</forks>
-      <addStars>51</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>dyang886/Game-Cheats-Manager</title>
-      <link>https://github.com/dyang886/Game-Cheats-Manager</link>
-      <description>Easily download and manage single-player game cheats for your convenience</description>
-      <guid>https://github.com/dyang886/Game-Cheats-Manager</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>16,649</stars>
-      <forks>649</forks>
-      <addStars>71</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>metrist38/fefw-recomp</title>
-      <link>https://github.com/metrist38/fefw-recomp</link>
-      <description>Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.</description>
-      <guid>https://github.com/metrist38/fefw-recomp</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>214</stars>
-      <forks>33</forks>
-      <addStars>35</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>heydemoura/PS5_Longshot</title>
-      <link>https://github.com/heydemoura/PS5_Longshot</link>
-      <description>Longshot for the PlayStation 5: a port of Longshot (static recompilation) to the PS5, with the Longshot PS5 Builder for Linux and Windows. No PC builds of the game.</description>
-      <guid>https://github.com/heydemoura/PS5_Longshot</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>124</stars>
-      <forks>19</forks>
-      <addStars>32</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>noctalia-dev/luciole</title>
-      <link>https://github.com/noctalia-dev/luciole</link>
-      <description>A smooth, native Wayland file manager. Fast previews, tabs, split view and Miller columns.</description>
-      <guid>https://github.com/noctalia-dev/luciole</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>305</stars>
-      <forks>15</forks>
-      <addStars>43</addStars>
+      <addStars>9</addStars>
       <contributors/>
     </item>
     <item>
@@ -573,45 +503,9 @@
       <guid>https://github.com/deskflow/deskflow</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>31,398</stars>
+      <stars>31,412</stars>
       <forks>3,424</forks>
-      <addStars>65</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>wynter-yaxley/atrium-desktop</title>
-      <link>https://github.com/wynter-yaxley/atrium-desktop</link>
-      <description>A native glass desktop for Windows 11: floating taskbar and desktop widgets with real-time refraction. Architecture review and verified feasibility probes.</description>
-      <guid>https://github.com/wynter-yaxley/atrium-desktop</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>432</stars>
-      <forks>31</forks>
-      <addStars>44</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>78/xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>An MCP-based chatbot | 一个基于MCP的聊天机器人</description>
-      <guid>https://github.com/78/xiaozhi-esp32</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>33,416</stars>
-      <forks>7,911</forks>
-      <addStars>51</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Betelgeuse-AI/Betelgeuse</title>
-      <link>https://github.com/Betelgeuse-AI/Betelgeuse</link>
-      <description>A custom fork for frontier-scale mixture-of-experts inference on an RTX 3060 with 12 GB VRAM, 16 GB system RAM and local NVMe.**  Betelgeuse keeps dense computation on the GPU and brings routed experts into a bounded VRAM pool only when needed. </description>
-      <guid>https://github.com/Betelgeuse-AI/Betelgeuse</guid>
-      <language>C++</language>
-      <languageColor>#f34b7d</languageColor>
-      <stars>184</stars>
-      <forks>17</forks>
-      <addStars>21</addStars>
+      <addStars>9</addStars>
       <contributors/>
     </item>
     <item>
@@ -621,9 +515,21 @@
       <guid>https://github.com/zortos293/Lichii</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>9,701</stars>
+      <stars>9,729</stars>
       <forks>1,313</forks>
-      <addStars>64</addStars>
+      <addStars>9</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Frizti/Fritchii</title>
+      <link>https://github.com/Frizti/Fritchii</link>
+      <description>Frontier GREEN HAT BOY ADVENTURE specialized Lichii fork, i'm the goat</description>
+      <guid>https://github.com/Frizti/Fritchii</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>4,317</stars>
+      <forks>315</forks>
+      <addStars>8</addStars>
       <contributors/>
     </item>
     <item>
@@ -633,9 +539,141 @@
       <guid>https://github.com/OpenTenBase/TXSQL</guid>
       <language>C++</language>
       <languageColor>#f34b7d</languageColor>
-      <stars>478</stars>
+      <stars>509</stars>
       <forks>336</forks>
-      <addStars>18</addStars>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>heydemoura/PS5_Longshot</title>
+      <link>https://github.com/heydemoura/PS5_Longshot</link>
+      <description>Longshot for the PlayStation 5: a port of Longshot (static recompilation) to the PS5, with the Longshot PS5 Builder for Linux and Windows. No PC builds of the game.</description>
+      <guid>https://github.com/heydemoura/PS5_Longshot</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>138</stars>
+      <forks>19</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>k2-fsa/sherpa-onnx</title>
+      <link>https://github.com/k2-fsa/sherpa-onnx</link>
+      <description>Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages</description>
+      <guid>https://github.com/k2-fsa/sherpa-onnx</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>16,028</stars>
+      <forks>1,936</forks>
+      <addStars>6</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>crosspoint-reader/crosspoint-reader</title>
+      <link>https://github.com/crosspoint-reader/crosspoint-reader</link>
+      <description>Open-source e-reader firmware</description>
+      <guid>https://github.com/crosspoint-reader/crosspoint-reader</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>8,854</stars>
+      <forks>1,812</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>metrist38/fefw-recomp</title>
+      <link>https://github.com/metrist38/fefw-recomp</link>
+      <description>Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.</description>
+      <guid>https://github.com/metrist38/fefw-recomp</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>225</stars>
+      <forks>33</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>rolazd/xiaoai-doubao</title>
+      <link>https://github.com/rolazd/xiaoai-doubao</link>
+      <description>把小爱音箱 Pro 改成孩子的英语玩伴：喊豆包豆包，用英语聊天，记得孩子</description>
+      <guid>https://github.com/rolazd/xiaoai-doubao</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>281</stars>
+      <forks>42</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>laobamac/MirageWallpaper</title>
+      <link>https://github.com/laobamac/MirageWallpaper</link>
+      <description>The most perfect live wallpaper engine for macOS, supporting web/video/scene wallpaper</description>
+      <guid>https://github.com/laobamac/MirageWallpaper</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>846</stars>
+      <forks>29</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>78/xiaozhi-esp32</title>
+      <link>https://github.com/78/xiaozhi-esp32</link>
+      <description>An MCP-based chatbot | 一个基于MCP的聊天机器人</description>
+      <guid>https://github.com/78/xiaozhi-esp32</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>33,422</stars>
+      <forks>7,911</forks>
+      <addStars>5</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>countervolts/d4r</title>
+      <link>https://github.com/countervolts/d4r</link>
+      <description>NVIDIA's official DLSS 3/4/4.5 and DLSS MFG on AMD RDNA2/3/4 GPUs on Windows and Linux.</description>
+      <guid>https://github.com/countervolts/d4r</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>356</stars>
+      <forks>16</forks>
+      <addStars>2</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ClickHouse/ClickHouse</title>
+      <link>https://github.com/ClickHouse/ClickHouse</link>
+      <description>ClickHouse® is a real-time analytics database management system</description>
+      <guid>https://github.com/ClickHouse/ClickHouse</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>50,998</stars>
+      <forks>9,398</forks>
+      <addStars>4</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Sacrappy/HeyListen</title>
+      <link>https://github.com/Sacrappy/HeyListen</link>
+      <description>A Native Recompilation for The Legend of Zelda Ocarina of Time Remake on Switch 2 based on Hookshot.</description>
+      <guid>https://github.com/Sacrappy/HeyListen</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>200</stars>
+      <forks>19</forks>
+      <addStars>4</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>noctalia-dev/luciole</title>
+      <link>https://github.com/noctalia-dev/luciole</link>
+      <description>A smooth, native Wayland file manager. Fast previews, tabs, split view and Miller columns.</description>
+      <guid>https://github.com/noctalia-dev/luciole</guid>
+      <language>C++</language>
+      <languageColor>#f34b7d</languageColor>
+      <stars>321</stars>
+      <forks>15</forks>
+      <addStars>4</addStars>
       <contributors/>
     </item>
   </channel>
