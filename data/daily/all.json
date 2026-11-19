@@ -2,16 +2,48 @@
   "title": "GitHub All Languages Daily Trending",
   "description": "Daily Trending of All Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Thu, 19 Nov 2026 12:28:59 GMT",
+  "pubDate": "Thu, 19 Nov 2026 22:53:49 GMT",
   "items": [
+    {
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "12,434",
+      "forks": "1,584",
+      "addStars": "1,353",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66463177?s=40&v=4",
+          "name": "injectifytest",
+          "url": "https://github.com/injectifytest"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49252733?s=40&v=4",
+          "name": "elementalsouls",
+          "url": "https://github.com/elementalsouls"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "name": "rudycelekli",
+          "url": "https://github.com/rudycelekli"
+        }
+      ]
+    },
     {
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": "321,682",
-      "forks": "28,595",
+      "stars": "322,036",
+      "forks": "28,626",
       "addStars": "2,029",
       "contributors": [
         {
@@ -47,8 +79,8 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "60,228",
-      "forks": "5,462",
+      "stars": "60,510",
+      "forks": "5,490",
       "addStars": "899",
       "contributors": [
         {
@@ -84,9 +116,9 @@
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "66,629",
-      "forks": "8,755",
-      "addStars": "687",
+      "stars": "66,825",
+      "forks": "8,780",
+      "addStars": "301",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/62287848?s=40&v=4",
@@ -121,8 +153,8 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "17,422",
-      "forks": "1,922",
+      "stars": "17,536",
+      "forks": "1,929",
       "addStars": "383",
       "contributors": [
         {
@@ -158,8 +190,8 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "203,571",
-      "forks": "10,664",
+      "stars": "204,136",
+      "forks": "10,696",
       "addStars": "795",
       "contributors": [
         {
@@ -195,8 +227,8 @@
       "description": "The official NGINX Open Source repository.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "32,227",
-      "forks": "8,407",
+      "stars": "32,312",
+      "forks": "8,413",
       "addStars": "66",
       "contributors": [
         {
@@ -232,8 +264,8 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "11,456",
-      "forks": "3,611",
+      "stars": "11,545",
+      "forks": "3,621",
       "addStars": "246",
       "contributors": [
         {
@@ -264,8 +296,8 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "languageColor": "#e34c26",
-      "stars": "68,361",
-      "forks": "4,598",
+      "stars": "68,594",
+      "forks": "4,614",
       "addStars": "332",
       "contributors": [
         {
@@ -296,8 +328,8 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "70,512",
-      "forks": "6,276",
+      "stars": "70,755",
+      "forks": "6,305",
       "addStars": "952",
       "contributors": [
         {
@@ -328,8 +360,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "10,568",
-      "forks": "1,377",
+      "stars": "10,694",
+      "forks": "1,387",
       "addStars": "303",
       "contributors": [
         {
@@ -365,8 +397,8 @@
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": "1,495",
-      "forks": "114",
+      "stars": "1,785",
+      "forks": "123",
       "addStars": "542",
       "contributors": [
         {
@@ -397,8 +429,8 @@
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "12,901",
-      "forks": "1,890",
+      "stars": "13,093",
+      "forks": "1,903",
       "addStars": "25",
       "contributors": [
         {
@@ -434,8 +466,8 @@
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "74,810",
-      "forks": "5,544",
+      "stars": "75,128",
+      "forks": "5,561",
       "addStars": "170",
       "contributors": [
         {
@@ -466,9 +498,9 @@
       "description": "The only downloader you need. 下载器的集大成者。",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "12,284",
-      "forks": "777",
-      "addStars": "432",
+      "stars": "12,644",
+      "forks": "787",
+      "addStars": "449",
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/87308195?s=40&v=4",
@@ -498,8 +530,8 @@
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "10,881",
-      "forks": "1,916",
+      "stars": "11,177",
+      "forks": "1,937",
       "addStars": "110",
       "contributors": [
         {
@@ -530,26 +562,14 @@
       ]
     },
     {
-      "title": "mdiri-ai/SoduWork",
-      "url": "https://github.com/mdiri-ai/SoduWork",
-      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-      "language": "JavaScript",
-      "languageColor": "",
-      "stars": "3,833",
-      "forks": "411",
-      "addStars": "1,024",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "BaaRai/ARTEX",
       "url": "https://github.com/BaaRai/ARTEX",
       "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
       "language": "Go",
       "languageColor": "",
-      "stars": "10,528",
+      "stars": "11,785",
       "forks": "4,336",
-      "addStars": "1,637",
+      "addStars": "2,952",
       "contributors": [],
       "source": "trendshift"
     },
@@ -559,9 +579,9 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "56,777",
+      "stars": "57,690",
       "forks": "5,697",
-      "addStars": "894",
+      "addStars": "1,811",
       "contributors": [],
       "source": "trendshift"
     },
@@ -571,9 +591,33 @@
       "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
       "language": "Rust",
       "languageColor": "",
-      "stars": "4,133",
-      "forks": "229",
-      "addStars": "960",
+      "stars": "5,002",
+      "forks": "356",
+      "addStars": "1,777",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "language": "JavaScript",
+      "languageColor": "",
+      "stars": "4,116",
+      "forks": "411",
+      "addStars": "1,274",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "nexu-io/openmotion",
+      "url": "https://github.com/nexu-io/openmotion",
+      "description": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, Video, Music & Voice.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "12,792",
+      "forks": "1,280",
+      "addStars": "1,036",
       "contributors": [],
       "source": "trendshift"
     },
@@ -583,69 +627,21 @@
       "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "958",
-      "forks": "30",
-      "addStars": "563",
+      "stars": "1,382",
+      "forks": "70",
+      "addStars": "949",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "aoci-spec/aoci-code",
-      "url": "https://github.com/aoci-spec/aoci-code",
-      "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
-      "language": "Go",
-      "languageColor": "",
-      "stars": "2,505",
-      "forks": "269",
-      "addStars": "406",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "bitwarden/agent-access",
-      "url": "https://github.com/bitwarden/agent-access",
-      "description": "Agent Access is an open protocol, CLI tool, and SDK to provide agents with credentials without exposing their entire vault",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "556",
-      "forks": "24",
-      "addStars": "330",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "211,351",
-      "forks": "64,238",
-      "addStars": "327",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "DeanChensj/jiangshan-map",
-      "url": "https://github.com/DeanChensj/jiangshan-map",
-      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "language": "JavaScript",
-      "languageColor": "",
-      "stars": "8,377",
-      "forks": "1,027",
-      "addStars": "477",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "title": "Bodila51/gtavi-claudecode",
+      "url": "https://github.com/Bodila51/gtavi-claudecode",
+      "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "4,776",
-      "forks": "579",
-      "addStars": "560",
+      "stars": "772",
+      "forks": "33",
+      "addStars": "807",
       "contributors": [],
       "source": "trendshift"
     },
@@ -655,45 +651,9 @@
       "description": "Working mechanical rigs from a generated mesh: hinges, legs, and soft goods, every control a 0-1 parameter",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "423",
+      "stars": "660",
       "forks": "39",
-      "addStars": "270",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "felipebasurto/unslop-ui",
-      "url": "https://github.com/felipebasurto/unslop-ui",
-      "description": "Agent skill that cuts AI tells from UI copy, charts and dashboards: eyebrows, numbering, botsplaining, decorative icons, badges and status dots. Opt-in surface rules.",
-      "language": "HTML",
-      "languageColor": "#e34c26",
-      "stars": "375",
-      "forks": "2",
-      "addStars": "264",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "trypostit/trypost",
-      "url": "https://github.com/trypostit/trypost",
-      "description": "Open-source social media scheduler built for AI agents and the teams behind them. Create, schedule and publish posts to every network through MCP or the REST API, or write them yourself in a composer your team will love.",
-      "language": "PHP",
-      "languageColor": "",
-      "stars": "1,347",
-      "forks": "298",
-      "addStars": "260",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "kunkundi/crossdesk",
-      "url": "https://github.com/kunkundi/crossdesk",
-      "description": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "stars": "5,035",
-      "forks": "495",
-      "addStars": "256",
+      "addStars": "506",
       "contributors": [],
       "source": "trendshift"
     },
@@ -703,57 +663,9 @@
       "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "1,889",
+      "stars": "2,134",
       "forks": "254",
-      "addStars": "240",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "DietrichGebert/ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "languageColor": "",
-      "stars": "194,500",
-      "forks": "11,598",
-      "addStars": "547",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "sqlpxc/airhand",
-      "url": "https://github.com/sqlpxc/airhand",
-      "description": "High-performance, low-latency remote desktop QUIC transport · hardware encoding and decoding · up to 120 fps Windows · macOS · Linux · Android · browser",
-      "language": "Rust",
-      "languageColor": "",
-      "stars": "1,645",
-      "forks": "197",
-      "addStars": "223",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "punkpeye/awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "description": "A collection of MCP servers.",
-      "language": "",
-      "languageColor": "",
-      "stars": "98,216",
-      "forks": "21,127",
-      "addStars": "215",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "ybblab/Jiumi",
-      "url": "https://github.com/ybblab/Jiumi",
-      "description": "揪咪 Jiumi：开源安卓应用行为监测与管理，查看权限访问和网络活动。Android app activity & privacy monitor. No root required.",
-      "language": "Kotlin",
-      "languageColor": "",
-      "stars": "498",
-      "forks": "22",
-      "addStars": "214",
+      "addStars": "498",
       "contributors": [],
       "source": "trendshift"
     },
@@ -763,21 +675,45 @@
       "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "129,325",
+      "stars": "129,780",
       "forks": "9,009",
-      "addStars": "540",
+      "addStars": "965",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "storytold/craft-anything",
-      "url": "https://github.com/storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
-      "language": "Rust",
+      "title": "aoci-spec/aoci-code",
+      "url": "https://github.com/aoci-spec/aoci-code",
+      "description": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.",
+      "language": "Go",
       "languageColor": "",
-      "stars": "37,831",
-      "forks": "7,612",
-      "addStars": "875",
+      "stars": "2,599",
+      "forks": "269",
+      "addStars": "479",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "languageColor": "",
+      "stars": "194,776",
+      "forks": "11,598",
+      "addStars": "803",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "4,970",
+      "forks": "579",
+      "addStars": "746",
       "contributors": [],
       "source": "trendshift"
     },
@@ -787,9 +723,57 @@
       "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": "11,940",
+      "stars": "12,149",
       "forks": "1,468",
-      "addStars": "236",
+      "addStars": "431",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "felipebasurto/unslop-ui",
+      "url": "https://github.com/felipebasurto/unslop-ui",
+      "description": "Agent skill that cuts AI tells from UI copy, charts and dashboards: eyebrows, numbering, botsplaining, decorative icons, badges and status dots. Opt-in surface rules.",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "stars": "561",
+      "forks": "9",
+      "addStars": "430",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "imxieyi/Kernarium",
+      "url": "https://github.com/imxieyi/Kernarium",
+      "description": "Run real Linux kernel natively on iOS",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": "921",
+      "forks": "69",
+      "addStars": "410",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "language": "Rust",
+      "languageColor": "",
+      "stars": "38,366",
+      "forks": "7,612",
+      "addStars": "1,426",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "languageColor": "",
+      "stars": "307,206",
+      "forks": "47,500",
+      "addStars": "785",
       "contributors": [],
       "source": "trendshift"
     }
