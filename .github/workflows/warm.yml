@@ -1,0 +1,36 @@
+name: Warm Unstarred lists
+
+# The site serves its last saved list at once and rebuilds a stale one in the background, so without visitors the
+# lists go stale and the first visit after a quiet spell sees old data. This asks for every list every 30 minutes,
+# with ?warm=, which only starts the rebuild and returns no body.
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: warm-unstarred
+  cancel-in-progress: false
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Ask the site to rebuild stale lists
+        run: |
+          site=https://unstarred-ten.vercel.app
+          for path in \
+            'repos?' \
+            'new?period=3&' 'new?period=30&' 'new?period=90&' 'new?period=730&' 'new?period=all&' \
+            'hn?period=day&' 'hn?period=week&' 'hn?period=month&' 'hn?period=year&' 'hn?period=all&' \
+            'releases?days=1&' 'releases?days=7&' 'releases?days=14&' 'releases?days=30&' 'releases?days=365&' \
+            'skills?type=all&' 'skills?type=mcp&' 'skills?type=claude&' 'skills?type=codex&' \
+            'skills?type=agent&' 'skills?type=skill&' 'skills?type=tool&'
+          do
+            # A list with nothing saved yet is built before the reply, which can take a few minutes.
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 300 "$site/api/${path}warm=$(date +%s)" || true)
+            echo "$path $code"
+            # One at a time, so the rebuilds don't hit GitHub's rate limits together.
+            sleep 20
+          done
