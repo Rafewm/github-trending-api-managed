@@ -162,3 +162,40 @@ test('skillsToRepos drops starred repos and bad names, and fills page fields', (
   assert.equal(repos[0].pushedAt, '2026-11-10T00:00:00Z');
   assert.equal(repos[0].avatar, 'https://avatars.githubusercontent.com/a?s=40');
 });
+
+test('reposInText finds full, spaced and bare repo names, and skips look-alikes', async () => {
+  const { reposInText } = await import('./trending.js');
+  const names = (text) => reposInText(text).map((r) => `${r.name}${r.bare ? ' (bare)' : ''}`);
+  assert.deepEqual(names('Repo: https://github.com/ruvnet/metaharness.git.'), ['ruvnet/metaharness']);
+  assert.deepEqual(names('check https://github. com/ruvnet/metaharness now'), ['ruvnet/metaharness']);
+  assert.deepEqual(names('github .com / ruvnet / metaharness'), ['ruvnet/metaharness']);
+  assert.deepEqual(names('Star it 👉 ruvnet/metaharness!'), ['ruvnet/metaharness (bare)']);
+  assert.deepEqual(names('repo (ruvnet/meta-harness_v2.0).'), ['ruvnet/meta-harness_v2.0 (bare)']);
+  // The same repo linked and written bare is one entry, not bare.
+  assert.deepEqual(names('ruvnet/metaharness → github.com/ruvnet/metaharness'), ['ruvnet/metaharness']);
+  // Not repos: phrases, dates, other sites' paths, site pages, mentions and hashtags.
+  for (const text of [
+    'use and/or 24/7 CI/CD AI/ML client/server on 11/20',
+    'https://x.com/tom_doerr/status/123 https://t.co/A3C6kKFL2p huggingface.co/meta/llama',
+    'see src/index.js? no: https://github.com/topics/agents and github.com/features/copilot',
+    '@user/thing #tag/other',
+  ]) assert.deepEqual(names(text).filter((n) => !n.startsWith('src/')), [], text);
+});
+
+test('tweetsToRepos credits a self-reply link to its post and keeps the newest post per repo', async () => {
+  const { tweetsToRepos } = await import('./trending.js');
+  const repos = tweetsToRepos([
+    { id: '1', user: 'a', text: 'Great tool for agents', time: 100, likes: 50 },
+    { id: '2', user: 'a', conv: '1', text: 'GitHub: https://t.co/x', urls: ['https://github.com/o/tool'], time: 101, likes: 1 },
+    { id: '3', user: 'b', text: 'also o/tool is nice', time: 200, likes: 9 },
+    { id: '4', user: 'c', text: 'old one/two', time: 5, likes: 0 },
+  ], 50);
+  assert.deepEqual(repos.map((r) => [r.name, r.bare, r.tweet.id, r.tweet.user, r.tweet.text]), [
+    ['o/tool', false, '3', 'b', 'also o/tool is nice'],
+  ]);
+  const older = tweetsToRepos([
+    { id: '1', user: 'a', text: 'Great tool for agents', time: 100, likes: 50 },
+    { id: '2', user: 'a', conv: '1', text: 'GitHub: https://t.co/x', urls: ['https://github.com/o/tool'], time: 101, likes: 1 },
+  ]);
+  assert.deepEqual([older[0].tweet.id, older[0].tweet.text, older[0].tweet.likes], ['1', 'Great tool for agents', 50]);
+});

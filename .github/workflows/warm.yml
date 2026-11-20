@@ -26,7 +26,8 @@ jobs:
             'hn?period=day&' 'hn?period=week&' 'hn?period=month&' 'hn?period=year&' 'hn?period=all&' \
             'releases?days=1&' 'releases?days=7&' 'releases?days=14&' 'releases?days=30&' 'releases?days=365&' \
             'skills?type=all&' 'skills?type=mcp&' 'skills?type=claude&' 'skills?type=codex&' \
-            'skills?type=agent&' 'skills?type=skill&' 'skills?type=tool&'
+            'skills?type=agent&' 'skills?type=skill&' 'skills?type=tool&' \
+            'twitter?days=1&' 'twitter?days=7&' 'twitter?days=30&' 'twitter?days=365&'
           do
             # A list with nothing saved yet is built before the reply, which can take a few minutes.
             code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 300 "$site/api/${path}warm=$(date +%s)" || true)

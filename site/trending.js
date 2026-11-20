@@ -258,3 +258,67 @@ export function skillsToRepos(entries, starred, now = Date.now()) {
   }
   return { repos, hiddenStarred };
 }
+
+// "github.com/owner/repo" anywhere in text, also broken up by spaces ("github. com / owner / repo").
+const LOOSE_GITHUB_LINK = /github\s*\.\s*com\s*\/\s*([A-Za-z0-9][A-Za-z0-9-]{0,38})\s*\/\s*([A-Za-z0-9._-]{1,100})/gi;
+// A bare "owner/repo" that is not part of a URL or path: nothing word-like, "/", ".", ":" or "@" right before it,
+// and no further "/" after it.
+const BARE_REPO = /(?<![\w./:@#-])([A-Za-z0-9][A-Za-z0-9-]{0,38})\/([A-Za-z0-9._-]{1,100})(?![\w/-])/g;
+// Common "x/y" phrases that look like owner/repo. Real repos with these names exist, so they are refused outright.
+const NOT_REPOS = new Set([
+  'and/or', 'ai/ml', 'ci/cd', 'client/server', 'input/output', 'tcp/ip', 'i/o', 'read/write', 'true/false', 'yes/no',
+  'on/off', 'w/o', 'b/c', 'he/she', 'his/her', 'him/her', 'they/them', 'she/her', 'he/him', 'pros/cons', 'win/win',
+  'front/back', 'frontend/backend', 'dev/prod', 'macos/linux', 'linux/macos', 'windows/linux', 'ios/android',
+  'android/ios', 'text/image', 'image/video', 'text/html', 'application/json', 'q/a', 'p/s', 'per/day', 'n/a',
+]);
+// Trailing dots first ("repo.git." at a sentence end), then ".git".
+const cleanRepo = (repo) => repo.replace(/[.]+$/, '').replace(/\.git$/i, '');
+
+// Repos named in a piece of text, each once: {name, bare} where bare means it was only written as "owner/repo".
+export function reposInText(text) {
+  const found = new Map();
+  const s = String(text ?? '');
+  for (const m of s.matchAll(LOOSE_GITHUB_LINK)) {
+    const repo = cleanRepo(m[2]);
+    if (repo && !NOT_OWNERS.has(m[1].toLowerCase())) found.set(`${m[1]}/${repo}`.toLowerCase(), { name: `${m[1]}/${repo}`, bare: false });
+  }
+  // URLs are cut out first so their paths (x.com/user/status, t.co/abc) can't pass as owner/repo.
+  for (const m of s.replace(/\b(?:https?:\/\/|www\.)\S+/gi, ' ').replace(LOOSE_GITHUB_LINK, ' ').matchAll(BARE_REPO)) {
+    const repo = cleanRepo(m[2]);
+    const name = `${m[1]}/${repo}`;
+    const key = name.toLowerCase();
+    if (!repo || found.has(key) || NOT_REPOS.has(key) || NOT_OWNERS.has(m[1].toLowerCase())) continue;
+    // Dates, scores and fractions: 24/7, 11/20, 3/4.
+    if (/^\d+$/.test(m[1]) || /^\d+$/.test(repo)) continue;
+    found.set(key, { name, bare: true });
+  }
+  return [...found.values()];
+}
+
+// Collected tweets (data/twitter/tweets.json) -> one row per repo, from the newest post that names it.
+// A reply by the author under their own post counts for that post, since links are often put in the first reply.
+export function tweetsToRepos(tweets, since = 0) {
+  const byId = new Map(tweets.map((t) => [t.id, t]));
+  const repos = new Map();
+  for (const t of tweets) {
+    if (!(t.time >= since)) continue;
+    const post = (t.conv && byId.get(t.conv)) || t;
+    const postId = t.conv || t.id;
+    for (const { name, bare } of reposInText(`${t.text} ${(t.urls ?? []).join(' ')}`)) {
+      if (!REPO_NAME.test(name)) continue;
+      const key = name.toLowerCase();
+      const prev = repos.get(key);
+      const tweet = {
+        id: String(postId),
+        user: String(post.user ?? t.user),
+        text: String(post.text ?? t.text),
+        time: Number(post.time ?? t.time) || 0,
+        likes: Number(post.likes ?? t.likes) || 0,
+      };
+      // bare stays true only while no post linked the repo in full.
+      if (!prev) repos.set(key, { name, description: '', language: '', languageColor: '', day: null, week: null, month: null, tweet, bare });
+      else repos.set(key, { ...prev, bare: prev.bare && bare, tweet: tweet.time > prev.tweet.time ? tweet : prev.tweet });
+    }
+  }
+  return [...repos.values()];
+}

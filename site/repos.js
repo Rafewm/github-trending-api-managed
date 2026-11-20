@@ -1,5 +1,5 @@
 import {
-  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos,
+  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos, tweetsToRepos,
 } from './trending.js';
 import { cached } from './cache.js';
 
@@ -29,6 +29,11 @@ const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 730: [730, 1000
 const SKILLS = `${DATA}/skills/skills.json`;
 const SKILL_TYPES = ['all', 'mcp', 'claude', 'codex', 'agent', 'skill', 'tool'];
 const SKILLS_ALL_MAX = 5000;
+// Posts from followed X accounts, collected by the data repo's Action (script/twitter.js) through twitterapi.io.
+const TWITTER = `${DATA}/twitter/tweets.json`;
+const TWITTER_DAYS = ['1', '7', '30', '365'];
+// A repo only written as "owner/repo" (no link) must have this many stars, which weeds out real-but-junk pairs.
+const BARE_MIN_STARS = 20;
 const STARS_MS = 60 * 1000;
 // GitHub search stops at 1,000 results, 100 per page.
 const SEARCH_PAGES = 10;
@@ -219,6 +224,17 @@ async function loadSkills(type) {
   return { ...skillsToRepos(list, new Set(starred)), tracked: list.length, refreshed: Date.parse(updated) || Date.now() };
 }
 
+async function loadTwitter(days) {
+  const res = await fetch(TWITTER);
+  if (!res.ok) throw new Error(`Twitter posts file failed: ${res.status}`);
+  const { updated, tweets = [] } = await res.json();
+  const list = tweetsToRepos(tweets, Math.floor(Date.now() / 1000) - Number(days) * DAY);
+  // The GraphQL lookup also drops names that are not real repos, which is most of the bare false matches.
+  const checked = await enrich(list);
+  const repos = checked.repos.filter((r) => !r.bare || r.stars >= BARE_MIN_STARS);
+  return { ...checked, repos, tracked: list.length, refreshed: Date.parse(updated) || Date.now() };
+}
+
 // Newest first: the page asks for these when you come back to the tab.
 async function fetchRecentStars(count) {
   const res = await fetch(`https://api.github.com/user/starred?per_page=${count}`, {
@@ -309,4 +325,15 @@ export async function handleStars(req, res) {
     res.writeHead(502, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
     res.end(JSON.stringify({ error: err.message }));
   }
+}
+
+// GET /api/twitter?days=1|7|30|365
+export function handleTwitter(req, res) {
+  const days = new URL(req.url, 'http://localhost').searchParams.get('days') ?? '7';
+  if (!TWITTER_DAYS.includes(days)) {
+    res.writeHead(400, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ error: 'days must be 1, 7, 30 or 365.' }));
+    return;
+  }
+  return respond(req, res, () => cached(`twitter:${days}`, RELEASE_CACHE_MS, () => loadTwitter(days)));
 }

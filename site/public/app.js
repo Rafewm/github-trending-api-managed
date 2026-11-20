@@ -30,6 +30,11 @@ const SORTS = {
     ['created.perDay', 'Stars per day'],
     ['created.time', 'Newest'],
   ],
+  twitter: [
+    ['tweet.time', 'Newest on X'],
+    ['tweet.likes', 'Post likes'],
+    ['stars', 'Total stars'],
+  ],
   releases: [
     ['release.score', 'Release Monitor rank'],
     ['reddit.time', 'Newest on Reddit'],
@@ -41,6 +46,7 @@ const COLUMNS = {
   hn: ['Lang', 'Stars', 'Points', 'Comments', 'Posted', 'Status'],
   new: ['Lang', 'Stars', 'Per day', 'Created', 'Status'],
   skills: ['Lang', 'Stars', 'Type', 'Created', 'Status'],
+  twitter: ['Lang', 'Stars', 'Likes', 'Posted', 'Status'],
   releases: ['Lang', 'Stars', 'Release', 'Reddit', 'Status'],
 };
 // Tabs that load one list per period, on first open.
@@ -75,6 +81,11 @@ const FEEDS = {
     ],
     label: 'skills',
   },
+  twitter: {
+    url: (days) => `/api/twitter?days=${days}`,
+    periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['30', 'Last 30 days'], ['365', 'Last year']],
+    label: 'posts from X',
+  },
   releases: {
     url: (period) => `/api/releases?days=${period}`,
     periods: [['1', 'Last 24 hours'], ['7', 'Last 7 days'], ['14', 'Last 14 days'], ['30', 'Last 30 days'], ['365', 'Last year']],
@@ -82,8 +93,8 @@ const FEEDS = {
   },
 };
 let browse = null;
-const feeds = { hn: {}, new: {}, skills: {}, releases: {} };
-const periodChoice = { hn: 'day', new: '30', skills: 'all', releases: '7' };
+const feeds = { hn: {}, new: {}, skills: {}, twitter: {}, releases: {} };
+const periodChoice = { hn: 'day', new: '30', skills: 'all', twitter: '7', releases: '7' };
 let limit = PAGE;
 let view = 'browse';
 let hidden = {};
@@ -97,7 +108,7 @@ let pendingSaves = 0;
 let newStars = new Set();
 // Repos starred with the Star button. Kept apart from newStars, which each check replaces.
 const siteStars = new Set();
-const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', skills: 'stars', releases: 'release.score' };
+const sortChoice = { trending: 'day.add', hn: 'hn.points', new: 'created.perDay', skills: 'stars', twitter: 'tweet.time', releases: 'release.score' };
 
 const kind = () => (FEEDS[view] ? view : 'trending');
 const source = () => (FEEDS[view] ? feeds[view][periodChoice[view]] : browse);
@@ -232,6 +243,13 @@ function newCells(c) {
     <td class="nowrap" data-label="Created">${ago(new Date(c.time * 1000).toISOString())}</td>`;
 }
 
+const tweetUrl = (t) => `https://x.com/${encodeURIComponent(t.user)}/status/${encodeURIComponent(t.id)}`;
+
+function tweetCells(t) {
+  return `<td class="nowrap hn-points" data-label="Likes"><span aria-hidden="true">♥</span> ${t.likes.toLocaleString('en-US')}</td>
+    <td class="nowrap" data-label="Posted"><a href="${tweetUrl(t)}" target="_blank" rel="noopener noreferrer">@${esc(t.user)}</a><br><span class="muted">${ago(new Date(t.time * 1000).toISOString())}</span></td>`;
+}
+
 const skillLabel = (type) => new Map(FEEDS.skills.periods).get(type) ?? 'Other tools';
 
 function skillCells(repo) {
@@ -260,7 +278,10 @@ function row(repo) {
     ? `<ul class="tags" aria-label="Topics">${repo.topics.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
     : '';
   const post = view === 'releases' ? repo.reddit : null;
-  const title = story
+  const tweet = view === 'twitter' ? repo.tweet : null;
+  const title = tweet
+    ? `<a class="hn-title" href="${tweetUrl(tweet)}" target="_blank" rel="noopener noreferrer">${esc(tweet.text.length > 280 ? `${tweet.text.slice(0, 280)}…` : tweet.text)}</a>`
+    : story
     ? `<a class="hn-title" href="${hnUrl}" target="_blank" rel="noopener noreferrer">${esc(story.title)}</a>`
     : post
       ? `<a class="hn-title" href="${redditUrl(post)}" target="_blank" rel="noopener noreferrer">${esc(post.title)}</a>`
@@ -293,6 +314,8 @@ function row(repo) {
             ? newCells(repo.created)
             : view === 'skills' && repo.skill
               ? skillCells(repo)
+              : tweet
+                ? tweetCells(tweet)
           : `${growthCell(repo.day, 'Day')}${growthCell(repo.week, 'Week')}${growthCell(repo.month, 'Month')}`
     }
     ${statusCell(repo)}
@@ -321,7 +344,7 @@ function renderHeader() {
   $('thead').innerHTML = `<tr>
     <th scope="col"><span class="sr-only">Owner</span></th>
     <th scope="col">Project</th>
-    <th scope="col" class="col-desc">${view === 'hn' ? 'Story' : 'Description'}</th>
+    <th scope="col" class="col-desc">${view === 'hn' ? 'Story' : view === 'twitter' ? 'Post' : 'Description'}</th>
     ${cols}
     <th scope="col"><span class="sr-only">Actions</span></th>
   </tr>`;
@@ -352,11 +375,12 @@ function render() {
     hn: 'On Hacker News',
     new: 'New and rising',
     skills: 'Agent skills and MCP',
+    twitter: 'Repos on X',
     releases: 'New releases',
     tracked: 'Tracked projects',
     hidden: 'Hidden projects',
   }[view];
-  for (const v of ['browse', 'new', 'skills', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
+  for (const v of ['browse', 'new', 'skills', 'twitter', 'hn', 'releases', 'tracked', 'hidden']) $(`tab-${v}`).setAttribute('aria-pressed', view === v);
   $('period-label').hidden = !FEEDS[view];
   $('source-label').hidden = view !== 'releases';
   renderHeader();
@@ -369,7 +393,7 @@ function render() {
     .filter((r) => view !== 'releases' || releaseSource === 'both' || r[{ reddit: 'reddit', releasemonitor: 'release', github: 'github' }[releaseSource]])
     .filter((r) => !language || r.language === language)
     .filter((r) => r.stars >= min)
-    .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''} ${r.release?.title ?? ''} ${r.reddit?.title ?? ''}`.toLowerCase().includes(q))
+    .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''} ${r.release?.title ?? ''} ${r.reddit?.title ?? ''} ${r.tweet?.text ?? ''}`.toLowerCase().includes(q))
     .filter((r) => topics.every((t) => r.topics.some((name) => name.includes(t))))
     .sort((a, b) => sortValue(b, key) - sortValue(a, key));
 
@@ -594,6 +618,7 @@ $('more').addEventListener('click', () => {
 $('tab-browse').addEventListener('click', () => setView('browse'));
 $('tab-new').addEventListener('click', () => setView('new'));
 $('tab-skills').addEventListener('click', () => setView('skills'));
+$('tab-twitter').addEventListener('click', () => setView('twitter'));
 $('tab-hn').addEventListener('click', () => setView('hn'));
 $('tab-releases').addEventListener('click', () => setView('releases'));
 $('tab-tracked').addEventListener('click', () => setView('tracked'));

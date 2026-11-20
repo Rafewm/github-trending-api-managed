@@ -82,6 +82,15 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 - `type` is `mcp`, `claude`, `codex` (Codex and OpenClaw), `agent`, `skill` or `tool`, from keywords in the name, description and topics.
 - It runs about every 8 hours (every other Action run), reads up to 1,000 repos per search, and skips forks and archived repos. If most searches fail, the last good file is kept.
 
+### X posts
+
+[`script/twitter.js`](script/twitter.js) keeps a year of posts from the X accounts in [`data/twitter/accounts.json`](data/twitter/accounts.json) that may name a GitHub repo, in [`data/twitter/tweets.json`](data/twitter/tweets.json), read through [twitterapi.io](https://docs.twitterapi.io).
+
+- Each entry has `id`, `user`, `time` (Unix seconds), `text`, `urls` (expanded links), `likes`, and `conv` for an author's reply under their own post (the post it answers) or `rt` for a repost.
+- The author's own replies are read too, since a repo link is often put in the first reply. Replies to other people are skipped.
+- A post is kept when it mentions github (also as a broken-up link like `github. com/owner/repo`) or has an `owner/repo` shape outside links, plus the post a kept self-reply answers. The site does the exact matching.
+- It needs a `TWITTERAPI_KEY` repository secret and is skipped without one. twitterapi.io bills $0.15 per 1,000 posts returned, so it runs about every 12 hours (about $0.14 per run for 47 accounts). Each account is read only back to the newest post seen last time.
+
 ### Updating the data
 
 `.github/workflows/run.yml` runs `pnpm build` every 4 hours and on manual dispatch, then commits `data/`. To run it yourself:
@@ -92,6 +101,7 @@ pnpm build                    # GitHub Trending for every language, then Trendsh
 node script/trendshift.js     # Trendshift step only
 node script/reddit.js         # Reddit step only
 node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
+node script/twitter.js        # X step only (needs TWITTERAPI_KEY)
 ```
 
 ---
@@ -106,6 +116,8 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Skills** lists the agent skills, MCP servers and agent tools from `data/skills/skills.json`, with a **Type** filter (MCP servers, Claude skills, Codex and OpenClaw, agent tools, other skills, other tools). Starred repos are dropped by checking your whole starred list, which is faster than the 50-at-a-time GraphQL check for thousands of repos.
 
+**Twitter** lists repos named in posts from the followed X accounts, for the last 24 hours, 7 or 30 days, or the last year, with the post, its likes and author. A repo counts whether the post links it (`https://github.com/owner/repo`), breaks the link with spaces (`github. com / owner / repo`), or just writes `owner/repo`, in the post, a quoted or reposted post, or the author's first reply. Names that are not real GitHub repos are dropped, and a repo only written as `owner/repo` needs 20 stars, so phrases like "and/or" or "CI/CD" don't show.
+
 **Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Each period holds at most the 1,000 highest-scoring stories, which is the API's limit.
 
 **Releases** combines three sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread), and popular repos updated in the period from GitHub search (`stars:>1000 pushed:>=<start of period>`, most stars first, up to 1,000). A **Source** filter shows all of them or one source; choosing GitHub sorts by total stars. A repo found by more than one source appears once with every link. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
@@ -116,7 +128,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Star** stars the repo on GitHub without leaving the page, through the server and its token, and needs the hide key. The row leaves at once and comes back with an error if GitHub refuses. Starring a repo in the Hidden or Track tab also takes it off that list. The server token needs the Starring permission for this (fine-grained token: Starring read and write; classic token: `public_repo`).
 
-**Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse, New, Skills, Hacker News and Releases and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
+**Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse, New, Skills, Twitter, Hacker News and Releases and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
 
 Both lists are stored in Upstash Redis, so they are the same on every device. Anyone can view them; changing them needs your hide key, which each browser asks for once.
 
@@ -140,6 +152,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases, r/BestGitHubRepos posts and popular repos updated in the period (`github: true`), for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
 | `POST /api/star` | `{"name": "owner/repo"}` stars the repo on GitHub, with the `X-Hide-Key` header. |
+| `GET /api/twitter?days=1|7|30|365` | Repos named in posts from followed X accounts that you have not starred, each with its newest `tweet`. Cached 30 minutes. |
 | `GET /api/stars` | Your 10 newest stars, uncached, checked when you return to the tab so a repo you just starred leaves at once. |
 | `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
 | `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos, with the `X-Hide-Key` header. Returns the new list. |
@@ -182,6 +195,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 - Extra rankings from [Trendshift.io](https://trendshift.io); reading its page data follows [quantavil/trendshift](https://github.com/quantavil/trendshift).
 - The New tab follows [repotrend.com](https://github.com/creatuluw/repotrend.com)'s GitHub search queries.
 - The Skills tab uses [AgentSkillsHub](https://github.com/zhuyansen/agent-skills-hub)'s GitHub search queries and categories.
+- X posts read through [twitterapi.io](https://twitterapi.io).
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
 - Release data from [Release Monitor](https://releasemonitor.org).
 - Reddit posts from r/BestGitHubRepos via [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift).
