@@ -228,8 +228,16 @@ async function fetchRecentStars(count) {
   return (await res.json()).map((repo) => repo.full_name);
 }
 
-async function respond(res, load) {
+async function respond(req, res, load) {
   try {
+    // ?warm=<anything> comes from the data repo's scheduled warm-up: it only starts a rebuild of a stale list, so it
+    // skips the star check and the body. The changing value also keeps the CDN from answering instead of the function.
+    if (new URL(req.url, 'http://localhost').searchParams.has('warm')) {
+      await load();
+      res.writeHead(204, { 'Cache-Control': 'no-store' });
+      res.end();
+      return;
+    }
     const [data, starred] = await Promise.all([load(), allStars()]);
     const body = JSON.stringify(dropRecentStars(data, starred));
     // On Vercel the CDN answers repeat hits, so visitors can't drain the token's GitHub quota.
@@ -243,7 +251,7 @@ async function respond(res, load) {
 }
 
 export function handleRepos(req, res) {
-  return respond(res, () => cached('trending', CACHE_MS, loadTrending));
+  return respond(req, res, () => cached('trending', CACHE_MS, loadTrending));
 }
 
 // GET /api/hn?period=day|week|month|year|all
@@ -254,7 +262,7 @@ export function handleHn(req, res) {
     res.end(JSON.stringify({ error: 'period must be day, week, month, year or all.' }));
     return;
   }
-  return respond(res, () => cached(`hn:${period}`, HN_CACHE_MS[period], () => loadHn(period)));
+  return respond(req, res, () => cached(`hn:${period}`, HN_CACHE_MS[period], () => loadHn(period)));
 }
 
 // GET /api/releases?days=1|7|14|30|365
@@ -265,7 +273,7 @@ export function handleReleases(req, res) {
     res.end(JSON.stringify({ error: 'days must be 1, 7, 14, 30 or 365.' }));
     return;
   }
-  return respond(res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
+  return respond(req, res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
 }
 
 // GET /api/new?period=3|30|90|730|all
@@ -276,7 +284,7 @@ export function handleNew(req, res) {
     res.end(JSON.stringify({ error: 'period must be 3, 30, 90, 730 or all.' }));
     return;
   }
-  return respond(res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
+  return respond(req, res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
 }
 
 // GET /api/skills?type=all|mcp|claude|codex|agent|skill|tool
@@ -287,7 +295,7 @@ export function handleSkills(req, res) {
     res.end(JSON.stringify({ error: `type must be ${SKILL_TYPES.join(', ')}.` }));
     return;
   }
-  return respond(res, () => cached(`skills:${type}`, RELEASE_CACHE_MS, () => loadSkills(type)));
+  return respond(req, res, () => cached(`skills:${type}`, RELEASE_CACHE_MS, () => loadSkills(type)));
 }
 
 // GET /api/stars: your 10 newest stars, uncached, so the page can drop a repo as soon as you come back from starring it.

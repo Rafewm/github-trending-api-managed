@@ -126,7 +126,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
 | `repos.js` | Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). Every response is also checked against your full starred list, at most a minute old, so a cached list can never show a repo you starred since. |
-| `cache.js` | Keeps each built list in memory and in Redis for a day, so a fresh Vercel instance answers at once. An old list is served while one instance builds a new one in the background. |
+| `cache.js` Keeps each built list in memory and in Redis for a day, so a fresh Vercel instance answers at once. An old list is served while one instance builds a new one in the background. | [`.github/workflows/warm.yml`](.github/workflows/warm.yml) asks for every list every 30 minutes with `?warm=`, which only starts that rebuild, so lists stay fresh without visitors. |
 | `hidden.js` | Hidden and tracked list APIs on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
 | `api/` | Vercel functions for the endpoints below. |
