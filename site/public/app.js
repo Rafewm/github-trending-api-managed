@@ -366,7 +366,7 @@ function render() {
 
   const releaseSource = $('source').value;
   const matches = currentList()
-    .filter((r) => view !== 'releases' || releaseSource === 'both' || (releaseSource === 'reddit' ? r.reddit : r.release))
+    .filter((r) => view !== 'releases' || releaseSource === 'both' || r[{ reddit: 'reddit', releasemonitor: 'release', github: 'github' }[releaseSource]])
     .filter((r) => !language || r.language === language)
     .filter((r) => r.stars >= min)
     .filter((r) => !q || `${r.name} ${r.description} ${r.hn?.title ?? ''} ${r.release?.title ?? ''} ${r.reddit?.title ?? ''}`.toLowerCase().includes(q))
@@ -577,6 +577,8 @@ $('sort').addEventListener('input', () => {
   render();
 });
 $('source').addEventListener('input', () => {
+  // The GitHub source has no rank or Reddit date, so its natural order is total stars.
+  if ($('source').value === 'github') $('sort').value = sortChoice.releases = 'stars';
   limit = PAGE;
   render();
 });

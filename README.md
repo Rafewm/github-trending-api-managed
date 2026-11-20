@@ -108,7 +108,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Each period holds at most the 1,000 highest-scoring stories, which is the API's limit.
 
-**Releases** combines two sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) and posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread). A **Source** filter shows both, Reddit only or Release Monitor only; a repo found by both appears once with both links. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
+**Releases** combines three sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread), and popular repos updated in the period from GitHub search (`stars:>1000 pushed:>=<start of period>`, most stars first, up to 1,000). A **Source** filter shows all of them or one source; choosing GitHub sorts by total stars. A repo found by more than one source appears once with every link. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
 
 **Starred repos never appear.** The server checks every repo against your GitHub stars, and also re-checks your 100 newest stars on every page load, so a repo you just starred disappears when you come back to the tab.
 
@@ -125,7 +125,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | Path | Purpose |
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
-| `repos.js` | Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). |
+| `repos.js` | Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). Every response is also checked against your full starred list, at most a minute old, so a cached list can never show a repo you starred since. |
 | `cache.js` | Keeps each built list in memory and in Redis for a day, so a fresh Vercel instance answers at once. An old list is served while one instance builds a new one in the background. |
 | `hidden.js` | Hidden and tracked list APIs on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
@@ -137,7 +137,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | `GET /api/repos` | Trending repos you have not starred. Cached 5 minutes. |
 | `GET /api/new?period=3\|30\|90\|730\|all` | New repos gaining stars fast that you have not starred, with `created.perDay`. Cached 30 minutes. |
 | `GET /api/skills?type=all\|mcp\|claude\|codex\|agent\|skill\|tool` | Agent skills and MCP servers you have not starred. Cached 30 minutes. |
-| `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases and r/BestGitHubRepos posts for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
+| `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases, r/BestGitHubRepos posts and popular repos updated in the period (`github: true`), for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
 | `POST /api/star` | `{"name": "owner/repo"}` stars the repo on GitHub, with the `X-Hide-Key` header. |
 | `GET /api/stars` | Your 10 newest stars, uncached, checked when you return to the tab so a repo you just starred leaves at once. |

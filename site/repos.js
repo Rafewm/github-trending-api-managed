@@ -29,6 +29,7 @@ const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 730: [730, 1000
 const SKILLS = `${DATA}/skills/skills.json`;
 const SKILL_TYPES = ['all', 'mcp', 'claude', 'codex', 'agent', 'skill', 'tool'];
 const SKILLS_ALL_MAX = 5000;
+const STARS_MS = 60 * 1000;
 // GitHub search stops at 1,000 results, 100 per page.
 const SEARCH_PAGES = 10;
 const FIELDS =
@@ -122,17 +123,27 @@ async function fetchReddit(days) {
   return redditToRepos(((await res.json()).posts ?? []).filter((post) => post.created_utc >= since));
 }
 
-// Both sources merged; if one fails the other still shows, and the page says which one is missing.
+// Popular repos updated in the window: 1,000+ stars, pushed since then, most stars first.
+async function fetchUpdated(days) {
+  const since = new Date(Date.now() - days * DAY * 1000).toISOString().slice(0, 10);
+  return (await searchAll(`stars:>1000 pushed:>=${since}`)).map((repo) => ({ ...repo, github: true }));
+}
+
+// All sources merged; if one fails the others still show, and the page says which one is missing.
 async function loadReleases(days) {
   const failed = [];
   const settle = (name, job) => job.catch((err) => (console.error(err.message), failed.push(name), []));
-  const [monitor, reddit] = await Promise.all([
+  const [monitor, reddit, updated] = await Promise.all([
     Number(days) <= 30 ? settle('Release Monitor', fetchReleaseMonitor(days)) : [],
     settle('Reddit', fetchReddit(Number(days))),
+    settle('GitHub', fetchUpdated(Number(days))),
   ]);
-  if (failed.length === (Number(days) <= 30 ? 2 : 1)) throw new Error(`${failed.join(' and ')} could not be loaded.`);
-  const list = mergeSources(monitor, reddit);
-  return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now(), failed };
+  if (failed.length === (Number(days) <= 30 ? 3 : 2)) throw new Error(`${failed.join(', ')} could not be loaded.`);
+  // GitHub search rows come complete, so only the other sources need the slow GraphQL lookup. Starred repos among
+  // them are dropped in respond(), which checks every response against the full star list.
+  const checked = await enrich(mergeSources(monitor, reddit));
+  const tracked = mergeSources(monitor, reddit, updated).length;
+  return { ...checked, repos: mergeSources(checked.repos, updated), tracked, refreshed: Date.now(), failed };
 }
 
 async function searchPage(q, page, attempt = 1) {
@@ -150,21 +161,26 @@ async function searchPage(q, page, attempt = 1) {
   return res.json();
 }
 
-async function loadNew(period) {
-  const [days, min] = NEW_PERIODS[period];
-  const since = days && new Date(Date.now() - days * DAY * 1000).toISOString().slice(0, 10);
-  const q = `stars:>=${min}${since ? ` created:>=${since}` : ''}`;
+// Every result of a search, most stars first, up to GitHub's 1,000.
+async function searchAll(q) {
   const first = await searchPage(q, 1);
   const pages = Math.min(Math.ceil((first.total_count ?? 0) / 100), SEARCH_PAGES);
   const rest = await Promise.all(Array.from({ length: Math.max(pages - 1, 0) }, (_, i) => searchPage(q, i + 2)));
-  const list = searchToRepos([first, ...rest].flatMap((r) => r.items ?? []));
+  return searchToRepos([first, ...rest].flatMap((r) => r.items ?? []));
+}
+
+async function loadNew(period) {
+  const [days, min] = NEW_PERIODS[period];
+  const since = days && new Date(Date.now() - days * DAY * 1000).toISOString().slice(0, 10);
+  const list = await searchAll(`stars:>=${min}${since ? ` created:>=${since}` : ''}`);
   return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
 }
 
 // Every repo you starred, for lists too long to check 50 at a time over GraphQL.
 async function fetchAllStars() {
   const page = (n) =>
-    fetch(`https://api.github.com/user/starred?per_page=100&page=${n}`, {
+    // Oldest first, so a star added while the pages load lands on the last page instead of pushing one past a page boundary.
+    fetch(`https://api.github.com/user/starred?per_page=100&sort=created&direction=asc&page=${n}`, {
       headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred' },
     });
   const first = await page(1);
@@ -178,8 +194,23 @@ async function fetchAllStars() {
   return pages.flat().map((repo) => repo.full_name.toLowerCase());
 }
 
+// The full star list, at most a minute old and never served stale: every response is filtered with it, so a cached
+// list built before you starred something can't show it. Not in Redis, because the stale-while-refresh cache there
+// would hand back an old list.
+let starsMemo = null;
+function allStars() {
+  if (!starsMemo || Date.now() - starsMemo.at > STARS_MS) {
+    const data = fetchAllStars();
+    starsMemo = { at: Date.now(), data };
+    data.catch(() => {
+      if (starsMemo?.data === data) starsMemo = null;
+    });
+  }
+  return starsMemo.data;
+}
+
 async function loadSkills(type) {
-  const [res, starred] = await Promise.all([fetch(SKILLS), cached('stars:all', RELEASE_CACHE_MS, fetchAllStars)]);
+  const [res, starred] = await Promise.all([fetch(SKILLS), allStars()]);
   if (!res.ok) throw new Error(`Skills file failed: ${res.status}`);
   const { updated, repos = [] } = await res.json();
   // shortcut: "all" keeps the 5,000 with most stars (the file is sorted), since every repo is over Upstash's 10 MB
@@ -188,8 +219,8 @@ async function loadSkills(type) {
   return { ...skillsToRepos(list, new Set(starred)), tracked: list.length, refreshed: Date.parse(updated) || Date.now() };
 }
 
-// Newest first, so this catches anything starred since the cache was filled.
-async function fetchRecentStars(count = 100) {
+// Newest first: the page asks for these when you come back to the tab.
+async function fetchRecentStars(count) {
   const res = await fetch(`https://api.github.com/user/starred?per_page=${count}`, {
     headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred' },
   });
@@ -199,8 +230,8 @@ async function fetchRecentStars(count = 100) {
 
 async function respond(res, load) {
   try {
-    const [data, recentStars] = await Promise.all([load(), fetchRecentStars()]);
-    const body = JSON.stringify(dropRecentStars(data, recentStars));
+    const [data, starred] = await Promise.all([load(), allStars()]);
+    const body = JSON.stringify(dropRecentStars(data, starred));
     // On Vercel the CDN answers repeat hits, so visitors can't drain the token's GitHub quota.
     res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 's-maxage=30' });
     res.end(body);

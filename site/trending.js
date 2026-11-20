@@ -194,7 +194,7 @@ export function mergeSources(...lists) {
     const key = repo.name.toLowerCase();
     const prev = repos.get(key);
     repos.set(key, prev
-      ? { ...prev, release: prev.release ?? repo.release, reddit: prev.reddit ?? repo.reddit, description: prev.description || repo.description }
+      ? { ...prev, release: prev.release ?? repo.release, reddit: prev.reddit ?? repo.reddit, github: prev.github || repo.github, description: prev.description || repo.description }
       : repo);
   }
   return [...repos.values()];
@@ -216,6 +216,12 @@ export function searchToRepos(items, now = Date.now()) {
         week: null,
         month: null,
         created: { time, perDay: Math.round((Number(item.stargazers_count) || 0) / days) },
+        // Search already has these, so a list can be shown without the GraphQL lookup.
+        stars: Number(item.stargazers_count) || 0,
+        pushedAt: item.pushed_at ?? null,
+        archived: Boolean(item.archived),
+        avatar: String(item.owner?.avatar_url ?? ''),
+        topics: Array.isArray(item.topics) ? item.topics.map(String) : [],
       };
     });
 }

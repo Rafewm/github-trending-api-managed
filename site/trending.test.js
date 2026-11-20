@@ -114,15 +114,17 @@ test('redditToRepos finds the repo in the post body and keeps the newest post pe
   ]);
 });
 
-test('mergeSources joins the same repo from both sources into one entry', async () => {
+test('mergeSources joins the same repo from every source into one entry', async () => {
   const { mergeSources } = await import('./trending.js');
   const out = mergeSources(
     [{ name: 'a/b', description: 'from monitor', release: { version: 'v1' } }],
     [{ name: 'A/B', description: '', reddit: { id: 'x' } }, { name: 'c/d', description: '', reddit: { id: 'y' } }],
+    [{ name: 'a/b', description: '', github: true }, { name: 'e/f', description: 'popular', github: true }],
   );
   assert.deepEqual(out, [
-    { name: 'a/b', description: 'from monitor', release: { version: 'v1' }, reddit: { id: 'x' } },
+    { name: 'a/b', description: 'from monitor', release: { version: 'v1' }, reddit: { id: 'x' }, github: true },
     { name: 'c/d', description: '', reddit: { id: 'y' } },
+    { name: 'e/f', description: 'popular', github: true },
   ]);
 });
 
@@ -138,6 +140,8 @@ test('searchToRepos keeps valid names and works out stars per day', () => {
   );
   assert.deepEqual(repos.map((r) => r.name), ['a/b', 'a/new']);
   assert.equal(repos[0].description, '');
+  assert.equal(repos[0].stars, 1000);
+  assert.deepEqual(repos[0].topics, []);
   assert.equal(repos[0].created.perDay, 100);
   // Under a day old counts as one day, so a few hours' stars don't look huge.
   assert.equal(repos[1].created.perDay, 60);
