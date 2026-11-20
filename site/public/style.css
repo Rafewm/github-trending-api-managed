@@ -85,7 +85,7 @@ h1 { margin: 0 0 8px; font-size: 22px; }
 h1 em { font-family: Georgia, serif; font-weight: 400; }
 .lede { margin: 0 0 18px; color: var(--muted); max-width: 44ch; }
 .stats { display: flex; flex-wrap: wrap; gap: 32px; margin: 0; }
-dt { font: 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+dt { font: 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 dd { margin: 4px 0 0; font-size: 18px; font-weight: 700; }
 
 .filters {
@@ -96,7 +96,7 @@ dd { margin: 4px 0 0; font-size: 18px; font-weight: 700; }
   padding: 20px;
 }
 .filters .wide { grid-column: 1 / -1; }
-label { font: 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+label { font: 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 input, select {
   display: block;
   width: 100%;
@@ -133,7 +133,7 @@ table { width: 100%; border-collapse: collapse; font-size: 13px; }
 th {
   padding: 10px;
   text-align: left;
-  font: 10px var(--mono);
+  font: 11px var(--mono);
   letter-spacing: .08em;
   text-transform: uppercase;
   color: var(--muted);
@@ -153,7 +153,7 @@ tbody tr:hover { background: var(--panel-2); }
   color: var(--blue);
   background: #14233d;
   border-radius: 999px;
-  font: 10px/16px var(--mono);
+  font: 11px/16px var(--mono);
 }
 .lang-dot { display: inline-block; width: 9px; height: 9px; margin-right: 6px; border-radius: 50%; }
 .star { color: var(--amber); }
@@ -219,7 +219,7 @@ button.open { cursor: pointer; font-family: system-ui, sans-serif; }
     content: attr(data-label);
     display: block;
     margin-bottom: 2px;
-    font: 10px var(--mono);
+    font: 11px var(--mono);
     letter-spacing: .08em;
     text-transform: uppercase;
     color: var(--muted);
