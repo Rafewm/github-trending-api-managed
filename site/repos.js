@@ -1,5 +1,5 @@
 import {
-  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos, tweetsToRepos,
+  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos, tweetsToRepos, hnWithDetails,
 } from './trending.js';
 import { cached } from './cache.js';
 
@@ -16,7 +16,12 @@ const LANGUAGES = [
 ];
 // Seconds back from now; null means all time. Older periods barely change, so they are cached longer.
 const HN_PERIODS = { day: 86400, week: 7 * 86400, month: 30 * 86400, year: 365 * 86400, all: null };
-const HN_CACHE_MS = { day: CACHE_MS, week: CACHE_MS, month: 60 * 60 * 1000, year: 60 * 60 * 1000, all: 60 * 60 * 1000 };
+// Every GitHub-linked HN story of the last 366 days and each repo's details, collected every 4 hours by the data
+// repo's Action (script/hn.js). Day to year come from these; all time adds HN's best-ranked stories ever.
+const HN_STORIES = `${DATA}/hn/stories.json`;
+const HN_REPOS = `${DATA}/hn/repos.json`;
+const HN_FILES_MS = 10 * 60 * 1000;
+const HN_TOP_MS = 60 * 60 * 1000;
 // Release windows in days. releasemonitor.org offers up to 30; the year is Reddit only.
 const RELEASE_DAYS = ['1', '7', '14', '30', '365'];
 const RELEASE_CACHE_MS = 30 * 60 * 1000;
@@ -104,12 +109,10 @@ async function loadTrending() {
   return { ...(await enrich(trending)), tracked: trending.length, refreshed };
 }
 
-// Algolia's Hacker News search: GitHub-linked stories, highest points first, 1000 at most.
-async function loadHn(period) {
-  const since = HN_PERIODS[period];
-  const filter = since === null ? '' : `&numericFilters=created_at_i>${Math.floor(Date.now() / 1000) - since}`;
+// Algolia's Hacker News search: the 1,000 best-ranked GitHub-linked stories of all time (one search can't return more).
+async function loadHnTop() {
   const res = await fetch(
-    `https://hn.algolia.com/api/v1/search?query=github.com&restrictSearchableAttributes=url&tags=story&hitsPerPage=1000${filter}`,
+    'https://hn.algolia.com/api/v1/search?query=github.com&restrictSearchableAttributes=url&tags=story&hitsPerPage=1000',
   );
   if (!res.ok) throw new Error(`Hacker News search failed: ${res.status}`);
   const list = hnToRepos((await res.json()).hits ?? []);
@@ -232,6 +235,41 @@ async function loadNew(period) {
   return { repos: unique, hiddenStarred: 0, tracked: unique.length, refreshed: now };
 }
 
+// Both collected files, kept in memory for a few minutes: the Action only updates them every 4 hours.
+let hnMemo = null;
+function hnFiles() {
+  if (!hnMemo || Date.now() - hnMemo.at > HN_FILES_MS) {
+    const data = Promise.all([HN_STORIES, HN_REPOS].map(async (url) => {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Hacker News data file failed: ${res.status}`);
+      return res.json();
+    })).then(([s, r]) => ({ stories: s.stories ?? [], repos: r.repos ?? {}, updated: s.updated }));
+    hnMemo = { at: Date.now(), data };
+    data.catch(() => {
+      if (hnMemo?.data === data) hnMemo = null;
+    });
+  }
+  return hnMemo.data;
+}
+
+async function loadHn(period) {
+  const { stories, repos, updated } = await hnFiles();
+  const since = Math.floor(Date.now() / 1000) - (HN_PERIODS[period] ?? HN_PERIODS.year);
+  const list = hnWithDetails(stories.filter((s) => s.created_at_i >= since), repos);
+  return { repos: list, hiddenStarred: 0, tracked: list.length, refreshed: Date.parse(updated) || Date.now() };
+}
+
+// The whole collected year plus HN's best-ranked GitHub stories ever, one row per repo from its best story.
+async function loadHnAll() {
+  const [year, top] = await Promise.all([loadHn('year'), cached('hn:top', HN_TOP_MS, loadHnTop)]);
+  const best = new Map();
+  for (const repo of [...year.repos, ...top.repos]) {
+    const key = repo.name.toLowerCase();
+    if ((best.get(key)?.hn.points ?? -1) < repo.hn.points) best.set(key, repo);
+  }
+  return { repos: [...best.values()], hiddenStarred: top.hiddenStarred, tracked: best.size, refreshed: year.refreshed };
+}
+
 // Every repo you starred, for lists too long to check 50 at a time over GraphQL.
 async function fetchAllStars() {
   const page = (n) =>
@@ -334,7 +372,8 @@ export function handleHn(req, res) {
     res.end(JSON.stringify({ error: 'period must be day, week, month, year or all.' }));
     return;
   }
-  return respond(req, res, () => cached(`hn:${period}`, HN_CACHE_MS[period], () => loadHn(period)));
+  // Built from the collected files in a few seconds, so no Redis cache (a year is also over its 10 MB limit).
+  return respond(req, res, period === 'all' ? loadHnAll : () => loadHn(period));
 }
 
 // GET /api/releases?days=1|7|14|30|365

@@ -322,3 +322,28 @@ export function tweetsToRepos(tweets, since = 0) {
   }
   return [...repos.values()];
 }
+
+// Collected HN stories (data/hn) as page rows: one per repo from its best story, with the repo's saved GitHub details.
+// Repos GitHub no longer has are left out, and a renamed repo linked under both names appears once.
+export function hnWithDetails(stories, details) {
+  const best = new Map();
+  for (const row of hnToRepos(stories)) {
+    const d = details[row.name.toLowerCase()];
+    if (!d || d.missing || !REPO_NAME.test(d.name ?? '')) continue;
+    const key = d.name.toLowerCase();
+    if ((best.get(key)?.hn.points ?? -1) >= row.hn.points) continue;
+    best.set(key, {
+      ...row,
+      name: d.name,
+      description: String(d.description ?? ''),
+      language: String(d.language ?? ''),
+      languageColor: String(d.languageColor ?? ''),
+      stars: Number(d.stars) || 0,
+      pushedAt: d.pushedAt ?? null,
+      archived: Boolean(d.archived),
+      avatar: `https://avatars.githubusercontent.com/${d.name.split('/')[0]}?s=40`,
+      topics: Array.isArray(d.topics) ? d.topics.map(String) : [],
+    });
+  }
+  return [...best.values()];
+}
