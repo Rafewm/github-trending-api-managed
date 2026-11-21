@@ -39,8 +39,6 @@ jobs:
         env:
           # Used by script/skills.js for GitHub search's higher rate limit.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Used by script/twitter.js (twitterapi.io). Without it that step is skipped.
-          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
 
       - name: Commit and Push changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
