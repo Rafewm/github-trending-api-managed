@@ -2,7 +2,7 @@
   "title": "GitHub Starlark Languages Weekly Trending",
   "description": "Weekly Trending of Starlark Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sat, 21 Nov 2026 12:06:02 GMT",
+  "pubDate": "Sat, 21 Nov 2026 21:26:30 GMT",
   "items": [
     {
       "title": "GoogleContainerTools/distroless",
@@ -10,7 +10,7 @@
       "description": "🥑 Language focused docker images, minus the operating system.",
       "language": "Starlark",
       "languageColor": "#76d275",
-      "stars": "23,288",
+      "stars": "23,292",
       "forks": "1,445",
       "addStars": "35",
       "contributors": [
@@ -42,7 +42,7 @@
       "description": "Public interface definitions of Google APIs.",
       "language": "Starlark",
       "languageColor": "#76d275",
-      "stars": "8,839",
+      "stars": "8,841",
       "forks": "2,642",
       "addStars": "13",
       "contributors": [
@@ -171,6 +171,43 @@
           "avatar": "https://avatars.githubusercontent.com/u/3226389?s=40&v=4",
           "name": "jonathanbaker7",
           "url": "https://github.com/jonathanbaker7"
+        }
+      ]
+    },
+    {
+      "title": "bazel-contrib/rules_perl",
+      "url": "https://github.com/bazel-contrib/rules_perl",
+      "description": "Perl rules for Bazel",
+      "language": "Starlark",
+      "languageColor": "#76d275",
+      "stars": "31",
+      "forks": "49",
+      "addStars": "0",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26427366?s=40&v=4",
+          "name": "UebelAndre",
+          "url": "https://github.com/UebelAndre"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/190297?s=40&v=4",
+          "name": "PiotrSikora",
+          "url": "https://github.com/PiotrSikora"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1487600?s=40&v=4",
+          "name": "skeletonkey",
+          "url": "https://github.com/skeletonkey"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4312191?s=40&v=4",
+          "name": "fmeum",
+          "url": "https://github.com/fmeum"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/48310225?s=40&v=4",
+          "name": "jheaff1",
+          "url": "https://github.com/jheaff1"
         }
       ]
     },
@@ -313,7 +350,7 @@
       "description": "gRPC-defined protobufs for peripheral services such as health checking, load balancing, etc.",
       "language": "Starlark",
       "languageColor": "#76d275",
-      "stars": "295",
+      "stars": "296",
       "forks": "115",
       "addStars": "0",
       "contributors": [
