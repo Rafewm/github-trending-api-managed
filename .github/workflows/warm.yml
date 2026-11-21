@@ -22,7 +22,7 @@ jobs:
           site=https://unstarred-ten.vercel.app
           for path in \
             'repos?' \
-            'new?period=3&' 'new?period=30&' 'new?period=90&' 'new?period=730&' 'new?period=all&' \
+            'new?period=3&' 'new?period=30&' 'new?period=90&' 'new?period=365&' 'new?period=730&' 'new?period=all&' \
             'hn?period=day&' 'hn?period=week&' 'hn?period=month&' 'hn?period=year&' 'hn?period=all&' \
             'releases?days=1&' 'releases?days=7&' 'releases?days=14&' 'releases?days=30&' 'releases?days=365&' \
             'skills?type=all&' 'skills?type=mcp&' 'skills?type=claude&' 'skills?type=codex&' \

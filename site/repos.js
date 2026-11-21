@@ -24,7 +24,14 @@ const RELEASE_CACHE_MS = 30 * 60 * 1000;
 const REDDIT = `${DATA}/reddit/BestGitHubRepos.json`;
 const DAY = 86400;
 // New repos gaining stars fast, by GitHub search like repotrend.com: [days back or null for all time, minimum stars].
-const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 730: [730, 10000], all: [null, 50000] };
+// All time can't be split into few enough searches (66K repos with 1K+ stars), so it keeps GitHub's 1,000 most-starred.
+const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 365: [365, 1000], 730: [730, 1000], all: [null, 1000] };
+const DAY_MS = DAY * 1000;
+// 1K+ star repos of the last 2 years, collected every 4 hours by the data repo's Action (script/new.js): ~90 searches
+// at GitHub's 30 a minute is too slow to build inside Vercel's 5-minute limit. These periods read it.
+const NEW_FILE = `${DATA}/new/repos.json`;
+const NEW_FROM_FILE = ['365', '730'];
+const NEW_FILE_MS = 10 * 60 * 1000;
 // Agent skills, MCP servers and agent tools, collected every 8 hours by the data repo's Action (script/skills.js).
 const SKILLS = `${DATA}/skills/skills.json`;
 const SKILL_TYPES = ['all', 'mcp', 'claude', 'codex', 'agent', 'skill', 'tool'];
@@ -35,6 +42,8 @@ const TWITTER_DAYS = ['1', '7', '30', '365'];
 // A repo only written as "owner/repo" (no link) must have this many stars, which weeds out real-but-junk pairs.
 const BARE_MIN_STARS = 20;
 const STARS_MS = 60 * 1000;
+// Vercel refuses function responses over 4.5 MB, so a longer list is sent in pages (?page=0, 1, ...) of this many repos.
+const PAGE_ROWS = 5000;
 // GitHub search stops at 1,000 results, 100 per page.
 const SEARCH_PAGES = 10;
 const FIELDS =
@@ -156,9 +165,10 @@ async function searchPage(q, page, attempt = 1) {
     `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=100&page=${page}`,
     { headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred', Accept: 'application/vnd.github+json' } },
   );
-  // Search allows 30 requests a minute; wait as told (or back off) and retry.
-  if ((res.status === 403 || res.status === 429) && attempt < 4) {
-    const wait = Number(res.headers.get('retry-after')) || 10 * attempt;
+  // Search allows 30 requests a minute; wait until the limit resets (or as told, or back off) and retry.
+  if ((res.status === 403 || res.status === 429) && attempt < 5) {
+    const reset = Number(res.headers.get('x-ratelimit-reset')) - Date.now() / 1000;
+    const wait = Math.max(Number(res.headers.get('retry-after')) || 0, reset > 0 && reset < 120 ? reset + 1 : 0, 5 * attempt);
     await new Promise((resolve) => setTimeout(resolve, wait * 1000));
     return searchPage(q, page, attempt + 1);
   }
@@ -174,11 +184,52 @@ async function searchAll(q) {
   return searchToRepos([first, ...rest].flatMap((r) => r.items ?? []));
 }
 
+// Every repo matching a search over a creation-date range. One search stops at 1,000 results, so a range with more
+// is split in two until each part fits. Pages are read one at a time: search allows 30 requests a minute.
+async function searchCreated(base, from, to) {
+  const day = (ms) => new Date(ms).toISOString().slice(0, 10);
+  const q = `${base} created:${day(from)}..${day(to)}`;
+  const first = await searchPage(q, 1);
+  if ((first.total_count ?? 0) > SEARCH_PAGES * 100 && to - from >= DAY_MS) {
+    const mid = from + Math.floor((to - from) / DAY_MS / 2) * DAY_MS;
+    return [...(await searchCreated(base, from, mid)), ...(await searchCreated(base, mid + DAY_MS, to))];
+  }
+  const pages = [first];
+  for (let n = 2; n <= Math.min(Math.ceil((first.total_count ?? 0) / 100), SEARCH_PAGES); n++) pages.push(await searchPage(q, n));
+  return pages.flatMap((r) => r.items ?? []);
+}
+
+let newMemo = null;
+function newFile() {
+  if (!newMemo || Date.now() - newMemo.at > NEW_FILE_MS) {
+    const data = fetch(NEW_FILE).then((res) => {
+      if (!res.ok) throw new Error(`New repos file failed: ${res.status}`);
+      return res.json();
+    });
+    newMemo = { at: Date.now(), data };
+    data.catch(() => {
+      if (newMemo?.data === data) newMemo = null;
+    });
+  }
+  return newMemo.data;
+}
+
+// Search already gives every field a row needs, and respond() drops starred repos, so no GraphQL lookup here.
 async function loadNew(period) {
   const [days, min] = NEW_PERIODS[period];
-  const since = days && new Date(Date.now() - days * DAY * 1000).toISOString().slice(0, 10);
-  const list = await searchAll(`stars:>=${min}${since ? ` created:>=${since}` : ''}`);
-  return { ...(await enrich(list)), tracked: list.length, refreshed: Date.now() };
+  const now = Date.now();
+  let list;
+  if (NEW_FROM_FILE.includes(period)) {
+    const since = now - days * DAY_MS;
+    list = searchToRepos((await newFile()).repos.filter((r) => Date.parse(r.created_at) >= since && r.stargazers_count >= min));
+  } else {
+    list = days
+      ? searchToRepos(await searchCreated(`stars:>=${min}`, now - days * DAY_MS, now))
+      : await searchAll(`stars:>=${min}`);
+  }
+  // A repo near a slice's edge can show up in both slices.
+  const unique = [...new Map(list.map((r) => [r.name.toLowerCase(), r])).values()];
+  return { repos: unique, hiddenStarred: 0, tracked: unique.length, refreshed: now };
 }
 
 // Every repo you starred, for lists too long to check 50 at a time over GraphQL.
@@ -255,7 +306,12 @@ async function respond(req, res, load) {
       return;
     }
     const [data, starred] = await Promise.all([load(), allStars()]);
-    const body = JSON.stringify(dropRecentStars(data, starred));
+    const kept = dropRecentStars(data, starred);
+    // Repos with no stars are mostly empty or throwaway, so no list shows them.
+    const all = { ...kept, repos: kept.repos.filter((r) => r.stars > 0) };
+    const page = Math.max(Number(new URL(req.url, 'http://localhost').searchParams.get('page')) || 0, 0);
+    const repos = all.repos.slice(page * PAGE_ROWS, (page + 1) * PAGE_ROWS);
+    const body = JSON.stringify({ ...all, repos, more: all.repos.length > (page + 1) * PAGE_ROWS });
     // On Vercel the CDN answers repeat hits, so visitors can't drain the token's GitHub quota.
     res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 's-maxage=30' });
     res.end(body);
@@ -292,12 +348,12 @@ export function handleReleases(req, res) {
   return respond(req, res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
 }
 
-// GET /api/new?period=3|30|90|730|all
+// GET /api/new?period=3|30|90|365|730|all
 export function handleNew(req, res) {
   const period = new URL(req.url, 'http://localhost').searchParams.get('period') ?? '30';
   if (!Object.hasOwn(NEW_PERIODS, period)) {
     res.writeHead(400, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
-    res.end(JSON.stringify({ error: 'period must be 3, 30, 90, 730 or all.' }));
+    res.end(JSON.stringify({ error: 'period must be 3, 30, 90, 365, 730 or all.' }));
     return;
   }
   return respond(req, res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
