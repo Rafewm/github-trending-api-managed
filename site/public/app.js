@@ -62,8 +62,9 @@ const FEEDS = {
       ['3', 'Last 3 days, 50+ stars'],
       ['30', 'Last 30 days, 100+ stars'],
       ['90', 'Last 90 days, 1K+ stars'],
-      ['730', 'Last 2 years, 10K+ stars'],
-      ['all', 'All time, 50K+ stars'],
+      ['365', 'Last year, 1K+ stars'],
+      ['730', 'Last 2 years, 1K+ stars'],
+      ['all', 'All time, top 1,000 with 1K+ stars'],
     ],
     label: 'new repositories',
   },
@@ -421,10 +422,19 @@ function showLoading(text) {
   showError(text);
 }
 
+// Long lists come in pages (the server's responses must stay under 4.5 MB); fetch them all and join them.
 async function loadFeed(name, period) {
-  const res = await fetch(FEEDS[name].url(period));
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error);
+  const pages = [];
+  for (let page = 0; ; page++) {
+    const res = await fetch(`${FEEDS[name].url(period)}&page=${page}`);
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error);
+    pages.push(data);
+    if (!data.more || page > 50) break;
+  }
+  // A list rebuilt between two page requests can shift a repo onto both pages.
+  const repos = [...new Map(pages.flatMap((p) => p.repos).map((r) => [r.name, r])).values()];
+  const data = { ...pages[0], repos };
   feeds[name][period] = data;
   fillOptions(data.repos);
 }

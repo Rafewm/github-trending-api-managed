@@ -12,6 +12,7 @@ const { save } = require('./save')
 const { addTrendshift } = require('./trendshift')
 const { updateReddit } = require('./reddit')
 const { updateSkills } = require('./skills')
+const { updateNew } = require('./new')
 
 const path = require('path');
 const { readFileSync } = require('fs');
@@ -83,5 +84,6 @@ function delay(ms) {
   await addTrendshift()
   await updateReddit()
   await updateSkills()
+  await updateNew()
   // Twitter is collected separately by .github/workflows/twitter.yml (twscrape, cookie auth).
 })();

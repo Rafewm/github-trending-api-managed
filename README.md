@@ -74,6 +74,10 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 - The archive allows about one request every few seconds, so each run only asks for posts newer than the newest saved one, pauses between pages, waits when the archive says to, and saves after every page.
 - The archive records posts shortly after they are made, so upvote counts are not kept.
 
+### New repositories
+
+[`script/new.js`](script/new.js) keeps every repo created in the last 2 years that has 1,000+ stars in [`data/new/repos.json`](data/new/repos.json), for the site's New tab. It splits the GitHub search into creation-date slices of under 1,000 results and paces itself to search's 30 requests a minute (about 4 minutes). If a run finds over 20% fewer repos than the last, the file is kept.
+
 ### Agent skills
 
 [`script/skills.js`](script/skills.js) collects agent skills, MCP servers and AI agent tools into [`data/skills/skills.json`](data/skills/skills.json), using the same GitHub searches as [AgentSkillsHub](https://github.com/zhuyansen/agent-skills-hub) (topics, names and descriptions such as `mcp-server`, `claude-skill`, `agent-skills`, `openclaw` and `codex`).
@@ -101,6 +105,7 @@ pnpm build                    # GitHub Trending for every language, then Trendsh
 node script/trendshift.js     # Trendshift step only
 node script/reddit.js         # Reddit step only
 node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
+node script/new.js            # New repos step only (set GITHUB_TOKEN for the higher search limit)
 node script/twitter.js        # X step only (needs TWITTERAPI_KEY)
 ```
 
@@ -112,7 +117,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Browse** lists about 700 repositories from this repo's trending data (all languages plus 24 popular ones), with daily, weekly and monthly star growth. You can search, filter by language, minimum stars and topics, and sort by stars or growth.
 
-**New** finds new repositories gaining stars fast with the [GitHub search API](https://docs.github.com/en/rest/search/search#search-repositories), the method [repotrend.com](https://github.com/creatuluw/repotrend.com) uses: repos made in the last 3 days with 50+ stars, 30 days with 100+, 90 days with 1K+, 2 years with 10K+, or any age with 50K+. Search returns at most 1,000 repos per period. GitHub search gives no daily growth, so rows show stars per day since the repo was made, and that is the default sort.
+**New** finds new repositories gaining stars fast with the [GitHub search API](https://docs.github.com/en/rest/search/search#search-repositories), the method [repotrend.com](https://github.com/creatuluw/repotrend.com) uses: repos made in the last 3 days with 50+ stars, 30 days with 100+, or the last 90 days, year or 2 years with 1K+. One search returns at most 1,000 repos, so the site splits each period into creation-date slices that fit, and lists every match. The year and 2 years (about 7,600 repos) come from [`data/new/repos.json`](data/new/repos.json), collected every 4 hours by [`script/new.js`](script/new.js), since building them needs about 90 searches, more than GitHub's 30 a minute allows inside Vercel's 5-minute limit. All time shows the 1,000 most-starred repos with 1K+ stars, since there are about 66,000. GitHub search gives no daily growth, so rows show stars per day since the repo was made, and that is the default sort.
 
 **Skills** lists the agent skills, MCP servers and agent tools from `data/skills/skills.json`, with a **Type** filter (MCP servers, Claude skills, Codex and OpenClaw, agent tools, other skills, other tools). Starred repos are dropped by checking your whole starred list, which is faster than the 50-at-a-time GraphQL check for thousands of repos.
 
@@ -137,8 +142,8 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | Path | Purpose |
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
-| `repos.js` | Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). Every response is also checked against your full starred list, at most a minute old, so a cached list can never show a repo you starred since. |
-| `cache.js` Keeps each built list in memory and in Redis for a day, so a fresh Vercel instance answers at once. An old list is served while one instance builds a new one in the background. | [`.github/workflows/warm.yml`](.github/workflows/warm.yml) asks for every list every 30 minutes with `?warm=`, which only starts that rebuild, so lists stay fresh without visitors. |
+| `repos.js` | Sends lists in pages of 5,000 repos (`?page=0`, `1`, ... with `more: true` while more remain), since Vercel refuses responses over 4.5 MB; the page joins them. Repos with no stars are left out of every list. Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). Every response is also checked against your full starred list, at most a minute old, so a cached list can never show a repo you starred since. |
+| `cache.js` | Keeps each built list in memory and in Redis for a day, so a fresh Vercel instance answers at once. An old list is served while one instance builds a new one in the background. [`.github/workflows/warm.yml`](.github/workflows/warm.yml) asks for every list every 30 minutes with `?warm=`, which only starts that rebuild, so lists stay fresh without visitors. |
 | `hidden.js` | Hidden and tracked list APIs on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
 | `api/` | Vercel functions for the endpoints below. |
@@ -147,7 +152,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | Endpoint | Returns |
 | --- | --- |
 | `GET /api/repos` | Trending repos you have not starred. Cached 5 minutes. |
-| `GET /api/new?period=3\|30\|90\|730\|all` | New repos gaining stars fast that you have not starred, with `created.perDay`. Cached 30 minutes. |
+| `GET /api/new?period=3\|30\|90\|365\|730\|all` | New repos gaining stars fast that you have not starred, with `created.perDay`. Cached 30 minutes. |
 | `GET /api/skills?type=all\|mcp\|claude\|codex\|agent\|skill\|tool` | Agent skills and MCP servers you have not starred. Cached 30 minutes. |
 | `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases, r/BestGitHubRepos posts and popular repos updated in the period (`github: true`), for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
 | `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
