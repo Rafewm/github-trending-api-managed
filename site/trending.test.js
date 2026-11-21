@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { growth, mergeTrending, dropStarred, dropRecentStars } from './trending.js';
-import { searchToRepos, skillsToRepos } from './trending.js';
+import { searchToRepos, skillsToRepos, hnWithDetails } from './trending.js';
 
 const item = (title, stars, addStars) => ({ title, stars, addStars, description: 'd', language: 'Go' });
 const node = (nameWithOwner, viewerHasStarred) => ({
@@ -198,4 +198,26 @@ test('tweetsToRepos credits a self-reply link to its post and keeps the newest p
     { id: '2', user: 'a', conv: '1', text: 'GitHub: https://t.co/x', urls: ['https://github.com/o/tool'], time: 101, likes: 1 },
   ]);
   assert.deepEqual([older[0].tweet.id, older[0].tweet.text, older[0].tweet.likes], ['1', 'Great tool for agents', 50]);
+});
+
+test('hnWithDetails keeps every collected story repo with its details, once per repo', () => {
+  const story = (id, url, points) => ({ objectID: id, title: `t${id}`, url, points, num_comments: 1, created_at_i: 1 });
+  const stories = [
+    story('1', 'https://github.com/lopopolo/harness-engineering/blob/v1.0.0/evals/x.md', 4),
+    story('2', 'https://github.com/old/name', 50),
+    story('3', 'https://github.com/new/name', 20),
+    story('4', 'https://github.com/gone/repo', 9),
+  ];
+  const details = {
+    'lopopolo/harness-engineering': { name: 'lopopolo/harness-engineering', description: 'd', stars: 12, topics: ['ai'] },
+    'old/name': { name: 'new/name', stars: 5 },
+    'new/name': { name: 'new/name', stars: 5 },
+    'gone/repo': { missing: true },
+  };
+  const rows = hnWithDetails(stories, details);
+  assert.deepEqual(rows.map((r) => `${r.name} ${r.hn.points}`).sort(), ['lopopolo/harness-engineering 4', 'new/name 50']);
+  const h = rows.find((r) => r.name === 'lopopolo/harness-engineering');
+  assert.equal(h.stars, 12);
+  assert.equal(h.hn.id, '1');
+  assert.equal(h.avatar, 'https://avatars.githubusercontent.com/lopopolo?s=40');
 });

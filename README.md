@@ -74,6 +74,14 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 - The archive allows about one request every few seconds, so each run only asks for posts newer than the newest saved one, pauses between pages, waits when the archive says to, and saves after every page.
 - The archive records posts shortly after they are made, so upvote counts are not kept.
 
+### Hacker News stories
+
+[`script/hn.js`](script/hn.js) keeps every Hacker News story from the last 366 days that links a GitHub repo, in [`data/hn/stories.json`](data/hn/stories.json), with each repo's GitHub details in [`data/hn/repos.json`](data/hn/repos.json).
+
+- Stories come from the [Algolia HN API](https://hn.algolia.com/api) (`search_by_date`, link contains `github.com`). One search returns at most 1,000 results, so it searches one day at a time and splits any busier window. That finds every story, whatever its points.
+- Each story has `objectID`, `title`, `url`, `repo`, `points`, `num_comments` and `created_at_i`. Each run fetches the last 3 days again, since points and comments still change.
+- Repo details (`description`, `language`, `stars`, `pushedAt`, `archived`, `topics`) come from GitHub's GraphQL API. Each run looks up new repos, re-checks repos with a story from the last 30 days weekly, and re-checks up to 3,000 of the rest, oldest first. Repos GitHub no longer has are marked `missing`.
+
 ### New repositories
 
 [`script/new.js`](script/new.js) keeps every repo created in the last 2 years that has 1,000+ stars in [`data/new/repos.json`](data/new/repos.json), for the site's New tab. It splits the GitHub search into creation-date slices of under 1,000 results and paces itself to search's 30 requests a minute (about 4 minutes). If a run finds over 20% fewer repos than the last, the file is kept.
@@ -106,6 +114,7 @@ node script/trendshift.js     # Trendshift step only
 node script/reddit.js         # Reddit step only
 node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
 node script/new.js            # New repos step only (set GITHUB_TOKEN for the higher search limit)
+node script/hn.js             # Hacker News step only (needs GITHUB_TOKEN for repo details)
 node script/twitter.js        # X step only (needs TWITTERAPI_KEY)
 ```
 
@@ -123,7 +132,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Twitter** lists repos named in posts from the followed X accounts, for the last 24 hours, 7 or 30 days, or the last year, with the post, its likes and author. A repo counts whether the post links it (`https://github.com/owner/repo`), breaks the link with spaces (`github. com / owner / repo`), or just writes `owner/repo`, in the post, a quoted or reposted post, or the author's first reply. Names that are not real GitHub repos are dropped, and a repo only written as `owner/repo` needs 20 stars, so phrases like "and/or" or "CI/CD" don't show.
 
-**Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Each period holds at most the 1,000 highest-scoring stories, which is the API's limit.
+**Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Day, week, month and year list every GitHub-linked story from the collected data (`data/hn`), down to 1-point posts. All time adds the 1,000 best-ranked GitHub stories ever, the most one Algolia search returns.
 
 **Releases** combines three sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread), and popular repos updated in the period from GitHub search (`stars:>1000 pushed:>=<start of period>`, most stars first, up to 1,000). A **Source** filter shows all of them or one source; choosing GitHub sorts by total stars. A repo found by more than one source appears once with every link. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
 
@@ -155,7 +164,7 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | `GET /api/new?period=3\|30\|90\|365\|730\|all` | New repos gaining stars fast that you have not starred, with `created.perDay`. Cached 30 minutes. |
 | `GET /api/skills?type=all\|mcp\|claude\|codex\|agent\|skill\|tool` | Agent skills and MCP servers you have not starred. Cached 30 minutes. |
 | `GET /api/releases?days=1\|7\|14\|30\|365` | Release Monitor releases, r/BestGitHubRepos posts and popular repos updated in the period (`github: true`), for repos you have not starred, with `failed` naming any source that could not be loaded. Cached 30 minutes. |
-| `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day and week are cached 5 minutes, the rest for an hour. |
+| `GET /api/hn?period=day\|week\|month\|year\|all` | Hacker News repos you have not starred. Day to year come from the collected files (kept in memory 10 minutes). All time adds the top 1,000 stories ever, cached an hour. |
 | `POST /api/star` | `{"name": "owner/repo"}` stars the repo on GitHub, with the `X-Hide-Key` header. |
 | `GET /api/twitter?days=1|7|30|365` | Repos named in posts from followed X accounts that you have not starred, each with its newest `tweet`. Cached 30 minutes. |
 | `GET /api/stars` | Your 10 newest stars, uncached, checked when you return to the tab so a repo you just starred leaves at once. |
