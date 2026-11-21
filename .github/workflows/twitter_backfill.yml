@@ -1,0 +1,44 @@
+name: Twitter backfill (one-time deep history)
+
+# Safe, resumable deep history pull. Each run does a few accounts (TW_BATCH) at depth TW_LIMIT,
+# paced by TW_PAUSE, and records them in data/twitter/backfilled.json so the next run continues.
+# Runs every 30 min until all accounts are backfilled, then each run is a no-op (empty batch, no commit).
+# Delete or disable this workflow once backfilled.json lists every account.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3,33 * * * *'   # offset from the hourly forward collector to avoid push races
+
+concurrency:
+  group: twitter-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install twscrape
+      - name: Backfill a few accounts
+        run: python script/twitter_twscrape.py
+        env:
+          TW_AUTH_TOKEN: ${{ secrets.TW_AUTH_TOKEN }}
+          TW_CT0: ${{ secrets.TW_CT0 }}
+          TW_BACKFILL: '1'
+          TW_BATCH: '4'      # accounts per wave — keep small so one cookie stays under X's limit
+          TW_LIMIT: '400'    # tweets paged back per account (X caps history around ~3200 anyway)
+          TW_PAUSE: '10'     # seconds between accounts
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/twitter/tweets.json data/twitter/account_ids.json data/twitter/backfilled.json
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "twitter backfill wave $(date -u +%FT%TZ)"
+          git pull --rebase origin main
+          git push

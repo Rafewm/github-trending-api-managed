@@ -11,9 +11,11 @@ keeps refreshing. The author's own replies under their posts are kept too (links
 
 Env:  TW_AUTH_TOKEN, TW_CT0 (the X session cookies; set as GitHub Actions secrets).
       TW_BATCH accounts per run (default 8), TW_LIMIT tweets per account (default 40).
-Usage:  python script/twitter_twscrape.py            # one batch
+Usage:  python script/twitter_twscrape.py            # one batch (forward/incremental)
         python script/twitter_twscrape.py elonmusk   # specific accounts (ignores batching)
         python script/twitter_twscrape.py --selftest  # offline checks, no network
+Backfill (one-time deep history): TW_BACKFILL=1 TW_LIMIT=600 TW_BATCH=4 TW_PAUSE=10 python script/twitter_twscrape.py
+        Run repeatedly; each wave does the next TW_BATCH accounts until backfilled.json lists them all.
 """
 import asyncio
 import json
@@ -28,9 +30,16 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DIR = os.path.join(HERE, "..", "data", "twitter")
 ACCOUNTS = os.path.join(DIR, "accounts.json")
 FILE = os.path.join(DIR, "tweets.json")
+IDS = os.path.join(DIR, "account_ids.json")  # username -> numeric id cache, so UserByScreenName isn't called every run
 KEEP_SECONDS = 365 * 86400
 BATCH = int(os.environ.get("TW_BATCH", "8"))
 LIMIT = int(os.environ.get("TW_LIMIT", "40"))
+# One-time deep history pull. TW_BACKFILL=1 ignores the forward-only gate so old posts are kept;
+# each wave does TW_BATCH accounts not yet pulled (tracked in backfilled.json) and resumes next run.
+# TW_PAUSE adds seconds between accounts to stay gentle on the single cookie's rate limit.
+BACKFILL = os.environ.get("TW_BACKFILL") == "1"
+PAUSE = float(os.environ.get("TW_PAUSE", "0"))
+BACKFILLED = os.path.join(DIR, "backfilled.json")
 
 # Mirror of script/twitter.js: a loose test; the site does the strict one. "github" anywhere (links,
 # spaced links), or an owner/repo shape in the text once links are cut out.
@@ -76,9 +85,11 @@ def shape(t, user: str) -> dict:
     return entry
 
 
-def pick_accounts(accounts: list[str], read_until: dict) -> list[str]:
+def pick_accounts(accounts: list[str], read_until: dict, done: set) -> list[str]:
     if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
         return sys.argv[1:]
+    if BACKFILL:  # next accounts not yet deep-pulled, so waves resume where they stopped
+        return [a for a in accounts if a not in done][:BATCH]
     return sorted(accounts, key=lambda u: read_until.get(u, 0))[:BATCH]
 
 
@@ -89,6 +100,8 @@ async def main():
     by_id = {t["id"]: t for t in saved.get("tweets", [])}
     read_until = dict(saved.get("readUntil", {}))
     accounts = json.load(open(ACCOUNTS, encoding="utf-8"))
+    ids = json.load(open(IDS, encoding="utf-8")) if os.path.exists(IDS) else {}
+    done = set(json.load(open(BACKFILLED, encoding="utf-8")) if os.path.exists(BACKFILLED) else [])
     cutoff = int(__import__("time").time()) - KEEP_SECONDS
 
     api = API(os.path.join(DIR, "twscrape_accounts.db"))
@@ -96,15 +109,18 @@ async def main():
     await api.pool.add_account("cookie_user", "x", "x@x.x", "x", cookies=cookies)
     await api.pool.set_active("cookie_user", True)
 
-    batch = pick_accounts(accounts, read_until)
-    print(f"batch of {len(batch)}: {', '.join(batch)}")
+    batch = pick_accounts(accounts, read_until, done)
+    print(f"{'BACKFILL ' if BACKFILL else ''}batch of {len(batch)}: {', '.join(batch)}")
     added = 0
     for user in batch:
         try:
-            u = await api.user_by_login(user)
-            if not u:
-                print(f"  @{user}: not resolved"); continue
-            raw = await gather(api.user_tweets_and_replies(u.id, limit=LIMIT))
+            uid = ids.get(user)
+            if not uid:  # one-time username -> id lookup (the rate-limited/often-blocked endpoint); cached after
+                u = await api.user_by_login(user)
+                if not u:
+                    print(f"  @{user}: not resolved"); continue
+                uid = ids[user] = str(u.id)
+            raw = await gather(api.user_tweets_and_replies(int(uid), limit=LIMIT))
             # Author's own threads only (replies to other people are mostly chat).
             raw = [t for t in raw if not getattr(t, "inReplyToUser", None)
                    or (t.inReplyToUser.username or "").lower() == user.lower()]
@@ -112,7 +128,8 @@ async def main():
             until = read_until.get(user, 0)
             for t in raw:
                 e = pool[str(t.id)]
-                if e["id"] in by_id or e["time"] <= until or not maybe_repo(e):
+                # Normal runs skip anything already read (time <= until); backfill keeps old posts too.
+                if e["id"] in by_id or (e["time"] <= until and not BACKFILL) or not maybe_repo(e):
                     continue
                 by_id[e["id"]] = e
                 added += 1
@@ -121,12 +138,22 @@ async def main():
                     by_id[root["id"]] = root
             if pool:
                 read_until[user] = max([until] + [e["time"] for e in pool.values()])
+            if BACKFILL:
+                done.add(user)
             print(f"  @{user}: read {len(raw)}, kept {len(by_id)}")
+            if PAUSE:
+                await asyncio.sleep(PAUSE)
         except Exception as ex:
             print(f"  @{user}: error {type(ex).__name__}: {ex}")
 
     tweets = sorted((t for t in by_id.values() if t["time"] >= cutoff), key=lambda t: t["time"], reverse=True)
     os.makedirs(DIR, exist_ok=True)
+    with open(IDS, "w", encoding="utf-8") as f:
+        json.dump(ids, f, ensure_ascii=False, indent=1)
+    if BACKFILL:
+        with open(BACKFILLED, "w", encoding="utf-8") as f:
+            json.dump(sorted(done), f, ensure_ascii=False, indent=1)
+        print(f"backfilled {len(done)}/{len(accounts)} accounts so far")
     with open(FILE, "w", encoding="utf-8") as f:
         from datetime import datetime, timezone
         json.dump({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
