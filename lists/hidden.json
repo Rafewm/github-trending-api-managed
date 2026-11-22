@@ -94393,5 +94393,40 @@
    "cloud",
    "cloud-management"
   ]
+ },
+ "ceph/ceph": {
+  "name": "ceph/ceph",
+  "description": "Ceph is a distributed object, block, and file storage platform ",
+  "language": "C++",
+  "languageColor": "",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 17253,
+  "pushedAt": "2026-11-22T00:00:13Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/1015767?v=4",
+  "topics": [
+   "block-storage",
+   "cloud-storage",
+   "distributed-file-system",
+   "distributed-storage",
+   "erasure-coding",
+   "fuse",
+   "hdfs",
+   "high-performance",
+   "highly-available",
+   "iscsi",
+   "kubernetes",
+   "nfs",
+   "nvme-over-fabrics",
+   "object-store",
+   "posix",
+   "replication",
+   "s3",
+   "smb",
+   "software-defined-storage",
+   "storage"
+  ]
  }
 }
