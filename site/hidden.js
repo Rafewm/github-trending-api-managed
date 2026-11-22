@@ -1,9 +1,11 @@
 import { createHash, timingSafeEqual } from 'node:crypto';
 import { REPO_NAME, cleanSnapshot } from './trending.js';
 
-// Vercel's Upstash integration names these KV_*, a direct Upstash setup names them UPSTASH_REDIS_*.
-const STORE_URL = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-const STORE_TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+// The Hidden and Track lists are JSON files on the data repo's `lists` branch, written through GitHub's contents API:
+// free, with no storage or bandwidth quota, and every change is a commit, so the branch history is a full backup.
+// (They were in Upstash Redis until its free plan's bandwidth ran out.) The server token needs Contents write there.
+const LISTS_API = process.env.LISTS_API || 'https://api.github.com/repos/Rafewm/github-trending-api-managed';
+const BRANCH = 'lists';
 const HIDE_KEY = process.env.HIDE_KEY;
 const TOKEN = process.env.UNSTARRED_TOKEN || process.env.GITHUB_TOKEN;
 const MAX_BODY = 1_000_000;
@@ -15,23 +17,56 @@ class HttpError extends Error {
   }
 }
 
-export async function redis(command) {
-  if (!STORE_URL || !STORE_TOKEN) throw new HttpError(503, 'List store is not configured.');
-  const res = await fetch(STORE_URL, {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${STORE_TOKEN}` },
-    body: JSON.stringify(command),
+async function github(path, { accept = 'application/vnd.github+json', ...opts } = {}) {
+  const res = await fetch(`${LISTS_API}${path}`, {
+    ...opts,
+    headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred', Accept: accept, ...opts.headers },
   });
-  const body = await res.json().catch(() => ({}));
-  if (!res.ok || body.error) throw new HttpError(502, `List store failed: ${body.error ?? res.status}`);
-  return body.result;
+  if (res.status === 403 || res.status === 401) {
+    throw new HttpError(502, `List store refused (${res.status}). The server's token needs Contents write on the data repo.`);
+  }
+  return res;
 }
 
-async function readList(key) {
-  const flat = await redis(['HGETALL', key]);
-  const list = {};
-  for (let i = 0; i < flat.length; i += 2) list[flat[i]] = JSON.parse(flat[i + 1]);
-  return list;
+// The `lists` branch head: it changes with every saved change, so the page only refetches the lists when it differs.
+async function listsVersion() {
+  const res = await github(`/git/ref/heads/${BRANCH}`);
+  if (!res.ok) throw new HttpError(502, `List store failed: ${res.status}`);
+  return (await res.json()).object.sha;
+}
+
+async function readList(name) {
+  const res = await github(`/contents/lists/${name}.json?ref=${BRANCH}`, { accept: 'application/vnd.github.raw' });
+  if (res.status === 404) return {};
+  if (!res.ok) throw new HttpError(502, `List store failed: ${res.status}`);
+  return res.json();
+}
+
+// The file's blob sha, which a write must name so a change made meanwhile is never overwritten.
+async function fileSha(name) {
+  const res = await github(`/contents/lists/${name}.json?ref=${BRANCH}`, { accept: 'application/vnd.github.object' });
+  if (res.status === 404) return undefined;
+  if (!res.ok) throw new HttpError(502, `List store failed: ${res.status}`);
+  return (await res.json()).sha;
+}
+
+// Applies the change to the newest copy and saves it as one commit; a write that raced another is redone on top of it.
+async function saveList(name, repos, unhide, attempt = 1) {
+  const [list, sha] = await Promise.all([readList(name), fileSha(name)]);
+  for (const r of repos) list[r.name] = r;
+  for (const n of unhide) delete list[n];
+  const res = await github(`/contents/lists/${name}.json`, {
+    method: 'PUT',
+    body: JSON.stringify({
+      message: `${name}: +${repos.length} -${unhide.length}`,
+      content: Buffer.from(JSON.stringify(list, null, 1)).toString('base64'),
+      branch: BRANCH,
+      ...(sha ? { sha } : {}),
+    }),
+  });
+  if ((res.status === 409 || res.status === 422) && attempt < 4) return saveList(name, repos, unhide, attempt + 1);
+  if (!res.ok) throw new HttpError(502, `List store failed: ${res.status}`);
+  return { version: (await res.json()).commit.sha, count: Object.keys(list).length };
 }
 
 async function readBody(req) {
@@ -64,7 +99,7 @@ function fail(res, err) {
   res.end(JSON.stringify({ error: err.status ? err.message : 'Internal error.' }));
 }
 
-async function writeList(req, key) {
+async function writeList(req, name) {
   checkKey(req);
   const { hide = [], unhide = [] } = (await readBody(req)) ?? {};
   if (!Array.isArray(hide) || !Array.isArray(unhide)) throw new HttpError(400, 'hide and unhide must be arrays.');
@@ -73,26 +108,38 @@ async function writeList(req, key) {
   if (repos.includes(null) || !unhide.every((n) => typeof n === 'string' && REPO_NAME.test(n))) {
     throw new HttpError(400, 'Invalid repository name.');
   }
-  if (repos.length) await redis(['HSET', key, ...repos.flatMap((r) => [r.name, JSON.stringify(r)])]);
-  if (unhide.length) await redis(['HDEL', key, ...unhide]);
+  return saveList(name, repos, unhide);
 }
 
-// GET returns the list; POST {hide: [repo], unhide: [name]} adds or removes repos and returns the new list.
-const listHandler = (key) => async (req, res) => {
+// GET returns the list; POST {hide: [repo], unhide: [name]} adds or removes repos and returns only {version, count}:
+// sending the whole list back on every click is what used up the old store's bandwidth.
+const listHandler = (name) => async (req, res) => {
   try {
-    if (req.method === 'POST') await writeList(req, key);
-    else if (req.method !== 'GET') throw new HttpError(405, 'Method not allowed.');
-    const body = JSON.stringify(await readList(key));
+    let body;
+    if (req.method === 'POST') body = await writeList(req, name);
+    else if (req.method === 'GET') body = await readList(name);
+    else throw new HttpError(405, 'Method not allowed.');
     res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
-    res.end(body);
+    res.end(JSON.stringify(body));
   } catch (err) {
     fail(res, err);
   }
 };
 
-export const handleHidden = listHandler('unstarred:hidden');
-// Repos saved for later: same rules and key as the hidden list, separate storage.
-export const handleTracked = listHandler('unstarred:tracked');
+export const handleHidden = listHandler('hidden');
+// Repos saved for later: same rules and key as the hidden list, separate file.
+export const handleTracked = listHandler('tracked');
+
+// GET {version}: cheap check the page makes on load and focus before downloading the lists again.
+export async function handleListsVersion(req, res) {
+  try {
+    const version = await listsVersion();
+    res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+    res.end(JSON.stringify({ version }));
+  } catch (err) {
+    fail(res, err);
+  }
+}
 
 // POST {"name": "owner/repo"} stars the repo on GitHub with the server's token. Needs the hide key like list writes.
 export async function handleStar(req, res) {
