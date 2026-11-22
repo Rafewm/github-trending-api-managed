@@ -94243,5 +94243,29 @@
    "vless",
    "vmess"
   ]
+ },
+ "MarlinFirmware/Marlin": {
+  "name": "MarlinFirmware/Marlin",
+  "description": "Marlin is a firmware for RepRap 3D printers optimized for both 8 and 32 bit microcontrollers.  Marlin supports all common platforms.   Many commercial 3D printers come with Marlin installed.  Check with your vendor if you need source code for your specific machine.",
+  "language": "C++",
+  "languageColor": "",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 17683,
+  "pushedAt": "2026-11-22T01:42:01Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/10418365?v=4",
+  "topics": [
+   "3d-printing",
+   "arduino",
+   "atmel",
+   "avr",
+   "esp32",
+   "firmware",
+   "hacktoberfest",
+   "reprap",
+   "stmicro"
+  ]
  }
 }
