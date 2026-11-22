@@ -92984,5 +92984,36 @@
    "finance",
    "sync"
   ]
+ },
+ "rizonesoft/impossible-os": {
+  "name": "rizonesoft/impossible-os",
+  "description": "A 64-bit operating system built from scratch for modern x86-64 hardware: UEFI boot, a compositing desktop, and a native Win32 API.",
+  "language": "C",
+  "languageColor": "#555555",
+  "day": {
+   "add": 77,
+   "pct": 18.55421686746988
+  },
+  "week": {
+   "add": 220,
+   "pct": 86.27450980392157
+  },
+  "month": null,
+  "stars": 499,
+  "pushedAt": "2026-11-21T16:37:20Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/8640728?s=40&u=fe8f414e64e8a88fa121bd6278506342bbae3ed9&v=4",
+  "topics": [
+   "bare-metal",
+   "freestanding",
+   "operating-system",
+   "os-development",
+   "uefi-boot",
+   "kernel",
+   "linux-compatibility",
+   "win32",
+   "windows-compatibility",
+   "x86-64"
+  ]
  }
 }
