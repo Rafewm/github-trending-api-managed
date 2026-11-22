@@ -4,12 +4,13 @@ import { createServer } from 'node:http';
 
 // In-memory stand-in for Upstash's REST API, just GET and SET (with NX).
 const kv = new Map();
+const gets = [];
 const upstash = createServer(async (req, res) => {
   let raw = '';
   for await (const chunk of req) raw += chunk;
   const [command, key, value, ...opts] = JSON.parse(raw);
   let result = null;
-  if (command === 'GET') result = kv.get(key) ?? null;
+  if (command === 'GET') (gets.push(key), (result = kv.get(key) ?? null));
   else if (command === 'SET' && !(opts.includes('NX') && kv.has(key))) (kv.set(key, value), (result = 'OK'));
   res.end(JSON.stringify({ result }));
 }).listen(0);
@@ -45,4 +46,15 @@ test('a stale result is served at once and rebuilt in the background', async () 
 test('a failed first build surfaces the error', async () => {
   const cache = await import('./cache.js?instance=4');
   await assert.rejects(cache.cached('f', 60_000, async () => { throw new Error('boom'); }), /boom/);
+});
+
+test('a stale value just read from the store is read once, then rebuilt in the background', async () => {
+  kv.set('unstarred:cache:once', JSON.stringify({ at: 0, data: { n: 0 } }));
+  const cache = await import('./cache.js?instance=5');
+  gets.length = 0;
+  let loads = 0;
+  assert.deepEqual(await cache.cached('once', 60_000, async () => ({ n: ++loads })), { n: 0 });
+  assert.deepEqual(gets.filter((k) => k === 'unstarred:cache:once'), ['unstarred:cache:once']);
+  await wait(50);
+  assert.equal(loads, 1);
 });
