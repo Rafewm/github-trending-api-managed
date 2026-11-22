@@ -20661,5 +20661,30 @@
    "commodities",
    "us-stocks"
   ]
+ },
+ "R0Y00/Xbox2Windows": {
+  "name": "R0Y00/Xbox2Windows",
+  "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows. GTA VI case study with shader translation, BC7 texture rendering, script-state replay and D3D12/PE checks.",
+  "language": "Python",
+  "languageColor": "#3572A5",
+  "day": {
+   "add": 524,
+   "pct": 206.29921259842519
+  },
+  "week": null,
+  "month": null,
+  "stars": 960,
+  "pushedAt": "2026-11-22T02:45:31Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/128987794?s=40&u=497963713f65ccb736a760358c1a6bd7460b73e0&v=4",
+  "topics": [
+   "d3d12",
+   "directx-raytracing",
+   "windows",
+   "xbox",
+   "scarlett",
+   "xbox-series-x",
+   "static-recompilation"
+  ]
  }
 }
