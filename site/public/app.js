@@ -481,12 +481,13 @@ function setView(next) {
   render();
 }
 
-// The page changes at once and the save runs behind it; a failed or cancelled save puts the lists back.
+// The page changes at once and the save runs behind it; a failed or cancelled save undoes this repo's change only,
+// since other clicks saved in the same batch undo their own.
 async function toggleList(button) {
   const { toggle: name, list } = button.dataset;
   const other = list === 'hidden' ? 'tracked' : 'hidden';
-  const before = { hidden: { ...hidden }, tracked: { ...tracked } };
-  const adding = !before[list][name];
+  const before = { hidden: hidden[name], tracked: tracked[name] };
+  const adding = !before[list];
   const repo = adding && currentList().find((r) => r.name === name);
   const index = [...$('rows').querySelectorAll('[data-toggle]')].indexOf(button);
   const lists = { hidden, tracked };
@@ -501,12 +502,15 @@ async function toggleList(button) {
   try {
     // Add first, then remove from the other list, so a failed second step never loses the repo.
     const saved = await queueSave(list, adding ? { hide: [repo] } : { unhide: [name] });
-    if (saved && adding && before[other][name]) await queueSave(other, { unhide: [name] });
+    if (saved && adding && before[other]) await queueSave(other, { unhide: [name] });
     if (!saved) throw null;
     moveLocalHidden();
   } catch (err) {
-    hidden = before.hidden;
-    tracked = before.tracked;
+    for (const [key, entry] of Object.entries(before)) {
+      const current = key === 'hidden' ? hidden : tracked;
+      if (entry) current[name] = entry;
+      else delete current[name];
+    }
     render();
     if (err) showError(`Could not update the ${list} list: ${err.message}`);
   }
@@ -585,7 +589,8 @@ async function refresh() {
     const version = versionRes?.ok ? (await versionRes.json()).version : null;
     // Without a working store, keep showing what this browser hid so the page stays usable.
     storeReady = Boolean(version);
-    let hiddenData = storeReady ? hidden : localHidden();
+    // A failed check keeps the lists already loaded; the browser's own copy is only for a first load without the store.
+    let hiddenData = storeReady || listsVersion ? hidden : localHidden();
     let trackedData = tracked;
     // The lists are large, so they're downloaded only on the first load and when another device changed them.
     if (storeReady && version !== listsVersion) {
