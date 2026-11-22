@@ -94327,5 +94327,31 @@
    "typescript",
    "workflows"
   ]
+ },
+ "cure53/DOMPurify": {
+  "name": "cure53/DOMPurify",
+  "description": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:",
+  "language": "JavaScript",
+  "languageColor": "",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 17540,
+  "pushedAt": "2026-11-21T17:46:29Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/6709482?v=4",
+  "topics": [
+   "cross-site-scripting",
+   "dom",
+   "dompurify",
+   "html",
+   "javascript",
+   "mathml",
+   "prevent-xss-attacks",
+   "sanitizer",
+   "security",
+   "svg",
+   "xss"
+  ]
  }
 }
