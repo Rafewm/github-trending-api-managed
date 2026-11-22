@@ -22,6 +22,10 @@ async function github(path, { accept = 'application/vnd.github+json', ...opts } 
     ...opts,
     headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred', Accept: accept, ...opts.headers },
   });
+  // GitHub also answers 403 when a rate limit is hit, which says nothing about the token.
+  if (res.status === 403 && (res.headers.get('x-ratelimit-remaining') === '0' || res.headers.get('retry-after'))) {
+    throw new HttpError(503, 'List store is rate limited by GitHub; try again in a minute.');
+  }
   if (res.status === 403 || res.status === 401) {
     throw new HttpError(502, `List store refused (${res.status}). The server's token needs Contents write on the data repo.`);
   }
