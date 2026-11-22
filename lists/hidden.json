@@ -94795,5 +94795,30 @@
    "socket-io",
    "websockets"
   ]
+ },
+ "GrafeoDB/grafeo": {
+  "name": "GrafeoDB/grafeo",
+  "description": "Grafeo is a pure-Rust, high-performance graph database that can be embedded as a library or run as a standalone database, with optional in-memory or persistent storage. Grafeo supports both LPG and RDF and all major query languages.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 860,
+  "pushedAt": "2026-11-21T22:13:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/GrafeoDB?s=40",
+  "topics": [
+   "cypher",
+   "gql",
+   "graph-database",
+   "graphql",
+   "gremlin",
+   "in-memory-database",
+   "labeled-property-graph",
+   "sparql",
+   "resource-description-framework",
+   "lpg"
+  ]
  }
 }
