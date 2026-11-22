@@ -38,11 +38,12 @@ function build(key, load) {
 
 export async function cached(key, ttl, load) {
   let hit = memory.get(key);
+  const fromStore = !hit;
   if (!hit && (hit = await readStored(key))) memory.set(key, hit);
   if (!hit) return build(key, load);
   const stale = () => Date.now() - hit.at >= ttl;
-  // Another instance may already have stored a newer result.
-  if (stale() && !building.has(key)) {
+  // Another instance may already have stored a newer result (no need when it was just read from there).
+  if (stale() && !fromStore && !building.has(key)) {
     const stored = await readStored(key);
     if (stored?.at > hit.at) memory.set(key, (hit = stored));
   }

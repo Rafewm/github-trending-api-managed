@@ -36,7 +36,7 @@ const DAY_MS = DAY * 1000;
 // at GitHub's 30 a minute is too slow to build inside Vercel's 5-minute limit. These periods read it.
 const NEW_FILE = `${DATA}/new/repos.json`;
 const NEW_FROM_FILE = ['365', '730'];
-const NEW_FILE_MS = 10 * 60 * 1000;
+const DATA_FILE_MS = 10 * 60 * 1000;
 // Agent skills, MCP servers and agent tools, collected every 8 hours by the data repo's Action (script/skills.js).
 const SKILLS = `${DATA}/skills/skills.json`;
 const SKILL_TYPES = ['all', 'mcp', 'claude', 'codex', 'agent', 'skill', 'tool'];
@@ -202,19 +202,21 @@ async function searchCreated(base, from, to) {
   return pages.flatMap((r) => r.items ?? []);
 }
 
-let newMemo = null;
-function newFile() {
-  if (!newMemo || Date.now() - newMemo.at > NEW_FILE_MS) {
-    const data = fetch(NEW_FILE).then((res) => {
-      if (!res.ok) throw new Error(`New repos file failed: ${res.status}`);
-      return res.json();
-    });
-    newMemo = { at: Date.now(), data };
-    data.catch(() => {
-      if (newMemo?.data === data) newMemo = null;
-    });
-  }
-  return newMemo.data;
+// A collected data file, kept in memory for a few minutes (the Action only updates them every 4 hours). Lists built
+// from these take seconds, so they skip the Redis cache, which can't afford multi-MB values rewritten all day.
+const files = new Map();
+function dataFile(url) {
+  const hit = files.get(url);
+  if (hit && Date.now() - hit.at < DATA_FILE_MS) return hit.data;
+  const data = fetch(url).then((res) => {
+    if (!res.ok) throw new Error(`Data file failed: ${res.status} ${url.split('/data/')[1]}`);
+    return res.json();
+  });
+  files.set(url, { at: Date.now(), data });
+  data.catch(() => {
+    if (files.get(url)?.data === data) files.delete(url);
+  });
+  return data;
 }
 
 // Search already gives every field a row needs, and respond() drops starred repos, so no GraphQL lookup here.
@@ -224,7 +226,7 @@ async function loadNew(period) {
   let list;
   if (NEW_FROM_FILE.includes(period)) {
     const since = now - days * DAY_MS;
-    list = searchToRepos((await newFile()).repos.filter((r) => Date.parse(r.created_at) >= since && r.stargazers_count >= min));
+    list = searchToRepos((await dataFile(NEW_FILE)).repos.filter((r) => Date.parse(r.created_at) >= since && r.stargazers_count >= min));
   } else {
     list = days
       ? searchToRepos(await searchCreated(`stars:>=${min}`, now - days * DAY_MS, now))
@@ -304,11 +306,9 @@ function allStars() {
 }
 
 async function loadSkills(type) {
-  const [res, starred] = await Promise.all([fetch(SKILLS), allStars()]);
-  if (!res.ok) throw new Error(`Skills file failed: ${res.status}`);
-  const { updated, repos = [] } = await res.json();
-  // shortcut: "all" keeps the 5,000 with most stars (the file is sorted), since every repo is over Upstash's 10 MB
-  // value limit and slow on phones; each type still lists all of its repos. Page it server-side if that matters.
+  const [{ updated, repos = [] }, starred] = await Promise.all([dataFile(SKILLS), allStars()]);
+  // shortcut: "all" keeps the 5,000 with most stars (the file is sorted), since every repo is heavy on phones; each
+  // type still lists all of its repos. Raise SKILLS_ALL_MAX if that matters.
   const list = type === 'all' ? repos.slice(0, SKILLS_ALL_MAX) : repos.filter((r) => r.type === type);
   return { ...skillsToRepos(list, new Set(starred)), tracked: list.length, refreshed: Date.parse(updated) || Date.now() };
 }
@@ -395,6 +395,7 @@ export function handleNew(req, res) {
     res.end(JSON.stringify({ error: 'period must be 3, 30, 90, 365, 730 or all.' }));
     return;
   }
+  if (NEW_FROM_FILE.includes(period)) return respond(req, res, () => loadNew(period));
   return respond(req, res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
 }
 
@@ -406,7 +407,7 @@ export function handleSkills(req, res) {
     res.end(JSON.stringify({ error: `type must be ${SKILL_TYPES.join(', ')}.` }));
     return;
   }
-  return respond(req, res, () => cached(`skills:${type}`, RELEASE_CACHE_MS, () => loadSkills(type)));
+  return respond(req, res, () => loadSkills(type));
 }
 
 // GET /api/stars: your 10 newest stars, uncached, so the page can drop a repo as soon as you come back from starring it.
