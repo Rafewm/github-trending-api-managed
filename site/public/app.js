@@ -104,7 +104,9 @@ let storeReady = false;
 // Bumped when a Hide/Track save starts and when it ends, so a refresh that overlapped one can tell.
 let listEdits = 0;
 let listQueue = Promise.resolve();
-let pendingSaves = 0;
+const SAVE_DELAY = 800;
+// The lists' version from the server; they're downloaded again only when it changes.
+let listsVersion = null;
 // Your newest stars, checked when you come back to the tab, so a repo you just starred leaves at once.
 let newStars = new Set();
 // Repos starred with the Star button. Kept apart from newStars, which each check replaces.
@@ -152,21 +154,30 @@ async function saveList(list, change) {
   return data;
 }
 
-// Saves run one at a time, so an earlier save's response can never land after a newer one.
-async function queueSave(list, change) {
+// Clicks on one list within SAVE_DELAY go out as one save (each save is a commit, and GitHub limits how fast those
+// may come), and saves run one at a time. The page already shows the change, so the reply is only the new version.
+const pendingChanges = {};
+function queueSave(list, change) {
   listEdits++;
-  pendingSaves++;
-  const job = listQueue.then(() => saveList(list, change));
-  listQueue = job.catch(() => {});
-  try {
-    const next = await job;
-    // Only the last queued save's list is current; earlier ones would undo clicks made since.
-    if (next && pendingSaves === 1) list === 'hidden' ? (hidden = next) : (tracked = next);
-    return next;
-  } finally {
-    pendingSaves--;
-    listEdits++;
+  let batch = pendingChanges[list];
+  if (!batch) {
+    batch = pendingChanges[list] = { hide: new Map(), unhide: new Set() };
+    batch.job = new Promise((resolve) => setTimeout(resolve, SAVE_DELAY)).then(() => {
+      delete pendingChanges[list];
+      const job = listQueue.then(() => saveList(list, { hide: [...batch.hide.values()], unhide: [...batch.unhide] }));
+      listQueue = job.catch(() => {});
+      return job;
+    });
   }
+  // A later click on the same repo replaces an earlier one in the batch.
+  for (const repo of change.hide ?? []) (batch.unhide.delete(repo.name), batch.hide.set(repo.name, repo));
+  for (const name of change.unhide ?? []) (batch.hide.delete(name), batch.unhide.add(name));
+  return batch.job
+    .then((saved) => {
+      if (saved) listsVersion = saved.version;
+      return saved;
+    })
+    .finally(() => listEdits++);
 }
 
 const localHidden = () => storage((s) => JSON.parse(s.getItem(LOCAL_HIDDEN))) ?? {};
@@ -568,17 +579,22 @@ function fillOptions(list) {
 async function refresh() {
   try {
     const edits = listEdits;
-    const [res, hiddenRes, trackedRes] = await Promise.all([
-      fetch('/api/repos'),
-      fetch('/api/hidden'),
-      fetch('/api/tracked'),
-    ]);
+    const [res, versionRes] = await Promise.all([fetch('/api/repos'), fetch('/api/lists-version').catch(() => null)]);
     const data = await res.json();
     if (!res.ok) throw new Error(data.error);
+    const version = versionRes?.ok ? (await versionRes.json()).version : null;
     // Without a working store, keep showing what this browser hid so the page stays usable.
-    storeReady = hiddenRes.ok;
-    const hiddenData = storeReady ? await hiddenRes.json() : localHidden();
-    const trackedData = trackedRes.ok ? await trackedRes.json() : tracked;
+    storeReady = Boolean(version);
+    let hiddenData = storeReady ? hidden : localHidden();
+    let trackedData = tracked;
+    // The lists are large, so they're downloaded only on the first load and when another device changed them.
+    if (storeReady && version !== listsVersion) {
+      const [hiddenRes, trackedRes] = await Promise.all([fetch('/api/hidden'), fetch('/api/tracked')]);
+      if (hiddenRes.ok && trackedRes.ok) {
+        [hiddenData, trackedData] = await Promise.all([hiddenRes.json(), trackedRes.json()]);
+        if (edits === listEdits) listsVersion = version;
+      } else storeReady = false;
+    }
     if (FEEDS[view] && feeds[view][periodChoice[view]]) await loadFeed(view, periodChoice[view]);
     const first = !browse;
     // A Hide or Track saved while this refresh was in flight beats the older lists it fetched.

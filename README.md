@@ -144,7 +144,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse, New, Skills, Twitter, Hacker News and Releases and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
 
-Both lists are stored in Upstash Redis, so they are the same on every device. Anyone can view them; changing them needs your hide key, which each browser asks for once.
+Both lists are JSON files on this repo's [`lists`](../../tree/lists) branch (`lists/hidden.json`, `lists/tracked.json`), so they are the same on every device. Every change is a commit there, so the branch history keeps every past version. Anyone can view them; changing them needs your hide key, which each browser asks for once. Clicks within about a second are saved as one commit, and the page downloads the lists again only when their version changes.
 
 ### How it works
 
@@ -152,8 +152,8 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
 | `repos.js` | Sends lists in pages of 5,000 repos (`?page=0`, `1`, ... with `more: true` while more remain), since Vercel refuses responses over 4.5 MB; the page joins them. Repos with no stars are left out of every list. Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). Every response is also checked against your full starred list, at most a minute old, so a cached list can never show a repo you starred since. |
-| `cache.js` | Keeps each slow-to-build list (trending, Releases, Twitter, New 3/30/90 days and all time, HN all-time top) in memory and in Redis for a day, so a fresh Vercel instance answers at once. Lists built from the collected data files (HN day to year, Skills, New 1 and 2 years) take seconds, so they stay in memory only: rewriting multi-MB values all day used up the free Upstash plan. An old list is served while one instance builds a new one in the background. [`.github/workflows/warm.yml`](.github/workflows/warm.yml) asks for every list every 30 minutes with `?warm=`, which only starts that rebuild, so lists stay fresh without visitors. |
-| `hidden.js` | Hidden and tracked list APIs on Upstash Redis's REST API. Writes need the `X-Hide-Key` header and every entry is validated. |
+| `cache.js` | Keeps each slow-to-build list (trending, Releases, Twitter, New 3/30/90 days and all time, HN all-time top) in the instance's memory; an old list is served while a new one is built in the background. Lists built from the collected data files (HN day to year, Skills, New 1 and 2 years) take seconds. There is no shared cache: a Redis copy used up the free Upstash plan. [`.github/workflows/warm.yml`](.github/workflows/warm.yml) asks for the slow lists every 30 minutes with `?warm=`, which only starts a rebuild, so they stay fresh without visitors. |
+| `hidden.js` | Hidden and tracked list APIs on the `lists` branch, through GitHub's contents API. A write is redone on top of any change made meanwhile. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
 | `api/` | Vercel functions for the endpoints below. |
 | `server.js` | The same endpoints for running locally. |
@@ -169,7 +169,8 @@ Both lists are stored in Upstash Redis, so they are the same on every device. An
 | `GET /api/twitter?days=1|7|30|365` | Repos named in posts from followed X accounts that you have not starred, each with its newest `tweet`. Cached 30 minutes. |
 | `GET /api/stars` | Your 10 newest stars, uncached, checked when you return to the tab so a repo you just starred leaves at once. |
 | `GET /api/hidden`, `GET /api/tracked` | The hidden or tracked list. |
-| `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos, with the `X-Hide-Key` header. Returns the new list. |
+| `GET /api/lists-version` | `{"version"}`, the `lists` branch head. The page checks it on load and focus, and downloads the lists only when it changed. |
+| `POST /api/hidden`, `POST /api/tracked` | `{"hide": [repo], "unhide": ["owner/repo"]}` adds or removes repos as one commit, with the `X-Hide-Key` header. Returns `{"version", "count"}`, not the list. |
 
 The GitHub token stays on the server. The Vercel CDN caches responses for 30 seconds so visitors cannot use up the token's GitHub quota.
 
@@ -177,9 +178,9 @@ The GitHub token stays on the server. The Vercel CDN caches responses for 30 sec
 
 | Variable | Needed for |
 | --- | --- |
-| `UNSTARRED_TOKEN` | A GitHub token for your account. A classic token with **no scopes** is enough. |
+| `UNSTARRED_TOKEN` | A GitHub token for your account. A fine-grained token with **Contents: read and write** on this repo (for the lists) and the **Starring: read and write** account permission (for the star check and the Star button). |
 | `HIDE_KEY` | Any long random string. You type it in the browser before your first Hide or Track. |
-| `KV_REST_API_URL`, `KV_REST_API_TOKEN` | Upstash Redis for the hidden and tracked lists. Without them, hiding falls back to the browser's own storage and Track does not work. |
+| `LISTS_API` | Optional. The GitHub API base for the lists repo; defaults to this repo. The tests point it at a fake. |
 
 ### Run locally
 
@@ -197,9 +198,9 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 ### Deploy on Vercel
 
 1. Import this repo into Vercel and set the project's **Root Directory** to `site`.
-2. In the project's Storage tab, connect **Upstash for Redis** (free plan). It adds the `KV_*` variables.
+2. Create the `lists` branch if it is missing (any commit holding `lists/hidden.json` and `lists/tracked.json`, each `{}`).
 3. Add `UNSTARRED_TOKEN` and `HIDE_KEY` as environment variables.
-4. Deploy. For local runs, `vercel env pull .env.local` copies the Redis settings down.
+4. Deploy.
 
 ---
 

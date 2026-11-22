@@ -1,10 +1,6 @@
-import { redis } from './hidden.js';
-
-// Results are kept in Redis too, so a fresh Vercel instance answers at once instead of
-// rebuilding for half a minute. Old results are served while a new one is built.
-const KEEP_SECONDS = 24 * 60 * 60;
-const LOCK_SECONDS = 120;
-const storeKey = (key) => `unstarred:cache:${key}`;
+// Built lists are kept in this instance's memory. An old result is served at once while a new one is built.
+// shortcut: memory only (the Redis copy used up Upstash's free plan), so a fresh Vercel instance builds its first copy
+// itself; moving the slow lists (trending, Releases, Twitter) into the data repo's Action would fix that for good.
 const memory = new Map();
 const building = new Map();
 
@@ -13,23 +9,11 @@ function inBackground(job) {
   globalThis[Symbol.for('@vercel/request-context')]?.get?.()?.waitUntil?.(job);
 }
 
-async function readStored(key) {
-  try {
-    return JSON.parse(await redis(['GET', storeKey(key)]));
-  } catch {
-    return null;
-  }
-}
-
 function build(key, load) {
   if (building.has(key)) return building.get(key);
   const job = (async () => {
     const data = await load();
-    const hit = { at: Date.now(), data };
-    memory.set(key, hit);
-    await redis(['SET', storeKey(key), JSON.stringify(hit), 'EX', KEEP_SECONDS]).catch((err) =>
-      console.error('cache write:', err.message),
-    );
+    memory.set(key, { at: Date.now(), data });
     return data;
   })().finally(() => building.delete(key));
   building.set(key, job);
@@ -37,23 +21,10 @@ function build(key, load) {
 }
 
 export async function cached(key, ttl, load) {
-  let hit = memory.get(key);
-  const fromStore = !hit;
-  if (!hit && (hit = await readStored(key))) memory.set(key, hit);
+  const hit = memory.get(key);
   if (!hit) return build(key, load);
-  const stale = () => Date.now() - hit.at >= ttl;
-  // Another instance may already have stored a newer result (no need when it was just read from there).
-  if (stale() && !fromStore && !building.has(key)) {
-    const stored = await readStored(key);
-    if (stored?.at > hit.at) memory.set(key, (hit = stored));
-  }
-  if (stale() && !building.has(key)) {
-    // One instance rebuilds at a time, so visitors can't multiply the GitHub queries.
-    const job = redis(['SET', `${storeKey(key)}:lock`, '1', 'NX', 'EX', LOCK_SECONDS])
-      .catch(() => 'OK')
-      .then((got) => got && build(key, load))
-      .catch((err) => console.error('cache refresh:', err.message));
-    inBackground(job);
+  if (Date.now() - hit.at >= ttl && !building.has(key)) {
+    inBackground(build(key, load).catch((err) => console.error('cache refresh:', err.message)));
   }
   return hit.data;
 }
