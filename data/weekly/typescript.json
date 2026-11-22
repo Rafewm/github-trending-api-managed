@@ -2,7 +2,7 @@
   "title": "GitHub Typescript Languages Weekly Trending",
   "description": "Weekly Trending of Typescript Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Sun, 22 Nov 2026 15:54:49 GMT",
+  "pubDate": "Sun, 22 Nov 2026 21:31:49 GMT",
   "items": [
     {
       "title": "backnotprop/plannotator",
@@ -10,8 +10,8 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "14,341",
-      "forks": "1,425",
+      "stars": "14,397",
+      "forks": "1,428",
       "addStars": "3,396",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "11,801",
-      "forks": "1,470",
+      "stars": "11,873",
+      "forks": "1,473",
       "addStars": "2,431",
       "contributors": [
         {
@@ -84,8 +84,8 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "10,126",
-      "forks": "805",
+      "stars": "10,175",
+      "forks": "810",
       "addStars": "4,400",
       "contributors": [
         {
@@ -116,8 +116,8 @@
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "58,791",
-      "forks": "4,911",
+      "stars": "58,827",
+      "forks": "4,915",
       "addStars": "2,795",
       "contributors": [
         {
@@ -148,8 +148,8 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "21,135",
-      "forks": "2,154",
+      "stars": "21,174",
+      "forks": "2,157",
       "addStars": "3,792",
       "contributors": [
         {
@@ -185,8 +185,8 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "32,102",
-      "forks": "2,521",
+      "stars": "32,182",
+      "forks": "2,527",
       "addStars": "3,967",
       "contributors": [
         {
@@ -217,8 +217,8 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "31,209",
-      "forks": "2,837",
+      "stars": "31,246",
+      "forks": "2,843",
       "addStars": "7,240",
       "contributors": [
         {
@@ -254,8 +254,8 @@
       "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "18,051",
-      "forks": "1,455",
+      "stars": "18,108",
+      "forks": "1,457",
       "addStars": "383",
       "contributors": [
         {
@@ -286,8 +286,8 @@
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "30,864",
-      "forks": "3,580",
+      "stars": "30,871",
+      "forks": "3,582",
       "addStars": "667",
       "contributors": [
         {
@@ -318,13 +318,50 @@
       ]
     },
     {
+      "title": "ardia-browser/ardia",
+      "url": "https://github.com/ardia-browser/ardia",
+      "description": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "2,833",
+      "forks": "375",
+      "addStars": "519",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/87142457?s=40&v=4",
+          "name": "mantrakp04",
+          "url": "https://github.com/mantrakp04"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/91240327?s=40&v=4",
+          "name": "shivamhwp",
+          "url": "https://github.com/shivamhwp"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/191039812?s=40&v=4",
+          "name": "araeyn",
+          "url": "https://github.com/araeyn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61931072?s=40&v=4",
+          "name": "narasaka",
+          "url": "https://github.com/narasaka"
+        }
+      ]
+    },
+    {
       "title": "openai/codex-security",
       "url": "https://github.com/openai/codex-security",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "14,270",
-      "forks": "1,128",
+      "stars": "14,277",
+      "forks": "1,129",
       "addStars": "774",
       "contributors": [
         {
@@ -355,8 +392,8 @@
       "description": "Email for professionals and teams",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "7,444",
-      "forks": "1,312",
+      "stars": "7,453",
+      "forks": "1,314",
       "addStars": "1,236",
       "contributors": [
         {
@@ -392,8 +429,8 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "26,750",
-      "forks": "3,814",
+      "stars": "26,816",
+      "forks": "3,824",
       "addStars": "3,909",
       "contributors": [
         {
@@ -429,8 +466,8 @@
       "description": "AIOStreams brings your Stremio addons, debrid services and Usenet together into one list, filtered, sorted and formatted your way, and plays it in Stremio or in its own apps for every screen.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "3,298",
-      "forks": "961",
+      "stars": "3,305",
+      "forks": "962",
       "addStars": "135",
       "contributors": [
         {
@@ -461,8 +498,8 @@
       "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "85,993",
-      "forks": "16,343",
+      "stars": "86,002",
+      "forks": "16,351",
       "addStars": "489",
       "contributors": [
         {
@@ -493,8 +530,8 @@
       "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "13,190",
-      "forks": "1,650",
+      "stars": "13,206",
+      "forks": "1,653",
       "addStars": "922",
       "contributors": [
         {
@@ -525,7 +562,7 @@
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "29,028",
+      "stars": "29,030",
       "forks": "2,339",
       "addStars": "150",
       "contributors": [
@@ -562,7 +599,7 @@
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "31,334",
+      "stars": "31,345",
       "forks": "1,977",
       "addStars": "206",
       "contributors": [
@@ -599,21 +636,9 @@
       "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "15,057",
+      "stars": "15,257",
       "forks": "1,532",
-      "addStars": "5,079",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "473,644",
-      "forks": "117,552",
-      "addStars": "11,768",
+      "addStars": "5,259",
       "contributors": [],
       "source": "trendshift"
     },
@@ -623,9 +648,21 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "70,928",
+      "stars": "71,402",
       "forks": "13,269",
-      "addStars": "9,509",
+      "addStars": "9,906",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "473,945",
+      "forks": "117,552",
+      "addStars": "12,043",
       "contributors": [],
       "source": "trendshift"
     },
@@ -635,9 +672,9 @@
       "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "132,630",
+      "stars": "132,877",
       "forks": "9,357",
-      "addStars": "6,929",
+      "addStars": "7,147",
       "contributors": [],
       "source": "trendshift"
     },
@@ -647,9 +684,9 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "206,728",
-      "forks": "10,802",
-      "addStars": "4,660",
+      "stars": "206,878",
+      "forks": "11,265",
+      "addStars": "4,858",
       "contributors": [],
       "source": "trendshift"
     },
@@ -659,9 +696,9 @@
       "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "3,714",
-      "forks": "296",
-      "addStars": "3,390",
+      "stars": "3,793",
+      "forks": "355",
+      "addStars": "3,455",
       "contributors": [],
       "source": "trendshift"
     },
@@ -671,9 +708,9 @@
       "description": "Open-source document signature platform. Not affiliated with DocuSign. ",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "2,892",
-      "forks": "520",
-      "addStars": "2,599",
+      "stars": "2,926",
+      "forks": "565",
+      "addStars": "2,627",
       "contributors": [],
       "source": "trendshift"
     },
@@ -683,9 +720,9 @@
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "76,607",
+      "stars": "76,701",
       "forks": "5,930",
-      "addStars": "2,069",
+      "addStars": "2,191",
       "contributors": [],
       "source": "trendshift"
     },
@@ -695,9 +732,9 @@
       "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "56,486",
+      "stars": "56,657",
       "forks": "8,387",
-      "addStars": "3,637",
+      "addStars": "3,784",
       "contributors": [],
       "source": "trendshift"
     },
@@ -707,9 +744,9 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "18,310",
+      "stars": "18,402",
       "forks": "2,051",
-      "addStars": "1,885",
+      "addStars": "1,967",
       "contributors": [],
       "source": "trendshift"
     },
@@ -719,9 +756,9 @@
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "285,417",
+      "stars": "285,515",
       "forks": "38,163",
-      "addStars": "3,825",
+      "addStars": "3,912",
       "contributors": [],
       "source": "trendshift"
     },
@@ -731,9 +768,9 @@
       "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "88,091",
+      "stars": "88,230",
       "forks": "8,557",
-      "addStars": "3,377",
+      "addStars": "3,498",
       "contributors": [],
       "source": "trendshift"
     },
@@ -743,9 +780,9 @@
       "description": "MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors. https://mroffice.ai",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "2,059",
-      "forks": "158",
-      "addStars": "2,062",
+      "stars": "2,069",
+      "forks": "234",
+      "addStars": "2,070",
       "contributors": [],
       "source": "trendshift"
     },
@@ -755,9 +792,9 @@
       "description": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "2,228",
-      "forks": "338",
-      "addStars": "1,452",
+      "stars": "2,275",
+      "forks": "364",
+      "addStars": "1,485",
       "contributors": [],
       "source": "trendshift"
     },
@@ -767,9 +804,9 @@
       "description": "Chat Demo",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "5,265",
-      "forks": "1,188",
-      "addStars": "2,337",
+      "stars": "5,277",
+      "forks": "1,221",
+      "addStars": "2,341",
       "contributors": [],
       "source": "trendshift"
     },
@@ -779,9 +816,9 @@
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "9,771",
+      "stars": "9,823",
       "forks": "989",
-      "addStars": "1,804",
+      "addStars": "1,849",
       "contributors": [],
       "source": "trendshift"
     },
@@ -791,9 +828,9 @@
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "22,068",
+      "stars": "22,099",
       "forks": "2,084",
-      "addStars": "2,025",
+      "addStars": "2,054",
       "contributors": [],
       "source": "trendshift"
     }
