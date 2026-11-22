@@ -93052,5 +93052,36 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/300290919?s=40&u=8d1ba3ed69a3d50221a08280de39873426850335&v=4",
   "topics": []
+ },
+ "vulnix0x4/a-better-antivirus": {
+  "name": "vulnix0x4/a-better-antivirus",
+  "description": "Catches infostealers in the act on Windows: plants fake passwords, wallets and app data that only malware would read, and freezes whatever touches them.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": {
+   "add": 64,
+   "pct": 112.28070175438596
+  },
+  "week": null,
+  "month": null,
+  "stars": 128,
+  "pushedAt": "2026-11-22T03:00:15Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/187458047?s=40&u=4871f749c708a34917c7e23664fe34af9163f211&v=4",
+  "topics": [
+   "cli",
+   "golang",
+   "honeypot",
+   "infostealer",
+   "malware-detection",
+   "security",
+   "windows",
+   "antivirus",
+   "blue-team",
+   "canary-tokens",
+   "deception",
+   "stealer",
+   "windows-security"
+  ]
  }
 }
