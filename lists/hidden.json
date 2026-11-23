@@ -98247,5 +98247,24 @@
    "easyeda-pro",
    "pcb-automation"
   ]
+ },
+ "keycloak/terraform-provider-keycloak": {
+  "name": "keycloak/terraform-provider-keycloak",
+  "description": "Terraform provider for managing Keycloak configurations and resources.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 961,
+  "pushedAt": "2026-11-23T13:36:33Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/4921466?s=40&v=4",
+  "topics": [
+   "terraform",
+   "terraform-provider",
+   "keycloak",
+   "hacktoberfest"
+  ]
  }
 }
