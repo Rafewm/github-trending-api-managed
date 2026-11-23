@@ -96089,5 +96089,32 @@
    "ui-library",
    "ui-components"
   ]
+ },
+ "JamieMason/syncpack": {
+  "name": "JamieMason/syncpack",
+  "description": "Ensures consistent dependency versions across large JavaScript monorepos.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 2113,
+  "pushedAt": "2026-11-22T21:38:19Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/320492?s=40&v=4",
+  "topics": [
+   "semver",
+   "monorepo",
+   "npm",
+   "yarn",
+   "pnpm",
+   "nx",
+   "turborepo",
+   "linter",
+   "bun",
+   "catalogs",
+   "dependencies",
+   "versions"
+  ]
  }
 }
