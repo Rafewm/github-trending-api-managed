@@ -390,8 +390,9 @@ export function handleHn(req, res) {
     res.end(JSON.stringify({ error: 'period must be day, week, month, year or all.' }));
     return;
   }
-  // Built from the collected files in a few seconds, so no Redis cache (a year is also over its 10 MB limit).
-  return respond(req, res, period === 'all' ? loadHnAll : () => loadHn(period));
+  // Built from the collected files in a few seconds and kept in memory, so the other pages of a long list (HN year is
+  // 6 pages) and repeat visits don't rebuild it.
+  return respond(req, res, () => cached(`hn:${period}`, DATA_FILE_MS, period === 'all' ? loadHnAll : () => loadHn(period)));
 }
 
 // GET /api/releases?days=1|7|14|30|365
@@ -413,7 +414,7 @@ export function handleNew(req, res) {
     res.end(JSON.stringify({ error: 'period must be 3, 30, 90, 365, 730 or all.' }));
     return;
   }
-  if (NEW_FROM_FILE.includes(period)) return respond(req, res, () => loadNew(period));
+  if (NEW_FROM_FILE.includes(period)) return respond(req, res, () => cached(`new:${period}`, DATA_FILE_MS, () => loadNew(period)));
   return respond(req, res, () => prebuilt(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
 }
 
@@ -425,7 +426,7 @@ export function handleSkills(req, res) {
     res.end(JSON.stringify({ error: `type must be ${SKILL_TYPES.join(', ')}.` }));
     return;
   }
-  return respond(req, res, () => loadSkills(type));
+  return respond(req, res, () => cached(`skills:${type}`, DATA_FILE_MS, () => loadSkills(type)));
 }
 
 // GET /api/stars: your 10 newest stars, uncached, so the page can drop a repo as soon as you come back from starring it.
