@@ -144,7 +144,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Track** (the pill in each row's top-right corner) saves a repo for later without starring it: it leaves Browse, New, Skills, Twitter, Hacker News and Releases and is listed only in the **Track** tab. A repo is either hidden or tracked, never both, so the Hidden tab has a Track button and the Track tab a Hide button to move a repo across.
 
-Both lists are JSON files on this repo's [`lists`](../../tree/lists) branch (`lists/hidden.json`, `lists/tracked.json`), so they are the same on every device. Every change is a commit there, so the branch history keeps every past version. Anyone can view them; changing them needs your hide key, which each browser asks for once. Clicks within about a second are saved as one commit, and the page downloads the lists again only when their version changes.
+Both lists are JSON files on this repo's [`lists`](../../tree/lists) branch (`lists/hidden.json`, `lists/tracked.json`), so they are the same on every device. Every change is a commit there, so the branch history keeps every past version. Anyone can view them; changing them needs your hide key, which each browser asks for once. Clicks within about a second are saved as one commit. The page loads the lists first, straight from GitHub's file CDN at the exact commit (falling back to `/api/hidden` and `/api/tracked`), shows no repo rows until they arrive, and downloads them again only when their version changes.
 
 ### How it works
 
