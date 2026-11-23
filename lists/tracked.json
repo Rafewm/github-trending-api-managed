@@ -21655,5 +21655,31 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/96461528?s=40&v=4",
   "topics": []
+ },
+ "lobsters/lobsters": {
+  "name": "lobsters/lobsters",
+  "description": "Computing-focused community centered around link aggregation and discussion",
+  "language": "Ruby",
+  "languageColor": "#701516",
+  "day": {
+   "add": 1,
+   "pct": 0.020580366330520683
+  },
+  "week": {
+   "add": 1,
+   "pct": 0.020580366330520683
+  },
+  "month": null,
+  "stars": 4859,
+  "pushedAt": "2026-11-23T15:02:34Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/32438445?s=40&v=4",
+  "topics": [
+   "ruby",
+   "rails",
+   "aggregator",
+   "forum",
+   "hacktoberfest"
+  ]
  }
 }
