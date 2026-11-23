@@ -97315,5 +97315,37 @@
    "minecraft-server",
    "phpstan-l9"
   ]
+ },
+ "Snailclimb/interview-guide": {
+  "name": "Snailclimb/interview-guide",
+  "description": "基于 Spring Boot 4.1、Java 25、Spring AI 2.0、React、PostgreSQL/pgvector、Redis 和 RustFS 构建的开源 AI 面试平台，支持简历智能分析、模拟面试、语音面试和知识库 RAG。",
+  "language": "Java",
+  "languageColor": "#b07219",
+  "day": {
+   "add": 4,
+   "pct": 0.11337868480725624
+  },
+  "week": null,
+  "month": null,
+  "stars": 3541,
+  "pushedAt": "2026-10-08T23:01:56Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/29880145?s=40&u=d2f8361655b9ebd973f5375acf014500bc0a4197&v=4",
+  "topics": [
+   "mapstruct",
+   "pgvector",
+   "postgresql",
+   "redis",
+   "redisson",
+   "redisstreams",
+   "rustfs",
+   "springai",
+   "springboot",
+   "gradle",
+   "itext7",
+   "tika",
+   "rag",
+   "springboot4"
+  ]
  }
 }
