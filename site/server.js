@@ -12,7 +12,7 @@ const STATIC = {
 };
 // Keep in sync with vercel.json.
 const CSP =
-  "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src https://avatars.githubusercontent.com; connect-src 'self'";
+  "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src https://avatars.githubusercontent.com; connect-src 'self' https://raw.githubusercontent.com";
 
 if (!process.env.UNSTARRED_TOKEN && !process.env.GITHUB_TOKEN) {
   console.error('UNSTARRED_TOKEN is not set. Copy .env.example to .env and add your token.');

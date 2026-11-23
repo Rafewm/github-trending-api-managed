@@ -29,8 +29,10 @@ jobs:
             'twitter?days=1&' 'twitter?days=7&' 'twitter?days=30&' 'twitter?days=365&'
           do
             # A list with nothing saved yet is built before the reply, which can take a few minutes.
-            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 300 "$site/api/${path}warm=$(date +%s)" || true)
+            code=$(curl -s -o /tmp/body -w '%{http_code}' --max-time 300 "$site/api/${path}warm=$(date +%s)" || true)
             echo "$path $code"
+            # On a failure, print why (our error JSON or Vercel's own page): Vercel keeps logs for only an hour.
+            if [ "$code" != 204 ]; then head -c 300 /tmp/body; echo; fi
             # One at a time, so the rebuilds don't hit GitHub's rate limits together.
             sleep 20
           done

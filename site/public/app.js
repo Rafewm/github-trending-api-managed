@@ -174,7 +174,8 @@ function queueSave(list, change) {
   for (const name of change.unhide ?? []) (batch.hide.delete(name), batch.unhide.add(name));
   return batch.job
     .then((saved) => {
-      if (saved) listsVersion = saved.version;
+      // Only once the lists are loaded: before that, the saved version would stop them from ever being downloaded.
+      if (saved && listsVersion) listsVersion = saved.version;
       return saved;
     })
     .finally(() => listEdits++);
@@ -399,6 +400,12 @@ function render() {
   renderStats();
 
   if (!savedView() && !source()) return; // still loading; the loader shows its own message
+  if (listsState === 'loading') {
+    $('table-wrap').hidden = true;
+    $('more').hidden = true;
+    showError('Loading your Hidden and Track lists...');
+    return;
+  }
 
   const releaseSource = $('source').value;
   const matches = currentList()
@@ -411,7 +418,9 @@ function render() {
 
   const failed = view === 'releases' ? source()?.failed ?? [] : [];
   $('matches').textContent =
-    `${matches.length.toLocaleString('en-US')} matches` + (failed.length ? ` · ${failed.join(' and ')} unavailable` : '');
+    `${matches.length.toLocaleString('en-US')} matches` +
+    (failed.length ? ` · ${failed.join(' and ')} unavailable` : '') +
+    (listsState === 'failed' ? ' · Hidden and Track lists could not load; retrying when you come back to this tab' : '');
   $('rows').innerHTML = matches.slice(0, limit).map(row).join('');
   $('more').hidden = matches.length <= limit;
   $('table-wrap').hidden = matches.length === 0;
@@ -580,39 +589,65 @@ function fillOptions(list) {
   $('topic-list').replaceChildren(...[...topics].sort().map((t) => new Option(t)));
 }
 
-async function refresh() {
-  try {
+// Hidden and Track load first and on their own, never waiting on the slow lists. Repo rows stay hidden until they
+// arrive, so nothing you hid shows up and no click lands before them.
+const LISTS_RAW = 'https://raw.githubusercontent.com/Rafewm/github-trending-api-managed';
+let listsState = 'loading';
+let listsLoading = null;
+
+function loadLists() {
+  if (listsLoading) return listsLoading;
+  listsLoading = (async () => {
     const edits = listEdits;
-    const [res, versionRes] = await Promise.all([fetch('/api/repos'), fetch('/api/lists-version').catch(() => null)]);
+    try {
+      const res = await fetch('/api/lists-version');
+      if (!res.ok) throw new Error(`lists version: ${res.status}`);
+      const { version } = await res.json();
+      if (version !== listsVersion) {
+        // The files at an exact commit come from GitHub's file CDN: fast, current, and they don't use the server's token.
+        const get = async (name) => {
+          const raw = await fetch(`${LISTS_RAW}/${version}/lists/${name}.json`).catch(() => null);
+          if (raw?.ok) return raw.json();
+          const api = await fetch(`/api/${name}`);
+          if (!api.ok) throw new Error(`${name} list: ${api.status}`);
+          return api.json();
+        };
+        const [hiddenData, trackedData] = await Promise.all([get('hidden'), get('tracked')]);
+        // A click made while they downloaded isn't in them, so keep the page's lists and download again next time.
+        if (edits === listEdits) {
+          hidden = hiddenData;
+          tracked = trackedData;
+          listsVersion = version;
+        }
+      }
+      storeReady = true;
+      listsState = 'ready';
+    } catch (err) {
+      console.error(err);
+      storeReady = false;
+      // Without the store, show what this browser hid so the page stays usable; lists already loaded are kept.
+      if (listsState !== 'ready') {
+        hidden = localHidden();
+        listsState = 'failed';
+      }
+    } finally {
+      listsLoading = null;
+    }
+    render();
+  })();
+  return listsLoading;
+}
+
+async function refresh() {
+  loadLists();
+  try {
+    const res = await fetch('/api/repos');
     const data = await res.json();
     if (!res.ok) throw new Error(data.error);
-    const version = versionRes?.ok ? (await versionRes.json()).version : null;
-    // Without a working store, keep showing what this browser hid so the page stays usable.
-    storeReady = Boolean(version);
-    // A failed check keeps the lists already loaded; the browser's own copy is only for a first load without the store.
-    let hiddenData = storeReady || listsVersion ? hidden : localHidden();
-    let trackedData = tracked;
-    // The lists are large, so they're downloaded only on the first load and when another device changed them.
-    if (storeReady && version !== listsVersion) {
-      const [hiddenRes, trackedRes] = await Promise.all([fetch('/api/hidden'), fetch('/api/tracked')]);
-      if (hiddenRes.ok && trackedRes.ok) {
-        [hiddenData, trackedData] = await Promise.all([hiddenRes.json(), trackedRes.json()]);
-        if (edits === listEdits) listsVersion = version;
-      } else storeReady = false;
-    }
     if (FEEDS[view] && feeds[view][periodChoice[view]]) await loadFeed(view, periodChoice[view]);
     const first = !browse;
-    // A Hide or Track saved while this refresh was in flight beats the older lists it fetched.
-    const listsCurrent = edits === listEdits;
-    const changed =
-      first ||
-      JSON.stringify(data.repos) !== JSON.stringify(browse.repos) ||
-      (listsCurrent && JSON.stringify([hiddenData, trackedData]) !== JSON.stringify([hidden, tracked]));
+    const changed = first || JSON.stringify(data.repos) !== JSON.stringify(browse.repos);
     browse = data;
-    if (listsCurrent) {
-      hidden = hiddenData;
-      tracked = trackedData;
-    }
     if (first) fillOptions(browse.repos);
     if (changed || FEEDS[view]) render();
   } catch (err) {
@@ -666,4 +701,5 @@ window.addEventListener('focus', () => {
   refresh();
 });
 setSorts();
-refresh().then(moveLocalHidden);
+refresh();
+loadLists().then(moveLocalHidden);
