@@ -37,6 +37,10 @@ const DAY_MS = DAY * 1000;
 const NEW_FILE = `${DATA}/new/repos.json`;
 const NEW_FROM_FILE = ['365', '730'];
 const DATA_FILE_MS = 10 * 60 * 1000;
+// The slow lists (Browse, Releases, Twitter, New 3/30/90 days and all time, the HN all-time top) are built every few
+// hours by the data repo's Action (site/prebuild.mjs) into data/site/. Older files than this are rebuilt here instead.
+const SITE_DATA = `${DATA}/site`;
+const PREBUILT_MAX_MS = 12 * 60 * 60 * 1000;
 // Agent skills, MCP servers and agent tools, collected every 8 hours by the data repo's Action (script/skills.js).
 const SKILLS = `${DATA}/skills/skills.json`;
 const SKILL_TYPES = ['all', 'mcp', 'claude', 'codex', 'agent', 'skill', 'tool'];
@@ -263,7 +267,7 @@ async function loadHn(period) {
 
 // The whole collected year plus HN's best-ranked GitHub stories ever, one row per repo from its best story.
 async function loadHnAll() {
-  const [year, top] = await Promise.all([loadHn('year'), cached('hn:top', HN_TOP_MS, loadHnTop)]);
+  const [year, top] = await Promise.all([loadHn('year'), prebuilt('hn:top', HN_TOP_MS, loadHnTop)]);
   const best = new Map();
   for (const repo of [...year.repos, ...top.repos]) {
     const key = repo.name.toLowerCase();
@@ -274,35 +278,57 @@ async function loadHnAll() {
 
 // Every repo you starred, for lists too long to check 50 at a time over GraphQL.
 async function fetchAllStars() {
-  const page = (n) =>
-    // Oldest first, so a star added while the pages load lands on the last page instead of pushing one past a page boundary.
-    fetch(`https://api.github.com/user/starred?per_page=100&sort=created&direction=asc&page=${n}`, {
-      headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred' },
-    });
+  // Each page is ~500 KB and a body sometimes arrives cut off, so a page is tried up to 3 times, the body included.
+  const page = async (n, attempt = 1) => {
+    try {
+      // Oldest first, so a star added while the pages load lands on the last page instead of pushing one past a page boundary.
+      const res = await fetch(`https://api.github.com/user/starred?per_page=100&sort=created&direction=asc&page=${n}`, {
+        headers: { Authorization: `Bearer ${TOKEN}`, 'User-Agent': 'unstarred' },
+      });
+      if (!res.ok) {
+        const err = new Error(`GitHub request failed: ${res.status}${res.status === 401 ? '. Check your token.' : ''}`);
+        err.final = res.status === 401;
+        throw err;
+      }
+      return { link: res.headers.get('link'), repos: await res.json() };
+    } catch (err) {
+      if (attempt < 3 && !err.final) return page(n, attempt + 1);
+      throw err;
+    }
+  };
   const first = await page(1);
-  if (!first.ok) throw new Error(`GitHub request failed: ${first.status}${first.status === 401 ? '. Check your token.' : ''}`);
-  const last = Number(first.headers.get('link')?.match(/[?&]page=(\d+)>; rel="last"/)?.[1] ?? 1);
+  const last = Number(first.link?.match(/[?&]page=(\d+)>; rel="last"/)?.[1] ?? 1);
+  // A partial list would let starred repos through, so any page that still fails fails the whole load.
   const rest = await Promise.all(Array.from({ length: last - 1 }, (_, i) => page(i + 2)));
-  const failed = rest.find((res) => !res.ok);
-  // A partial list would let starred repos through, so any failed page fails the whole load.
-  if (failed) throw new Error(`GitHub request failed: ${failed.status}`);
-  const pages = await Promise.all([first, ...rest].map((res) => res.json()));
-  return pages.flat().map((repo) => repo.full_name.toLowerCase());
+  return [first, ...rest].flatMap((p) => p.repos).map((repo) => repo.full_name.toLowerCase());
 }
 
-// The full star list, at most a minute old and never served stale: every response is filtered with it, so a cached
-// list built before you starred something can't show it. Not in Redis, because the stale-while-refresh cache there
-// would hand back an old list.
+// The full star list, refreshed each minute. Once loaded, the previous list answers at once while the next one loads,
+// so no request waits on ~16 MB of pages; the page's own check of your newest stars covers that gap.
 let starsMemo = null;
-function allStars() {
-  if (!starsMemo || Date.now() - starsMemo.at > STARS_MS) {
-    const data = fetchAllStars();
-    starsMemo = { at: Date.now(), data };
-    data.catch(() => {
-      if (starsMemo?.data === data) starsMemo = null;
+let starsLoading = null;
+function refreshStars() {
+  starsLoading ??= fetchAllStars()
+    .then((list) => {
+      starsMemo = { at: Date.now(), list };
+      return list;
+    })
+    .finally(() => {
+      starsLoading = null;
     });
-  }
-  return starsMemo.data;
+  return starsLoading;
+}
+function allStars() {
+  if (!starsMemo) return refreshStars();
+  if (Date.now() - starsMemo.at > STARS_MS) refreshStars().catch((err) => console.error('stars refresh:', err.message));
+  return Promise.resolve(starsMemo.list);
+}
+
+// A list built by the Action, or built here (and kept in memory) when its file is missing or too old.
+async function prebuilt(key, ttl, load) {
+  const file = await dataFile(`${SITE_DATA}/${key.replace(':', '-')}.json`).catch(() => null);
+  if (file?.data && Date.now() - file.at < PREBUILT_MAX_MS) return file.data;
+  return cached(key, ttl, load);
 }
 
 async function loadSkills(type) {
@@ -335,14 +361,6 @@ async function fetchRecentStars(count) {
 
 async function respond(req, res, load) {
   try {
-    // ?warm=<anything> comes from the data repo's scheduled warm-up: it only starts a rebuild of a stale list, so it
-    // skips the star check and the body. The changing value also keeps the CDN from answering instead of the function.
-    if (new URL(req.url, 'http://localhost').searchParams.has('warm')) {
-      await load();
-      res.writeHead(204, { 'Cache-Control': 'no-store' });
-      res.end();
-      return;
-    }
     const [data, starred] = await Promise.all([load(), allStars()]);
     const kept = dropRecentStars(data, starred);
     // Repos with no stars are mostly empty or throwaway, so no list shows them.
@@ -361,7 +379,7 @@ async function respond(req, res, load) {
 }
 
 export function handleRepos(req, res) {
-  return respond(req, res, () => cached('trending', CACHE_MS, loadTrending));
+  return respond(req, res, () => prebuilt('trending', CACHE_MS, loadTrending));
 }
 
 // GET /api/hn?period=day|week|month|year|all
@@ -384,7 +402,7 @@ export function handleReleases(req, res) {
     res.end(JSON.stringify({ error: 'days must be 1, 7, 14, 30 or 365.' }));
     return;
   }
-  return respond(req, res, () => cached(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
+  return respond(req, res, () => prebuilt(`releases:${days}`, RELEASE_CACHE_MS, () => loadReleases(days)));
 }
 
 // GET /api/new?period=3|30|90|365|730|all
@@ -396,7 +414,7 @@ export function handleNew(req, res) {
     return;
   }
   if (NEW_FROM_FILE.includes(period)) return respond(req, res, () => loadNew(period));
-  return respond(req, res, () => cached(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
+  return respond(req, res, () => prebuilt(`new:${period}`, RELEASE_CACHE_MS, () => loadNew(period)));
 }
 
 // GET /api/skills?type=all|mcp|claude|codex|agent|skill|tool
@@ -431,5 +449,15 @@ export function handleTwitter(req, res) {
     res.end(JSON.stringify({ error: 'days must be 1, 7, 30 or 365.' }));
     return;
   }
-  return respond(req, res, () => cached(`twitter:${days}`, RELEASE_CACHE_MS, () => loadTwitter(days)));
+  return respond(req, res, () => prebuilt(`twitter:${days}`, RELEASE_CACHE_MS, () => loadTwitter(days)));
 }
+
+// What site/prebuild.mjs builds into data/site/ (key "a:b" is saved as a-b.json). Starred repos are left in: every
+// response drops them against the full star list, so a file never goes stale on that.
+export const PREBUILT = [
+  ['trending', loadTrending],
+  ...RELEASE_DAYS.map((d) => [`releases:${d}`, () => loadReleases(d)]),
+  ...TWITTER_DAYS.map((d) => [`twitter:${d}`, () => loadTwitter(d)]),
+  ...Object.keys(NEW_PERIODS).filter((p) => !NEW_FROM_FILE.includes(p)).map((p) => [`new:${p}`, () => loadNew(p)]),
+  ['hn:top', loadHnTop],
+];
