@@ -420,7 +420,9 @@ function render() {
   $('matches').textContent =
     `${matches.length.toLocaleString('en-US')} matches` +
     (failed.length ? ` · ${failed.join(' and ')} unavailable` : '') +
-    (listsState === 'failed' ? ' · Hidden and Track lists could not load; retrying when you come back to this tab' : '');
+    (listsState === 'failed' ? ' · Hidden and Track lists could not load; retrying when you come back to this tab' : '') +
+    (source()?.loadingMore ? ' · loading more...' : '') +
+    (source()?.loadError ? ` · could not load the rest: ${source().loadError}` : '');
   $('rows').innerHTML = matches.slice(0, limit).map(row).join('');
   $('more').hidden = matches.length <= limit;
   $('table-wrap').hidden = matches.length === 0;
@@ -442,19 +444,50 @@ function showLoading(text) {
   showError(text);
 }
 
-// Long lists come in pages (the server's responses must stay under 4.5 MB); fetch them all and join them.
-async function loadFeed(name, period) {
-  const pages = [];
-  for (let page = 0; ; page++) {
-    const res = await fetch(`${FEEDS[name].url(period)}&page=${page}`);
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error);
-    pages.push(data);
-    if (!data.more || page > 50) break;
+// Long lists come in pages of 5,000 (the server's responses must stay under 4.5 MB).
+async function fetchFeedPage(name, period, page) {
+  const res = await fetch(`${FEEDS[name].url(period)}&page=${page}`);
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error);
+  return data;
+}
+
+// Adds pages after the first until there are no more. A list rebuilt between two requests can shift a repo onto both.
+async function addPages(name, period, data, onPage) {
+  const seen = new Set(data.repos.map((r) => r.name));
+  for (let page = 1; page <= 50; page++) {
+    const next = await fetchFeedPage(name, period, page);
+    const added = next.repos.filter((r) => !seen.has(r.name));
+    added.forEach((r) => seen.add(r.name));
+    data.repos = data.repos.concat(added);
+    onPage?.(added);
+    if (!next.more) break;
   }
-  // A list rebuilt between two page requests can shift a repo onto both pages.
-  const repos = [...new Map(pages.flatMap((p) => p.repos).map((r) => [r.name, r])).values()];
-  const data = { ...pages[0], repos };
+}
+
+// First load: the first page shows at once and the rest load behind it, so a slow connection sees results early.
+async function loadFeed(name, period) {
+  const data = await fetchFeedPage(name, period, 0);
+  data.loadingMore = data.more;
+  feeds[name][period] = data;
+  fillOptions(data.repos);
+  if (!data.more) return;
+  const current = () => feeds[name][period] === data && view === name && periodChoice[name] === period;
+  addPages(name, period, data, (added) => {
+    fillOptions(added);
+    if (current()) render();
+  })
+    .catch((err) => (data.loadError = err.message))
+    .finally(() => {
+      data.loadingMore = false;
+      if (current()) render();
+    });
+}
+
+// Refresh: the whole new list is fetched first, so the shown list never shrinks back to its first page.
+async function reloadFeed(name, period) {
+  const data = await fetchFeedPage(name, period, 0);
+  if (data.more) await addPages(name, period, data);
   feeds[name][period] = data;
   fillOptions(data.repos);
 }
@@ -644,7 +677,9 @@ async function refresh() {
     const res = await fetch('/api/repos');
     const data = await res.json();
     if (!res.ok) throw new Error(data.error);
-    if (FEEDS[view] && feeds[view][periodChoice[view]]) await loadFeed(view, periodChoice[view]);
+    if (FEEDS[view] && feeds[view][periodChoice[view]] && !feeds[view][periodChoice[view]].loadingMore) {
+      await reloadFeed(view, periodChoice[view]);
+    }
     const first = !browse;
     const changed = first || JSON.stringify(data.repos) !== JSON.stringify(browse.repos);
     browse = data;
