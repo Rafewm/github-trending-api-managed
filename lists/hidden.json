@@ -95965,5 +95965,24 @@
    "svelte",
    "sveltejs"
   ]
+ },
+ "fastify/fast-json-stringify": {
+  "name": "fastify/fast-json-stringify",
+  "description": "JSON Schema-based library generating faster stringify functions for small payloads.",
+  "language": "JavaScript",
+  "languageColor": "#f1e05a",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 3710,
+  "pushedAt": "2026-11-22T15:20:29Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/24939410?s=40&v=4",
+  "topics": [
+   "json",
+   "stringify",
+   "speed",
+   "fastify-core"
+  ]
  }
 }
