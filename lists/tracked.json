@@ -21241,5 +21241,32 @@
    "unix-toolkit",
    "miller"
   ]
+ },
+ "DNSCrypt/dnscrypt-proxy": {
+  "name": "DNSCrypt/dnscrypt-proxy",
+  "description": "Flexible DNS proxy supporting modern encrypted DNS protocols.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 13875,
+  "pushedAt": "2026-11-22T13:46:20Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/34526273?s=40&v=4",
+  "topics": [
+   "dnscrypt",
+   "dnscrypt-proxy2",
+   "doh",
+   "dnscrypt-proxy",
+   "dns-over-https",
+   "dns",
+   "proxy",
+   "odoh",
+   "oblivious-doh",
+   "anonymized",
+   "anonymized-dns",
+   "oblivious-dns-over-https"
+  ]
  }
 }
