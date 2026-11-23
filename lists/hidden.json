@@ -95529,5 +95529,28 @@
    "proxy",
    "proxypool"
   ]
+ },
+ "justrach/nanobrew": {
+  "name": "justrach/nanobrew",
+  "description": "The fastest macOS package manager. Written in Zig. 3ms warm installs.",
+  "language": "Zig",
+  "languageColor": "#ec915c",
+  "day": {
+   "add": 3,
+   "pct": 0.2590673575129534
+  },
+  "week": null,
+  "month": null,
+  "stars": 1161,
+  "pushedAt": "2026-11-16T03:50:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/54503978?s=40&v=4",
+  "topics": [
+   "apt-get",
+   "homebrew",
+   "linux",
+   "macos",
+   "zig"
+  ]
  }
 }
