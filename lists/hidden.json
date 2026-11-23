@@ -96193,5 +96193,28 @@
    "golang",
    "pdf417"
   ]
+ },
+ "janbjorge/pgqueuer": {
+  "name": "janbjorge/pgqueuer",
+  "description": "High-performance Python job queue library leveraging PostgreSQL for real-time, concurrent background job processing.",
+  "language": "Python",
+  "languageColor": "#3572A5",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 1558,
+  "pushedAt": "2026-11-22T18:59:08Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/16663421?s=40&u=2471c5967d1e7153d16a610d68cfac4435b0b621&v=4",
+  "topics": [
+   "postgres",
+   "python",
+   "queue",
+   "asyncio",
+   "background-jobs",
+   "job-queue",
+   "postgresql",
+   "task-queue"
+  ]
  }
 }
