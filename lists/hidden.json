@@ -97236,5 +97236,28 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/16785467?s=40&v=4",
   "topics": []
+ },
+ "the1812/Malware-Patch": {
+  "name": "the1812/Malware-Patch",
+  "description": "通过 UAC 阻止流氓软件的管理员授权. / Prevent UAC authorization of malware.",
+  "language": "C#",
+  "languageColor": "#7355dd",
+  "day": {
+   "add": 2,
+   "pct": 0.03541703559412077
+  },
+  "week": null,
+  "month": null,
+  "stars": 5650,
+  "pushedAt": "2026-11-17T13:25:11Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/26504152?s=40&u=0360dd7ed7fe68d694ffa0658bba30b101aad7c6&v=4",
+  "topics": [
+   "malware-protection",
+   "windows",
+   "uac-authorization",
+   "csharp",
+   "wpf"
+  ]
  }
 }
