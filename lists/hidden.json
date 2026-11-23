@@ -95398,5 +95398,33 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/23558090?s=40&u=8033dca78038cf5ea97779318407f3408d181430&v=4",
   "topics": []
+ },
+ "SpolzerMod/yamusic-rs": {
+  "name": "SpolzerMod/yamusic-rs",
+  "description": "Неофициальный клиент Яндекс Музыки для Windows на Rust. Интерфейс как у официального приложения, один exe и около 65 МБ памяти вместо 850.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": {
+   "add": 111,
+   "pct": 73.50993377483444
+  },
+  "week": null,
+  "month": null,
+  "stars": 294,
+  "pushedAt": "2026-11-22T14:41:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/132726602?s=40&u=5904523d16c9eb9705832f1cf575f6e0502d6f63&v=4",
+  "topics": [
+   "desktop-app",
+   "electron-alternative",
+   "lightweight",
+   "music-player",
+   "rust",
+   "skia",
+   "slint",
+   "windows",
+   "yandex-music",
+   "yandex-music-client"
+  ]
  }
 }
