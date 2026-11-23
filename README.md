@@ -105,11 +105,12 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 
 ### Updating the data
 
-`.github/workflows/run.yml` runs `pnpm build` every 4 hours and on manual dispatch, then commits `data/`. To run it yourself:
+`.github/workflows/run.yml` runs `pnpm build` every 4 hours and on manual dispatch, then `node site/prebuild.mjs`, which builds the site's slow lists into `data/site/`, then commits `data/`. GitHub often starts scheduled runs late, so in practice it runs every 4 to 10 hours. To run it yourself:
 
 ```bash
 pnpm install
 pnpm build                    # GitHub Trending for every language, then Trendshift, Reddit and skills (about 30 minutes)
+node site/prebuild.mjs        # The site's slow lists into data/site/ (a few minutes; set GITHUB_TOKEN)
 node script/trendshift.js     # Trendshift step only
 node script/reddit.js         # Reddit step only
 node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
@@ -152,7 +153,8 @@ Both lists are JSON files on this repo's [`lists`](../../tree/lists) branch (`li
 | --- | --- |
 | `public/` | The page: `index.html`, `app.js`, `style.css`. No build step and no dependencies. |
 | `repos.js` | Sends lists in pages of 5,000 repos (`?page=0`, `1`, ... with `more: true` while more remain), since Vercel refuses responses over 4.5 MB; the page joins them. Repos with no stars are left out of every list. Loads trending data, GitHub search results, Hacker News stories and Release Monitor releases, adds GitHub details and drops starred repos (GraphQL `viewerHasStarred`, 50 repos per query, 3 queries at a time with retries, since GitHub refuses large bursts). Every response is also checked against your full starred list, at most a minute old, so a cached list can never show a repo you starred since. |
-| `cache.js` | Keeps each slow-to-build list (trending, Releases, Twitter, New 3/30/90 days and all time, HN all-time top) in the instance's memory; an old list is served while a new one is built in the background. Lists built from the collected data files (HN day to year, Skills, New 1 and 2 years) take seconds. There is no shared cache: a Redis copy used up the free Upstash plan. [`.github/workflows/warm.yml`](.github/workflows/warm.yml) asks for the slow lists every 30 minutes with `?warm=`, which only starts a rebuild, so they stay fresh without visitors. |
+| `cache.js` | Keeps a list built on the server in the instance's memory; an old list is served while a new one is built in the background. Used only when a prebuilt file is missing or more than 12 hours old. |
+| `prebuild.mjs` | Run by the data repo's Action: builds the slow lists (Browse, Releases, Twitter, New 3/30/90 days and all time, the HN all-time top) into `data/site/*.json`, so the site only reads files. Starred repos stay in the files; each response drops them against your full star list. A list that fails keeps its last good file. |
 | `hidden.js` | Hidden and tracked list APIs on the `lists` branch, through GitHub's contents API. A write is redone on top of any change made meanwhile. Writes need the `X-Hide-Key` header and every entry is validated. |
 | `trending.js` | Pure helpers for merging and filtering, covered by tests. |
 | `api/` | Vercel functions for the endpoints below. |

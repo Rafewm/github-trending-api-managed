@@ -40,6 +40,14 @@ jobs:
           # Used by script/skills.js for GitHub search's higher rate limit.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # The site's slow lists, built here so the site only reads files (site/prebuild.mjs writes data/site/).
+      # A failure here must not stop the collected data from being committed.
+      - name: Build the site's lists
+        run: node site/prebuild.mjs
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit and Push changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
