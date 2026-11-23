@@ -96308,5 +96308,34 @@
    "kubernetes",
    "metrics"
   ]
+ },
+ "pgplex/pgschema": {
+  "name": "pgplex/pgschema",
+  "description": "Terraform-style declarative schema migration CLI for Postgres that dumps, plans, and applies schema changes with concurrent change detection and transaction-adaptive execution.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 1094,
+  "pushedAt": "2026-11-22T16:28:29Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/255340196?s=40&v=4",
+  "topics": [
+   "gitops",
+   "postgres",
+   "postgresql",
+   "schema",
+   "schema-migration",
+   "schema-migrations",
+   "terraform",
+   "schema-change",
+   "cicd",
+   "ddl",
+   "devops",
+   "multi-tenant",
+   "schema-diff",
+   "cli"
+  ]
  }
 }
