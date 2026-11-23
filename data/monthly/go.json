@@ -2,16 +2,53 @@
   "title": "GitHub Go Languages Monthly Trending",
   "description": "Monthly Trending of Go Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Mon, 23 Nov 2026 05:43:13 GMT",
+  "pubDate": "Mon, 23 Nov 2026 19:49:01 GMT",
   "items": [
+    {
+      "title": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": "40,437",
+      "forks": "3,711",
+      "addStars": "20,728",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1206493?s=40&v=4",
+          "name": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67929842?s=40&v=4",
+          "name": "ggbdpq",
+          "url": "https://github.com/ggbdpq"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/71250493?s=40&v=4",
+          "name": "yinwu01",
+          "url": "https://github.com/yinwu01"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5812318?s=40&v=4",
+          "name": "waitingsnow",
+          "url": "https://github.com/waitingsnow"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        }
+      ]
+    },
     {
       "title": "ollama/ollama",
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "187,899",
-      "forks": "19,147",
+      "stars": "187,894",
+      "forks": "19,154",
       "addStars": "4,407",
       "contributors": [
         {
@@ -47,8 +84,8 @@
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "67,762",
-      "forks": "11,040",
+      "stars": "67,767",
+      "forks": "11,039",
       "addStars": "1,497",
       "contributors": [
         {
@@ -79,8 +116,8 @@
       "description": "Define and run multi-container applications with Docker",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "39,129",
-      "forks": "6,053",
+      "stars": "38,998",
+      "forks": "6,051",
       "addStars": "1,340",
       "contributors": [
         {
@@ -111,8 +148,8 @@
       "description": "Modern Docker Management, Designed for Everyone",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "10,313",
-      "forks": "585",
+      "stars": "10,339",
+      "forks": "584",
       "addStars": "2,328",
       "contributors": [
         {
@@ -143,8 +180,8 @@
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "39,632",
-      "forks": "922",
+      "stars": "39,656",
+      "forks": "927",
       "addStars": "1,070",
       "contributors": [
         {
@@ -175,8 +212,8 @@
       "description": "freehire — the open-source search engine for job seekers",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "3,644",
-      "forks": "396",
+      "stars": "3,659",
+      "forks": "400",
       "addStars": "1,157",
       "contributors": [
         {
@@ -203,7 +240,7 @@
       "language": "Go",
       "languageColor": "#00ADD8",
       "stars": "72,306",
-      "forks": "19,346",
+      "forks": "19,344",
       "addStars": "450",
       "contributors": [
         {
@@ -239,8 +276,8 @@
       "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "31,221",
-      "forks": "1,880",
+      "stars": "31,233",
+      "forks": "1,883",
       "addStars": "1,155",
       "contributors": [
         {
@@ -276,8 +313,8 @@
       "description": "Declarative Continuous Deployment for Kubernetes",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "24,680",
-      "forks": "8,114",
+      "stars": "24,675",
+      "forks": "8,116",
       "addStars": "260",
       "contributors": [
         {
@@ -308,8 +345,8 @@
       "description": "GitHub’s official command line tool",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "47,157",
-      "forks": "9,439",
+      "stars": "47,165",
+      "forks": "9,441",
       "addStars": "557",
       "contributors": [
         {
@@ -345,8 +382,8 @@
       "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "94,562",
-      "forks": "11,364",
+      "stars": "94,595",
+      "forks": "11,373",
       "addStars": "2,103",
       "contributors": [
         {
@@ -382,7 +419,7 @@
       "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "17,813",
+      "stars": "17,835",
       "forks": "1,720",
       "addStars": "1,786",
       "contributors": [
@@ -419,8 +456,8 @@
       "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "8,331",
-      "forks": "1,325",
+      "stars": "8,356",
+      "forks": "1,327",
       "addStars": "1,595",
       "contributors": [
         {
@@ -456,8 +493,8 @@
       "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "59,218",
-      "forks": "7,419",
+      "stars": "59,221",
+      "forks": "7,420",
       "addStars": "709",
       "contributors": [
         {
@@ -493,8 +530,8 @@
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "57,317",
-      "forks": "7,534",
+      "stars": "57,545",
+      "forks": "7,555",
       "addStars": "3,796",
       "contributors": [
         {
@@ -530,8 +567,8 @@
       "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "61,192",
-      "forks": "5,718",
+      "stars": "61,203",
+      "forks": "5,723",
       "addStars": "857",
       "contributors": [
         {
@@ -567,8 +604,8 @@
       "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "11,599",
-      "forks": "859",
+      "stars": "11,604",
+      "forks": "858",
       "addStars": "373",
       "contributors": [
         {
@@ -604,8 +641,8 @@
       "description": "Distributed reliable key-value store for the most critical data of a distributed system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "52,649",
-      "forks": "10,623",
+      "stars": "52,642",
+      "forks": "10,626",
       "addStars": "510",
       "contributors": [
         {
@@ -641,8 +678,8 @@
       "description": "The easiest, most secure way to use WireGuard and 2FA.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "39,488",
-      "forks": "3,533",
+      "stars": "39,532",
+      "forks": "3,536",
       "addStars": "1,636",
       "contributors": [
         {
@@ -678,8 +715,8 @@
       "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "18,170",
-      "forks": "1,814",
+      "stars": "18,175",
+      "forks": "1,816",
       "addStars": "315",
       "contributors": [
         {
@@ -715,9 +752,9 @@
       "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "16,399",
-      "forks": "6,037",
-      "addStars": "15,466",
+      "stars": "17,448",
+      "forks": "6,342",
+      "addStars": "16,515",
       "contributors": [],
       "source": "trendshift"
     },
@@ -727,9 +764,9 @@
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "5,702",
-      "forks": "793",
-      "addStars": "5,633",
+      "stars": "5,859",
+      "forks": "827",
+      "addStars": "5,786",
       "contributors": [],
       "source": "trendshift"
     },
@@ -739,21 +776,9 @@
       "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "7,696",
-      "forks": "896",
-      "addStars": "7,661",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "stars": "40,112",
-      "forks": "3,780",
-      "addStars": "13,195",
+      "stars": "8,015",
+      "forks": "931",
+      "addStars": "7,912",
       "contributors": [],
       "source": "trendshift"
     },
@@ -763,9 +788,9 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "55,445",
-      "forks": "4,800",
-      "addStars": "6,271",
+      "stars": "55,648",
+      "forks": "4,835",
+      "addStars": "6,469",
       "contributors": [],
       "source": "trendshift"
     },
@@ -775,9 +800,9 @@
       "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "122,196",
-      "forks": "7,807",
-      "addStars": "5,675",
+      "stars": "122,381",
+      "forks": "7,823",
+      "addStars": "5,860",
       "contributors": [],
       "source": "trendshift"
     },
@@ -787,9 +812,9 @@
       "description": "A command-line tool for Z-Library. Search, download, send to Kindle and WeRead, and integrate with AI agents.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "3,535",
-      "forks": "268",
-      "addStars": "2,302",
+      "stars": "3,680",
+      "forks": "279",
+      "addStars": "2,446",
       "contributors": [],
       "source": "trendshift"
     },
@@ -799,9 +824,9 @@
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "195,448",
+      "stars": "195,574",
       "forks": "13,723",
-      "addStars": "4,080",
+      "addStars": "4,202",
       "contributors": [],
       "source": "trendshift"
     },
@@ -811,9 +836,9 @@
       "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "2,677",
-      "forks": "278",
-      "addStars": "2,625",
+      "stars": "2,713",
+      "forks": "279",
+      "addStars": "2,655",
       "contributors": [],
       "source": "trendshift"
     },
@@ -823,9 +848,9 @@
       "description": "One self-hosted app for your shows, movies and music.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "2,754",
-      "forks": "183",
-      "addStars": "2,622",
+      "stars": "2,803",
+      "forks": "185",
+      "addStars": "2,673",
       "contributors": [],
       "source": "trendshift"
     },
@@ -835,9 +860,9 @@
       "description": "SSH, SFTP, port forwarding, VNC/RDP and an AI assistant、MCP in one native window — a Go desktop app built on Viva, with no webview.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "1,727",
-      "forks": "164",
-      "addStars": "1,368",
+      "stars": "1,757",
+      "forks": "169",
+      "addStars": "1,398",
       "contributors": [],
       "source": "trendshift"
     },
@@ -847,9 +872,9 @@
       "description": "Develop desktop apps with native UI or web frontend in Go",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "6,725",
-      "forks": "455",
-      "addStars": "2,894",
+      "stars": "6,757",
+      "forks": "457",
+      "addStars": "2,922",
       "contributors": [],
       "source": "trendshift"
     },
@@ -859,9 +884,9 @@
       "description": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "2,440",
-      "forks": "1,503",
-      "addStars": "1,501",
+      "stars": "2,493",
+      "forks": "1,526",
+      "addStars": "1,543",
       "contributors": [],
       "source": "trendshift"
     },
@@ -871,9 +896,9 @@
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "8,172",
-      "forks": "886",
-      "addStars": "2,184",
+      "stars": "8,213",
+      "forks": "897",
+      "addStars": "2,224",
       "contributors": [],
       "source": "trendshift"
     },
@@ -883,9 +908,9 @@
       "description": "Open source factory for one-shot engineering",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "10,135",
-      "forks": "762",
-      "addStars": "1,645",
+      "stars": "10,133",
+      "forks": "765",
+      "addStars": "1,643",
       "contributors": [],
       "source": "trendshift"
     },
@@ -895,9 +920,9 @@
       "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "4,515",
-      "forks": "3,727",
-      "addStars": "2,073",
+      "stars": "4,663",
+      "forks": "3,793",
+      "addStars": "2,219",
       "contributors": [],
       "source": "trendshift"
     },
@@ -907,9 +932,9 @@
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "10,151",
-      "forks": "493",
-      "addStars": "1,449",
+      "stars": "10,160",
+      "forks": "494",
+      "addStars": "1,458",
       "contributors": [],
       "source": "trendshift"
     },
@@ -919,9 +944,9 @@
       "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "59,255",
-      "forks": "9,843",
-      "addStars": "2,138",
+      "stars": "59,315",
+      "forks": "9,859",
+      "addStars": "2,198",
       "contributors": [],
       "source": "trendshift"
     },
@@ -931,9 +956,9 @@
       "description": "AI 自主渗透测试平台 · 多智能体自主渗透测试（二次开发自 ARTEX）",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "855",
-      "forks": "554",
-      "addStars": "797",
+      "stars": "864",
+      "forks": "563",
+      "addStars": "807",
       "contributors": [],
       "source": "trendshift"
     },
@@ -943,9 +968,9 @@
       "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "9,478",
-      "forks": "1,031",
-      "addStars": "1,318",
+      "stars": "9,496",
+      "forks": "1,032",
+      "addStars": "1,337",
       "contributors": [],
       "source": "trendshift"
     },
@@ -955,9 +980,9 @@
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "1,249",
-      "forks": "175",
-      "addStars": "1,196",
+      "stars": "1,251",
+      "forks": "177",
+      "addStars": "1,197",
       "contributors": [],
       "source": "trendshift"
     }
