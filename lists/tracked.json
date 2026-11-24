@@ -21871,5 +21871,25 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/300290919?v=4",
   "topics": []
+ },
+ "elastic/beats": {
+  "name": "elastic/beats",
+  "description": "Lightweight shippers for collecting and sending operational data to Elasticsearch.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 12655,
+  "pushedAt": "2026-11-23T19:01:48Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/6764390?s=40&v=4",
+  "topics": [
+   "metricbeat",
+   "filebeat",
+   "packetbeat",
+   "heartbeat",
+   "winlogbeat"
+  ]
  }
 }
