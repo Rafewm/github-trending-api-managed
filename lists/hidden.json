@@ -100134,5 +100134,25 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/5779821?s=40&u=5501cf3b3b317172f47220afadab40bccc48c03e&v=4",
   "topics": []
+ },
+ "monitor-probe/monitor": {
+  "name": "monitor-probe/monitor",
+  "description": "用 Rust 写的轻量级服务器探针 (Rust + axum + SQLite)",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 630,
+  "pushedAt": "2026-11-22T12:22:40Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/328050524?s=40&v=4",
+  "topics": [
+   "axum",
+   "monitoring",
+   "rust",
+   "sqlite",
+   "uptime"
+  ]
  }
 }
