@@ -22161,5 +22161,25 @@
    "parser",
    "serializer"
   ]
+ },
+ "planetscale/cli": {
+  "name": "planetscale/cli",
+  "description": "Command line tool for managing PlanetScale database branches, deploy requests, and related operations.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 675,
+  "pushedAt": "2026-11-24T04:17:04Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/35612527?s=40&v=4",
+  "topics": [
+   "database",
+   "planetscale",
+   "go",
+   "mysql",
+   "mysql-client"
+  ]
  }
 }
