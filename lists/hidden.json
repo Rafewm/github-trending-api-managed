@@ -99197,5 +99197,22 @@
    "gem",
    "rubygem"
   ]
+ },
+ "agentverse-os/AgentVerse-OS": {
+  "name": "agentverse-os/AgentVerse-OS",
+  "description": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": null,
+  "week": {
+   "add": 79,
+   "pct": 12.172573189522343
+  },
+  "month": null,
+  "stars": 850,
+  "pushedAt": "2026-10-25T11:34:15Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/328451092?s=40&v=4",
+  "topics": []
  }
 }
