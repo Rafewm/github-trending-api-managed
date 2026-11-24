@@ -21933,5 +21933,46 @@
    "unison-language",
    "hacktoberfest"
   ]
+ },
+ "femboyisp/yip": {
+  "name": "femboyisp/yip",
+  "description": "Low-latency P2P mesh VPN in Rust. Reed–Solomon FEC loss immunity, Post-Quantum, 40 Gbps AF_XDP, multi-core scaling, NAT traversal, decentralized CA, self-certifying routing, DAITA, and anti-DPI TLS mimicry.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": {
+   "add": 94,
+   "pct": 72.3076923076923
+  },
+  "week": {
+   "add": 94,
+   "pct": 72.3076923076923
+  },
+  "month": null,
+  "stars": 239,
+  "pushedAt": "2026-11-24T05:34:25Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/182854818?s=40&v=4",
+  "topics": [
+   "censorship-resistance",
+   "dpi-evasion",
+   "io-uring",
+   "low-latency",
+   "mesh-vpn",
+   "nat-traversal",
+   "p2p",
+   "reed-solomon",
+   "rust",
+   "tunnel",
+   "vpn",
+   "wireguard-alternative",
+   "networking",
+   "privacy",
+   "af-xdp",
+   "ebpf",
+   "fec",
+   "zero-copy",
+   "zero-trust",
+   "postquantum"
+  ]
  }
 }
