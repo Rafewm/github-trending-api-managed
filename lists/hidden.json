@@ -99495,5 +99495,28 @@
    "obsidian",
    "obsidian-plugin"
   ]
+ },
+ "commanded/eventstore": {
+  "name": "commanded/eventstore",
+  "description": "Event store implemented in Elixir using PostgreSQL for persistence.",
+  "language": "Elixir",
+  "languageColor": "#6e4a7e",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 1164,
+  "pushedAt": "2026-11-24T05:06:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/31540302?s=40&v=4",
+  "topics": [
+   "cqrs",
+   "eventstore",
+   "elixir",
+   "event-sourcing",
+   "postgresql",
+   "database",
+   "cqrs-es",
+   "commanded"
+  ]
  }
 }
