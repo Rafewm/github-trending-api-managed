@@ -99884,5 +99884,27 @@
    "zoom",
    "pan"
   ]
+ },
+ "databricks/terraform-provider-databricks": {
+  "name": "databricks/terraform-provider-databricks",
+  "description": "Terraform provider enabling management of Databricks resources and infrastructure.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 622,
+  "pushedAt": "2026-11-23T15:00:27Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/4998052?s=40&v=4",
+  "topics": [
+   "databricks",
+   "terraform-provider",
+   "aws",
+   "azure",
+   "terraform",
+   "gcp",
+   "databricks-automation"
+  ]
  }
 }
