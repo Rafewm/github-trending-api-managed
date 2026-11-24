@@ -98710,5 +98710,19 @@
    "llm",
    "security"
   ]
+ },
+ "jvm-profiling-tools/perf-map-agent": {
+  "name": "jvm-profiling-tools/perf-map-agent",
+  "description": "A java agent to generate method mappings to use with the linux `perf` tool",
+  "language": "C",
+  "languageColor": "",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 1701,
+  "pushedAt": "2020-08-28T20:44:09Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/jvm-profiling-tools?s=40",
+  "topics": []
  }
 }
