@@ -99555,5 +99555,40 @@
    "package-manager",
    "installer"
   ]
+ },
+ "wundergraph/graphql-go-tools": {
+  "name": "wundergraph/graphql-go-tools",
+  "description": "Golang-based GraphQL router and API gateway framework focusing on correctness, extensibility, and high performance with support for Federation and subscriptions.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 839,
+  "pushedAt": "2026-11-23T22:29:18Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/64281914?s=40&v=4",
+  "topics": [
+   "graphql",
+   "golang",
+   "lexer",
+   "parser",
+   "linter",
+   "validation",
+   "parsing",
+   "ast",
+   "printing",
+   "ast-parser",
+   "ast-printer",
+   "ast-transformation",
+   "ast-visitor",
+   "ast-normalization",
+   "introspection",
+   "introspection-query",
+   "execution",
+   "execution-engine",
+   "complexity-analysis",
+   "graphql-tools"
+  ]
  }
 }
