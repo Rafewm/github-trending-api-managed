@@ -99707,5 +99707,25 @@
    "gpu",
    "nvidia"
   ]
+ },
+ "ciotlosm/lovelace-thermostat-dark-card": {
+  "name": "ciotlosm/lovelace-thermostat-dark-card",
+  "description": "Nest-style Home Assistant thermostat card with a round SVG dial supporting heat/cool modes, preset indicators, ring drag control, and dark, light, and transparent themes.",
+  "language": "TypeScript",
+  "languageColor": "#3178c6",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 748,
+  "pushedAt": "2026-11-24T04:08:29Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/7738048?s=40&u=13929b528eb84b66f95f01c371de605ff8cb439f&v=4",
+  "topics": [
+   "home-assistant",
+   "lovelace",
+   "custom-cards",
+   "thermostat",
+   "hacs"
+  ]
  }
 }
