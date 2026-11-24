@@ -99537,5 +99537,23 @@
    "cli",
    "ansi"
   ]
+ },
+ "cashapp/hermit": {
+  "name": "cashapp/hermit",
+  "description": "Installs isolated, self-contained toolsets for consistent software project environments on Linux and Mac.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 954,
+  "pushedAt": "2026-11-24T03:45:58Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/49219790?s=40&v=4",
+  "topics": [
+   "hermetic",
+   "package-manager",
+   "installer"
+  ]
  }
 }
