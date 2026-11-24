@@ -2,7 +2,7 @@
   "title": "GitHub C Languages Monthly Trending",
   "description": "Monthly Trending of C Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Tue, 24 Nov 2026 04:35:51 GMT",
+  "pubDate": "Tue, 24 Nov 2026 19:19:27 GMT",
   "items": [
     {
       "title": "php/php-src",
@@ -10,8 +10,8 @@
       "description": "The PHP Interpreter",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "41,858",
-      "forks": "8,533",
+      "stars": "41,859",
+      "forks": "8,532",
       "addStars": "406",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "12,621",
-      "forks": "1,956",
+      "stars": "12,645",
+      "forks": "1,960",
       "addStars": "3,525",
       "contributors": [
         {
@@ -84,8 +84,8 @@
       "description": "General purpose TLS and crypto library",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "31,521",
-      "forks": "11,642",
+      "stars": "31,525",
+      "forks": "11,645",
       "addStars": "603",
       "contributors": [
         {
@@ -121,8 +121,8 @@
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "53,181",
-      "forks": "6,437",
+      "stars": "53,293",
+      "forks": "6,444",
       "addStars": "9,771",
       "contributors": [
         {
@@ -153,13 +153,45 @@
       ]
     },
     {
+      "title": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "12,848",
+      "forks": "1,673",
+      "addStars": "726",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
+          "name": "Cyan4973",
+          "url": "https://github.com/Cyan4973"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
+          "name": "inikep",
+          "url": "https://github.com/inikep"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
+          "name": "t-mat",
+          "url": "https://github.com/t-mat"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
+          "name": "felixhandte",
+          "url": "https://github.com/felixhandte"
+        }
+      ]
+    },
+    {
       "title": "obsproject/obs-studio",
       "url": "https://github.com/obsproject/obs-studio",
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "79,988",
-      "forks": "11,343",
+      "stars": "80,033",
+      "forks": "11,358",
       "addStars": "2,704",
       "contributors": [
         {
@@ -195,8 +227,8 @@
       "description": "🎥 Command line media player",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "38,273",
-      "forks": "3,694",
+      "stars": "38,281",
+      "forks": "3,693",
       "addStars": "829",
       "contributors": [
         {
@@ -232,8 +264,8 @@
       "description": "Unofficial native Nuvio client for LG webOS 3+, Samsung Tizen 4+, GoogleTV 7+. C/SDL2/GLES2 on LG and on Samsung (native .tpk, Tizen 4.0-9), plus a WebAssembly .wgt for Tizen 5.5+. Install from the Homebrew Channel or the releases.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "613",
-      "forks": "80",
+      "stars": "617",
+      "forks": "82",
       "addStars": "328",
       "contributors": [
         {
@@ -269,7 +301,7 @@
       "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "77,637",
+      "stars": "77,668",
       "forks": "24,976",
       "addStars": "1,334",
       "contributors": [
@@ -306,8 +338,8 @@
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "141,337",
-      "forks": "8,731",
+      "stars": "141,353",
+      "forks": "8,734",
       "addStars": "2,057",
       "contributors": [
         {
@@ -343,8 +375,8 @@
       "description": "An advanced Kernel based root solution for Android",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,956",
-      "forks": "1,303",
+      "stars": "4,969",
+      "forks": "1,304",
       "addStars": "416",
       "contributors": [
         {
@@ -380,8 +412,8 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "6,162",
-      "forks": "1,027",
+      "stars": "6,165",
+      "forks": "1,028",
       "addStars": "459",
       "contributors": [
         {
@@ -417,8 +449,8 @@
       "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,176",
-      "forks": "10,558",
+      "stars": "17,178",
+      "forks": "10,568",
       "addStars": "332",
       "contributors": [
         {
@@ -454,8 +486,8 @@
       "description": "The official NGINX Open Source repository.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "33,083",
-      "forks": "8,395",
+      "stars": "33,174",
+      "forks": "8,392",
       "addStars": "1,164",
       "contributors": [
         {
@@ -528,8 +560,8 @@
       "description": "ClamAV - Documentation is here: https://docs.clamav.net",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "7,712",
-      "forks": "988",
+      "stars": "7,718",
+      "forks": "991",
       "addStars": "298",
       "contributors": [
         {
@@ -565,8 +597,8 @@
       "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "43,659",
-      "forks": "7,503",
+      "stars": "43,667",
+      "forks": "7,509",
       "addStars": "667",
       "contributors": [
         {
@@ -602,8 +634,8 @@
       "description": "ehviewer，用爱发电，快乐前行",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "29,516",
-      "forks": "790",
+      "stars": "29,546",
+      "forks": "791",
       "addStars": "1,487",
       "contributors": [
         {
@@ -639,8 +671,8 @@
       "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "19,577",
-      "forks": "8,616",
+      "stars": "19,584",
+      "forks": "8,613",
       "addStars": "275",
       "contributors": [
         {
@@ -676,9 +708,9 @@
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "8,144",
-      "forks": "658",
-      "addStars": "5,574",
+      "stars": "8,200",
+      "forks": "665",
+      "addStars": "5,630",
       "contributors": [],
       "source": "trendshift"
     },
@@ -688,9 +720,9 @@
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "20,887",
-      "forks": "2,187",
-      "addStars": "7,050",
+      "stars": "20,945",
+      "forks": "2,202",
+      "addStars": "7,105",
       "contributors": [],
       "source": "trendshift"
     },
@@ -700,9 +732,9 @@
       "description": "",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "4,354",
-      "forks": "377",
-      "addStars": "3,955",
+      "stars": "4,357",
+      "forks": "379",
+      "addStars": "3,958",
       "contributors": [],
       "source": "trendshift"
     },
@@ -712,9 +744,9 @@
       "description": "Emulate macOS on iOS and iPadOS",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,618",
-      "forks": "235",
-      "addStars": "2,410",
+      "stars": "2,621",
+      "forks": "240",
+      "addStars": "2,413",
       "contributors": [],
       "source": "trendshift"
     },
@@ -724,9 +756,9 @@
       "description": "A compatibility layer for porting Switch games to Android, one game at a time",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,993",
-      "forks": "269",
-      "addStars": "1,491",
+      "stars": "2,015",
+      "forks": "273",
+      "addStars": "1,517",
       "contributors": [],
       "source": "trendshift"
     },
@@ -736,9 +768,9 @@
       "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "5,048",
-      "forks": "306",
-      "addStars": "2,500",
+      "stars": "5,088",
+      "forks": "315",
+      "addStars": "2,537",
       "contributors": [],
       "source": "trendshift"
     },
@@ -748,9 +780,9 @@
       "description": "DPI bypass multi platform",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "17,614",
+      "stars": "17,620",
       "forks": "1,297",
-      "addStars": "1,280",
+      "addStars": "1,286",
       "contributors": [],
       "source": "trendshift"
     },
@@ -760,9 +792,9 @@
       "description": "Linux kernel source tree",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "256,470",
+      "stars": "256,515",
       "forks": "62,802",
-      "addStars": "2,627",
+      "addStars": "2,679",
       "contributors": [],
       "source": "trendshift"
     },
@@ -772,9 +804,9 @@
       "description": "Turn Amazon Echos (Echo Dot 3, Echo Dot 2, Echo 2) into local Home Assistant voice satellites. Keeps Amazon's mic processing and wake word engine, replaces Alexa with a small C daemon speaking ESPHome or Wyoming. Multiroom music via Music Assistant, Bluetooth speaker and proxy, no cloud.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,478",
-      "forks": "127",
-      "addStars": "1,204",
+      "stars": "1,493",
+      "forks": "130",
+      "addStars": "1,218",
       "contributors": [],
       "source": "trendshift"
     },
@@ -784,9 +816,9 @@
       "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "68,008",
+      "stars": "68,059",
       "forks": "13,202",
-      "addStars": "1,914",
+      "addStars": "1,967",
       "contributors": [],
       "source": "trendshift"
     },
@@ -796,33 +828,21 @@
       "description": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,736",
-      "forks": "125",
-      "addStars": "1,656",
+      "stars": "1,758",
+      "forks": "132",
+      "addStars": "1,677",
       "contributors": [],
       "source": "trendshift"
     },
     {
       "title": "Lucas-blip-png/dkb-pc-recomp",
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
-      "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.4.0: Snow World and Glacier device loss fixed on NVIDIA, AMD device loss fixed for testers, crashes guarded, DLC and mods, .nx input, Linux AppImage, heavy scene ~58 fps. Roadmap: #10. No game files included.",
+      "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,374",
-      "forks": "82",
-      "addStars": "1,258",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "sostenesfreitas/ocarina-recomp",
-      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
-      "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,258",
-      "forks": "95",
-      "addStars": "1,223",
+      "stars": "1,392",
+      "forks": "84",
+      "addStars": "1,282",
       "contributors": [],
       "source": "trendshift"
     },
@@ -832,9 +852,21 @@
       "description": "A free Windows-compatible Operating System",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "2,101",
-      "forks": "166",
-      "addStars": "1,268",
+      "stars": "2,152",
+      "forks": "175",
+      "addStars": "1,317",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "sostenesfreitas/ocarina-recomp",
+      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+      "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,260",
+      "forks": "96",
+      "addStars": "1,224",
       "contributors": [],
       "source": "trendshift"
     },
@@ -844,9 +876,9 @@
       "description": "Native UI components for C: about 150 of them, with spring motion and full keyboard support. Windows, macOS and Linux, no dependencies.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,246",
-      "forks": "93",
-      "addStars": "1,155",
+      "stars": "1,255",
+      "forks": "100",
+      "addStars": "1,164",
       "contributors": [],
       "source": "trendshift"
     },
@@ -868,9 +900,21 @@
       "description": "Display and control your Android device",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "155,509",
+      "stars": "155,566",
       "forks": "14,402",
-      "addStars": "1,837",
+      "addStars": "1,891",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "shirudo-dev/shirudo",
+      "url": "https://github.com/shirudo-dev/shirudo",
+      "description": "eBPF-based security platform",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": "1,431",
+      "forks": "0",
+      "addStars": "1,396",
       "contributors": [],
       "source": "trendshift"
     },
@@ -880,9 +924,9 @@
       "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,548",
+      "stars": "1,551",
       "forks": "49",
-      "addStars": "721",
+      "addStars": "723",
       "contributors": [],
       "source": "trendshift"
     },
@@ -892,33 +936,9 @@
       "description": "maxxing the ability to run different LLMs on the smallest devices possible",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,123",
+      "stars": "1,124",
       "forks": "63",
-      "addStars": "1,097",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "12,837",
-      "forks": "1,657",
-      "addStars": "660",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "mxhm11cr/LinuxRunner",
-      "url": "https://github.com/mxhm11cr/LinuxRunner",
-      "description": "Run ARM64 Linux userspace and desktop applications on iPhone and iPad.",
-      "language": "C",
-      "languageColor": "#555555",
-      "stars": "1,140",
-      "forks": "81",
-      "addStars": "730",
+      "addStars": "1,098",
       "contributors": [],
       "source": "trendshift"
     }
