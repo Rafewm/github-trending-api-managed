@@ -99292,5 +99292,28 @@
    "sqlite",
    "sqlserver"
   ]
+ },
+ "quic-go/quic-go": {
+  "name": "quic-go/quic-go",
+  "description": "Implementation of the QUIC protocol in Go with support for HTTP/3.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 11852,
+  "pushedAt": "2026-11-24T02:45:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/117172986?s=40&v=4",
+  "topics": [
+   "quic",
+   "quic-server",
+   "protocol",
+   "quic-client",
+   "golang",
+   "go",
+   "http3",
+   "qlog"
+  ]
  }
 }
