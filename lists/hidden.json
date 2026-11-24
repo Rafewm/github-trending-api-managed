@@ -99906,5 +99906,57 @@
    "gcp",
    "databricks-automation"
   ]
+ },
+ "chainloop-dev/chainloop": {
+  "name": "chainloop-dev/chainloop",
+  "description": "Evidence store and policy engine for Software Supply Chain attestations, SBOMs, VEX, SARIF, and QA reports.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 617,
+  "pushedAt": "2026-11-23T21:42:34Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/106605426?s=40&v=4",
+  "topics": [
+   "compliance",
+   "cyclonedx",
+   "devsecops",
+   "sbom",
+   "spdx",
+   "supply-chain-security",
+   "attestation",
+   "in-toto",
+   "slsa",
+   "agentic-sdlc",
+   "ai-agents",
+   "ai-governance",
+   "ai-sessions",
+   "autonomous-agents",
+   "coding-agents",
+   "guardrails",
+   "policy-as-code",
+   "provenance",
+   "software-factory",
+   "vex"
+  ]
+ },
+ "Moyf/moys-asr-workflow": {
+  "name": "Moyf/moys-asr-workflow",
+  "description": "ASR-based subtitle generation and editing workflow with an editor, server, API, and CLI for producing SRT and .mosp formats.",
+  "language": "JavaScript",
+  "languageColor": "#f1e05a",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 617,
+  "pushedAt": "2026-11-24T05:01:52Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/4013062?s=40&u=d1cbcb6319ef19c569ce983843092c099e291dc0&v=4",
+  "topics": [
+   "asr",
+   "workflow"
+  ]
  }
 }
