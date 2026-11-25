@@ -101511,5 +101511,30 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/288613?s=40&v=4",
   "topics": []
+ },
+ "logitcai/tinybrain": {
+  "name": "logitcai/tinybrain",
+  "description": "A Chinese-first small language model built from scratch: open 60B-token dataset, tokenizer, mHC + Engram + MoE model, pretraining through RL, all in PyTorch. 从零做中文小模型，数据和代码全部开源",
+  "language": "Python",
+  "languageColor": "#3572A5",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 466,
+  "pushedAt": "2026-11-23T08:28:01Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/203930821?s=40&u=00296713c9be684b5c90065b254ad8070eb947e8&v=4",
+  "topics": [
+   "chinese",
+   "dataset",
+   "from-scratch",
+   "language-model",
+   "llm",
+   "mixture-of-experts",
+   "muon",
+   "pretraining",
+   "pytorch",
+   "reinforcement-learning"
+  ]
  }
 }
