@@ -2,7 +2,7 @@
   "title": "GitHub All Languages Weekly Trending",
   "description": "Weekly Trending of All Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Wed, 25 Nov 2026 03:21:56 GMT",
+  "pubDate": "Wed, 25 Nov 2026 13:53:34 GMT",
   "items": [
     {
       "title": "backnotprop/plannotator",
@@ -10,8 +10,8 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "14,920",
-      "forks": "1,438",
+      "stars": "15,014",
+      "forks": "1,444",
       "addStars": "1,956",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "12,714",
-      "forks": "1,526",
+      "stars": "12,863",
+      "forks": "1,533",
       "addStars": "2,626",
       "contributors": [
         {
@@ -84,8 +84,8 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "10,846",
-      "forks": "822",
+      "stars": "10,964",
+      "forks": "830",
       "addStars": "2,494",
       "contributors": [
         {
@@ -111,13 +111,50 @@
       ]
     },
     {
+      "title": "n8n-io/nod",
+      "url": "https://github.com/n8n-io/nod",
+      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "3,430",
+      "forks": "557",
+      "addStars": "1,011",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11021461?s=40&v=4",
+          "name": "aalises",
+          "url": "https://github.com/aalises"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16818300?s=40&v=4",
+          "name": "frstavares",
+          "url": "https://github.com/frstavares"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5963309?s=40&v=4",
+          "name": "johancutych",
+          "url": "https://github.com/johancutych"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17594215?s=40&v=4",
+          "name": "BerniWittmann",
+          "url": "https://github.com/BerniWittmann"
+        }
+      ]
+    },
+    {
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "56,090",
-      "forks": "4,633",
+      "stars": "56,257",
+      "forks": "4,641",
       "addStars": "2,638",
       "contributors": [
         {
@@ -153,8 +190,8 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "74,315",
-      "forks": "6,550",
+      "stars": "74,794",
+      "forks": "6,591",
       "addStars": "5,369",
       "contributors": [
         {
@@ -185,8 +222,8 @@
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "59,233",
-      "forks": "4,881",
+      "stars": "59,310",
+      "forks": "4,888",
       "addStars": "1,258",
       "contributors": [
         {
@@ -217,8 +254,8 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "8,320",
-      "forks": "1,539",
+      "stars": "8,407",
+      "forks": "1,548",
       "addStars": "1,504",
       "contributors": [
         {
@@ -249,8 +286,8 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "21,594",
-      "forks": "2,174",
+      "stars": "21,682",
+      "forks": "2,180",
       "addStars": "1,753",
       "contributors": [
         {
@@ -286,8 +323,8 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "32,902",
-      "forks": "2,579",
+      "stars": "33,022",
+      "forks": "2,586",
       "addStars": "2,890",
       "contributors": [
         {
@@ -318,7 +355,7 @@
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "language": "Objective-C",
       "languageColor": "#438eff",
-      "stars": "2,493",
+      "stars": "2,506",
       "forks": "206",
       "addStars": "328",
       "contributors": [
@@ -355,8 +392,8 @@
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
       "languageColor": "#701516",
-      "stars": "17,791",
-      "forks": "1,547",
+      "stars": "17,867",
+      "forks": "1,554",
       "addStars": "1,567",
       "contributors": [
         {
@@ -387,8 +424,8 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "31,717",
-      "forks": "2,860",
+      "stars": "31,809",
+      "forks": "2,865",
       "addStars": "3,278",
       "contributors": [
         {
@@ -424,8 +461,8 @@
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "10,742",
-      "forks": "921",
+      "stars": "10,946",
+      "forks": "930",
       "addStars": "2,993",
       "contributors": [
         {
@@ -463,9 +500,9 @@
       "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "7,870",
+      "stars": "8,100",
       "forks": "889",
-      "addStars": "7,613",
+      "addStars": "7,844",
       "contributors": [],
       "source": "trendshift"
     },
@@ -475,9 +512,9 @@
       "description": "An attempt at running GTA VI on PC",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "11,489",
+      "stars": "11,965",
       "forks": "1,375",
-      "addStars": "9,212",
+      "addStars": "9,811",
       "contributors": [],
       "source": "trendshift"
     },
@@ -487,21 +524,9 @@
       "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
       "language": "Objective-C++",
       "languageColor": "",
-      "stars": "3,406",
+      "stars": "3,713",
       "forks": "129",
-      "addStars": "3,362",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "4lwayz/portwatch-vi",
-      "url": "https://github.com/4lwayz/portwatch-vi",
-      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": "2,931",
-      "forks": "55",
-      "addStars": "2,849",
+      "addStars": "3,667",
       "contributors": [],
       "source": "trendshift"
     },
@@ -511,9 +536,21 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "77,605",
-      "forks": "13,841",
-      "addStars": "6,218",
+      "stars": "78,709",
+      "forks": "14,682",
+      "addStars": "7,344",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": "3,289",
+      "forks": "55",
+      "addStars": "3,269",
       "contributors": [],
       "source": "trendshift"
     },
@@ -523,9 +560,9 @@
       "description": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "4,472",
+      "stars": "4,696",
       "forks": "944",
-      "addStars": "2,159",
+      "addStars": "2,364",
       "contributors": [],
       "source": "trendshift"
     },
@@ -535,9 +572,9 @@
       "description": "An (experimental) CLI for the Gemini API",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "2,464",
-      "forks": "151",
-      "addStars": "1,891",
+      "stars": "2,796",
+      "forks": "201",
+      "addStars": "2,231",
       "contributors": [],
       "source": "trendshift"
     },
@@ -547,9 +584,9 @@
       "description": "eBPF-based security platform",
       "language": "C",
       "languageColor": "#555555",
-      "stars": "1,743",
+      "stars": "1,989",
       "forks": "125",
-      "addStars": "1,667",
+      "addStars": "1,912",
       "contributors": [],
       "source": "trendshift"
     },
@@ -559,57 +596,9 @@
       "description": "Truly independent web browser",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": "68,833",
-      "forks": "3,473",
-      "addStars": "1,577",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "pierridotite/mobile-agent-testers",
-      "url": "https://github.com/pierridotite/mobile-agent-testers",
-      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "1,862",
-      "forks": "169",
-      "addStars": "1,382",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "os6/nospeaker",
-      "url": "https://github.com/os6/nospeaker",
-      "description": "make your macbook's trackpad talk using its haptic motor",
-      "language": "Swift",
-      "languageColor": "#F05138",
-      "stars": "1,764",
-      "forks": "82",
-      "addStars": "1,372",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "21,612",
-      "forks": "2,180",
-      "addStars": "3,888",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "nickrunning/wechat-selkies",
-      "url": "https://github.com/nickrunning/wechat-selkies",
-      "description": "基于Selkies的Linux网页版微信/QQ/Telegram，支持本地中文输入法，支持三方应用，支持AMD64和ARM64。",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "4,349",
-      "forks": "438",
-      "addStars": "1,233",
+      "stars": "69,012",
+      "forks": "3,531",
+      "addStars": "1,779",
       "contributors": [],
       "source": "trendshift"
     },
@@ -619,9 +608,45 @@
       "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "136,348",
-      "forks": "9,553",
-      "addStars": "3,404",
+      "stars": "137,272",
+      "forks": "9,685",
+      "addStars": "4,419",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "pierridotite/mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "2,075",
+      "forks": "169",
+      "addStars": "1,624",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "22,219",
+      "forks": "2,310",
+      "addStars": "4,647",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "language": "Swift",
+      "languageColor": "#F05138",
+      "stars": "1,821",
+      "forks": "82",
+      "addStars": "1,435",
       "contributors": [],
       "source": "trendshift"
     },
@@ -631,21 +656,9 @@
       "description": "A GPU-accelerated, open-source UI framework for Rust that combines immediate and retained modes.",
       "language": "",
       "languageColor": "",
-      "stars": "1,644",
+      "stars": "1,889",
       "forks": "14",
-      "addStars": "1,589",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "xerj-org/xerj",
-      "url": "https://github.com/xerj-org/xerj",
-      "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "21,380",
-      "forks": "1,913",
-      "addStars": "1,962",
+      "addStars": "1,842",
       "contributors": [],
       "source": "trendshift"
     },
@@ -655,21 +668,21 @@
       "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": "19,405",
-      "forks": "7,034",
-      "addStars": "3,176",
+      "stars": "20,052",
+      "forks": "7,507",
+      "addStars": "3,862",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": "477,269",
-      "forks": "118,161",
-      "addStars": "3,223",
+      "title": "nickrunning/wechat-selkies",
+      "url": "https://github.com/nickrunning/wechat-selkies",
+      "description": "基于Selkies的Linux网页版微信/QQ/Telegram，支持本地中文输入法，支持三方应用，支持AMD64和ARM64。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "4,415",
+      "forks": "508",
+      "addStars": "1,310",
       "contributors": [],
       "source": "trendshift"
     },
@@ -679,33 +692,9 @@
       "description": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": "5,186",
-      "forks": "885",
-      "addStars": "2,156",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "XiaoYouChR/Ghost-Downloader-3",
-      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "description": "The only downloader you need. 下载器的集大成者。",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": "17,402",
-      "forks": "1,064",
-      "addStars": "2,369",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "EL4CTEO/fast-anything",
-      "url": "https://github.com/EL4CTEO/fast-anything",
-      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
-      "language": "Rust",
-      "languageColor": "#dea584",
-      "stars": "3,622",
-      "forks": "249",
-      "addStars": "1,787",
+      "stars": "5,670",
+      "forks": "955",
+      "addStars": "2,649",
       "contributors": [],
       "source": "trendshift"
     },
@@ -715,9 +704,45 @@
       "description": "MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors. https://mroffice.ai",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": "3,861",
+      "stars": "4,509",
       "forks": "401",
-      "addStars": "1,875",
+      "addStars": "2,443",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": "477,896",
+      "forks": "118,419",
+      "addStars": "3,911",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": "17,867",
+      "forks": "1,129",
+      "addStars": "2,851",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "21,446",
+      "forks": "1,917",
+      "addStars": "2,039",
       "contributors": [],
       "source": "trendshift"
     },
@@ -727,9 +752,9 @@
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "15,462",
-      "forks": "2,293",
-      "addStars": "2,055",
+      "stars": "15,877",
+      "forks": "2,354",
+      "addStars": "2,531",
       "contributors": [],
       "source": "trendshift"
     },
@@ -739,9 +764,21 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": "64,860",
-      "forks": "6,096",
-      "addStars": "2,165",
+      "stars": "65,314",
+      "forks": "6,208",
+      "addStars": "2,650",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": "3,787",
+      "forks": "249",
+      "addStars": "1,962",
       "contributors": [],
       "source": "trendshift"
     }
