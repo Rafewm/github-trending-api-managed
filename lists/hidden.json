@@ -102751,5 +102751,30 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/302160775?v=4",
   "topics": []
+ },
+ "masterking32/MasterDnsVPN": {
+  "name": "masterking32/MasterDnsVPN",
+  "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+  "language": "Go",
+  "languageColor": "",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 7350,
+  "pushedAt": "2026-11-18T21:05:43Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/1076030?v=4",
+  "topics": [
+   "dns",
+   "dns-client",
+   "dns-proxy",
+   "dns-server",
+   "dns-tunnel",
+   "dns-tunneling",
+   "dnstt",
+   "masterdns",
+   "masterdnsvpn",
+   "slipstream"
+  ]
  }
 }
