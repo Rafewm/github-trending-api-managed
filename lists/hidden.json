@@ -101037,5 +101037,29 @@
    "aws-lambda",
    "aws-sdk"
   ]
+ },
+ "fi3ework/vite-plugin-checker": {
+  "name": "fi3ework/vite-plugin-checker",
+  "description": "Vite plugin running TypeScript, VLS, vue-tsc, ESLint, Biome, and Stylelint checks in a worker thread.",
+  "language": "TypeScript",
+  "languageColor": "#3178c6",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 1254,
+  "pushedAt": "2026-11-24T12:34:10Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/12322740?s=40&u=056f396cfc1df6fd7e1bd486e0578f6fd0158761&v=4",
+  "topics": [
+   "typescript",
+   "vite",
+   "vite-plugin",
+   "vls",
+   "vue-tsc",
+   "vue",
+   "eslint",
+   "stylelint",
+   "volar"
+  ]
  }
 }
