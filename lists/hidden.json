@@ -101331,5 +101331,34 @@
    "lora",
    "mlx"
   ]
+ },
+ "RevylAI/greenlight": {
+  "name": "RevylAI/greenlight",
+  "description": "Pre-submission compliance scanner for the Apple App Store and Google Play. Scans code, privacy manifests, Android manifests, and IPA/APK/AAB binaries against the review guidelines. Offline, no account.",
+  "language": "Go",
+  "languageColor": "#00ADD8",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 2493,
+  "pushedAt": "2026-08-05T21:40:07Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/137441477?s=40&v=4",
+  "topics": [
+   "android",
+   "app-store",
+   "app-store-review",
+   "cli",
+   "compliance",
+   "devtools",
+   "expo",
+   "golang",
+   "google-play",
+   "ios",
+   "mobile",
+   "react-native",
+   "static-analysis",
+   "swift"
+  ]
  }
 }
