@@ -105889,5 +105889,31 @@
    "noir-lang",
    "stablecoin"
   ]
+ },
+ "projen/projen": {
+  "name": "projen/projen",
+  "description": "Synthesizes and manages project configuration files from typed definitions in JavaScript.",
+  "language": "TypeScript",
+  "languageColor": "#3178c6",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 2963,
+  "pushedAt": "2026-11-26T00:34:00Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/73786311?s=40&v=4",
+  "topics": [
+   "cdk",
+   "constructs",
+   "aws-cdk",
+   "repository-management",
+   "repository-tools",
+   "typescript",
+   "generator",
+   "scaffolding",
+   "templates",
+   "jsii",
+   "hacktoberfest"
+  ]
  }
 }
