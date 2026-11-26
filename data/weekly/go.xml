@@ -3,7 +3,7 @@
     <title>GitHub Go Languages Weekly Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Weekly Trending of Go Languages in GitHub</description>
-    <pubDate>Wed, 25 Nov 2026 23:58:35 GMT</pubDate>
+    <pubDate>Thu, 26 Nov 2026 07:51:25 GMT</pubDate>
     <item>
       <title>alibaba/open-code-review</title>
       <link>https://github.com/alibaba/open-code-review</link>
@@ -11,8 +11,8 @@
       <guid>https://github.com/alibaba/open-code-review</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>56,353</stars>
-      <forks>4,658</forks>
+      <stars>56,446</stars>
+      <forks>4,666</forks>
       <addStars>2,259</addStars>
       <contributors>
         <contributor>
@@ -49,7 +49,7 @@
       <guid>https://github.com/getarcaneapp/arcane</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>10,484</stars>
+      <stars>10,511</stars>
       <forks>598</forks>
       <addStars>805</addStars>
       <contributors>
@@ -82,8 +82,8 @@
       <guid>https://github.com/agent-substrate/substrate</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>8,358</stars>
-      <forks>924</forks>
+      <stars>8,371</stars>
+      <forks>926</forks>
       <addStars>817</addStars>
       <contributors>
         <contributor>
@@ -120,7 +120,7 @@
       <guid>https://github.com/runkids/skillshare</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>3,346</stars>
+      <stars>3,355</stars>
       <forks>382</forks>
       <addStars>124</addStars>
       <contributors>
@@ -153,8 +153,8 @@
       <guid>https://github.com/Tencent/LoopForge</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>6,091</stars>
-      <forks>861</forks>
+      <stars>6,130</stars>
+      <forks>873</forks>
       <addStars>2,339</addStars>
       <contributors>
         <contributor>
@@ -186,8 +186,8 @@
       <guid>https://github.com/opensandbox-group/OpenSandbox</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>17,926</stars>
-      <forks>1,732</forks>
+      <stars>17,937</stars>
+      <forks>1,733</forks>
       <addStars>366</addStars>
       <contributors>
         <contributor>
@@ -224,8 +224,8 @@
       <guid>https://github.com/JuliusBrussee/caveman</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>122,861</stars>
-      <forks>7,178</forks>
+      <stars>122,934</stars>
+      <forks>7,185</forks>
       <addStars>1,691</addStars>
       <contributors>
         <contributor>
@@ -257,7 +257,7 @@
       <guid>https://github.com/kagent-dev/kagent</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>4,532</stars>
+      <stars>4,535</stars>
       <forks>944</forks>
       <addStars>102</addStars>
       <contributors>
@@ -290,7 +290,7 @@
       <guid>https://github.com/gogs/gogs</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>47,999</stars>
+      <stars>48,001</stars>
       <forks>5,078</forks>
       <addStars>68</addStars>
       <contributors>
@@ -323,8 +323,8 @@
       <guid>https://github.com/cli/cli</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>47,210</stars>
-      <forks>9,457</forks>
+      <stars>47,216</stars>
+      <forks>9,458</forks>
       <addStars>176</addStars>
       <contributors>
         <contributor>
@@ -399,8 +399,8 @@
       <guid>https://github.com/kubescape/kubescape</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>11,988</stars>
-      <forks>1,129</forks>
+      <stars>11,994</stars>
+      <forks>1,131</forks>
       <addStars>25</addStars>
       <contributors>
         <contributor>
@@ -432,7 +432,7 @@
       <guid>https://github.com/docker/compose</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>39,103</stars>
+      <stars>39,112</stars>
       <forks>6,050</forks>
       <addStars>483</addStars>
       <contributors>
@@ -465,8 +465,8 @@
       <guid>https://github.com/aquasecurity/trivy</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>39,747</stars>
-      <forks>941</forks>
+      <stars>39,762</stars>
+      <forks>943</forks>
       <addStars>236</addStars>
       <contributors>
         <contributor>
@@ -492,15 +492,53 @@
       </contributors>
     </item>
     <item>
+      <title>misakano7545/workbuddy2api-panel</title>
+      <link>https://github.com/misakano7545/workbuddy2api-panel</link>
+      <description>把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支</description>
+      <guid>https://github.com/misakano7545/workbuddy2api-panel</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>1,487</stars>
+      <forks>373</forks>
+      <addStars>165</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/168344685?s=40&amp;v=4</avatar>
+          <name>misakano7545</name>
+          <url>https://github.com/misakano7545</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/49717738?s=40&amp;v=4</avatar>
+          <name>linguo2625469</name>
+          <url>https://github.com/linguo2625469</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/271688242?s=40&amp;v=4</avatar>
+          <name>TYCT-tyct</name>
+          <url>https://github.com/TYCT-tyct</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/122072876?s=40&amp;v=4</avatar>
+          <name>LaplaceOrange</name>
+          <url>https://github.com/LaplaceOrange</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/160254324?s=40&amp;v=4</avatar>
+          <name>SunshineR04</name>
+          <url>https://github.com/SunshineR04</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>google-gemini/gemini-api-cli</title>
       <link>https://github.com/google-gemini/gemini-api-cli</link>
       <description>An (experimental) CLI for the Gemini API</description>
       <guid>https://github.com/google-gemini/gemini-api-cli</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>3,029</stars>
+      <stars>3,279</stars>
       <forks>201</forks>
-      <addStars>2,465</addStars>
+      <addStars>2,733</addStars>
       <contributors/>
     </item>
     <item>
@@ -510,9 +548,9 @@
       <guid>https://github.com/BaaRai/ARTEX</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>20,711</stars>
+      <stars>21,052</stars>
       <forks>7,507</forks>
-      <addStars>4,504</addStars>
+      <addStars>4,838</addStars>
       <contributors/>
     </item>
     <item>
@@ -522,21 +560,9 @@
       <guid>https://github.com/yetone/magpie</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>41,469</stars>
+      <stars>41,616</stars>
       <forks>3,924</forks>
-      <addStars>1,442</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>pranshuparmar/witr</title>
-      <link>https://github.com/pranshuparmar/witr</link>
-      <description>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. </description>
-      <guid>https://github.com/pranshuparmar/witr</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>23,432</stars>
-      <forks>982</forks>
-      <addStars>330</addStars>
+      <addStars>1,596</addStars>
       <contributors/>
     </item>
     <item>
@@ -546,9 +572,9 @@
       <guid>https://github.com/Lee-xeo/Claude-Cage</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>8,552</stars>
+      <stars>8,596</stars>
       <forks>1,004</forks>
-      <addStars>887</addStars>
+      <addStars>955</addStars>
       <contributors/>
     </item>
     <item>
@@ -558,21 +584,21 @@
       <guid>https://github.com/multica-ai/multica</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>57,917</stars>
-      <forks>8,162</forks>
-      <addStars>696</addStars>
+      <stars>57,965</stars>
+      <forks>8,189</forks>
+      <addStars>743</addStars>
       <contributors/>
     </item>
     <item>
-      <title>aakarim/OpenLore</title>
-      <link>https://github.com/aakarim/OpenLore</link>
-      <description>A minimal, extensible, agent-native knowledge repository that keeps shared context current and inspectable</description>
-      <guid>https://github.com/aakarim/OpenLore</guid>
+      <title>pranshuparmar/witr</title>
+      <link>https://github.com/pranshuparmar/witr</link>
+      <description>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. </description>
+      <guid>https://github.com/pranshuparmar/witr</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>1,985</stars>
-      <forks>16</forks>
-      <addStars>272</addStars>
+      <stars>23,441</stars>
+      <forks>982</forks>
+      <addStars>334</addStars>
       <contributors/>
     </item>
     <item>
@@ -582,33 +608,21 @@
       <guid>https://github.com/2hjaito/davish</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>378</stars>
+      <stars>390</stars>
       <forks>33</forks>
-      <addStars>259</addStars>
+      <addStars>270</addStars>
       <contributors/>
     </item>
     <item>
-      <title>avelino/awesome-go</title>
-      <link>https://github.com/avelino/awesome-go</link>
-      <description>A curated list of awesome Go frameworks, libraries and software</description>
-      <guid>https://github.com/avelino/awesome-go</guid>
+      <title>aakarim/OpenLore</title>
+      <link>https://github.com/aakarim/OpenLore</link>
+      <description>A minimal, extensible, agent-native knowledge repository that keeps shared context current and inspectable</description>
+      <guid>https://github.com/aakarim/OpenLore</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>195,973</stars>
-      <forks>13,733</forks>
-      <addStars>553</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>jiwoochris/artex-global</title>
-      <link>https://github.com/jiwoochris/artex-global</link>
-      <description>Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
-      <guid>https://github.com/jiwoochris/artex-global</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>5,003</stars>
-      <forks>3,987</forks>
-      <addStars>519</addStars>
+      <stars>1,984</stars>
+      <forks>16</forks>
+      <addStars>272</addStars>
       <contributors/>
     </item>
     <item>
@@ -618,33 +632,33 @@
       <guid>https://github.com/google/agentmesh</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>1,418</stars>
+      <stars>1,441</stars>
       <forks>215</forks>
-      <addStars>209</addStars>
+      <addStars>236</addStars>
       <contributors/>
     </item>
     <item>
-      <title>heartleo/zlib</title>
-      <link>https://github.com/heartleo/zlib</link>
-      <description>A command-line tool for Z-Library. Search, download, send to Kindle and WeRead, and integrate with AI agents.</description>
-      <guid>https://github.com/heartleo/zlib</guid>
+      <title>jiwoochris/artex-global</title>
+      <link>https://github.com/jiwoochris/artex-global</link>
+      <description>Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)</description>
+      <guid>https://github.com/jiwoochris/artex-global</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>3,967</stars>
-      <forks>321</forks>
-      <addStars>455</addStars>
+      <stars>5,036</stars>
+      <forks>3,987</forks>
+      <addStars>550</addStars>
       <contributors/>
     </item>
     <item>
-      <title>Ciao1019/ArcMD</title>
-      <link>https://github.com/Ciao1019/ArcMD</link>
-      <description>Proof that native MyGo apps can be works of art. ArcMD is an open-source Markdown editor delivering 120Hz fluid responsiveness—bringing Arc-inspired elegance and seamless performance to local writing.</description>
-      <guid>https://github.com/Ciao1019/ArcMD</guid>
+      <title>avelino/awesome-go</title>
+      <link>https://github.com/avelino/awesome-go</link>
+      <description>A curated list of awesome Go frameworks, libraries and software</description>
+      <guid>https://github.com/avelino/awesome-go</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>551</stars>
-      <forks>37</forks>
-      <addStars>226</addStars>
+      <stars>196,011</stars>
+      <forks>13,739</forks>
+      <addStars>589</addStars>
       <contributors/>
     </item>
     <item>
@@ -654,45 +668,21 @@
       <guid>https://github.com/automoto/gg-scale</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>170</stars>
+      <stars>227</stars>
       <forks>5</forks>
-      <addStars>150</addStars>
+      <addStars>224</addStars>
       <contributors/>
     </item>
     <item>
-      <title>xalgorix/xalgorix</title>
-      <link>https://github.com/xalgorix/xalgorix</link>
-      <description>Open-source AI penetration testing agent that exploit-verifies every finding. Autonomous 22-phase pentests of web apps &amp; APIs with CVSS-scored PDF reports. Self-hosted, bring your own LLM, or run fully local with Ollama.</description>
-      <guid>https://github.com/xalgorix/xalgorix</guid>
+      <title>heartleo/zlib</title>
+      <link>https://github.com/heartleo/zlib</link>
+      <description>A command-line tool for Z-Library. Search, download, send to Kindle and WeRead, and integrate with AI agents.</description>
+      <guid>https://github.com/heartleo/zlib</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>1,487</stars>
-      <forks>339</forks>
-      <addStars>101</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>maomada/KubeAtlas</title>
-      <link>https://github.com/maomada/KubeAtlas</link>
-      <description>Self-hosted Kubernetes operations console with Hub/Agent, multi-cluster visibility, Helm and scoped MCP access.</description>
-      <guid>https://github.com/maomada/KubeAtlas</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>191</stars>
-      <forks>5</forks>
-      <addStars>107</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>MHSanaei/3x-ui</title>
-      <link>https://github.com/MHSanaei/3x-ui</link>
-      <description>Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG) </description>
-      <guid>https://github.com/MHSanaei/3x-ui</guid>
-      <language>Go</language>
-      <languageColor>#00ADD8</languageColor>
-      <stars>50,640</stars>
-      <forks>11,184</forks>
-      <addStars>240</addStars>
+      <stars>3,982</stars>
+      <forks>321</forks>
+      <addStars>474</addStars>
       <contributors/>
     </item>
     <item>
@@ -702,9 +692,33 @@
       <guid>https://github.com/xyc999-ai/go-bot</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>422</stars>
+      <stars>458</stars>
       <forks>14</forks>
-      <addStars>187</addStars>
+      <addStars>225</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Ciao1019/ArcMD</title>
+      <link>https://github.com/Ciao1019/ArcMD</link>
+      <description>Proof that native MyGo apps can be works of art. ArcMD is an open-source Markdown editor delivering 120Hz fluid responsiveness—bringing Arc-inspired elegance and seamless performance to local writing.</description>
+      <guid>https://github.com/Ciao1019/ArcMD</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>567</stars>
+      <forks>37</forks>
+      <addStars>243</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>xalgorix/xalgorix</title>
+      <link>https://github.com/xalgorix/xalgorix</link>
+      <description>Open-source AI penetration testing agent that exploit-verifies every finding. Autonomous 22-phase pentests of web apps &amp; APIs with CVSS-scored PDF reports. Self-hosted, bring your own LLM, or run fully local with Ollama.</description>
+      <guid>https://github.com/xalgorix/xalgorix</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>1,492</stars>
+      <forks>347</forks>
+      <addStars>107</addStars>
       <contributors/>
     </item>
     <item>
@@ -714,33 +728,45 @@
       <guid>https://github.com/net-merge/net-merge</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>3,717</stars>
+      <stars>3,740</stars>
       <forks>208</forks>
-      <addStars>220</addStars>
+      <addStars>242</addStars>
       <contributors/>
     </item>
     <item>
-      <title>0xJacky/nginx-ui</title>
-      <link>https://github.com/0xJacky/nginx-ui</link>
-      <description>Yet another WebUI for Nginx</description>
-      <guid>https://github.com/0xJacky/nginx-ui</guid>
+      <title>maomada/KubeAtlas</title>
+      <link>https://github.com/maomada/KubeAtlas</link>
+      <description>Self-hosted Kubernetes operations console with Hub/Agent, multi-cluster visibility, Helm and scoped MCP access.</description>
+      <guid>https://github.com/maomada/KubeAtlas</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>11,911</stars>
-      <forks>983</forks>
-      <addStars>98</addStars>
+      <stars>198</stars>
+      <forks>5</forks>
+      <addStars>112</addStars>
       <contributors/>
     </item>
     <item>
-      <title>enfein/mieru</title>
-      <link>https://github.com/enfein/mieru</link>
-      <description>mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. 見える是一款 socks5 / HTTP / HTTPS 网络代理翻墙工具。</description>
-      <guid>https://github.com/enfein/mieru</guid>
+      <title>MHSanaei/3x-ui</title>
+      <link>https://github.com/MHSanaei/3x-ui</link>
+      <description>Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG) </description>
+      <guid>https://github.com/MHSanaei/3x-ui</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>2,819</stars>
-      <forks>264</forks>
-      <addStars>99</addStars>
+      <stars>50,662</stars>
+      <forks>11,198</forks>
+      <addStars>260</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Tencent/WeKnora</title>
+      <link>https://github.com/Tencent/WeKnora</link>
+      <description>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.</description>
+      <guid>https://github.com/Tencent/WeKnora</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>38,237</stars>
+      <forks>5,670</forks>
+      <addStars>238</addStars>
       <contributors/>
     </item>
     <item>
@@ -750,9 +776,21 @@
       <guid>https://github.com/ollama/ollama</guid>
       <language>Go</language>
       <languageColor>#00ADD8</languageColor>
-      <stars>188,135</stars>
-      <forks>20,018</forks>
-      <addStars>249</addStars>
+      <stars>188,148</stars>
+      <forks>20,049</forks>
+      <addStars>272</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>router-for-me/CLIProxyAPI</title>
+      <link>https://github.com/router-for-me/CLIProxyAPI</link>
+      <description>Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API</description>
+      <guid>https://github.com/router-for-me/CLIProxyAPI</guid>
+      <language>Go</language>
+      <languageColor>#00ADD8</languageColor>
+      <stars>59,490</stars>
+      <forks>9,915</forks>
+      <addStars>251</addStars>
       <contributors/>
     </item>
   </channel>
