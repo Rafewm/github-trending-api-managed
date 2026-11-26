@@ -22215,5 +22215,26 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/71154407?s=40&u=6550e74385eed06ece7b7ad55f0be14ebc721341&v=4",
   "topics": []
+ },
+ "intro-skipper/intro-skipper": {
+  "name": "intro-skipper/intro-skipper",
+  "description": "Automatically detect and skip intro/credit sequences in Jellyfin",
+  "language": "C#",
+  "languageColor": "#7355dd",
+  "day": {
+   "add": 11,
+   "pct": 0.37389530931339227
+  },
+  "week": null,
+  "month": null,
+  "stars": 2960,
+  "pushedAt": "2026-11-24T19:41:01Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/182016819?s=40&v=4",
+  "topics": [
+   "jellyfin",
+   "jellyfin-plugin",
+   "jellyfin-mediasegment-provider"
+  ]
  }
 }
