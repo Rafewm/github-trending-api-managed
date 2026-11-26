@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T13:16:01.594Z",
- "count": 924,
+ "updated": "2026-11-26T12:56:05.339Z",
+ "count": 928,
  "data": {
   "charlax/professional-programming": {
    "name": "charlax/professional-programming",
@@ -22197,6 +22197,89 @@
    "pushedAt": "2025-01-01T07:55:30Z",
    "archived": false,
    "avatar": "https://avatars.githubusercontent.com/u/4703068?s=40&v=4",
+   "topics": []
+  },
+  "ading2210/linuxpdf": {
+   "name": "ading2210/linuxpdf",
+   "description": "Linux running inside a PDF file via a RISC-V emulator",
+   "language": "C",
+   "languageColor": "#555555",
+   "day": {
+    "add": 40,
+    "pct": 0.7765482430596
+   },
+   "week": {
+    "add": 68,
+    "pct": 1.3273472574663283
+   },
+   "month": null,
+   "stars": 5213,
+   "pushedAt": "2025-02-02T12:26:15Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/71154407?s=40&u=6550e74385eed06ece7b7ad55f0be14ebc721341&v=4",
+   "topics": []
+  },
+  "intro-skipper/intro-skipper": {
+   "name": "intro-skipper/intro-skipper",
+   "description": "Automatically detect and skip intro/credit sequences in Jellyfin",
+   "language": "C#",
+   "languageColor": "#7355dd",
+   "day": {
+    "add": 11,
+    "pct": 0.37389530931339227
+   },
+   "week": null,
+   "month": null,
+   "stars": 2960,
+   "pushedAt": "2026-11-24T19:41:01Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/182016819?s=40&v=4",
+   "topics": [
+    "jellyfin",
+    "jellyfin-plugin",
+    "jellyfin-mediasegment-provider"
+   ]
+  },
+  "exteraSquad/exteraGram": {
+   "name": "exteraSquad/exteraGram",
+   "description": "Telegram client based on Android sources with new features",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "day": {
+    "add": 110,
+    "pct": 6.61455201443175
+   },
+   "week": {
+    "add": 316,
+    "pct": 21.688400823610156
+   },
+   "month": {
+    "add": 330,
+    "pct": 22.86902286902287
+   },
+   "stars": 1810,
+   "pushedAt": "2026-11-24T18:03:26Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/94817755?s=40&v=4",
+   "topics": [
+    "telegram",
+    "modification",
+    "java",
+    "kotlin-android"
+   ]
+  },
+  "fxceless/victory-fork": {
+   "name": "fxceless/victory-fork",
+   "description": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+   "language": "Rust",
+   "languageColor": "",
+   "day": null,
+   "week": null,
+   "month": null,
+   "stars": 3070,
+   "pushedAt": "2026-11-26T00:47:57Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/36782933?v=4",
    "topics": []
   }
  }
