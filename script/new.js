@@ -2,11 +2,11 @@ const path = require('path');
 const { existsSync, mkdirSync, readFileSync, writeFileSync } = require('fs');
 const { DATA_BASE_URL } = require('./base')
 
-// Every repo created in the last 2 years that has 1,000+ stars, from GitHub search, for the Unstarred site's
-// New tab (its 1-year and 2-year lists) in data/new/repos.json. The site can't build this live: it takes ~90
-// searches and GitHub allows 30 a minute, which runs past Vercel's 5-minute limit.
-const MIN_STARS = 1000;
-const DAYS = 731;
+// Repos for the Unstarred site's New tab (its 90-day, 1-year and 2-year lists), from GitHub search, in
+// data/new/repos.json: made in the last 90 days with 100+ stars, the last year with 300+, the last 2 years with 500+
+// (about 30,000 repos). The site can't build these live: it takes ~450 searches and GitHub allows 30 a minute.
+// The thresholds were 1,000+ stars, which left out repos released a month or two ago that hadn't reached 1,000 yet.
+const SETS = [{ days: 90, min: 100 }, { days: 366, min: 300 }, { days: 731, min: 500 }];
 const DAY_MS = 86400 * 1000;
 const FILE = path.resolve(__dirname, DATA_BASE_URL, 'new', 'repos.json');
 // One search returns at most 1,000 results, 100 per page.
@@ -38,16 +38,16 @@ async function searchPage (q, page, attempt = 1) {
 }
 
 // A date range with more than 1,000 matches is split in two until each part fits.
-async function searchCreated (from, to) {
-  const q = `stars:>=${MIN_STARS} created:${day(from)}..${day(to)}`;
+async function searchCreated (from, to, min) {
+  const q = `stars:>=${min} created:${day(from)}..${day(to)}`;
   const first = await searchPage(q, 1);
   if (first.total_count > PAGES * 100 && to - from >= DAY_MS) {
     const mid = from + Math.floor((to - from) / DAY_MS / 2) * DAY_MS;
-    return [...await searchCreated(from, mid), ...await searchCreated(mid + DAY_MS, to)];
+    return [...await searchCreated(from, mid, min), ...await searchCreated(mid + DAY_MS, to, min)];
   }
   const items = [...first.items];
   for (let n = 2; n <= Math.min(Math.ceil(first.total_count / 100), PAGES); n++) items.push(...(await searchPage(q, n)).items);
-  console.log('new', day(from), day(to), first.total_count);
+  console.log('new', `${min}+`, day(from), day(to), first.total_count);
   return items;
 }
 
@@ -70,7 +70,8 @@ async function updateNew () {
   const now = Date.now();
   let items;
   try {
-    items = await searchCreated(now - DAYS * DAY_MS, now);
+    items = [];
+    for (const { days, min } of SETS) items.push(...await searchCreated(now - days * DAY_MS, now, min));
   } catch (error) {
     return console.error('Error new, file kept:', error.message);
   }

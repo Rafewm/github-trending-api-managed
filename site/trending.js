@@ -181,7 +181,8 @@ export function redditToRepos(posts) {
       day: null,
       week: null,
       month: null,
-      reddit: { id, title: String(post.title ?? ''), time, comments: Number(post.num_comments) || 0 },
+      // Posts saved before other subreddits were collected have no sub; they are all from r/BestGitHubRepos.
+      reddit: { id, sub: /^\w{2,21}$/.test(post.sub ?? '') ? post.sub : 'BestGitHubRepos', title: String(post.title ?? ''), time, comments: Number(post.num_comments) || 0 },
     });
   }
   return [...repos.values()];
