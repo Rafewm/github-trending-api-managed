@@ -26,7 +26,10 @@ jobs:
       - name: Install twscrape
         run: pip install twscrape
 
+      # Capped so a run stalled by X's limits can't reach GitHub's 6-hour cancel. The script saves after every account,
+      # and the commit below runs even when this step times out, so what was read is kept.
       - name: Collect tweets
+        timeout-minutes: 50
         run: python script/twitter_twscrape.py
         env:
           TW_AUTH_TOKEN: ${{ secrets.TW_AUTH_TOKEN }}
@@ -34,10 +37,11 @@ jobs:
           TW_BATCH: '24'
 
       - name: Commit tweets.json
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/twitter/tweets.json
+          git add data/twitter/tweets.json data/twitter/account_ids.json
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "twitter: collect via twscrape $(date -u +%FT%TZ)"
           git pull --rebase origin main
