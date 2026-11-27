@@ -6,11 +6,11 @@ site needs no change:  {updated, readUntil: {user: unixtime}, tweets: [{id,user,
 readUntil is the per-user incremental cursor; a run only fetches posts newer than it.
 
 Runs in batches so one cookie account doesn't hit X's rate limit: each run takes the TW_BATCH accounts
-whose readUntil is oldest (default 8), so an hourly schedule rotates through all 47 in a few hours and
-keeps refreshing. The author's own replies under their posts are kept too (links often go in the first reply).
+whose readUntil is oldest (default 24). Each account is read back to where its last visit stopped (up
+to TW_LIMIT), so a busy account loses nothing however long the gap between visits. The author's own replies under their posts are kept too (links often go in the first reply).
 
 Env:  TW_AUTH_TOKEN, TW_CT0 (the X session cookies; set as GitHub Actions secrets).
-      TW_BATCH accounts per run (default 8), TW_LIMIT tweets per account (default 40).
+      TW_BATCH accounts per run (default 24), TW_LIMIT the most tweets read per account (default 400).
 Usage:  python script/twitter_twscrape.py            # one batch (forward/incremental)
         python script/twitter_twscrape.py elonmusk   # specific accounts (ignores batching)
         python script/twitter_twscrape.py --selftest  # offline checks, no network
@@ -32,8 +32,8 @@ ACCOUNTS = os.path.join(DIR, "accounts.json")
 FILE = os.path.join(DIR, "tweets.json")
 IDS = os.path.join(DIR, "account_ids.json")  # username -> numeric id cache, so UserByScreenName isn't called every run
 KEEP_SECONDS = 365 * 86400
-BATCH = int(os.environ.get("TW_BATCH", "8"))
-LIMIT = int(os.environ.get("TW_LIMIT", "40"))
+BATCH = int(os.environ.get("TW_BATCH", "24"))
+LIMIT = int(os.environ.get("TW_LIMIT", "400"))
 # One-time deep history pull. TW_BACKFILL=1 ignores the forward-only gate so old posts are kept;
 # each wave does TW_BATCH accounts not yet pulled (tracked in backfilled.json) and resumes next run.
 # TW_PAUSE adds seconds between accounts to stay gentle on the single cookie's rate limit.
@@ -85,6 +85,19 @@ def shape(t, user: str) -> dict:
     return entry
 
 
+async def read_since(stream, until: int) -> list:
+    """Posts from the newest back to the ones the last visit read (time <= until), at most what the stream gives.
+    A pinned post is old but comes first, so reading stops only after 3 old posts in a row. until 0 reads it all."""
+    out, old_in_row = [], 0
+    async for t in stream:
+        out.append(t)
+        old = bool(until) and bool(t.date) and t.date.timestamp() <= until
+        old_in_row = old_in_row + 1 if old else 0
+        if old_in_row >= 3:
+            break
+    return out
+
+
 def pick_accounts(accounts: list[str], read_until: dict, done: set) -> list[str]:
     if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
         return sys.argv[1:]
@@ -94,7 +107,7 @@ def pick_accounts(accounts: list[str], read_until: dict, done: set) -> list[str]
 
 
 async def main():
-    from twscrape import API, gather
+    from twscrape import API
 
     saved = json.load(open(FILE, encoding="utf-8")) if os.path.exists(FILE) else {"tweets": [], "readUntil": {}}
     by_id = {t["id"]: t for t in saved.get("tweets", [])}
@@ -120,12 +133,13 @@ async def main():
                 if not u:
                     print(f"  @{user}: not resolved"); continue
                 uid = ids[user] = str(u.id)
-            raw = await gather(api.user_tweets_and_replies(int(uid), limit=LIMIT))
+            until = read_until.get(user, 0)
+            # A fixed count lost everything between the previous visit and the oldest post fetched; read back to it.
+            raw = await read_since(api.user_tweets_and_replies(int(uid), limit=LIMIT), 0 if BACKFILL else until)
             # Author's own threads only (replies to other people are mostly chat).
             raw = [t for t in raw if not getattr(t, "inReplyToUser", None)
                    or (t.inReplyToUser.username or "").lower() == user.lower()]
             pool = {str(t.id): shape(t, user) for t in raw}
-            until = read_until.get(user, 0)
             for t in raw:
                 e = pool[str(t.id)]
                 # Normal runs skip anything already read (time <= until); backfill keeps old posts too.
@@ -171,6 +185,24 @@ def selftest():
     assert maybe_repo(gh), "spaced github link should match"
     assert not maybe_repo(url_only), "stripped url path should not match"
     assert not maybe_repo(plain), "plain text should not match"
+
+    from datetime import datetime, timezone
+    from types import SimpleNamespace
+
+    def post(ts):
+        return SimpleNamespace(date=datetime.fromtimestamp(ts, timezone.utc))
+
+    async def stream(times):
+        for ts in times:
+            yield post(ts)
+
+    async def read(times, until):
+        return [int(t.date.timestamp()) for t in await read_since(stream(times), until)]
+
+    # Pinned old post first, then 5 new ones, then old ones: reads past the pin and stops after 3 old in a row.
+    assert asyncio.run(read([10, 900, 800, 700, 600, 500, 90, 80, 70, 60, 50], 100)) == [10, 900, 800, 700, 600, 500, 90, 80, 70]
+    # Never read before (until 0): everything the stream gives.
+    assert asyncio.run(read([900, 90, 80, 70, 60], 0)) == [900, 90, 80, 70, 60]
     print("selftest ok")
 
 

@@ -71,7 +71,7 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 [`script/reddit.js`](script/reddit.js) keeps a year of [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) posts that link a GitHub repo in [`data/reddit/BestGitHubRepos.json`](data/reddit/BestGitHubRepos.json), read from the [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift/tree/master/api) Reddit archive.
 
 - Each entry has `id`, `title`, `url` (the GitHub repo), `created_utc` and `num_comments`, newest first.
-- The archive allows about one request every few seconds, so each run only asks for posts newer than the newest saved one, pauses between pages, waits when the archive says to, and saves after every page.
+- The archive allows about one request every few seconds, so each run pauses between pages, waits when the archive says to, and saves after every page. It asks for posts from 7 days before the newest saved one, since the archive sometimes saves a post hours after newer ones; saved ids are skipped.
 - The archive records posts shortly after they are made, so upvote counts are not kept.
 
 ### Hacker News stories
@@ -96,12 +96,12 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 
 ### X posts
 
-[`script/twitter.js`](script/twitter.js) keeps a year of posts from the X accounts in [`data/twitter/accounts.json`](data/twitter/accounts.json) that may name a GitHub repo, in [`data/twitter/tweets.json`](data/twitter/tweets.json), read through [twitterapi.io](https://docs.twitterapi.io).
+[`script/twitter_twscrape.py`](script/twitter_twscrape.py) keeps a year of posts from the X accounts in [`data/twitter/accounts.json`](data/twitter/accounts.json) that may name a GitHub repo, in [`data/twitter/tweets.json`](data/twitter/tweets.json), read with [twscrape](https://github.com/vladkens/twscrape) through an X login's cookies. Only those accounts are read: posts from anyone else are not collected.
 
 - Each entry has `id`, `user`, `time` (Unix seconds), `text`, `urls` (expanded links), `likes`, and `conv` for an author's reply under their own post (the post it answers) or `rt` for a repost.
 - The author's own replies are read too, since a repo link is often put in the first reply. Replies to other people are skipped.
 - A post is kept when it mentions github (also as a broken-up link like `github. com/owner/repo`) or has an `owner/repo` shape outside links, plus the post a kept self-reply answers. The site does the exact matching.
-- It needs a `TWITTERAPI_KEY` repository secret and is skipped without one. twitterapi.io bills $0.15 per 1,000 posts returned, so it runs about every 12 hours (about $0.14 per run for 47 accounts). Each account is read only back to the newest post seen last time.
+- [`.github/workflows/twitter.yml`](.github/workflows/twitter.yml) runs it hourly (GitHub often starts it hours late) with the `TW_AUTH_TOKEN` and `TW_CT0` secrets. Each run takes the 24 accounts read longest ago (`TW_BATCH`) and reads each back to the newest post seen last time, up to 400 posts (`TW_LIMIT`), so a busy account loses nothing between visits.
 
 ### Updating the data
 
@@ -116,7 +116,7 @@ node script/reddit.js         # Reddit step only
 node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
 node script/new.js            # New repos step only (set GITHUB_TOKEN for the higher search limit)
 node script/hn.js             # Hacker News step only (needs GITHUB_TOKEN for repo details)
-node script/twitter.js        # X step only (needs TWITTERAPI_KEY)
+python script/twitter_twscrape.py   # X step only (needs TW_AUTH_TOKEN and TW_CT0; --selftest runs offline checks)
 ```
 
 ---
@@ -212,7 +212,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 - Extra rankings from [Trendshift.io](https://trendshift.io); reading its page data follows [quantavil/trendshift](https://github.com/quantavil/trendshift).
 - The New tab follows [repotrend.com](https://github.com/creatuluw/repotrend.com)'s GitHub search queries.
 - The Skills tab uses [AgentSkillsHub](https://github.com/zhuyansen/agent-skills-hub)'s GitHub search queries and categories.
-- X posts read through [twitterapi.io](https://twitterapi.io).
+- X posts read with [twscrape](https://github.com/vladkens/twscrape).
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
 - Release data from [Release Monitor](https://releasemonitor.org).
 - Reddit posts from r/BestGitHubRepos via [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift).

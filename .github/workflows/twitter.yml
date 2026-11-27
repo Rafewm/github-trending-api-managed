@@ -3,8 +3,8 @@ name: Collect Twitter (twscrape)
 on:
   workflow_dispatch:
   schedule:
-    # Hourly, offset from the trending run. Each run does TW_BATCH accounts (oldest first),
-    # so all ~47 are covered in a few hours and then kept fresh.
+    # Hourly, offset from the trending run (GitHub often starts it hours late). Each run does TW_BATCH accounts
+    # (oldest first) and reads each back to where its last visit stopped.
     - cron: '17 * * * *'
 
 concurrency:
@@ -31,7 +31,7 @@ jobs:
         env:
           TW_AUTH_TOKEN: ${{ secrets.TW_AUTH_TOKEN }}
           TW_CT0: ${{ secrets.TW_CT0 }}
-          TW_BATCH: '8'
+          TW_BATCH: '24'
 
       - name: Commit tweets.json
         run: |
