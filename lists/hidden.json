@@ -108847,5 +108847,30 @@
    "nodejs",
    "quickjs"
   ]
+ },
+ "RustingStudio/RustingStrata": {
+  "name": "RustingStudio/RustingStrata",
+  "description": "Pure-Rust LLM inference engine for GGUF (Qwen, DeepSeek, GLM, Hy4, Flint). Runs models bigger than your VRAM on CUDA and Vulkan, with MTP drafts and an OpenAI/Anthropic server. 12 GB RTX 3060 vs llama.cpp: Qwen3.6-35B-A3B UD-Q5_K_M 80.5 vs 64.4 tok/s, Flint UD-Q5_K_XL 64.6 vs 48.6. With MTP: 108 tok",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 490,
+  "pushedAt": "2026-11-26T18:12:24Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/RustingStudio?s=40",
+  "topics": [
+   "cuda",
+   "gguf",
+   "inference",
+   "llama-cpp",
+   "llm",
+   "local-llm",
+   "mixture-of-experts",
+   "moe",
+   "openai-api",
+   "qwen"
+  ]
  }
 }
