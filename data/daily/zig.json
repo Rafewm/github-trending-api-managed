@@ -2,7 +2,7 @@
   "title": "GitHub Zig Languages Daily Trending",
   "description": "Daily Trending of Zig Languages in GitHub",
   "link": "https://github.com/isboyjc/github-trending-api",
-  "pubDate": "Fri, 27 Nov 2026 03:44:42 GMT",
+  "pubDate": "Fri, 27 Nov 2026 13:28:19 GMT",
   "items": [
     {
       "title": "vercel-labs/fx",
@@ -10,8 +10,8 @@
       "description": "Unix like coding agent",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "4,040",
-      "forks": "471",
+      "stars": "4,044",
+      "forks": "472",
       "addStars": "16",
       "contributors": [
         {
@@ -47,8 +47,8 @@
       "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,617",
-      "forks": "285",
+      "stars": "2,634",
+      "forks": "286",
       "addStars": "5",
       "contributors": [
         {
@@ -79,7 +79,7 @@
       "description": "",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "523",
+      "stars": "524",
       "forks": "37",
       "addStars": "0",
       "contributors": [
@@ -190,7 +190,7 @@
       "description": "The financial transactions database designed for mission critical safety and performance.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "17,473",
+      "stars": "17,487",
       "forks": "944",
       "addStars": "10",
       "contributors": [
@@ -227,7 +227,7 @@
       "description": "Keep the people you love connected — a tiny self-hosted Telegram proxy that hides in plain HTTPS",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "1,986",
+      "stars": "1,988",
       "forks": "70",
       "addStars": "5",
       "contributors": [
@@ -254,7 +254,7 @@
       "description": "Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "13,116",
+      "stars": "13,118",
       "forks": "387",
       "addStars": "7",
       "contributors": [
@@ -291,7 +291,7 @@
       "description": "Pacman alternative for ArchLinux, designed with you in mind.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "1,295",
+      "stars": "1,296",
       "forks": "117",
       "addStars": "2",
       "contributors": [
@@ -329,7 +329,7 @@
       "language": "Zig",
       "languageColor": "#ec915c",
       "stars": "7,860",
-      "forks": "333",
+      "forks": "335",
       "addStars": "1",
       "contributors": [
         {
@@ -366,7 +366,7 @@
       "language": "Zig",
       "languageColor": "#ec915c",
       "stars": "3,613",
-      "forks": "259",
+      "forks": "260",
       "addStars": "0",
       "contributors": [
         {
@@ -397,8 +397,8 @@
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "64,513",
-      "forks": "3,968",
+      "stars": "64,535",
+      "forks": "3,972",
       "addStars": "40",
       "contributors": [
         {
@@ -424,8 +424,8 @@
       "description": "Moved to Codeberg",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "43,401",
-      "forks": "3,104",
+      "stars": "43,416",
+      "forks": "3,105",
       "addStars": "16",
       "contributors": [
         {
@@ -461,7 +461,7 @@
       "description": "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology to achieve frontier sub 4 bits compression.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "529",
+      "stars": "530",
       "forks": "46",
       "addStars": "4",
       "contributors": [
@@ -493,13 +493,50 @@
       ]
     },
     {
+      "title": "simoarpe/ziggity",
+      "url": "https://github.com/simoarpe/ziggity",
+      "description": "⚡️ Ziggity an ultra fast, keyboard driven terminal UI for Git, written in Zig.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "516",
+      "forks": "30",
+      "addStars": "6",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3308503?s=40&v=4",
+          "name": "simoarpe",
+          "url": "https://github.com/simoarpe"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "name": "claude",
+          "url": "https://github.com/claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2321000?s=40&v=4",
+          "name": "abuibrahim",
+          "url": "https://github.com/abuibrahim"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47926?s=40&v=4",
+          "name": "gmist",
+          "url": "https://github.com/gmist"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/226199?s=40&v=4",
+          "name": "elerch",
+          "url": "https://github.com/elerch"
+        }
+      ]
+    },
+    {
       "title": "ashhart/TensorFold",
       "url": "https://github.com/ashhart/TensorFold",
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,484",
-      "forks": "564",
+      "stars": "2,497",
+      "forks": "565",
       "addStars": "39",
       "contributors": [
         {
@@ -530,38 +567,26 @@
       ]
     },
     {
-      "title": "5usu/zig-iceoryx",
-      "url": "https://github.com/5usu/zig-iceoryx",
-      "description": "Zero-copy shared-memory pub/sub for Zig, modelled on iceoryx2's architecture. 34 ns one-way on a shared core, ~100 ns across cores.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "11",
-      "forks": "0",
-      "addStars": "6",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
       "title": "progrium/minipg",
       "url": "https://github.com/progrium/minipg",
       "description": "SQLite and PostgreSQL had a baby",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "214",
+      "stars": "230",
       "forks": "5",
-      "addStars": "9",
+      "addStars": "25",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "progrium/hyper9",
-      "url": "https://github.com/progrium/hyper9",
-      "description": "run isolated Plan 9 and Linux executables anywhere, fast",
+      "title": "5usu/zig-iceoryx",
+      "url": "https://github.com/5usu/zig-iceoryx",
+      "description": "Zero-copy shared-memory pub/sub for Zig, modelled on iceoryx2's architecture. 34 ns one-way on a shared core, ~100 ns across cores.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "74",
-      "forks": "2",
-      "addStars": "4",
+      "stars": "21",
+      "forks": "1",
+      "addStars": "13",
       "contributors": [],
       "source": "trendshift"
     },
@@ -571,21 +596,45 @@
       "description": "Lightpanda: the headless browser designed for AI and automation",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "42,624",
-      "forks": "2,277",
-      "addStars": "5",
+      "stars": "42,650",
+      "forks": "2,280",
+      "addStars": "29",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "Lugia123/polter",
-      "url": "https://github.com/Lugia123/polter",
-      "description": "A terminal where one Claude Code session supervises the AI agents in your other tabs: which is stuck, which is done, which is still running. Group chat, task panel and MCP tools for multi-agent work. Built on Ghostty.",
+      "title": "progrium/hyper9",
+      "url": "https://github.com/progrium/hyper9",
+      "description": "run isolated Plan 9 and Linux executables anywhere, fast",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "24",
-      "forks": "0",
-      "addStars": "1",
+      "stars": "79",
+      "forks": "2",
+      "addStars": "8",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Loongphy/codex-auth",
+      "url": "https://github.com/Loongphy/codex-auth",
+      "description": "A CLI tool to switch and manage Codex accounts",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "2,888",
+      "forks": "193",
+      "addStars": "4",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "pithings/wland",
+      "url": "https://github.com/pithings/wland",
+      "description": "🪟 Wayland apps, composited in the browser: a Wayland compositor in WebAssembly.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "254",
+      "forks": "13",
+      "addStars": "6",
       "contributors": [],
       "source": "trendshift"
     },
@@ -597,6 +646,66 @@
       "languageColor": "#ec915c",
       "stars": "87",
       "forks": "2",
+      "addStars": "2",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "coder/boo",
+      "url": "https://github.com/coder/boo",
+      "description": "A GNU screen style terminal multiplexer built on libghostty.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "796",
+      "forks": "33",
+      "addStars": "2",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "rockorager/monstar",
+      "url": "https://github.com/rockorager/monstar",
+      "description": "wayland terminal based on libghostty. cpu rendered, like foot",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "253",
+      "forks": "20",
+      "addStars": "2",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "DivyanshGolyan/rui",
+      "url": "https://github.com/DivyanshGolyan/rui",
+      "description": "Run hundreds of agents from your app in one small process: 100 agents in 2.5 MB. Durable, typeScript client, MCP tools and a terminal UI.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "10",
+      "forks": "1",
+      "addStars": "0",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "ozgurulukir/zay",
+      "url": "https://github.com/ozgurulukir/zay",
+      "description": "The classic coding agent.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "1",
+      "forks": "3",
+      "addStars": "0",
+      "contributors": [],
+      "source": "trendshift"
+    },
+    {
+      "title": "Lugia123/polter",
+      "url": "https://github.com/Lugia123/polter",
+      "description": "A terminal where one Claude Code session supervises the AI agents in your other tabs: which is stuck, which is done, which is still running. Group chat, task panel and MCP tools for multi-agent work. Built on Ghostty.",
+      "language": "Zig",
+      "languageColor": "#ec915c",
+      "stars": "24",
+      "forks": "0",
       "addStars": "1",
       "contributors": [],
       "source": "trendshift"
@@ -614,74 +723,38 @@
       "source": "trendshift"
     },
     {
-      "title": "pedropark99/zig-book",
-      "url": "https://github.com/pedropark99/zig-book",
-      "description": "An open, technical and introductory book for the Zig programming language 📚📖",
+      "title": "imggion/html2realpdf",
+      "url": "https://github.com/imggion/html2realpdf",
+      "description": "Generate a real PDF, not a screenshot.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "2,735",
-      "forks": "178",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "neurocyte/flow",
-      "url": "https://github.com/neurocyte/flow",
-      "description": "Flow Control: a programmer's text editor",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "2,567",
-      "forks": "147",
-      "addStars": "1",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "jedisct1/turbocrypt",
-      "url": "https://github.com/jedisct1/turbocrypt",
-      "description": "A fast, easy-to-use, and secure command-line tool for encrypting and decrypting files , git repositories and directory trees.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "168",
+      "stars": "65",
       "forks": "8",
       "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "simoarpe/ziggity",
-      "url": "https://github.com/simoarpe/ziggity",
-      "description": "⚡️  Ziggity an ultra fast, keyboard driven terminal UI for Git, written in Zig. ",
+      "title": "xuzhougeng/wispterm",
+      "url": "https://github.com/xuzhougeng/wispterm",
+      "description": "A cross-platform terminal workspace for remote development and AI agent workflows, powered by libghostty-vt",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "513",
-      "forks": "28",
+      "stars": "471",
+      "forks": "36",
       "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     },
     {
-      "title": "justrach/codegraff",
-      "url": "https://github.com/justrach/codegraff",
-      "description": "graff — a fast agentic coding harness in Zig: multi-provider, MCP, workflows, DGM evolution loop, TS/Python SDKs",
+      "title": "midasdf/zt",
+      "url": "https://github.com/midasdf/zt",
+      "description": "⚡zt — the fastest terminal emulator. 88 MB/s throughput. 5.5ms startup. 2MB memory. Pure Zig.",
       "language": "Zig",
       "languageColor": "#ec915c",
-      "stars": "339",
-      "forks": "34",
-      "addStars": "0",
-      "contributors": [],
-      "source": "trendshift"
-    },
-    {
-      "title": "roc-lang/roc",
-      "url": "https://github.com/roc-lang/roc",
-      "description": "A fast, friendly, functional language.",
-      "language": "Zig",
-      "languageColor": "#ec915c",
-      "stars": "6,212",
-      "forks": "455",
-      "addStars": "0",
+      "stars": "90",
+      "forks": "6",
+      "addStars": "1",
       "contributors": [],
       "source": "trendshift"
     }
