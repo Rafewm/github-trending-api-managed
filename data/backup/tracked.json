@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T12:56:05.339Z",
- "count": 928,
+ "updated": "2026-11-27T12:51:17.091Z",
+ "count": 932,
  "data": {
   "charlax/professional-programming": {
    "name": "charlax/professional-programming",
@@ -22281,6 +22281,104 @@
    "archived": false,
    "avatar": "https://avatars.githubusercontent.com/u/36782933?v=4",
    "topics": []
+  },
+  "alesha-pro/llm.asm": {
+   "name": "alesha-pro/llm.asm",
+   "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+   "language": "Assembly",
+   "languageColor": "#6E4C13",
+   "day": {
+    "add": 487,
+    "pct": 386.5079365079365
+   },
+   "week": null,
+   "month": null,
+   "stars": 1313,
+   "pushedAt": "2026-11-25T15:42:44Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/68546545?s=40&u=9aea5e26580e6ad31ed57ffb91ec350cc21c0dc8&v=4",
+   "topics": [
+    "assembly",
+    "avx2",
+    "bare-metal",
+    "llm",
+    "machine-learning",
+    "nasm",
+    "osdev",
+    "qwen",
+    "transformer",
+    "x86-64"
+   ]
+  },
+  "avatarmanz/VIctory-7900XTX": {
+   "name": "avatarmanz/VIctory-7900XTX",
+   "description": "VIctory (Xbox Series compatibility layer) tuned for AMD RX 7900 XTX: faster preparing, texture read-back, findings. No game files.",
+   "language": "Rust",
+   "languageColor": "#dea584",
+   "day": {
+    "add": 224,
+    "pct": 22.355289421157686
+   },
+   "week": null,
+   "month": null,
+   "stars": 1804,
+   "pushedAt": "2026-11-26T17:26:45Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/64326402?s=40&u=3f180688362002fa3e5d6df28dc1a6e3788fde1e&v=4",
+   "topics": []
+  },
+  "antonkomarev/github-profile-views-counter": {
+   "name": "antonkomarev/github-profile-views-counter",
+   "description": "It counts how many times your GitHub profile has been viewed. Free cloud micro-service.",
+   "language": "PHP",
+   "languageColor": "#4F5D95",
+   "day": {
+    "add": 2,
+    "pct": 0.03935458480913026
+   },
+   "week": null,
+   "month": null,
+   "stars": 5085,
+   "pushedAt": "2026-11-26T17:12:47Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/1849174?s=40&u=408c61601f1d70dd70f258df4d1f491bb42652c8&v=4",
+   "topics": [
+    "github",
+    "github-profile",
+    "github-counter",
+    "counter",
+    "visitor-counter",
+    "views-count",
+    "view-counter",
+    "gh",
+    "analytics",
+    "github-profile-counter",
+    "github-analytics",
+    "profile-readme"
+   ]
+  },
+  "lolcommits/lolcommits": {
+   "name": "lolcommits/lolcommits",
+   "description": ":camera: git-based selfies for software developers",
+   "language": "Ruby",
+   "languageColor": "#701516",
+   "day": {
+    "add": 2,
+    "pct": 0.04151100041511
+   },
+   "week": null,
+   "month": null,
+   "stars": 4820,
+   "pushedAt": "2026-10-29T21:16:03Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/10946567?s=40&v=4",
+   "topics": [
+    "git",
+    "git-addons",
+    "webcam",
+    "selfie",
+    "humor"
+   ]
   }
  }
 }
