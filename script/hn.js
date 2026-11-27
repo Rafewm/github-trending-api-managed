@@ -164,5 +164,7 @@ if (require.main === module) updateHn();
 
 module.exports = {
   updateHn,
+  // Shared with script/reddit.js, which keeps its linked repos' details the same way.
+  updateRepos,
   repoFromUrl
 }

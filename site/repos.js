@@ -1,5 +1,5 @@
 import {
-  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos, tweetsToRepos, hnWithDetails,
+  mergeTrending, dropStarred, dropRecentStars, hnToRepos, parseReleases, redditToRepos, mergeSources, searchToRepos, skillsToRepos, tweetsToRepos, hnWithDetails, withDetails,
 } from './trending.js';
 import { cached } from './cache.js';
 
@@ -27,6 +27,9 @@ const RELEASE_DAYS = ['1', '7', '14', '30', '365'];
 const RELEASE_CACHE_MS = 30 * 60 * 1000;
 // Posts from r/BestGitHubRepos and other subreddits that link a repo, collected by the data repo's Action (script/reddit.js).
 const REDDIT = `${DATA}/reddit/BestGitHubRepos.json`;
+const REDDIT_DIR = `${DATA}/reddit`;
+// Last year from 53 subreddits is 60,000+ repos, too many to send; it keeps the most-starred.
+const REDDIT_YEAR_MAX = 10000;
 const DAY = 86400;
 // New repos gaining stars fast, by GitHub search like repotrend.com: [days back or null for all time, minimum stars].
 // All time can't be split into few enough searches (66K repos with 1K+ stars), so it keeps GitHub's 1,000 most-starred.
@@ -138,11 +141,22 @@ async function fetchReleaseMonitor(days) {
 
 // The archive allows about one request every few seconds, too slow to ask live, so the data repo
 // collects the posts and this reads its file.
+// New posts from every subreddit, each subreddit's backfilled history, and the repos' saved details, all collected
+// by the data repo (script/reddit.js, script/reddit_history.js). Rows come complete, so Releases doesn't look them up.
 async function fetchReddit(days) {
-  const res = await fetch(REDDIT);
-  if (!res.ok) throw new Error(`Reddit posts file failed: ${res.status}`);
+  const main = await dataFile(REDDIT);
+  const others = (main.subs ?? []).filter((sub) => sub !== 'BestGitHubRepos' && /^\w{2,21}$/.test(sub));
+  const [history, details] = await Promise.all([
+    Promise.all(others.map((sub) => dataFile(`${REDDIT_DIR}/history/${sub}.json`).then((f) => f.posts ?? [], () => []))),
+    dataFile(`${REDDIT_DIR}/repos.json`).then((f) => f.repos ?? {}, () => ({})),
+  ]);
   const since = Math.floor(Date.now() / 1000) - days * DAY;
-  return redditToRepos(((await res.json()).posts ?? []).filter((post) => post.created_utc >= since));
+  const posts = [...(main.posts ?? []), ...history.flat()].filter((post) => post.created_utc >= since);
+  const { repos, unknown } = withDetails(redditToRepos(posts), details, (a, b) => a.reddit.time > b.reddit.time);
+  // Repos the collector hasn't looked up yet (few once it has run) are looked up here.
+  const looked = unknown.length ? (await enrich(unknown)).repos : [];
+  const rows = [...repos, ...looked];
+  return days >= 365 ? rows.sort((a, b) => b.stars - a.stars).slice(0, REDDIT_YEAR_MAX) : rows;
 }
 
 // Popular repos updated in the window: 1,000+ stars, pushed since then, most stars first.
@@ -161,11 +175,11 @@ async function loadReleases(days) {
     settle('GitHub', fetchUpdated(Number(days))),
   ]);
   if (failed.length === (Number(days) <= 30 ? 3 : 2)) throw new Error(`${failed.join(', ')} could not be loaded.`);
-  // GitHub search rows come complete, so only the other sources need the slow GraphQL lookup. Starred repos among
-  // them are dropped in respond(), which checks every response against the full star list.
-  const checked = await enrich(mergeSources(monitor, reddit));
+  // Reddit and GitHub search rows come complete, so only Release Monitor's need the slow GraphQL lookup. Starred
+  // repos are dropped in respond(), which checks every response against the full star list.
+  const checked = await enrich(monitor);
   const tracked = mergeSources(monitor, reddit, updated).length;
-  return { ...checked, repos: mergeSources(checked.repos, updated), tracked, refreshed: Date.now(), failed };
+  return { ...checked, repos: mergeSources(checked.repos, reddit, updated), tracked, refreshed: Date.now(), failed };
 }
 
 async function searchPage(q, page, attempt = 1) {

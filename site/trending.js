@@ -324,15 +324,23 @@ export function tweetsToRepos(tweets, since = 0) {
   return [...repos.values()];
 }
 
-// Collected HN stories (data/hn) as page rows: one per repo from its best story, with the repo's saved GitHub details.
-// Repos GitHub no longer has are left out, and a renamed repo linked under both names appears once.
-export function hnWithDetails(stories, details) {
+// Page rows (from hnToRepos or redditToRepos) with each repo's saved GitHub details (data/hn/repos.json,
+// data/reddit/repos.json). Repos GitHub no longer has are left out, a renamed repo linked under both names appears
+// once (`better(a, b)` says whether row a beats row b), and rows whose repo hasn't been looked up yet are returned
+// apart in `unknown`.
+export function withDetails(rows, details, better) {
   const best = new Map();
-  for (const row of hnToRepos(stories)) {
+  const unknown = [];
+  for (const row of rows) {
     const d = details[row.name.toLowerCase()];
-    if (!d || d.missing || !REPO_NAME.test(d.name ?? '')) continue;
+    if (!d) {
+      unknown.push(row);
+      continue;
+    }
+    if (d.missing || !REPO_NAME.test(d.name ?? '')) continue;
     const key = d.name.toLowerCase();
-    if ((best.get(key)?.hn.points ?? -1) >= row.hn.points) continue;
+    const prev = best.get(key);
+    if (prev && !better(row, prev)) continue;
     best.set(key, {
       ...row,
       name: d.name,
@@ -346,5 +354,11 @@ export function hnWithDetails(stories, details) {
       topics: Array.isArray(d.topics) ? d.topics.map(String) : [],
     });
   }
-  return [...best.values()];
+  return { repos: [...best.values()], unknown };
+}
+
+// Collected HN stories (data/hn) as page rows, one per repo from its best story. The HN collector looks every repo
+// up, so a repo without details is one GitHub doesn't have and is left out.
+export function hnWithDetails(stories, details) {
+  return withDetails(hnToRepos(stories), details, (a, b) => a.hn.points > b.hn.points).repos;
 }
