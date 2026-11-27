@@ -11,6 +11,7 @@ to TW_LIMIT), so a busy account loses nothing however long the gap between visit
 
 Env:  TW_AUTH_TOKEN, TW_CT0 (the X session cookies; set as GitHub Actions secrets).
       TW_BATCH accounts per run (default 24), TW_LIMIT the most tweets read per account (default 400).
+      TW_LOOKUPS username -> id lookups per run for accounts missing from account_ids.json (default 1).
 Usage:  python script/twitter_twscrape.py            # one batch (forward/incremental)
         python script/twitter_twscrape.py elonmusk   # specific accounts (ignores batching)
         python script/twitter_twscrape.py --selftest  # offline checks, no network
@@ -39,6 +40,9 @@ LIMIT = int(os.environ.get("TW_LIMIT", "400"))
 # TW_PAUSE adds seconds between accounts to stay gentle on the single cookie's rate limit.
 BACKFILL = os.environ.get("TW_BACKFILL") == "1"
 PAUSE = float(os.environ.get("TW_PAUSE", "0"))
+# The username -> id lookup is the endpoint X keeps refusing; each refusal stalls the run 15 minutes. IDs are cached
+# in account_ids.json (seeded from the following export), so a run tries at most this many lookups for new accounts.
+LOOKUPS = int(os.environ.get("TW_LOOKUPS", "1"))
 BACKFILLED = os.path.join(DIR, "backfilled.json")
 
 # Mirror of script/twitter.js: a loose test; the site does the strict one. "github" anywhere (links,
@@ -125,10 +129,30 @@ async def main():
     batch = pick_accounts(accounts, read_until, done)
     print(f"{'BACKFILL ' if BACKFILL else ''}batch of {len(batch)}: {', '.join(batch)}")
     added = 0
+    lookups = 0
+
+    def save():
+        """Written after every account, so a run stopped by its time limit keeps what it read."""
+        tweets = sorted((t for t in by_id.values() if t["time"] >= cutoff), key=lambda t: t["time"], reverse=True)
+        os.makedirs(DIR, exist_ok=True)
+        with open(IDS, "w", encoding="utf-8") as f:
+            json.dump(ids, f, ensure_ascii=False, indent=1)
+        if BACKFILL:
+            with open(BACKFILLED, "w", encoding="utf-8") as f:
+                json.dump(sorted(done), f, ensure_ascii=False, indent=1)
+        with open(FILE, "w", encoding="utf-8") as f:
+            from datetime import datetime, timezone
+            json.dump({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+                       "readUntil": read_until, "tweets": tweets}, f, ensure_ascii=False)
+        return tweets
+
     for user in batch:
         try:
             uid = ids.get(user)
-            if not uid:  # one-time username -> id lookup (the rate-limited/often-blocked endpoint); cached after
+            if not uid:
+                if lookups >= LOOKUPS:
+                    print(f"  @{user}: no cached id, lookup left for a later run"); continue
+                lookups += 1
                 u = await api.user_by_login(user)
                 if not u:
                     print(f"  @{user}: not resolved"); continue
@@ -159,19 +183,11 @@ async def main():
                 await asyncio.sleep(PAUSE)
         except Exception as ex:
             print(f"  @{user}: error {type(ex).__name__}: {ex}")
+        save()
 
-    tweets = sorted((t for t in by_id.values() if t["time"] >= cutoff), key=lambda t: t["time"], reverse=True)
-    os.makedirs(DIR, exist_ok=True)
-    with open(IDS, "w", encoding="utf-8") as f:
-        json.dump(ids, f, ensure_ascii=False, indent=1)
+    tweets = save()
     if BACKFILL:
-        with open(BACKFILLED, "w", encoding="utf-8") as f:
-            json.dump(sorted(done), f, ensure_ascii=False, indent=1)
         print(f"backfilled {len(done)}/{len(accounts)} accounts so far")
-    with open(FILE, "w", encoding="utf-8") as f:
-        from datetime import datetime, timezone
-        json.dump({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-                   "readUntil": read_until, "tweets": tweets}, f, ensure_ascii=False)
     print(f"+{added} this run; {len(tweets)} posts kept -> {FILE}")
 
 
