@@ -4,12 +4,14 @@ const { DATA_BASE_URL } = require('./base')
 
 // Collects r/BestGitHubRepos posts that link a GitHub repo, from the Arctic Shift Reddit archive
 // (https://github.com/ArthurHeitmann/arctic_shift/tree/master/api), into data/reddit/BestGitHubRepos.json.
-// Each run only asks for posts newer than the newest saved one and keeps the last year.
+// Each run asks for posts from 7 days before the newest saved one, keeps the last year, and skips ids it has.
 const API = 'https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=BestGitHubRepos'
   + '&fields=id,title,url,selftext,num_comments,created_utc&limit=100&sort=asc';
 const FILE = path.resolve(__dirname, DATA_BASE_URL, 'reddit', 'BestGitHubRepos.json');
 const KEEP_SECONDS = 365 * 86400;
 const MAX_PAGES = 200;
+// The archive sometimes saves a post hours after newer ones; reading only past the newest saved post skipped those.
+const REFETCH_SECONDS = 7 * 86400;
 // The archive is free and throttles hard: a request right after another gets 422 "Timeout. Maybe slow down a bit".
 const PAUSE_MS = 5000;
 const GITHUB_LINK = /https?:\/\/(?:www\.)?github\.com\/([\w.-]+)\/([\w.-]+)/gi;
@@ -56,8 +58,8 @@ async function updateReddit () {
   const saved = existsSync(FILE) ? JSON.parse(readFileSync(FILE, 'utf8')).posts : [];
   const cutoff = Math.floor(Date.now() / 1000) - KEEP_SECONDS;
   const byId = new Map(saved.map(post => [post.id, post]));
-  // One second back so posts sharing the newest timestamp are not skipped; ids remove the repeats.
-  let after = saved.length ? Math.max(...saved.map(post => post.created_utc)) - 1 : cutoff;
+  // Back REFETCH_SECONDS from the newest saved post, so posts archived late are still found; ids remove the repeats.
+  let after = saved.length ? Math.max(Math.max(...saved.map(post => post.created_utc)) - REFETCH_SECONDS, cutoff) : cutoff;
   let added = 0;
   try {
     for (let pages = 0; pages < MAX_PAGES; pages++) {
