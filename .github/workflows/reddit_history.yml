@@ -1,0 +1,68 @@
+name: Backfill Reddit history
+
+# One-time: reads each subreddit's last year into data/reddit/history/ (script/reddit_history.js). A full year of the
+# 52 added subreddits is ~17,000 archive pages, over a day at ~8 s a page, so 3 jobs share the subreddits (each on its
+# own runner) and each runs for 5 hours, committing every 30 minutes; start it again until every job's log says every
+# subreddit has its year. It writes only data/reddit/history/, which the 4-hourly data run never writes, so the two
+# don't conflict and can run at the same time.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: reddit-history
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2]
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Ten 30-minute chunks, each committed, so the site sees the history fill in as it goes rather than after 5 hours.
+      # The script saves after every page and resumes where the last chunk stopped.
+      - name: Read older posts
+        timeout-minutes: 310
+        env:
+          REDDIT_RUN_MINUTES: '29'
+          SHARD: ${{ matrix.shard }}
+          SHARDS: '3'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          commit() {
+            git add data/reddit/history
+            if git diff --cached --quiet; then return 0; fi
+            git commit -m "reddit: backfill history (shard ${{ matrix.shard }}) $(date -u +%FT%TZ)"
+            # The jobs push at about the same time; each touches only its own files, so a retry after a rebase is safe.
+            for i in 1 2 3 4 5; do git pull --rebase origin main && git push && return 0; sleep $((i * 10)); done
+            return 1
+          }
+          for chunk in 1 2 3 4 5 6 7 8 9 10; do
+            node script/reddit_history.js | tee /tmp/history.log
+            commit
+            grep -q "every subreddit has its year" /tmp/history.log && break
+          done
+
+      # A chunk cut off by the time limit still saved its pages; commit them.
+      - name: Commit what was left
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reddit/history
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "reddit: backfill history (shard ${{ matrix.shard }}) $(date -u +%FT%TZ)"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && exit 0; sleep $((i * 10)); done
+          exit 1

@@ -68,10 +68,12 @@ After the GitHub scrape, [`script/trendshift.js`](script/trendshift.js) reads th
 
 ### Reddit posts
 
-[`script/reddit.js`](script/reddit.js) keeps a year of [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) posts that link a GitHub repo in [`data/reddit/BestGitHubRepos.json`](data/reddit/BestGitHubRepos.json), read from the [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift/tree/master/api) Reddit archive.
+Reddit posts that link a GitHub repo, from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) and 52 more subreddits (open source, AI and agents, Claude and coding, side projects, three.js, decompilation, Blender; the list is `SUBREDDITS` in [`script/reddit.js`](script/reddit.js)), read from the [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift/tree/master/api) Reddit archive.
 
-- Each entry has `id`, `title`, `url` (the GitHub repo), `created_utc` and `num_comments`, newest first.
-- The archive allows about one request every few seconds, so each run pauses between pages, waits when the archive says to, and saves after every page. It asks for posts from 7 days before the newest saved one, since the archive sometimes saves a post hours after newer ones; saved ids are skipped.
+- [`script/reddit.js`](script/reddit.js), in every data run, reads each subreddit forward from where it last stopped (2 days back, since the archive sometimes saves a post late) into [`data/reddit/BestGitHubRepos.json`](data/reddit/BestGitHubRepos.json). The file kept its first name; each post has `sub`, and `checked` holds where each subreddit was read up to. It saves after every page and stops after 20 minutes; the next run carries on with the subreddits read longest ago.
+- [`script/reddit_history.js`](script/reddit_history.js) fills in each added subreddit's year before it was added, into `data/reddit/history/<subreddit>.json`, newest first and always continuing the subreddit with the least history, so every period up to a year fills in evenly. A full year is about 17,000 archive pages (about a day), so [`.github/workflows/reddit_history.yml`](.github/workflows/reddit_history.yml) runs it by hand in 5-hour chunks until the log says every subreddit has its year. It writes only those files, so it never clashes with the data run.
+- [`data/reddit/repos.json`](data/reddit/repos.json) holds each linked repo's GitHub details, looked up once and re-checked in rotation, the same way as the Hacker News data (`updateRepos` from `script/hn.js`).
+- Every post is read: the archive's text and link searches time out and returned nothing in tests. About 1 in 5 posts are removed by Reddit or moderators before the archive sees them, with no text left, so those repos can't be found.
 - The archive records posts shortly after they are made, so upvote counts are not kept.
 
 ### Hacker News stories
@@ -112,7 +114,8 @@ pnpm install
 pnpm build                    # GitHub Trending for every language, then Trendshift, Reddit and skills (about 30 minutes)
 node site/prebuild.mjs        # The site's slow lists into data/site/ (a few minutes; set GITHUB_TOKEN)
 node script/trendshift.js     # Trendshift step only
-node script/reddit.js         # Reddit step only
+node script/reddit.js         # Reddit step only (new posts and repo details)
+node script/reddit_history.js # Reddit year backfill (REDDIT_RUN_MINUTES caps it)
 node script/skills.js         # Skills step only (set GITHUB_TOKEN for the higher search limit)
 node script/new.js            # New repos step only (set GITHUB_TOKEN for the higher search limit)
 node script/hn.js             # Hacker News step only (needs GITHUB_TOKEN for repo details)
@@ -135,7 +138,7 @@ A dark, mobile-friendly page modelled on [gitbored.com](https://gitbored.com/)'s
 
 **Hacker News** lists GitHub repositories linked from Hacker News stories, through the [Algolia HN search API](https://hn.algolia.com/api), for the last day, week, month, year or all time. Rows show the story title, points, comments and age, with links to the discussion and the repo. Day, week, month and year list every GitHub-linked story from the collected data (`data/hn`), down to 1-point posts. All time adds the 1,000 best-ranked GitHub stories ever, the most one Algolia search returns.
 
-**Releases** combines three sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) posts from [r/BestGitHubRepos](https://www.reddit.com/r/BestGitHubRepos/) (linked to the Reddit thread), and popular repos updated in the period from GitHub search (`stars:>1000 pushed:>=<start of period>`, most stars first, up to 1,000). A **Source** filter shows all of them or one source; choosing GitHub sorts by total stars. A repo found by more than one source appears once with every link. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
+**Releases** combines three sources for the last 24 hours, 7, 14 or 30 days, or the last year: notable new GitHub releases from [releasemonitor.org](https://releasemonitor.org) (up to 500 per period, ranked by Release Monitor, linked to the repo's releases page) posts from r/BestGitHubRepos and 52 more subreddits (linked to the Reddit thread; the last year keeps the 10,000 most-starred repos, every shorter period lists all), and popular repos updated in the period from GitHub search (`stars:>1000 pushed:>=<start of period>`, most stars first, up to 1,000). A **Source** filter shows all of them or one source; choosing GitHub sorts by total stars. A repo found by more than one source appears once with every link. Release Monitor stops at 30 days, so the year shows Reddit posts only. Release Monitor has no real language filter, so the **Primary language** filter uses each repo's main language from GitHub instead.
 
 **Starred repos never appear.** The server checks every repo against your GitHub stars, and also re-checks your 100 newest stars on every page load, so a repo you just starred disappears when you come back to the tab.
 
@@ -215,7 +218,7 @@ On Windows, `open-unstarred.cmd` starts the server if needed and opens the page;
 - X posts read with [twscrape](https://github.com/vladkens/twscrape).
 - Hacker News data from the [Algolia HN search API](https://hn.algolia.com/api).
 - Release data from [Release Monitor](https://releasemonitor.org).
-- Reddit posts from r/BestGitHubRepos via [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift).
+- Reddit posts from r/BestGitHubRepos and other subreddits via [Arctic Shift](https://github.com/ArthurHeitmann/arctic_shift).
 
 ## License
 

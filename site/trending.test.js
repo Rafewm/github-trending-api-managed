@@ -231,3 +231,12 @@ test('redditToRepos keeps each post subreddit, defaulting old posts to BestGitHu
   ]);
   assert.deepEqual(repos.map((r) => [r.name, r.reddit.sub]), [['a/b', 'LocalLLaMA'], ['c/d', 'BestGitHubRepos'], ['e/f', 'BestGitHubRepos']]);
 });
+
+test('withDetails joins saved details, keeps the better row per repo and returns repos not looked up apart', async () => {
+  const { withDetails } = await import('./trending.js');
+  const row = (name, time) => ({ name, reddit: { id: name + time, time } });
+  const details = { 'a/b': { name: 'a/b', stars: 5 }, 'old/name': { name: 'new/name', stars: 9 }, 'new/name': { name: 'new/name', stars: 9 }, 'gone/x': { missing: true } };
+  const { repos, unknown } = withDetails([row('a/b', 1), row('old/name', 3), row('new/name', 2), row('gone/x', 1), row('not/yet', 1)], details, (a, b) => a.reddit.time > b.reddit.time);
+  assert.deepEqual(repos.map((r) => [r.name, r.stars, r.reddit.time]), [['a/b', 5, 1], ['new/name', 9, 3]]);
+  assert.deepEqual(unknown.map((r) => r.name), ['not/yet']);
+});
