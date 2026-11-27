@@ -22278,5 +22278,33 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/36782933?v=4",
   "topics": []
+ },
+ "alesha-pro/llm.asm": {
+  "name": "alesha-pro/llm.asm",
+  "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+  "language": "Assembly",
+  "languageColor": "#6E4C13",
+  "day": {
+   "add": 487,
+   "pct": 386.5079365079365
+  },
+  "week": null,
+  "month": null,
+  "stars": 1313,
+  "pushedAt": "2026-11-25T15:42:44Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/68546545?s=40&u=9aea5e26580e6ad31ed57ffb91ec350cc21c0dc8&v=4",
+  "topics": [
+   "assembly",
+   "avx2",
+   "bare-metal",
+   "llm",
+   "machine-learning",
+   "nasm",
+   "osdev",
+   "qwen",
+   "transformer",
+   "x86-64"
+  ]
  }
 }
