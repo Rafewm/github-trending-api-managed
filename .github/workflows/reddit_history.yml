@@ -52,7 +52,8 @@ jobs:
           for chunk in 1 2 3 4 5 6 7 8 9 10; do
             node script/reddit_history.js | tee /tmp/history.log
             commit
-            grep -q "every subreddit has its year" /tmp/history.log && break
+            # if, not &&: a failed grep on the last chunk would end the step with exit code 1.
+            if grep -q "every subreddit has its year" /tmp/history.log; then break; fi
           done
 
       # A chunk cut off by the time limit still saved its pages; commit them.
