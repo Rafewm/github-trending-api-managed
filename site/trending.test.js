@@ -221,3 +221,13 @@ test('hnWithDetails keeps every collected story repo with its details, once per 
   assert.equal(h.hn.id, '1');
   assert.equal(h.avatar, 'https://avatars.githubusercontent.com/lopopolo?s=40');
 });
+
+test('redditToRepos keeps each post subreddit, defaulting old posts to BestGitHubRepos', async () => {
+  const { redditToRepos } = await import('./trending.js');
+  const repos = redditToRepos([
+    { id: 'a1', sub: 'LocalLLaMA', title: 't', url: 'https://github.com/a/b', created_utc: 1 },
+    { id: 'b1', title: 't', url: 'https://github.com/c/d', created_utc: 1 },
+    { id: 'c1', sub: '../evil', title: 't', url: 'https://github.com/e/f', created_utc: 1 },
+  ]);
+  assert.deepEqual(repos.map((r) => [r.name, r.reddit.sub]), [['a/b', 'LocalLLaMA'], ['c/d', 'BestGitHubRepos'], ['e/f', 'BestGitHubRepos']]);
+});

@@ -61,9 +61,9 @@ const FEEDS = {
     periods: [
       ['3', 'Last 3 days, 50+ stars'],
       ['30', 'Last 30 days, 100+ stars'],
-      ['90', 'Last 90 days, 1K+ stars'],
-      ['365', 'Last year, 1K+ stars'],
-      ['730', 'Last 2 years, 1K+ stars'],
+      ['90', 'Last 90 days, 100+ stars'],
+      ['365', 'Last year, 300+ stars'],
+      ['730', 'Last 2 years, 500+ stars'],
       ['all', 'All time, top 1,000 with 1K+ stars'],
     ],
     label: 'new repositories',
@@ -236,7 +236,7 @@ function hnCells(h) {
     <td class="nowrap" data-label="Posted">${ago(new Date(h.time * 1000).toISOString())}</td>`;
 }
 
-const redditUrl = (post) => `https://www.reddit.com/r/BestGitHubRepos/comments/${esc(post.id)}/`;
+const redditUrl = (post) => `https://www.reddit.com/r/${esc(post.sub ?? 'BestGitHubRepos')}/comments/${esc(post.id)}/`;
 
 // Release Monitor version and Reddit post date; a repo can come from one source or both.
 function releaseCells(repo) {

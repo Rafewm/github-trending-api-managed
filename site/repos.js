@@ -25,17 +25,18 @@ const HN_TOP_MS = 60 * 60 * 1000;
 // Release windows in days. releasemonitor.org offers up to 30; the year is Reddit only.
 const RELEASE_DAYS = ['1', '7', '14', '30', '365'];
 const RELEASE_CACHE_MS = 30 * 60 * 1000;
-// r/BestGitHubRepos posts, collected every 4 hours by the data repo's Action (script/reddit.js).
+// Posts from r/BestGitHubRepos and other subreddits that link a repo, collected by the data repo's Action (script/reddit.js).
 const REDDIT = `${DATA}/reddit/BestGitHubRepos.json`;
 const DAY = 86400;
 // New repos gaining stars fast, by GitHub search like repotrend.com: [days back or null for all time, minimum stars].
 // All time can't be split into few enough searches (66K repos with 1K+ stars), so it keeps GitHub's 1,000 most-starred.
-const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 1000], 365: [365, 1000], 730: [730, 1000], all: [null, 1000] };
+// 90 days to 2 years used to need 1K+ stars, which left out repos released a month or two ago that hadn't reached it.
+const NEW_PERIODS = { 3: [3, 50], 30: [30, 100], 90: [90, 100], 365: [365, 300], 730: [730, 500], all: [null, 1000] };
 const DAY_MS = DAY * 1000;
-// 1K+ star repos of the last 2 years, collected every 4 hours by the data repo's Action (script/new.js): ~90 searches
-// at GitHub's 30 a minute is too slow to build inside Vercel's 5-minute limit. These periods read it.
+// Those three lists (~30,000 repos), collected by the data repo's Action (script/new.js) with the same thresholds:
+// ~450 searches at GitHub's 30 a minute is far too slow to build inside Vercel's 5-minute limit.
 const NEW_FILE = `${DATA}/new/repos.json`;
-const NEW_FROM_FILE = ['365', '730'];
+const NEW_FROM_FILE = ['90', '365', '730'];
 const DATA_FILE_MS = 10 * 60 * 1000;
 // The slow lists (Browse, Releases, Twitter, New 3/30/90 days and all time, the HN all-time top) are built every few
 // hours by the data repo's Action (site/prebuild.mjs) into data/site/. Older files than this are rebuilt here instead.
