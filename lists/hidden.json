@@ -109478,5 +109478,32 @@
    "issue-tracker",
    "jira"
   ]
+ },
+ "syv-ai/HyperQwen": {
+  "name": "syv-ai/HyperQwen",
+  "description": "Serve large Qwen models fast on the GPUs you actually own. Qwen3.8-27B on a single 24 GB card with vLLM: 127 tok/s single-user (381 when the answer quotes the prompt), ~1,035 tok/s at 64 concurrent, 150k-262k context. vLLM patches, requant pipeline, benchmarks.",
+  "language": "Python",
+  "languageColor": "#3572A5",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 2802,
+  "pushedAt": "2026-11-10T04:28:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/165799186?s=40&v=4",
+  "topics": [
+   "kv-cache",
+   "llm-inference",
+   "local-llm",
+   "quantization",
+   "qwen",
+   "qwen3",
+   "rtx-3090",
+   "speculative-decoding",
+   "vllm",
+   "consumer-gpu",
+   "cuda",
+   "inference-optimization"
+  ]
  }
 }
