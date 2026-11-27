@@ -35,6 +35,11 @@ jobs:
           TW_AUTH_TOKEN: ${{ secrets.TW_AUTH_TOKEN }}
           TW_CT0: ${{ secrets.TW_CT0 }}
           TW_BATCH: '24'
+          # When X refuses the account (it answered HTTP 403 to every request from Nov 26 on), twscrape locks it for
+          # 15 minutes and waits; raising instead ends a blocked run in a minute and still saves what was read.
+          TWS_RAISE_WHEN_NO_ACCOUNT: 'true'
+          # Without this Python holds the script's own lines until exit, so a cut-off run logs nothing of its progress.
+          PYTHONUNBUFFERED: '1'
 
       - name: Commit tweets.json
         if: always()
