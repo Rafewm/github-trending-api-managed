@@ -110420,5 +110420,24 @@
    "cpp",
    "bluetooth-low-energy"
   ]
+ },
+ "chrome-php/chrome": {
+  "name": "chrome-php/chrome",
+  "description": "Instrument headless chrome/chromium instances from PHP",
+  "language": "PHP",
+  "languageColor": "#4F5D95",
+  "day": {
+   "add": 1,
+   "pct": 0.03728560775540641
+  },
+  "week": null,
+  "month": null,
+  "stars": 2685,
+  "pushedAt": "2026-11-26T00:03:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/38249919?s=40&v=4",
+  "topics": [
+   "hacktoberfest"
+  ]
  }
 }
