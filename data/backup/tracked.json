@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-27T12:51:17.091Z",
- "count": 932,
+ "updated": "2026-11-28T12:03:19.210Z",
+ "count": 940,
  "data": {
   "charlax/professional-programming": {
    "name": "charlax/professional-programming",
@@ -22378,6 +22378,185 @@
     "webcam",
     "selfie",
     "humor"
+   ]
+  },
+  "al1abb/invoify": {
+   "name": "al1abb/invoify",
+   "description": "An invoice generator app built using Next.js, Typescript, and Shadcn",
+   "language": "TypeScript",
+   "languageColor": "#3178c6",
+   "day": null,
+   "week": null,
+   "month": null,
+   "stars": 6394,
+   "pushedAt": "2026-08-24T02:55:34Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/60220042?s=40&u=f446b25523c2fc7e6241a544d06a97e10c92ae89&v=4",
+   "topics": [
+    "invoice-app",
+    "nextjs",
+    "nextjs13",
+    "react",
+    "shadcn-ui",
+    "typescript",
+    "react-hook-form",
+    "zod",
+    "invoice-generator"
+   ]
+  },
+  "AhmadHassan-BTed/NaSuno-SongHumanizer": {
+   "name": "AhmadHassan-BTed/NaSuno-SongHumanizer",
+   "description": "AI audio watermark removal & forensic anti-attribution toolkit. Neutralizes Suno, Udio, and neural fingerprints with ISO 226 perceptual masking.",
+   "language": "",
+   "languageColor": "",
+   "day": null,
+   "week": null,
+   "month": null,
+   "stars": 5948,
+   "pushedAt": "2026-11-05T14:38:54Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/123323526?s=40&u=352a89b6f51ee4325935f25076112850a2e6df57&v=4",
+   "topics": [
+    "ai-audio",
+    "anti-attribution",
+    "audio-forensics",
+    "audio-processing",
+    "audio-watermarking",
+    "dsp",
+    "fl-studio",
+    "music-production",
+    "neural-vocoder",
+    "perceptual-masking",
+    "psychoacoustics",
+    "python",
+    "steganography",
+    "suno-ai",
+    "watermark-removal"
+   ]
+  },
+  "reorproject/reor": {
+   "name": "reorproject/reor",
+   "description": "Private & local AI personal knowledge management app for high entropy people.",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "day": null,
+   "week": null,
+   "month": null,
+   "stars": 8525,
+   "pushedAt": "2025-05-13T21:28:59Z",
+   "archived": true,
+   "avatar": "https://avatars.githubusercontent.com/u/152097434?s=40&v=4",
+   "topics": [
+    "ai",
+    "lancedb",
+    "llama",
+    "llamacpp",
+    "local-first",
+    "markdown",
+    "note-taking",
+    "pkm",
+    "vector-database",
+    "rag",
+    "second-brain",
+    "ollama"
+   ]
+  },
+  "sidekiq/sidekiq": {
+   "name": "sidekiq/sidekiq",
+   "description": "Simple, efficient background processing for Ruby",
+   "language": "Ruby",
+   "languageColor": "#701516",
+   "day": {
+    "add": 1,
+    "pct": 0.00736865374696043
+   },
+   "week": null,
+   "month": null,
+   "stars": 13572,
+   "pushedAt": "2026-11-23T22:06:44Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/124714131?s=40&v=4",
+   "topics": [
+    "ruby",
+    "sidekiq",
+    "background-jobs",
+    "jobs"
+   ]
+  },
+  "spatie/laravel-permission": {
+   "name": "spatie/laravel-permission",
+   "description": "Associate users with roles and permissions",
+   "language": "PHP",
+   "languageColor": "#4F5D95",
+   "day": {
+    "add": 2,
+    "pct": 0.015397644160443452
+   },
+   "week": null,
+   "month": null,
+   "stars": 12991,
+   "pushedAt": "2026-11-26T14:04:04Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/7535935?s=40&v=4",
+   "topics": [
+    "laravel",
+    "php",
+    "permission",
+    "secure"
+   ]
+  },
+  "laravel/sanctum": {
+   "name": "laravel/sanctum",
+   "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+   "language": "PHP",
+   "languageColor": "#4F5D95",
+   "day": {
+    "add": 1,
+    "pct": 0.03348961821835231
+   },
+   "week": null,
+   "month": null,
+   "stars": 2987,
+   "pushedAt": "2026-11-17T15:20:19Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/u/958072?s=40&v=4",
+   "topics": [
+    "laravel",
+    "sanctum",
+    "auth"
+   ]
+  },
+  "ubiquitarianism/leonida": {
+   "name": "ubiquitarianism/leonida",
+   "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "day": null,
+   "week": null,
+   "month": null,
+   "stars": 2594,
+   "pushedAt": "2026-11-27T13:19:01Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/ubiquitarianism?s=40",
+   "topics": []
+  },
+  "NeoApplications/Neo-Store": {
+   "name": "NeoApplications/Neo-Store",
+   "description": "An F-Droid client with modern UI and an arsenal of extra features.",
+   "language": "Kotlin",
+   "languageColor": "#A97BFF",
+   "day": null,
+   "week": null,
+   "month": null,
+   "stars": 5746,
+   "pushedAt": "2026-10-23T00:40:33Z",
+   "archived": false,
+   "avatar": "https://avatars.githubusercontent.com/NeoApplications?s=40",
+   "topics": [
+    "hacktoberfest",
+    "android",
+    "f-droid",
+    "foss"
    ]
   }
  }
