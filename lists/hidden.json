@@ -111475,5 +111475,35 @@
    "react",
    "simulation"
   ]
+ },
+ "eisenzopf/rvoip": {
+  "name": "eisenzopf/rvoip",
+  "description": "Open-source Rust SIP/VoIP stack: SIP, WebRTC, SRTP and AI voice agents behind one API. RFC 7502-benchmarked.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": {
+   "add": 251,
+   "pct": 92.27941176470588
+  },
+  "week": null,
+  "month": null,
+  "stars": 535,
+  "pushedAt": "2026-11-27T03:31:17Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/9158070?s=40&u=f838ad2a2209c19472dde750ade333d07d80b46d&v=4",
+  "topics": [
+   "ai-agents",
+   "real-time-communication",
+   "rtp",
+   "rust",
+   "sbc",
+   "sip",
+   "srtp",
+   "telephony",
+   "voice-ai",
+   "voip",
+   "webrtc",
+   "rfc7502"
+  ]
  }
 }
