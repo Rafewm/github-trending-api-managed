@@ -22572,5 +22572,35 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/161781182?s=40&v=4",
   "topics": []
+ },
+ "zortos293/XSEmu": {
+  "name": "zortos293/XSEmu",
+  "description": "Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL.",
+  "language": "Rust",
+  "languageColor": "#dea584",
+  "day": {
+   "add": 310,
+   "pct": 52.81090289608177
+  },
+  "week": null,
+  "month": null,
+  "stars": 939,
+  "pushedAt": "2026-11-28T06:33:29Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/65777760?s=40&u=cbaf8553a49b597c7ecab3dc303f03a5b699b9b6&v=4",
+  "topics": [
+   "compatibility-layer",
+   "d3d12",
+   "dxil",
+   "emulator",
+   "gdk",
+   "hlsl",
+   "rdna2",
+   "rust",
+   "shader-recompiler",
+   "windows",
+   "xbox",
+   "xbox-series"
+  ]
  }
 }
