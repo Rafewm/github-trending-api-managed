@@ -110645,5 +110645,23 @@
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/tchx84?s=40",
   "topics": []
+ },
+ "zigpy/zha-device-handlers": {
+  "name": "zigpy/zha-device-handlers",
+  "description": "ZHA quirks bridge the functionality gap created when manufacturers deviate from the ZCL specification, handling deviations and exceptions by parsing custom messages to and from Zigbee devices.",
+  "language": "Python",
+  "languageColor": "#3572A5",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 1165,
+  "pushedAt": "2026-11-27T01:42:39Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/zigpy?s=40",
+  "topics": [
+   "home-assistant",
+   "home-automation",
+   "hacktoberfest"
+  ]
  }
 }
