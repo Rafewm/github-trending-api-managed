@@ -110606,5 +110606,30 @@
    "multi-tenant",
    "saas"
   ]
+ },
+ "gkjohnson/three-gpu-pathtracer": {
+  "name": "gkjohnson/three-gpu-pathtracer",
+  "description": "Path tracing renderer and utilities for three.js built on top of three-mesh-bvh.",
+  "language": "JavaScript",
+  "languageColor": "#f1e05a",
+  "day": null,
+  "week": null,
+  "month": null,
+  "stars": 2077,
+  "pushedAt": "2026-11-27T09:41:14Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/gkjohnson?s=40",
+  "topics": [
+   "path-tracing",
+   "raytracing",
+   "threejs",
+   "bvh",
+   "performance",
+   "graphics",
+   "geometry",
+   "webgl",
+   "renderer",
+   "mesh"
+  ]
  }
 }
