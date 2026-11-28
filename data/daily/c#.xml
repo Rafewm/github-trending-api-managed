@@ -3,7 +3,7 @@
     <title>GitHub C# Languages Daily Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Daily Trending of C# Languages in GitHub</description>
-    <pubDate>Sat, 28 Nov 2026 06:16:13 GMT</pubDate>
+    <pubDate>Sat, 28 Nov 2026 16:37:08 GMT</pubDate>
     <item>
       <title>nginx/nginx</title>
       <link>https://github.com/nginx/nginx</link>
@@ -11,9 +11,9 @@
       <guid>https://github.com/nginx/nginx</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>33,694</stars>
-      <forks>8,485</forks>
-      <addStars>146</addStars>
+      <stars>33,732</stars>
+      <forks>8,504</forks>
+      <addStars>131</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/201187?s=40&amp;v=4</avatar>
@@ -49,9 +49,9 @@
       <guid>https://github.com/zephyrproject-rtos/zephyr</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,205</stars>
-      <forks>10,598</forks>
-      <addStars>12</addStars>
+      <stars>17,204</stars>
+      <forks>10,600</forks>
+      <addStars>8</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/180017?s=40&amp;v=4</avatar>
@@ -87,9 +87,9 @@
       <guid>https://github.com/php/php-src</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>41,872</stars>
-      <forks>8,539</forks>
-      <addStars>7</addStars>
+      <stars>41,873</stars>
+      <forks>8,540</forks>
+      <addStars>6</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2510034?s=40&amp;v=4</avatar>
@@ -125,9 +125,9 @@
       <guid>https://github.com/LiberNT/LiberNT</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,318</stars>
-      <forks>107</forks>
-      <addStars>35</addStars>
+      <stars>2,331</stars>
+      <forks>109</forks>
+      <addStars>28</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/17293844?s=40&amp;v=4</avatar>
@@ -159,13 +159,13 @@
     <item>
       <title>CroqueMr/libreelec-CB1</title>
       <link>https://github.com/CroqueMr/libreelec-CB1</link>
-      <description>LibreELEC with High Quality Dolby Vision &amp; HDR10+ support for Intel, AMD, Nvidia, and more</description>
+      <description>LibreELEC × CB1 — Dolby Vision (FEL, LLDV), HDR10+, SDR/HDR rendering and Blu-ray menus for Intel, AMD and NVIDIA.</description>
       <guid>https://github.com/CroqueMr/libreelec-CB1</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>446</stars>
+      <stars>451</stars>
       <forks>36</forks>
-      <addStars>7</addStars>
+      <addStars>14</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/6086324?s=40&amp;v=4</avatar>
@@ -201,9 +201,9 @@
       <guid>https://github.com/meta/zstd</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>28,362</stars>
-      <forks>2,716</forks>
-      <addStars>18</addStars>
+      <stars>28,371</stars>
+      <forks>2,715</forks>
+      <addStars>16</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/750081?s=40&amp;v=4</avatar>
@@ -239,9 +239,9 @@
       <guid>https://github.com/semgrep/semgrep</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>18,025</stars>
-      <forks>1,223</forks>
-      <addStars>32</addStars>
+      <stars>18,033</stars>
+      <forks>1,225</forks>
+      <addStars>25</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/332336?s=40&amp;v=4</avatar>
@@ -272,9 +272,9 @@
       <guid>https://github.com/madler/zlib</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,268</stars>
-      <forks>2,919</forks>
-      <addStars>5</addStars>
+      <stars>7,273</stars>
+      <forks>2,921</forks>
+      <addStars>9</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/240717?s=40&amp;v=4</avatar>
@@ -310,9 +310,9 @@
       <guid>https://github.com/espressif/esp-idf</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>19,623</stars>
-      <forks>8,622</forks>
-      <addStars>13</addStars>
+      <stars>19,628</stars>
+      <forks>8,621</forks>
+      <addStars>9</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/4349050?s=40&amp;v=4</avatar>
@@ -342,15 +342,48 @@
       </contributors>
     </item>
     <item>
+      <title>ESPARGOS/esp-sdr</title>
+      <link>https://github.com/ESPARGOS/esp-sdr</link>
+      <description>ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios</description>
+      <guid>https://github.com/ESPARGOS/esp-sdr</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,384</stars>
+      <forks>202</forks>
+      <addStars>3</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1311964?s=40&amp;v=4</avatar>
+          <name>Jeija</name>
+          <url>https://github.com/Jeija</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/12879385?s=40&amp;v=4</avatar>
+          <name>14sea</name>
+          <url>https://github.com/14sea</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/16337823?s=40&amp;v=4</avatar>
+          <name>zodoczi</name>
+          <url>https://github.com/zodoczi</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>Crementif/BotW-BetterVR</title>
       <link>https://github.com/Crementif/BotW-BetterVR</link>
       <description>A project aimed at providing a better PC VR mode for BotW using the Cemu emulator</description>
       <guid>https://github.com/Crementif/BotW-BetterVR</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,708</stars>
-      <forks>219</forks>
-      <addStars>3</addStars>
+      <stars>1,709</stars>
+      <forks>220</forks>
+      <addStars>1</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/26669564?s=40&amp;v=4</avatar>
@@ -381,9 +414,9 @@
       <guid>https://github.com/pgvector/pgvector</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>23,846</stars>
-      <forks>1,415</forks>
-      <addStars>14</addStars>
+      <stars>23,852</stars>
+      <forks>1,416</forks>
+      <addStars>10</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/220358?s=40&amp;v=4</avatar>
@@ -419,9 +452,9 @@
       <guid>https://github.com/openssl/openssl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>31,561</stars>
+      <stars>31,560</stars>
       <forks>11,657</forks>
-      <addStars>12</addStars>
+      <addStars>11</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/698918?s=40&amp;v=4</avatar>
@@ -457,9 +490,9 @@
       <guid>https://github.com/hathach/tinyusb</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,305</stars>
+      <stars>7,304</stars>
       <forks>1,592</forks>
-      <addStars>1</addStars>
+      <addStars>2</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/249515?s=40&amp;v=4</avatar>
@@ -495,9 +528,9 @@
       <guid>https://github.com/libretro/RetroArch</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>14,733</stars>
-      <forks>2,401</forks>
-      <addStars>15</addStars>
+      <stars>14,735</stars>
+      <forks>2,402</forks>
+      <addStars>12</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/1075274?s=40&amp;v=4</avatar>
@@ -528,9 +561,9 @@
       <guid>https://github.com/ImageMagick/ImageMagick</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,960</stars>
-      <forks>1,718</forks>
-      <addStars>12</addStars>
+      <stars>17,961</stars>
+      <forks>1,717</forks>
+      <addStars>4</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/10426229?s=40&amp;v=4</avatar>
@@ -562,8 +595,8 @@
       <language>C</language>
       <languageColor>#555555</languageColor>
       <stars>17,088</stars>
-      <forks>3,192</forks>
-      <addStars>9</addStars>
+      <forks>3,193</forks>
+      <addStars>10</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2100061?s=40&amp;v=4</avatar>
@@ -599,9 +632,9 @@
       <guid>https://github.com/flipperdevices/flipperzero-firmware</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,017</stars>
+      <stars>17,020</stars>
       <forks>3,556</forks>
-      <addStars>10</addStars>
+      <addStars>11</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/1633132?s=40&amp;v=4</avatar>
@@ -631,27 +664,27 @@
       </contributors>
     </item>
     <item>
+      <title>huaotem-bot/GeZi-downloader</title>
+      <link>https://github.com/huaotem-bot/GeZi-downloader</link>
+      <description>鸽子下载 —— Windows 上的四网盘下载器，支持夸克、UC、阿里云盘、迅雷云盘，可分享链接解析、免转存直链、多连接并发、边下边播与断点续传。</description>
+      <guid>https://github.com/huaotem-bot/GeZi-downloader</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>1,501</stars>
+      <forks>122</forks>
+      <addStars>105</addStars>
+      <contributors/>
+    </item>
+    <item>
       <title>KnifeLemon/Filee</title>
       <link>https://github.com/KnifeLemon/Filee</link>
       <description>Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.</description>
       <guid>https://github.com/KnifeLemon/Filee</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>32,004</stars>
+      <stars>32,100</stars>
       <forks>1,872</forks>
-      <addStars>79</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>isaac-btw/AmericasLauncher</title>
-      <link>https://github.com/isaac-btw/AmericasLauncher</link>
-      <description>A modern Windows launcher that automatically sets up, updates, builds, and launches Xbox Series X|S (GDK) compatibility layers on Windows — with live port progress tracking built in.</description>
-      <guid>https://github.com/isaac-btw/AmericasLauncher</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>237</stars>
-      <forks>19</forks>
-      <addStars>24</addStars>
+      <addStars>181</addStars>
       <contributors/>
     </item>
     <item>
@@ -661,21 +694,33 @@
       <guid>https://github.com/guruswarupa/PearUI</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>41</stars>
+      <stars>64</stars>
       <forks>1</forks>
-      <addStars>10</addStars>
+      <addStars>37</addStars>
       <contributors/>
     </item>
     <item>
-      <title>huaotem-bot/GeZi-downloader</title>
-      <link>https://github.com/huaotem-bot/GeZi-downloader</link>
-      <description>鸽子下载 —— Windows 上的四网盘下载器，支持夸克、UC、阿里云盘、迅雷云盘，可分享链接解析、免转存直链、多连接并发、边下边播与断点续传。</description>
-      <guid>https://github.com/huaotem-bot/GeZi-downloader</guid>
+      <title>isaac-btw/AmericasLauncher</title>
+      <link>https://github.com/isaac-btw/AmericasLauncher</link>
+      <description>A modern Windows launcher that automatically sets up, updates, builds, and launches Xbox Series X|S (GDK) compatibility layers on Windows — with live port progress tracking built in.</description>
+      <guid>https://github.com/isaac-btw/AmericasLauncher</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>1,437</stars>
-      <forks>122</forks>
-      <addStars>25</addStars>
+      <stars>257</stars>
+      <forks>19</forks>
+      <addStars>41</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>mxgmn/MarkovJunior</title>
+      <link>https://github.com/mxgmn/MarkovJunior</link>
+      <description>Probabilistic language based on pattern matching and constraint propagation, 153 examples</description>
+      <guid>https://github.com/mxgmn/MarkovJunior</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>8,570</stars>
+      <forks>362</forks>
+      <addStars>27</addStars>
       <contributors/>
     </item>
     <item>
@@ -685,21 +730,21 @@
       <guid>https://github.com/2dust/v2rayN</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>121,617</stars>
+      <stars>121,644</stars>
       <forks>16,914</forks>
-      <addStars>25</addStars>
+      <addStars>52</addStars>
       <contributors/>
     </item>
     <item>
-      <title>Smart-Paocai/VioletToolBox</title>
-      <link>https://github.com/Smart-Paocai/VioletToolBox</link>
-      <description>一款面向安卓开发的多功能玩机工具箱</description>
-      <guid>https://github.com/Smart-Paocai/VioletToolBox</guid>
+      <title>HackerspaceMumbai/bethuya</title>
+      <link>https://github.com/HackerspaceMumbai/bethuya</link>
+      <description>AI-augmented Community Operating System for events, participation, and community growth.</description>
+      <guid>https://github.com/HackerspaceMumbai/bethuya</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>1,669</stars>
-      <forks>153</forks>
-      <addStars>25</addStars>
+      <stars>28</stars>
+      <forks>1</forks>
+      <addStars>24</addStars>
       <contributors/>
     </item>
     <item>
@@ -709,93 +754,9 @@
       <guid>https://github.com/slobys/ClaudeLink</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>68</stars>
+      <stars>79</stars>
       <forks>23</forks>
-      <addStars>7</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>nullbrik/RageForge</title>
-      <link>https://github.com/nullbrik/RageForge</link>
-      <description>Independent reverse engineering and research toolkit for Rockstar's RAGE engine, focused on GTA VI file formats, asset inspection, and real-time 3D visualization.</description>
-      <guid>https://github.com/nullbrik/RageForge</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>20</stars>
-      <forks>3</forks>
-      <addStars>9</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Tianyu199509/DeskBox</title>
-      <link>https://github.com/Tianyu199509/DeskBox</link>
-      <description>A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.</description>
-      <guid>https://github.com/Tianyu199509/DeskBox</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>9,845</stars>
-      <forks>566</forks>
-      <addStars>19</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>itsfatduck/optimizerDuck</title>
-      <link>https://github.com/itsfatduck/optimizerDuck</link>
-      <description>Free, open-source Windows optimization tool for performance, privacy, and simplicity.</description>
-      <guid>https://github.com/itsfatduck/optimizerDuck</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>13,311</stars>
-      <forks>627</forks>
-      <addStars>19</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>jellyfin/jellyfin</title>
-      <link>https://github.com/jellyfin/jellyfin</link>
-      <description>The Free Software Media System - Server Backend &amp; API</description>
-      <guid>https://github.com/jellyfin/jellyfin</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>59,839</stars>
-      <forks>6,165</forks>
-      <addStars>15</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>alztrk/opentaskbar</title>
-      <link>https://github.com/alztrk/opentaskbar</link>
-      <description>Lightweight macOS-inspired floating dock and taskbar replacement for Windows 10 and 11</description>
-      <guid>https://github.com/alztrk/opentaskbar</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>447</stars>
-      <forks>42</forks>
-      <addStars>15</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>JiaFeiMiao-K-Cat/DiscImageStudio</title>
-      <link>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</link>
-      <description/>
-      <guid>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>10,997</stars>
-      <forks>433</forks>
-      <addStars>17</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>saddam213/AmuseAI</title>
-      <link>https://github.com/saddam213/AmuseAI</link>
-      <description>Local AI image, video, audio and text.</description>
-      <guid>https://github.com/saddam213/AmuseAI</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>688</stars>
-      <forks>127</forks>
-      <addStars>5</addStars>
+      <addStars>16</addStars>
       <contributors/>
     </item>
     <item>
@@ -805,21 +766,93 @@
       <guid>https://github.com/ShareX/ShareX</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>41,430</stars>
+      <stars>41,443</stars>
       <forks>4,146</forks>
+      <addStars>27</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Smart-Paocai/VioletToolBox</title>
+      <link>https://github.com/Smart-Paocai/VioletToolBox</link>
+      <description>一款面向安卓开发的多功能玩机工具箱</description>
+      <guid>https://github.com/Smart-Paocai/VioletToolBox</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>1,685</stars>
+      <forks>153</forks>
+      <addStars>42</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Tianyu199509/DeskBox</title>
+      <link>https://github.com/Tianyu199509/DeskBox</link>
+      <description>A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.</description>
+      <guid>https://github.com/Tianyu199509/DeskBox</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>9,861</stars>
+      <forks>569</forks>
+      <addStars>33</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>JiaFeiMiao-K-Cat/DiscImageStudio</title>
+      <link>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</link>
+      <description/>
+      <guid>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>11,013</stars>
+      <forks>433</forks>
+      <addStars>36</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>yike-shi/WINTER_IS_COMING</title>
+      <link>https://github.com/yike-shi/WINTER_IS_COMING</link>
+      <description>❄︎ Let it snow on your Mac! Snow piles up on your windows &amp; Dock, roll snowballs and build a snowman ☃️</description>
+      <guid>https://github.com/yike-shi/WINTER_IS_COMING</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>65</stars>
+      <forks>37</forks>
+      <addStars>12</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>saddam213/AmuseAI</title>
+      <link>https://github.com/saddam213/AmuseAI</link>
+      <description>Local AI image, video, audio and text.</description>
+      <guid>https://github.com/saddam213/AmuseAI</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>691</stars>
+      <forks>127</forks>
       <addStars>11</addStars>
       <contributors/>
     </item>
     <item>
-      <title>hbashton/DS4Windows</title>
-      <link>https://github.com/hbashton/DS4Windows</link>
-      <description/>
-      <guid>https://github.com/hbashton/DS4Windows</guid>
+      <title>alztrk/opentaskbar</title>
+      <link>https://github.com/alztrk/opentaskbar</link>
+      <description>Lightweight macOS-inspired floating dock and taskbar replacement for Windows 10 and 11</description>
+      <guid>https://github.com/alztrk/opentaskbar</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>398</stars>
-      <forks>28</forks>
-      <addStars>4</addStars>
+      <stars>457</stars>
+      <forks>42</forks>
+      <addStars>24</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>MoFeng2223/BrimDeck</title>
+      <link>https://github.com/MoFeng2223/BrimDeck</link>
+      <description>A Dynamic Island for Windows 11 with AI coding tool quotas, usage tracking, music controls, and more.</description>
+      <guid>https://github.com/MoFeng2223/BrimDeck</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>1,022</stars>
+      <forks>101</forks>
+      <addStars>20</addStars>
       <contributors/>
     </item>
     <item>
@@ -829,69 +862,69 @@
       <guid>https://github.com/BeyondDimension/SteamTools</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>27,818</stars>
+      <stars>27,829</stars>
       <forks>1,823</forks>
-      <addStars>10</addStars>
+      <addStars>20</addStars>
       <contributors/>
     </item>
     <item>
-      <title>jhaizhou-ops/S2Arm</title>
-      <link>https://github.com/jhaizhou-ops/S2Arm</link>
-      <description>Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。</description>
-      <guid>https://github.com/jhaizhou-ops/S2Arm</guid>
+      <title>itsfatduck/optimizerDuck</title>
+      <link>https://github.com/itsfatduck/optimizerDuck</link>
+      <description>Free, open-source Windows optimization tool for performance, privacy, and simplicity.</description>
+      <guid>https://github.com/itsfatduck/optimizerDuck</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>3,983</stars>
-      <forks>684</forks>
-      <addStars>11</addStars>
+      <stars>13,317</stars>
+      <forks>627</forks>
+      <addStars>27</addStars>
       <contributors/>
     </item>
     <item>
-      <title>jakobkhansen/SilksongAndroid</title>
-      <link>https://github.com/jakobkhansen/SilksongAndroid</link>
-      <description>Hollow Knight: Silksong Dual-Screen Android port (+Steam integration)</description>
-      <guid>https://github.com/jakobkhansen/SilksongAndroid</guid>
+      <title>nullbrik/RageForge</title>
+      <link>https://github.com/nullbrik/RageForge</link>
+      <description>Independent reverse engineering and research toolkit for Rockstar's RAGE engine, focused on GTA VI file formats, asset inspection, and real-time 3D visualization.</description>
+      <guid>https://github.com/nullbrik/RageForge</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>151</stars>
+      <stars>23</stars>
+      <forks>3</forks>
+      <addStars>12</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>MnFeN/Simulant</title>
+      <link>https://github.com/MnFeN/Simulant</link>
+      <description>［仿生石］FFXIV 副本原生模拟器 ACT 插件。Native-rendered FFXIV Raid Simulator on ACT.</description>
+      <guid>https://github.com/MnFeN/Simulant</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>115</stars>
       <forks>9</forks>
-      <addStars>4</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Feiyudevs/MiHomeHub</title>
-      <link>https://github.com/Feiyudevs/MiHomeHub</link>
-      <description>米家控制中心 · 一款基于 Avalonia 的 Windows 桌面智能家居控制应用</description>
-      <guid>https://github.com/Feiyudevs/MiHomeHub</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>78</stars>
-      <forks>9</forks>
-      <addStars>5</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>BCUninstaller/Bulk-Crap-Uninstaller</title>
-      <link>https://github.com/BCUninstaller/Bulk-Crap-Uninstaller</link>
-      <description>Remove large amounts of unwanted applications quickly.</description>
-      <guid>https://github.com/BCUninstaller/Bulk-Crap-Uninstaller</guid>
-      <language>C#</language>
-      <languageColor/>
-      <stars>22,787</stars>
-      <forks>1,039</forks>
       <addStars>9</addStars>
       <contributors/>
     </item>
     <item>
-      <title>inkle/ink</title>
-      <link>https://github.com/inkle/ink</link>
-      <description>inkle's open source scripting language for writing interactive narrative.</description>
-      <guid>https://github.com/inkle/ink</guid>
+      <title>huynhsontung/Screenbox</title>
+      <link>https://github.com/huynhsontung/Screenbox</link>
+      <description>LibVLC-based media player for the Universal Windows Platform</description>
+      <guid>https://github.com/huynhsontung/Screenbox</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>5,094</stars>
-      <forks>558</forks>
-      <addStars>7</addStars>
+      <stars>4,758</stars>
+      <forks>245</forks>
+      <addStars>9</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>jellyfin/jellyfin</title>
+      <link>https://github.com/jellyfin/jellyfin</link>
+      <description>The Free Software Media System - Server Backend &amp; API</description>
+      <guid>https://github.com/jellyfin/jellyfin</guid>
+      <language>C#</language>
+      <languageColor/>
+      <stars>59,847</stars>
+      <forks>6,165</forks>
+      <addStars>21</addStars>
       <contributors/>
     </item>
     <item>
@@ -901,9 +934,9 @@
       <guid>https://github.com/dulaiduwang003/Pavise-Game</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>2,715</stars>
-      <forks>117</forks>
-      <addStars>10</addStars>
+      <stars>2,729</stars>
+      <forks>118</forks>
+      <addStars>21</addStars>
       <contributors/>
     </item>
     <item>
@@ -913,21 +946,21 @@
       <guid>https://github.com/1848639272/AzurAssistant</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>77</stars>
+      <stars>82</stars>
       <forks>7</forks>
-      <addStars>3</addStars>
+      <addStars>8</addStars>
       <contributors/>
     </item>
     <item>
-      <title>prasanthsasikumar/openclicky</title>
-      <link>https://github.com/prasanthsasikumar/openclicky</link>
-      <description>Free, open-source voice assistant for macOS: ask about your screen and a pointer shows you where, dictate anywhere (offline by default), hand tasks to a Codex agent. Your own key or a free account. MIT.</description>
-      <guid>https://github.com/prasanthsasikumar/openclicky</guid>
+      <title>BCUninstaller/Bulk-Crap-Uninstaller</title>
+      <link>https://github.com/BCUninstaller/Bulk-Crap-Uninstaller</link>
+      <description>Remove large amounts of unwanted applications quickly.</description>
+      <guid>https://github.com/BCUninstaller/Bulk-Crap-Uninstaller</guid>
       <language>C#</language>
       <languageColor/>
-      <stars>61</stars>
-      <forks>20</forks>
-      <addStars>3</addStars>
+      <stars>22,795</stars>
+      <forks>1,039</forks>
+      <addStars>17</addStars>
       <contributors/>
     </item>
   </channel>

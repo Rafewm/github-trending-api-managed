@@ -3,7 +3,7 @@
     <title>GitHub C Languages Daily Trending</title>
     <link>https://github.com/isboyjc/github-trending-api</link>
     <description>Daily Trending of C Languages in GitHub</description>
-    <pubDate>Sat, 28 Nov 2026 06:16:13 GMT</pubDate>
+    <pubDate>Sat, 28 Nov 2026 16:37:08 GMT</pubDate>
     <item>
       <title>nginx/nginx</title>
       <link>https://github.com/nginx/nginx</link>
@@ -11,9 +11,9 @@
       <guid>https://github.com/nginx/nginx</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>33,694</stars>
-      <forks>8,485</forks>
-      <addStars>146</addStars>
+      <stars>33,732</stars>
+      <forks>8,504</forks>
+      <addStars>131</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/201187?s=40&amp;v=4</avatar>
@@ -49,9 +49,9 @@
       <guid>https://github.com/zephyrproject-rtos/zephyr</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,205</stars>
-      <forks>10,598</forks>
-      <addStars>12</addStars>
+      <stars>17,204</stars>
+      <forks>10,600</forks>
+      <addStars>8</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/180017?s=40&amp;v=4</avatar>
@@ -87,9 +87,9 @@
       <guid>https://github.com/php/php-src</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>41,872</stars>
-      <forks>8,539</forks>
-      <addStars>7</addStars>
+      <stars>41,873</stars>
+      <forks>8,540</forks>
+      <addStars>6</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2510034?s=40&amp;v=4</avatar>
@@ -125,9 +125,9 @@
       <guid>https://github.com/LiberNT/LiberNT</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>2,318</stars>
-      <forks>107</forks>
-      <addStars>35</addStars>
+      <stars>2,331</stars>
+      <forks>109</forks>
+      <addStars>28</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/17293844?s=40&amp;v=4</avatar>
@@ -159,13 +159,13 @@
     <item>
       <title>CroqueMr/libreelec-CB1</title>
       <link>https://github.com/CroqueMr/libreelec-CB1</link>
-      <description>LibreELEC with High Quality Dolby Vision &amp; HDR10+ support for Intel, AMD, Nvidia, and more</description>
+      <description>LibreELEC × CB1 — Dolby Vision (FEL, LLDV), HDR10+, SDR/HDR rendering and Blu-ray menus for Intel, AMD and NVIDIA.</description>
       <guid>https://github.com/CroqueMr/libreelec-CB1</guid>
       <language>Python</language>
       <languageColor>#3572A5</languageColor>
-      <stars>446</stars>
+      <stars>451</stars>
       <forks>36</forks>
-      <addStars>7</addStars>
+      <addStars>14</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/6086324?s=40&amp;v=4</avatar>
@@ -201,9 +201,9 @@
       <guid>https://github.com/meta/zstd</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>28,362</stars>
-      <forks>2,716</forks>
-      <addStars>18</addStars>
+      <stars>28,371</stars>
+      <forks>2,715</forks>
+      <addStars>16</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/750081?s=40&amp;v=4</avatar>
@@ -239,9 +239,9 @@
       <guid>https://github.com/semgrep/semgrep</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>18,025</stars>
-      <forks>1,223</forks>
-      <addStars>32</addStars>
+      <stars>18,033</stars>
+      <forks>1,225</forks>
+      <addStars>25</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/332336?s=40&amp;v=4</avatar>
@@ -272,9 +272,9 @@
       <guid>https://github.com/madler/zlib</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,268</stars>
-      <forks>2,919</forks>
-      <addStars>5</addStars>
+      <stars>7,273</stars>
+      <forks>2,921</forks>
+      <addStars>9</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/240717?s=40&amp;v=4</avatar>
@@ -310,9 +310,9 @@
       <guid>https://github.com/espressif/esp-idf</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>19,623</stars>
-      <forks>8,622</forks>
-      <addStars>13</addStars>
+      <stars>19,628</stars>
+      <forks>8,621</forks>
+      <addStars>9</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/4349050?s=40&amp;v=4</avatar>
@@ -342,15 +342,48 @@
       </contributors>
     </item>
     <item>
+      <title>ESPARGOS/esp-sdr</title>
+      <link>https://github.com/ESPARGOS/esp-sdr</link>
+      <description>ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios</description>
+      <guid>https://github.com/ESPARGOS/esp-sdr</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,384</stars>
+      <forks>202</forks>
+      <addStars>3</addStars>
+      <contributors>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/1311964?s=40&amp;v=4</avatar>
+          <name>Jeija</name>
+          <url>https://github.com/Jeija</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/12879385?s=40&amp;v=4</avatar>
+          <name>14sea</name>
+          <url>https://github.com/14sea</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/16337823?s=40&amp;v=4</avatar>
+          <name>zodoczi</name>
+          <url>https://github.com/zodoczi</url>
+        </contributor>
+        <contributor>
+          <avatar>https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4</avatar>
+          <name>claude</name>
+          <url>https://github.com/claude</url>
+        </contributor>
+      </contributors>
+    </item>
+    <item>
       <title>Crementif/BotW-BetterVR</title>
       <link>https://github.com/Crementif/BotW-BetterVR</link>
       <description>A project aimed at providing a better PC VR mode for BotW using the Cemu emulator</description>
       <guid>https://github.com/Crementif/BotW-BetterVR</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,708</stars>
-      <forks>219</forks>
-      <addStars>3</addStars>
+      <stars>1,709</stars>
+      <forks>220</forks>
+      <addStars>1</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/26669564?s=40&amp;v=4</avatar>
@@ -381,9 +414,9 @@
       <guid>https://github.com/pgvector/pgvector</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>23,846</stars>
-      <forks>1,415</forks>
-      <addStars>14</addStars>
+      <stars>23,852</stars>
+      <forks>1,416</forks>
+      <addStars>10</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/220358?s=40&amp;v=4</avatar>
@@ -419,9 +452,9 @@
       <guid>https://github.com/openssl/openssl</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>31,561</stars>
+      <stars>31,560</stars>
       <forks>11,657</forks>
-      <addStars>12</addStars>
+      <addStars>11</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/698918?s=40&amp;v=4</avatar>
@@ -457,9 +490,9 @@
       <guid>https://github.com/hathach/tinyusb</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>7,305</stars>
+      <stars>7,304</stars>
       <forks>1,592</forks>
-      <addStars>1</addStars>
+      <addStars>2</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/249515?s=40&amp;v=4</avatar>
@@ -495,9 +528,9 @@
       <guid>https://github.com/libretro/RetroArch</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>14,733</stars>
-      <forks>2,401</forks>
-      <addStars>15</addStars>
+      <stars>14,735</stars>
+      <forks>2,402</forks>
+      <addStars>12</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/1075274?s=40&amp;v=4</avatar>
@@ -528,9 +561,9 @@
       <guid>https://github.com/ImageMagick/ImageMagick</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,960</stars>
-      <forks>1,718</forks>
-      <addStars>12</addStars>
+      <stars>17,961</stars>
+      <forks>1,717</forks>
+      <addStars>4</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/10426229?s=40&amp;v=4</avatar>
@@ -562,8 +595,8 @@
       <language>C</language>
       <languageColor>#555555</languageColor>
       <stars>17,088</stars>
-      <forks>3,192</forks>
-      <addStars>9</addStars>
+      <forks>3,193</forks>
+      <addStars>10</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/2100061?s=40&amp;v=4</avatar>
@@ -599,9 +632,9 @@
       <guid>https://github.com/flipperdevices/flipperzero-firmware</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>17,017</stars>
+      <stars>17,020</stars>
       <forks>3,556</forks>
-      <addStars>10</addStars>
+      <addStars>11</addStars>
       <contributors>
         <contributor>
           <avatar>https://avatars.githubusercontent.com/u/1633132?s=40&amp;v=4</avatar>
@@ -637,9 +670,9 @@
       <guid>https://github.com/SonicloudTech/mouse-sdk</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,281</stars>
+      <stars>1,349</stars>
       <forks>3</forks>
-      <addStars>106</addStars>
+      <addStars>114</addStars>
       <contributors/>
     </item>
     <item>
@@ -649,69 +682,9 @@
       <guid>https://github.com/daijro/camoufox</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>13,802</stars>
+      <stars>13,857</stars>
       <forks>1,204</forks>
-      <addStars>35</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>DoctorWkt/acwj</title>
-      <link>https://github.com/DoctorWkt/acwj</link>
-      <description>A Compiler Writing Journey</description>
-      <guid>https://github.com/DoctorWkt/acwj</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>13,514</stars>
-      <forks>1,219</forks>
-      <addStars>15</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>JustVugg/colibri</title>
-      <link>https://github.com/JustVugg/colibri</link>
-      <description>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.</description>
-      <guid>https://github.com/JustVugg/colibri</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>53,760</stars>
-      <forks>6,742</forks>
-      <addStars>43</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>igawa6/peanuts-native</title>
-      <link>https://github.com/igawa6/peanuts-native</link>
-      <description/>
-      <guid>https://github.com/igawa6/peanuts-native</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,322</stars>
-      <forks>136</forks>
-      <addStars>37</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Keee7/OBS-for-Android</title>
-      <link>https://github.com/Keee7/OBS-for-Android</link>
-      <description>Community Android port of OBS Studio with MediaCodec H.264/HEVC, GPU screen capture and WebView browser sources.</description>
-      <guid>https://github.com/Keee7/OBS-for-Android</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>133</stars>
-      <forks>5</forks>
-      <addStars>14</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Genymobile/scrcpy</title>
-      <link>https://github.com/Genymobile/scrcpy</link>
-      <description>Display and control your Android device</description>
-      <guid>https://github.com/Genymobile/scrcpy</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>155,964</stars>
-      <forks>14,436</forks>
-      <addStars>25</addStars>
+      <addStars>94</addStars>
       <contributors/>
     </item>
     <item>
@@ -721,21 +694,33 @@
       <guid>https://github.com/OpenTenBase/OpenTenBase</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>961</stars>
+      <stars>1,000</stars>
       <forks>717</forks>
-      <addStars>14</addStars>
+      <addStars>56</addStars>
       <contributors/>
     </item>
     <item>
-      <title>HSgod/ps5-fpsunlocker-gta6</title>
-      <link>https://github.com/HSgod/ps5-fpsunlocker-gta6</link>
-      <description>Unlock FPS on Grand Theft Auto VI for jailbroken PS5</description>
-      <guid>https://github.com/HSgod/ps5-fpsunlocker-gta6</guid>
+      <title>igawa6/peanuts-native</title>
+      <link>https://github.com/igawa6/peanuts-native</link>
+      <description/>
+      <guid>https://github.com/igawa6/peanuts-native</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>468</stars>
-      <forks>16</forks>
-      <addStars>19</addStars>
+      <stars>1,366</stars>
+      <forks>136</forks>
+      <addStars>88</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>JustVugg/colibri</title>
+      <link>https://github.com/JustVugg/colibri</link>
+      <description>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.</description>
+      <guid>https://github.com/JustVugg/colibri</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>53,823</stars>
+      <forks>6,765</forks>
+      <addStars>102</addStars>
       <contributors/>
     </item>
     <item>
@@ -745,141 +730,57 @@
       <guid>https://github.com/Zagitta/gpu-unlock</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>21,312</stars>
-      <forks>2,250</forks>
-      <addStars>20</addStars>
+      <stars>21,363</stars>
+      <forks>2,264</forks>
+      <addStars>77</addStars>
       <contributors/>
     </item>
     <item>
-      <title>gfhdhytghd/AstraPod</title>
-      <link>https://github.com/gfhdhytghd/AstraPod</link>
-      <description>Rockbox specifically and deeply optimized for iPod Classic.</description>
-      <guid>https://github.com/gfhdhytghd/AstraPod</guid>
+      <title>DoctorWkt/acwj</title>
+      <link>https://github.com/DoctorWkt/acwj</link>
+      <description>A Compiler Writing Journey</description>
+      <guid>https://github.com/DoctorWkt/acwj</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>15</stars>
-      <forks>0</forks>
-      <addStars>6</addStars>
+      <stars>13,532</stars>
+      <forks>1,219</forks>
+      <addStars>33</addStars>
       <contributors/>
     </item>
     <item>
-      <title>v12-security/pocs</title>
-      <link>https://github.com/v12-security/pocs</link>
-      <description>poc it like it's hot</description>
-      <guid>https://github.com/v12-security/pocs</guid>
+      <title>Keee7/OBS-for-Android</title>
+      <link>https://github.com/Keee7/OBS-for-Android</link>
+      <description>Community Android port of OBS Studio with MediaCodec H.264/HEVC, GPU screen capture and WebView browser sources.</description>
+      <guid>https://github.com/Keee7/OBS-for-Android</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,177</stars>
-      <forks>191</forks>
-      <addStars>6</addStars>
+      <stars>152</stars>
+      <forks>5</forks>
+      <addStars>33</addStars>
       <contributors/>
     </item>
     <item>
-      <title>OleksandrChekhovskyi/hax</title>
-      <link>https://github.com/OleksandrChekhovskyi/hax</link>
-      <description>A minimalist, terminal-native coding agent written in C.</description>
-      <guid>https://github.com/OleksandrChekhovskyi/hax</guid>
+      <title>HSgod/ps5-fpsunlocker-gta6</title>
+      <link>https://github.com/HSgod/ps5-fpsunlocker-gta6</link>
+      <description>Unlock FPS on Grand Theft Auto VI for jailbroken PS5</description>
+      <guid>https://github.com/HSgod/ps5-fpsunlocker-gta6</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>1,016</stars>
-      <forks>82</forks>
-      <addStars>5</addStars>
+      <stars>508</stars>
+      <forks>16</forks>
+      <addStars>62</addStars>
       <contributors/>
     </item>
     <item>
-      <title>0xOthmanGTA/GTA6-Live-Mods</title>
-      <link>https://github.com/0xOthmanGTA/GTA6-Live-Mods</link>
-      <description>Live mods for GTA VI story mode on a jailbroken PS5, through ps5debug. Arabic / English Windows tool.</description>
-      <guid>https://github.com/0xOthmanGTA/GTA6-Live-Mods</guid>
+      <title>Genymobile/scrcpy</title>
+      <link>https://github.com/Genymobile/scrcpy</link>
+      <description>Display and control your Android device</description>
+      <guid>https://github.com/Genymobile/scrcpy</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>14</stars>
-      <forks>0</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>NVIDIA-RTX/Streamline</title>
-      <link>https://github.com/NVIDIA-RTX/Streamline</link>
-      <description>Streamline Integration Framework</description>
-      <guid>https://github.com/NVIDIA-RTX/Streamline</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>1,405</stars>
-      <forks>178</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>06066060606060/P4can-universal-unlock</title>
-      <link>https://github.com/06066060606060/P4can-universal-unlock</link>
-      <description/>
-      <guid>https://github.com/06066060606060/P4can-universal-unlock</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>503</stars>
-      <forks>242</forks>
-      <addStars>13</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Jaumjvrs/SavageWind-Coop</title>
-      <link>https://github.com/Jaumjvrs/SavageWind-Coop</link>
-      <description>Online (up to 8 players) and split-screen co-op mod for Savage Wind, the native PC version of Breath of the Wild</description>
-      <guid>https://github.com/Jaumjvrs/SavageWind-Coop</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>42</stars>
-      <forks>0</forks>
-      <addStars>6</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>06066060606060/t2can-universal-unlock</title>
-      <link>https://github.com/06066060606060/t2can-universal-unlock</link>
-      <description/>
-      <guid>https://github.com/06066060606060/t2can-universal-unlock</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>565</stars>
-      <forks>201</forks>
-      <addStars>13</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>Olmectron/nx2-flow</title>
-      <link>https://github.com/Olmectron/nx2-flow</link>
-      <description>A WiiFlow-like shelf and loader that runs Switch 2 games straight from NUP files (homebrew, experimental)</description>
-      <guid>https://github.com/Olmectron/nx2-flow</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>87</stars>
-      <forks>12</forks>
-      <addStars>4</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>qier222/YesPlayMusic</title>
-      <link>https://github.com/qier222/YesPlayMusic</link>
-      <description>A better-looking desktop music player for local files, media servers, and plugins. For macOS, Windows and Linux.</description>
-      <guid>https://github.com/qier222/YesPlayMusic</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>33,780</stars>
-      <forks>4,647</forks>
-      <addStars>10</addStars>
-      <contributors/>
-    </item>
-    <item>
-      <title>progrium/9ux</title>
-      <link>https://github.com/progrium/9ux</link>
-      <description>A Macintosh-inspired graphical environment for 9front</description>
-      <guid>https://github.com/progrium/9ux</guid>
-      <language>C</language>
-      <languageColor>#555555</languageColor>
-      <stars>42</stars>
-      <forks>2</forks>
-      <addStars>6</addStars>
+      <stars>156,002</stars>
+      <forks>14,436</forks>
+      <addStars>59</addStars>
       <contributors/>
     </item>
     <item>
@@ -889,33 +790,165 @@
       <guid>https://github.com/valentderah/totk-pc-recomp</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>8,396</stars>
-      <forks>678</forks>
-      <addStars>13</addStars>
+      <stars>8,420</stars>
+      <forks>690</forks>
+      <addStars>40</addStars>
       <contributors/>
     </item>
     <item>
-      <title>Revivedx/SavageWindRecomp</title>
-      <link>https://github.com/Revivedx/SavageWindRecomp</link>
-      <description>Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.</description>
-      <guid>https://github.com/Revivedx/SavageWindRecomp</guid>
+      <title>FareedKhan-dev/kimi-k3-in-c</title>
+      <link>https://github.com/FareedKhan-dev/kimi-k3-in-c</link>
+      <description>A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.</description>
+      <guid>https://github.com/FareedKhan-dev/kimi-k3-in-c</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>5,272</stars>
-      <forks>332</forks>
+      <stars>12,776</stars>
+      <forks>2,023</forks>
+      <addStars>33</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>MikeQu223/Rhine-Music-Database</title>
+      <link>https://github.com/MikeQu223/Rhine-Music-Database</link>
+      <description>基于莱茵生命终端的音乐面板</description>
+      <guid>https://github.com/MikeQu223/Rhine-Music-Database</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>376</stars>
+      <forks>26</forks>
+      <addStars>16</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>gfhdhytghd/AstraPod</title>
+      <link>https://github.com/gfhdhytghd/AstraPod</link>
+      <description>Rockbox specifically and deeply optimized for iPod Classic.</description>
+      <guid>https://github.com/gfhdhytghd/AstraPod</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>28</stars>
+      <forks>0</forks>
+      <addStars>16</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>NVIDIA-RTX/Streamline</title>
+      <link>https://github.com/NVIDIA-RTX/Streamline</link>
+      <description>Streamline Integration Framework</description>
+      <guid>https://github.com/NVIDIA-RTX/Streamline</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>1,412</stars>
+      <forks>178</forks>
+      <addStars>14</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>06066060606060/t2can-universal-unlock</title>
+      <link>https://github.com/06066060606060/t2can-universal-unlock</link>
+      <description/>
+      <guid>https://github.com/06066060606060/t2can-universal-unlock</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>590</stars>
+      <forks>201</forks>
+      <addStars>32</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>rizonesoft/impossible-os</title>
+      <link>https://github.com/rizonesoft/impossible-os</link>
+      <description>A 64-bit operating system built from scratch for modern x86-64 hardware: UEFI boot, a compositing desktop, and a native Win32 API.</description>
+      <guid>https://github.com/rizonesoft/impossible-os</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>665</stars>
+      <forks>26</forks>
+      <addStars>28</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>progrium/9ux</title>
+      <link>https://github.com/progrium/9ux</link>
+      <description>A Macintosh-inspired graphical environment for 9front</description>
+      <guid>https://github.com/progrium/9ux</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>48</stars>
+      <forks>2</forks>
       <addStars>12</addStars>
       <contributors/>
     </item>
     <item>
-      <title>maverick1982/esp32-nut</title>
-      <link>https://github.com/maverick1982/esp32-nut</link>
-      <description>A standalone Network UPS Tools (NUT) server for ESP32-S3: connects USB HID UPS units (APC, Eaton, CyberPower, Powercom, EcoFlow…) and serves them over Wi-Fi to Home Assistant, NAS and any NUT client. Web UI, OTA updates, UPS commands. Say goodbye to the Pi!</description>
-      <guid>https://github.com/maverick1982/esp32-nut</guid>
+      <title>wang01116/MiniDock</title>
+      <link>https://github.com/wang01116/MiniDock</link>
+      <description>极简dock栏，专注于Windows端dock的软件</description>
+      <guid>https://github.com/wang01116/MiniDock</guid>
       <language>C</language>
       <languageColor>#555555</languageColor>
-      <stars>176</stars>
-      <forks>22</forks>
-      <addStars>4</addStars>
+      <stars>282</stars>
+      <forks>16</forks>
+      <addStars>13</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>Dimi-Sama/OrbitalsPCRecomp</title>
+      <link>https://github.com/Dimi-Sama/OrbitalsPCRecomp</link>
+      <description>Liftoff — an unofficial native PC port of Orbitals (Windows, Linux, Steam Deck) by static recompilation, built on SwitchRecomp by MZ Labs. Bring your own copy.</description>
+      <guid>https://github.com/Dimi-Sama/OrbitalsPCRecomp</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>111</stars>
+      <forks>5</forks>
+      <addStars>12</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>nfzerox/NanoApps</title>
+      <link>https://github.com/nfzerox/NanoApps</link>
+      <description>NanoApps lets you run a collection of, and build your own, homebrew apps on iPod nano 7th generation.</description>
+      <guid>https://github.com/nfzerox/NanoApps</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>190</stars>
+      <forks>20</forks>
+      <addStars>11</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>shirudo-dev/shirudo</title>
+      <link>https://github.com/shirudo-dev/shirudo</link>
+      <description>eBPF-based security platform</description>
+      <guid>https://github.com/shirudo-dev/shirudo</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>2,432</stars>
+      <forks>244</forks>
+      <addStars>37</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>rileydeacon/s5-unlocker</title>
+      <link>https://github.com/rileydeacon/s5-unlocker</link>
+      <description/>
+      <guid>https://github.com/rileydeacon/s5-unlocker</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>86</stars>
+      <forks>7</forks>
+      <addStars>10</addStars>
+      <contributors/>
+    </item>
+    <item>
+      <title>ly05010419/MacNativeGames</title>
+      <link>https://github.com/ly05010419/MacNativeGames</link>
+      <description>Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.</description>
+      <guid>https://github.com/ly05010419/MacNativeGames</guid>
+      <language>C</language>
+      <languageColor>#555555</languageColor>
+      <stars>8,386</stars>
+      <forks>1,273</forks>
+      <addStars>22</addStars>
       <contributors/>
     </item>
   </channel>
